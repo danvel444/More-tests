@@ -159,6 +159,70 @@ almost automatically with 4, 5, or 6 dice in hand; get nervous and bank at
 game. That single rule outperformed every fixed-number strategy tested by
 a wide margin.
 
+## Deep dive: does "stop at 2 dice" actually work? (1,000,000-game runs)
+
+`scripts/stop_at_k_dice.py` and `scripts/duel_mp.py` isolate this exact
+question: strategies that bank the instant `dice_remaining <= K` and
+otherwise *never* bank on score alone (K = 1, 2, 3), run at 1,000,000
+games apiece (multiprocessed across 4 workers, ~2-5 min per run).
+
+**5-way free-for-all, 1,000,000 games:**
+
+| strategy | win % | avg score | bust % |
+|---|---:|---:|---:|
+| ev_optimal (dice + score aware) | **29.5%** | 8,575 | 17.5% |
+| stop_at_3_dice | 24.7% | 8,311 | 9.4% |
+| stop_at_2_dice | 24.0% | 8,191 | 21.3% |
+| threshold(300) | 13.2% | 7,737 | 19.6% |
+| stop_at_1_die | 8.5% | 6,435 | 47.1% |
+
+**Head-to-head duels, 1,000,000 games each:**
+
+| matchup | result |
+|---|---|
+| stop_at_2_dice vs threshold(300) | **57.3% vs 42.7%** |
+| stop_at_3_dice vs stop_at_2_dice | **51.3% vs 48.7%** |
+| ev_optimal vs stop_at_2_dice | **55.5% vs 44.5%** |
+| ev_optimal vs stop_at_3_dice | **53.8% vs 46.2%** |
+
+**So: yes, "stop at 2 dice left" is a good rule** — it beats a flat
+`threshold(300)` 57–43 and crushes "ride it to 1 die." But it's not quite
+the ceiling: "stop at 3 dice left" edges it out (51.3–48.7), and the full
+dice-*and*-score-aware rule beats both by a wider margin (~54–55%).
+
+**Why 3 beats 2, and why both lose to the adaptive rule:** the earlier
+breakeven table said the 2-dice bank point is ~112 — but the *minimum*
+turn score you can possibly have when you're down to 2 dice remaining is
+200 (you had to use 4 dice to get there, and the cheapest die value in
+this ruleset is a lone 5 at 50 points, so 4 × 50 = 200 is the floor).
+200 already clears the ~112 breakeven, which means **a properly adaptive
+player bans at 2 dice almost automatically anyway** — "stop at 2" isn't
+so much a separate rule as a natural consequence of the real one.
+
+The reason `stop_at_2_dice` underperforms `stop_at_3_dice` is that it's
+*blind to score*: it pushes through the 3-dice checkpoint unconditionally,
+even on the (not-rare) turns where a hot-dice streak has already built a
+turn score of 1,000+ sitting at 3 dice remaining — a spot where the math
+says bank (breakeven at 3 dice is ~312), not gamble a 27.8% bust chance
+against it. `stop_at_3_dice` never makes that mistake because it always
+bails at 3; but it also always leaves value on the table on the (more
+common) turns where the score sitting at 3 dice is still small enough
+that pushing on was actually worth it. `ev_optimal` is the only one of
+the three that gets both cases right, which is why it beats both pure
+floors.
+
+**Practical version of the rule, in order of importance:**
+1. Always bank once you're down to 2 dice, no exceptions — the math
+   guarantees you've already cleared the bar.
+2. At 3 dice, bank unless your turn score is still small (roughly
+   under ~300) — if a hot-dice run has already pumped you well past
+   that, stop pushing your luck there too, don't wait for 2 dice.
+3. With 4+ dice in hand, keep rolling almost regardless of score — that
+   territory is safe enough (≤15.7% bust) that the blind
+   `stop_at_3`/`stop_at_2` floors did essentially as well as the
+   fully-adaptive rule there; the adaptive rule's edge comes almost
+   entirely from getting the 3-dice judgment call right.
+
 ## Extending this
 
 - `strategies.py` has a clean `Strategy.decide(ctx) -> bool` interface —
