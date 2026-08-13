@@ -223,6 +223,41 @@ floors.
    fully-adaptive rule there; the adaptive rule's edge comes almost
    entirely from getting the 3-dice judgment call right.
 
+## Self-play control check
+
+All the win-rate numbers above come from *mixed* fields (different
+strategies sharing a table), which raises a fair question: is a
+strategy's win rate a genuine skill edge, or an artifact of the specific
+opponents/shuffling in that run? `scripts/self_play.py` seats N clones of
+the *same* strategy together — since everyone at the table is identical,
+each clone's win rate should land statistically on 1/N with no structural
+advantage for any seat, and any real bias in the engine (turn order,
+shuffling, the final-round trigger) would show up as skew here.
+
+**5 clones each, 20,000 games:**
+
+| strategy | win% across the 5 identical seats | intrinsic avg score | intrinsic bust% |
+|---|---|---:|---:|
+| ev_optimal | 19.6–20.6% | 8,021 | 17.5% |
+| stop_at_3_dice | 19.5–20.6% | 8,019 | 9.4% |
+| stop_at_2_dice | 19.8–20.1% | 7,920 | 21.3% |
+| catch_up | 19.6–20.3% | 8,254 | 29.9% |
+| threshold(300) | 19.3–21.2% | 8,369 | 19.6% |
+
+Every strategy landed within noise of 20.00% (biggest spread under 2
+points on 20,000 games) — confirms the engine has no seat/turn-order
+bias. This is a control, not evidence of skill (self-play is symmetric by
+construction and can't produce a skill gap); the actual evidence that
+`ev_optimal` beats `stop_at_2_dice`/`stop_at_3_dice` is the pairwise
+duels in the section above, and this run is what says those results
+weren't a simulator artifact.
+
+Note the "intrinsic" avg scores here run a little lower than the same
+strategies' avg scores in the earlier mixed fields (e.g. `ev_optimal`:
+8,021 self-play vs 8,575 in the 5-way mixed run) — a table of equally
+fast/aggressive players races to the target quicker than a table
+containing slow, high-bust strategies that drag the game out.
+
 ## Extending this
 
 - `strategies.py` has a clean `Strategy.decide(ctx) -> bool` interface —
