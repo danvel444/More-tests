@@ -1,0 +1,7 @@
+scenario,expected_co_winners,mean_co_winners_sim,mean_payout_sim,median_payout_sim,p_share_with_anyone,game
+Popular / calendar numbers (all ≤ 31),1.3554668573467636,1.35047,6581662.523809524,6000000.0,0.74125,649
+Quick pick / spread numbers (≥ 1 number > 31),0.37757933885857764,0.37734,9999006.0,12000000.0,0.31355,649
+Popular / calendar numbers (all ≤ 31),0.5221249047638166,0.52299,31151355.714285713,40000000.0,0.407065,max
+Quick pick / spread numbers (≥ 1 number > 31),0.06577739613599656,0.065165,38725950.0,40000000.0,0.062985,max
+Popular / calendar numbers (all ≤ 31),1.1677379552908402,1.16702,4130325.458333334,3500000.0,0.689135,grand
+Quick pick / spread numbers (≥ 1 number > 31),0.46148585860492825,0.45955,5612500.0,7000000.0,0.36821,grand
