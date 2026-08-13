@@ -1,0 +1,7 @@
+method,lines,cost_per_draw,mean_return_per_draw,return_per_dollar,game
+"Full wheel (9 numbers, 84 lines)",84,252.0,21.9662,0.08716746031746032,649
+84 independent random lines,84,252.0,22.03275,0.08743154761904762,649
+"Full wheel (10 numbers, 120 lines)",120,180.0,37.957166666666666,0.21087314814814814,max
+120 independent random lines,120,180.0,37.91811666666667,0.21065620370370372,max
+"Full wheel (8 numbers, 56 lines)",56,168.0,311.65096,1.8550652380952382,grand
+56 independent random lines,56,168.0,309.27057333333335,1.8408962698412699,grand
