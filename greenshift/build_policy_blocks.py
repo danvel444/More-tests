@@ -62,8 +62,9 @@ def table_css(selector, table_styles):
 
 class Block:
     def __init__(self, tag="div", text=None, children=None, class_name=None,
-                 styles=None, custom_css=None, table_styles=None, name=None):
+                 styles=None, custom_css=None, table_styles=None, name=None, anchor=None):
         self.id = new_id()
+        self.anchor = anchor
         self.tag = tag
         self.text = text
         self.children = children or []
@@ -85,6 +86,8 @@ class Block:
 
     def attrs(self):
         a = {"id": self.id}
+        if self.anchor:
+            a["anchor"] = self.anchor
         css = self.css()
         if css:
             a["inlineCssStyles"] = css
@@ -118,7 +121,8 @@ class Block:
 
     def serialize(self):
         cls = self.classes()
-        open_tag = f"<{self.tag}" + (f' class="{" ".join(cls)}"' if cls else "") + ">"
+        open_tag = f"<{self.tag}" + (f' class="{" ".join(cls)}"' if cls else "")
+        open_tag += (f' id="{self.anchor}"' if self.anchor else "") + ">"
         if self.text is not None:
             inner = html.escape(self.text, quote=False)
         else:
@@ -126,6 +130,20 @@ class Block:
         return (f"<!-- wp:greenshift-blocks/element {encode(self.attrs())} -->\n"
                 f"{open_tag}{inner}</{self.tag}>\n"
                 f"<!-- /wp:greenshift-blocks/element -->")
+
+
+class Raw:
+    """Existing block code dropped in unchanged (the site's own blocks)."""
+    children = []
+
+    def __init__(self, code):
+        self.code = code.strip()
+
+    def css(self):
+        return ""
+
+    def serialize(self):
+        return self.code
 
 
 def encode(obj):
@@ -182,10 +200,22 @@ def table(rows, name, extra_styles=None):
 
 
 
+def columns(terms, split):
+    first, second = terms[:split], terms[split:]
+    return Block(name="Columns", styles={
+        "display": ["grid"],
+        "gridTemplateColumns": ["repeat(2, 1fr)", "repeat(1, 1fr)"],
+        "columnGap": ["2.25rem"], "rowGap": ["2.25rem", "0px"],
+        "alignItems": ["start"],
+    }, children=[
+        table(first, f"Terms {first[0][0]} to {first[-1][0]}"),
+        table(second, f"Terms {second[0][0]} to {second[-1][0]}", {"marginTop": ["0px", "-1px"]}),
+    ])
+
+
 def build(policy):
     """Write <dir>/<slug>-greenshift-blocks.txt and a matching browser preview."""
     _seed["slug"], _seed["n"] = policy["seed"], 0
-    terms, split = policy["terms"], policy["split"]
     heading = Block(name="Heading", styles={
         "paddingBottom": ["1.5rem"], "marginBottom": ["2.25rem"],
         "borderBottom": [f"2px solid {INK}"],
@@ -215,17 +245,11 @@ def build(policy):
                 "marginTop": ["0px"], "marginBottom": ["0px"], "color": [BODY],
             }),
         ]))
-    first, second = terms[:split], terms[split:]
-    parts.append(Block(name="Columns", styles={
-        "display": ["grid"],
-        "gridTemplateColumns": ["repeat(2, 1fr)", "repeat(1, 1fr)"],
-        "columnGap": ["2.25rem"], "rowGap": ["2.25rem", "0px"],
-        "alignItems": ["start"],
-    }, children=[
-        table(first, f"Terms {first[0][0]} to {first[-1][0]}"),
-        table(second, f"Terms {second[0][0]} to {second[-1][0]}", {"marginTop": ["0px", "-1px"]}),
-    ]))
-    root = Block(name=policy["name"], class_name="tfgr-policy", styles={
+    if policy.get("body"):
+        parts.extend(policy["body"]())
+    else:
+        parts.append(columns(policy["terms"], policy["split"]))
+    root = Block(name=policy["name"], class_name="tfgr-policy", anchor=policy.get("anchor"), styles={
         "backgroundColor": [PAPER],
         "paddingTop": ["2.25rem", None, None, "1.5rem"],
         "paddingBottom": ["2.25rem", None, None, "1.5rem"],
@@ -250,7 +274,7 @@ def build(policy):
     (out_dir / f"{policy['dir']}-greenshift-preview.html").write_text(
         "<!DOCTYPE html>\n<html lang=\"en\">\n<head>\n<meta charset=\"utf-8\">\n"
         "<meta name=\"viewport\" content=\"width=device-width, initial-scale=1\">\n"
-        f"<title>{policy['title']} Preview</title>\n<style>\n" + "\n".join(css) + "\n</style>\n</head>\n"
+        f"<title>{policy['title']} Preview</title>\n<style>\n" + policy.get("preview_css", "") + "\n".join(css) + "\n</style>\n</head>\n"
         "<body style=\"margin:0;padding:40px;font-family:system-ui,sans-serif;line-height:1.6\">\n"
         + markup + "</body>\n</html>\n"
     )
@@ -304,6 +328,40 @@ SPECIAL_ORDERS = {
     ],
 }
 
+def terms_of_sale_body():
+    """The site's own accordion row, unchanged except for the Expand all block's contents."""
+    row = (HERE / "terms-of-sale" / "source-row.txt").read_text()
+    new_html = (HERE / "terms-of-sale" / "expand-all.html").read_text().strip()
+    start = row.index("<!-- wp:html -->\n") + len("<!-- wp:html -->\n")
+    end = row.index("\n<!-- /wp:html -->")
+    return [Raw(row[:start] + new_html + row[end:])]
+
+
+# Stand-in for GreenShift's own accordion and row CSS, only used by the browser preview
+# so the overrides can be checked against something similar.
+GS_PREVIEW_CSS = """
+.gspb_row__content{display:flex;flex-wrap:wrap;margin:0 -20px}
+.gspb_row__col--12{width:100%;padding:0 20px;box-sizing:border-box}
+.gspb_row__col--6{width:50%;padding:0 20px;box-sizing:border-box}
+@media (max-width: 767.98px){.gspb_row__col--6{width:100%}}
+.gs-accordion-item{margin-bottom:12px;border:1px solid #e5e5e5}
+.gs-accordion-item__title{display:flex;justify-content:space-between;align-items:center;padding:18px 20px;background:#f7f7f7;cursor:pointer}
+.gsclose .gs-accordion-item__content{display:none}
+.iconfortoggle{position:relative;width:14px;height:14px;flex-shrink:0}
+.gs-iconbefore,.gs-iconafter{position:absolute;background:#111;left:0;top:6px;width:14px;height:2px}
+.gs-iconafter{transform:rotate(90deg)}
+.gsopen .gs-iconafter{transform:rotate(0)}
+"""
+
+TERMS_OF_SALE = {
+    "dir": "terms-of-sale", "seed": "terms-of-sale", "name": "Terms of Sale",
+    "anchor": "terms-of-sale",
+    "eyebrow": "General Terms of Sale and Customer Account Conditions", "title": "Terms of Sale",
+    "body": terms_of_sale_body,
+    "preview_css": GS_PREVIEW_CSS,
+}
+
 if __name__ == "__main__":
     build(RETURNS)
     build(SPECIAL_ORDERS)
+    build(TERMS_OF_SALE)

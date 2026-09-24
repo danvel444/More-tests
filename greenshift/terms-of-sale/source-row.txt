@@ -1,0 +1,433 @@
+<!-- wp:greenshift-blocks/row {"id":"gsbp-5463daa","displayStyles":false,"isVariation":""} -->
+<div class="wp-block-greenshift-blocks-row gspb_row gspb_row-id-gsbp-5463daa" id="gspb_row-id-gsbp-5463daa"><div class="gspb_row__content"> <!-- wp:greenshift-blocks/row-column {"id":"gsbp-e007bd7"} -->
+<div class="wp-block-greenshift-blocks-row-column gspb_row__col--12 gspb_col-id-gsbp-e007bd7" id="gspb_col-id-gsbp-e007bd7"><!-- wp:html -->
+<div class="gs-expand-wrap">
+  <button type="button" class="gs-expand-all" aria-expanded="false">Expand all</button>
+</div>
+
+<style>
+.gs-expand-wrap {
+  display: flex;
+  justify-content: flex-end;
+  margin: 0 20px 20px 0; /* right margin lines it up with the right column */
+}
+.gs-expand-all {
+  display: inline-flex;
+  align-items: center;
+  gap: 10px;
+  padding: 10px 20px;
+  font: inherit;
+  font-size: 15px;
+  font-weight: 600;
+  color: inherit; /* same dark text as the accordion titles */
+  background: transparent;
+  border: 1px solid #b3191f;
+  border-radius: 2px;
+  cursor: pointer;
+  transition: background .2s, color .2s;
+}
+.gs-expand-all::before {
+  content: "+";
+  font-size: 20px;
+  font-weight: 400;
+  line-height: 1;
+}
+.gs-expand-all[aria-expanded="true"]::before { content: "−"; }
+.gs-expand-all:hover,
+.gs-expand-all:focus-visible {
+  background: #b3191f;
+  color: #fff;
+  outline: none;
+}
+</style>
+<script>
+document.addEventListener('click', function (e) {
+  const btn = e.target.closest('.gs-expand-all');
+  if (!btn) return;
+
+  const expanding = btn.getAttribute('aria-expanded') !== 'true';
+
+  document.querySelectorAll('.gs-accordion-item__title').forEach(title => {
+    const item = title.closest('.gs-accordion-item');
+    const isOpen = title.getAttribute('aria-expanded') === 'true' ||
+                   (item && item.classList.contains('gsopen'));
+    if (isOpen !== expanding) title.click();
+  });
+
+  btn.setAttribute('aria-expanded', expanding);
+  btn.textContent = expanding ? 'Collapse all' : 'Expand all';
+});
+</script>
+<!-- /wp:html -->
+
+<!-- wp:greenshift-blocks/row {"id":"gsbp-7aa6aea","rowLayout":"2","displayStyles":false,"isVariation":""} -->
+<div class="wp-block-greenshift-blocks-row gspb_row gspb_row-id-gsbp-7aa6aea" id="gspb_row-id-gsbp-7aa6aea"><div class="gspb_row__content"> <!-- wp:greenshift-blocks/row-column {"id":"gsbp-69d8190","columnSize":"6"} -->
+<div class="wp-block-greenshift-blocks-row-column gspb_row__col--6 gspb_col-id-gsbp-69d8190" id="gspb_col-id-gsbp-69d8190"><!-- wp:greenshift-blocks/accordion {"id":"gsbp-3648954","className":"faq-accordion"} -->
+<div class="wp-block-greenshift-blocks-accordion gs-accordion gspb_accordion-id-gsbp-3648954  faq-accordion" id="gspb_accordion-id-gsbp-3648954" itemscope itemtype=""><!-- wp:greenshift-blocks/accordionitem {"id":"gsbp-f3c9cd0","title":"<strong>1. Application of Terms</strong>","open":false} -->
+<div class="wp-block-greenshift-blocks-accordionitem gs-accordion-item gspb_accordionitem-gsbp-f3c9cd0 gsclose" id="gspb_accordionitem-gsbp-f3c9cd0" itemscope><div class="gs-accordion-item__title" aria-expanded="false" role="button" tabindex="0" aria-controls="gspb-accordion-item-content-gsbp-f3c9cd0"><div class="gs-accordion-item__heading"><strong>1. Application of Terms</strong></div><span class="iconfortoggle"><span class="gs-iconbefore"></span><span class="gs-iconafter"></span></span></div><div class="gs-accordion-item__content" itemscope id="gspb-accordion-item-content-gsbp-f3c9cd0"><div class="gs-accordion-item__text"><!-- wp:paragraph -->
+<p>These Terms and Conditions apply to all quotations, orders, sales, deliveries, services, invoices, customer accounts, and related transactions between The Fastener Group Ltd. and its affiliated branches or operating companies (collectively, “TFG”) and the customer.</p>
+<!-- /wp:paragraph -->
+
+<!-- wp:paragraph -->
+<p>By placing an order, accepting delivery, opening or maintaining an account, or purchasing from TFG, the customer accepts and agrees to be bound by these Terms and Conditions.</p>
+<!-- /wp:paragraph -->
+
+<!-- wp:paragraph -->
+<p>These Terms prevail over any customer purchase order, procurement terms, supplier onboarding terms, vendor portal terms, acknowledgment forms, confirmations, or other documents issued by the customer unless expressly accepted in a written agreement signed by an authorized representative of TFG.</p>
+<!-- /wp:paragraph -->
+
+<!-- wp:paragraph -->
+<p>No amendment, waiver, exception, or modification of these Terms shall be binding unless approved in writing by TFG.</p>
+<!-- /wp:paragraph --></div></div></div>
+<!-- /wp:greenshift-blocks/accordionitem -->
+
+<!-- wp:greenshift-blocks/accordionitem {"id":"gsbp-57a1888","title":"<strong>2. Quotations, Orders, and Acceptance</strong>","open":false} -->
+<div class="wp-block-greenshift-blocks-accordionitem gs-accordion-item gspb_accordionitem-gsbp-57a1888 gsclose" id="gspb_accordionitem-gsbp-57a1888" itemscope><div class="gs-accordion-item__title" aria-expanded="false" role="button" tabindex="0" aria-controls="gspb-accordion-item-content-gsbp-57a1888"><div class="gs-accordion-item__heading"><strong>2. Quotations, Orders, and Acceptance</strong></div><span class="iconfortoggle"><span class="gs-iconbefore"></span><span class="gs-iconafter"></span></span></div><div class="gs-accordion-item__content" itemscope id="gspb-accordion-item-content-gsbp-57a1888"><div class="gs-accordion-item__text"><!-- wp:paragraph -->
+<p>All quotations are provided for informational purposes and are not binding unless expressly stated otherwise by TFG in writing.&nbsp;</p>
+<!-- /wp:paragraph -->
+
+<!-- wp:paragraph -->
+<p>Prices, availability, freight costs, lead times, specifications, and product details are subject to change until TFG accepts the order.&nbsp;</p>
+<!-- /wp:paragraph -->
+
+<!-- wp:paragraph -->
+<p>TFG may accept or decline any order, in whole or in part, at its discretion.&nbsp;</p>
+<!-- /wp:paragraph -->
+
+<!-- wp:paragraph -->
+<p>No order shall be binding on TFG until accepted through shipment, delivery, service performance, invoicing, written confirmation, or other confirmation provided by TFG.&nbsp;</p>
+<!-- /wp:paragraph --></div></div></div>
+<!-- /wp:greenshift-blocks/accordionitem -->
+
+<!-- wp:greenshift-blocks/accordionitem {"id":"gsbp-8535b58","title":"<strong>3. Prices, Taxes, and Fees</strong>","open":false} -->
+<div class="wp-block-greenshift-blocks-accordionitem gs-accordion-item gspb_accordionitem-gsbp-8535b58 gsclose" id="gspb_accordionitem-gsbp-8535b58" itemscope><div class="gs-accordion-item__title" aria-expanded="false" role="button" tabindex="0" aria-controls="gspb-accordion-item-content-gsbp-8535b58"><div class="gs-accordion-item__heading"><strong>3. Prices, Taxes, and Fees</strong></div><span class="iconfortoggle"><span class="gs-iconbefore"></span><span class="gs-iconafter"></span></span></div><div class="gs-accordion-item__content" itemscope id="gspb-accordion-item-content-gsbp-8535b58"><div class="gs-accordion-item__text"><!-- wp:paragraph -->
+<p>Unless otherwise stated in writing, all prices are quoted in Canadian dollars.&nbsp;</p>
+<!-- /wp:paragraph -->
+
+<!-- wp:paragraph -->
+<p>Prices exclude applicable taxes, duties, tariffs, freight, shipping, handling charges, brokerage fees, environmental fees, surcharges, and other charges arising from the transaction, all of which are the responsibility of the customer.&nbsp;</p>
+<!-- /wp:paragraph -->
+
+<!-- wp:paragraph -->
+<p>TFG reserves the right to correct clerical, typographical, pricing, calculation, product, or availability errors at any time and may revise, cancel, or request customer approval of affected orders.&nbsp;</p>
+<!-- /wp:paragraph --></div></div></div>
+<!-- /wp:greenshift-blocks/accordionitem -->
+
+<!-- wp:greenshift-blocks/accordionitem {"id":"gsbp-2418879","title":"<strong>4. Payment Terms and Credit Accounts</strong>","open":false} -->
+<div class="wp-block-greenshift-blocks-accordionitem gs-accordion-item gspb_accordionitem-gsbp-2418879 gsclose" id="gspb_accordionitem-gsbp-2418879" itemscope><div class="gs-accordion-item__title" aria-expanded="false" role="button" tabindex="0" aria-controls="gspb-accordion-item-content-gsbp-2418879"><div class="gs-accordion-item__heading"><strong>4. Payment Terms and Credit Accounts</strong></div><span class="iconfortoggle"><span class="gs-iconbefore"></span><span class="gs-iconafter"></span></span></div><div class="gs-accordion-item__content" itemscope id="gspb-accordion-item-content-gsbp-2418879"><div class="gs-accordion-item__text"><!-- wp:paragraph -->
+<p>For approved credit accounts, payment is due within thirty (30) days from the invoice date unless otherwise agreed in writing.</p>
+<!-- /wp:paragraph -->
+
+<!-- wp:paragraph -->
+<p>TFG may establish, modify, reduce, suspend, or revoke credit limits and account privileges at any time without prior notice.</p>
+<!-- /wp:paragraph -->
+
+<!-- wp:paragraph -->
+<p>Amounts not paid when due may accrue interest at the rate of two percent (2.0%) per month (24% per annum), or the maximum lawful rate, whichever is lower.</p>
+<!-- /wp:paragraph -->
+
+<!-- wp:paragraph -->
+<p>The customer shall reimburse TFG for all reasonable costs incurred in collecting overdue amounts, including legal fees, collection agency fees, court costs, and administrative costs.</p>
+<!-- /wp:paragraph -->
+
+<!-- wp:paragraph -->
+<p>Payments shall be made without deduction, holdback, set-off, counterclaim, or withholding unless expressly approved by TFG in writing.</p>
+<!-- /wp:paragraph -->
+
+<!-- wp:paragraph -->
+<p>If any amount is overdue, TFG may suspend shipments, deliveries, service obligations, warranty processing, account privileges, and further credit until all outstanding amounts have been paid.</p>
+<!-- /wp:paragraph -->
+
+<!-- wp:paragraph -->
+<p>Upon default, insolvency, bankruptcy, receivership, restructuring proceedings, assignment for the benefit of creditors, cessation of business operations, or a material deterioration in the customer’s creditworthiness, TFG may immediately suspend performance, terminate agreements, accelerate payment of all outstanding amounts, and exercise any other rights available at law.</p>
+<!-- /wp:paragraph -->
+
+<!-- wp:paragraph -->
+<p>Returned payments, dishonoured payments, or failed electronic payments may result in administrative charges, suspension of account privileges, and prepaid purchasing requirements.</p>
+<!-- /wp:paragraph -->
+
+<!-- wp:paragraph -->
+<p>Prices exclude applicable taxes, duties, tariffs, freight, shipping, handling charges, brokerage fees, environmental fees, surcharges, and other charges arising from the transaction, all of which are the responsibility of the customer.&nbsp;</p>
+<!-- /wp:paragraph -->
+
+<!-- wp:paragraph -->
+<p>TFG reserves the right to correct clerical, typographical, pricing, calculation, product, or availability errors at any time and may revise, cancel, or request customer approval of affected orders.&nbsp;</p>
+<!-- /wp:paragraph --></div></div></div>
+<!-- /wp:greenshift-blocks/accordionitem -->
+
+<!-- wp:greenshift-blocks/accordionitem {"id":"gsbp-5ba00c7","title":"<strong><strong>5. Delivery, Pickup, Risk, and Title </strong></strong>","open":false} -->
+<div class="wp-block-greenshift-blocks-accordionitem gs-accordion-item gspb_accordionitem-gsbp-5ba00c7 gsclose" id="gspb_accordionitem-gsbp-5ba00c7" itemscope><div class="gs-accordion-item__title" aria-expanded="false" role="button" tabindex="0" aria-controls="gspb-accordion-item-content-gsbp-5ba00c7"><div class="gs-accordion-item__heading"><strong><strong>5. Delivery, Pickup, Risk, and Title </strong></strong></div><span class="iconfortoggle"><span class="gs-iconbefore"></span><span class="gs-iconafter"></span></span></div><div class="gs-accordion-item__content" itemscope id="gspb-accordion-item-content-gsbp-5ba00c7"><div class="gs-accordion-item__text"><!-- wp:paragraph -->
+<p>Delivery dates, pickup dates, and lead times are estimates only unless otherwise confirmed by TFG in writing.&nbsp;</p>
+<!-- /wp:paragraph -->
+
+<!-- wp:paragraph -->
+<p>TFG shall not be liable for delays arising from carrier delays, supplier delays, shortages, force majeure events, governmental actions, customs delays, tariffs, labour disruptions, or circumstances beyond its reasonable control.&nbsp;</p>
+<!-- /wp:paragraph -->
+
+<!-- wp:paragraph -->
+<p>Risk of loss, damage, or destruction passes to the customer upon pickup, delivery, release to a carrier, or when goods are otherwise made available to the customer.&nbsp;</p>
+<!-- /wp:paragraph -->
+
+<!-- wp:paragraph -->
+<p>Title to goods remains with TFG until all amounts owing in respect of the transaction have been paid in full.&nbsp;</p>
+<!-- /wp:paragraph -->
+
+<!-- wp:paragraph -->
+<p>Until payment in full has been received, TFG retains a security interest in the goods to the extent permitted by applicable law. The customer authorizes TFG to register and maintain any financing statements or registrations reasonably required to protect such interest.&nbsp;</p>
+<!-- /wp:paragraph -->
+
+<!-- wp:paragraph -->
+<p>Where permitted by law, TFG may recover or repossess unpaid goods.&nbsp;</p>
+<!-- /wp:paragraph --></div></div></div>
+<!-- /wp:greenshift-blocks/accordionitem -->
+
+<!-- wp:greenshift-blocks/accordionitem {"id":"gsbp-fe135dd","title":"<strong><strong>6. Product Information, Technical Advice, and Customer Responsibility</strong></strong>","open":false} -->
+<div class="wp-block-greenshift-blocks-accordionitem gs-accordion-item gspb_accordionitem-gsbp-fe135dd gsclose" id="gspb_accordionitem-gsbp-fe135dd" itemscope><div class="gs-accordion-item__title" aria-expanded="false" role="button" tabindex="0" aria-controls="gspb-accordion-item-content-gsbp-fe135dd"><div class="gs-accordion-item__heading"><strong><strong>6. Product Information, Technical Advice, and Customer Responsibility</strong></strong></div><span class="iconfortoggle"><span class="gs-iconbefore"></span><span class="gs-iconafter"></span></span></div><div class="gs-accordion-item__content" itemscope id="gspb-accordion-item-content-gsbp-fe135dd"><div class="gs-accordion-item__text"><!-- wp:paragraph -->
+<p>Product descriptions, dimensions, specifications, certifications, drawings, catalogues, websites, images, and other product information are provided for general reference purposes only and are subject to change.&nbsp;</p>
+<!-- /wp:paragraph -->
+
+<!-- wp:paragraph -->
+<p>The customer is solely responsible for determining the suitability, compatibility, compliance, performance, installation requirements, and fitness of products for their intended use.&nbsp;</p>
+<!-- /wp:paragraph -->
+
+<!-- wp:paragraph -->
+<p>Any technical assistance, recommendations, application guidance, engineering information, or product suggestions provided by TFG are offered as a courtesy only and shall not constitute professional advice, design services, a warranty, or a guarantee of performance.&nbsp;</p>
+<!-- /wp:paragraph -->
+
+<!-- wp:paragraph -->
+<p>TFG may offer substitute or equivalent products where the originally requested product is unavailable.&nbsp;</p>
+<!-- /wp:paragraph -->
+
+<!-- wp:paragraph -->
+<p>Customers remain responsible for improper installation, misuse, modification, unauthorized repairs, failure to follow safety requirements, failure to comply with applicable laws, or failure to follow product instructions.&nbsp;</p>
+<!-- /wp:paragraph --></div></div></div>
+<!-- /wp:greenshift-blocks/accordionitem -->
+
+<!-- wp:greenshift-blocks/accordionitem {"id":"gsbp-079810e","title":"<strong><strong><strong>7. Returns, Cancellations, and Special Orders</strong></strong></strong>","open":false} -->
+<div class="wp-block-greenshift-blocks-accordionitem gs-accordion-item gspb_accordionitem-gsbp-079810e gsclose" id="gspb_accordionitem-gsbp-079810e" itemscope><div class="gs-accordion-item__title" aria-expanded="false" role="button" tabindex="0" aria-controls="gspb-accordion-item-content-gsbp-079810e"><div class="gs-accordion-item__heading"><strong><strong><strong>7. Returns, Cancellations, and Special Orders</strong></strong></strong></div><span class="iconfortoggle"><span class="gs-iconbefore"></span><span class="gs-iconafter"></span></span></div><div class="gs-accordion-item__content" itemscope id="gspb-accordion-item-content-gsbp-079810e"><div class="gs-accordion-item__text"><!-- wp:paragraph -->
+<p>Returns require TFG’s prior authorization and must comply with TFG’s return procedures, including proof of purchase, condition requirements, packaging requirements, and return deadlines.&nbsp;</p>
+<!-- /wp:paragraph -->
+
+<!-- wp:paragraph -->
+<p>Restocking fees, inspection charges, freight charges, and other costs may apply.&nbsp;</p>
+<!-- /wp:paragraph -->
+
+<!-- wp:paragraph -->
+<p>The TFG Return Policy, as amended from time to time, is incorporated into these Terms by reference.&nbsp;</p>
+<!-- /wp:paragraph -->
+
+<!-- wp:paragraph -->
+<p>Special-order, custom-manufactured, modified, assembled, cut-to-length, non-stock, clearance, obsolete, safety-sensitive, electrical, regulated, or manufacturer-restricted items will be non-cancellable and non-returnable unless expressly approved by TFG in writing.&nbsp;</p>
+<!-- /wp:paragraph -->
+
+<!-- wp:paragraph -->
+<p>The TFG Special Order Policy, as amended from time to time, is incorporated into these Terms by reference.&nbsp;</p>
+<!-- /wp:paragraph --></div></div></div>
+<!-- /wp:greenshift-blocks/accordionitem -->
+
+<!-- wp:greenshift-blocks/accordionitem {"id":"gsbp-1253986","title":"<strong><strong><strong><strong>8. Warranty and Claims </strong></strong></strong></strong>","open":false} -->
+<div class="wp-block-greenshift-blocks-accordionitem gs-accordion-item gspb_accordionitem-gsbp-1253986 gsclose" id="gspb_accordionitem-gsbp-1253986" itemscope><div class="gs-accordion-item__title" aria-expanded="false" role="button" tabindex="0" aria-controls="gspb-accordion-item-content-gsbp-1253986"><div class="gs-accordion-item__heading"><strong><strong><strong><strong>8. Warranty and Claims </strong></strong></strong></strong></div><span class="iconfortoggle"><span class="gs-iconbefore"></span><span class="gs-iconafter"></span></span></div><div class="gs-accordion-item__content" itemscope id="gspb-accordion-item-content-gsbp-1253986"><div class="gs-accordion-item__text"><!-- wp:paragraph -->
+<p>Products are subject solely to the manufacturer’s warranty, if any.&nbsp;</p>
+<!-- /wp:paragraph -->
+
+<!-- wp:paragraph -->
+<p>Except as expressly stated in writing, TFG disclaims all warranties, representations, and conditions, whether express, implied, statutory, or otherwise, including any implied warranty of merchantability, quality, durability, fitness for a particular purpose, non-infringement, or suitability for any application, to the fullest extent permitted by law.&nbsp;</p>
+<!-- /wp:paragraph -->
+
+<!-- wp:paragraph -->
+<p>Claims relating to shortages, incorrect goods, visible damage, shipping discrepancies, or delivery errors must be submitted in writing within three (3) business days following delivery.&nbsp;</p>
+<!-- /wp:paragraph -->
+
+<!-- wp:paragraph -->
+<p>Warranty claims must be submitted within the applicable warranty period and supported by information reasonably requested by TFG.&nbsp;</p>
+<!-- /wp:paragraph -->
+
+<!-- wp:paragraph -->
+<p>Failure to provide timely notice constitutes acceptance of the goods and a waiver of the claim to the extent permitted by law.&nbsp;</p>
+<!-- /wp:paragraph -->
+
+<!-- wp:paragraph -->
+<p>Goods must not be used, installed, altered, resold, or transferred if the customer intends to make a claim regarding visible defects or shipment discrepancies.&nbsp;</p>
+<!-- /wp:paragraph --></div></div></div>
+<!-- /wp:greenshift-blocks/accordionitem --></div>
+<!-- /wp:greenshift-blocks/accordion --></div>
+<!-- /wp:greenshift-blocks/row-column -->
+
+<!-- wp:greenshift-blocks/row-column {"id":"gsbp-0aa8bde","columnSize":"6"} -->
+<div class="wp-block-greenshift-blocks-row-column gspb_row__col--6 gspb_col-id-gsbp-0aa8bde" id="gspb_col-id-gsbp-0aa8bde"><!-- wp:greenshift-blocks/accordion {"id":"gsbp-af89e2f"} -->
+<div class="wp-block-greenshift-blocks-accordion gs-accordion gspb_accordion-id-gsbp-af89e2f" id="gspb_accordion-id-gsbp-af89e2f" itemscope itemtype=""><!-- wp:greenshift-blocks/accordionitem {"id":"gsbp-6c765b5","title":"<strong>9. Limitation of Liability </strong>","open":false} -->
+<div class="wp-block-greenshift-blocks-accordionitem gs-accordion-item gspb_accordionitem-gsbp-6c765b5 gsclose" id="gspb_accordionitem-gsbp-6c765b5" itemscope><div class="gs-accordion-item__title" aria-expanded="false" role="button" tabindex="0" aria-controls="gspb-accordion-item-content-gsbp-6c765b5"><div class="gs-accordion-item__heading"><strong>9. Limitation of Liability </strong></div><span class="iconfortoggle"><span class="gs-iconbefore"></span><span class="gs-iconafter"></span></span></div><div class="gs-accordion-item__content" itemscope id="gspb-accordion-item-content-gsbp-6c765b5"><div class="gs-accordion-item__text"><!-- wp:paragraph -->
+<p>To the fullest extent permitted by law, TFG shall not be liable for indirect, incidental, consequential, special, punitive, exemplary, or economic damages, including loss of profits, loss of revenue, loss of production, loss of contracts, business interruption, downtime costs, delay damages, loss of goodwill, or loss of opportunity.&nbsp;</p>
+<!-- /wp:paragraph -->
+
+<!-- wp:paragraph -->
+<p>TFG shall not be liable for losses arising from product misuse, improper installation, unauthorized modifications, customer negligence, third-party acts, or events beyond TFG’s reasonable control.&nbsp;</p>
+<!-- /wp:paragraph -->
+
+<!-- wp:paragraph -->
+<p>To the fullest extent permitted by law, TFG’s total aggregate liability arising from any claim relating to the transaction, regardless of legal theory, shall not exceed the purchase price paid to TFG for the specific goods giving rise to the claim.&nbsp;</p>
+<!-- /wp:paragraph -->
+
+<!-- wp:paragraph -->
+<p>Where liability cannot legally be excluded, TFG’s sole obligation shall, at TFG’s option, be limited to repair, replacement, refund, or issuance of a credit for the affected goods.&nbsp;</p>
+<!-- /wp:paragraph -->
+
+<!-- wp:paragraph -->
+<p>The limitations contained in this section apply to all causes of action, including contract, tort, negligence, strict liability, statutory liability, and otherwise.&nbsp;</p>
+<!-- /wp:paragraph --></div></div></div>
+<!-- /wp:greenshift-blocks/accordionitem -->
+
+<!-- wp:greenshift-blocks/accordionitem {"id":"gsbp-cc122f8","title":"<strong><strong>10. Customer Account Information and Authorized Purchasers </strong></strong>","open":false} -->
+<div class="wp-block-greenshift-blocks-accordionitem gs-accordion-item gspb_accordionitem-gsbp-cc122f8 gsclose" id="gspb_accordionitem-gsbp-cc122f8" itemscope><div class="gs-accordion-item__title" aria-expanded="false" role="button" tabindex="0" aria-controls="gspb-accordion-item-content-gsbp-cc122f8"><div class="gs-accordion-item__heading"><strong><strong>10. Customer Account Information and Authorized Purchasers </strong></strong></div><span class="iconfortoggle"><span class="gs-iconbefore"></span><span class="gs-iconafter"></span></span></div><div class="gs-accordion-item__content" itemscope id="gspb-accordion-item-content-gsbp-cc122f8"><div class="gs-accordion-item__text"><!-- wp:paragraph -->
+<p>The customer shall maintain accurate account information, including legal name, billing addresses, shipping addresses, tax registration numbers, accounts payable contacts, purchasing requirements, and authorized purchasers.&nbsp;</p>
+<!-- /wp:paragraph -->
+
+<!-- wp:paragraph -->
+<p>TFG may rely upon orders, instructions, approvals, and communications from individuals who reasonably appear to be authorized to act on behalf of the customer.&nbsp;</p>
+<!-- /wp:paragraph -->
+
+<!-- wp:paragraph -->
+<p>The customer remains responsible for all purchases made through its account until written notice of changes is received and processed by TFG.&nbsp;</p>
+<!-- /wp:paragraph --></div></div></div>
+<!-- /wp:greenshift-blocks/accordionitem -->
+
+<!-- wp:greenshift-blocks/accordionitem {"id":"gsbp-64f28f2","title":"<strong><strong><strong>11. Credit Information, Privacy, and Electronic Communications</strong></strong></strong>","open":false} -->
+<div class="wp-block-greenshift-blocks-accordionitem gs-accordion-item gspb_accordionitem-gsbp-64f28f2 gsclose" id="gspb_accordionitem-gsbp-64f28f2" itemscope><div class="gs-accordion-item__title" aria-expanded="false" role="button" tabindex="0" aria-controls="gspb-accordion-item-content-gsbp-64f28f2"><div class="gs-accordion-item__heading"><strong><strong><strong>11. Credit Information, Privacy, and Electronic Communications</strong></strong></strong></div><span class="iconfortoggle"><span class="gs-iconbefore"></span><span class="gs-iconafter"></span></span></div><div class="gs-accordion-item__content" itemscope id="gspb-accordion-item-content-gsbp-64f28f2"><div class="gs-accordion-item__text"><!-- wp:paragraph -->
+<p>The customer authorizes TFG to obtain, verify, use, and disclose credit information, banking information, payment history, trade references, and account information for purposes including credit evaluation, account administration, fraud prevention, risk management, collection activities, legal compliance, and business operations.&nbsp;</p>
+<!-- /wp:paragraph -->
+
+<!-- wp:paragraph -->
+<p>The customer authorizes TFG to obtain information from credit reporting agencies and other lawful sources.&nbsp;</p>
+<!-- /wp:paragraph -->
+
+<!-- wp:paragraph -->
+<p>The customer consents to receiving notices, invoices, statements, account communications, and related business communications electronically.&nbsp;</p>
+<!-- /wp:paragraph -->
+
+<!-- wp:paragraph -->
+<p>TFG will manage personal information in accordance with applicable privacy legislation and TFG privacy practices.&nbsp;</p>
+<!-- /wp:paragraph --></div></div></div>
+<!-- /wp:greenshift-blocks/accordionitem -->
+
+<!-- wp:greenshift-blocks/accordionitem {"id":"gsbp-2a1d669","title":"<strong><strong><strong><strong>12. Compliance, Safety, and Use of Goods </strong></strong></strong></strong>","open":false} -->
+<div class="wp-block-greenshift-blocks-accordionitem gs-accordion-item gspb_accordionitem-gsbp-2a1d669 gsclose" id="gspb_accordionitem-gsbp-2a1d669" itemscope><div class="gs-accordion-item__title" aria-expanded="false" role="button" tabindex="0" aria-controls="gspb-accordion-item-content-gsbp-2a1d669"><div class="gs-accordion-item__heading"><strong><strong><strong><strong>12. Compliance, Safety, and Use of Goods </strong></strong></strong></strong></div><span class="iconfortoggle"><span class="gs-iconbefore"></span><span class="gs-iconafter"></span></span></div><div class="gs-accordion-item__content" itemscope id="gspb-accordion-item-content-gsbp-2a1d669"><div class="gs-accordion-item__text"><!-- wp:paragraph -->
+<p>The customer is responsible for complying with all applicable laws, regulations, codes, standards, industry requirements, and workplace obligations relating to the products purchased.&nbsp;</p>
+<!-- /wp:paragraph -->
+
+<!-- wp:paragraph -->
+<p>Products must be used, installed, stored, transported, maintained, and disposed of safely and in accordance with all applicable legal requirements and product instructions.&nbsp;</p>
+<!-- /wp:paragraph -->
+
+<!-- wp:paragraph -->
+<p>The customer shall ensure that required training, warnings, safety information, personal protective equipment, safety data sheets, and compliance documentation are available to employees, contractors, and end users.&nbsp;</p>
+<!-- /wp:paragraph -->
+
+<!-- wp:paragraph -->
+<p>The customer shall comply with all applicable import, export, customs, sanctions, trade-control, anti-corruption, and anti-bribery laws.&nbsp;</p>
+<!-- /wp:paragraph --></div></div></div>
+<!-- /wp:greenshift-blocks/accordionitem -->
+
+<!-- wp:greenshift-blocks/accordionitem {"id":"gsbp-89129d6","title":"<strong><strong><strong><strong><strong>13. Customer Indemnity </strong></strong></strong></strong></strong>","open":false} -->
+<div class="wp-block-greenshift-blocks-accordionitem gs-accordion-item gspb_accordionitem-gsbp-89129d6 gsclose" id="gspb_accordionitem-gsbp-89129d6" itemscope><div class="gs-accordion-item__title" aria-expanded="false" role="button" tabindex="0" aria-controls="gspb-accordion-item-content-gsbp-89129d6"><div class="gs-accordion-item__heading"><strong><strong><strong><strong><strong>13. Customer Indemnity </strong></strong></strong></strong></strong></div><span class="iconfortoggle"><span class="gs-iconbefore"></span><span class="gs-iconafter"></span></span></div><div class="gs-accordion-item__content" itemscope id="gspb-accordion-item-content-gsbp-89129d6"><div class="gs-accordion-item__text"><!-- wp:paragraph -->
+<p>The customer shall indemnify, defend, and hold harmless TFG, its affiliated companies, directors, officers, employees, agents, and representatives from and against all claims, liabilities, losses, damages, judgments, fines, penalties, costs, and expenses, including reasonable legal fees, arising from or relating to:&nbsp;</p>
+<!-- /wp:paragraph -->
+
+<!-- wp:list -->
+<ul class="wp-block-list"><!-- wp:list-item -->
+<li>the customer’s use, storage, installation, handling, resale, or distribution of goods;&nbsp;</li>
+<!-- /wp:list-item --></ul>
+<!-- /wp:list -->
+
+<!-- wp:list -->
+<ul class="wp-block-list"><!-- wp:list-item -->
+<li>misuse, modification, or improper installation of goods;&nbsp;</li>
+<!-- /wp:list-item --></ul>
+<!-- /wp:list -->
+
+<!-- wp:list -->
+<ul class="wp-block-list"><!-- wp:list-item -->
+<li>the customer’s breach of these Terms;&nbsp;</li>
+<!-- /wp:list-item --></ul>
+<!-- /wp:list -->
+
+<!-- wp:list -->
+<ul class="wp-block-list"><!-- wp:list-item -->
+<li>the customer’s negligence or misconduct;&nbsp;</li>
+<!-- /wp:list-item --></ul>
+<!-- /wp:list -->
+
+<!-- wp:list -->
+<ul class="wp-block-list"><!-- wp:list-item -->
+<li>violation of applicable laws or regulations by the customer; or&nbsp;</li>
+<!-- /wp:list-item --></ul>
+<!-- /wp:list -->
+
+<!-- wp:list -->
+<ul class="wp-block-list"><!-- wp:list-item -->
+<li>third-party claims arising from the customer’s operations or use of the goods.&nbsp;</li>
+<!-- /wp:list-item --></ul>
+<!-- /wp:list --></div></div></div>
+<!-- /wp:greenshift-blocks/accordionitem -->
+
+<!-- wp:greenshift-blocks/accordionitem {"id":"gsbp-9a6a615","title":"<strong><strong><strong><strong><strong><strong>14. Force Majeure </strong></strong></strong></strong></strong></strong>","open":false} -->
+<div class="wp-block-greenshift-blocks-accordionitem gs-accordion-item gspb_accordionitem-gsbp-9a6a615 gsclose" id="gspb_accordionitem-gsbp-9a6a615" itemscope><div class="gs-accordion-item__title" aria-expanded="false" role="button" tabindex="0" aria-controls="gspb-accordion-item-content-gsbp-9a6a615"><div class="gs-accordion-item__heading"><strong><strong><strong><strong><strong><strong>14. Force Majeure </strong></strong></strong></strong></strong></strong></div><span class="iconfortoggle"><span class="gs-iconbefore"></span><span class="gs-iconafter"></span></span></div><div class="gs-accordion-item__content" itemscope id="gspb-accordion-item-content-gsbp-9a6a615"><div class="gs-accordion-item__text"><!-- wp:paragraph -->
+<p>TFG shall not be liable for any delay, interruption, shortage, non-delivery, allocation, suspension, or failure to perform arising from causes beyond its reasonable control.&nbsp;</p>
+<!-- /wp:paragraph -->
+
+<!-- wp:paragraph -->
+<p>Such events include natural disasters, labour disputes, transportation disruptions, supplier failures, utility interruptions, cyber incidents, pandemics, public emergencies, government actions, tariffs, trade restrictions, sanctions, armed conflict, shortages of materials, or other supply-chain disruptions.&nbsp;</p>
+<!-- /wp:paragraph -->
+
+<!-- wp:paragraph -->
+<p>During product shortages or supply disruptions, TFG may allocate available inventory among customers in its sole discretion.&nbsp;</p>
+<!-- /wp:paragraph --></div></div></div>
+<!-- /wp:greenshift-blocks/accordionitem -->
+
+<!-- wp:greenshift-blocks/accordionitem {"id":"gsbp-bc99995","title":"<strong><strong><strong><strong><strong><strong><strong>15. Governing Law and Dispute Resolution </strong></strong></strong></strong></strong></strong></strong>","open":false} -->
+<div class="wp-block-greenshift-blocks-accordionitem gs-accordion-item gspb_accordionitem-gsbp-bc99995 gsclose" id="gspb_accordionitem-gsbp-bc99995" itemscope><div class="gs-accordion-item__title" aria-expanded="false" role="button" tabindex="0" aria-controls="gspb-accordion-item-content-gsbp-bc99995"><div class="gs-accordion-item__heading"><strong><strong><strong><strong><strong><strong><strong>15. Governing Law and Dispute Resolution </strong></strong></strong></strong></strong></strong></strong></div><span class="iconfortoggle"><span class="gs-iconbefore"></span><span class="gs-iconafter"></span></span></div><div class="gs-accordion-item__content" itemscope id="gspb-accordion-item-content-gsbp-bc99995"><div class="gs-accordion-item__text"><!-- wp:paragraph -->
+<p>These Terms shall be governed by the laws of the province or territory in which the selling TFG branch or operating company is located, together with applicable federal laws of Canada.&nbsp;</p>
+<!-- /wp:paragraph -->
+
+<!-- wp:paragraph -->
+<p>The parties shall first attempt to resolve disputes through good-faith discussions.&nbsp;</p>
+<!-- /wp:paragraph -->
+
+<!-- wp:paragraph -->
+<p>Subject to applicable law, the parties irrevocably attorn to the courts of the applicable province or territory having jurisdiction over the selling TFG branch unless otherwise agreed in writing.&nbsp;</p>
+<!-- /wp:paragraph --></div></div></div>
+<!-- /wp:greenshift-blocks/accordionitem -->
+
+<!-- wp:greenshift-blocks/accordionitem {"id":"gsbp-de85d46","title":"<strong><strong><strong><strong><strong><strong><strong><strong>16. General Provisions </strong></strong></strong></strong></strong></strong></strong></strong>","open":false} -->
+<div class="wp-block-greenshift-blocks-accordionitem gs-accordion-item gspb_accordionitem-gsbp-de85d46 gsclose" id="gspb_accordionitem-gsbp-de85d46" itemscope><div class="gs-accordion-item__title" aria-expanded="false" role="button" tabindex="0" aria-controls="gspb-accordion-item-content-gsbp-de85d46"><div class="gs-accordion-item__heading"><strong><strong><strong><strong><strong><strong><strong><strong>16. General Provisions </strong></strong></strong></strong></strong></strong></strong></strong></div><span class="iconfortoggle"><span class="gs-iconbefore"></span><span class="gs-iconafter"></span></span></div><div class="gs-accordion-item__content" itemscope id="gspb-accordion-item-content-gsbp-de85d46"><div class="gs-accordion-item__text"><!-- wp:paragraph -->
+<p>If any provision of these Terms is held to be invalid or unenforceable, the remaining provisions shall remain in full force and effect.&nbsp;</p>
+<!-- /wp:paragraph -->
+
+<!-- wp:paragraph -->
+<p>TFG’s failure to enforce any provision shall not constitute a waiver of that provision or any future enforcement rights.&nbsp;</p>
+<!-- /wp:paragraph -->
+
+<!-- wp:paragraph -->
+<p>The customer may not assign its rights or obligations without TFG’s prior written consent.&nbsp;</p>
+<!-- /wp:paragraph -->
+
+<!-- wp:paragraph -->
+<p>TFG may assign its rights and obligations to an affiliate, successor, purchaser, or related entity.&nbsp;</p>
+<!-- /wp:paragraph -->
+
+<!-- wp:paragraph -->
+<p>These Terms, together with any policies, schedules, or written agreements expressly incorporated by reference, constitute the entire agreement between the parties concerning the subject matter of the transaction.&nbsp;</p>
+<!-- /wp:paragraph -->
+
+<!-- wp:paragraph -->
+<p>TFG may revise these Terms from time to time for future transactions by posting updated Terms or otherwise providing notice.&nbsp;</p>
+<!-- /wp:paragraph -->
+
+<!-- wp:paragraph -->
+<p>Any provisions which by their nature are intended to survive termination, including payment obligations, indemnities, warranty limitations, limitations of liability, dispute resolution provisions, security interests, and collection rights, shall survive termination of the relationship between the parties.&nbsp;</p>
+<!-- /wp:paragraph --></div></div></div>
+<!-- /wp:greenshift-blocks/accordionitem --></div>
+<!-- /wp:greenshift-blocks/accordion --></div>
+<!-- /wp:greenshift-blocks/row-column --> </div></div>
+<!-- /wp:greenshift-blocks/row --></div>
+<!-- /wp:greenshift-blocks/row-column --> </div></div>
+<!-- /wp:greenshift-blocks/row -->

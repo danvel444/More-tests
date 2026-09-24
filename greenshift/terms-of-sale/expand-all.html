@@ -1,0 +1,128 @@
+<div class="gs-expand-wrap">
+  <button type="button" class="gs-expand-all" aria-expanded="false">Expand all</button>
+</div>
+
+<style>
+/* Everything is scoped to .tfgr-policy (the Terms of Sale panel), so other pages are untouched. */
+.tfgr-policy .gs-expand-wrap {
+  display: flex;
+  justify-content: flex-end;
+  margin: 0 20px 1.5rem 0; /* right margin lines it up with the right column */
+}
+.tfgr-policy .gs-expand-all {
+  display: inline-flex;
+  align-items: center;
+  gap: 0.6rem;
+  padding: 0.6rem 1.25rem;
+  font: inherit;
+  font-weight: 700;
+  color: #1d1f21;
+  background: #ffffff;
+  border: 1px solid #a3231b;
+  border-radius: 0;
+  cursor: pointer;
+  transition: background-color .2s, color .2s;
+}
+.tfgr-policy .gs-expand-all::before {
+  content: "+";
+  font-weight: 400;
+  line-height: 1;
+  color: #a3231b;
+}
+.tfgr-policy .gs-expand-all[aria-expanded="true"]::before { content: "−"; }
+.tfgr-policy .gs-expand-all:hover,
+.tfgr-policy .gs-expand-all:focus-visible {
+  background: #a3231b;
+  color: #ffffff;
+}
+.tfgr-policy .gs-expand-all:hover::before,
+.tfgr-policy .gs-expand-all:focus-visible::before { color: #ffffff; }
+.tfgr-policy .gs-expand-all:focus-visible { outline: 2px solid #a3231b; outline-offset: 2px; }
+
+/* Accordions: one bordered list per column, like the policy tables. */
+.tfgr-policy .gs-accordion {
+  border-top: 1px solid #d9d5cc;
+  background: #ffffff;
+}
+.tfgr-policy .gs-accordion .gs-accordion-item {
+  margin: 0;
+  border: 1px solid #d9d5cc;
+  border-top: 0;
+  border-radius: 0;
+  background: #ffffff;
+  box-shadow: none;
+}
+.tfgr-policy .gs-accordion .gs-accordion-item .gs-accordion-item__title {
+  padding: 1rem 1.5rem;
+  margin: 0;
+  background: #ffffff;
+  color: #1d1f21;
+  border: 0;
+  border-radius: 0;
+  transition: background-color .2s;
+}
+.tfgr-policy .gs-accordion .gs-accordion-item .gs-accordion-item__title:hover,
+.tfgr-policy .gs-accordion .gs-accordion-item.gsopen > .gs-accordion-item__title,
+.tfgr-policy .gs-accordion .gs-accordion-item .gs-accordion-item__title[aria-expanded="true"] {
+  background: #f1ede5;
+}
+.tfgr-policy .gs-accordion .gs-accordion-item.gsopen > .gs-accordion-item__title,
+.tfgr-policy .gs-accordion .gs-accordion-item .gs-accordion-item__title[aria-expanded="true"] {
+  border-bottom: 1px solid #d9d5cc;
+}
+.tfgr-policy .gs-accordion .gs-accordion-item .gs-accordion-item__title:focus-visible {
+  outline: 2px solid #a3231b;
+  outline-offset: -2px;
+}
+.tfgr-policy .gs-accordion .gs-accordion-item__heading,
+.tfgr-policy .gs-accordion .gs-accordion-item__heading strong {
+  font-weight: 700;
+  color: #1d1f21;
+}
+.tfgr-policy .gs-accordion .iconfortoggle { color: #a3231b; }
+.tfgr-policy .gs-accordion .iconfortoggle .gs-iconbefore,
+.tfgr-policy .gs-accordion .iconfortoggle .gs-iconafter { background-color: currentColor; }
+.tfgr-policy .gs-accordion .gs-accordion-item__text {
+  padding: 1.25rem 1.5rem;
+  color: #3a3d40;
+}
+.tfgr-policy .gs-accordion .gs-accordion-item__text p { margin: 0 0 0.75rem 0; }
+.tfgr-policy .gs-accordion .gs-accordion-item__text > :last-child { margin-bottom: 0; }
+.tfgr-policy .gs-accordion .gs-accordion-item__text ul {
+  list-style: none;
+  margin: 0;
+  padding: 0;
+}
+.tfgr-policy .gs-accordion .gs-accordion-item__text li {
+  position: relative;
+  margin: 0;
+  padding: 0.2rem 0 0.2rem 1.25rem;
+}
+.tfgr-policy .gs-accordion .gs-accordion-item__text li::before {
+  content: "";
+  position: absolute;
+  left: 0;
+  top: calc(0.2rem + 0.5lh - 1px);
+  width: 0.6rem;
+  height: 2px;
+  background-color: #a3231b;
+}
+</style>
+<script>
+document.addEventListener('click', function (e) {
+  const btn = e.target.closest('.gs-expand-all');
+  if (!btn) return;
+
+  const expanding = btn.getAttribute('aria-expanded') !== 'true';
+
+  document.querySelectorAll('.gs-accordion-item__title').forEach(title => {
+    const item = title.closest('.gs-accordion-item');
+    const isOpen = title.getAttribute('aria-expanded') === 'true' ||
+                   (item && item.classList.contains('gsopen'));
+    if (isOpen !== expanding) title.click();
+  });
+
+  btn.setAttribute('aria-expanded', expanding);
+  btn.textContent = expanding ? 'Collapse all' : 'Expand all';
+});
+</script>
