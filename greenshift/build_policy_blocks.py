@@ -344,8 +344,9 @@ GS_PREVIEW_CSS = """
 .gspb_row__col--12{width:100%;padding:0 20px;box-sizing:border-box}
 .gspb_row__col--6{width:50%;padding:0 20px;box-sizing:border-box}
 @media (max-width: 767.98px){.gspb_row__col--6{width:100%}}
-.gs-accordion-item{margin-bottom:12px;border:1px solid #e5e5e5}
-.gs-accordion-item__title{display:flex;justify-content:space-between;align-items:center;padding:18px 20px;background:#f7f7f7;cursor:pointer}
+#gspb_accordion-id-gsbp-3648954 .gs-accordion-item,#gspb_accordion-id-gsbp-af89e2f .gs-accordion-item{margin-bottom:12px;border:1px solid #e5e5e5;box-shadow:0 2px 0 #ddd}
+.gs-accordion-item__title{display:flex;justify-content:space-between;align-items:center;cursor:pointer}
+#gspb_accordion-id-gsbp-3648954 .gs-accordion-item__title,#gspb_accordion-id-gsbp-af89e2f .gs-accordion-item__title{padding:18px 20px;background:#f7f7f7}
 .gsclose .gs-accordion-item__content{display:none}
 .iconfortoggle{position:relative;width:14px;height:14px;flex-shrink:0}
 .gs-iconbefore,.gs-iconafter{position:absolute;background:#111;left:0;top:6px;width:14px;height:2px}

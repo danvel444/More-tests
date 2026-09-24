@@ -53,36 +53,41 @@
 .tfgr-policy .gs-expand-all:focus-visible::before { color: #ffffff; }
 .tfgr-policy .gs-expand-all:focus-visible { outline: 2px solid #a3231b; outline-offset: 2px; }
 
-/* Accordions: one bordered list per column, like the policy tables. */
+/* Accordions: one bordered list per column, like the policy tables.
+   !important is needed because GreenShift's own accordion styles are more specific. */
 .tfgr-policy .gs-accordion {
-  border-top: 1px solid #d9d5cc;
-  background: #ffffff;
+  display: block !important;
+  gap: 0 !important;
+  padding: 0 !important;
+  border-top: 1px solid #d9d5cc !important;
+  background: #ffffff !important;
 }
 .tfgr-policy .gs-accordion .gs-accordion-item {
-  margin: 0;
-  border: 1px solid #d9d5cc;
-  border-top: 0;
-  border-radius: 0;
-  background: #ffffff;
-  box-shadow: none;
+  margin: 0 !important;
+  border: 1px solid #d9d5cc !important;
+  border-top: 0 !important;
+  border-radius: 0 !important;
+  background: #ffffff !important;
+  box-shadow: none !important;
 }
 .tfgr-policy .gs-accordion .gs-accordion-item .gs-accordion-item__title {
-  padding: 1rem 1.5rem;
-  margin: 0;
-  background: #ffffff;
-  color: #1d1f21;
-  border: 0;
-  border-radius: 0;
+  padding: 1rem 1.5rem !important;
+  margin: 0 !important;
+  background: #ffffff !important;
+  color: #1d1f21 !important;
+  border: 0 !important;
+  border-radius: 0 !important;
+  box-shadow: none !important;
   transition: background-color .2s;
 }
 .tfgr-policy .gs-accordion .gs-accordion-item .gs-accordion-item__title:hover,
 .tfgr-policy .gs-accordion .gs-accordion-item.gsopen > .gs-accordion-item__title,
 .tfgr-policy .gs-accordion .gs-accordion-item .gs-accordion-item__title[aria-expanded="true"] {
-  background: #f1ede5;
+  background: #f1ede5 !important;
 }
 .tfgr-policy .gs-accordion .gs-accordion-item.gsopen > .gs-accordion-item__title,
 .tfgr-policy .gs-accordion .gs-accordion-item .gs-accordion-item__title[aria-expanded="true"] {
-  border-bottom: 1px solid #d9d5cc;
+  border-bottom: 1px solid #d9d5cc !important;
 }
 .tfgr-policy .gs-accordion .gs-accordion-item .gs-accordion-item__title:focus-visible {
   outline: 2px solid #a3231b;
@@ -90,27 +95,32 @@
 }
 .tfgr-policy .gs-accordion .gs-accordion-item__heading,
 .tfgr-policy .gs-accordion .gs-accordion-item__heading strong {
-  font-weight: 700;
-  color: #1d1f21;
+  font-weight: 700 !important;
+  color: #1d1f21 !important;
 }
-.tfgr-policy .gs-accordion .iconfortoggle { color: #a3231b; }
+.tfgr-policy .gs-accordion .iconfortoggle { color: #a3231b !important; }
 .tfgr-policy .gs-accordion .iconfortoggle .gs-iconbefore,
-.tfgr-policy .gs-accordion .iconfortoggle .gs-iconafter { background-color: currentColor; }
-.tfgr-policy .gs-accordion .gs-accordion-item__text {
-  padding: 1.25rem 1.5rem;
-  color: #3a3d40;
+.tfgr-policy .gs-accordion .iconfortoggle .gs-iconafter { background-color: #a3231b !important; }
+.tfgr-policy .gs-accordion .gs-accordion-item__content {
+  background: #ffffff !important;
+  border: 0 !important;
+  box-shadow: none !important;
 }
-.tfgr-policy .gs-accordion .gs-accordion-item__text p { margin: 0 0 0.75rem 0; }
-.tfgr-policy .gs-accordion .gs-accordion-item__text > :last-child { margin-bottom: 0; }
+.tfgr-policy .gs-accordion .gs-accordion-item__text {
+  padding: 1.25rem 1.5rem !important;
+  color: #3a3d40 !important;
+}
+.tfgr-policy .gs-accordion .gs-accordion-item__text p { margin: 0 0 0.75rem 0 !important; }
+.tfgr-policy .gs-accordion .gs-accordion-item__text > :last-child { margin-bottom: 0 !important; }
 .tfgr-policy .gs-accordion .gs-accordion-item__text ul {
-  list-style: none;
-  margin: 0;
-  padding: 0;
+  list-style: none !important;
+  margin: 0 !important;
+  padding: 0 !important;
 }
 .tfgr-policy .gs-accordion .gs-accordion-item__text li {
   position: relative;
-  margin: 0;
-  padding: 0.2rem 0 0.2rem 1.25rem;
+  margin: 0 !important;
+  padding: 0.2rem 0 0.2rem 1.25rem !important;
 }
 .tfgr-policy .gs-accordion .gs-accordion-item__text li::before {
   content: "";
