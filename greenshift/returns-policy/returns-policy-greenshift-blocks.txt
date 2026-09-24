@@ -1,0 +1,203 @@
+<!-- wp:greenshift-blocks/element {"id":"gsbp-da860ad","inlineCssStyles":".gsbp-da860ad{background-color:#faf8f4;padding-top:2.25rem;padding-bottom:2.25rem;padding-left:1.5rem;padding-right:1.5rem;}@media (max-width: 575.98px){.gsbp-da860ad{padding-top:1.5rem;padding-bottom:1.5rem;padding-left:1rem;padding-right:1rem;}}","type":"inner","className":"tfgr-policy","localId":"gsbp-da860ad","styleAttributes":{"backgroundColor":["#faf8f4"],"paddingTop":["2.25rem",null,null,"1.5rem"],"paddingBottom":["2.25rem",null,null,"1.5rem"],"paddingLeft":["1.5rem",null,null,"1rem"],"paddingRight":["1.5rem",null,null,"1rem"]},"metadata":{"name":"Returns Policy"}} -->
+<div class="tfgr-policy gsbp-da860ad"><!-- wp:greenshift-blocks/element {"id":"gsbp-819e020","inlineCssStyles":".gsbp-819e020{padding-bottom:1.5rem;margin-bottom:2.25rem;border-bottom:2px solid #1d1f21;}","type":"inner","localId":"gsbp-819e020","styleAttributes":{"paddingBottom":["1.5rem"],"marginBottom":["2.25rem"],"borderBottom":["2px solid #1d1f21"]},"metadata":{"name":"Heading"}} -->
+<div class="gsbp-819e020"><!-- wp:greenshift-blocks/element {"id":"gsbp-d17717d","inlineCssStyles":".gsbp-d17717d{margin-top:0px;margin-bottom:0.44rem;font-weight:700;text-transform:uppercase;color:#a3231b;}","textContent":"Branch return policy statement","tag":"p","localId":"gsbp-d17717d","styleAttributes":{"marginTop":["0px"],"marginBottom":["0.44rem"],"fontWeight":["700"],"textTransform":["uppercase"],"color":["#a3231b"]}} -->
+<p class="gsbp-d17717d">Branch return policy statement</p>
+<!-- /wp:greenshift-blocks/element -->
+
+<!-- wp:greenshift-blocks/element {"id":"gsbp-0edafb4","inlineCssStyles":".gsbp-0edafb4{margin-top:0px;margin-bottom:0px;color:#1d1f21;}","textContent":"Returns","tag":"h2","localId":"gsbp-0edafb4","styleAttributes":{"marginTop":["0px"],"marginBottom":["0px"],"color":["#1d1f21"]}} -->
+<h2 class="gsbp-0edafb4">Returns</h2>
+<!-- /wp:greenshift-blocks/element --></div>
+<!-- /wp:greenshift-blocks/element -->
+
+<!-- wp:greenshift-blocks/element {"id":"gsbp-5a0d601","inlineCssStyles":".gsbp-5a0d601{display:grid;grid-template-columns:repeat(2, 1fr);column-gap:2.25rem;row-gap:2.25rem;align-items:start;}@media (max-width: 991.98px){.gsbp-5a0d601{grid-template-columns:repeat(1, 1fr);row-gap:0px;}}","type":"inner","localId":"gsbp-5a0d601","styleAttributes":{"display":["grid"],"gridTemplateColumns":["repeat(2, 1fr)","repeat(1, 1fr)"],"columnGap":["2.25rem"],"rowGap":["2.25rem","0px"],"alignItems":["start"]},"metadata":{"name":"Columns"}} -->
+<div class="gsbp-5a0d601"><!-- wp:greenshift-blocks/element {"id":"gsbp-011a25c","inlineCssStyles":".gsbp-011a25c{border-collapse:collapse;table-layout:fixed;}.gsbp-011a25c td{padding-top:1rem;padding-bottom:1rem;padding-right:1.5rem;padding-left:1.5rem;border-style:solid;border-width:1px;border-color:#d9d5cc;}.gsbp-011a25c{width:100%;margin-top:0px;margin-bottom:0px;background-color:#ffffff;color:#3a3d40;}.gsbp-011a25c td.tfgr-num{width:4.25rem;vertical-align:top;text-align:center;padding-left:0;padding-right:0;background-color:#f1ede5;color:#a3231b;font-weight:700;font-variant-numeric:tabular-nums;}.gsbp-011a25c td{vertical-align:top;}.gsbp-011a25c td p{margin-top:0;margin-bottom:0;}.gsbp-011a25c .tfgr-sub{list-style:none;margin:0.44rem 0 0 0;padding:0;}.gsbp-011a25c .tfgr-sub li{position:relative;margin:0;padding:0.2rem 0 0.2rem 1.25rem;}.gsbp-011a25c .tfgr-sub li::before{content:\u0022\u0022;position:absolute;left:0;top:calc(0.2rem + 0.5lh - 1px);width:0.6rem;height:2px;background-color:#a3231b;}@media (max-width: 575.98px){.gsbp-011a25c td.tfgr-num{width:3rem;}}","tag":"table","type":"inner","className":"tfgr-table","localId":"gsbp-011a25c","tableStyles":{"table":{"layout":"fixed","border":"collapse"},"td":{"paddingTop":["1rem"],"paddingBottom":["1rem"],"paddingRight":["1.5rem"],"paddingLeft":["1.5rem"],"borderStyle":"solid","borderWidth":"1px","borderColor":"#d9d5cc"}},"styleAttributes":{"width":["100%"],"marginTop":["0px"],"marginBottom":["0px"],"backgroundColor":["#ffffff"],"color":["#3a3d40"],"customCSS_Extra":"{CURRENT} td.tfgr-num{width:4.25rem;vertical-align:top;text-align:center;padding-left:0;padding-right:0;background-color:#f1ede5;color:#a3231b;font-weight:700;font-variant-numeric:tabular-nums;}{CURRENT} td{vertical-align:top;}{CURRENT} td p{margin-top:0;margin-bottom:0;}{CURRENT} .tfgr-sub{list-style:none;margin:0.44rem 0 0 0;padding:0;}{CURRENT} .tfgr-sub li{position:relative;margin:0;padding:0.2rem 0 0.2rem 1.25rem;}{CURRENT} .tfgr-sub li::before{content:\u0022\u0022;position:absolute;left:0;top:calc(0.2rem + 0.5lh - 1px);width:0.6rem;height:2px;background-color:#a3231b;}@media (max-width: 575.98px){{CURRENT} td.tfgr-num{width:3rem;}}"},"metadata":{"name":"Terms 01 to 07"}} -->
+<table class="tfgr-table gsbp-011a25c"><!-- wp:greenshift-blocks/element {"id":"gsbp-d3f50b0","tag":"tr","type":"inner","localId":"gsbp-d3f50b0","metadata":{"name":"Term 01"}} -->
+<tr><!-- wp:greenshift-blocks/element {"id":"gsbp-71203e4","tag":"td","type":"inner","className":"tfgr-num","localId":"gsbp-71203e4"} -->
+<td class="tfgr-num"><!-- wp:greenshift-blocks/element {"id":"gsbp-4c6a210","textContent":"01","tag":"span","localId":"gsbp-4c6a210"} -->
+<span>01</span>
+<!-- /wp:greenshift-blocks/element --></td>
+<!-- /wp:greenshift-blocks/element -->
+
+<!-- wp:greenshift-blocks/element {"id":"gsbp-50b2f87","tag":"td","type":"inner","localId":"gsbp-50b2f87"} -->
+<td><!-- wp:greenshift-blocks/element {"id":"gsbp-cd7bacb","textContent":"Items purchased from The Fastener Group Ltd. (TFG) may be returned or exchanged within 30 days of the invoice date at any TFG location, unless they are final sale.","tag":"p","localId":"gsbp-cd7bacb"} -->
+<p>Items purchased from The Fastener Group Ltd. (TFG) may be returned or exchanged within 30 days of the invoice date at any TFG location, unless they are final sale.</p>
+<!-- /wp:greenshift-blocks/element --></td>
+<!-- /wp:greenshift-blocks/element --></tr>
+<!-- /wp:greenshift-blocks/element -->
+
+<!-- wp:greenshift-blocks/element {"id":"gsbp-c0814c2","tag":"tr","type":"inner","localId":"gsbp-c0814c2","metadata":{"name":"Term 02"}} -->
+<tr><!-- wp:greenshift-blocks/element {"id":"gsbp-8225344","tag":"td","type":"inner","className":"tfgr-num","localId":"gsbp-8225344"} -->
+<td class="tfgr-num"><!-- wp:greenshift-blocks/element {"id":"gsbp-d46c14d","textContent":"02","tag":"span","localId":"gsbp-d46c14d"} -->
+<span>02</span>
+<!-- /wp:greenshift-blocks/element --></td>
+<!-- /wp:greenshift-blocks/element -->
+
+<!-- wp:greenshift-blocks/element {"id":"gsbp-4e87924","tag":"td","type":"inner","localId":"gsbp-4e87924"} -->
+<td><!-- wp:greenshift-blocks/element {"id":"gsbp-650b039","textContent":"A valid proof of purchase is required to qualify for a refund or exchange.","tag":"p","localId":"gsbp-650b039"} -->
+<p>A valid proof of purchase is required to qualify for a refund or exchange.</p>
+<!-- /wp:greenshift-blocks/element --></td>
+<!-- /wp:greenshift-blocks/element --></tr>
+<!-- /wp:greenshift-blocks/element -->
+
+<!-- wp:greenshift-blocks/element {"id":"gsbp-cfeacd7","tag":"tr","type":"inner","localId":"gsbp-cfeacd7","metadata":{"name":"Term 03"}} -->
+<tr><!-- wp:greenshift-blocks/element {"id":"gsbp-07a1d29","tag":"td","type":"inner","className":"tfgr-num","localId":"gsbp-07a1d29"} -->
+<td class="tfgr-num"><!-- wp:greenshift-blocks/element {"id":"gsbp-4e0820e","textContent":"03","tag":"span","localId":"gsbp-4e0820e"} -->
+<span>03</span>
+<!-- /wp:greenshift-blocks/element --></td>
+<!-- /wp:greenshift-blocks/element -->
+
+<!-- wp:greenshift-blocks/element {"id":"gsbp-7aa7ec1","tag":"td","type":"inner","localId":"gsbp-7aa7ec1"} -->
+<td><!-- wp:greenshift-blocks/element {"id":"gsbp-522f888","textContent":"Returned items must be unused, undamaged, in original packaging, and in saleable condition.","tag":"p","localId":"gsbp-522f888"} -->
+<p>Returned items must be unused, undamaged, in original packaging, and in saleable condition.</p>
+<!-- /wp:greenshift-blocks/element --></td>
+<!-- /wp:greenshift-blocks/element --></tr>
+<!-- /wp:greenshift-blocks/element -->
+
+<!-- wp:greenshift-blocks/element {"id":"gsbp-522c4fa","tag":"tr","type":"inner","localId":"gsbp-522c4fa","metadata":{"name":"Term 04"}} -->
+<tr><!-- wp:greenshift-blocks/element {"id":"gsbp-ad19b76","tag":"td","type":"inner","className":"tfgr-num","localId":"gsbp-ad19b76"} -->
+<td class="tfgr-num"><!-- wp:greenshift-blocks/element {"id":"gsbp-138bb09","textContent":"04","tag":"span","localId":"gsbp-138bb09"} -->
+<span>04</span>
+<!-- /wp:greenshift-blocks/element --></td>
+<!-- /wp:greenshift-blocks/element -->
+
+<!-- wp:greenshift-blocks/element {"id":"gsbp-2dcc0df","tag":"td","type":"inner","localId":"gsbp-2dcc0df"} -->
+<td><!-- wp:greenshift-blocks/element {"id":"gsbp-6bd237c","textContent":"All returns are subject to inspection and TFG approval. Returns after 30 days require approval from a Branch Manager or above.","tag":"p","localId":"gsbp-6bd237c"} -->
+<p>All returns are subject to inspection and TFG approval. Returns after 30 days require approval from a Branch Manager or above.</p>
+<!-- /wp:greenshift-blocks/element --></td>
+<!-- /wp:greenshift-blocks/element --></tr>
+<!-- /wp:greenshift-blocks/element -->
+
+<!-- wp:greenshift-blocks/element {"id":"gsbp-11384d5","tag":"tr","type":"inner","localId":"gsbp-11384d5","metadata":{"name":"Term 05"}} -->
+<tr><!-- wp:greenshift-blocks/element {"id":"gsbp-9f8a669","tag":"td","type":"inner","className":"tfgr-num","localId":"gsbp-9f8a669"} -->
+<td class="tfgr-num"><!-- wp:greenshift-blocks/element {"id":"gsbp-e39e420","textContent":"05","tag":"span","localId":"gsbp-e39e420"} -->
+<span>05</span>
+<!-- /wp:greenshift-blocks/element --></td>
+<!-- /wp:greenshift-blocks/element -->
+
+<!-- wp:greenshift-blocks/element {"id":"gsbp-a7e89ef","tag":"td","type":"inner","localId":"gsbp-a7e89ef"} -->
+<td><!-- wp:greenshift-blocks/element {"id":"gsbp-b992870","textContent":"Credit Account Customers must obtain an RMA number and include it on the waybill to ship returns to a TFG branch. All Cash Sale returns must be done in person.","tag":"p","localId":"gsbp-b992870"} -->
+<p>Credit Account Customers must obtain an RMA number and include it on the waybill to ship returns to a TFG branch. All Cash Sale returns must be done in person.</p>
+<!-- /wp:greenshift-blocks/element --></td>
+<!-- /wp:greenshift-blocks/element --></tr>
+<!-- /wp:greenshift-blocks/element -->
+
+<!-- wp:greenshift-blocks/element {"id":"gsbp-82f7d76","tag":"tr","type":"inner","localId":"gsbp-82f7d76","metadata":{"name":"Term 06"}} -->
+<tr><!-- wp:greenshift-blocks/element {"id":"gsbp-df548b3","tag":"td","type":"inner","className":"tfgr-num","localId":"gsbp-df548b3"} -->
+<td class="tfgr-num"><!-- wp:greenshift-blocks/element {"id":"gsbp-a519e7c","textContent":"06","tag":"span","localId":"gsbp-a519e7c"} -->
+<span>06</span>
+<!-- /wp:greenshift-blocks/element --></td>
+<!-- /wp:greenshift-blocks/element -->
+
+<!-- wp:greenshift-blocks/element {"id":"gsbp-323ac3c","tag":"td","type":"inner","localId":"gsbp-323ac3c"} -->
+<td><!-- wp:greenshift-blocks/element {"id":"gsbp-1390cf5","textContent":"Refunds will be issued to the original payment method after the return is received and approved. If the payment method was cash, the refund may be issued from A/R.","tag":"p","localId":"gsbp-1390cf5"} -->
+<p>Refunds will be issued to the original payment method after the return is received and approved. If the payment method was cash, the refund may be issued from A/R.</p>
+<!-- /wp:greenshift-blocks/element --></td>
+<!-- /wp:greenshift-blocks/element --></tr>
+<!-- /wp:greenshift-blocks/element -->
+
+<!-- wp:greenshift-blocks/element {"id":"gsbp-456eea6","tag":"tr","type":"inner","localId":"gsbp-456eea6","metadata":{"name":"Term 07"}} -->
+<tr><!-- wp:greenshift-blocks/element {"id":"gsbp-a61ba45","tag":"td","type":"inner","className":"tfgr-num","localId":"gsbp-a61ba45"} -->
+<td class="tfgr-num"><!-- wp:greenshift-blocks/element {"id":"gsbp-03dc225","textContent":"07","tag":"span","localId":"gsbp-03dc225"} -->
+<span>07</span>
+<!-- /wp:greenshift-blocks/element --></td>
+<!-- /wp:greenshift-blocks/element -->
+
+<!-- wp:greenshift-blocks/element {"id":"gsbp-e99fa81","tag":"td","type":"inner","localId":"gsbp-e99fa81"} -->
+<td><!-- wp:greenshift-blocks/element {"id":"gsbp-2461a48","textContent":"Customers must report shortages, incorrect items, or other shipping discrepancies within three business days of delivery. Claims reported after this period may be subject to additional review and approval.","tag":"p","localId":"gsbp-2461a48"} -->
+<p>Customers must report shortages, incorrect items, or other shipping discrepancies within three business days of delivery. Claims reported after this period may be subject to additional review and approval.</p>
+<!-- /wp:greenshift-blocks/element --></td>
+<!-- /wp:greenshift-blocks/element --></tr>
+<!-- /wp:greenshift-blocks/element --></table>
+<!-- /wp:greenshift-blocks/element -->
+
+<!-- wp:greenshift-blocks/element {"id":"gsbp-958b49d","inlineCssStyles":".gsbp-958b49d{border-collapse:collapse;table-layout:fixed;}.gsbp-958b49d td{padding-top:1rem;padding-bottom:1rem;padding-right:1.5rem;padding-left:1.5rem;border-style:solid;border-width:1px;border-color:#d9d5cc;}.gsbp-958b49d{width:100%;margin-top:0px;margin-bottom:0px;background-color:#ffffff;color:#3a3d40;}@media (max-width: 991.98px){.gsbp-958b49d{margin-top:-1px;}}.gsbp-958b49d td.tfgr-num{width:4.25rem;vertical-align:top;text-align:center;padding-left:0;padding-right:0;background-color:#f1ede5;color:#a3231b;font-weight:700;font-variant-numeric:tabular-nums;}.gsbp-958b49d td{vertical-align:top;}.gsbp-958b49d td p{margin-top:0;margin-bottom:0;}.gsbp-958b49d .tfgr-sub{list-style:none;margin:0.44rem 0 0 0;padding:0;}.gsbp-958b49d .tfgr-sub li{position:relative;margin:0;padding:0.2rem 0 0.2rem 1.25rem;}.gsbp-958b49d .tfgr-sub li::before{content:\u0022\u0022;position:absolute;left:0;top:calc(0.2rem + 0.5lh - 1px);width:0.6rem;height:2px;background-color:#a3231b;}@media (max-width: 575.98px){.gsbp-958b49d td.tfgr-num{width:3rem;}}","tag":"table","type":"inner","className":"tfgr-table","localId":"gsbp-958b49d","tableStyles":{"table":{"layout":"fixed","border":"collapse"},"td":{"paddingTop":["1rem"],"paddingBottom":["1rem"],"paddingRight":["1.5rem"],"paddingLeft":["1.5rem"],"borderStyle":"solid","borderWidth":"1px","borderColor":"#d9d5cc"}},"styleAttributes":{"width":["100%"],"marginTop":["0px","-1px"],"marginBottom":["0px"],"backgroundColor":["#ffffff"],"color":["#3a3d40"],"customCSS_Extra":"{CURRENT} td.tfgr-num{width:4.25rem;vertical-align:top;text-align:center;padding-left:0;padding-right:0;background-color:#f1ede5;color:#a3231b;font-weight:700;font-variant-numeric:tabular-nums;}{CURRENT} td{vertical-align:top;}{CURRENT} td p{margin-top:0;margin-bottom:0;}{CURRENT} .tfgr-sub{list-style:none;margin:0.44rem 0 0 0;padding:0;}{CURRENT} .tfgr-sub li{position:relative;margin:0;padding:0.2rem 0 0.2rem 1.25rem;}{CURRENT} .tfgr-sub li::before{content:\u0022\u0022;position:absolute;left:0;top:calc(0.2rem + 0.5lh - 1px);width:0.6rem;height:2px;background-color:#a3231b;}@media (max-width: 575.98px){{CURRENT} td.tfgr-num{width:3rem;}}"},"metadata":{"name":"Terms 08 to 11"}} -->
+<table class="tfgr-table gsbp-958b49d"><!-- wp:greenshift-blocks/element {"id":"gsbp-d392283","tag":"tr","type":"inner","localId":"gsbp-d392283","metadata":{"name":"Term 08"}} -->
+<tr><!-- wp:greenshift-blocks/element {"id":"gsbp-b7dc3ec","tag":"td","type":"inner","className":"tfgr-num","localId":"gsbp-b7dc3ec"} -->
+<td class="tfgr-num"><!-- wp:greenshift-blocks/element {"id":"gsbp-0b4da05","textContent":"08","tag":"span","localId":"gsbp-0b4da05"} -->
+<span>08</span>
+<!-- /wp:greenshift-blocks/element --></td>
+<!-- /wp:greenshift-blocks/element -->
+
+<!-- wp:greenshift-blocks/element {"id":"gsbp-72e517f","tag":"td","type":"inner","localId":"gsbp-72e517f"} -->
+<td><!-- wp:greenshift-blocks/element {"id":"gsbp-d090d5f","textContent":"If the return is not due to TFG error or a defective item, then:","tag":"p","localId":"gsbp-d090d5f"} -->
+<p>If the return is not due to TFG error or a defective item, then:</p>
+<!-- /wp:greenshift-blocks/element -->
+
+<!-- wp:greenshift-blocks/element {"id":"gsbp-a611928","tag":"ul","type":"inner","className":"tfgr-sub","localId":"gsbp-a611928"} -->
+<ul class="tfgr-sub"><!-- wp:greenshift-blocks/element {"id":"gsbp-701bcb2","textContent":"A restocking fee of up to 25% may apply, as determined by the Branch Manager.","tag":"li","localId":"gsbp-701bcb2"} -->
+<li>A restocking fee of up to 25% may apply, as determined by the Branch Manager.</li>
+<!-- /wp:greenshift-blocks/element -->
+
+<!-- wp:greenshift-blocks/element {"id":"gsbp-e3aa326","textContent":"The customer is responsible for return freight charges.","tag":"li","localId":"gsbp-e3aa326"} -->
+<li>The customer is responsible for return freight charges.</li>
+<!-- /wp:greenshift-blocks/element --></ul>
+<!-- /wp:greenshift-blocks/element --></td>
+<!-- /wp:greenshift-blocks/element --></tr>
+<!-- /wp:greenshift-blocks/element -->
+
+<!-- wp:greenshift-blocks/element {"id":"gsbp-770233e","tag":"tr","type":"inner","localId":"gsbp-770233e","metadata":{"name":"Term 09"}} -->
+<tr><!-- wp:greenshift-blocks/element {"id":"gsbp-8170c64","tag":"td","type":"inner","className":"tfgr-num","localId":"gsbp-8170c64"} -->
+<td class="tfgr-num"><!-- wp:greenshift-blocks/element {"id":"gsbp-2691707","textContent":"09","tag":"span","localId":"gsbp-2691707"} -->
+<span>09</span>
+<!-- /wp:greenshift-blocks/element --></td>
+<!-- /wp:greenshift-blocks/element -->
+
+<!-- wp:greenshift-blocks/element {"id":"gsbp-24778f0","tag":"td","type":"inner","localId":"gsbp-24778f0"} -->
+<td><!-- wp:greenshift-blocks/element {"id":"gsbp-adba6ce","textContent":"Final sale items cannot be returned or exchanged, including:","tag":"p","localId":"gsbp-adba6ce"} -->
+<p>Final sale items cannot be returned or exchanged, including:</p>
+<!-- /wp:greenshift-blocks/element -->
+
+<!-- wp:greenshift-blocks/element {"id":"gsbp-51c976f","tag":"ul","type":"inner","className":"tfgr-sub","localId":"gsbp-51c976f"} -->
+<ul class="tfgr-sub"><!-- wp:greenshift-blocks/element {"id":"gsbp-d27ba1b","textContent":"Special orders.","tag":"li","localId":"gsbp-d27ba1b"} -->
+<li>Special orders.</li>
+<!-- /wp:greenshift-blocks/element -->
+
+<!-- wp:greenshift-blocks/element {"id":"gsbp-11993cd","textContent":"Hygienic and emergency response items.","tag":"li","localId":"gsbp-11993cd"} -->
+<li>Hygienic and emergency response items.</li>
+<!-- /wp:greenshift-blocks/element -->
+
+<!-- wp:greenshift-blocks/element {"id":"gsbp-46bf660","textContent":"Safety products with open packaging.","tag":"li","localId":"gsbp-46bf660"} -->
+<li>Safety products with open packaging.</li>
+<!-- /wp:greenshift-blocks/element -->
+
+<!-- wp:greenshift-blocks/element {"id":"gsbp-d982d8c","textContent":"Clearance items.","tag":"li","localId":"gsbp-d982d8c"} -->
+<li>Clearance items.</li>
+<!-- /wp:greenshift-blocks/element -->
+
+<!-- wp:greenshift-blocks/element {"id":"gsbp-4576b73","textContent":"Any other items designated by TFG as final sale.","tag":"li","localId":"gsbp-4576b73"} -->
+<li>Any other items designated by TFG as final sale.</li>
+<!-- /wp:greenshift-blocks/element --></ul>
+<!-- /wp:greenshift-blocks/element --></td>
+<!-- /wp:greenshift-blocks/element --></tr>
+<!-- /wp:greenshift-blocks/element -->
+
+<!-- wp:greenshift-blocks/element {"id":"gsbp-4072e3e","tag":"tr","type":"inner","localId":"gsbp-4072e3e","metadata":{"name":"Term 10"}} -->
+<tr><!-- wp:greenshift-blocks/element {"id":"gsbp-5a575b1","tag":"td","type":"inner","className":"tfgr-num","localId":"gsbp-5a575b1"} -->
+<td class="tfgr-num"><!-- wp:greenshift-blocks/element {"id":"gsbp-46501e2","textContent":"10","tag":"span","localId":"gsbp-46501e2"} -->
+<span>10</span>
+<!-- /wp:greenshift-blocks/element --></td>
+<!-- /wp:greenshift-blocks/element -->
+
+<!-- wp:greenshift-blocks/element {"id":"gsbp-53fd7db","tag":"td","type":"inner","localId":"gsbp-53fd7db"} -->
+<td><!-- wp:greenshift-blocks/element {"id":"gsbp-649135c","textContent":"Returns may be accepted when covered by a vendor’s customer satisfaction guarantee or policy, subject to the vendor’s applicable terms and conditions.","tag":"p","localId":"gsbp-649135c"} -->
+<p>Returns may be accepted when covered by a vendor’s customer satisfaction guarantee or policy, subject to the vendor’s applicable terms and conditions.</p>
+<!-- /wp:greenshift-blocks/element --></td>
+<!-- /wp:greenshift-blocks/element --></tr>
+<!-- /wp:greenshift-blocks/element -->
+
+<!-- wp:greenshift-blocks/element {"id":"gsbp-107ab39","tag":"tr","type":"inner","localId":"gsbp-107ab39","metadata":{"name":"Term 11"}} -->
+<tr><!-- wp:greenshift-blocks/element {"id":"gsbp-ac482a3","tag":"td","type":"inner","className":"tfgr-num","localId":"gsbp-ac482a3"} -->
+<td class="tfgr-num"><!-- wp:greenshift-blocks/element {"id":"gsbp-4cf75e3","textContent":"11","tag":"span","localId":"gsbp-4cf75e3"} -->
+<span>11</span>
+<!-- /wp:greenshift-blocks/element --></td>
+<!-- /wp:greenshift-blocks/element -->
+
+<!-- wp:greenshift-blocks/element {"id":"gsbp-21082c3","tag":"td","type":"inner","localId":"gsbp-21082c3"} -->
+<td><!-- wp:greenshift-blocks/element {"id":"gsbp-8cf9dc2","textContent":"Products are subject solely to the manufacturer’s warranty, if any, and warranty claims are not considered standard returns.","tag":"p","localId":"gsbp-8cf9dc2"} -->
+<p>Products are subject solely to the manufacturer’s warranty, if any, and warranty claims are not considered standard returns.</p>
+<!-- /wp:greenshift-blocks/element --></td>
+<!-- /wp:greenshift-blocks/element --></tr>
+<!-- /wp:greenshift-blocks/element --></table>
+<!-- /wp:greenshift-blocks/element --></div>
+<!-- /wp:greenshift-blocks/element --></div>
+<!-- /wp:greenshift-blocks/element -->
