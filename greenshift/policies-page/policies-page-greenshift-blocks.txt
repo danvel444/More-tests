@@ -1,0 +1,948 @@
+<!-- wp:greenshift-blocks/row {"id":"gsbp-7eecdd8","align":"full","gutterClassName":"gspb_row--gutter-custom-0","rowLayout":"2","columnPosition":"center","displayStyles":false,"background":{"color":["#6d1216","#6d1216","#6d1216","#6d1216"]},"overlay":{"image":["http://thefastenergroup.com/wp-content/uploads/2026/02/Background-3.svg"],"size":["cover"],"opacity":0.09},"spacing":{"margin":{"values":{"bottom":["120px"]},"locked":false},"padding":{"values":{"top":["200px"]},"locked":false}},"gutterGap":["50px",null,null,null],"blockWidth":{"customWidth":{"value":[]},"customHeight":{"value":[]},"heightType":"custom","minHeight":["500px"]},"isVariation":""} -->
+<div class="wp-block-greenshift-blocks-row alignfull gspb_row gspb_row-id-gsbp-7eecdd8 gspb_row--gutter-custom-0" id="gspb_row-id-gsbp-7eecdd8"><div class="gspb_backgroundOverlay"></div><div class="gspb_row__content"> <!-- wp:greenshift-blocks/row-column {"id":"gsbp-de0342e","gutterclass":"gspb_row--gutter-custom-0","gutterGap":["50px",null,null,null],"columnSize":"6"} -->
+<div class="wp-block-greenshift-blocks-row-column gspb_row__col--6 gspb_col-id-gsbp-de0342e" id="gspb_col-id-gsbp-de0342e"><!-- wp:greenshift-blocks/heading {"id":"gsbp-a22facd","headingContent":"Policies and Terms","spacing":{"margin":{"values":{"top":[0],"bottom":["40px","20px"]},"locked":false},"padding":{"values":[],"locked":false}},"typography":{"textShadow":[],"color":"#ffffff","size":["70px","50px",null,"35px"],"line_height":["1.2em"],"alignment":[null,"center"]}} -->
+<h2 id="gspb_heading-id-gsbp-a22facd" class="gspb_heading gspb_heading-id-gsbp-a22facd ">Policies and Terms</h2>
+<!-- /wp:greenshift-blocks/heading --></div>
+<!-- /wp:greenshift-blocks/row-column -->
+
+<!-- wp:greenshift-blocks/row-column {"id":"gsbp-605e235","gutterclass":"gspb_row--gutter-custom-0","gutterGap":["50px",null,null,null],"columnSize":"6"} -->
+<div class="wp-block-greenshift-blocks-row-column gspb_row__col--6 gspb_col-id-gsbp-605e235" id="gspb_col-id-gsbp-605e235"><!-- wp:greenshift-blocks/text {"id":"gsbp-6145b27","textContent":"Important information about purchasing from The Fastener Group","typography":{"textShadow":[],"color":"var(--wp--preset--color--palette-color-8, var(--theme-palette-color-8, #ffffff))"}} -->
+<div id="gspb_text-id-gsbp-6145b27" class="gspb_text gspb_text-id-gsbp-6145b27 ">Important information about purchasing from The Fastener Group</div>
+<!-- /wp:greenshift-blocks/text --></div>
+<!-- /wp:greenshift-blocks/row-column --> </div></div>
+<!-- /wp:greenshift-blocks/row -->
+
+<!-- wp:greenshift-blocks/element {"id":"gsbp-58386a6","inlineCssStyles":".gsbp-58386a6{display:flex;flex-direction:column;row-gap:3.38rem;}@media (max-width: 991.98px){.gsbp-58386a6{row-gap:2.25rem;}}.gsbp-58386a6 [id]{scroll-margin-top:7rem;}","type":"inner","className":"tfgr-page","localId":"gsbp-58386a6","styleAttributes":{"display":["flex"],"flexDirection":["column"],"rowGap":["3.38rem","2.25rem"],"customCSS_Extra":"{CURRENT} [id]{scroll-margin-top:7rem;}"},"metadata":{"name":"Policies"}} -->
+<div class="tfgr-page gsbp-58386a6"><!-- wp:greenshift-blocks/element {"id":"gsbp-5068880","inlineCssStyles":".gsbp-5068880{display:grid;grid-template-columns:repeat(3, 1fr);column-gap:1px;row-gap:1px;background-color:#d9d5cc;border:1px solid #d9d5cc;}@media (max-width: 991.98px){.gsbp-5068880{grid-template-columns:repeat(1, 1fr);}}.gsbp-5068880 .tfgr-idx-card{display:flex;align-items:stretch;background-color:#ffffff;color:#3a3d40;text-decoration:none;transition:background-color .2s;}.gsbp-5068880 .tfgr-idx-card:hover{background-color:#f1ede5;}.gsbp-5068880 .tfgr-idx-card:focus-visible{outline:2px solid #a3231b;outline-offset:-2px;}.gsbp-5068880 .tfgr-idx-num{flex:0 0 4.25rem;text-align:center;padding-top:1rem;background-color:#f1ede5;border-right:1px solid #d9d5cc;color:#a3231b;font-weight:700;font-variant-numeric:tabular-nums;}.gsbp-5068880 .tfgr-idx-body{flex:1 1 auto;padding:1rem 1.5rem;}.gsbp-5068880 .tfgr-idx-title{margin:0;font-weight:700;color:#1d1f21;}.gsbp-5068880 .tfgr-idx-desc{margin:0.2rem 0 0 0;}.gsbp-5068880 .tfgr-idx-view{margin:0.6rem 0 0 0;font-weight:700;color:#a3231b;}.gsbp-5068880 .tfgr-idx-view::after{content:\u0022 \\2192\u0022;}.gsbp-5068880 .tfgr-idx-card:hover .tfgr-idx-view{text-decoration:underline;}@media (max-width: 575.98px){.gsbp-5068880 .tfgr-idx-num{flex-basis:3rem;}}","type":"inner","localId":"gsbp-5068880","styleAttributes":{"display":["grid"],"gridTemplateColumns":["repeat(3, 1fr)","repeat(1, 1fr)"],"columnGap":["1px"],"rowGap":["1px"],"backgroundColor":["#d9d5cc"],"border":["1px solid #d9d5cc"],"customCSS_Extra":"{CURRENT} .tfgr-idx-card{display:flex;align-items:stretch;background-color:#ffffff;color:#3a3d40;text-decoration:none;transition:background-color .2s;}{CURRENT} .tfgr-idx-card:hover{background-color:#f1ede5;}{CURRENT} .tfgr-idx-card:focus-visible{outline:2px solid #a3231b;outline-offset:-2px;}{CURRENT} .tfgr-idx-num{flex:0 0 4.25rem;text-align:center;padding-top:1rem;background-color:#f1ede5;border-right:1px solid #d9d5cc;color:#a3231b;font-weight:700;font-variant-numeric:tabular-nums;}{CURRENT} .tfgr-idx-body{flex:1 1 auto;padding:1rem 1.5rem;}{CURRENT} .tfgr-idx-title{margin:0;font-weight:700;color:#1d1f21;}{CURRENT} .tfgr-idx-desc{margin:0.2rem 0 0 0;}{CURRENT} .tfgr-idx-view{margin:0.6rem 0 0 0;font-weight:700;color:#a3231b;}{CURRENT} .tfgr-idx-view::after{content:\u0022 \\2192\u0022;}{CURRENT} .tfgr-idx-card:hover .tfgr-idx-view{text-decoration:underline;}@media (max-width: 575.98px){{CURRENT} .tfgr-idx-num{flex-basis:3rem;}}"},"metadata":{"name":"Policy Index"}} -->
+<div class="gsbp-5068880"><!-- wp:greenshift-blocks/element {"id":"gsbp-b781887","tag":"a","type":"inner","className":"tfgr-idx-card","localId":"gsbp-b781887","href":"#returns","metadata":{"name":"Returns"}} -->
+<a class="tfgr-idx-card" href="#returns"><!-- wp:greenshift-blocks/element {"id":"gsbp-3c30d61","textContent":"01","tag":"span","className":"tfgr-idx-num","localId":"gsbp-3c30d61"} -->
+<span class="tfgr-idx-num">01</span>
+<!-- /wp:greenshift-blocks/element -->
+
+<!-- wp:greenshift-blocks/element {"id":"gsbp-603e7a8","type":"inner","className":"tfgr-idx-body","localId":"gsbp-603e7a8"} -->
+<div class="tfgr-idx-body"><!-- wp:greenshift-blocks/element {"id":"gsbp-1cd4d2a","textContent":"Returns","tag":"p","className":"tfgr-idx-title","localId":"gsbp-1cd4d2a"} -->
+<p class="tfgr-idx-title">Returns</p>
+<!-- /wp:greenshift-blocks/element -->
+
+<!-- wp:greenshift-blocks/element {"id":"gsbp-c7456d4","textContent":"Branch Return Policy Statement","tag":"p","className":"tfgr-idx-desc","localId":"gsbp-c7456d4"} -->
+<p class="tfgr-idx-desc">Branch Return Policy Statement</p>
+<!-- /wp:greenshift-blocks/element -->
+
+<!-- wp:greenshift-blocks/element {"id":"gsbp-011e67f","textContent":"View","tag":"p","className":"tfgr-idx-view","localId":"gsbp-011e67f"} -->
+<p class="tfgr-idx-view">View</p>
+<!-- /wp:greenshift-blocks/element --></div>
+<!-- /wp:greenshift-blocks/element --></a>
+<!-- /wp:greenshift-blocks/element -->
+
+<!-- wp:greenshift-blocks/element {"id":"gsbp-ce13b9d","tag":"a","type":"inner","className":"tfgr-idx-card","localId":"gsbp-ce13b9d","href":"#special-orders","metadata":{"name":"Special Orders"}} -->
+<a class="tfgr-idx-card" href="#special-orders"><!-- wp:greenshift-blocks/element {"id":"gsbp-da9bec1","textContent":"02","tag":"span","className":"tfgr-idx-num","localId":"gsbp-da9bec1"} -->
+<span class="tfgr-idx-num">02</span>
+<!-- /wp:greenshift-blocks/element -->
+
+<!-- wp:greenshift-blocks/element {"id":"gsbp-d0a4702","type":"inner","className":"tfgr-idx-body","localId":"gsbp-d0a4702"} -->
+<div class="tfgr-idx-body"><!-- wp:greenshift-blocks/element {"id":"gsbp-8cbb1ac","textContent":"Special Orders","tag":"p","className":"tfgr-idx-title","localId":"gsbp-8cbb1ac"} -->
+<p class="tfgr-idx-title">Special Orders</p>
+<!-- /wp:greenshift-blocks/element -->
+
+<!-- wp:greenshift-blocks/element {"id":"gsbp-dceeb9e","textContent":"Branch Special Order Policy Statement","tag":"p","className":"tfgr-idx-desc","localId":"gsbp-dceeb9e"} -->
+<p class="tfgr-idx-desc">Branch Special Order Policy Statement</p>
+<!-- /wp:greenshift-blocks/element -->
+
+<!-- wp:greenshift-blocks/element {"id":"gsbp-e7717f6","textContent":"View","tag":"p","className":"tfgr-idx-view","localId":"gsbp-e7717f6"} -->
+<p class="tfgr-idx-view">View</p>
+<!-- /wp:greenshift-blocks/element --></div>
+<!-- /wp:greenshift-blocks/element --></a>
+<!-- /wp:greenshift-blocks/element -->
+
+<!-- wp:greenshift-blocks/element {"id":"gsbp-8d1b47d","tag":"a","type":"inner","className":"tfgr-idx-card","localId":"gsbp-8d1b47d","href":"#terms-of-sale","metadata":{"name":"Terms of Sale"}} -->
+<a class="tfgr-idx-card" href="#terms-of-sale"><!-- wp:greenshift-blocks/element {"id":"gsbp-7609548","textContent":"03","tag":"span","className":"tfgr-idx-num","localId":"gsbp-7609548"} -->
+<span class="tfgr-idx-num">03</span>
+<!-- /wp:greenshift-blocks/element -->
+
+<!-- wp:greenshift-blocks/element {"id":"gsbp-678ab3d","type":"inner","className":"tfgr-idx-body","localId":"gsbp-678ab3d"} -->
+<div class="tfgr-idx-body"><!-- wp:greenshift-blocks/element {"id":"gsbp-7bcd382","textContent":"Terms of Sale","tag":"p","className":"tfgr-idx-title","localId":"gsbp-7bcd382"} -->
+<p class="tfgr-idx-title">Terms of Sale</p>
+<!-- /wp:greenshift-blocks/element -->
+
+<!-- wp:greenshift-blocks/element {"id":"gsbp-7c61356","textContent":"General Terms of Sale and Customer Account Conditions","tag":"p","className":"tfgr-idx-desc","localId":"gsbp-7c61356"} -->
+<p class="tfgr-idx-desc">General Terms of Sale and Customer Account Conditions</p>
+<!-- /wp:greenshift-blocks/element -->
+
+<!-- wp:greenshift-blocks/element {"id":"gsbp-c8167d7","textContent":"View","tag":"p","className":"tfgr-idx-view","localId":"gsbp-c8167d7"} -->
+<p class="tfgr-idx-view">View</p>
+<!-- /wp:greenshift-blocks/element --></div>
+<!-- /wp:greenshift-blocks/element --></a>
+<!-- /wp:greenshift-blocks/element --></div>
+<!-- /wp:greenshift-blocks/element -->
+
+<!-- wp:greenshift-blocks/element {"id":"gsbp-da860ad","anchor":"returns","inlineCssStyles":".gsbp-da860ad{background-color:#faf8f4;padding-top:2.25rem;padding-bottom:2.25rem;padding-left:1.5rem;padding-right:1.5rem;}@media (max-width: 575.98px){.gsbp-da860ad{padding-top:1.5rem;padding-bottom:1.5rem;padding-left:1rem;padding-right:1rem;}}","type":"inner","className":"tfgr-policy","localId":"gsbp-da860ad","styleAttributes":{"backgroundColor":["#faf8f4"],"paddingTop":["2.25rem",null,null,"1.5rem"],"paddingBottom":["2.25rem",null,null,"1.5rem"],"paddingLeft":["1.5rem",null,null,"1rem"],"paddingRight":["1.5rem",null,null,"1rem"]},"metadata":{"name":"Returns Policy"}} -->
+<div class="tfgr-policy gsbp-da860ad" id="returns"><!-- wp:greenshift-blocks/element {"id":"gsbp-819e020","inlineCssStyles":".gsbp-819e020{padding-bottom:1.5rem;margin-bottom:2.25rem;border-bottom:2px solid #1d1f21;}","type":"inner","localId":"gsbp-819e020","styleAttributes":{"paddingBottom":["1.5rem"],"marginBottom":["2.25rem"],"borderBottom":["2px solid #1d1f21"]},"metadata":{"name":"Heading"}} -->
+<div class="gsbp-819e020"><!-- wp:greenshift-blocks/element {"id":"gsbp-d17717d","inlineCssStyles":".gsbp-d17717d{margin-top:0px;margin-bottom:0.44rem;font-weight:700;text-transform:uppercase;color:#a3231b;}","textContent":"Branch return policy statement","tag":"p","localId":"gsbp-d17717d","styleAttributes":{"marginTop":["0px"],"marginBottom":["0.44rem"],"fontWeight":["700"],"textTransform":["uppercase"],"color":["#a3231b"]}} -->
+<p class="gsbp-d17717d">Branch return policy statement</p>
+<!-- /wp:greenshift-blocks/element -->
+
+<!-- wp:greenshift-blocks/element {"id":"gsbp-0edafb4","inlineCssStyles":".gsbp-0edafb4{margin-top:0px;margin-bottom:0px;color:#1d1f21;}","textContent":"Returns","tag":"h2","localId":"gsbp-0edafb4","styleAttributes":{"marginTop":["0px"],"marginBottom":["0px"],"color":["#1d1f21"]}} -->
+<h2 class="gsbp-0edafb4">Returns</h2>
+<!-- /wp:greenshift-blocks/element --></div>
+<!-- /wp:greenshift-blocks/element -->
+
+<!-- wp:greenshift-blocks/element {"id":"gsbp-5a0d601","inlineCssStyles":".gsbp-5a0d601{display:grid;grid-template-columns:repeat(2, 1fr);column-gap:2.25rem;row-gap:2.25rem;align-items:start;}@media (max-width: 991.98px){.gsbp-5a0d601{grid-template-columns:repeat(1, 1fr);row-gap:0px;}}","type":"inner","localId":"gsbp-5a0d601","styleAttributes":{"display":["grid"],"gridTemplateColumns":["repeat(2, 1fr)","repeat(1, 1fr)"],"columnGap":["2.25rem"],"rowGap":["2.25rem","0px"],"alignItems":["start"]},"metadata":{"name":"Columns"}} -->
+<div class="gsbp-5a0d601"><!-- wp:greenshift-blocks/element {"id":"gsbp-011a25c","inlineCssStyles":".gsbp-011a25c{border-collapse:collapse;table-layout:fixed;}.gsbp-011a25c td{padding-top:1rem;padding-bottom:1rem;padding-right:1.5rem;padding-left:1.5rem;border-style:solid;border-width:1px;border-color:#d9d5cc;}.gsbp-011a25c{width:100%;margin-top:0px;margin-bottom:0px;background-color:#ffffff;color:#3a3d40;}.gsbp-011a25c td.tfgr-num{width:4.25rem;vertical-align:top;text-align:center;padding-left:0;padding-right:0;background-color:#f1ede5;color:#a3231b;font-weight:700;font-variant-numeric:tabular-nums;}.gsbp-011a25c td{vertical-align:top;}.gsbp-011a25c td p{margin-top:0;margin-bottom:0;}.gsbp-011a25c .tfgr-sub{list-style:none;margin:0.44rem 0 0 0;padding:0;}.gsbp-011a25c .tfgr-sub li{position:relative;margin:0;padding:0.2rem 0 0.2rem 1.25rem;}.gsbp-011a25c .tfgr-sub li::before{content:\u0022\u0022;position:absolute;left:0;top:calc(0.2rem + 0.5lh - 1px);width:0.6rem;height:2px;background-color:#a3231b;}@media (max-width: 575.98px){.gsbp-011a25c td.tfgr-num{width:3rem;}}","tag":"table","type":"inner","className":"tfgr-table","localId":"gsbp-011a25c","tableStyles":{"table":{"layout":"fixed","border":"collapse"},"td":{"paddingTop":["1rem"],"paddingBottom":["1rem"],"paddingRight":["1.5rem"],"paddingLeft":["1.5rem"],"borderStyle":"solid","borderWidth":"1px","borderColor":"#d9d5cc"}},"styleAttributes":{"width":["100%"],"marginTop":["0px"],"marginBottom":["0px"],"backgroundColor":["#ffffff"],"color":["#3a3d40"],"customCSS_Extra":"{CURRENT} td.tfgr-num{width:4.25rem;vertical-align:top;text-align:center;padding-left:0;padding-right:0;background-color:#f1ede5;color:#a3231b;font-weight:700;font-variant-numeric:tabular-nums;}{CURRENT} td{vertical-align:top;}{CURRENT} td p{margin-top:0;margin-bottom:0;}{CURRENT} .tfgr-sub{list-style:none;margin:0.44rem 0 0 0;padding:0;}{CURRENT} .tfgr-sub li{position:relative;margin:0;padding:0.2rem 0 0.2rem 1.25rem;}{CURRENT} .tfgr-sub li::before{content:\u0022\u0022;position:absolute;left:0;top:calc(0.2rem + 0.5lh - 1px);width:0.6rem;height:2px;background-color:#a3231b;}@media (max-width: 575.98px){{CURRENT} td.tfgr-num{width:3rem;}}"},"metadata":{"name":"Terms 01 to 07"}} -->
+<table class="tfgr-table gsbp-011a25c"><!-- wp:greenshift-blocks/element {"id":"gsbp-d3f50b0","tag":"tr","type":"inner","localId":"gsbp-d3f50b0","metadata":{"name":"Term 01"}} -->
+<tr><!-- wp:greenshift-blocks/element {"id":"gsbp-71203e4","tag":"td","type":"inner","className":"tfgr-num","localId":"gsbp-71203e4"} -->
+<td class="tfgr-num"><!-- wp:greenshift-blocks/element {"id":"gsbp-4c6a210","textContent":"01","tag":"span","localId":"gsbp-4c6a210"} -->
+<span>01</span>
+<!-- /wp:greenshift-blocks/element --></td>
+<!-- /wp:greenshift-blocks/element -->
+
+<!-- wp:greenshift-blocks/element {"id":"gsbp-50b2f87","tag":"td","type":"inner","localId":"gsbp-50b2f87"} -->
+<td><!-- wp:greenshift-blocks/element {"id":"gsbp-cd7bacb","textContent":"Items purchased from The Fastener Group Ltd. (TFG) may be returned or exchanged within 30 days of the invoice date at any TFG location, unless they are final sale.","tag":"p","localId":"gsbp-cd7bacb"} -->
+<p>Items purchased from The Fastener Group Ltd. (TFG) may be returned or exchanged within 30 days of the invoice date at any TFG location, unless they are final sale.</p>
+<!-- /wp:greenshift-blocks/element --></td>
+<!-- /wp:greenshift-blocks/element --></tr>
+<!-- /wp:greenshift-blocks/element -->
+
+<!-- wp:greenshift-blocks/element {"id":"gsbp-c0814c2","tag":"tr","type":"inner","localId":"gsbp-c0814c2","metadata":{"name":"Term 02"}} -->
+<tr><!-- wp:greenshift-blocks/element {"id":"gsbp-8225344","tag":"td","type":"inner","className":"tfgr-num","localId":"gsbp-8225344"} -->
+<td class="tfgr-num"><!-- wp:greenshift-blocks/element {"id":"gsbp-d46c14d","textContent":"02","tag":"span","localId":"gsbp-d46c14d"} -->
+<span>02</span>
+<!-- /wp:greenshift-blocks/element --></td>
+<!-- /wp:greenshift-blocks/element -->
+
+<!-- wp:greenshift-blocks/element {"id":"gsbp-4e87924","tag":"td","type":"inner","localId":"gsbp-4e87924"} -->
+<td><!-- wp:greenshift-blocks/element {"id":"gsbp-650b039","textContent":"A valid proof of purchase is required to qualify for a refund or exchange.","tag":"p","localId":"gsbp-650b039"} -->
+<p>A valid proof of purchase is required to qualify for a refund or exchange.</p>
+<!-- /wp:greenshift-blocks/element --></td>
+<!-- /wp:greenshift-blocks/element --></tr>
+<!-- /wp:greenshift-blocks/element -->
+
+<!-- wp:greenshift-blocks/element {"id":"gsbp-cfeacd7","tag":"tr","type":"inner","localId":"gsbp-cfeacd7","metadata":{"name":"Term 03"}} -->
+<tr><!-- wp:greenshift-blocks/element {"id":"gsbp-07a1d29","tag":"td","type":"inner","className":"tfgr-num","localId":"gsbp-07a1d29"} -->
+<td class="tfgr-num"><!-- wp:greenshift-blocks/element {"id":"gsbp-4e0820e","textContent":"03","tag":"span","localId":"gsbp-4e0820e"} -->
+<span>03</span>
+<!-- /wp:greenshift-blocks/element --></td>
+<!-- /wp:greenshift-blocks/element -->
+
+<!-- wp:greenshift-blocks/element {"id":"gsbp-7aa7ec1","tag":"td","type":"inner","localId":"gsbp-7aa7ec1"} -->
+<td><!-- wp:greenshift-blocks/element {"id":"gsbp-522f888","textContent":"Returned items must be unused, undamaged, in original packaging, and in saleable condition.","tag":"p","localId":"gsbp-522f888"} -->
+<p>Returned items must be unused, undamaged, in original packaging, and in saleable condition.</p>
+<!-- /wp:greenshift-blocks/element --></td>
+<!-- /wp:greenshift-blocks/element --></tr>
+<!-- /wp:greenshift-blocks/element -->
+
+<!-- wp:greenshift-blocks/element {"id":"gsbp-522c4fa","tag":"tr","type":"inner","localId":"gsbp-522c4fa","metadata":{"name":"Term 04"}} -->
+<tr><!-- wp:greenshift-blocks/element {"id":"gsbp-ad19b76","tag":"td","type":"inner","className":"tfgr-num","localId":"gsbp-ad19b76"} -->
+<td class="tfgr-num"><!-- wp:greenshift-blocks/element {"id":"gsbp-138bb09","textContent":"04","tag":"span","localId":"gsbp-138bb09"} -->
+<span>04</span>
+<!-- /wp:greenshift-blocks/element --></td>
+<!-- /wp:greenshift-blocks/element -->
+
+<!-- wp:greenshift-blocks/element {"id":"gsbp-2dcc0df","tag":"td","type":"inner","localId":"gsbp-2dcc0df"} -->
+<td><!-- wp:greenshift-blocks/element {"id":"gsbp-6bd237c","textContent":"All returns are subject to inspection and TFG approval. Returns after 30 days require approval from a Branch Manager or above.","tag":"p","localId":"gsbp-6bd237c"} -->
+<p>All returns are subject to inspection and TFG approval. Returns after 30 days require approval from a Branch Manager or above.</p>
+<!-- /wp:greenshift-blocks/element --></td>
+<!-- /wp:greenshift-blocks/element --></tr>
+<!-- /wp:greenshift-blocks/element -->
+
+<!-- wp:greenshift-blocks/element {"id":"gsbp-11384d5","tag":"tr","type":"inner","localId":"gsbp-11384d5","metadata":{"name":"Term 05"}} -->
+<tr><!-- wp:greenshift-blocks/element {"id":"gsbp-9f8a669","tag":"td","type":"inner","className":"tfgr-num","localId":"gsbp-9f8a669"} -->
+<td class="tfgr-num"><!-- wp:greenshift-blocks/element {"id":"gsbp-e39e420","textContent":"05","tag":"span","localId":"gsbp-e39e420"} -->
+<span>05</span>
+<!-- /wp:greenshift-blocks/element --></td>
+<!-- /wp:greenshift-blocks/element -->
+
+<!-- wp:greenshift-blocks/element {"id":"gsbp-a7e89ef","tag":"td","type":"inner","localId":"gsbp-a7e89ef"} -->
+<td><!-- wp:greenshift-blocks/element {"id":"gsbp-b992870","textContent":"Credit Account Customers must obtain an RMA number and include it on the waybill to ship returns to a TFG branch. All Cash Sale returns must be done in person.","tag":"p","localId":"gsbp-b992870"} -->
+<p>Credit Account Customers must obtain an RMA number and include it on the waybill to ship returns to a TFG branch. All Cash Sale returns must be done in person.</p>
+<!-- /wp:greenshift-blocks/element --></td>
+<!-- /wp:greenshift-blocks/element --></tr>
+<!-- /wp:greenshift-blocks/element -->
+
+<!-- wp:greenshift-blocks/element {"id":"gsbp-82f7d76","tag":"tr","type":"inner","localId":"gsbp-82f7d76","metadata":{"name":"Term 06"}} -->
+<tr><!-- wp:greenshift-blocks/element {"id":"gsbp-df548b3","tag":"td","type":"inner","className":"tfgr-num","localId":"gsbp-df548b3"} -->
+<td class="tfgr-num"><!-- wp:greenshift-blocks/element {"id":"gsbp-a519e7c","textContent":"06","tag":"span","localId":"gsbp-a519e7c"} -->
+<span>06</span>
+<!-- /wp:greenshift-blocks/element --></td>
+<!-- /wp:greenshift-blocks/element -->
+
+<!-- wp:greenshift-blocks/element {"id":"gsbp-323ac3c","tag":"td","type":"inner","localId":"gsbp-323ac3c"} -->
+<td><!-- wp:greenshift-blocks/element {"id":"gsbp-1390cf5","textContent":"Refunds will be issued to the original payment method after the return is received and approved. If the payment method was cash, the refund may be issued from A/R.","tag":"p","localId":"gsbp-1390cf5"} -->
+<p>Refunds will be issued to the original payment method after the return is received and approved. If the payment method was cash, the refund may be issued from A/R.</p>
+<!-- /wp:greenshift-blocks/element --></td>
+<!-- /wp:greenshift-blocks/element --></tr>
+<!-- /wp:greenshift-blocks/element -->
+
+<!-- wp:greenshift-blocks/element {"id":"gsbp-456eea6","tag":"tr","type":"inner","localId":"gsbp-456eea6","metadata":{"name":"Term 07"}} -->
+<tr><!-- wp:greenshift-blocks/element {"id":"gsbp-a61ba45","tag":"td","type":"inner","className":"tfgr-num","localId":"gsbp-a61ba45"} -->
+<td class="tfgr-num"><!-- wp:greenshift-blocks/element {"id":"gsbp-03dc225","textContent":"07","tag":"span","localId":"gsbp-03dc225"} -->
+<span>07</span>
+<!-- /wp:greenshift-blocks/element --></td>
+<!-- /wp:greenshift-blocks/element -->
+
+<!-- wp:greenshift-blocks/element {"id":"gsbp-e99fa81","tag":"td","type":"inner","localId":"gsbp-e99fa81"} -->
+<td><!-- wp:greenshift-blocks/element {"id":"gsbp-2461a48","textContent":"Customers must report shortages, incorrect items, or other shipping discrepancies within three business days of delivery. Claims reported after this period may be subject to additional review and approval.","tag":"p","localId":"gsbp-2461a48"} -->
+<p>Customers must report shortages, incorrect items, or other shipping discrepancies within three business days of delivery. Claims reported after this period may be subject to additional review and approval.</p>
+<!-- /wp:greenshift-blocks/element --></td>
+<!-- /wp:greenshift-blocks/element --></tr>
+<!-- /wp:greenshift-blocks/element --></table>
+<!-- /wp:greenshift-blocks/element -->
+
+<!-- wp:greenshift-blocks/element {"id":"gsbp-958b49d","inlineCssStyles":".gsbp-958b49d{border-collapse:collapse;table-layout:fixed;}.gsbp-958b49d td{padding-top:1rem;padding-bottom:1rem;padding-right:1.5rem;padding-left:1.5rem;border-style:solid;border-width:1px;border-color:#d9d5cc;}.gsbp-958b49d{width:100%;margin-top:0px;margin-bottom:0px;background-color:#ffffff;color:#3a3d40;}@media (max-width: 991.98px){.gsbp-958b49d{margin-top:-1px;}}.gsbp-958b49d td.tfgr-num{width:4.25rem;vertical-align:top;text-align:center;padding-left:0;padding-right:0;background-color:#f1ede5;color:#a3231b;font-weight:700;font-variant-numeric:tabular-nums;}.gsbp-958b49d td{vertical-align:top;}.gsbp-958b49d td p{margin-top:0;margin-bottom:0;}.gsbp-958b49d .tfgr-sub{list-style:none;margin:0.44rem 0 0 0;padding:0;}.gsbp-958b49d .tfgr-sub li{position:relative;margin:0;padding:0.2rem 0 0.2rem 1.25rem;}.gsbp-958b49d .tfgr-sub li::before{content:\u0022\u0022;position:absolute;left:0;top:calc(0.2rem + 0.5lh - 1px);width:0.6rem;height:2px;background-color:#a3231b;}@media (max-width: 575.98px){.gsbp-958b49d td.tfgr-num{width:3rem;}}","tag":"table","type":"inner","className":"tfgr-table","localId":"gsbp-958b49d","tableStyles":{"table":{"layout":"fixed","border":"collapse"},"td":{"paddingTop":["1rem"],"paddingBottom":["1rem"],"paddingRight":["1.5rem"],"paddingLeft":["1.5rem"],"borderStyle":"solid","borderWidth":"1px","borderColor":"#d9d5cc"}},"styleAttributes":{"width":["100%"],"marginTop":["0px","-1px"],"marginBottom":["0px"],"backgroundColor":["#ffffff"],"color":["#3a3d40"],"customCSS_Extra":"{CURRENT} td.tfgr-num{width:4.25rem;vertical-align:top;text-align:center;padding-left:0;padding-right:0;background-color:#f1ede5;color:#a3231b;font-weight:700;font-variant-numeric:tabular-nums;}{CURRENT} td{vertical-align:top;}{CURRENT} td p{margin-top:0;margin-bottom:0;}{CURRENT} .tfgr-sub{list-style:none;margin:0.44rem 0 0 0;padding:0;}{CURRENT} .tfgr-sub li{position:relative;margin:0;padding:0.2rem 0 0.2rem 1.25rem;}{CURRENT} .tfgr-sub li::before{content:\u0022\u0022;position:absolute;left:0;top:calc(0.2rem + 0.5lh - 1px);width:0.6rem;height:2px;background-color:#a3231b;}@media (max-width: 575.98px){{CURRENT} td.tfgr-num{width:3rem;}}"},"metadata":{"name":"Terms 08 to 11"}} -->
+<table class="tfgr-table gsbp-958b49d"><!-- wp:greenshift-blocks/element {"id":"gsbp-d392283","tag":"tr","type":"inner","localId":"gsbp-d392283","metadata":{"name":"Term 08"}} -->
+<tr><!-- wp:greenshift-blocks/element {"id":"gsbp-b7dc3ec","tag":"td","type":"inner","className":"tfgr-num","localId":"gsbp-b7dc3ec"} -->
+<td class="tfgr-num"><!-- wp:greenshift-blocks/element {"id":"gsbp-0b4da05","textContent":"08","tag":"span","localId":"gsbp-0b4da05"} -->
+<span>08</span>
+<!-- /wp:greenshift-blocks/element --></td>
+<!-- /wp:greenshift-blocks/element -->
+
+<!-- wp:greenshift-blocks/element {"id":"gsbp-72e517f","tag":"td","type":"inner","localId":"gsbp-72e517f"} -->
+<td><!-- wp:greenshift-blocks/element {"id":"gsbp-d090d5f","textContent":"If the return is not due to TFG error or a defective item, then:","tag":"p","localId":"gsbp-d090d5f"} -->
+<p>If the return is not due to TFG error or a defective item, then:</p>
+<!-- /wp:greenshift-blocks/element -->
+
+<!-- wp:greenshift-blocks/element {"id":"gsbp-a611928","tag":"ul","type":"inner","className":"tfgr-sub","localId":"gsbp-a611928"} -->
+<ul class="tfgr-sub"><!-- wp:greenshift-blocks/element {"id":"gsbp-701bcb2","textContent":"A restocking fee of up to 25% may apply, as determined by the Branch Manager.","tag":"li","localId":"gsbp-701bcb2"} -->
+<li>A restocking fee of up to 25% may apply, as determined by the Branch Manager.</li>
+<!-- /wp:greenshift-blocks/element -->
+
+<!-- wp:greenshift-blocks/element {"id":"gsbp-e3aa326","textContent":"The customer is responsible for return freight charges.","tag":"li","localId":"gsbp-e3aa326"} -->
+<li>The customer is responsible for return freight charges.</li>
+<!-- /wp:greenshift-blocks/element --></ul>
+<!-- /wp:greenshift-blocks/element --></td>
+<!-- /wp:greenshift-blocks/element --></tr>
+<!-- /wp:greenshift-blocks/element -->
+
+<!-- wp:greenshift-blocks/element {"id":"gsbp-770233e","tag":"tr","type":"inner","localId":"gsbp-770233e","metadata":{"name":"Term 09"}} -->
+<tr><!-- wp:greenshift-blocks/element {"id":"gsbp-8170c64","tag":"td","type":"inner","className":"tfgr-num","localId":"gsbp-8170c64"} -->
+<td class="tfgr-num"><!-- wp:greenshift-blocks/element {"id":"gsbp-2691707","textContent":"09","tag":"span","localId":"gsbp-2691707"} -->
+<span>09</span>
+<!-- /wp:greenshift-blocks/element --></td>
+<!-- /wp:greenshift-blocks/element -->
+
+<!-- wp:greenshift-blocks/element {"id":"gsbp-24778f0","tag":"td","type":"inner","localId":"gsbp-24778f0"} -->
+<td><!-- wp:greenshift-blocks/element {"id":"gsbp-adba6ce","textContent":"Final sale items cannot be returned or exchanged, including:","tag":"p","localId":"gsbp-adba6ce"} -->
+<p>Final sale items cannot be returned or exchanged, including:</p>
+<!-- /wp:greenshift-blocks/element -->
+
+<!-- wp:greenshift-blocks/element {"id":"gsbp-51c976f","tag":"ul","type":"inner","className":"tfgr-sub","localId":"gsbp-51c976f"} -->
+<ul class="tfgr-sub"><!-- wp:greenshift-blocks/element {"id":"gsbp-d27ba1b","textContent":"Special orders.","tag":"li","localId":"gsbp-d27ba1b"} -->
+<li>Special orders.</li>
+<!-- /wp:greenshift-blocks/element -->
+
+<!-- wp:greenshift-blocks/element {"id":"gsbp-11993cd","textContent":"Hygienic and emergency response items.","tag":"li","localId":"gsbp-11993cd"} -->
+<li>Hygienic and emergency response items.</li>
+<!-- /wp:greenshift-blocks/element -->
+
+<!-- wp:greenshift-blocks/element {"id":"gsbp-46bf660","textContent":"Safety products with open packaging.","tag":"li","localId":"gsbp-46bf660"} -->
+<li>Safety products with open packaging.</li>
+<!-- /wp:greenshift-blocks/element -->
+
+<!-- wp:greenshift-blocks/element {"id":"gsbp-d982d8c","textContent":"Clearance items.","tag":"li","localId":"gsbp-d982d8c"} -->
+<li>Clearance items.</li>
+<!-- /wp:greenshift-blocks/element -->
+
+<!-- wp:greenshift-blocks/element {"id":"gsbp-4576b73","textContent":"Any other items designated by TFG as final sale.","tag":"li","localId":"gsbp-4576b73"} -->
+<li>Any other items designated by TFG as final sale.</li>
+<!-- /wp:greenshift-blocks/element --></ul>
+<!-- /wp:greenshift-blocks/element --></td>
+<!-- /wp:greenshift-blocks/element --></tr>
+<!-- /wp:greenshift-blocks/element -->
+
+<!-- wp:greenshift-blocks/element {"id":"gsbp-4072e3e","tag":"tr","type":"inner","localId":"gsbp-4072e3e","metadata":{"name":"Term 10"}} -->
+<tr><!-- wp:greenshift-blocks/element {"id":"gsbp-5a575b1","tag":"td","type":"inner","className":"tfgr-num","localId":"gsbp-5a575b1"} -->
+<td class="tfgr-num"><!-- wp:greenshift-blocks/element {"id":"gsbp-46501e2","textContent":"10","tag":"span","localId":"gsbp-46501e2"} -->
+<span>10</span>
+<!-- /wp:greenshift-blocks/element --></td>
+<!-- /wp:greenshift-blocks/element -->
+
+<!-- wp:greenshift-blocks/element {"id":"gsbp-53fd7db","tag":"td","type":"inner","localId":"gsbp-53fd7db"} -->
+<td><!-- wp:greenshift-blocks/element {"id":"gsbp-649135c","textContent":"Returns may be accepted when covered by a vendor’s customer satisfaction guarantee or policy, subject to the vendor’s applicable terms and conditions.","tag":"p","localId":"gsbp-649135c"} -->
+<p>Returns may be accepted when covered by a vendor’s customer satisfaction guarantee or policy, subject to the vendor’s applicable terms and conditions.</p>
+<!-- /wp:greenshift-blocks/element --></td>
+<!-- /wp:greenshift-blocks/element --></tr>
+<!-- /wp:greenshift-blocks/element -->
+
+<!-- wp:greenshift-blocks/element {"id":"gsbp-107ab39","tag":"tr","type":"inner","localId":"gsbp-107ab39","metadata":{"name":"Term 11"}} -->
+<tr><!-- wp:greenshift-blocks/element {"id":"gsbp-ac482a3","tag":"td","type":"inner","className":"tfgr-num","localId":"gsbp-ac482a3"} -->
+<td class="tfgr-num"><!-- wp:greenshift-blocks/element {"id":"gsbp-4cf75e3","textContent":"11","tag":"span","localId":"gsbp-4cf75e3"} -->
+<span>11</span>
+<!-- /wp:greenshift-blocks/element --></td>
+<!-- /wp:greenshift-blocks/element -->
+
+<!-- wp:greenshift-blocks/element {"id":"gsbp-21082c3","tag":"td","type":"inner","localId":"gsbp-21082c3"} -->
+<td><!-- wp:greenshift-blocks/element {"id":"gsbp-8cf9dc2","textContent":"Products are subject solely to the manufacturer’s warranty, if any, and warranty claims are not considered standard returns.","tag":"p","localId":"gsbp-8cf9dc2"} -->
+<p>Products are subject solely to the manufacturer’s warranty, if any, and warranty claims are not considered standard returns.</p>
+<!-- /wp:greenshift-blocks/element --></td>
+<!-- /wp:greenshift-blocks/element --></tr>
+<!-- /wp:greenshift-blocks/element --></table>
+<!-- /wp:greenshift-blocks/element --></div>
+<!-- /wp:greenshift-blocks/element --></div>
+<!-- /wp:greenshift-blocks/element -->
+
+<!-- wp:greenshift-blocks/element {"id":"gsbp-d4050d2","anchor":"special-orders","inlineCssStyles":".gsbp-d4050d2{background-color:#faf8f4;padding-top:2.25rem;padding-bottom:2.25rem;padding-left:1.5rem;padding-right:1.5rem;}@media (max-width: 575.98px){.gsbp-d4050d2{padding-top:1.5rem;padding-bottom:1.5rem;padding-left:1rem;padding-right:1rem;}}","type":"inner","className":"tfgr-policy","localId":"gsbp-d4050d2","styleAttributes":{"backgroundColor":["#faf8f4"],"paddingTop":["2.25rem",null,null,"1.5rem"],"paddingBottom":["2.25rem",null,null,"1.5rem"],"paddingLeft":["1.5rem",null,null,"1rem"],"paddingRight":["1.5rem",null,null,"1rem"]},"metadata":{"name":"Special Orders Policy"}} -->
+<div class="tfgr-policy gsbp-d4050d2" id="special-orders"><!-- wp:greenshift-blocks/element {"id":"gsbp-60f20e3","inlineCssStyles":".gsbp-60f20e3{padding-bottom:1.5rem;margin-bottom:2.25rem;border-bottom:2px solid #1d1f21;}","type":"inner","localId":"gsbp-60f20e3","styleAttributes":{"paddingBottom":["1.5rem"],"marginBottom":["2.25rem"],"borderBottom":["2px solid #1d1f21"]},"metadata":{"name":"Heading"}} -->
+<div class="gsbp-60f20e3"><!-- wp:greenshift-blocks/element {"id":"gsbp-3cdaff5","inlineCssStyles":".gsbp-3cdaff5{margin-top:0px;margin-bottom:0.44rem;font-weight:700;text-transform:uppercase;color:#a3231b;}","textContent":"Branch special order policy statement","tag":"p","localId":"gsbp-3cdaff5","styleAttributes":{"marginTop":["0px"],"marginBottom":["0.44rem"],"fontWeight":["700"],"textTransform":["uppercase"],"color":["#a3231b"]}} -->
+<p class="gsbp-3cdaff5">Branch special order policy statement</p>
+<!-- /wp:greenshift-blocks/element -->
+
+<!-- wp:greenshift-blocks/element {"id":"gsbp-b4d8a46","inlineCssStyles":".gsbp-b4d8a46{margin-top:0px;margin-bottom:0px;color:#1d1f21;}","textContent":"Special Orders","tag":"h2","localId":"gsbp-b4d8a46","styleAttributes":{"marginTop":["0px"],"marginBottom":["0px"],"color":["#1d1f21"]}} -->
+<h2 class="gsbp-b4d8a46">Special Orders</h2>
+<!-- /wp:greenshift-blocks/element --></div>
+<!-- /wp:greenshift-blocks/element -->
+
+<!-- wp:greenshift-blocks/element {"id":"gsbp-c2366eb","inlineCssStyles":".gsbp-c2366eb{background-color:#ffffff;border:1px solid #d9d5cc;padding-top:1.25rem;padding-bottom:1.25rem;padding-left:1.5rem;padding-right:1.5rem;margin-bottom:2.25rem;}","type":"inner","localId":"gsbp-c2366eb","styleAttributes":{"backgroundColor":["#ffffff"],"border":["1px solid #d9d5cc"],"paddingTop":["1.25rem"],"paddingBottom":["1.25rem"],"paddingLeft":["1.5rem"],"paddingRight":["1.5rem"],"marginBottom":["2.25rem"]},"metadata":{"name":"Definition"}} -->
+<div class="gsbp-c2366eb"><!-- wp:greenshift-blocks/element {"id":"gsbp-5651318","inlineCssStyles":".gsbp-5651318{margin-top:0px;margin-bottom:0.44rem;font-weight:700;text-transform:uppercase;color:#a3231b;}","textContent":"Definition","tag":"p","localId":"gsbp-5651318","styleAttributes":{"marginTop":["0px"],"marginBottom":["0.44rem"],"fontWeight":["700"],"textTransform":["uppercase"],"color":["#a3231b"]}} -->
+<p class="gsbp-5651318">Definition</p>
+<!-- /wp:greenshift-blocks/element -->
+
+<!-- wp:greenshift-blocks/element {"id":"gsbp-3d07d3e","inlineCssStyles":".gsbp-3d07d3e{margin-top:0px;margin-bottom:0px;color:#3a3d40;}","textContent":"A special order is any product ordered specifically for a customer that is not normally stocked by TFG, is sourced outside standard inventory replenishment, is custom-made, altered, configured, cut, packaged, or otherwise supplied to meet a customer-specific requirement, or is identified by a vendor as non-cancellable or non-returnable.","tag":"p","localId":"gsbp-3d07d3e","styleAttributes":{"marginTop":["0px"],"marginBottom":["0px"],"color":["#3a3d40"]}} -->
+<p class="gsbp-3d07d3e">A special order is any product ordered specifically for a customer that is not normally stocked by TFG, is sourced outside standard inventory replenishment, is custom-made, altered, configured, cut, packaged, or otherwise supplied to meet a customer-specific requirement, or is identified by a vendor as non-cancellable or non-returnable.</p>
+<!-- /wp:greenshift-blocks/element --></div>
+<!-- /wp:greenshift-blocks/element -->
+
+<!-- wp:greenshift-blocks/element {"id":"gsbp-5a62d4d","inlineCssStyles":".gsbp-5a62d4d{display:grid;grid-template-columns:repeat(2, 1fr);column-gap:2.25rem;row-gap:2.25rem;align-items:start;}@media (max-width: 991.98px){.gsbp-5a62d4d{grid-template-columns:repeat(1, 1fr);row-gap:0px;}}","type":"inner","localId":"gsbp-5a62d4d","styleAttributes":{"display":["grid"],"gridTemplateColumns":["repeat(2, 1fr)","repeat(1, 1fr)"],"columnGap":["2.25rem"],"rowGap":["2.25rem","0px"],"alignItems":["start"]},"metadata":{"name":"Columns"}} -->
+<div class="gsbp-5a62d4d"><!-- wp:greenshift-blocks/element {"id":"gsbp-615b60f","inlineCssStyles":".gsbp-615b60f{border-collapse:collapse;table-layout:fixed;}.gsbp-615b60f td{padding-top:1rem;padding-bottom:1rem;padding-right:1.5rem;padding-left:1.5rem;border-style:solid;border-width:1px;border-color:#d9d5cc;}.gsbp-615b60f{width:100%;margin-top:0px;margin-bottom:0px;background-color:#ffffff;color:#3a3d40;}.gsbp-615b60f td.tfgr-num{width:4.25rem;vertical-align:top;text-align:center;padding-left:0;padding-right:0;background-color:#f1ede5;color:#a3231b;font-weight:700;font-variant-numeric:tabular-nums;}.gsbp-615b60f td{vertical-align:top;}.gsbp-615b60f td p{margin-top:0;margin-bottom:0;}.gsbp-615b60f .tfgr-sub{list-style:none;margin:0.44rem 0 0 0;padding:0;}.gsbp-615b60f .tfgr-sub li{position:relative;margin:0;padding:0.2rem 0 0.2rem 1.25rem;}.gsbp-615b60f .tfgr-sub li::before{content:\u0022\u0022;position:absolute;left:0;top:calc(0.2rem + 0.5lh - 1px);width:0.6rem;height:2px;background-color:#a3231b;}@media (max-width: 575.98px){.gsbp-615b60f td.tfgr-num{width:3rem;}}","tag":"table","type":"inner","className":"tfgr-table","localId":"gsbp-615b60f","tableStyles":{"table":{"layout":"fixed","border":"collapse"},"td":{"paddingTop":["1rem"],"paddingBottom":["1rem"],"paddingRight":["1.5rem"],"paddingLeft":["1.5rem"],"borderStyle":"solid","borderWidth":"1px","borderColor":"#d9d5cc"}},"styleAttributes":{"width":["100%"],"marginTop":["0px"],"marginBottom":["0px"],"backgroundColor":["#ffffff"],"color":["#3a3d40"],"customCSS_Extra":"{CURRENT} td.tfgr-num{width:4.25rem;vertical-align:top;text-align:center;padding-left:0;padding-right:0;background-color:#f1ede5;color:#a3231b;font-weight:700;font-variant-numeric:tabular-nums;}{CURRENT} td{vertical-align:top;}{CURRENT} td p{margin-top:0;margin-bottom:0;}{CURRENT} .tfgr-sub{list-style:none;margin:0.44rem 0 0 0;padding:0;}{CURRENT} .tfgr-sub li{position:relative;margin:0;padding:0.2rem 0 0.2rem 1.25rem;}{CURRENT} .tfgr-sub li::before{content:\u0022\u0022;position:absolute;left:0;top:calc(0.2rem + 0.5lh - 1px);width:0.6rem;height:2px;background-color:#a3231b;}@media (max-width: 575.98px){{CURRENT} td.tfgr-num{width:3rem;}}"},"metadata":{"name":"Terms 01 to 04"}} -->
+<table class="tfgr-table gsbp-615b60f"><!-- wp:greenshift-blocks/element {"id":"gsbp-9dbd665","tag":"tr","type":"inner","localId":"gsbp-9dbd665","metadata":{"name":"Term 01"}} -->
+<tr><!-- wp:greenshift-blocks/element {"id":"gsbp-89ff7ac","tag":"td","type":"inner","className":"tfgr-num","localId":"gsbp-89ff7ac"} -->
+<td class="tfgr-num"><!-- wp:greenshift-blocks/element {"id":"gsbp-a31deb8","textContent":"01","tag":"span","localId":"gsbp-a31deb8"} -->
+<span>01</span>
+<!-- /wp:greenshift-blocks/element --></td>
+<!-- /wp:greenshift-blocks/element -->
+
+<!-- wp:greenshift-blocks/element {"id":"gsbp-2a51bc4","tag":"td","type":"inner","localId":"gsbp-2a51bc4"} -->
+<td><!-- wp:greenshift-blocks/element {"id":"gsbp-873bd72","textContent":"Only Credit Customers may place special orders; Cash Customers are not eligible.","tag":"p","localId":"gsbp-873bd72"} -->
+<p>Only Credit Customers may place special orders; Cash Customers are not eligible.</p>
+<!-- /wp:greenshift-blocks/element --></td>
+<!-- /wp:greenshift-blocks/element --></tr>
+<!-- /wp:greenshift-blocks/element -->
+
+<!-- wp:greenshift-blocks/element {"id":"gsbp-b2fc3d5","tag":"tr","type":"inner","localId":"gsbp-b2fc3d5","metadata":{"name":"Term 02"}} -->
+<tr><!-- wp:greenshift-blocks/element {"id":"gsbp-5357c87","tag":"td","type":"inner","className":"tfgr-num","localId":"gsbp-5357c87"} -->
+<td class="tfgr-num"><!-- wp:greenshift-blocks/element {"id":"gsbp-b341eac","textContent":"02","tag":"span","localId":"gsbp-b341eac"} -->
+<span>02</span>
+<!-- /wp:greenshift-blocks/element --></td>
+<!-- /wp:greenshift-blocks/element -->
+
+<!-- wp:greenshift-blocks/element {"id":"gsbp-c7ebbd8","tag":"td","type":"inner","localId":"gsbp-c7ebbd8"} -->
+<td><!-- wp:greenshift-blocks/element {"id":"gsbp-583a14f","textContent":"Special order items are final sale and cannot be returned, exchanged, or cancelled once confirmed, unless due to TFG error, vendor defect, or approved management exception.","tag":"p","localId":"gsbp-583a14f"} -->
+<p>Special order items are final sale and cannot be returned, exchanged, or cancelled once confirmed, unless due to TFG error, vendor defect, or approved management exception.</p>
+<!-- /wp:greenshift-blocks/element --></td>
+<!-- /wp:greenshift-blocks/element --></tr>
+<!-- /wp:greenshift-blocks/element -->
+
+<!-- wp:greenshift-blocks/element {"id":"gsbp-4516276","tag":"tr","type":"inner","localId":"gsbp-4516276","metadata":{"name":"Term 03"}} -->
+<tr><!-- wp:greenshift-blocks/element {"id":"gsbp-d0ef891","tag":"td","type":"inner","className":"tfgr-num","localId":"gsbp-d0ef891"} -->
+<td class="tfgr-num"><!-- wp:greenshift-blocks/element {"id":"gsbp-7bd701c","textContent":"03","tag":"span","localId":"gsbp-7bd701c"} -->
+<span>03</span>
+<!-- /wp:greenshift-blocks/element --></td>
+<!-- /wp:greenshift-blocks/element -->
+
+<!-- wp:greenshift-blocks/element {"id":"gsbp-34356a0","tag":"td","type":"inner","localId":"gsbp-34356a0"} -->
+<td><!-- wp:greenshift-blocks/element {"id":"gsbp-7e55623","textContent":"A deposit may be required if a customer exceeds their credit limit.","tag":"p","localId":"gsbp-7e55623"} -->
+<p>A deposit may be required if a customer exceeds their credit limit.</p>
+<!-- /wp:greenshift-blocks/element --></td>
+<!-- /wp:greenshift-blocks/element --></tr>
+<!-- /wp:greenshift-blocks/element -->
+
+<!-- wp:greenshift-blocks/element {"id":"gsbp-9669cea","tag":"tr","type":"inner","localId":"gsbp-9669cea","metadata":{"name":"Term 04"}} -->
+<tr><!-- wp:greenshift-blocks/element {"id":"gsbp-d2c598b","tag":"td","type":"inner","className":"tfgr-num","localId":"gsbp-d2c598b"} -->
+<td class="tfgr-num"><!-- wp:greenshift-blocks/element {"id":"gsbp-d956148","textContent":"04","tag":"span","localId":"gsbp-d956148"} -->
+<span>04</span>
+<!-- /wp:greenshift-blocks/element --></td>
+<!-- /wp:greenshift-blocks/element -->
+
+<!-- wp:greenshift-blocks/element {"id":"gsbp-357f1ef","tag":"td","type":"inner","localId":"gsbp-357f1ef"} -->
+<td><!-- wp:greenshift-blocks/element {"id":"gsbp-ded7de4","textContent":"Special orders must be bought in vendor-defined pack quantities.","tag":"p","localId":"gsbp-ded7de4"} -->
+<p>Special orders must be bought in vendor-defined pack quantities.</p>
+<!-- /wp:greenshift-blocks/element --></td>
+<!-- /wp:greenshift-blocks/element --></tr>
+<!-- /wp:greenshift-blocks/element --></table>
+<!-- /wp:greenshift-blocks/element -->
+
+<!-- wp:greenshift-blocks/element {"id":"gsbp-be1032e","inlineCssStyles":".gsbp-be1032e{border-collapse:collapse;table-layout:fixed;}.gsbp-be1032e td{padding-top:1rem;padding-bottom:1rem;padding-right:1.5rem;padding-left:1.5rem;border-style:solid;border-width:1px;border-color:#d9d5cc;}.gsbp-be1032e{width:100%;margin-top:0px;margin-bottom:0px;background-color:#ffffff;color:#3a3d40;}@media (max-width: 991.98px){.gsbp-be1032e{margin-top:-1px;}}.gsbp-be1032e td.tfgr-num{width:4.25rem;vertical-align:top;text-align:center;padding-left:0;padding-right:0;background-color:#f1ede5;color:#a3231b;font-weight:700;font-variant-numeric:tabular-nums;}.gsbp-be1032e td{vertical-align:top;}.gsbp-be1032e td p{margin-top:0;margin-bottom:0;}.gsbp-be1032e .tfgr-sub{list-style:none;margin:0.44rem 0 0 0;padding:0;}.gsbp-be1032e .tfgr-sub li{position:relative;margin:0;padding:0.2rem 0 0.2rem 1.25rem;}.gsbp-be1032e .tfgr-sub li::before{content:\u0022\u0022;position:absolute;left:0;top:calc(0.2rem + 0.5lh - 1px);width:0.6rem;height:2px;background-color:#a3231b;}@media (max-width: 575.98px){.gsbp-be1032e td.tfgr-num{width:3rem;}}","tag":"table","type":"inner","className":"tfgr-table","localId":"gsbp-be1032e","tableStyles":{"table":{"layout":"fixed","border":"collapse"},"td":{"paddingTop":["1rem"],"paddingBottom":["1rem"],"paddingRight":["1.5rem"],"paddingLeft":["1.5rem"],"borderStyle":"solid","borderWidth":"1px","borderColor":"#d9d5cc"}},"styleAttributes":{"width":["100%"],"marginTop":["0px","-1px"],"marginBottom":["0px"],"backgroundColor":["#ffffff"],"color":["#3a3d40"],"customCSS_Extra":"{CURRENT} td.tfgr-num{width:4.25rem;vertical-align:top;text-align:center;padding-left:0;padding-right:0;background-color:#f1ede5;color:#a3231b;font-weight:700;font-variant-numeric:tabular-nums;}{CURRENT} td{vertical-align:top;}{CURRENT} td p{margin-top:0;margin-bottom:0;}{CURRENT} .tfgr-sub{list-style:none;margin:0.44rem 0 0 0;padding:0;}{CURRENT} .tfgr-sub li{position:relative;margin:0;padding:0.2rem 0 0.2rem 1.25rem;}{CURRENT} .tfgr-sub li::before{content:\u0022\u0022;position:absolute;left:0;top:calc(0.2rem + 0.5lh - 1px);width:0.6rem;height:2px;background-color:#a3231b;}@media (max-width: 575.98px){{CURRENT} td.tfgr-num{width:3rem;}}"},"metadata":{"name":"Terms 05 to 08"}} -->
+<table class="tfgr-table gsbp-be1032e"><!-- wp:greenshift-blocks/element {"id":"gsbp-9c8629d","tag":"tr","type":"inner","localId":"gsbp-9c8629d","metadata":{"name":"Term 05"}} -->
+<tr><!-- wp:greenshift-blocks/element {"id":"gsbp-1dd1f1a","tag":"td","type":"inner","className":"tfgr-num","localId":"gsbp-1dd1f1a"} -->
+<td class="tfgr-num"><!-- wp:greenshift-blocks/element {"id":"gsbp-3ffad28","textContent":"05","tag":"span","localId":"gsbp-3ffad28"} -->
+<span>05</span>
+<!-- /wp:greenshift-blocks/element --></td>
+<!-- /wp:greenshift-blocks/element -->
+
+<!-- wp:greenshift-blocks/element {"id":"gsbp-7d25d62","tag":"td","type":"inner","localId":"gsbp-7d25d62"} -->
+<td><!-- wp:greenshift-blocks/element {"id":"gsbp-f823211","textContent":"Lead times are estimates and may change due to vendor availability, freight delays, production schedules, or other factors outside TFG’s control.","tag":"p","localId":"gsbp-f823211"} -->
+<p>Lead times are estimates and may change due to vendor availability, freight delays, production schedules, or other factors outside TFG’s control.</p>
+<!-- /wp:greenshift-blocks/element --></td>
+<!-- /wp:greenshift-blocks/element --></tr>
+<!-- /wp:greenshift-blocks/element -->
+
+<!-- wp:greenshift-blocks/element {"id":"gsbp-b43554c","tag":"tr","type":"inner","localId":"gsbp-b43554c","metadata":{"name":"Term 06"}} -->
+<tr><!-- wp:greenshift-blocks/element {"id":"gsbp-151d33e","tag":"td","type":"inner","className":"tfgr-num","localId":"gsbp-151d33e"} -->
+<td class="tfgr-num"><!-- wp:greenshift-blocks/element {"id":"gsbp-307c7bf","textContent":"06","tag":"span","localId":"gsbp-307c7bf"} -->
+<span>06</span>
+<!-- /wp:greenshift-blocks/element --></td>
+<!-- /wp:greenshift-blocks/element -->
+
+<!-- wp:greenshift-blocks/element {"id":"gsbp-f11fd95","tag":"td","type":"inner","localId":"gsbp-f11fd95"} -->
+<td><!-- wp:greenshift-blocks/element {"id":"gsbp-126d81c","textContent":"A Purchase Order is required and will signify customer acceptance of special order terms.","tag":"p","localId":"gsbp-126d81c"} -->
+<p>A Purchase Order is required and will signify customer acceptance of special order terms.</p>
+<!-- /wp:greenshift-blocks/element --></td>
+<!-- /wp:greenshift-blocks/element --></tr>
+<!-- /wp:greenshift-blocks/element -->
+
+<!-- wp:greenshift-blocks/element {"id":"gsbp-c017434","tag":"tr","type":"inner","localId":"gsbp-c017434","metadata":{"name":"Term 07"}} -->
+<tr><!-- wp:greenshift-blocks/element {"id":"gsbp-775e1c7","tag":"td","type":"inner","className":"tfgr-num","localId":"gsbp-775e1c7"} -->
+<td class="tfgr-num"><!-- wp:greenshift-blocks/element {"id":"gsbp-65ac079","textContent":"07","tag":"span","localId":"gsbp-65ac079"} -->
+<span>07</span>
+<!-- /wp:greenshift-blocks/element --></td>
+<!-- /wp:greenshift-blocks/element -->
+
+<!-- wp:greenshift-blocks/element {"id":"gsbp-f09a0ca","tag":"td","type":"inner","localId":"gsbp-f09a0ca"} -->
+<td><!-- wp:greenshift-blocks/element {"id":"gsbp-feece23","textContent":"Damaged, incorrect, or defective special orders must follow the applicable vendor claim, warranty, or return process.","tag":"p","localId":"gsbp-feece23"} -->
+<p>Damaged, incorrect, or defective special orders must follow the applicable vendor claim, warranty, or return process.</p>
+<!-- /wp:greenshift-blocks/element --></td>
+<!-- /wp:greenshift-blocks/element --></tr>
+<!-- /wp:greenshift-blocks/element -->
+
+<!-- wp:greenshift-blocks/element {"id":"gsbp-f4bee3d","tag":"tr","type":"inner","localId":"gsbp-f4bee3d","metadata":{"name":"Term 08"}} -->
+<tr><!-- wp:greenshift-blocks/element {"id":"gsbp-416c83e","tag":"td","type":"inner","className":"tfgr-num","localId":"gsbp-416c83e"} -->
+<td class="tfgr-num"><!-- wp:greenshift-blocks/element {"id":"gsbp-b53d138","textContent":"08","tag":"span","localId":"gsbp-b53d138"} -->
+<span>08</span>
+<!-- /wp:greenshift-blocks/element --></td>
+<!-- /wp:greenshift-blocks/element -->
+
+<!-- wp:greenshift-blocks/element {"id":"gsbp-30f256a","tag":"td","type":"inner","localId":"gsbp-30f256a"} -->
+<td><!-- wp:greenshift-blocks/element {"id":"gsbp-4815718","textContent":"Exceptions must be approved by the Branch Manager or may be escalated to VP Operations or VP Sales.","tag":"p","localId":"gsbp-4815718"} -->
+<p>Exceptions must be approved by the Branch Manager or may be escalated to VP Operations or VP Sales.</p>
+<!-- /wp:greenshift-blocks/element --></td>
+<!-- /wp:greenshift-blocks/element --></tr>
+<!-- /wp:greenshift-blocks/element --></table>
+<!-- /wp:greenshift-blocks/element --></div>
+<!-- /wp:greenshift-blocks/element --></div>
+<!-- /wp:greenshift-blocks/element -->
+
+<!-- wp:greenshift-blocks/element {"id":"gsbp-151adb3","anchor":"terms-of-sale","inlineCssStyles":".gsbp-151adb3{background-color:#faf8f4;padding-top:2.25rem;padding-bottom:2.25rem;padding-left:1.5rem;padding-right:1.5rem;}@media (max-width: 575.98px){.gsbp-151adb3{padding-top:1.5rem;padding-bottom:1.5rem;padding-left:1rem;padding-right:1rem;}}","type":"inner","className":"tfgr-policy","localId":"gsbp-151adb3","styleAttributes":{"backgroundColor":["#faf8f4"],"paddingTop":["2.25rem",null,null,"1.5rem"],"paddingBottom":["2.25rem",null,null,"1.5rem"],"paddingLeft":["1.5rem",null,null,"1rem"],"paddingRight":["1.5rem",null,null,"1rem"]},"metadata":{"name":"Terms of Sale"}} -->
+<div class="tfgr-policy gsbp-151adb3" id="terms-of-sale"><!-- wp:greenshift-blocks/element {"id":"gsbp-991d579","inlineCssStyles":".gsbp-991d579{padding-bottom:1.5rem;margin-bottom:2.25rem;border-bottom:2px solid #1d1f21;}","type":"inner","localId":"gsbp-991d579","styleAttributes":{"paddingBottom":["1.5rem"],"marginBottom":["2.25rem"],"borderBottom":["2px solid #1d1f21"]},"metadata":{"name":"Heading"}} -->
+<div class="gsbp-991d579"><!-- wp:greenshift-blocks/element {"id":"gsbp-381e089","inlineCssStyles":".gsbp-381e089{margin-top:0px;margin-bottom:0.44rem;font-weight:700;text-transform:uppercase;color:#a3231b;}","textContent":"General Terms of Sale and Customer Account Conditions","tag":"p","localId":"gsbp-381e089","styleAttributes":{"marginTop":["0px"],"marginBottom":["0.44rem"],"fontWeight":["700"],"textTransform":["uppercase"],"color":["#a3231b"]}} -->
+<p class="gsbp-381e089">General Terms of Sale and Customer Account Conditions</p>
+<!-- /wp:greenshift-blocks/element -->
+
+<!-- wp:greenshift-blocks/element {"id":"gsbp-b7f6e6b","inlineCssStyles":".gsbp-b7f6e6b{margin-top:0px;margin-bottom:0px;color:#1d1f21;}","textContent":"Terms of Sale","tag":"h2","localId":"gsbp-b7f6e6b","styleAttributes":{"marginTop":["0px"],"marginBottom":["0px"],"color":["#1d1f21"]}} -->
+<h2 class="gsbp-b7f6e6b">Terms of Sale</h2>
+<!-- /wp:greenshift-blocks/element --></div>
+<!-- /wp:greenshift-blocks/element -->
+
+<!-- wp:greenshift-blocks/row {"id":"gsbp-5463daa","displayStyles":false,"isVariation":""} -->
+<div class="wp-block-greenshift-blocks-row gspb_row gspb_row-id-gsbp-5463daa" id="gspb_row-id-gsbp-5463daa"><div class="gspb_row__content"> <!-- wp:greenshift-blocks/row-column {"id":"gsbp-e007bd7"} -->
+<div class="wp-block-greenshift-blocks-row-column gspb_row__col--12 gspb_col-id-gsbp-e007bd7" id="gspb_col-id-gsbp-e007bd7"><!-- wp:html -->
+<div class="gs-expand-wrap">
+  <button type="button" class="gs-expand-all" aria-expanded="false">Expand all</button>
+</div>
+
+<style>
+/* Everything is scoped to .tfgr-policy (the Terms of Sale panel), so other pages are untouched. */
+.tfgr-policy .gs-expand-wrap {
+  display: flex;
+  justify-content: flex-end;
+  margin: 0 20px 1.5rem 0; /* right margin lines it up with the right column */
+}
+.tfgr-policy .gs-expand-all {
+  display: inline-flex;
+  align-items: center;
+  gap: 0.6rem;
+  padding: 0.6rem 1.25rem;
+  font: inherit;
+  font-weight: 700;
+  color: #1d1f21;
+  background: #ffffff;
+  border: 1px solid #a3231b;
+  border-radius: 0;
+  cursor: pointer;
+  transition: background-color .2s, color .2s;
+}
+.tfgr-policy .gs-expand-all::before {
+  content: "+";
+  font-weight: 400;
+  line-height: 1;
+  color: #a3231b;
+}
+.tfgr-policy .gs-expand-all[aria-expanded="true"]::before { content: "−"; }
+.tfgr-policy .gs-expand-all:hover,
+.tfgr-policy .gs-expand-all:focus-visible {
+  background: #a3231b;
+  color: #ffffff;
+}
+.tfgr-policy .gs-expand-all:hover::before,
+.tfgr-policy .gs-expand-all:focus-visible::before { color: #ffffff; }
+.tfgr-policy .gs-expand-all:focus-visible { outline: 2px solid #a3231b; outline-offset: 2px; }
+
+/* Accordions: one bordered list per column, like the policy tables.
+   !important is needed because GreenShift's own accordion styles are more specific. */
+.tfgr-policy .gs-accordion {
+  display: block !important;
+  gap: 0 !important;
+  padding: 0 !important;
+  border-top: 1px solid #d9d5cc !important;
+  background: #ffffff !important;
+}
+.tfgr-policy .gs-accordion .gs-accordion-item {
+  margin: 0 !important;
+  border: 1px solid #d9d5cc !important;
+  border-top: 0 !important;
+  border-radius: 0 !important;
+  background: #ffffff !important;
+  box-shadow: none !important;
+}
+.tfgr-policy .gs-accordion .gs-accordion-item .gs-accordion-item__title {
+  padding: 1rem 1.5rem !important;
+  margin: 0 !important;
+  background: #ffffff !important;
+  color: #1d1f21 !important;
+  border: 0 !important;
+  border-radius: 0 !important;
+  box-shadow: none !important;
+  transition: background-color .2s;
+}
+.tfgr-policy .gs-accordion .gs-accordion-item .gs-accordion-item__title:hover,
+.tfgr-policy .gs-accordion .gs-accordion-item.gsopen > .gs-accordion-item__title,
+.tfgr-policy .gs-accordion .gs-accordion-item .gs-accordion-item__title[aria-expanded="true"] {
+  background: #f1ede5 !important;
+}
+.tfgr-policy .gs-accordion .gs-accordion-item.gsopen > .gs-accordion-item__title,
+.tfgr-policy .gs-accordion .gs-accordion-item .gs-accordion-item__title[aria-expanded="true"] {
+  border-bottom: 1px solid #d9d5cc !important;
+}
+.tfgr-policy .gs-accordion .gs-accordion-item .gs-accordion-item__title:focus-visible {
+  outline: 2px solid #a3231b;
+  outline-offset: -2px;
+}
+.tfgr-policy .gs-accordion .gs-accordion-item__heading,
+.tfgr-policy .gs-accordion .gs-accordion-item__heading strong {
+  font-weight: 700 !important;
+  color: #1d1f21 !important;
+}
+.tfgr-policy .gs-accordion .iconfortoggle { color: #a3231b !important; }
+.tfgr-policy .gs-accordion .iconfortoggle .gs-iconbefore,
+.tfgr-policy .gs-accordion .iconfortoggle .gs-iconafter { background-color: #a3231b !important; }
+.tfgr-policy .gs-accordion .gs-accordion-item__content {
+  background: #ffffff !important;
+  border: 0 !important;
+  box-shadow: none !important;
+}
+.tfgr-policy .gs-accordion .gs-accordion-item__text {
+  padding: 1.25rem 1.5rem !important;
+  color: #3a3d40 !important;
+}
+.tfgr-policy .gs-accordion .gs-accordion-item__text p { margin: 0 0 0.75rem 0 !important; }
+.tfgr-policy .gs-accordion .gs-accordion-item__text > :last-child { margin-bottom: 0 !important; }
+.tfgr-policy .gs-accordion .gs-accordion-item__text ul {
+  list-style: none !important;
+  margin: 0 !important;
+  padding: 0 !important;
+}
+.tfgr-policy .gs-accordion .gs-accordion-item__text li {
+  position: relative;
+  margin: 0 !important;
+  padding: 0.2rem 0 0.2rem 1.25rem !important;
+}
+.tfgr-policy .gs-accordion .gs-accordion-item__text li::before {
+  content: "";
+  position: absolute;
+  left: 0;
+  top: calc(0.2rem + 0.5lh - 1px);
+  width: 0.6rem;
+  height: 2px;
+  background-color: #a3231b;
+}
+</style>
+<script>
+document.addEventListener('click', function (e) {
+  const btn = e.target.closest('.gs-expand-all');
+  if (!btn) return;
+
+  const expanding = btn.getAttribute('aria-expanded') !== 'true';
+
+  document.querySelectorAll('.gs-accordion-item__title').forEach(title => {
+    const item = title.closest('.gs-accordion-item');
+    const isOpen = title.getAttribute('aria-expanded') === 'true' ||
+                   (item && item.classList.contains('gsopen'));
+    if (isOpen !== expanding) title.click();
+  });
+
+  btn.setAttribute('aria-expanded', expanding);
+  btn.textContent = expanding ? 'Collapse all' : 'Expand all';
+});
+</script>
+<!-- /wp:html -->
+
+<!-- wp:greenshift-blocks/row {"id":"gsbp-7aa6aea","rowLayout":"2","displayStyles":false,"isVariation":""} -->
+<div class="wp-block-greenshift-blocks-row gspb_row gspb_row-id-gsbp-7aa6aea" id="gspb_row-id-gsbp-7aa6aea"><div class="gspb_row__content"> <!-- wp:greenshift-blocks/row-column {"id":"gsbp-69d8190","columnSize":"6"} -->
+<div class="wp-block-greenshift-blocks-row-column gspb_row__col--6 gspb_col-id-gsbp-69d8190" id="gspb_col-id-gsbp-69d8190"><!-- wp:greenshift-blocks/accordion {"id":"gsbp-3648954","className":"faq-accordion"} -->
+<div class="wp-block-greenshift-blocks-accordion gs-accordion gspb_accordion-id-gsbp-3648954  faq-accordion" id="gspb_accordion-id-gsbp-3648954" itemscope itemtype=""><!-- wp:greenshift-blocks/accordionitem {"id":"gsbp-f3c9cd0","title":"<strong>1. Application of Terms</strong>","open":false} -->
+<div class="wp-block-greenshift-blocks-accordionitem gs-accordion-item gspb_accordionitem-gsbp-f3c9cd0 gsclose" id="gspb_accordionitem-gsbp-f3c9cd0" itemscope><div class="gs-accordion-item__title" aria-expanded="false" role="button" tabindex="0" aria-controls="gspb-accordion-item-content-gsbp-f3c9cd0"><div class="gs-accordion-item__heading"><strong>1. Application of Terms</strong></div><span class="iconfortoggle"><span class="gs-iconbefore"></span><span class="gs-iconafter"></span></span></div><div class="gs-accordion-item__content" itemscope id="gspb-accordion-item-content-gsbp-f3c9cd0"><div class="gs-accordion-item__text"><!-- wp:paragraph -->
+<p>These Terms and Conditions apply to all quotations, orders, sales, deliveries, services, invoices, customer accounts, and related transactions between The Fastener Group Ltd. and its affiliated branches or operating companies (collectively, “TFG”) and the customer.</p>
+<!-- /wp:paragraph -->
+
+<!-- wp:paragraph -->
+<p>By placing an order, accepting delivery, opening or maintaining an account, or purchasing from TFG, the customer accepts and agrees to be bound by these Terms and Conditions.</p>
+<!-- /wp:paragraph -->
+
+<!-- wp:paragraph -->
+<p>These Terms prevail over any customer purchase order, procurement terms, supplier onboarding terms, vendor portal terms, acknowledgment forms, confirmations, or other documents issued by the customer unless expressly accepted in a written agreement signed by an authorized representative of TFG.</p>
+<!-- /wp:paragraph -->
+
+<!-- wp:paragraph -->
+<p>No amendment, waiver, exception, or modification of these Terms shall be binding unless approved in writing by TFG.</p>
+<!-- /wp:paragraph --></div></div></div>
+<!-- /wp:greenshift-blocks/accordionitem -->
+
+<!-- wp:greenshift-blocks/accordionitem {"id":"gsbp-57a1888","title":"<strong>2. Quotations, Orders, and Acceptance</strong>","open":false} -->
+<div class="wp-block-greenshift-blocks-accordionitem gs-accordion-item gspb_accordionitem-gsbp-57a1888 gsclose" id="gspb_accordionitem-gsbp-57a1888" itemscope><div class="gs-accordion-item__title" aria-expanded="false" role="button" tabindex="0" aria-controls="gspb-accordion-item-content-gsbp-57a1888"><div class="gs-accordion-item__heading"><strong>2. Quotations, Orders, and Acceptance</strong></div><span class="iconfortoggle"><span class="gs-iconbefore"></span><span class="gs-iconafter"></span></span></div><div class="gs-accordion-item__content" itemscope id="gspb-accordion-item-content-gsbp-57a1888"><div class="gs-accordion-item__text"><!-- wp:paragraph -->
+<p>All quotations are provided for informational purposes and are not binding unless expressly stated otherwise by TFG in writing.&nbsp;</p>
+<!-- /wp:paragraph -->
+
+<!-- wp:paragraph -->
+<p>Prices, availability, freight costs, lead times, specifications, and product details are subject to change until TFG accepts the order.&nbsp;</p>
+<!-- /wp:paragraph -->
+
+<!-- wp:paragraph -->
+<p>TFG may accept or decline any order, in whole or in part, at its discretion.&nbsp;</p>
+<!-- /wp:paragraph -->
+
+<!-- wp:paragraph -->
+<p>No order shall be binding on TFG until accepted through shipment, delivery, service performance, invoicing, written confirmation, or other confirmation provided by TFG.&nbsp;</p>
+<!-- /wp:paragraph --></div></div></div>
+<!-- /wp:greenshift-blocks/accordionitem -->
+
+<!-- wp:greenshift-blocks/accordionitem {"id":"gsbp-8535b58","title":"<strong>3. Prices, Taxes, and Fees</strong>","open":false} -->
+<div class="wp-block-greenshift-blocks-accordionitem gs-accordion-item gspb_accordionitem-gsbp-8535b58 gsclose" id="gspb_accordionitem-gsbp-8535b58" itemscope><div class="gs-accordion-item__title" aria-expanded="false" role="button" tabindex="0" aria-controls="gspb-accordion-item-content-gsbp-8535b58"><div class="gs-accordion-item__heading"><strong>3. Prices, Taxes, and Fees</strong></div><span class="iconfortoggle"><span class="gs-iconbefore"></span><span class="gs-iconafter"></span></span></div><div class="gs-accordion-item__content" itemscope id="gspb-accordion-item-content-gsbp-8535b58"><div class="gs-accordion-item__text"><!-- wp:paragraph -->
+<p>Unless otherwise stated in writing, all prices are quoted in Canadian dollars.&nbsp;</p>
+<!-- /wp:paragraph -->
+
+<!-- wp:paragraph -->
+<p>Prices exclude applicable taxes, duties, tariffs, freight, shipping, handling charges, brokerage fees, environmental fees, surcharges, and other charges arising from the transaction, all of which are the responsibility of the customer.&nbsp;</p>
+<!-- /wp:paragraph -->
+
+<!-- wp:paragraph -->
+<p>TFG reserves the right to correct clerical, typographical, pricing, calculation, product, or availability errors at any time and may revise, cancel, or request customer approval of affected orders.&nbsp;</p>
+<!-- /wp:paragraph --></div></div></div>
+<!-- /wp:greenshift-blocks/accordionitem -->
+
+<!-- wp:greenshift-blocks/accordionitem {"id":"gsbp-2418879","title":"<strong>4. Payment Terms and Credit Accounts</strong>","open":false} -->
+<div class="wp-block-greenshift-blocks-accordionitem gs-accordion-item gspb_accordionitem-gsbp-2418879 gsclose" id="gspb_accordionitem-gsbp-2418879" itemscope><div class="gs-accordion-item__title" aria-expanded="false" role="button" tabindex="0" aria-controls="gspb-accordion-item-content-gsbp-2418879"><div class="gs-accordion-item__heading"><strong>4. Payment Terms and Credit Accounts</strong></div><span class="iconfortoggle"><span class="gs-iconbefore"></span><span class="gs-iconafter"></span></span></div><div class="gs-accordion-item__content" itemscope id="gspb-accordion-item-content-gsbp-2418879"><div class="gs-accordion-item__text"><!-- wp:paragraph -->
+<p>For approved credit accounts, payment is due within thirty (30) days from the invoice date unless otherwise agreed in writing.</p>
+<!-- /wp:paragraph -->
+
+<!-- wp:paragraph -->
+<p>TFG may establish, modify, reduce, suspend, or revoke credit limits and account privileges at any time without prior notice.</p>
+<!-- /wp:paragraph -->
+
+<!-- wp:paragraph -->
+<p>Amounts not paid when due may accrue interest at the rate of two percent (2.0%) per month (24% per annum), or the maximum lawful rate, whichever is lower.</p>
+<!-- /wp:paragraph -->
+
+<!-- wp:paragraph -->
+<p>The customer shall reimburse TFG for all reasonable costs incurred in collecting overdue amounts, including legal fees, collection agency fees, court costs, and administrative costs.</p>
+<!-- /wp:paragraph -->
+
+<!-- wp:paragraph -->
+<p>Payments shall be made without deduction, holdback, set-off, counterclaim, or withholding unless expressly approved by TFG in writing.</p>
+<!-- /wp:paragraph -->
+
+<!-- wp:paragraph -->
+<p>If any amount is overdue, TFG may suspend shipments, deliveries, service obligations, warranty processing, account privileges, and further credit until all outstanding amounts have been paid.</p>
+<!-- /wp:paragraph -->
+
+<!-- wp:paragraph -->
+<p>Upon default, insolvency, bankruptcy, receivership, restructuring proceedings, assignment for the benefit of creditors, cessation of business operations, or a material deterioration in the customer’s creditworthiness, TFG may immediately suspend performance, terminate agreements, accelerate payment of all outstanding amounts, and exercise any other rights available at law.</p>
+<!-- /wp:paragraph -->
+
+<!-- wp:paragraph -->
+<p>Returned payments, dishonoured payments, or failed electronic payments may result in administrative charges, suspension of account privileges, and prepaid purchasing requirements.</p>
+<!-- /wp:paragraph -->
+
+<!-- wp:paragraph -->
+<p>Prices exclude applicable taxes, duties, tariffs, freight, shipping, handling charges, brokerage fees, environmental fees, surcharges, and other charges arising from the transaction, all of which are the responsibility of the customer.&nbsp;</p>
+<!-- /wp:paragraph -->
+
+<!-- wp:paragraph -->
+<p>TFG reserves the right to correct clerical, typographical, pricing, calculation, product, or availability errors at any time and may revise, cancel, or request customer approval of affected orders.&nbsp;</p>
+<!-- /wp:paragraph --></div></div></div>
+<!-- /wp:greenshift-blocks/accordionitem -->
+
+<!-- wp:greenshift-blocks/accordionitem {"id":"gsbp-5ba00c7","title":"<strong><strong>5. Delivery, Pickup, Risk, and Title </strong></strong>","open":false} -->
+<div class="wp-block-greenshift-blocks-accordionitem gs-accordion-item gspb_accordionitem-gsbp-5ba00c7 gsclose" id="gspb_accordionitem-gsbp-5ba00c7" itemscope><div class="gs-accordion-item__title" aria-expanded="false" role="button" tabindex="0" aria-controls="gspb-accordion-item-content-gsbp-5ba00c7"><div class="gs-accordion-item__heading"><strong><strong>5. Delivery, Pickup, Risk, and Title </strong></strong></div><span class="iconfortoggle"><span class="gs-iconbefore"></span><span class="gs-iconafter"></span></span></div><div class="gs-accordion-item__content" itemscope id="gspb-accordion-item-content-gsbp-5ba00c7"><div class="gs-accordion-item__text"><!-- wp:paragraph -->
+<p>Delivery dates, pickup dates, and lead times are estimates only unless otherwise confirmed by TFG in writing.&nbsp;</p>
+<!-- /wp:paragraph -->
+
+<!-- wp:paragraph -->
+<p>TFG shall not be liable for delays arising from carrier delays, supplier delays, shortages, force majeure events, governmental actions, customs delays, tariffs, labour disruptions, or circumstances beyond its reasonable control.&nbsp;</p>
+<!-- /wp:paragraph -->
+
+<!-- wp:paragraph -->
+<p>Risk of loss, damage, or destruction passes to the customer upon pickup, delivery, release to a carrier, or when goods are otherwise made available to the customer.&nbsp;</p>
+<!-- /wp:paragraph -->
+
+<!-- wp:paragraph -->
+<p>Title to goods remains with TFG until all amounts owing in respect of the transaction have been paid in full.&nbsp;</p>
+<!-- /wp:paragraph -->
+
+<!-- wp:paragraph -->
+<p>Until payment in full has been received, TFG retains a security interest in the goods to the extent permitted by applicable law. The customer authorizes TFG to register and maintain any financing statements or registrations reasonably required to protect such interest.&nbsp;</p>
+<!-- /wp:paragraph -->
+
+<!-- wp:paragraph -->
+<p>Where permitted by law, TFG may recover or repossess unpaid goods.&nbsp;</p>
+<!-- /wp:paragraph --></div></div></div>
+<!-- /wp:greenshift-blocks/accordionitem -->
+
+<!-- wp:greenshift-blocks/accordionitem {"id":"gsbp-fe135dd","title":"<strong><strong>6. Product Information, Technical Advice, and Customer Responsibility</strong></strong>","open":false} -->
+<div class="wp-block-greenshift-blocks-accordionitem gs-accordion-item gspb_accordionitem-gsbp-fe135dd gsclose" id="gspb_accordionitem-gsbp-fe135dd" itemscope><div class="gs-accordion-item__title" aria-expanded="false" role="button" tabindex="0" aria-controls="gspb-accordion-item-content-gsbp-fe135dd"><div class="gs-accordion-item__heading"><strong><strong>6. Product Information, Technical Advice, and Customer Responsibility</strong></strong></div><span class="iconfortoggle"><span class="gs-iconbefore"></span><span class="gs-iconafter"></span></span></div><div class="gs-accordion-item__content" itemscope id="gspb-accordion-item-content-gsbp-fe135dd"><div class="gs-accordion-item__text"><!-- wp:paragraph -->
+<p>Product descriptions, dimensions, specifications, certifications, drawings, catalogues, websites, images, and other product information are provided for general reference purposes only and are subject to change.&nbsp;</p>
+<!-- /wp:paragraph -->
+
+<!-- wp:paragraph -->
+<p>The customer is solely responsible for determining the suitability, compatibility, compliance, performance, installation requirements, and fitness of products for their intended use.&nbsp;</p>
+<!-- /wp:paragraph -->
+
+<!-- wp:paragraph -->
+<p>Any technical assistance, recommendations, application guidance, engineering information, or product suggestions provided by TFG are offered as a courtesy only and shall not constitute professional advice, design services, a warranty, or a guarantee of performance.&nbsp;</p>
+<!-- /wp:paragraph -->
+
+<!-- wp:paragraph -->
+<p>TFG may offer substitute or equivalent products where the originally requested product is unavailable.&nbsp;</p>
+<!-- /wp:paragraph -->
+
+<!-- wp:paragraph -->
+<p>Customers remain responsible for improper installation, misuse, modification, unauthorized repairs, failure to follow safety requirements, failure to comply with applicable laws, or failure to follow product instructions.&nbsp;</p>
+<!-- /wp:paragraph --></div></div></div>
+<!-- /wp:greenshift-blocks/accordionitem -->
+
+<!-- wp:greenshift-blocks/accordionitem {"id":"gsbp-079810e","title":"<strong><strong><strong>7. Returns, Cancellations, and Special Orders</strong></strong></strong>","open":false} -->
+<div class="wp-block-greenshift-blocks-accordionitem gs-accordion-item gspb_accordionitem-gsbp-079810e gsclose" id="gspb_accordionitem-gsbp-079810e" itemscope><div class="gs-accordion-item__title" aria-expanded="false" role="button" tabindex="0" aria-controls="gspb-accordion-item-content-gsbp-079810e"><div class="gs-accordion-item__heading"><strong><strong><strong>7. Returns, Cancellations, and Special Orders</strong></strong></strong></div><span class="iconfortoggle"><span class="gs-iconbefore"></span><span class="gs-iconafter"></span></span></div><div class="gs-accordion-item__content" itemscope id="gspb-accordion-item-content-gsbp-079810e"><div class="gs-accordion-item__text"><!-- wp:paragraph -->
+<p>Returns require TFG’s prior authorization and must comply with TFG’s return procedures, including proof of purchase, condition requirements, packaging requirements, and return deadlines.&nbsp;</p>
+<!-- /wp:paragraph -->
+
+<!-- wp:paragraph -->
+<p>Restocking fees, inspection charges, freight charges, and other costs may apply.&nbsp;</p>
+<!-- /wp:paragraph -->
+
+<!-- wp:paragraph -->
+<p>The TFG Return Policy, as amended from time to time, is incorporated into these Terms by reference.&nbsp;</p>
+<!-- /wp:paragraph -->
+
+<!-- wp:paragraph -->
+<p>Special-order, custom-manufactured, modified, assembled, cut-to-length, non-stock, clearance, obsolete, safety-sensitive, electrical, regulated, or manufacturer-restricted items will be non-cancellable and non-returnable unless expressly approved by TFG in writing.&nbsp;</p>
+<!-- /wp:paragraph -->
+
+<!-- wp:paragraph -->
+<p>The TFG Special Order Policy, as amended from time to time, is incorporated into these Terms by reference.&nbsp;</p>
+<!-- /wp:paragraph --></div></div></div>
+<!-- /wp:greenshift-blocks/accordionitem -->
+
+<!-- wp:greenshift-blocks/accordionitem {"id":"gsbp-1253986","title":"<strong><strong><strong><strong>8. Warranty and Claims </strong></strong></strong></strong>","open":false} -->
+<div class="wp-block-greenshift-blocks-accordionitem gs-accordion-item gspb_accordionitem-gsbp-1253986 gsclose" id="gspb_accordionitem-gsbp-1253986" itemscope><div class="gs-accordion-item__title" aria-expanded="false" role="button" tabindex="0" aria-controls="gspb-accordion-item-content-gsbp-1253986"><div class="gs-accordion-item__heading"><strong><strong><strong><strong>8. Warranty and Claims </strong></strong></strong></strong></div><span class="iconfortoggle"><span class="gs-iconbefore"></span><span class="gs-iconafter"></span></span></div><div class="gs-accordion-item__content" itemscope id="gspb-accordion-item-content-gsbp-1253986"><div class="gs-accordion-item__text"><!-- wp:paragraph -->
+<p>Products are subject solely to the manufacturer’s warranty, if any.&nbsp;</p>
+<!-- /wp:paragraph -->
+
+<!-- wp:paragraph -->
+<p>Except as expressly stated in writing, TFG disclaims all warranties, representations, and conditions, whether express, implied, statutory, or otherwise, including any implied warranty of merchantability, quality, durability, fitness for a particular purpose, non-infringement, or suitability for any application, to the fullest extent permitted by law.&nbsp;</p>
+<!-- /wp:paragraph -->
+
+<!-- wp:paragraph -->
+<p>Claims relating to shortages, incorrect goods, visible damage, shipping discrepancies, or delivery errors must be submitted in writing within three (3) business days following delivery.&nbsp;</p>
+<!-- /wp:paragraph -->
+
+<!-- wp:paragraph -->
+<p>Warranty claims must be submitted within the applicable warranty period and supported by information reasonably requested by TFG.&nbsp;</p>
+<!-- /wp:paragraph -->
+
+<!-- wp:paragraph -->
+<p>Failure to provide timely notice constitutes acceptance of the goods and a waiver of the claim to the extent permitted by law.&nbsp;</p>
+<!-- /wp:paragraph -->
+
+<!-- wp:paragraph -->
+<p>Goods must not be used, installed, altered, resold, or transferred if the customer intends to make a claim regarding visible defects or shipment discrepancies.&nbsp;</p>
+<!-- /wp:paragraph --></div></div></div>
+<!-- /wp:greenshift-blocks/accordionitem --></div>
+<!-- /wp:greenshift-blocks/accordion --></div>
+<!-- /wp:greenshift-blocks/row-column -->
+
+<!-- wp:greenshift-blocks/row-column {"id":"gsbp-0aa8bde","columnSize":"6"} -->
+<div class="wp-block-greenshift-blocks-row-column gspb_row__col--6 gspb_col-id-gsbp-0aa8bde" id="gspb_col-id-gsbp-0aa8bde"><!-- wp:greenshift-blocks/accordion {"id":"gsbp-af89e2f"} -->
+<div class="wp-block-greenshift-blocks-accordion gs-accordion gspb_accordion-id-gsbp-af89e2f" id="gspb_accordion-id-gsbp-af89e2f" itemscope itemtype=""><!-- wp:greenshift-blocks/accordionitem {"id":"gsbp-6c765b5","title":"<strong>9. Limitation of Liability </strong>","open":false} -->
+<div class="wp-block-greenshift-blocks-accordionitem gs-accordion-item gspb_accordionitem-gsbp-6c765b5 gsclose" id="gspb_accordionitem-gsbp-6c765b5" itemscope><div class="gs-accordion-item__title" aria-expanded="false" role="button" tabindex="0" aria-controls="gspb-accordion-item-content-gsbp-6c765b5"><div class="gs-accordion-item__heading"><strong>9. Limitation of Liability </strong></div><span class="iconfortoggle"><span class="gs-iconbefore"></span><span class="gs-iconafter"></span></span></div><div class="gs-accordion-item__content" itemscope id="gspb-accordion-item-content-gsbp-6c765b5"><div class="gs-accordion-item__text"><!-- wp:paragraph -->
+<p>To the fullest extent permitted by law, TFG shall not be liable for indirect, incidental, consequential, special, punitive, exemplary, or economic damages, including loss of profits, loss of revenue, loss of production, loss of contracts, business interruption, downtime costs, delay damages, loss of goodwill, or loss of opportunity.&nbsp;</p>
+<!-- /wp:paragraph -->
+
+<!-- wp:paragraph -->
+<p>TFG shall not be liable for losses arising from product misuse, improper installation, unauthorized modifications, customer negligence, third-party acts, or events beyond TFG’s reasonable control.&nbsp;</p>
+<!-- /wp:paragraph -->
+
+<!-- wp:paragraph -->
+<p>To the fullest extent permitted by law, TFG’s total aggregate liability arising from any claim relating to the transaction, regardless of legal theory, shall not exceed the purchase price paid to TFG for the specific goods giving rise to the claim.&nbsp;</p>
+<!-- /wp:paragraph -->
+
+<!-- wp:paragraph -->
+<p>Where liability cannot legally be excluded, TFG’s sole obligation shall, at TFG’s option, be limited to repair, replacement, refund, or issuance of a credit for the affected goods.&nbsp;</p>
+<!-- /wp:paragraph -->
+
+<!-- wp:paragraph -->
+<p>The limitations contained in this section apply to all causes of action, including contract, tort, negligence, strict liability, statutory liability, and otherwise.&nbsp;</p>
+<!-- /wp:paragraph --></div></div></div>
+<!-- /wp:greenshift-blocks/accordionitem -->
+
+<!-- wp:greenshift-blocks/accordionitem {"id":"gsbp-cc122f8","title":"<strong><strong>10. Customer Account Information and Authorized Purchasers </strong></strong>","open":false} -->
+<div class="wp-block-greenshift-blocks-accordionitem gs-accordion-item gspb_accordionitem-gsbp-cc122f8 gsclose" id="gspb_accordionitem-gsbp-cc122f8" itemscope><div class="gs-accordion-item__title" aria-expanded="false" role="button" tabindex="0" aria-controls="gspb-accordion-item-content-gsbp-cc122f8"><div class="gs-accordion-item__heading"><strong><strong>10. Customer Account Information and Authorized Purchasers </strong></strong></div><span class="iconfortoggle"><span class="gs-iconbefore"></span><span class="gs-iconafter"></span></span></div><div class="gs-accordion-item__content" itemscope id="gspb-accordion-item-content-gsbp-cc122f8"><div class="gs-accordion-item__text"><!-- wp:paragraph -->
+<p>The customer shall maintain accurate account information, including legal name, billing addresses, shipping addresses, tax registration numbers, accounts payable contacts, purchasing requirements, and authorized purchasers.&nbsp;</p>
+<!-- /wp:paragraph -->
+
+<!-- wp:paragraph -->
+<p>TFG may rely upon orders, instructions, approvals, and communications from individuals who reasonably appear to be authorized to act on behalf of the customer.&nbsp;</p>
+<!-- /wp:paragraph -->
+
+<!-- wp:paragraph -->
+<p>The customer remains responsible for all purchases made through its account until written notice of changes is received and processed by TFG.&nbsp;</p>
+<!-- /wp:paragraph --></div></div></div>
+<!-- /wp:greenshift-blocks/accordionitem -->
+
+<!-- wp:greenshift-blocks/accordionitem {"id":"gsbp-64f28f2","title":"<strong><strong><strong>11. Credit Information, Privacy, and Electronic Communications</strong></strong></strong>","open":false} -->
+<div class="wp-block-greenshift-blocks-accordionitem gs-accordion-item gspb_accordionitem-gsbp-64f28f2 gsclose" id="gspb_accordionitem-gsbp-64f28f2" itemscope><div class="gs-accordion-item__title" aria-expanded="false" role="button" tabindex="0" aria-controls="gspb-accordion-item-content-gsbp-64f28f2"><div class="gs-accordion-item__heading"><strong><strong><strong>11. Credit Information, Privacy, and Electronic Communications</strong></strong></strong></div><span class="iconfortoggle"><span class="gs-iconbefore"></span><span class="gs-iconafter"></span></span></div><div class="gs-accordion-item__content" itemscope id="gspb-accordion-item-content-gsbp-64f28f2"><div class="gs-accordion-item__text"><!-- wp:paragraph -->
+<p>The customer authorizes TFG to obtain, verify, use, and disclose credit information, banking information, payment history, trade references, and account information for purposes including credit evaluation, account administration, fraud prevention, risk management, collection activities, legal compliance, and business operations.&nbsp;</p>
+<!-- /wp:paragraph -->
+
+<!-- wp:paragraph -->
+<p>The customer authorizes TFG to obtain information from credit reporting agencies and other lawful sources.&nbsp;</p>
+<!-- /wp:paragraph -->
+
+<!-- wp:paragraph -->
+<p>The customer consents to receiving notices, invoices, statements, account communications, and related business communications electronically.&nbsp;</p>
+<!-- /wp:paragraph -->
+
+<!-- wp:paragraph -->
+<p>TFG will manage personal information in accordance with applicable privacy legislation and TFG privacy practices.&nbsp;</p>
+<!-- /wp:paragraph --></div></div></div>
+<!-- /wp:greenshift-blocks/accordionitem -->
+
+<!-- wp:greenshift-blocks/accordionitem {"id":"gsbp-2a1d669","title":"<strong><strong><strong><strong>12. Compliance, Safety, and Use of Goods </strong></strong></strong></strong>","open":false} -->
+<div class="wp-block-greenshift-blocks-accordionitem gs-accordion-item gspb_accordionitem-gsbp-2a1d669 gsclose" id="gspb_accordionitem-gsbp-2a1d669" itemscope><div class="gs-accordion-item__title" aria-expanded="false" role="button" tabindex="0" aria-controls="gspb-accordion-item-content-gsbp-2a1d669"><div class="gs-accordion-item__heading"><strong><strong><strong><strong>12. Compliance, Safety, and Use of Goods </strong></strong></strong></strong></div><span class="iconfortoggle"><span class="gs-iconbefore"></span><span class="gs-iconafter"></span></span></div><div class="gs-accordion-item__content" itemscope id="gspb-accordion-item-content-gsbp-2a1d669"><div class="gs-accordion-item__text"><!-- wp:paragraph -->
+<p>The customer is responsible for complying with all applicable laws, regulations, codes, standards, industry requirements, and workplace obligations relating to the products purchased.&nbsp;</p>
+<!-- /wp:paragraph -->
+
+<!-- wp:paragraph -->
+<p>Products must be used, installed, stored, transported, maintained, and disposed of safely and in accordance with all applicable legal requirements and product instructions.&nbsp;</p>
+<!-- /wp:paragraph -->
+
+<!-- wp:paragraph -->
+<p>The customer shall ensure that required training, warnings, safety information, personal protective equipment, safety data sheets, and compliance documentation are available to employees, contractors, and end users.&nbsp;</p>
+<!-- /wp:paragraph -->
+
+<!-- wp:paragraph -->
+<p>The customer shall comply with all applicable import, export, customs, sanctions, trade-control, anti-corruption, and anti-bribery laws.&nbsp;</p>
+<!-- /wp:paragraph --></div></div></div>
+<!-- /wp:greenshift-blocks/accordionitem -->
+
+<!-- wp:greenshift-blocks/accordionitem {"id":"gsbp-89129d6","title":"<strong><strong><strong><strong><strong>13. Customer Indemnity </strong></strong></strong></strong></strong>","open":false} -->
+<div class="wp-block-greenshift-blocks-accordionitem gs-accordion-item gspb_accordionitem-gsbp-89129d6 gsclose" id="gspb_accordionitem-gsbp-89129d6" itemscope><div class="gs-accordion-item__title" aria-expanded="false" role="button" tabindex="0" aria-controls="gspb-accordion-item-content-gsbp-89129d6"><div class="gs-accordion-item__heading"><strong><strong><strong><strong><strong>13. Customer Indemnity </strong></strong></strong></strong></strong></div><span class="iconfortoggle"><span class="gs-iconbefore"></span><span class="gs-iconafter"></span></span></div><div class="gs-accordion-item__content" itemscope id="gspb-accordion-item-content-gsbp-89129d6"><div class="gs-accordion-item__text"><!-- wp:paragraph -->
+<p>The customer shall indemnify, defend, and hold harmless TFG, its affiliated companies, directors, officers, employees, agents, and representatives from and against all claims, liabilities, losses, damages, judgments, fines, penalties, costs, and expenses, including reasonable legal fees, arising from or relating to:&nbsp;</p>
+<!-- /wp:paragraph -->
+
+<!-- wp:list -->
+<ul class="wp-block-list"><!-- wp:list-item -->
+<li>the customer’s use, storage, installation, handling, resale, or distribution of goods;&nbsp;</li>
+<!-- /wp:list-item --></ul>
+<!-- /wp:list -->
+
+<!-- wp:list -->
+<ul class="wp-block-list"><!-- wp:list-item -->
+<li>misuse, modification, or improper installation of goods;&nbsp;</li>
+<!-- /wp:list-item --></ul>
+<!-- /wp:list -->
+
+<!-- wp:list -->
+<ul class="wp-block-list"><!-- wp:list-item -->
+<li>the customer’s breach of these Terms;&nbsp;</li>
+<!-- /wp:list-item --></ul>
+<!-- /wp:list -->
+
+<!-- wp:list -->
+<ul class="wp-block-list"><!-- wp:list-item -->
+<li>the customer’s negligence or misconduct;&nbsp;</li>
+<!-- /wp:list-item --></ul>
+<!-- /wp:list -->
+
+<!-- wp:list -->
+<ul class="wp-block-list"><!-- wp:list-item -->
+<li>violation of applicable laws or regulations by the customer; or&nbsp;</li>
+<!-- /wp:list-item --></ul>
+<!-- /wp:list -->
+
+<!-- wp:list -->
+<ul class="wp-block-list"><!-- wp:list-item -->
+<li>third-party claims arising from the customer’s operations or use of the goods.&nbsp;</li>
+<!-- /wp:list-item --></ul>
+<!-- /wp:list --></div></div></div>
+<!-- /wp:greenshift-blocks/accordionitem -->
+
+<!-- wp:greenshift-blocks/accordionitem {"id":"gsbp-9a6a615","title":"<strong><strong><strong><strong><strong><strong>14. Force Majeure </strong></strong></strong></strong></strong></strong>","open":false} -->
+<div class="wp-block-greenshift-blocks-accordionitem gs-accordion-item gspb_accordionitem-gsbp-9a6a615 gsclose" id="gspb_accordionitem-gsbp-9a6a615" itemscope><div class="gs-accordion-item__title" aria-expanded="false" role="button" tabindex="0" aria-controls="gspb-accordion-item-content-gsbp-9a6a615"><div class="gs-accordion-item__heading"><strong><strong><strong><strong><strong><strong>14. Force Majeure </strong></strong></strong></strong></strong></strong></div><span class="iconfortoggle"><span class="gs-iconbefore"></span><span class="gs-iconafter"></span></span></div><div class="gs-accordion-item__content" itemscope id="gspb-accordion-item-content-gsbp-9a6a615"><div class="gs-accordion-item__text"><!-- wp:paragraph -->
+<p>TFG shall not be liable for any delay, interruption, shortage, non-delivery, allocation, suspension, or failure to perform arising from causes beyond its reasonable control.&nbsp;</p>
+<!-- /wp:paragraph -->
+
+<!-- wp:paragraph -->
+<p>Such events include natural disasters, labour disputes, transportation disruptions, supplier failures, utility interruptions, cyber incidents, pandemics, public emergencies, government actions, tariffs, trade restrictions, sanctions, armed conflict, shortages of materials, or other supply-chain disruptions.&nbsp;</p>
+<!-- /wp:paragraph -->
+
+<!-- wp:paragraph -->
+<p>During product shortages or supply disruptions, TFG may allocate available inventory among customers in its sole discretion.&nbsp;</p>
+<!-- /wp:paragraph --></div></div></div>
+<!-- /wp:greenshift-blocks/accordionitem -->
+
+<!-- wp:greenshift-blocks/accordionitem {"id":"gsbp-bc99995","title":"<strong><strong><strong><strong><strong><strong><strong>15. Governing Law and Dispute Resolution </strong></strong></strong></strong></strong></strong></strong>","open":false} -->
+<div class="wp-block-greenshift-blocks-accordionitem gs-accordion-item gspb_accordionitem-gsbp-bc99995 gsclose" id="gspb_accordionitem-gsbp-bc99995" itemscope><div class="gs-accordion-item__title" aria-expanded="false" role="button" tabindex="0" aria-controls="gspb-accordion-item-content-gsbp-bc99995"><div class="gs-accordion-item__heading"><strong><strong><strong><strong><strong><strong><strong>15. Governing Law and Dispute Resolution </strong></strong></strong></strong></strong></strong></strong></div><span class="iconfortoggle"><span class="gs-iconbefore"></span><span class="gs-iconafter"></span></span></div><div class="gs-accordion-item__content" itemscope id="gspb-accordion-item-content-gsbp-bc99995"><div class="gs-accordion-item__text"><!-- wp:paragraph -->
+<p>These Terms shall be governed by the laws of the province or territory in which the selling TFG branch or operating company is located, together with applicable federal laws of Canada.&nbsp;</p>
+<!-- /wp:paragraph -->
+
+<!-- wp:paragraph -->
+<p>The parties shall first attempt to resolve disputes through good-faith discussions.&nbsp;</p>
+<!-- /wp:paragraph -->
+
+<!-- wp:paragraph -->
+<p>Subject to applicable law, the parties irrevocably attorn to the courts of the applicable province or territory having jurisdiction over the selling TFG branch unless otherwise agreed in writing.&nbsp;</p>
+<!-- /wp:paragraph --></div></div></div>
+<!-- /wp:greenshift-blocks/accordionitem -->
+
+<!-- wp:greenshift-blocks/accordionitem {"id":"gsbp-de85d46","title":"<strong><strong><strong><strong><strong><strong><strong><strong>16. General Provisions </strong></strong></strong></strong></strong></strong></strong></strong>","open":false} -->
+<div class="wp-block-greenshift-blocks-accordionitem gs-accordion-item gspb_accordionitem-gsbp-de85d46 gsclose" id="gspb_accordionitem-gsbp-de85d46" itemscope><div class="gs-accordion-item__title" aria-expanded="false" role="button" tabindex="0" aria-controls="gspb-accordion-item-content-gsbp-de85d46"><div class="gs-accordion-item__heading"><strong><strong><strong><strong><strong><strong><strong><strong>16. General Provisions </strong></strong></strong></strong></strong></strong></strong></strong></div><span class="iconfortoggle"><span class="gs-iconbefore"></span><span class="gs-iconafter"></span></span></div><div class="gs-accordion-item__content" itemscope id="gspb-accordion-item-content-gsbp-de85d46"><div class="gs-accordion-item__text"><!-- wp:paragraph -->
+<p>If any provision of these Terms is held to be invalid or unenforceable, the remaining provisions shall remain in full force and effect.&nbsp;</p>
+<!-- /wp:paragraph -->
+
+<!-- wp:paragraph -->
+<p>TFG’s failure to enforce any provision shall not constitute a waiver of that provision or any future enforcement rights.&nbsp;</p>
+<!-- /wp:paragraph -->
+
+<!-- wp:paragraph -->
+<p>The customer may not assign its rights or obligations without TFG’s prior written consent.&nbsp;</p>
+<!-- /wp:paragraph -->
+
+<!-- wp:paragraph -->
+<p>TFG may assign its rights and obligations to an affiliate, successor, purchaser, or related entity.&nbsp;</p>
+<!-- /wp:paragraph -->
+
+<!-- wp:paragraph -->
+<p>These Terms, together with any policies, schedules, or written agreements expressly incorporated by reference, constitute the entire agreement between the parties concerning the subject matter of the transaction.&nbsp;</p>
+<!-- /wp:paragraph -->
+
+<!-- wp:paragraph -->
+<p>TFG may revise these Terms from time to time for future transactions by posting updated Terms or otherwise providing notice.&nbsp;</p>
+<!-- /wp:paragraph -->
+
+<!-- wp:paragraph -->
+<p>Any provisions which by their nature are intended to survive termination, including payment obligations, indemnities, warranty limitations, limitations of liability, dispute resolution provisions, security interests, and collection rights, shall survive termination of the relationship between the parties.&nbsp;</p>
+<!-- /wp:paragraph --></div></div></div>
+<!-- /wp:greenshift-blocks/accordionitem --></div>
+<!-- /wp:greenshift-blocks/accordion --></div>
+<!-- /wp:greenshift-blocks/row-column --> </div></div>
+<!-- /wp:greenshift-blocks/row --></div>
+<!-- /wp:greenshift-blocks/row-column --> </div></div>
+<!-- /wp:greenshift-blocks/row --></div>
+<!-- /wp:greenshift-blocks/element --></div>
+<!-- /wp:greenshift-blocks/element -->

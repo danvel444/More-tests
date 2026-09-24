@@ -62,9 +62,10 @@ def table_css(selector, table_styles):
 
 class Block:
     def __init__(self, tag="div", text=None, children=None, class_name=None,
-                 styles=None, custom_css=None, table_styles=None, name=None, anchor=None):
+                 styles=None, custom_css=None, table_styles=None, name=None, anchor=None, href=None):
         self.id = new_id()
         self.anchor = anchor
+        self.href = href
         self.tag = tag
         self.text = text
         self.children = children or []
@@ -100,6 +101,8 @@ class Block:
         if self.class_name:
             a["className"] = self.class_name
         a["localId"] = self.id
+        if self.href:
+            a["href"] = self.href
         if self.table_styles:
             a["tableStyles"] = self.table_styles
         if self.styles or self.custom_css:
@@ -122,7 +125,8 @@ class Block:
     def serialize(self):
         cls = self.classes()
         open_tag = f"<{self.tag}" + (f' class="{" ".join(cls)}"' if cls else "")
-        open_tag += (f' id="{self.anchor}"' if self.anchor else "") + ">"
+        open_tag += (f' id="{self.anchor}"' if self.anchor else "")
+        open_tag += (f' href="{self.href}"' if self.href else "") + ">"
         if self.text is not None:
             inner = html.escape(self.text, quote=False)
         else:
@@ -213,8 +217,8 @@ def columns(terms, split):
     ])
 
 
-def build(policy):
-    """Write <dir>/<slug>-greenshift-blocks.txt and a matching browser preview."""
+def make_root(policy):
+    """The policy's panel: heading, optional definition, then its tables or custom body."""
     _seed["slug"], _seed["n"] = policy["seed"], 0
     heading = Block(name="Heading", styles={
         "paddingBottom": ["1.5rem"], "marginBottom": ["2.25rem"],
@@ -256,10 +260,14 @@ def build(policy):
         "paddingLeft": ["1.5rem", None, None, "1rem"],
         "paddingRight": ["1.5rem", None, None, "1rem"],
     }, children=parts)
+    return root
 
+
+def write(policy, root, before=""):
+    """Write <dir>/<dir>-greenshift-blocks.txt and a browser preview built from the same code."""
     out_dir = HERE / policy["dir"]
     out_dir.mkdir(exist_ok=True)
-    blocks = root.serialize() + "\n"
+    blocks = (before + "\n\n" if before else "") + root.serialize() + "\n"
     (out_dir / f"{policy['dir']}-greenshift-blocks.txt").write_text(blocks)
 
     # Browser preview built from the exact same markup and CSS the blocks carry.
@@ -281,8 +289,12 @@ def build(policy):
     print(policy["dir"], "blocks:", blocks.count("<!-- wp:greenshift-blocks/element"))
 
 
+def build(policy):
+    write(policy, make_root(policy))
+
+
 RETURNS = {
-    "dir": "returns-policy", "seed": "returns", "name": "Returns Policy",
+    "dir": "returns-policy", "seed": "returns", "name": "Returns Policy", "anchor": "returns",
     "eyebrow": "Branch return policy statement", "title": "Returns",
     "split": 7,
     "terms": [
@@ -310,21 +322,19 @@ RETURNS = {
 }
 
 SPECIAL_ORDERS = {
-    "dir": "special-orders", "seed": "special-orders", "name": "Special Orders Policy",
+    "dir": "special-orders", "seed": "special-orders", "name": "Special Orders Policy", "anchor": "special-orders",
     "eyebrow": "Branch special order policy statement", "title": "Special Orders",
     "note": ("Definition", "A special order is any product ordered specifically for a customer that is not normally stocked by TFG, is sourced outside standard inventory replenishment, is custom-made, altered, configured, cut, packaged, or otherwise supplied to meet a customer-specific requirement, or is identified by a vendor as non-cancellable or non-returnable."),
-    "split": 5,
+    "split": 4,
     "terms": [
         ("01", "Only Credit Customers may place special orders; Cash Customers are not eligible.", []),
         ("02", "Special order items are final sale and cannot be returned, exchanged, or cancelled once confirmed, unless due to TFG error, vendor defect, or approved management exception.", []),
         ("03", "A deposit may be required if a customer exceeds their credit limit.", []),
         ("04", "Special orders must be bought in vendor-defined pack quantities.", []),
-        ("05", "Team members will communicate special order terms before ordering, including final sale status, deposits, estimated lead time, freight charges, and vendor restrictions.", []),
-        ("06", "Lead times are estimates and may change due to vendor availability, freight delays, production schedules, or other factors outside TFG’s control.", []),
-        ("07", "A Purchase Order is required and will signify customer acceptance of special order terms.", []),
-        ("08", "Special order items will be marked as final sale on the invoice.", []),
-        ("09", "Damaged, incorrect, or defective special orders must follow the applicable vendor claim, warranty, or return process.", []),
-        ("10", "Exceptions must be approved by the Branch Manager or may be escalated to VP Operations or VP Sales.", []),
+        ("05", "Lead times are estimates and may change due to vendor availability, freight delays, production schedules, or other factors outside TFG’s control.", []),
+        ("06", "A Purchase Order is required and will signify customer acceptance of special order terms.", []),
+        ("07", "Damaged, incorrect, or defective special orders must follow the applicable vendor claim, warranty, or return process.", []),
+        ("08", "Exceptions must be approved by the Branch Manager or may be escalated to VP Operations or VP Sales.", []),
     ],
 }
 
@@ -362,7 +372,79 @@ TERMS_OF_SALE = {
     "preview_css": GS_PREVIEW_CSS,
 }
 
+# The three cards under the hero, redone as a numbered index that matches the tables.
+INDEX = [
+    ("01", "#returns", "Returns", "Branch Return Policy Statement"),
+    ("02", "#special-orders", "Special Orders", "Branch Special Order Policy Statement"),
+    ("03", "#terms-of-sale", "Terms of Sale", "General Terms of Sale and Customer Account Conditions"),
+]
+
+INDEX_CSS = (
+    "{CURRENT} .tfgr-idx-card{display:flex;align-items:stretch;background-color:#ffffff;"
+    f"color:{BODY};text-decoration:none;transition:background-color .2s;}}"
+    f"{{CURRENT}} .tfgr-idx-card:hover{{background-color:{NUM_BG};}}"
+    f"{{CURRENT}} .tfgr-idx-card:focus-visible{{outline:2px solid {ACCENT};outline-offset:-2px;}}"
+    "{CURRENT} .tfgr-idx-num{flex:0 0 4.25rem;text-align:center;padding-top:1rem;"
+    f"background-color:{NUM_BG};border-right:1px solid {RULE};color:{ACCENT};"
+    "font-weight:700;font-variant-numeric:tabular-nums;}"
+    "{CURRENT} .tfgr-idx-body{flex:1 1 auto;padding:1rem 1.5rem;}"
+    f"{{CURRENT}} .tfgr-idx-title{{margin:0;font-weight:700;color:{INK};}}"
+    "{CURRENT} .tfgr-idx-desc{margin:0.2rem 0 0 0;}"
+    f"{{CURRENT}} .tfgr-idx-view{{margin:0.6rem 0 0 0;font-weight:700;color:{ACCENT};}}"
+    "{CURRENT} .tfgr-idx-view::after{content:\" \\2192\";}"
+    "{CURRENT} .tfgr-idx-card:hover .tfgr-idx-view{text-decoration:underline;}"
+    "@media (max-width: 575.98px){{CURRENT} .tfgr-idx-num{flex-basis:3rem;}}"
+)
+
+
+def policy_index():
+    _seed["slug"], _seed["n"] = "page-index", 0
+    cards = [
+        Block("a", class_name="tfgr-idx-card", href=href, name=title, children=[
+            Block("span", text=num, class_name="tfgr-idx-num"),
+            Block(class_name="tfgr-idx-body", children=[
+                Block("p", text=title, class_name="tfgr-idx-title"),
+                Block("p", text=desc, class_name="tfgr-idx-desc"),
+                Block("p", text="View", class_name="tfgr-idx-view"),
+            ]),
+        ])
+        for num, href, title, desc in INDEX
+    ]
+    # The 1px gaps over a rule-coloured background draw the lines between cards.
+    return Block(name="Policy Index", styles={
+        "display": ["grid"],
+        "gridTemplateColumns": ["repeat(3, 1fr)", "repeat(1, 1fr)"],
+        "columnGap": ["1px"], "rowGap": ["1px"],
+        "backgroundColor": [RULE], "border": [f"1px solid {RULE}"],
+    }, custom_css=INDEX_CSS, children=cards)
+
+
+PAGE = {"dir": "policies-page", "title": "Policies and Terms", "preview_css": GS_PREVIEW_CSS + """
+.gspb_row-id-gsbp-7eecdd8{background:#6d1216;color:#fff;padding:120px 40px 60px;margin-bottom:120px}
+.gspb_row-id-gsbp-7eecdd8 .gspb_row__content{max-width:1200px;margin:0 auto;align-items:center}
+.gspb_heading-id-gsbp-a22facd{font-size:70px;line-height:1.2em;margin:0}
+body > .gsbp-wrap-preview{max-width:1200px;margin:0 auto}
+"""}
+
+
+def build_page():
+    """The whole Policies and Terms page: hero, index, then the three policy panels."""
+    hero = (HERE / "policies-page" / "source-hero.txt").read_text().strip()
+    # The hero's mobile-landscape background was teal (#063532); every other size is dark red.
+    hero = hero.replace('"color":["#6d1216","#6d1216","#063532","#6d1216"]',
+                        '"color":["#6d1216","#6d1216","#6d1216","#6d1216"]')
+    index = policy_index()
+    panels = [make_root(RETURNS), make_root(SPECIAL_ORDERS), make_root(TERMS_OF_SALE)]
+    _seed["slug"], _seed["n"] = "page-wrap", 0
+    wrapper = Block(name="Policies", class_name="tfgr-page", styles={
+        "display": ["flex"], "flexDirection": ["column"],
+        "rowGap": ["3.38rem", "2.25rem"],
+    }, custom_css="{CURRENT} [id]{scroll-margin-top:7rem;}", children=[index] + panels)
+    write(PAGE, wrapper, before=hero)
+
+
 if __name__ == "__main__":
     build(RETURNS)
     build(SPECIAL_ORDERS)
     build(TERMS_OF_SALE)
+    build_page()

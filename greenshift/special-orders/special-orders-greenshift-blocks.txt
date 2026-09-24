@@ -1,5 +1,5 @@
-<!-- wp:greenshift-blocks/element {"id":"gsbp-58509fc","inlineCssStyles":".gsbp-58509fc{background-color:#faf8f4;padding-top:2.25rem;padding-bottom:2.25rem;padding-left:1.5rem;padding-right:1.5rem;}@media (max-width: 575.98px){.gsbp-58509fc{padding-top:1.5rem;padding-bottom:1.5rem;padding-left:1rem;padding-right:1rem;}}","type":"inner","className":"tfgr-policy","localId":"gsbp-58509fc","styleAttributes":{"backgroundColor":["#faf8f4"],"paddingTop":["2.25rem",null,null,"1.5rem"],"paddingBottom":["2.25rem",null,null,"1.5rem"],"paddingLeft":["1.5rem",null,null,"1rem"],"paddingRight":["1.5rem",null,null,"1rem"]},"metadata":{"name":"Special Orders Policy"}} -->
-<div class="tfgr-policy gsbp-58509fc"><!-- wp:greenshift-blocks/element {"id":"gsbp-60f20e3","inlineCssStyles":".gsbp-60f20e3{padding-bottom:1.5rem;margin-bottom:2.25rem;border-bottom:2px solid #1d1f21;}","type":"inner","localId":"gsbp-60f20e3","styleAttributes":{"paddingBottom":["1.5rem"],"marginBottom":["2.25rem"],"borderBottom":["2px solid #1d1f21"]},"metadata":{"name":"Heading"}} -->
+<!-- wp:greenshift-blocks/element {"id":"gsbp-d4050d2","anchor":"special-orders","inlineCssStyles":".gsbp-d4050d2{background-color:#faf8f4;padding-top:2.25rem;padding-bottom:2.25rem;padding-left:1.5rem;padding-right:1.5rem;}@media (max-width: 575.98px){.gsbp-d4050d2{padding-top:1.5rem;padding-bottom:1.5rem;padding-left:1rem;padding-right:1rem;}}","type":"inner","className":"tfgr-policy","localId":"gsbp-d4050d2","styleAttributes":{"backgroundColor":["#faf8f4"],"paddingTop":["2.25rem",null,null,"1.5rem"],"paddingBottom":["2.25rem",null,null,"1.5rem"],"paddingLeft":["1.5rem",null,null,"1rem"],"paddingRight":["1.5rem",null,null,"1rem"]},"metadata":{"name":"Special Orders Policy"}} -->
+<div class="tfgr-policy gsbp-d4050d2" id="special-orders"><!-- wp:greenshift-blocks/element {"id":"gsbp-60f20e3","inlineCssStyles":".gsbp-60f20e3{padding-bottom:1.5rem;margin-bottom:2.25rem;border-bottom:2px solid #1d1f21;}","type":"inner","localId":"gsbp-60f20e3","styleAttributes":{"paddingBottom":["1.5rem"],"marginBottom":["2.25rem"],"borderBottom":["2px solid #1d1f21"]},"metadata":{"name":"Heading"}} -->
 <div class="gsbp-60f20e3"><!-- wp:greenshift-blocks/element {"id":"gsbp-3cdaff5","inlineCssStyles":".gsbp-3cdaff5{margin-top:0px;margin-bottom:0.44rem;font-weight:700;text-transform:uppercase;color:#a3231b;}","textContent":"Branch special order policy statement","tag":"p","localId":"gsbp-3cdaff5","styleAttributes":{"marginTop":["0px"],"marginBottom":["0.44rem"],"fontWeight":["700"],"textTransform":["uppercase"],"color":["#a3231b"]}} -->
 <p class="gsbp-3cdaff5">Branch special order policy statement</p>
 <!-- /wp:greenshift-blocks/element -->
@@ -19,9 +19,9 @@
 <!-- /wp:greenshift-blocks/element --></div>
 <!-- /wp:greenshift-blocks/element -->
 
-<!-- wp:greenshift-blocks/element {"id":"gsbp-21ab001","inlineCssStyles":".gsbp-21ab001{display:grid;grid-template-columns:repeat(2, 1fr);column-gap:2.25rem;row-gap:2.25rem;align-items:start;}@media (max-width: 991.98px){.gsbp-21ab001{grid-template-columns:repeat(1, 1fr);row-gap:0px;}}","type":"inner","localId":"gsbp-21ab001","styleAttributes":{"display":["grid"],"gridTemplateColumns":["repeat(2, 1fr)","repeat(1, 1fr)"],"columnGap":["2.25rem"],"rowGap":["2.25rem","0px"],"alignItems":["start"]},"metadata":{"name":"Columns"}} -->
-<div class="gsbp-21ab001"><!-- wp:greenshift-blocks/element {"id":"gsbp-9c8629d","inlineCssStyles":".gsbp-9c8629d{border-collapse:collapse;table-layout:fixed;}.gsbp-9c8629d td{padding-top:1rem;padding-bottom:1rem;padding-right:1.5rem;padding-left:1.5rem;border-style:solid;border-width:1px;border-color:#d9d5cc;}.gsbp-9c8629d{width:100%;margin-top:0px;margin-bottom:0px;background-color:#ffffff;color:#3a3d40;}.gsbp-9c8629d td.tfgr-num{width:4.25rem;vertical-align:top;text-align:center;padding-left:0;padding-right:0;background-color:#f1ede5;color:#a3231b;font-weight:700;font-variant-numeric:tabular-nums;}.gsbp-9c8629d td{vertical-align:top;}.gsbp-9c8629d td p{margin-top:0;margin-bottom:0;}.gsbp-9c8629d .tfgr-sub{list-style:none;margin:0.44rem 0 0 0;padding:0;}.gsbp-9c8629d .tfgr-sub li{position:relative;margin:0;padding:0.2rem 0 0.2rem 1.25rem;}.gsbp-9c8629d .tfgr-sub li::before{content:\u0022\u0022;position:absolute;left:0;top:calc(0.2rem + 0.5lh - 1px);width:0.6rem;height:2px;background-color:#a3231b;}@media (max-width: 575.98px){.gsbp-9c8629d td.tfgr-num{width:3rem;}}","tag":"table","type":"inner","className":"tfgr-table","localId":"gsbp-9c8629d","tableStyles":{"table":{"layout":"fixed","border":"collapse"},"td":{"paddingTop":["1rem"],"paddingBottom":["1rem"],"paddingRight":["1.5rem"],"paddingLeft":["1.5rem"],"borderStyle":"solid","borderWidth":"1px","borderColor":"#d9d5cc"}},"styleAttributes":{"width":["100%"],"marginTop":["0px"],"marginBottom":["0px"],"backgroundColor":["#ffffff"],"color":["#3a3d40"],"customCSS_Extra":"{CURRENT} td.tfgr-num{width:4.25rem;vertical-align:top;text-align:center;padding-left:0;padding-right:0;background-color:#f1ede5;color:#a3231b;font-weight:700;font-variant-numeric:tabular-nums;}{CURRENT} td{vertical-align:top;}{CURRENT} td p{margin-top:0;margin-bottom:0;}{CURRENT} .tfgr-sub{list-style:none;margin:0.44rem 0 0 0;padding:0;}{CURRENT} .tfgr-sub li{position:relative;margin:0;padding:0.2rem 0 0.2rem 1.25rem;}{CURRENT} .tfgr-sub li::before{content:\u0022\u0022;position:absolute;left:0;top:calc(0.2rem + 0.5lh - 1px);width:0.6rem;height:2px;background-color:#a3231b;}@media (max-width: 575.98px){{CURRENT} td.tfgr-num{width:3rem;}}"},"metadata":{"name":"Terms 01 to 05"}} -->
-<table class="tfgr-table gsbp-9c8629d"><!-- wp:greenshift-blocks/element {"id":"gsbp-9dbd665","tag":"tr","type":"inner","localId":"gsbp-9dbd665","metadata":{"name":"Term 01"}} -->
+<!-- wp:greenshift-blocks/element {"id":"gsbp-5a62d4d","inlineCssStyles":".gsbp-5a62d4d{display:grid;grid-template-columns:repeat(2, 1fr);column-gap:2.25rem;row-gap:2.25rem;align-items:start;}@media (max-width: 991.98px){.gsbp-5a62d4d{grid-template-columns:repeat(1, 1fr);row-gap:0px;}}","type":"inner","localId":"gsbp-5a62d4d","styleAttributes":{"display":["grid"],"gridTemplateColumns":["repeat(2, 1fr)","repeat(1, 1fr)"],"columnGap":["2.25rem"],"rowGap":["2.25rem","0px"],"alignItems":["start"]},"metadata":{"name":"Columns"}} -->
+<div class="gsbp-5a62d4d"><!-- wp:greenshift-blocks/element {"id":"gsbp-615b60f","inlineCssStyles":".gsbp-615b60f{border-collapse:collapse;table-layout:fixed;}.gsbp-615b60f td{padding-top:1rem;padding-bottom:1rem;padding-right:1.5rem;padding-left:1.5rem;border-style:solid;border-width:1px;border-color:#d9d5cc;}.gsbp-615b60f{width:100%;margin-top:0px;margin-bottom:0px;background-color:#ffffff;color:#3a3d40;}.gsbp-615b60f td.tfgr-num{width:4.25rem;vertical-align:top;text-align:center;padding-left:0;padding-right:0;background-color:#f1ede5;color:#a3231b;font-weight:700;font-variant-numeric:tabular-nums;}.gsbp-615b60f td{vertical-align:top;}.gsbp-615b60f td p{margin-top:0;margin-bottom:0;}.gsbp-615b60f .tfgr-sub{list-style:none;margin:0.44rem 0 0 0;padding:0;}.gsbp-615b60f .tfgr-sub li{position:relative;margin:0;padding:0.2rem 0 0.2rem 1.25rem;}.gsbp-615b60f .tfgr-sub li::before{content:\u0022\u0022;position:absolute;left:0;top:calc(0.2rem + 0.5lh - 1px);width:0.6rem;height:2px;background-color:#a3231b;}@media (max-width: 575.98px){.gsbp-615b60f td.tfgr-num{width:3rem;}}","tag":"table","type":"inner","className":"tfgr-table","localId":"gsbp-615b60f","tableStyles":{"table":{"layout":"fixed","border":"collapse"},"td":{"paddingTop":["1rem"],"paddingBottom":["1rem"],"paddingRight":["1.5rem"],"paddingLeft":["1.5rem"],"borderStyle":"solid","borderWidth":"1px","borderColor":"#d9d5cc"}},"styleAttributes":{"width":["100%"],"marginTop":["0px"],"marginBottom":["0px"],"backgroundColor":["#ffffff"],"color":["#3a3d40"],"customCSS_Extra":"{CURRENT} td.tfgr-num{width:4.25rem;vertical-align:top;text-align:center;padding-left:0;padding-right:0;background-color:#f1ede5;color:#a3231b;font-weight:700;font-variant-numeric:tabular-nums;}{CURRENT} td{vertical-align:top;}{CURRENT} td p{margin-top:0;margin-bottom:0;}{CURRENT} .tfgr-sub{list-style:none;margin:0.44rem 0 0 0;padding:0;}{CURRENT} .tfgr-sub li{position:relative;margin:0;padding:0.2rem 0 0.2rem 1.25rem;}{CURRENT} .tfgr-sub li::before{content:\u0022\u0022;position:absolute;left:0;top:calc(0.2rem + 0.5lh - 1px);width:0.6rem;height:2px;background-color:#a3231b;}@media (max-width: 575.98px){{CURRENT} td.tfgr-num{width:3rem;}}"},"metadata":{"name":"Terms 01 to 04"}} -->
+<table class="tfgr-table gsbp-615b60f"><!-- wp:greenshift-blocks/element {"id":"gsbp-9dbd665","tag":"tr","type":"inner","localId":"gsbp-9dbd665","metadata":{"name":"Term 01"}} -->
 <tr><!-- wp:greenshift-blocks/element {"id":"gsbp-89ff7ac","tag":"td","type":"inner","className":"tfgr-num","localId":"gsbp-89ff7ac"} -->
 <td class="tfgr-num"><!-- wp:greenshift-blocks/element {"id":"gsbp-a31deb8","textContent":"01","tag":"span","localId":"gsbp-a31deb8"} -->
 <span>01</span>
@@ -75,25 +75,25 @@
 <p>Special orders must be bought in vendor-defined pack quantities.</p>
 <!-- /wp:greenshift-blocks/element --></td>
 <!-- /wp:greenshift-blocks/element --></tr>
+<!-- /wp:greenshift-blocks/element --></table>
 <!-- /wp:greenshift-blocks/element -->
 
-<!-- wp:greenshift-blocks/element {"id":"gsbp-7d25d62","tag":"tr","type":"inner","localId":"gsbp-7d25d62","metadata":{"name":"Term 05"}} -->
-<tr><!-- wp:greenshift-blocks/element {"id":"gsbp-3ffad28","tag":"td","type":"inner","className":"tfgr-num","localId":"gsbp-3ffad28"} -->
-<td class="tfgr-num"><!-- wp:greenshift-blocks/element {"id":"gsbp-f823211","textContent":"05","tag":"span","localId":"gsbp-f823211"} -->
+<!-- wp:greenshift-blocks/element {"id":"gsbp-be1032e","inlineCssStyles":".gsbp-be1032e{border-collapse:collapse;table-layout:fixed;}.gsbp-be1032e td{padding-top:1rem;padding-bottom:1rem;padding-right:1.5rem;padding-left:1.5rem;border-style:solid;border-width:1px;border-color:#d9d5cc;}.gsbp-be1032e{width:100%;margin-top:0px;margin-bottom:0px;background-color:#ffffff;color:#3a3d40;}@media (max-width: 991.98px){.gsbp-be1032e{margin-top:-1px;}}.gsbp-be1032e td.tfgr-num{width:4.25rem;vertical-align:top;text-align:center;padding-left:0;padding-right:0;background-color:#f1ede5;color:#a3231b;font-weight:700;font-variant-numeric:tabular-nums;}.gsbp-be1032e td{vertical-align:top;}.gsbp-be1032e td p{margin-top:0;margin-bottom:0;}.gsbp-be1032e .tfgr-sub{list-style:none;margin:0.44rem 0 0 0;padding:0;}.gsbp-be1032e .tfgr-sub li{position:relative;margin:0;padding:0.2rem 0 0.2rem 1.25rem;}.gsbp-be1032e .tfgr-sub li::before{content:\u0022\u0022;position:absolute;left:0;top:calc(0.2rem + 0.5lh - 1px);width:0.6rem;height:2px;background-color:#a3231b;}@media (max-width: 575.98px){.gsbp-be1032e td.tfgr-num{width:3rem;}}","tag":"table","type":"inner","className":"tfgr-table","localId":"gsbp-be1032e","tableStyles":{"table":{"layout":"fixed","border":"collapse"},"td":{"paddingTop":["1rem"],"paddingBottom":["1rem"],"paddingRight":["1.5rem"],"paddingLeft":["1.5rem"],"borderStyle":"solid","borderWidth":"1px","borderColor":"#d9d5cc"}},"styleAttributes":{"width":["100%"],"marginTop":["0px","-1px"],"marginBottom":["0px"],"backgroundColor":["#ffffff"],"color":["#3a3d40"],"customCSS_Extra":"{CURRENT} td.tfgr-num{width:4.25rem;vertical-align:top;text-align:center;padding-left:0;padding-right:0;background-color:#f1ede5;color:#a3231b;font-weight:700;font-variant-numeric:tabular-nums;}{CURRENT} td{vertical-align:top;}{CURRENT} td p{margin-top:0;margin-bottom:0;}{CURRENT} .tfgr-sub{list-style:none;margin:0.44rem 0 0 0;padding:0;}{CURRENT} .tfgr-sub li{position:relative;margin:0;padding:0.2rem 0 0.2rem 1.25rem;}{CURRENT} .tfgr-sub li::before{content:\u0022\u0022;position:absolute;left:0;top:calc(0.2rem + 0.5lh - 1px);width:0.6rem;height:2px;background-color:#a3231b;}@media (max-width: 575.98px){{CURRENT} td.tfgr-num{width:3rem;}}"},"metadata":{"name":"Terms 05 to 08"}} -->
+<table class="tfgr-table gsbp-be1032e"><!-- wp:greenshift-blocks/element {"id":"gsbp-9c8629d","tag":"tr","type":"inner","localId":"gsbp-9c8629d","metadata":{"name":"Term 05"}} -->
+<tr><!-- wp:greenshift-blocks/element {"id":"gsbp-1dd1f1a","tag":"td","type":"inner","className":"tfgr-num","localId":"gsbp-1dd1f1a"} -->
+<td class="tfgr-num"><!-- wp:greenshift-blocks/element {"id":"gsbp-3ffad28","textContent":"05","tag":"span","localId":"gsbp-3ffad28"} -->
 <span>05</span>
 <!-- /wp:greenshift-blocks/element --></td>
 <!-- /wp:greenshift-blocks/element -->
 
-<!-- wp:greenshift-blocks/element {"id":"gsbp-1dd1f1a","tag":"td","type":"inner","localId":"gsbp-1dd1f1a"} -->
-<td><!-- wp:greenshift-blocks/element {"id":"gsbp-615b60f","textContent":"Team members will communicate special order terms before ordering, including final sale status, deposits, estimated lead time, freight charges, and vendor restrictions.","tag":"p","localId":"gsbp-615b60f"} -->
-<p>Team members will communicate special order terms before ordering, including final sale status, deposits, estimated lead time, freight charges, and vendor restrictions.</p>
+<!-- wp:greenshift-blocks/element {"id":"gsbp-7d25d62","tag":"td","type":"inner","localId":"gsbp-7d25d62"} -->
+<td><!-- wp:greenshift-blocks/element {"id":"gsbp-f823211","textContent":"Lead times are estimates and may change due to vendor availability, freight delays, production schedules, or other factors outside TFG’s control.","tag":"p","localId":"gsbp-f823211"} -->
+<p>Lead times are estimates and may change due to vendor availability, freight delays, production schedules, or other factors outside TFG’s control.</p>
 <!-- /wp:greenshift-blocks/element --></td>
 <!-- /wp:greenshift-blocks/element --></tr>
-<!-- /wp:greenshift-blocks/element --></table>
 <!-- /wp:greenshift-blocks/element -->
 
-<!-- wp:greenshift-blocks/element {"id":"gsbp-9dc0a7f","inlineCssStyles":".gsbp-9dc0a7f{border-collapse:collapse;table-layout:fixed;}.gsbp-9dc0a7f td{padding-top:1rem;padding-bottom:1rem;padding-right:1.5rem;padding-left:1.5rem;border-style:solid;border-width:1px;border-color:#d9d5cc;}.gsbp-9dc0a7f{width:100%;margin-top:0px;margin-bottom:0px;background-color:#ffffff;color:#3a3d40;}@media (max-width: 991.98px){.gsbp-9dc0a7f{margin-top:-1px;}}.gsbp-9dc0a7f td.tfgr-num{width:4.25rem;vertical-align:top;text-align:center;padding-left:0;padding-right:0;background-color:#f1ede5;color:#a3231b;font-weight:700;font-variant-numeric:tabular-nums;}.gsbp-9dc0a7f td{vertical-align:top;}.gsbp-9dc0a7f td p{margin-top:0;margin-bottom:0;}.gsbp-9dc0a7f .tfgr-sub{list-style:none;margin:0.44rem 0 0 0;padding:0;}.gsbp-9dc0a7f .tfgr-sub li{position:relative;margin:0;padding:0.2rem 0 0.2rem 1.25rem;}.gsbp-9dc0a7f .tfgr-sub li::before{content:\u0022\u0022;position:absolute;left:0;top:calc(0.2rem + 0.5lh - 1px);width:0.6rem;height:2px;background-color:#a3231b;}@media (max-width: 575.98px){.gsbp-9dc0a7f td.tfgr-num{width:3rem;}}","tag":"table","type":"inner","className":"tfgr-table","localId":"gsbp-9dc0a7f","tableStyles":{"table":{"layout":"fixed","border":"collapse"},"td":{"paddingTop":["1rem"],"paddingBottom":["1rem"],"paddingRight":["1.5rem"],"paddingLeft":["1.5rem"],"borderStyle":"solid","borderWidth":"1px","borderColor":"#d9d5cc"}},"styleAttributes":{"width":["100%"],"marginTop":["0px","-1px"],"marginBottom":["0px"],"backgroundColor":["#ffffff"],"color":["#3a3d40"],"customCSS_Extra":"{CURRENT} td.tfgr-num{width:4.25rem;vertical-align:top;text-align:center;padding-left:0;padding-right:0;background-color:#f1ede5;color:#a3231b;font-weight:700;font-variant-numeric:tabular-nums;}{CURRENT} td{vertical-align:top;}{CURRENT} td p{margin-top:0;margin-bottom:0;}{CURRENT} .tfgr-sub{list-style:none;margin:0.44rem 0 0 0;padding:0;}{CURRENT} .tfgr-sub li{position:relative;margin:0;padding:0.2rem 0 0.2rem 1.25rem;}{CURRENT} .tfgr-sub li::before{content:\u0022\u0022;position:absolute;left:0;top:calc(0.2rem + 0.5lh - 1px);width:0.6rem;height:2px;background-color:#a3231b;}@media (max-width: 575.98px){{CURRENT} td.tfgr-num{width:3rem;}}"},"metadata":{"name":"Terms 06 to 10"}} -->
-<table class="tfgr-table gsbp-9dc0a7f"><!-- wp:greenshift-blocks/element {"id":"gsbp-b43554c","tag":"tr","type":"inner","localId":"gsbp-b43554c","metadata":{"name":"Term 06"}} -->
+<!-- wp:greenshift-blocks/element {"id":"gsbp-b43554c","tag":"tr","type":"inner","localId":"gsbp-b43554c","metadata":{"name":"Term 06"}} -->
 <tr><!-- wp:greenshift-blocks/element {"id":"gsbp-151d33e","tag":"td","type":"inner","className":"tfgr-num","localId":"gsbp-151d33e"} -->
 <td class="tfgr-num"><!-- wp:greenshift-blocks/element {"id":"gsbp-307c7bf","textContent":"06","tag":"span","localId":"gsbp-307c7bf"} -->
 <span>06</span>
@@ -101,8 +101,8 @@
 <!-- /wp:greenshift-blocks/element -->
 
 <!-- wp:greenshift-blocks/element {"id":"gsbp-f11fd95","tag":"td","type":"inner","localId":"gsbp-f11fd95"} -->
-<td><!-- wp:greenshift-blocks/element {"id":"gsbp-126d81c","textContent":"Lead times are estimates and may change due to vendor availability, freight delays, production schedules, or other factors outside TFG’s control.","tag":"p","localId":"gsbp-126d81c"} -->
-<p>Lead times are estimates and may change due to vendor availability, freight delays, production schedules, or other factors outside TFG’s control.</p>
+<td><!-- wp:greenshift-blocks/element {"id":"gsbp-126d81c","textContent":"A Purchase Order is required and will signify customer acceptance of special order terms.","tag":"p","localId":"gsbp-126d81c"} -->
+<p>A Purchase Order is required and will signify customer acceptance of special order terms.</p>
 <!-- /wp:greenshift-blocks/element --></td>
 <!-- /wp:greenshift-blocks/element --></tr>
 <!-- /wp:greenshift-blocks/element -->
@@ -115,8 +115,8 @@
 <!-- /wp:greenshift-blocks/element -->
 
 <!-- wp:greenshift-blocks/element {"id":"gsbp-f09a0ca","tag":"td","type":"inner","localId":"gsbp-f09a0ca"} -->
-<td><!-- wp:greenshift-blocks/element {"id":"gsbp-feece23","textContent":"A Purchase Order is required and will signify customer acceptance of special order terms.","tag":"p","localId":"gsbp-feece23"} -->
-<p>A Purchase Order is required and will signify customer acceptance of special order terms.</p>
+<td><!-- wp:greenshift-blocks/element {"id":"gsbp-feece23","textContent":"Damaged, incorrect, or defective special orders must follow the applicable vendor claim, warranty, or return process.","tag":"p","localId":"gsbp-feece23"} -->
+<p>Damaged, incorrect, or defective special orders must follow the applicable vendor claim, warranty, or return process.</p>
 <!-- /wp:greenshift-blocks/element --></td>
 <!-- /wp:greenshift-blocks/element --></tr>
 <!-- /wp:greenshift-blocks/element -->
@@ -129,35 +129,7 @@
 <!-- /wp:greenshift-blocks/element -->
 
 <!-- wp:greenshift-blocks/element {"id":"gsbp-30f256a","tag":"td","type":"inner","localId":"gsbp-30f256a"} -->
-<td><!-- wp:greenshift-blocks/element {"id":"gsbp-4815718","textContent":"Special order items will be marked as final sale on the invoice.","tag":"p","localId":"gsbp-4815718"} -->
-<p>Special order items will be marked as final sale on the invoice.</p>
-<!-- /wp:greenshift-blocks/element --></td>
-<!-- /wp:greenshift-blocks/element --></tr>
-<!-- /wp:greenshift-blocks/element -->
-
-<!-- wp:greenshift-blocks/element {"id":"gsbp-9034485","tag":"tr","type":"inner","localId":"gsbp-9034485","metadata":{"name":"Term 09"}} -->
-<tr><!-- wp:greenshift-blocks/element {"id":"gsbp-d4050d2","tag":"td","type":"inner","className":"tfgr-num","localId":"gsbp-d4050d2"} -->
-<td class="tfgr-num"><!-- wp:greenshift-blocks/element {"id":"gsbp-5a62d4d","textContent":"09","tag":"span","localId":"gsbp-5a62d4d"} -->
-<span>09</span>
-<!-- /wp:greenshift-blocks/element --></td>
-<!-- /wp:greenshift-blocks/element -->
-
-<!-- wp:greenshift-blocks/element {"id":"gsbp-f0af296","tag":"td","type":"inner","localId":"gsbp-f0af296"} -->
-<td><!-- wp:greenshift-blocks/element {"id":"gsbp-be1032e","textContent":"Damaged, incorrect, or defective special orders must follow the applicable vendor claim, warranty, or return process.","tag":"p","localId":"gsbp-be1032e"} -->
-<p>Damaged, incorrect, or defective special orders must follow the applicable vendor claim, warranty, or return process.</p>
-<!-- /wp:greenshift-blocks/element --></td>
-<!-- /wp:greenshift-blocks/element --></tr>
-<!-- /wp:greenshift-blocks/element -->
-
-<!-- wp:greenshift-blocks/element {"id":"gsbp-ed44210","tag":"tr","type":"inner","localId":"gsbp-ed44210","metadata":{"name":"Term 10"}} -->
-<tr><!-- wp:greenshift-blocks/element {"id":"gsbp-d8bf8ec","tag":"td","type":"inner","className":"tfgr-num","localId":"gsbp-d8bf8ec"} -->
-<td class="tfgr-num"><!-- wp:greenshift-blocks/element {"id":"gsbp-7f70c92","textContent":"10","tag":"span","localId":"gsbp-7f70c92"} -->
-<span>10</span>
-<!-- /wp:greenshift-blocks/element --></td>
-<!-- /wp:greenshift-blocks/element -->
-
-<!-- wp:greenshift-blocks/element {"id":"gsbp-0477053","tag":"td","type":"inner","localId":"gsbp-0477053"} -->
-<td><!-- wp:greenshift-blocks/element {"id":"gsbp-1fedc4d","textContent":"Exceptions must be approved by the Branch Manager or may be escalated to VP Operations or VP Sales.","tag":"p","localId":"gsbp-1fedc4d"} -->
+<td><!-- wp:greenshift-blocks/element {"id":"gsbp-4815718","textContent":"Exceptions must be approved by the Branch Manager or may be escalated to VP Operations or VP Sales.","tag":"p","localId":"gsbp-4815718"} -->
 <p>Exceptions must be approved by the Branch Manager or may be escalated to VP Operations or VP Sales.</p>
 <!-- /wp:greenshift-blocks/element --></td>
 <!-- /wp:greenshift-blocks/element --></tr>
