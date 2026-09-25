@@ -1,14 +1,13 @@
 """Build the Industries page: hero, the industries grid, a "why TFG" section with the
-site's own count-up counter blocks, and one closing call to action.
-
-The page colour (the hero's wine) returns as the stats panel background, so each page's
-hero colour carries into its body.
+site's own count-up counter blocks on the brand red, and one closing call to action.
 """
 from build_policy_blocks import (
     ACCENT, BODY, GS_PREVIEW_CSS, HERE, HERO_CSS, INK, RULE, Block, Raw, _seed, make_hero, write,
 )
 
-PAGE_COLOUR = "#3a0916"
+PAGE_COLOUR = "#3a0916"  # hero only
+# The theme's brand red (palette colour 1), as the original stats panel used.
+BRAND_RED = "var(--wp--preset--color--palette-color-1, var(--theme-palette-color-1, #b11f24))"
 PANEL_BG = "var(--wp--preset--color--palette-color-5, var(--theme-palette-color-5, #F0F2F3))"
 UPLOADS = "https://thefastenergroup.com/wp-content/uploads/2026/02/"
 CONTACT = "https://thefastenergroup.com/contact/"
@@ -123,7 +122,7 @@ def why_section():
         Block("ul", custom_css=CHECK_CSS, children=[Block("li", text=t) for t in CHECKLIST]),
     ])
     stats_card = Block(name="Here to Help You Build", styles={
-        "position": ["relative"], "overflow": ["hidden"], "backgroundColor": [PAGE_COLOUR],
+        "position": ["relative"], "overflow": ["hidden"], "backgroundColor": [BRAND_RED],
         "paddingTop": ["2rem", None, None, "1.5rem"], "paddingBottom": ["2rem", None, None, "1.5rem"],
         "paddingLeft": ["2rem", None, None, "1.25rem"], "paddingRight": ["2rem", None, None, "1.25rem"],
     }, custom_css=HERO_CSS, children=[
