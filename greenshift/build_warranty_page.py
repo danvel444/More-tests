@@ -4,7 +4,7 @@ Reuses the block format and palette from build_policy_blocks.py. To add a vendor
 add a line to BRANDS; the list is sorted by name when the page is built.
 """
 from build_policy_blocks import (
-    ACCENT, BODY, GS_PREVIEW_CSS, HERE, INK, NUM_BG, PAPER, RULE, Block, _seed, write,
+    ACCENT, BODY, GS_PREVIEW_CSS, HERE, INK, NUM_BG, RULE, Block, _seed, write,
 )
 
 UPLOADS = "https://thefastenergroup.com/wp-content/uploads/2026/08/"
@@ -25,7 +25,9 @@ BRANDS = [
     ("Sumner", "Sumner-Logo.webp", "Sumner Material Lifts", "https://sumner.com/services/"),
     ("Walter", "Walter-Logo.webp", "Walter Tools", "https://www.walter.com/ca/contact-us"),
 ]
-LOGO_W, LOGO_H = 660, 225  # every logo file is 660 x 225
+LOGO_W, LOGO_H = 660, 225
+# The theme's palette colour 5, so the panel follows the site palette if it changes.
+PANEL_BG = "var(--wp--preset--color--palette-color-5, var(--theme-palette-color-5, #F0F2F3))"  # every logo file is 660 x 225
 
 # All tile styling lives on the grid block, so one edit covers every brand.
 # Logos use mix-blend-mode:multiply so white logo backgrounds melt into the hover colour.
@@ -93,7 +95,7 @@ def directory():
         brand_tile(*b) for b in sorted(BRANDS, key=lambda b: b[0].lower())
     ])
     return Block(name="Warranty and Service", class_name="tfgr-policy", anchor="brands", styles={
-        "backgroundColor": [PAPER],
+        "backgroundColor": [PANEL_BG],
         "paddingTop": ["2.25rem", None, None, "1.5rem"],
         "paddingBottom": ["2.25rem", None, None, "1.5rem"],
         "paddingLeft": ["1.5rem", None, None, "1rem"],
