@@ -1,0 +1,235 @@
+<!-- wp:greenshift-blocks/row {"id":"gsbp-7eecdd8","align":"full","gutterClassName":"gspb_row\u002d\u002dgutter-custom-0","rowLayout":"2","columnPosition":"center","displayStyles":false,"background":{"color":["#3a3a3a"]},"overlay":{"image":["http://thefastenergroup.com/wp-content/uploads/2026/02/Background-3.svg"],"size":["cover"],"opacity":0.09},"spacing":{"margin":{"values":{"bottom":["120px"]},"locked":false},"padding":{"values":{"top":["200px"]},"locked":false}},"gutterGap":["50px",null,null,null],"blockWidth":{"customWidth":{"value":[]},"customHeight":{"value":[]},"heightType":"custom","minHeight":["500px"]},"isVariation":""} -->
+<div class="wp-block-greenshift-blocks-row alignfull gspb_row gspb_row-id-gsbp-7eecdd8 gspb_row--gutter-custom-0" id="gspb_row-id-gsbp-7eecdd8"><div class="gspb_backgroundOverlay"></div><div class="gspb_row__content"> <!-- wp:greenshift-blocks/row-column {"id":"gsbp-de0342e","gutterclass":"gspb_row\u002d\u002dgutter-custom-0","gutterGap":["50px",null,null,null],"columnSize":"6"} -->
+<div class="wp-block-greenshift-blocks-row-column gspb_row__col--6 gspb_col-id-gsbp-de0342e" id="gspb_col-id-gsbp-de0342e"><!-- wp:greenshift-blocks/heading {"id":"gsbp-a22facd","headingContent":"Find Authorized Service Near You","spacing":{"margin":{"values":{"top":[0],"bottom":["40px","20px"]},"locked":false},"padding":{"values":[],"locked":false}},"typography":{"textShadow":[],"color":"#ffffff","size":["70px","50px",null,"35px"],"line_height":["1.2em"],"alignment":[null,"center"]}} -->
+<h2 id="gspb_heading-id-gsbp-a22facd" class="gspb_heading gspb_heading-id-gsbp-a22facd ">Find Authorized Service Near You</h2>
+<!-- /wp:greenshift-blocks/heading --></div>
+<!-- /wp:greenshift-blocks/row-column -->
+
+<!-- wp:greenshift-blocks/row-column {"id":"gsbp-605e235","gutterclass":"gspb_row\u002d\u002dgutter-custom-0","gutterGap":["50px",null,null,null],"columnSize":"6"} -->
+<div class="wp-block-greenshift-blocks-row-column gspb_row__col--6 gspb_col-id-gsbp-605e235" id="gspb_col-id-gsbp-605e235"><!-- wp:greenshift-blocks/text {"id":"gsbp-6145b27","textContent":"Get the support you need with confidence. Click on the logo of your favourite brand below for direct access to their authorized warranty and repair services.","typography":{"textShadow":[],"color":"var(\u002d\u002dwp\u002d\u002dpreset\u002d\u002dcolor\u002d\u002dpalette-color-8, var(\u002d\u002dtheme-palette-color-8, #ffffff))"}} -->
+<div id="gspb_text-id-gsbp-6145b27" class="gspb_text gspb_text-id-gsbp-6145b27 ">Get the support you need with confidence. Click on the logo of your favourite brand below for direct access to their authorized warranty and repair services.</div>
+<!-- /wp:greenshift-blocks/text --></div>
+<!-- /wp:greenshift-blocks/row-column --> </div></div>
+<!-- /wp:greenshift-blocks/row -->
+
+<!-- wp:greenshift-blocks/element {"id":"gsbp-a6c4964","anchor":"brands","inlineCssStyles":".gsbp-a6c4964{background-color:#faf8f4;padding-top:2.25rem;padding-bottom:2.25rem;padding-left:1.5rem;padding-right:1.5rem;}@media (max-width: 575.98px){.gsbp-a6c4964{padding-top:1.5rem;padding-bottom:1.5rem;padding-left:1rem;padding-right:1rem;}}","type":"inner","className":"tfgr-policy","localId":"gsbp-a6c4964","styleAttributes":{"backgroundColor":["#faf8f4"],"paddingTop":["2.25rem",null,null,"1.5rem"],"paddingBottom":["2.25rem",null,null,"1.5rem"],"paddingLeft":["1.5rem",null,null,"1rem"],"paddingRight":["1.5rem",null,null,"1rem"]},"metadata":{"name":"Warranty and Service"}} -->
+<div class="tfgr-policy gsbp-a6c4964" id="brands"><!-- wp:greenshift-blocks/element {"id":"gsbp-01ef109","inlineCssStyles":".gsbp-01ef109{padding-bottom:1.5rem;margin-bottom:2.25rem;border-bottom:2px solid #1d1f21;}","type":"inner","localId":"gsbp-01ef109","styleAttributes":{"paddingBottom":["1.5rem"],"marginBottom":["2.25rem"],"borderBottom":["2px solid #1d1f21"]},"metadata":{"name":"Heading"}} -->
+<div class="gsbp-01ef109"><!-- wp:greenshift-blocks/element {"id":"gsbp-9adbf84","inlineCssStyles":".gsbp-9adbf84{margin-top:0px;margin-bottom:0.44rem;font-weight:700;text-transform:uppercase;color:#a3231b;}","textContent":"Authorized warranty and repair","tag":"p","localId":"gsbp-9adbf84","styleAttributes":{"marginTop":["0px"],"marginBottom":["0.44rem"],"fontWeight":["700"],"textTransform":["uppercase"],"color":["#a3231b"]}} -->
+<p class="gsbp-9adbf84">Authorized warranty and repair</p>
+<!-- /wp:greenshift-blocks/element -->
+
+<!-- wp:greenshift-blocks/element {"id":"gsbp-31aa580","inlineCssStyles":".gsbp-31aa580{margin-top:0px;margin-bottom:0px;color:#1d1f21;}","textContent":"Brands A to Z","tag":"h2","localId":"gsbp-31aa580","styleAttributes":{"marginTop":["0px"],"marginBottom":["0px"],"color":["#1d1f21"]}} -->
+<h2 class="gsbp-31aa580">Brands A to Z</h2>
+<!-- /wp:greenshift-blocks/element --></div>
+<!-- /wp:greenshift-blocks/element -->
+
+<!-- wp:greenshift-blocks/element {"id":"gsbp-65e29a1","inlineCssStyles":".gsbp-65e29a1{display:grid;grid-template-columns:repeat(4, 1fr);border-top:1px solid #d9d5cc;border-left:1px solid #d9d5cc;background-color:#ffffff;}@media (max-width: 991.98px){.gsbp-65e29a1{grid-template-columns:repeat(3, 1fr);}}@media (max-width: 767.98px){.gsbp-65e29a1{grid-template-columns:repeat(2, 1fr);}}@media (max-width: 575.98px){.gsbp-65e29a1{grid-template-columns:repeat(2, 1fr);}}.gsbp-65e29a1 .tfgr-brand{display:flex;flex-direction:column;background-color:#ffffff;border-right:1px solid #d9d5cc;border-bottom:1px solid #d9d5cc;padding:1.5rem;color:#3a3d40;text-decoration:none;transition:background-color .2s;}.gsbp-65e29a1 .tfgr-brand:hover{background-color:#f1ede5;}.gsbp-65e29a1 .tfgr-brand:focus-visible{outline:2px solid #a3231b;outline-offset:-2px;}.gsbp-65e29a1 .tfgr-brand-logo{display:flex;align-items:center;justify-content:center;height:5.5rem;margin-bottom:1.25rem;}.gsbp-65e29a1 .tfgr-brand-logo img{display:block;width:100%;max-width:12rem;height:auto;max-height:100%;object-fit:contain;mix-blend-mode:multiply;}.gsbp-65e29a1 .tfgr-brand-name{margin:auto 0 0 0;padding-top:1rem;border-top:1px solid #d9d5cc;font-weight:700;color:#1d1f21;}.gsbp-65e29a1 .tfgr-brand-link{margin:0.25rem 0 0 0;font-weight:700;color:#a3231b;}.gsbp-65e29a1 .tfgr-brand-link::after{content:\u0022 \\2197\u0022 / \u0022 (opens in a new tab)\u0022;}.gsbp-65e29a1 .tfgr-brand:hover .tfgr-brand-link{text-decoration:underline;}@media (max-width: 575.98px){.gsbp-65e29a1 .tfgr-brand{padding:1rem;}.gsbp-65e29a1 .tfgr-brand-logo{height:4rem;}}","type":"inner","localId":"gsbp-65e29a1","styleAttributes":{"display":["grid"],"gridTemplateColumns":["repeat(4, 1fr)","repeat(3, 1fr)","repeat(2, 1fr)","repeat(2, 1fr)"],"borderTop":["1px solid #d9d5cc"],"borderLeft":["1px solid #d9d5cc"],"backgroundColor":["#ffffff"],"customCSS_Extra":"{CURRENT} .tfgr-brand{display:flex;flex-direction:column;background-color:#ffffff;border-right:1px solid #d9d5cc;border-bottom:1px solid #d9d5cc;padding:1.5rem;color:#3a3d40;text-decoration:none;transition:background-color .2s;}{CURRENT} .tfgr-brand:hover{background-color:#f1ede5;}{CURRENT} .tfgr-brand:focus-visible{outline:2px solid #a3231b;outline-offset:-2px;}{CURRENT} .tfgr-brand-logo{display:flex;align-items:center;justify-content:center;height:5.5rem;margin-bottom:1.25rem;}{CURRENT} .tfgr-brand-logo img{display:block;width:100%;max-width:12rem;height:auto;max-height:100%;object-fit:contain;mix-blend-mode:multiply;}{CURRENT} .tfgr-brand-name{margin:auto 0 0 0;padding-top:1rem;border-top:1px solid #d9d5cc;font-weight:700;color:#1d1f21;}{CURRENT} .tfgr-brand-link{margin:0.25rem 0 0 0;font-weight:700;color:#a3231b;}{CURRENT} .tfgr-brand-link::after{content:\u0022 \\2197\u0022 / \u0022 (opens in a new tab)\u0022;}{CURRENT} .tfgr-brand:hover .tfgr-brand-link{text-decoration:underline;}@media (max-width: 575.98px){{CURRENT} .tfgr-brand{padding:1rem;}{CURRENT} .tfgr-brand-logo{height:4rem;}}"},"metadata":{"name":"Brand Directory"}} -->
+<div class="gsbp-65e29a1"><!-- wp:greenshift-blocks/element {"id":"gsbp-c2e6abc","tag":"a","type":"inner","className":"tfgr-brand","localId":"gsbp-c2e6abc","href":"https://www.boschtools.com/ca/en/service/","linkNewWindow":true,"metadata":{"name":"Bosch"}} -->
+<a class="tfgr-brand" href="https://www.boschtools.com/ca/en/service/" target="_blank" rel="noopener"><!-- wp:greenshift-blocks/element {"id":"gsbp-fdfa272","type":"inner","className":"tfgr-brand-logo","localId":"gsbp-fdfa272"} -->
+<div class="tfgr-brand-logo"><!-- wp:greenshift-blocks/element {"id":"gsbp-a115695","tag":"img","localId":"gsbp-a115695","src":"https://thefastenergroup.com/wp-content/uploads/2026/08/Bosch-Logo.webp","alt":"Bosch Tools","originalWidth":660,"originalHeight":225} -->
+<img src="https://thefastenergroup.com/wp-content/uploads/2026/08/Bosch-Logo.webp" alt="Bosch Tools" width="660" height="225" loading="lazy"/>
+<!-- /wp:greenshift-blocks/element --></div>
+<!-- /wp:greenshift-blocks/element -->
+
+<!-- wp:greenshift-blocks/element {"id":"gsbp-cb41f3b","textContent":"Bosch","tag":"p","className":"tfgr-brand-name","localId":"gsbp-cb41f3b"} -->
+<p class="tfgr-brand-name">Bosch</p>
+<!-- /wp:greenshift-blocks/element -->
+
+<!-- wp:greenshift-blocks/element {"id":"gsbp-433b28c","textContent":"Warranty and service","tag":"p","className":"tfgr-brand-link","localId":"gsbp-433b28c"} -->
+<p class="tfgr-brand-link">Warranty and service</p>
+<!-- /wp:greenshift-blocks/element --></a>
+<!-- /wp:greenshift-blocks/element -->
+
+<!-- wp:greenshift-blocks/element {"id":"gsbp-16262a5","tag":"a","type":"inner","className":"tfgr-brand","localId":"gsbp-16262a5","href":"https://www.toolservicenet.ca/en/","linkNewWindow":true,"metadata":{"name":"DeWalt"}} -->
+<a class="tfgr-brand" href="https://www.toolservicenet.ca/en/" target="_blank" rel="noopener"><!-- wp:greenshift-blocks/element {"id":"gsbp-184dcf9","type":"inner","className":"tfgr-brand-logo","localId":"gsbp-184dcf9"} -->
+<div class="tfgr-brand-logo"><!-- wp:greenshift-blocks/element {"id":"gsbp-84567d3","tag":"img","localId":"gsbp-84567d3","src":"https://thefastenergroup.com/wp-content/uploads/2026/08/DeWalt-Logo.webp","alt":"Dewalt Tools","originalWidth":660,"originalHeight":225} -->
+<img src="https://thefastenergroup.com/wp-content/uploads/2026/08/DeWalt-Logo.webp" alt="Dewalt Tools" width="660" height="225" loading="lazy"/>
+<!-- /wp:greenshift-blocks/element --></div>
+<!-- /wp:greenshift-blocks/element -->
+
+<!-- wp:greenshift-blocks/element {"id":"gsbp-a62c318","textContent":"DeWalt","tag":"p","className":"tfgr-brand-name","localId":"gsbp-a62c318"} -->
+<p class="tfgr-brand-name">DeWalt</p>
+<!-- /wp:greenshift-blocks/element -->
+
+<!-- wp:greenshift-blocks/element {"id":"gsbp-31b6347","textContent":"Warranty and service","tag":"p","className":"tfgr-brand-link","localId":"gsbp-31b6347"} -->
+<p class="tfgr-brand-link">Warranty and service</p>
+<!-- /wp:greenshift-blocks/element --></a>
+<!-- /wp:greenshift-blocks/element -->
+
+<!-- wp:greenshift-blocks/element {"id":"gsbp-d5a0c00","tag":"a","type":"inner","className":"tfgr-brand","localId":"gsbp-d5a0c00","href":"https://egopowerplus.com/support","linkNewWindow":true,"metadata":{"name":"EGO"}} -->
+<a class="tfgr-brand" href="https://egopowerplus.com/support" target="_blank" rel="noopener"><!-- wp:greenshift-blocks/element {"id":"gsbp-3746b36","type":"inner","className":"tfgr-brand-logo","localId":"gsbp-3746b36"} -->
+<div class="tfgr-brand-logo"><!-- wp:greenshift-blocks/element {"id":"gsbp-607f662","tag":"img","localId":"gsbp-607f662","src":"https://thefastenergroup.com/wp-content/uploads/2026/08/Ego-Power-Tools-Logo.webp","alt":"Ego Tools","originalWidth":660,"originalHeight":225} -->
+<img src="https://thefastenergroup.com/wp-content/uploads/2026/08/Ego-Power-Tools-Logo.webp" alt="Ego Tools" width="660" height="225" loading="lazy"/>
+<!-- /wp:greenshift-blocks/element --></div>
+<!-- /wp:greenshift-blocks/element -->
+
+<!-- wp:greenshift-blocks/element {"id":"gsbp-bc37fe9","textContent":"EGO","tag":"p","className":"tfgr-brand-name","localId":"gsbp-bc37fe9"} -->
+<p class="tfgr-brand-name">EGO</p>
+<!-- /wp:greenshift-blocks/element -->
+
+<!-- wp:greenshift-blocks/element {"id":"gsbp-011cec3","textContent":"Warranty and service","tag":"p","className":"tfgr-brand-link","localId":"gsbp-011cec3"} -->
+<p class="tfgr-brand-link">Warranty and service</p>
+<!-- /wp:greenshift-blocks/element --></a>
+<!-- /wp:greenshift-blocks/element -->
+
+<!-- wp:greenshift-blocks/element {"id":"gsbp-ff6b4d7","tag":"a","type":"inner","className":"tfgr-brand","localId":"gsbp-ff6b4d7","href":"https://fein.com/en_ca/service/","linkNewWindow":true,"metadata":{"name":"Fein"}} -->
+<a class="tfgr-brand" href="https://fein.com/en_ca/service/" target="_blank" rel="noopener"><!-- wp:greenshift-blocks/element {"id":"gsbp-88a547d","type":"inner","className":"tfgr-brand-logo","localId":"gsbp-88a547d"} -->
+<div class="tfgr-brand-logo"><!-- wp:greenshift-blocks/element {"id":"gsbp-f3ffe32","tag":"img","localId":"gsbp-f3ffe32","src":"https://thefastenergroup.com/wp-content/uploads/2026/08/Fein-Logo.webp","alt":"Fein Tools","originalWidth":660,"originalHeight":225} -->
+<img src="https://thefastenergroup.com/wp-content/uploads/2026/08/Fein-Logo.webp" alt="Fein Tools" width="660" height="225" loading="lazy"/>
+<!-- /wp:greenshift-blocks/element --></div>
+<!-- /wp:greenshift-blocks/element -->
+
+<!-- wp:greenshift-blocks/element {"id":"gsbp-62803d8","textContent":"Fein","tag":"p","className":"tfgr-brand-name","localId":"gsbp-62803d8"} -->
+<p class="tfgr-brand-name">Fein</p>
+<!-- /wp:greenshift-blocks/element -->
+
+<!-- wp:greenshift-blocks/element {"id":"gsbp-f6a353d","textContent":"Warranty and service","tag":"p","className":"tfgr-brand-link","localId":"gsbp-f6a353d"} -->
+<p class="tfgr-brand-link">Warranty and service</p>
+<!-- /wp:greenshift-blocks/element --></a>
+<!-- /wp:greenshift-blocks/element -->
+
+<!-- wp:greenshift-blocks/element {"id":"gsbp-cc60fe0","tag":"a","type":"inner","className":"tfgr-brand","localId":"gsbp-cc60fe0","href":"https://guardianfall.com/en-CA/support/find-your-repair-center","linkNewWindow":true,"metadata":{"name":"Guardian Fall Protection"}} -->
+<a class="tfgr-brand" href="https://guardianfall.com/en-CA/support/find-your-repair-center" target="_blank" rel="noopener"><!-- wp:greenshift-blocks/element {"id":"gsbp-e59a4f7","type":"inner","className":"tfgr-brand-logo","localId":"gsbp-e59a4f7"} -->
+<div class="tfgr-brand-logo"><!-- wp:greenshift-blocks/element {"id":"gsbp-679d5ee","tag":"img","localId":"gsbp-679d5ee","src":"https://thefastenergroup.com/wp-content/uploads/2026/08/Guardian-Fall-Logo.webp","alt":"Guardian Fall Protection","originalWidth":660,"originalHeight":225} -->
+<img src="https://thefastenergroup.com/wp-content/uploads/2026/08/Guardian-Fall-Logo.webp" alt="Guardian Fall Protection" width="660" height="225" loading="lazy"/>
+<!-- /wp:greenshift-blocks/element --></div>
+<!-- /wp:greenshift-blocks/element -->
+
+<!-- wp:greenshift-blocks/element {"id":"gsbp-873f98c","textContent":"Guardian Fall Protection","tag":"p","className":"tfgr-brand-name","localId":"gsbp-873f98c"} -->
+<p class="tfgr-brand-name">Guardian Fall Protection</p>
+<!-- /wp:greenshift-blocks/element -->
+
+<!-- wp:greenshift-blocks/element {"id":"gsbp-73bbf8d","textContent":"Warranty and service","tag":"p","className":"tfgr-brand-link","localId":"gsbp-73bbf8d"} -->
+<p class="tfgr-brand-link">Warranty and service</p>
+<!-- /wp:greenshift-blocks/element --></a>
+<!-- /wp:greenshift-blocks/element -->
+
+<!-- wp:greenshift-blocks/element {"id":"gsbp-83ce97f","tag":"a","type":"inner","className":"tfgr-brand","localId":"gsbp-83ce97f","href":"https://www.kingcanada.com/en/service-centers/","linkNewWindow":true,"metadata":{"name":"King Canada"}} -->
+<a class="tfgr-brand" href="https://www.kingcanada.com/en/service-centers/" target="_blank" rel="noopener"><!-- wp:greenshift-blocks/element {"id":"gsbp-20771c9","type":"inner","className":"tfgr-brand-logo","localId":"gsbp-20771c9"} -->
+<div class="tfgr-brand-logo"><!-- wp:greenshift-blocks/element {"id":"gsbp-379cb4b","tag":"img","localId":"gsbp-379cb4b","src":"https://thefastenergroup.com/wp-content/uploads/2026/08/King-Canada-Logo.webp","alt":"King Canada","originalWidth":660,"originalHeight":225} -->
+<img src="https://thefastenergroup.com/wp-content/uploads/2026/08/King-Canada-Logo.webp" alt="King Canada" width="660" height="225" loading="lazy"/>
+<!-- /wp:greenshift-blocks/element --></div>
+<!-- /wp:greenshift-blocks/element -->
+
+<!-- wp:greenshift-blocks/element {"id":"gsbp-340c9b2","textContent":"King Canada","tag":"p","className":"tfgr-brand-name","localId":"gsbp-340c9b2"} -->
+<p class="tfgr-brand-name">King Canada</p>
+<!-- /wp:greenshift-blocks/element -->
+
+<!-- wp:greenshift-blocks/element {"id":"gsbp-3263c04","textContent":"Warranty and service","tag":"p","className":"tfgr-brand-link","localId":"gsbp-3263c04"} -->
+<p class="tfgr-brand-link">Warranty and service</p>
+<!-- /wp:greenshift-blocks/element --></a>
+<!-- /wp:greenshift-blocks/element -->
+
+<!-- wp:greenshift-blocks/element {"id":"gsbp-3b1f808","tag":"a","type":"inner","className":"tfgr-brand","localId":"gsbp-3b1f808","href":"https://www.makita.ca/index2new.php?event=memberlanding2","linkNewWindow":true,"metadata":{"name":"Makita"}} -->
+<a class="tfgr-brand" href="https://www.makita.ca/index2new.php?event=memberlanding2" target="_blank" rel="noopener"><!-- wp:greenshift-blocks/element {"id":"gsbp-114eb37","type":"inner","className":"tfgr-brand-logo","localId":"gsbp-114eb37"} -->
+<div class="tfgr-brand-logo"><!-- wp:greenshift-blocks/element {"id":"gsbp-ac4c4fc","tag":"img","localId":"gsbp-ac4c4fc","src":"https://thefastenergroup.com/wp-content/uploads/2026/08/Makita-Logo.webp","alt":"Makita Tools","originalWidth":660,"originalHeight":225} -->
+<img src="https://thefastenergroup.com/wp-content/uploads/2026/08/Makita-Logo.webp" alt="Makita Tools" width="660" height="225" loading="lazy"/>
+<!-- /wp:greenshift-blocks/element --></div>
+<!-- /wp:greenshift-blocks/element -->
+
+<!-- wp:greenshift-blocks/element {"id":"gsbp-3b11525","textContent":"Makita","tag":"p","className":"tfgr-brand-name","localId":"gsbp-3b11525"} -->
+<p class="tfgr-brand-name">Makita</p>
+<!-- /wp:greenshift-blocks/element -->
+
+<!-- wp:greenshift-blocks/element {"id":"gsbp-9f857e9","textContent":"Warranty and service","tag":"p","className":"tfgr-brand-link","localId":"gsbp-9f857e9"} -->
+<p class="tfgr-brand-link">Warranty and service</p>
+<!-- /wp:greenshift-blocks/element --></a>
+<!-- /wp:greenshift-blocks/element -->
+
+<!-- wp:greenshift-blocks/element {"id":"gsbp-14ed4a7","tag":"a","type":"inner","className":"tfgr-brand","localId":"gsbp-14ed4a7","href":"https://service.milwaukeetool.ca/support","linkNewWindow":true,"metadata":{"name":"Milwaukee"}} -->
+<a class="tfgr-brand" href="https://service.milwaukeetool.ca/support" target="_blank" rel="noopener"><!-- wp:greenshift-blocks/element {"id":"gsbp-a53a5ef","type":"inner","className":"tfgr-brand-logo","localId":"gsbp-a53a5ef"} -->
+<div class="tfgr-brand-logo"><!-- wp:greenshift-blocks/element {"id":"gsbp-ef48647","tag":"img","localId":"gsbp-ef48647","src":"https://thefastenergroup.com/wp-content/uploads/2026/08/Milwaukee-Red-Logo.webp","alt":"Milwaukee Tools","originalWidth":660,"originalHeight":225} -->
+<img src="https://thefastenergroup.com/wp-content/uploads/2026/08/Milwaukee-Red-Logo.webp" alt="Milwaukee Tools" width="660" height="225" loading="lazy"/>
+<!-- /wp:greenshift-blocks/element --></div>
+<!-- /wp:greenshift-blocks/element -->
+
+<!-- wp:greenshift-blocks/element {"id":"gsbp-5d3fafc","textContent":"Milwaukee","tag":"p","className":"tfgr-brand-name","localId":"gsbp-5d3fafc"} -->
+<p class="tfgr-brand-name">Milwaukee</p>
+<!-- /wp:greenshift-blocks/element -->
+
+<!-- wp:greenshift-blocks/element {"id":"gsbp-a949bce","textContent":"Warranty and service","tag":"p","className":"tfgr-brand-link","localId":"gsbp-a949bce"} -->
+<p class="tfgr-brand-link">Warranty and service</p>
+<!-- /wp:greenshift-blocks/element --></a>
+<!-- /wp:greenshift-blocks/element -->
+
+<!-- wp:greenshift-blocks/element {"id":"gsbp-14b1022","tag":"a","type":"inner","className":"tfgr-brand","localId":"gsbp-14b1022","href":"https://ca.msasafety.com/service","linkNewWindow":true,"metadata":{"name":"MSA Safety"}} -->
+<a class="tfgr-brand" href="https://ca.msasafety.com/service" target="_blank" rel="noopener"><!-- wp:greenshift-blocks/element {"id":"gsbp-a0b459a","type":"inner","className":"tfgr-brand-logo","localId":"gsbp-a0b459a"} -->
+<div class="tfgr-brand-logo"><!-- wp:greenshift-blocks/element {"id":"gsbp-ca0fdcc","tag":"img","localId":"gsbp-ca0fdcc","src":"https://thefastenergroup.com/wp-content/uploads/2026/08/MSA-Logo.webp","alt":"MSA Safety","originalWidth":660,"originalHeight":225} -->
+<img src="https://thefastenergroup.com/wp-content/uploads/2026/08/MSA-Logo.webp" alt="MSA Safety" width="660" height="225" loading="lazy"/>
+<!-- /wp:greenshift-blocks/element --></div>
+<!-- /wp:greenshift-blocks/element -->
+
+<!-- wp:greenshift-blocks/element {"id":"gsbp-0518dd8","textContent":"MSA Safety","tag":"p","className":"tfgr-brand-name","localId":"gsbp-0518dd8"} -->
+<p class="tfgr-brand-name">MSA Safety</p>
+<!-- /wp:greenshift-blocks/element -->
+
+<!-- wp:greenshift-blocks/element {"id":"gsbp-5e09ca3","textContent":"Warranty and service","tag":"p","className":"tfgr-brand-link","localId":"gsbp-5e09ca3"} -->
+<p class="tfgr-brand-link">Warranty and service</p>
+<!-- /wp:greenshift-blocks/element --></a>
+<!-- /wp:greenshift-blocks/element -->
+
+<!-- wp:greenshift-blocks/element {"id":"gsbp-4938e85","tag":"a","type":"inner","className":"tfgr-brand","localId":"gsbp-4938e85","href":"https://www.ridgid.com/ca/en/service-and-support","linkNewWindow":true,"metadata":{"name":"Ridgid"}} -->
+<a class="tfgr-brand" href="https://www.ridgid.com/ca/en/service-and-support" target="_blank" rel="noopener"><!-- wp:greenshift-blocks/element {"id":"gsbp-01ba082","type":"inner","className":"tfgr-brand-logo","localId":"gsbp-01ba082"} -->
+<div class="tfgr-brand-logo"><!-- wp:greenshift-blocks/element {"id":"gsbp-588adba","tag":"img","localId":"gsbp-588adba","src":"https://thefastenergroup.com/wp-content/uploads/2026/08/Ridgid-Logo.webp","alt":"Ridgid Tools","originalWidth":660,"originalHeight":225} -->
+<img src="https://thefastenergroup.com/wp-content/uploads/2026/08/Ridgid-Logo.webp" alt="Ridgid Tools" width="660" height="225" loading="lazy"/>
+<!-- /wp:greenshift-blocks/element --></div>
+<!-- /wp:greenshift-blocks/element -->
+
+<!-- wp:greenshift-blocks/element {"id":"gsbp-1cd49b2","textContent":"Ridgid","tag":"p","className":"tfgr-brand-name","localId":"gsbp-1cd49b2"} -->
+<p class="tfgr-brand-name">Ridgid</p>
+<!-- /wp:greenshift-blocks/element -->
+
+<!-- wp:greenshift-blocks/element {"id":"gsbp-dc4a214","textContent":"Warranty and service","tag":"p","className":"tfgr-brand-link","localId":"gsbp-dc4a214"} -->
+<p class="tfgr-brand-link">Warranty and service</p>
+<!-- /wp:greenshift-blocks/element --></a>
+<!-- /wp:greenshift-blocks/element -->
+
+<!-- wp:greenshift-blocks/element {"id":"gsbp-2c8fedb","tag":"a","type":"inner","className":"tfgr-brand","localId":"gsbp-2c8fedb","href":"https://www.stihl.ca/en/service-events/dealer-services/repair","linkNewWindow":true,"metadata":{"name":"Stihl"}} -->
+<a class="tfgr-brand" href="https://www.stihl.ca/en/service-events/dealer-services/repair" target="_blank" rel="noopener"><!-- wp:greenshift-blocks/element {"id":"gsbp-84a2539","type":"inner","className":"tfgr-brand-logo","localId":"gsbp-84a2539"} -->
+<div class="tfgr-brand-logo"><!-- wp:greenshift-blocks/element {"id":"gsbp-abcad7a","tag":"img","localId":"gsbp-abcad7a","src":"https://thefastenergroup.com/wp-content/uploads/2026/08/Stihl-Logo.webp","alt":"Stihl Tools","originalWidth":660,"originalHeight":225} -->
+<img src="https://thefastenergroup.com/wp-content/uploads/2026/08/Stihl-Logo.webp" alt="Stihl Tools" width="660" height="225" loading="lazy"/>
+<!-- /wp:greenshift-blocks/element --></div>
+<!-- /wp:greenshift-blocks/element -->
+
+<!-- wp:greenshift-blocks/element {"id":"gsbp-7eed6a7","textContent":"Stihl","tag":"p","className":"tfgr-brand-name","localId":"gsbp-7eed6a7"} -->
+<p class="tfgr-brand-name">Stihl</p>
+<!-- /wp:greenshift-blocks/element -->
+
+<!-- wp:greenshift-blocks/element {"id":"gsbp-a5fbdd0","textContent":"Warranty and service","tag":"p","className":"tfgr-brand-link","localId":"gsbp-a5fbdd0"} -->
+<p class="tfgr-brand-link">Warranty and service</p>
+<!-- /wp:greenshift-blocks/element --></a>
+<!-- /wp:greenshift-blocks/element -->
+
+<!-- wp:greenshift-blocks/element {"id":"gsbp-5e176ae","tag":"a","type":"inner","className":"tfgr-brand","localId":"gsbp-5e176ae","href":"https://sumner.com/services/","linkNewWindow":true,"metadata":{"name":"Sumner"}} -->
+<a class="tfgr-brand" href="https://sumner.com/services/" target="_blank" rel="noopener"><!-- wp:greenshift-blocks/element {"id":"gsbp-8e54e66","type":"inner","className":"tfgr-brand-logo","localId":"gsbp-8e54e66"} -->
+<div class="tfgr-brand-logo"><!-- wp:greenshift-blocks/element {"id":"gsbp-082042c","tag":"img","localId":"gsbp-082042c","src":"https://thefastenergroup.com/wp-content/uploads/2026/08/Sumner-Logo.webp","alt":"Sumner Material Lifts","originalWidth":660,"originalHeight":225} -->
+<img src="https://thefastenergroup.com/wp-content/uploads/2026/08/Sumner-Logo.webp" alt="Sumner Material Lifts" width="660" height="225" loading="lazy"/>
+<!-- /wp:greenshift-blocks/element --></div>
+<!-- /wp:greenshift-blocks/element -->
+
+<!-- wp:greenshift-blocks/element {"id":"gsbp-b68e3e4","textContent":"Sumner","tag":"p","className":"tfgr-brand-name","localId":"gsbp-b68e3e4"} -->
+<p class="tfgr-brand-name">Sumner</p>
+<!-- /wp:greenshift-blocks/element -->
+
+<!-- wp:greenshift-blocks/element {"id":"gsbp-75d387b","textContent":"Warranty and service","tag":"p","className":"tfgr-brand-link","localId":"gsbp-75d387b"} -->
+<p class="tfgr-brand-link">Warranty and service</p>
+<!-- /wp:greenshift-blocks/element --></a>
+<!-- /wp:greenshift-blocks/element -->
+
+<!-- wp:greenshift-blocks/element {"id":"gsbp-b84766c","tag":"a","type":"inner","className":"tfgr-brand","localId":"gsbp-b84766c","href":"https://www.walter.com/ca/contact-us","linkNewWindow":true,"metadata":{"name":"Walter"}} -->
+<a class="tfgr-brand" href="https://www.walter.com/ca/contact-us" target="_blank" rel="noopener"><!-- wp:greenshift-blocks/element {"id":"gsbp-010ad50","type":"inner","className":"tfgr-brand-logo","localId":"gsbp-010ad50"} -->
+<div class="tfgr-brand-logo"><!-- wp:greenshift-blocks/element {"id":"gsbp-f761d30","tag":"img","localId":"gsbp-f761d30","src":"https://thefastenergroup.com/wp-content/uploads/2026/08/Walter-Logo.webp","alt":"Walter Tools","originalWidth":660,"originalHeight":225} -->
+<img src="https://thefastenergroup.com/wp-content/uploads/2026/08/Walter-Logo.webp" alt="Walter Tools" width="660" height="225" loading="lazy"/>
+<!-- /wp:greenshift-blocks/element --></div>
+<!-- /wp:greenshift-blocks/element -->
+
+<!-- wp:greenshift-blocks/element {"id":"gsbp-41d6e09","textContent":"Walter","tag":"p","className":"tfgr-brand-name","localId":"gsbp-41d6e09"} -->
+<p class="tfgr-brand-name">Walter</p>
+<!-- /wp:greenshift-blocks/element -->
+
+<!-- wp:greenshift-blocks/element {"id":"gsbp-7756040","textContent":"Warranty and service","tag":"p","className":"tfgr-brand-link","localId":"gsbp-7756040"} -->
+<p class="tfgr-brand-link">Warranty and service</p>
+<!-- /wp:greenshift-blocks/element --></a>
+<!-- /wp:greenshift-blocks/element --></div>
+<!-- /wp:greenshift-blocks/element --></div>
+<!-- /wp:greenshift-blocks/element -->

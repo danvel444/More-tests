@@ -20,6 +20,8 @@ RULE = "#d9d5cc"
 PAPER = "#faf8f4"
 NUM_BG = "#f1ede5"
 
+VOID_TAGS = {"img"}
+
 _seed = {"slug": "returns", "n": 0}
 
 
@@ -62,8 +64,10 @@ def table_css(selector, table_styles):
 
 class Block:
     def __init__(self, tag="div", text=None, children=None, class_name=None,
-                 styles=None, custom_css=None, table_styles=None, name=None, anchor=None, href=None):
+                 styles=None, custom_css=None, table_styles=None, name=None, anchor=None, href=None, json_extra=None, html_attrs=None):
         self.id = new_id()
+        self.json_extra = json_extra or {}
+        self.html_attrs = html_attrs or []
         self.anchor = anchor
         self.href = href
         self.tag = tag
@@ -96,13 +100,14 @@ class Block:
             a["textContent"] = self.text
         if self.tag != "div":
             a["tag"] = self.tag
-        if self.text is None:
+        if self.text is None and self.tag not in VOID_TAGS:
             a["type"] = "inner"
         if self.class_name:
             a["className"] = self.class_name
         a["localId"] = self.id
         if self.href:
             a["href"] = self.href
+        a.update(self.json_extra)
         if self.table_styles:
             a["tableStyles"] = self.table_styles
         if self.styles or self.custom_css:
@@ -126,7 +131,12 @@ class Block:
         cls = self.classes()
         open_tag = f"<{self.tag}" + (f' class="{" ".join(cls)}"' if cls else "")
         open_tag += (f' id="{self.anchor}"' if self.anchor else "")
-        open_tag += (f' href="{self.href}"' if self.href else "") + ">"
+        open_tag += (f' href="{self.href}"' if self.href else "")
+        open_tag += "".join(f' {k}="{html.escape(v)}"' for k, v in self.html_attrs)
+        if self.tag in VOID_TAGS:
+            return (f"<!-- wp:greenshift-blocks/element {encode(self.attrs())} -->\n"
+                    f"{open_tag}/>\n<!-- /wp:greenshift-blocks/element -->")
+        open_tag += ">"
         if self.text is not None:
             inner = html.escape(self.text, quote=False)
         else:
