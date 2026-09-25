@@ -288,7 +288,8 @@ def write(policy, root, before=""):
     out_dir = HERE / policy["dir"]
     out_dir.mkdir(exist_ok=True)
     before_code = before.serialize() if isinstance(before, Block) else before
-    blocks = (before_code + "\n\n" if before_code else "") + root.serialize() + "\n"
+    roots = root if isinstance(root, list) else [root]  # several top-level sections
+    blocks = (before_code + "\n\n" if before_code else "") + "\n\n".join(r.serialize() for r in roots) + "\n"
     (out_dir / f"{policy['dir']}-greenshift-blocks.txt").write_text(blocks)
 
     # Browser preview built from the exact same markup and CSS the blocks carry.
@@ -300,7 +301,8 @@ def write(policy, root, before=""):
             collect(c)
     if isinstance(before, Block):
         collect(before)
-    collect(root)
+    for r in roots:
+        collect(r)
     markup = re.sub(r"<!-- /?wp:[^>]*-->\n?", "", blocks)
     (out_dir / f"{policy['dir']}-greenshift-preview.html").write_text(
         "<!DOCTYPE html>\n<html lang=\"en\">\n<head>\n<meta charset=\"utf-8\">\n"
@@ -477,13 +479,13 @@ HERO_CSS = (
 )
 
 
-def button_css(margin_top="2rem"):
+def button_css(margin_top="2rem", arrow="\\2193"):
     return (
         "{CURRENT}{display:inline-flex;align-items:center;gap:0.6rem;"
         f"margin-top:{margin_top};"
         f"padding:0.6rem 1.25rem;border:1px solid {HERO_ACCENT};color:#ffffff;font-weight:700;"
         "text-decoration:none;transition:background-color .2s,border-color .2s;}"
-        f"{{CURRENT}}::after{{content:\"\\2193\";color:{HERO_ACCENT};}}"
+        f"{{CURRENT}}::after{{content:\"{arrow}\";color:{HERO_ACCENT};}}"
         f"{{CURRENT}}:hover,{{CURRENT}}:focus-visible{{background-color:{ACCENT};border-color:{ACCENT};color:#ffffff;}}"
         "{CURRENT}:hover::after,{CURRENT}:focus-visible::after{color:#ffffff;}"
         f"{{CURRENT}}:focus-visible{{outline:2px solid {HERO_ACCENT};outline-offset:2px;}}"
