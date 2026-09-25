@@ -4,7 +4,7 @@ Reuses the block format and palette from build_policy_blocks.py. To add a vendor
 add a line to BRANDS; the list is sorted by name when the page is built.
 """
 from build_policy_blocks import (
-    ACCENT, BODY, GS_PREVIEW_CSS, HERE, INK, NUM_BG, RULE, Block, _seed, write,
+    ACCENT, BODY, GS_PREVIEW_CSS, HERE, INK, RULE, Block, _seed, write,
 )
 
 UPLOADS = "https://thefastenergroup.com/wp-content/uploads/2026/08/"
@@ -25,19 +25,20 @@ BRANDS = [
     ("Sumner", "Sumner-Logo.webp", "Sumner Material Lifts", "https://sumner.com/services/"),
     ("Walter", "Walter-Logo.webp", "Walter Tools", "https://www.walter.com/ca/contact-us"),
 ]
-LOGO_W, LOGO_H = 660, 225
+LOGO_W, LOGO_H = 660, 225  # every logo file is 660 x 225
 # The theme's palette colour 5, so the panel follows the site palette if it changes.
-PANEL_BG = "var(--wp--preset--color--palette-color-5, var(--theme-palette-color-5, #F0F2F3))"  # every logo file is 660 x 225
+PANEL_BG = "var(--wp--preset--color--palette-color-5, var(--theme-palette-color-5, #F0F2F3))"
 
 # All tile styling lives on the grid block, so one edit covers every brand.
-# Logos use mix-blend-mode:multiply so white logo backgrounds melt into the hover colour.
+# Hover uses the panel colour. Logos use mix-blend-mode:multiply so white logo
+# backgrounds melt into it.
 # Lines: the grid draws the top and left edges, each tile its right and bottom,
 # so a part-filled last row stays clean.
 GRID_CSS = (
     "{CURRENT} .tfgr-brand{display:flex;flex-direction:column;background-color:#ffffff;"
     f"border-right:1px solid {RULE};border-bottom:1px solid {RULE};padding:1.5rem;"
     f"color:{BODY};text-decoration:none;transition:background-color .2s;}}"
-    f"{{CURRENT}} .tfgr-brand:hover{{background-color:{NUM_BG};}}"
+    f"{{CURRENT}} .tfgr-brand:hover{{background-color:{PANEL_BG};}}"
     f"{{CURRENT}} .tfgr-brand:focus-visible{{outline:2px solid {ACCENT};outline-offset:-2px;}}"
     "{CURRENT} .tfgr-brand-logo{display:flex;align-items:center;justify-content:center;"
     "height:5.5rem;margin-bottom:1.25rem;}"
