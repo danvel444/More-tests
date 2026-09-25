@@ -1,0 +1,307 @@
+<!-- wp:greenshift-blocks/element {"id":"gsbp-e34dcf2","inlineCssStyles":".gsbp-e34dcf2{display:flex;flex-direction:column;align-items:center;position:relative;overflow:hidden;background-color:#3a0916;padding-top:190px;padding-bottom:8rem;padding-left:var(\u002d\u002dwp\u002d\u002dcustom\u002d\u002dspacing\u002d\u002dside, min(3vw, 20px));padding-right:var(\u002d\u002dwp\u002d\u002dcustom\u002d\u002dspacing\u002d\u002dside, min(3vw, 20px));margin-top:0px;margin-bottom:0px;}@media (max-width: 991.98px){.gsbp-e34dcf2{padding-top:170px;}}@media (max-width: 575.98px){.gsbp-e34dcf2{padding-top:140px;padding-bottom:6rem;}}.gsbp-e34dcf2::before{content:\u0022\u0022;position:absolute;inset:0;background:url(https://thefastenergroup.com/wp-content/uploads/2026/02/Background-3.svg) center / cover no-repeat;opacity:0.09;pointer-events:none;}.gsbp-e34dcf2 \u003e *{position:relative;z-index:1;}","tag":"section","type":"inner","localId":"gsbp-e34dcf2","align":"full","isVariation":"contentcolumns","styleAttributes":{"display":["flex"],"flexDirection":["column"],"alignItems":["center"],"position":["relative"],"overflow":["hidden"],"backgroundColor":["#3a0916"],"paddingTop":["190px","170px",null,"140px"],"paddingBottom":["8rem",null,null,"6rem"],"paddingLeft":["var(\u002d\u002dwp\u002d\u002dcustom\u002d\u002dspacing\u002d\u002dside, min(3vw, 20px))"],"paddingRight":["var(\u002d\u002dwp\u002d\u002dcustom\u002d\u002dspacing\u002d\u002dside, min(3vw, 20px))"],"marginTop":["0px"],"marginBottom":["0px"],"customCSS_Extra":"{CURRENT}::before{content:\u0022\u0022;position:absolute;inset:0;background:url(https://thefastenergroup.com/wp-content/uploads/2026/02/Background-3.svg) center / cover no-repeat;opacity:0.09;pointer-events:none;}{CURRENT} \u003e *{position:relative;z-index:1;}"},"metadata":{"name":"Hero"}} -->
+<section class="gsbp-e34dcf2 alignfull"><!-- wp:greenshift-blocks/element {"id":"gsbp-d745356","inlineCssStyles":".gsbp-d745356{max-width:100%;width:var(\u002d\u002dwp\u002d\u002dstyle\u002d\u002dglobal\u002d\u002dwide-size, 1200px);}","type":"inner","localId":"gsbp-d745356","isVariation":"contentarea","styleAttributes":{"maxWidth":["100%"],"width":["var(\u002d\u002dwp\u002d\u002dstyle\u002d\u002dglobal\u002d\u002dwide-size, 1200px)"]},"metadata":{"name":"Content Area"}} -->
+<div class="gsbp-d745356"><!-- wp:greenshift-blocks/element {"id":"gsbp-88192bc","inlineCssStyles":".gsbp-88192bc{max-width:44rem;}","type":"inner","localId":"gsbp-88192bc","styleAttributes":{"maxWidth":["44rem"]},"metadata":{"name":"Hero Text"}} -->
+<div class="gsbp-88192bc"><!-- wp:greenshift-blocks/element {"id":"gsbp-72f4282","inlineCssStyles":".gsbp-72f4282{margin-top:0px;margin-bottom:0.75rem;font-weight:700;text-transform:uppercase;color:#ec8a80;}","textContent":"Industries","tag":"p","localId":"gsbp-72f4282","styleAttributes":{"marginTop":["0px"],"marginBottom":["0.75rem"],"fontWeight":["700"],"textTransform":["uppercase"],"color":["#ec8a80"]}} -->
+<p class="gsbp-72f4282">Industries</p>
+<!-- /wp:greenshift-blocks/element -->
+
+<!-- wp:greenshift-blocks/element {"id":"gsbp-1ec3a82","inlineCssStyles":".gsbp-1ec3a82{margin-top:0px;margin-bottom:0px;color:#ffffff;font-size:var(\u002d\u002dwp\u002d\u002dpreset\u002d\u002dfont-size\u002d\u002dgiga, clamp(3rem, 5vw, 4.5rem));line-height:1.1;}","textContent":"Industries We Serve","tag":"h1","localId":"gsbp-1ec3a82","styleAttributes":{"marginTop":["0px"],"marginBottom":["0px"],"color":["#ffffff"],"fontSize":["var(\u002d\u002dwp\u002d\u002dpreset\u002d\u002dfont-size\u002d\u002dgiga, clamp(3rem, 5vw, 4.5rem))"],"lineHeight":["1.1"]}} -->
+<h1 class="gsbp-1ec3a82">Industries We Serve</h1>
+<!-- /wp:greenshift-blocks/element -->
+
+<!-- wp:greenshift-blocks/element {"id":"gsbp-38358b7","inlineCssStyles":".gsbp-38358b7{margin-top:1.25rem;margin-bottom:0px;max-width:36rem;color:rgba(255, 255, 255, 0.85);}","textContent":"Our team of specialists have deep expertise across a range of industries. We offer solutions and services designed to help businesses of all types get the equipment they need to build.","tag":"p","localId":"gsbp-38358b7","styleAttributes":{"marginTop":["1.25rem"],"marginBottom":["0px"],"maxWidth":["36rem"],"color":["rgba(255, 255, 255, 0.85)"]}} -->
+<p class="gsbp-38358b7">Our team of specialists have deep expertise across a range of industries. We offer solutions and services designed to help businesses of all types get the equipment they need to build.</p>
+<!-- /wp:greenshift-blocks/element -->
+
+<!-- wp:greenshift-blocks/element {"id":"gsbp-0a2b076","inlineCssStyles":".gsbp-0a2b076{display:inline-flex;align-items:center;gap:0.6rem;margin-top:2rem;padding:0.6rem 1.25rem;border:1px solid #ec8a80;color:#ffffff;font-weight:700;text-decoration:none;transition:background-color .2s,border-color .2s;}.gsbp-0a2b076::after{content:\u0022\\2193\u0022;color:#ec8a80;}.gsbp-0a2b076:hover,.gsbp-0a2b076:focus-visible{background-color:#a3231b;border-color:#a3231b;color:#ffffff;}.gsbp-0a2b076:hover::after,.gsbp-0a2b076:focus-visible::after{color:#ffffff;}.gsbp-0a2b076:focus-visible{outline:2px solid #ec8a80;outline-offset:2px;}","textContent":"Explore industries","tag":"a","localId":"gsbp-0a2b076","href":"#industries","styleAttributes":{"customCSS_Extra":"{CURRENT}{display:inline-flex;align-items:center;gap:0.6rem;margin-top:2rem;padding:0.6rem 1.25rem;border:1px solid #ec8a80;color:#ffffff;font-weight:700;text-decoration:none;transition:background-color .2s,border-color .2s;}{CURRENT}::after{content:\u0022\\2193\u0022;color:#ec8a80;}{CURRENT}:hover,{CURRENT}:focus-visible{background-color:#a3231b;border-color:#a3231b;color:#ffffff;}{CURRENT}:hover::after,{CURRENT}:focus-visible::after{color:#ffffff;}{CURRENT}:focus-visible{outline:2px solid #ec8a80;outline-offset:2px;}"}} -->
+<a class="gsbp-0a2b076" href="#industries">Explore industries</a>
+<!-- /wp:greenshift-blocks/element --></div>
+<!-- /wp:greenshift-blocks/element --></div>
+<!-- /wp:greenshift-blocks/element --></section>
+<!-- /wp:greenshift-blocks/element -->
+
+<!-- wp:greenshift-blocks/element {"id":"gsbp-6feb22c","inlineCssStyles":".gsbp-6feb22c{display:flex;flex-direction:column;row-gap:4.5rem;margin-top:-4rem;position:relative;z-index:2;}@media (max-width: 991.98px){.gsbp-6feb22c{row-gap:3.38rem;}}@media (max-width: 575.98px){.gsbp-6feb22c{row-gap:2.25rem;margin-top:-3rem;}}.gsbp-6feb22c [id]{scroll-margin-top:2rem;}","type":"inner","className":"tfgr-page","localId":"gsbp-6feb22c","styleAttributes":{"display":["flex"],"flexDirection":["column"],"rowGap":["4.5rem","3.38rem",null,"2.25rem"],"marginTop":["-4rem",null,null,"-3rem"],"position":["relative"],"zIndex":["2"],"customCSS_Extra":"{CURRENT} [id]{scroll-margin-top:2rem;}"},"metadata":{"name":"Industries Page"}} -->
+<div class="tfgr-page gsbp-6feb22c"><!-- wp:greenshift-blocks/element {"id":"gsbp-64a8533","inlineCssStyles":".gsbp-64a8533{background-color:var(\u002d\u002dwp\u002d\u002dpreset\u002d\u002dcolor\u002d\u002dpalette-color-5, var(\u002d\u002dtheme-palette-color-5, #F0F2F3));padding-top:2.25rem;padding-bottom:2.25rem;padding-left:1.5rem;padding-right:1.5rem;}@media (max-width: 575.98px){.gsbp-64a8533{padding-top:1.5rem;padding-bottom:1.5rem;padding-left:1rem;padding-right:1rem;}}","type":"inner","className":"tfgr-policy","localId":"gsbp-64a8533","styleAttributes":{"backgroundColor":["var(\u002d\u002dwp\u002d\u002dpreset\u002d\u002dcolor\u002d\u002dpalette-color-5, var(\u002d\u002dtheme-palette-color-5, #F0F2F3))"],"paddingTop":["2.25rem",null,null,"1.5rem"],"paddingBottom":["2.25rem",null,null,"1.5rem"],"paddingLeft":["1.5rem",null,null,"1rem"],"paddingRight":["1.5rem",null,null,"1rem"]},"metadata":{"name":"Industries"}} -->
+<div class="tfgr-policy gsbp-64a8533"><!-- wp:greenshift-blocks/element {"id":"gsbp-b2a220d","inlineCssStyles":".gsbp-b2a220d{padding-bottom:1.5rem;margin-bottom:2.25rem;border-bottom:2px solid #1d1f21;}","type":"inner","localId":"gsbp-b2a220d","styleAttributes":{"paddingBottom":["1.5rem"],"marginBottom":["2.25rem"],"borderBottom":["2px solid #1d1f21"]},"metadata":{"name":"Heading"}} -->
+<div class="gsbp-b2a220d"><!-- wp:greenshift-blocks/element {"id":"gsbp-cb1a0eb","inlineCssStyles":".gsbp-cb1a0eb{margin-top:0px;margin-bottom:0.44rem;font-weight:700;text-transform:uppercase;color:#a3231b;}","textContent":"Who we supply","tag":"p","localId":"gsbp-cb1a0eb","styleAttributes":{"marginTop":["0px"],"marginBottom":["0.44rem"],"fontWeight":["700"],"textTransform":["uppercase"],"color":["#a3231b"]}} -->
+<p class="gsbp-cb1a0eb">Who we supply</p>
+<!-- /wp:greenshift-blocks/element -->
+
+<!-- wp:greenshift-blocks/element {"id":"gsbp-43f595a","anchor":"industries","inlineCssStyles":".gsbp-43f595a{margin-top:0px;margin-bottom:0px;color:#1d1f21;}","textContent":"Supplying the industries that build Western Canada","tag":"h2","localId":"gsbp-43f595a","styleAttributes":{"marginTop":["0px"],"marginBottom":["0px"],"color":["#1d1f21"]}} -->
+<h2 class="gsbp-43f595a" id="industries">Supplying the industries that build Western Canada</h2>
+<!-- /wp:greenshift-blocks/element --></div>
+<!-- /wp:greenshift-blocks/element -->
+
+<!-- wp:greenshift-blocks/element {"id":"gsbp-8a33c0f","inlineCssStyles":".gsbp-8a33c0f{display:grid;grid-template-columns:repeat(3, 1fr);border-top:1px solid #d9d5cc;border-left:1px solid #d9d5cc;background-color:#ffffff;}@media (max-width: 991.98px){.gsbp-8a33c0f{grid-template-columns:repeat(2, 1fr);}}@media (max-width: 767.98px){.gsbp-8a33c0f{grid-template-columns:repeat(2, 1fr);}}@media (max-width: 575.98px){.gsbp-8a33c0f{grid-template-columns:repeat(1, 1fr);}}.gsbp-8a33c0f .tfgr-ind{display:flex;flex-direction:column;background-color:#ffffff;border-right:1px solid #d9d5cc;border-bottom:1px solid #d9d5cc;color:#3a3d40;}.gsbp-8a33c0f .tfgr-ind img{display:block;width:100%;height:auto;aspect-ratio:7 / 5;object-fit:cover;}.gsbp-8a33c0f .tfgr-ind-body{padding:1.25rem 1.5rem 1.5rem;}.gsbp-8a33c0f .tfgr-ind-name{margin:0 0 0.5rem 0;color:#1d1f21;}.gsbp-8a33c0f .tfgr-ind-desc{margin:0;}@media (max-width: 575.98px){.gsbp-8a33c0f .tfgr-ind-body{padding:1rem 1.25rem 1.25rem;}}","type":"inner","localId":"gsbp-8a33c0f","styleAttributes":{"display":["grid"],"gridTemplateColumns":["repeat(3, 1fr)","repeat(2, 1fr)","repeat(2, 1fr)","repeat(1, 1fr)"],"borderTop":["1px solid #d9d5cc"],"borderLeft":["1px solid #d9d5cc"],"backgroundColor":["#ffffff"],"customCSS_Extra":"{CURRENT} .tfgr-ind{display:flex;flex-direction:column;background-color:#ffffff;border-right:1px solid #d9d5cc;border-bottom:1px solid #d9d5cc;color:#3a3d40;}{CURRENT} .tfgr-ind img{display:block;width:100%;height:auto;aspect-ratio:7 / 5;object-fit:cover;}{CURRENT} .tfgr-ind-body{padding:1.25rem 1.5rem 1.5rem;}{CURRENT} .tfgr-ind-name{margin:0 0 0.5rem 0;color:#1d1f21;}{CURRENT} .tfgr-ind-desc{margin:0;}@media (max-width: 575.98px){{CURRENT} .tfgr-ind-body{padding:1rem 1.25rem 1.25rem;}}"},"metadata":{"name":"Industry Tiles"}} -->
+<div class="gsbp-8a33c0f"><!-- wp:greenshift-blocks/element {"id":"gsbp-daa9323","anchor":"agriculture","type":"inner","className":"tfgr-ind","localId":"gsbp-daa9323","metadata":{"name":"Agriculture"}} -->
+<div class="tfgr-ind" id="agriculture"><!-- wp:greenshift-blocks/element {"id":"gsbp-afdc321","tag":"img","localId":"gsbp-afdc321","src":"https://thefastenergroup.com/wp-content/uploads/2026/02/agriculture.webp","alt":"","originalWidth":700,"originalHeight":500} -->
+<img src="https://thefastenergroup.com/wp-content/uploads/2026/02/agriculture.webp" alt="" width="700" height="500" loading="lazy"/>
+<!-- /wp:greenshift-blocks/element -->
+
+<!-- wp:greenshift-blocks/element {"id":"gsbp-c173c2b","type":"inner","className":"tfgr-ind-body","localId":"gsbp-c173c2b"} -->
+<div class="tfgr-ind-body"><!-- wp:greenshift-blocks/element {"id":"gsbp-df260d9","textContent":"Agriculture","tag":"h3","className":"tfgr-ind-name","localId":"gsbp-df260d9"} -->
+<h3 class="tfgr-ind-name">Agriculture</h3>
+<!-- /wp:greenshift-blocks/element -->
+
+<!-- wp:greenshift-blocks/element {"id":"gsbp-06f77c2","textContent":"Agriculture is built on reliability, season after season. We equip producers and ag businesses with the tools, hardware, and fastening solutions they need to keep equipment running, improve efficiency, and work confidently in the field.","tag":"p","className":"tfgr-ind-desc","localId":"gsbp-06f77c2"} -->
+<p class="tfgr-ind-desc">Agriculture is built on reliability, season after season. We equip producers and ag businesses with the tools, hardware, and fastening solutions they need to keep equipment running, improve efficiency, and work confidently in the field.</p>
+<!-- /wp:greenshift-blocks/element --></div>
+<!-- /wp:greenshift-blocks/element --></div>
+<!-- /wp:greenshift-blocks/element -->
+
+<!-- wp:greenshift-blocks/element {"id":"gsbp-9db8ac3","anchor":"construction","type":"inner","className":"tfgr-ind","localId":"gsbp-9db8ac3","metadata":{"name":"Construction \u0026 Infrastructure"}} -->
+<div class="tfgr-ind" id="construction"><!-- wp:greenshift-blocks/element {"id":"gsbp-8786798","tag":"img","localId":"gsbp-8786798","src":"https://thefastenergroup.com/wp-content/uploads/2026/02/construction.webp","alt":"","originalWidth":700,"originalHeight":500} -->
+<img src="https://thefastenergroup.com/wp-content/uploads/2026/02/construction.webp" alt="" width="700" height="500" loading="lazy"/>
+<!-- /wp:greenshift-blocks/element -->
+
+<!-- wp:greenshift-blocks/element {"id":"gsbp-f234b09","type":"inner","className":"tfgr-ind-body","localId":"gsbp-f234b09"} -->
+<div class="tfgr-ind-body"><!-- wp:greenshift-blocks/element {"id":"gsbp-f857f63","textContent":"Construction \u0026amp; Infrastructure","tag":"h3","className":"tfgr-ind-name","localId":"gsbp-f857f63"} -->
+<h3 class="tfgr-ind-name">Construction &amp; Infrastructure</h3>
+<!-- /wp:greenshift-blocks/element -->
+
+<!-- wp:greenshift-blocks/element {"id":"gsbp-053afc8","textContent":"Construction work leaves no margin for weak materials. From large-scale infrastructure to commercial builds, we supply the tools, fasteners, and jobsite essentials required to meet demanding conditions and deliver lasting results.","tag":"p","className":"tfgr-ind-desc","localId":"gsbp-053afc8"} -->
+<p class="tfgr-ind-desc">Construction work leaves no margin for weak materials. From large-scale infrastructure to commercial builds, we supply the tools, fasteners, and jobsite essentials required to meet demanding conditions and deliver lasting results.</p>
+<!-- /wp:greenshift-blocks/element --></div>
+<!-- /wp:greenshift-blocks/element --></div>
+<!-- /wp:greenshift-blocks/element -->
+
+<!-- wp:greenshift-blocks/element {"id":"gsbp-9133bef","anchor":"distribution","type":"inner","className":"tfgr-ind","localId":"gsbp-9133bef","metadata":{"name":"Distribution"}} -->
+<div class="tfgr-ind" id="distribution"><!-- wp:greenshift-blocks/element {"id":"gsbp-8806560","tag":"img","localId":"gsbp-8806560","src":"https://thefastenergroup.com/wp-content/uploads/2026/02/distribution.webp","alt":"","originalWidth":700,"originalHeight":500} -->
+<img src="https://thefastenergroup.com/wp-content/uploads/2026/02/distribution.webp" alt="" width="700" height="500" loading="lazy"/>
+<!-- /wp:greenshift-blocks/element -->
+
+<!-- wp:greenshift-blocks/element {"id":"gsbp-cbdb50a","type":"inner","className":"tfgr-ind-body","localId":"gsbp-cbdb50a"} -->
+<div class="tfgr-ind-body"><!-- wp:greenshift-blocks/element {"id":"gsbp-f5de134","textContent":"Distribution","tag":"h3","className":"tfgr-ind-name","localId":"gsbp-f5de134"} -->
+<h3 class="tfgr-ind-name">Distribution</h3>
+<!-- /wp:greenshift-blocks/element -->
+
+<!-- wp:greenshift-blocks/element {"id":"gsbp-28b9bdc","textContent":"Behind efficient distribution are well-run facilities and dependable systems. We provide the tools, fasteners, and hardware that support warehouse operations, material handling, and everyday facility maintenance.","tag":"p","className":"tfgr-ind-desc","localId":"gsbp-28b9bdc"} -->
+<p class="tfgr-ind-desc">Behind efficient distribution are well-run facilities and dependable systems. We provide the tools, fasteners, and hardware that support warehouse operations, material handling, and everyday facility maintenance.</p>
+<!-- /wp:greenshift-blocks/element --></div>
+<!-- /wp:greenshift-blocks/element --></div>
+<!-- /wp:greenshift-blocks/element -->
+
+<!-- wp:greenshift-blocks/element {"id":"gsbp-8b67641","anchor":"energy","type":"inner","className":"tfgr-ind","localId":"gsbp-8b67641","metadata":{"name":"Energy \u0026 Utilities"}} -->
+<div class="tfgr-ind" id="energy"><!-- wp:greenshift-blocks/element {"id":"gsbp-3b09e4c","tag":"img","localId":"gsbp-3b09e4c","src":"https://thefastenergroup.com/wp-content/uploads/2026/02/energy.webp","alt":"","originalWidth":700,"originalHeight":500} -->
+<img src="https://thefastenergroup.com/wp-content/uploads/2026/02/energy.webp" alt="" width="700" height="500" loading="lazy"/>
+<!-- /wp:greenshift-blocks/element -->
+
+<!-- wp:greenshift-blocks/element {"id":"gsbp-24ad33a","type":"inner","className":"tfgr-ind-body","localId":"gsbp-24ad33a"} -->
+<div class="tfgr-ind-body"><!-- wp:greenshift-blocks/element {"id":"gsbp-21aadfa","textContent":"Energy \u0026amp; Utilities","tag":"h3","className":"tfgr-ind-name","localId":"gsbp-21aadfa"} -->
+<h3 class="tfgr-ind-name">Energy &amp; Utilities</h3>
+<!-- /wp:greenshift-blocks/element -->
+
+<!-- wp:greenshift-blocks/element {"id":"gsbp-cbc8e54","textContent":"Downtime isn’t an option in energy and utilities. We support field crews and facilities with the tools, fasteners, and supplies needed to maintain critical infrastructure and keep essential services running.","tag":"p","className":"tfgr-ind-desc","localId":"gsbp-cbc8e54"} -->
+<p class="tfgr-ind-desc">Downtime isn’t an option in energy and utilities. We support field crews and facilities with the tools, fasteners, and supplies needed to maintain critical infrastructure and keep essential services running.</p>
+<!-- /wp:greenshift-blocks/element --></div>
+<!-- /wp:greenshift-blocks/element --></div>
+<!-- /wp:greenshift-blocks/element -->
+
+<!-- wp:greenshift-blocks/element {"id":"gsbp-c1af905","anchor":"facility-maintenance","type":"inner","className":"tfgr-ind","localId":"gsbp-c1af905","metadata":{"name":"Facility Management \u0026 Maintenance"}} -->
+<div class="tfgr-ind" id="facility-maintenance"><!-- wp:greenshift-blocks/element {"id":"gsbp-284284b","tag":"img","localId":"gsbp-284284b","src":"https://thefastenergroup.com/wp-content/uploads/2026/02/mainentance.webp","alt":"","originalWidth":700,"originalHeight":500} -->
+<img src="https://thefastenergroup.com/wp-content/uploads/2026/02/mainentance.webp" alt="" width="700" height="500" loading="lazy"/>
+<!-- /wp:greenshift-blocks/element -->
+
+<!-- wp:greenshift-blocks/element {"id":"gsbp-d39c020","type":"inner","className":"tfgr-ind-body","localId":"gsbp-d39c020"} -->
+<div class="tfgr-ind-body"><!-- wp:greenshift-blocks/element {"id":"gsbp-a2e5ac4","textContent":"Facility Management \u0026amp; Maintenance","tag":"h3","className":"tfgr-ind-name","localId":"gsbp-a2e5ac4"} -->
+<h3 class="tfgr-ind-name">Facility Management &amp; Maintenance</h3>
+<!-- /wp:greenshift-blocks/element -->
+
+<!-- wp:greenshift-blocks/element {"id":"gsbp-8d9f2c7","textContent":"Keeping buildings operational takes consistent attention and fast response. We supply maintenance teams with the tools, fasteners, and supplies required for repairs, upgrades, and ongoing facility care.","tag":"p","className":"tfgr-ind-desc","localId":"gsbp-8d9f2c7"} -->
+<p class="tfgr-ind-desc">Keeping buildings operational takes consistent attention and fast response. We supply maintenance teams with the tools, fasteners, and supplies required for repairs, upgrades, and ongoing facility care.</p>
+<!-- /wp:greenshift-blocks/element --></div>
+<!-- /wp:greenshift-blocks/element --></div>
+<!-- /wp:greenshift-blocks/element -->
+
+<!-- wp:greenshift-blocks/element {"id":"gsbp-612ea1d","anchor":"government","type":"inner","className":"tfgr-ind","localId":"gsbp-612ea1d","metadata":{"name":"Government"}} -->
+<div class="tfgr-ind" id="government"><!-- wp:greenshift-blocks/element {"id":"gsbp-babe245","tag":"img","localId":"gsbp-babe245","src":"https://thefastenergroup.com/wp-content/uploads/2026/02/government.webp","alt":"","originalWidth":700,"originalHeight":500} -->
+<img src="https://thefastenergroup.com/wp-content/uploads/2026/02/government.webp" alt="" width="700" height="500" loading="lazy"/>
+<!-- /wp:greenshift-blocks/element -->
+
+<!-- wp:greenshift-blocks/element {"id":"gsbp-6428488","type":"inner","className":"tfgr-ind-body","localId":"gsbp-6428488"} -->
+<div class="tfgr-ind-body"><!-- wp:greenshift-blocks/element {"id":"gsbp-a4fc7a8","textContent":"Government","tag":"h3","className":"tfgr-ind-name","localId":"gsbp-a4fc7a8"} -->
+<h3 class="tfgr-ind-name">Government</h3>
+<!-- /wp:greenshift-blocks/element -->
+
+<!-- wp:greenshift-blocks/element {"id":"gsbp-d12ad0e","textContent":"As public infrastructure and services evolve, dependable equipment and supplies are essential. We support government departments and agencies with dependable tools, fasteners, and hardware to help maintain facilities, assets, and essential operations.","tag":"p","className":"tfgr-ind-desc","localId":"gsbp-d12ad0e"} -->
+<p class="tfgr-ind-desc">As public infrastructure and services evolve, dependable equipment and supplies are essential. We support government departments and agencies with dependable tools, fasteners, and hardware to help maintain facilities, assets, and essential operations.</p>
+<!-- /wp:greenshift-blocks/element --></div>
+<!-- /wp:greenshift-blocks/element --></div>
+<!-- /wp:greenshift-blocks/element -->
+
+<!-- wp:greenshift-blocks/element {"id":"gsbp-3228d1f","anchor":"industrial-services","type":"inner","className":"tfgr-ind","localId":"gsbp-3228d1f","metadata":{"name":"Industrial Services"}} -->
+<div class="tfgr-ind" id="industrial-services"><!-- wp:greenshift-blocks/element {"id":"gsbp-03a4ceb","tag":"img","localId":"gsbp-03a4ceb","src":"https://thefastenergroup.com/wp-content/uploads/2026/02/industrial.webp","alt":"","originalWidth":700,"originalHeight":500} -->
+<img src="https://thefastenergroup.com/wp-content/uploads/2026/02/industrial.webp" alt="" width="700" height="500" loading="lazy"/>
+<!-- /wp:greenshift-blocks/element -->
+
+<!-- wp:greenshift-blocks/element {"id":"gsbp-be59246","type":"inner","className":"tfgr-ind-body","localId":"gsbp-be59246"} -->
+<div class="tfgr-ind-body"><!-- wp:greenshift-blocks/element {"id":"gsbp-9aaabce","textContent":"Industrial Services","tag":"h3","className":"tfgr-ind-name","localId":"gsbp-9aaabce"} -->
+<h3 class="tfgr-ind-name">Industrial Services</h3>
+<!-- /wp:greenshift-blocks/element -->
+
+<!-- wp:greenshift-blocks/element {"id":"gsbp-363b36a","textContent":"Industrial service work depends on equipment that performs in demanding environments. We supply the tools, fasteners, and hardware needed to support maintenance, repairs, and specialized service work with confidence.","tag":"p","className":"tfgr-ind-desc","localId":"gsbp-363b36a"} -->
+<p class="tfgr-ind-desc">Industrial service work depends on equipment that performs in demanding environments. We supply the tools, fasteners, and hardware needed to support maintenance, repairs, and specialized service work with confidence.</p>
+<!-- /wp:greenshift-blocks/element --></div>
+<!-- /wp:greenshift-blocks/element --></div>
+<!-- /wp:greenshift-blocks/element -->
+
+<!-- wp:greenshift-blocks/element {"id":"gsbp-6137648","anchor":"manufacturing","type":"inner","className":"tfgr-ind","localId":"gsbp-6137648","metadata":{"name":"Manufacturing \u0026 Fabrication"}} -->
+<div class="tfgr-ind" id="manufacturing"><!-- wp:greenshift-blocks/element {"id":"gsbp-5742b02","tag":"img","localId":"gsbp-5742b02","src":"https://thefastenergroup.com/wp-content/uploads/2026/02/Manufacturing.webp","alt":"","originalWidth":700,"originalHeight":500} -->
+<img src="https://thefastenergroup.com/wp-content/uploads/2026/02/Manufacturing.webp" alt="" width="700" height="500" loading="lazy"/>
+<!-- /wp:greenshift-blocks/element -->
+
+<!-- wp:greenshift-blocks/element {"id":"gsbp-b3d6f9e","type":"inner","className":"tfgr-ind-body","localId":"gsbp-b3d6f9e"} -->
+<div class="tfgr-ind-body"><!-- wp:greenshift-blocks/element {"id":"gsbp-660a160","textContent":"Manufacturing \u0026amp; Fabrication","tag":"h3","className":"tfgr-ind-name","localId":"gsbp-660a160"} -->
+<h3 class="tfgr-ind-name">Manufacturing &amp; Fabrication</h3>
+<!-- /wp:greenshift-blocks/element -->
+
+<!-- wp:greenshift-blocks/element {"id":"gsbp-12e1b52","textContent":"Production environments run on precision and consistency. From fabrication shops to full-scale manufacturing, we provide the tools, fasteners, and hardware that support output, maintenance, and continuous improvement.","tag":"p","className":"tfgr-ind-desc","localId":"gsbp-12e1b52"} -->
+<p class="tfgr-ind-desc">Production environments run on precision and consistency. From fabrication shops to full-scale manufacturing, we provide the tools, fasteners, and hardware that support output, maintenance, and continuous improvement.</p>
+<!-- /wp:greenshift-blocks/element --></div>
+<!-- /wp:greenshift-blocks/element --></div>
+<!-- /wp:greenshift-blocks/element -->
+
+<!-- wp:greenshift-blocks/element {"id":"gsbp-db500ba","anchor":"transportation","type":"inner","className":"tfgr-ind","localId":"gsbp-db500ba","metadata":{"name":"Transportation \u0026 Logistics"}} -->
+<div class="tfgr-ind" id="transportation"><!-- wp:greenshift-blocks/element {"id":"gsbp-15dd1c7","tag":"img","localId":"gsbp-15dd1c7","src":"https://thefastenergroup.com/wp-content/uploads/2026/02/transportation.webp","alt":"","originalWidth":700,"originalHeight":500} -->
+<img src="https://thefastenergroup.com/wp-content/uploads/2026/02/transportation.webp" alt="" width="700" height="500" loading="lazy"/>
+<!-- /wp:greenshift-blocks/element -->
+
+<!-- wp:greenshift-blocks/element {"id":"gsbp-5e23a85","type":"inner","className":"tfgr-ind-body","localId":"gsbp-5e23a85"} -->
+<div class="tfgr-ind-body"><!-- wp:greenshift-blocks/element {"id":"gsbp-f948d7f","textContent":"Transportation \u0026amp; Logistics","tag":"h3","className":"tfgr-ind-name","localId":"gsbp-f948d7f"} -->
+<h3 class="tfgr-ind-name">Transportation &amp; Logistics</h3>
+<!-- /wp:greenshift-blocks/element -->
+
+<!-- wp:greenshift-blocks/element {"id":"gsbp-55e5a75","textContent":"Moving goods efficiently starts with reliable equipment. We supply transportation and logistics operations with the tools, fasteners, and hardware needed to support fleet maintenance, facilities, and nonstop demand.","tag":"p","className":"tfgr-ind-desc","localId":"gsbp-55e5a75"} -->
+<p class="tfgr-ind-desc">Moving goods efficiently starts with reliable equipment. We supply transportation and logistics operations with the tools, fasteners, and hardware needed to support fleet maintenance, facilities, and nonstop demand.</p>
+<!-- /wp:greenshift-blocks/element --></div>
+<!-- /wp:greenshift-blocks/element --></div>
+<!-- /wp:greenshift-blocks/element --></div>
+<!-- /wp:greenshift-blocks/element --></div>
+<!-- /wp:greenshift-blocks/element -->
+
+<!-- wp:greenshift-blocks/element {"id":"gsbp-524f22f","type":"inner","localId":"gsbp-524f22f","metadata":{"name":"Why TFG"}} -->
+<div><!-- wp:greenshift-blocks/element {"id":"gsbp-2fb5c22","inlineCssStyles":".gsbp-2fb5c22{padding-bottom:1.5rem;margin-bottom:2.25rem;border-bottom:2px solid #1d1f21;}","type":"inner","localId":"gsbp-2fb5c22","styleAttributes":{"paddingBottom":["1.5rem"],"marginBottom":["2.25rem"],"borderBottom":["2px solid #1d1f21"]},"metadata":{"name":"Heading"}} -->
+<div class="gsbp-2fb5c22"><!-- wp:greenshift-blocks/element {"id":"gsbp-467a241","inlineCssStyles":".gsbp-467a241{margin-top:0px;margin-bottom:0.44rem;font-weight:700;text-transform:uppercase;color:#a3231b;}","textContent":"Why TFG","tag":"p","localId":"gsbp-467a241","styleAttributes":{"marginTop":["0px"],"marginBottom":["0.44rem"],"fontWeight":["700"],"textTransform":["uppercase"],"color":["#a3231b"]}} -->
+<p class="gsbp-467a241">Why TFG</p>
+<!-- /wp:greenshift-blocks/element -->
+
+<!-- wp:greenshift-blocks/element {"id":"gsbp-d54dcc1","inlineCssStyles":".gsbp-d54dcc1{margin-top:0px;margin-bottom:0px;color:#1d1f21;}","textContent":"Expertise, reliable products and dedicated support","tag":"h2","localId":"gsbp-d54dcc1","styleAttributes":{"marginTop":["0px"],"marginBottom":["0px"],"color":["#1d1f21"]}} -->
+<h2 class="gsbp-d54dcc1">Expertise, reliable products and dedicated support</h2>
+<!-- /wp:greenshift-blocks/element --></div>
+<!-- /wp:greenshift-blocks/element -->
+
+<!-- wp:greenshift-blocks/element {"id":"gsbp-5d71dea","inlineCssStyles":".gsbp-5d71dea{display:grid;grid-template-columns:repeat(2, 1fr);column-gap:2.25rem;row-gap:2.25rem;align-items:stretch;}@media (max-width: 991.98px){.gsbp-5d71dea{grid-template-columns:repeat(1, 1fr);}}","type":"inner","localId":"gsbp-5d71dea","styleAttributes":{"display":["grid"],"gridTemplateColumns":["repeat(2, 1fr)","repeat(1, 1fr)"],"columnGap":["2.25rem"],"rowGap":["2.25rem"],"alignItems":["stretch"]},"metadata":{"name":"Two Columns"}} -->
+<div class="gsbp-5d71dea"><!-- wp:greenshift-blocks/element {"id":"gsbp-5e6e10f","inlineCssStyles":".gsbp-5e6e10f{background-color:#ffffff;border:1px solid #d9d5cc;padding-top:2rem;padding-bottom:2rem;padding-left:2rem;padding-right:2rem;}@media (max-width: 575.98px){.gsbp-5e6e10f{padding-top:1.5rem;padding-bottom:1.5rem;padding-left:1.25rem;padding-right:1.25rem;}}","type":"inner","localId":"gsbp-5e6e10f","styleAttributes":{"backgroundColor":["#ffffff"],"border":["1px solid #d9d5cc"],"paddingTop":["2rem",null,null,"1.5rem"],"paddingBottom":["2rem",null,null,"1.5rem"],"paddingLeft":["2rem",null,null,"1.25rem"],"paddingRight":["2rem",null,null,"1.25rem"]},"metadata":{"name":"Everything Your Business Needs"}} -->
+<div class="gsbp-5e6e10f"><!-- wp:greenshift-blocks/element {"id":"gsbp-0932716","inlineCssStyles":".gsbp-0932716{margin-top:0px;margin-bottom:1rem;color:#1d1f21;}","textContent":"Everything Your Business Needs to Succeed","tag":"h3","localId":"gsbp-0932716","styleAttributes":{"marginTop":["0px"],"marginBottom":["1rem"],"color":["#1d1f21"]}} -->
+<h3 class="gsbp-0932716">Everything Your Business Needs to Succeed</h3>
+<!-- /wp:greenshift-blocks/element -->
+
+<!-- wp:greenshift-blocks/element {"id":"gsbp-6741451","inlineCssStyles":".gsbp-6741451{list-style:none;margin:0;padding:0;display:grid;grid-template-columns:repeat(2, 1fr);column-gap:2rem;}.gsbp-6741451 li{position:relative;margin:0;padding:0.6rem 0 0.6rem 1.5rem;border-bottom:1px solid #d9d5cc;color:#1d1f21;}.gsbp-6741451 li::before{content:\u0022\u0022;position:absolute;left:0;top:calc(0.6rem + 0.5lh - 1px);width:0.75rem;height:2px;background-color:#a3231b;}@media (max-width: 767.98px){.gsbp-6741451{grid-template-columns:1fr;}}","tag":"ul","type":"inner","localId":"gsbp-6741451","styleAttributes":{"customCSS_Extra":"{CURRENT}{list-style:none;margin:0;padding:0;display:grid;grid-template-columns:repeat(2, 1fr);column-gap:2rem;}{CURRENT} li{position:relative;margin:0;padding:0.6rem 0 0.6rem 1.5rem;border-bottom:1px solid #d9d5cc;color:#1d1f21;}{CURRENT} li::before{content:\u0022\u0022;position:absolute;left:0;top:calc(0.6rem + 0.5lh - 1px);width:0.75rem;height:2px;background-color:#a3231b;}@media (max-width: 767.98px){{CURRENT}{grid-template-columns:1fr;}}"}} -->
+<ul class="gsbp-6741451"><!-- wp:greenshift-blocks/element {"id":"gsbp-79f4758","textContent":"Expansive Inventory","tag":"li","localId":"gsbp-79f4758"} -->
+<li>Expansive Inventory</li>
+<!-- /wp:greenshift-blocks/element -->
+
+<!-- wp:greenshift-blocks/element {"id":"gsbp-63d9353","textContent":"High Quality Fasteners and Anchors","tag":"li","localId":"gsbp-63d9353"} -->
+<li>High Quality Fasteners and Anchors</li>
+<!-- /wp:greenshift-blocks/element -->
+
+<!-- wp:greenshift-blocks/element {"id":"gsbp-f9a4fb9","textContent":"Comprehensive Power Tool Solutions","tag":"li","localId":"gsbp-f9a4fb9"} -->
+<li>Comprehensive Power Tool Solutions</li>
+<!-- /wp:greenshift-blocks/element -->
+
+<!-- wp:greenshift-blocks/element {"id":"gsbp-62cdff3","textContent":"Accessories, Hardware, and Supplies for Every Job","tag":"li","localId":"gsbp-62cdff3"} -->
+<li>Accessories, Hardware, and Supplies for Every Job</li>
+<!-- /wp:greenshift-blocks/element -->
+
+<!-- wp:greenshift-blocks/element {"id":"gsbp-4090ec6","textContent":"Safety Gear and Protective Equipment You Can Trust","tag":"li","localId":"gsbp-4090ec6"} -->
+<li>Safety Gear and Protective Equipment You Can Trust</li>
+<!-- /wp:greenshift-blocks/element -->
+
+<!-- wp:greenshift-blocks/element {"id":"gsbp-3f0ca8d","textContent":"Knowledgeable and Attentive Staff","tag":"li","localId":"gsbp-3f0ca8d"} -->
+<li>Knowledgeable and Attentive Staff</li>
+<!-- /wp:greenshift-blocks/element -->
+
+<!-- wp:greenshift-blocks/element {"id":"gsbp-d5fb56c","textContent":"Dedicated Outside Sales Representatives","tag":"li","localId":"gsbp-d5fb56c"} -->
+<li>Dedicated Outside Sales Representatives</li>
+<!-- /wp:greenshift-blocks/element -->
+
+<!-- wp:greenshift-blocks/element {"id":"gsbp-3e6e126","textContent":"Fast and Reliable Service","tag":"li","localId":"gsbp-3e6e126"} -->
+<li>Fast and Reliable Service</li>
+<!-- /wp:greenshift-blocks/element -->
+
+<!-- wp:greenshift-blocks/element {"id":"gsbp-eadefdc","textContent":"Proudly Canadian Company","tag":"li","localId":"gsbp-eadefdc"} -->
+<li>Proudly Canadian Company</li>
+<!-- /wp:greenshift-blocks/element --></ul>
+<!-- /wp:greenshift-blocks/element --></div>
+<!-- /wp:greenshift-blocks/element -->
+
+<!-- wp:greenshift-blocks/element {"id":"gsbp-0ebbeba","inlineCssStyles":".gsbp-0ebbeba{position:relative;overflow:hidden;background-color:#3a0916;padding-top:2rem;padding-bottom:2rem;padding-left:2rem;padding-right:2rem;}@media (max-width: 575.98px){.gsbp-0ebbeba{padding-top:1.5rem;padding-bottom:1.5rem;padding-left:1.25rem;padding-right:1.25rem;}}.gsbp-0ebbeba::before{content:\u0022\u0022;position:absolute;inset:0;background:url(https://thefastenergroup.com/wp-content/uploads/2026/02/Background-3.svg) center / cover no-repeat;opacity:0.09;pointer-events:none;}.gsbp-0ebbeba \u003e *{position:relative;z-index:1;}","type":"inner","localId":"gsbp-0ebbeba","styleAttributes":{"position":["relative"],"overflow":["hidden"],"backgroundColor":["#3a0916"],"paddingTop":["2rem",null,null,"1.5rem"],"paddingBottom":["2rem",null,null,"1.5rem"],"paddingLeft":["2rem",null,null,"1.25rem"],"paddingRight":["2rem",null,null,"1.25rem"],"customCSS_Extra":"{CURRENT}::before{content:\u0022\u0022;position:absolute;inset:0;background:url(https://thefastenergroup.com/wp-content/uploads/2026/02/Background-3.svg) center / cover no-repeat;opacity:0.09;pointer-events:none;}{CURRENT} \u003e *{position:relative;z-index:1;}"},"metadata":{"name":"Here to Help You Build"}} -->
+<div class="gsbp-0ebbeba"><!-- wp:greenshift-blocks/element {"id":"gsbp-99ba4b1","inlineCssStyles":".gsbp-99ba4b1{margin-top:0px;margin-bottom:1rem;color:#ffffff;}","textContent":"We Are Here to Help You Build","tag":"h3","localId":"gsbp-99ba4b1","styleAttributes":{"marginTop":["0px"],"marginBottom":["1rem"],"color":["#ffffff"]}} -->
+<h3 class="gsbp-99ba4b1">We Are Here to Help You Build</h3>
+<!-- /wp:greenshift-blocks/element -->
+
+<!-- wp:greenshift-blocks/element {"id":"gsbp-67b69bc","inlineCssStyles":".gsbp-67b69bc{margin-top:0px;margin-bottom:2.25rem;color:rgba(255, 255, 255, 0.85);}","textContent":"With decades of experience, a wide selection of products, and trusted supplier partnerships, we help businesses across Western Canada work smarter, faster, and safer.","tag":"p","localId":"gsbp-67b69bc","styleAttributes":{"marginTop":["0px"],"marginBottom":["2.25rem"],"color":["rgba(255, 255, 255, 0.85)"]}} -->
+<p class="gsbp-67b69bc">With decades of experience, a wide selection of products, and trusted supplier partnerships, we help businesses across Western Canada work smarter, faster, and safer.</p>
+<!-- /wp:greenshift-blocks/element -->
+
+<!-- wp:greenshift-blocks/row {"id":"gsbp-882576b","gutterClassName":"gspb_row--gutter-custom-0","rowLayout":"2","displayStyles":false,"gutterGap":["50px",null,null,null],"rowGap":["40px",null,null,null],"isVariation":""} -->
+<div class="wp-block-greenshift-blocks-row gspb_row gspb_row-id-gsbp-882576b gspb_row--gutter-custom-0" id="gspb_row-id-gsbp-882576b"><div class="gspb_row__content"> <!-- wp:greenshift-blocks/row-column {"id":"gsbp-2fef7d3","gutterclass":"gspb_row--gutter-custom-0","gutterGap":["50px",null,null,null],"columnSize":"6"} -->
+<div class="wp-block-greenshift-blocks-row-column gspb_row__col--6 gspb_col-id-gsbp-2fef7d3" id="gspb_col-id-gsbp-2fef7d3"><!-- wp:greenshift-blocks/counter {"id":"gsbp-35230d6","spacing":{"margin":{"values":{"bottom":["10px"]},"locked":false},"padding":{"values":[],"locked":false}},"typographyValue":{"textShadow":[],"customweight":"custom","customweightnumber":600,"size":["50px","35px"],"line_height":["1em"]},"alignNew":["flex-start",null,null,"center"],"labelalignNew":["flex-start",null,null,"center"],"end":45,"duration":1,"textColor":"var(--wp--preset--color--palette-color-8, var(--theme-palette-color-8, #ffffff))","label":"","postfix":"+","numspace":[0,null,null,null]} -->
+<div class="wp-block-greenshift-blocks-counter gs-counterwrap gspb_counter-id-gsbp-35230d6"><div class="gs-counterdiv"><div class="gs-counter" data-start="0" data-end="45" data-duration="1" data-postfix="+">0</div></div></div>
+<!-- /wp:greenshift-blocks/counter -->
+
+<!-- wp:greenshift-blocks/text {"id":"gsbp-90074d4","textContent":"Years of experience","typography":{"textShadow":[],"color":"#ffffffd6","customweight":"custom","customweightnumber":500,"alignment":[null,null,null,"center"]}} -->
+<div id="gspb_text-id-gsbp-90074d4" class="gspb_text gspb_text-id-gsbp-90074d4 ">Years of experience</div>
+<!-- /wp:greenshift-blocks/text --></div>
+<!-- /wp:greenshift-blocks/row-column -->
+
+<!-- wp:greenshift-blocks/row-column {"id":"gsbp-378b27d","gutterclass":"gspb_row--gutter-custom-0","gutterGap":["50px",null,null,null],"columnSize":"6"} -->
+<div class="wp-block-greenshift-blocks-row-column gspb_row__col--6 gspb_col-id-gsbp-378b27d" id="gspb_col-id-gsbp-378b27d"><!-- wp:greenshift-blocks/counter {"id":"gsbp-7983841","spacing":{"margin":{"values":{"bottom":["10px"]},"locked":false},"padding":{"values":[],"locked":false}},"typographyValue":{"textShadow":[],"customweight":"custom","customweightnumber":600,"size":["50px","35px"],"line_height":["1em"]},"alignNew":["flex-start",null,null,"center"],"labelalignNew":["flex-start",null,null,"center"],"end":20,"duration":1,"textColor":"var(--wp--preset--color--palette-color-8, var(--theme-palette-color-8, #ffffff))","label":"","postfix":"","numspace":[0,null,null,null]} -->
+<div class="wp-block-greenshift-blocks-counter gs-counterwrap gspb_counter-id-gsbp-7983841"><div class="gs-counterdiv"><div class="gs-counter" data-start="0" data-end="20" data-duration="1">0</div></div></div>
+<!-- /wp:greenshift-blocks/counter -->
+
+<!-- wp:greenshift-blocks/text {"id":"gsbp-e6f84fd","textContent":"Stores across Western Canada","spacing":{"margin":{"values":{"bottom":["0px"]},"locked":false},"padding":{"values":[],"locked":false}},"typography":{"textShadow":[],"color":"#ffffffd6","customweight":"custom","customweightnumber":500,"alignment":[null,null,null,"center"]}} -->
+<div id="gspb_text-id-gsbp-e6f84fd" class="gspb_text gspb_text-id-gsbp-e6f84fd ">Stores across Western Canada</div>
+<!-- /wp:greenshift-blocks/text --></div>
+<!-- /wp:greenshift-blocks/row-column -->
+
+<!-- wp:greenshift-blocks/row-column {"id":"gsbp-f6abe73","gutterclass":"gspb_row--gutter-custom-0","gutterGap":["50px",null,null,null],"columnSize":"6"} -->
+<div class="wp-block-greenshift-blocks-row-column gspb_row__col--6 gspb_col-id-gsbp-f6abe73" id="gspb_col-id-gsbp-f6abe73"><!-- wp:greenshift-blocks/counter {"id":"gsbp-87d0f51","spacing":{"margin":{"values":{"bottom":["10px"]},"locked":false},"padding":{"values":[],"locked":false}},"typographyValue":{"textShadow":[],"customweight":"custom","customweightnumber":600,"size":["50px","35px"],"line_height":["1em"]},"alignNew":["flex-start",null,null,"center"],"labelalignNew":["flex-start",null,null,"center"],"end":500,"duration":1,"textColor":"var(--wp--preset--color--palette-color-8, var(--theme-palette-color-8, #ffffff))","label":"","postfix":"+","numspace":[0,null,null,null]} -->
+<div class="wp-block-greenshift-blocks-counter gs-counterwrap gspb_counter-id-gsbp-87d0f51"><div class="gs-counterdiv"><div class="gs-counter" data-start="0" data-end="500" data-duration="1" data-postfix="+">0</div></div></div>
+<!-- /wp:greenshift-blocks/counter -->
+
+<!-- wp:greenshift-blocks/text {"id":"gsbp-149cfc5","textContent":"Trusted Supplier Partners","spacing":{"margin":{"values":{"bottom":["0px"]},"locked":false},"padding":{"values":[],"locked":false}},"typography":{"textShadow":[],"color":"#ffffffd6","customweight":"custom","customweightnumber":500,"alignment":[null,null,null,"center"]}} -->
+<div id="gspb_text-id-gsbp-149cfc5" class="gspb_text gspb_text-id-gsbp-149cfc5 ">Trusted Supplier Partners</div>
+<!-- /wp:greenshift-blocks/text --></div>
+<!-- /wp:greenshift-blocks/row-column -->
+
+<!-- wp:greenshift-blocks/row-column {"id":"gsbp-dd00d28","gutterclass":"gspb_row--gutter-custom-0","gutterGap":["50px",null,null,null],"columnSize":"6"} -->
+<div class="wp-block-greenshift-blocks-row-column gspb_row__col--6 gspb_col-id-gsbp-dd00d28" id="gspb_col-id-gsbp-dd00d28"><!-- wp:greenshift-blocks/counter {"id":"gsbp-83afeea","spacing":{"margin":{"values":{"bottom":["10px"]},"locked":false},"padding":{"values":[],"locked":false}},"typographyValue":{"textShadow":[],"customweight":"custom","customweightnumber":600,"size":["50px","35px"],"line_height":["1em"]},"alignNew":["flex-start",null,null,"center"],"labelalignNew":["flex-start",null,null,"center"],"end":100,"duration":1,"textColor":"var(--wp--preset--color--palette-color-8, var(--theme-palette-color-8, #ffffff))","label":"","postfix":"K+","numspace":[0,null,null,null]} -->
+<div class="wp-block-greenshift-blocks-counter gs-counterwrap gspb_counter-id-gsbp-83afeea"><div class="gs-counterdiv"><div class="gs-counter" data-start="0" data-end="100" data-duration="1" data-postfix="K+">0</div></div></div>
+<!-- /wp:greenshift-blocks/counter -->
+
+<!-- wp:greenshift-blocks/text {"id":"gsbp-5e54057","textContent":"SKUs","spacing":{"margin":{"values":{"bottom":["0px",null,null,"0px"]},"locked":false},"padding":{"values":[],"locked":false}},"typography":{"textShadow":[],"color":"#ffffffd6","customweight":"custom","customweightnumber":500,"alignment":[null,null,null,"center"]}} -->
+<div id="gspb_text-id-gsbp-5e54057" class="gspb_text gspb_text-id-gsbp-5e54057 ">SKUs</div>
+<!-- /wp:greenshift-blocks/text --></div>
+<!-- /wp:greenshift-blocks/row-column --> </div></div>
+<!-- /wp:greenshift-blocks/row --></div>
+<!-- /wp:greenshift-blocks/element --></div>
+<!-- /wp:greenshift-blocks/element --></div>
+<!-- /wp:greenshift-blocks/element -->
+
+<!-- wp:greenshift-blocks/element {"id":"gsbp-13aea0d","inlineCssStyles":".gsbp-13aea0d{display:flex;flex-wrap:wrap;align-items:center;justify-content:space-between;column-gap:2rem;row-gap:1.25rem;background-color:#ffffff;border:1px solid #d9d5cc;padding-top:2rem;padding-bottom:2rem;padding-left:2rem;padding-right:2rem;}@media (max-width: 575.98px){.gsbp-13aea0d{padding-top:1.5rem;padding-bottom:1.5rem;padding-left:1.25rem;padding-right:1.25rem;}}","type":"inner","localId":"gsbp-13aea0d","styleAttributes":{"display":["flex"],"flexWrap":["wrap"],"alignItems":["center"],"justifyContent":["space-between"],"columnGap":["2rem"],"rowGap":["1.25rem"],"backgroundColor":["#ffffff"],"border":["1px solid #d9d5cc"],"paddingTop":["2rem",null,null,"1.5rem"],"paddingBottom":["2rem",null,null,"1.5rem"],"paddingLeft":["2rem",null,null,"1.25rem"],"paddingRight":["2rem",null,null,"1.25rem"]},"metadata":{"name":"Get In Touch"}} -->
+<div class="gsbp-13aea0d"><!-- wp:greenshift-blocks/element {"id":"gsbp-a3d29e3","type":"inner","localId":"gsbp-a3d29e3"} -->
+<div><!-- wp:greenshift-blocks/element {"id":"gsbp-26e7121","inlineCssStyles":".gsbp-26e7121{margin-top:0px;margin-bottom:0.5rem;color:#1d1f21;}","textContent":"And many more","tag":"h2","localId":"gsbp-26e7121","styleAttributes":{"marginTop":["0px"],"marginBottom":["0.5rem"],"color":["#1d1f21"]}} -->
+<h2 class="gsbp-26e7121">And many more</h2>
+<!-- /wp:greenshift-blocks/element -->
+
+<!-- wp:greenshift-blocks/element {"id":"gsbp-2d5e139","inlineCssStyles":".gsbp-2d5e139{margin-top:0px;margin-bottom:0px;max-width:40rem;color:#3a3d40;}","textContent":"Don’t see your industry? Tell us what you’re working on and our team will help you find the right products.","tag":"p","localId":"gsbp-2d5e139","styleAttributes":{"marginTop":["0px"],"marginBottom":["0px"],"maxWidth":["40rem"],"color":["#3a3d40"]}} -->
+<p class="gsbp-2d5e139">Don’t see your industry? Tell us what you’re working on and our team will help you find the right products.</p>
+<!-- /wp:greenshift-blocks/element --></div>
+<!-- /wp:greenshift-blocks/element -->
+
+<!-- wp:greenshift-blocks/element {"id":"gsbp-7160ac6","inlineCssStyles":".gsbp-7160ac6{display:inline-flex;align-items:center;gap:0.6rem;padding:0.75rem 1.5rem;background-color:#a3231b;border:1px solid #a3231b;color:#ffffff;font-weight:700;text-decoration:none;white-space:nowrap;transition:background-color .2s,border-color .2s;}.gsbp-7160ac6::after{content:\u0022\\2192\u0022;}.gsbp-7160ac6:hover,.gsbp-7160ac6:focus-visible{background-color:#1d1f21;border-color:#1d1f21;color:#ffffff;}.gsbp-7160ac6:focus-visible{outline:2px solid #a3231b;outline-offset:2px;}","textContent":"Get in touch","tag":"a","localId":"gsbp-7160ac6","href":"https://thefastenergroup.com/contact/","styleAttributes":{"customCSS_Extra":"{CURRENT}{display:inline-flex;align-items:center;gap:0.6rem;padding:0.75rem 1.5rem;background-color:#a3231b;border:1px solid #a3231b;color:#ffffff;font-weight:700;text-decoration:none;white-space:nowrap;transition:background-color .2s,border-color .2s;}{CURRENT}::after{content:\u0022\\2192\u0022;}{CURRENT}:hover,{CURRENT}:focus-visible{background-color:#1d1f21;border-color:#1d1f21;color:#ffffff;}{CURRENT}:focus-visible{outline:2px solid #a3231b;outline-offset:2px;}"}} -->
+<a class="gsbp-7160ac6" href="https://thefastenergroup.com/contact/">Get in touch</a>
+<!-- /wp:greenshift-blocks/element --></div>
+<!-- /wp:greenshift-blocks/element --></div>
+<!-- /wp:greenshift-blocks/element -->

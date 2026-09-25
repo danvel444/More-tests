@@ -1,0 +1,41 @@
+<!-- wp:greenshift-blocks/row {"id":"gsbp-882576b","gutterClassName":"gspb_row--gutter-custom-0","rowLayout":"2","displayStyles":false,"gutterGap":["50px",null,null,null],"rowGap":["40px",null,null,null],"isVariation":""} -->
+<div class="wp-block-greenshift-blocks-row gspb_row gspb_row-id-gsbp-882576b gspb_row--gutter-custom-0" id="gspb_row-id-gsbp-882576b"><div class="gspb_row__content"> <!-- wp:greenshift-blocks/row-column {"id":"gsbp-2fef7d3","gutterclass":"gspb_row--gutter-custom-0","gutterGap":["50px",null,null,null],"columnSize":"6"} -->
+<div class="wp-block-greenshift-blocks-row-column gspb_row__col--6 gspb_col-id-gsbp-2fef7d3" id="gspb_col-id-gsbp-2fef7d3"><!-- wp:greenshift-blocks/counter {"id":"gsbp-35230d6","spacing":{"margin":{"values":{"bottom":["10px"]},"locked":false},"padding":{"values":[],"locked":false}},"typographyValue":{"textShadow":[],"customweight":"custom","customweightnumber":600,"size":["50px","35px"],"line_height":["1em"]},"alignNew":["flex-start",null,null,"center"],"labelalignNew":["flex-start",null,null,"center"],"end":45,"duration":1,"textColor":"var(--wp--preset--color--palette-color-8, var(--theme-palette-color-8, #ffffff))","label":"","postfix":"+","numspace":[0,null,null,null]} -->
+<div class="wp-block-greenshift-blocks-counter gs-counterwrap gspb_counter-id-gsbp-35230d6"><div class="gs-counterdiv"><div class="gs-counter" data-start="0" data-end="45" data-duration="1" data-postfix="+">0</div></div></div>
+<!-- /wp:greenshift-blocks/counter -->
+
+<!-- wp:greenshift-blocks/text {"id":"gsbp-90074d4","textContent":"Years of experience","typography":{"textShadow":[],"color":"#ffffffd6","customweight":"custom","customweightnumber":500,"alignment":[null,null,null,"center"]}} -->
+<div id="gspb_text-id-gsbp-90074d4" class="gspb_text gspb_text-id-gsbp-90074d4 ">Years of experience</div>
+<!-- /wp:greenshift-blocks/text --></div>
+<!-- /wp:greenshift-blocks/row-column -->
+
+<!-- wp:greenshift-blocks/row-column {"id":"gsbp-378b27d","gutterclass":"gspb_row--gutter-custom-0","gutterGap":["50px",null,null,null],"columnSize":"6"} -->
+<div class="wp-block-greenshift-blocks-row-column gspb_row__col--6 gspb_col-id-gsbp-378b27d" id="gspb_col-id-gsbp-378b27d"><!-- wp:greenshift-blocks/counter {"id":"gsbp-7983841","spacing":{"margin":{"values":{"bottom":["10px"]},"locked":false},"padding":{"values":[],"locked":false}},"typographyValue":{"textShadow":[],"customweight":"custom","customweightnumber":600,"size":["50px","35px"],"line_height":["1em"]},"alignNew":["flex-start",null,null,"center"],"labelalignNew":["flex-start",null,null,"center"],"end":20,"duration":1,"textColor":"var(--wp--preset--color--palette-color-8, var(--theme-palette-color-8, #ffffff))","label":"","postfix":"","numspace":[0,null,null,null]} -->
+<div class="wp-block-greenshift-blocks-counter gs-counterwrap gspb_counter-id-gsbp-7983841"><div class="gs-counterdiv"><div class="gs-counter" data-start="0" data-end="20" data-duration="1">0</div></div></div>
+<!-- /wp:greenshift-blocks/counter -->
+
+<!-- wp:greenshift-blocks/text {"id":"gsbp-e6f84fd","textContent":"Stores across Western Canada","spacing":{"margin":{"values":{"bottom":["0px"]},"locked":false},"padding":{"values":[],"locked":false}},"typography":{"textShadow":[],"color":"#ffffffd6","customweight":"custom","customweightnumber":500,"alignment":[null,null,null,"center"]}} -->
+<div id="gspb_text-id-gsbp-e6f84fd" class="gspb_text gspb_text-id-gsbp-e6f84fd ">Stores across Western Canada</div>
+<!-- /wp:greenshift-blocks/text --></div>
+<!-- /wp:greenshift-blocks/row-column -->
+
+<!-- wp:greenshift-blocks/row-column {"id":"gsbp-f6abe73","gutterclass":"gspb_row--gutter-custom-0","gutterGap":["50px",null,null,null],"columnSize":"6"} -->
+<div class="wp-block-greenshift-blocks-row-column gspb_row__col--6 gspb_col-id-gsbp-f6abe73" id="gspb_col-id-gsbp-f6abe73"><!-- wp:greenshift-blocks/counter {"id":"gsbp-87d0f51","spacing":{"margin":{"values":{"bottom":["10px"]},"locked":false},"padding":{"values":[],"locked":false}},"typographyValue":{"textShadow":[],"customweight":"custom","customweightnumber":600,"size":["50px","35px"],"line_height":["1em"]},"alignNew":["flex-start",null,null,"center"],"labelalignNew":["flex-start",null,null,"center"],"end":500,"duration":1,"textColor":"var(--wp--preset--color--palette-color-8, var(--theme-palette-color-8, #ffffff))","label":"","postfix":"+","numspace":[0,null,null,null]} -->
+<div class="wp-block-greenshift-blocks-counter gs-counterwrap gspb_counter-id-gsbp-87d0f51"><div class="gs-counterdiv"><div class="gs-counter" data-start="0" data-end="500" data-duration="1" data-postfix="+">0</div></div></div>
+<!-- /wp:greenshift-blocks/counter -->
+
+<!-- wp:greenshift-blocks/text {"id":"gsbp-149cfc5","textContent":"Trusted Supplier Partners","spacing":{"margin":{"values":{"bottom":["0px"]},"locked":false},"padding":{"values":[],"locked":false}},"typography":{"textShadow":[],"color":"#ffffffd6","customweight":"custom","customweightnumber":500,"alignment":[null,null,null,"center"]}} -->
+<div id="gspb_text-id-gsbp-149cfc5" class="gspb_text gspb_text-id-gsbp-149cfc5 ">Trusted Supplier Partners</div>
+<!-- /wp:greenshift-blocks/text --></div>
+<!-- /wp:greenshift-blocks/row-column -->
+
+<!-- wp:greenshift-blocks/row-column {"id":"gsbp-dd00d28","gutterclass":"gspb_row--gutter-custom-0","gutterGap":["50px",null,null,null],"columnSize":"6"} -->
+<div class="wp-block-greenshift-blocks-row-column gspb_row__col--6 gspb_col-id-gsbp-dd00d28" id="gspb_col-id-gsbp-dd00d28"><!-- wp:greenshift-blocks/counter {"id":"gsbp-83afeea","spacing":{"margin":{"values":{"bottom":["10px"]},"locked":false},"padding":{"values":[],"locked":false}},"typographyValue":{"textShadow":[],"customweight":"custom","customweightnumber":600,"size":["50px","35px"],"line_height":["1em"]},"alignNew":["flex-start",null,null,"center"],"labelalignNew":["flex-start",null,null,"center"],"end":100,"duration":1,"textColor":"var(--wp--preset--color--palette-color-8, var(--theme-palette-color-8, #ffffff))","label":"","postfix":"K+","numspace":[0,null,null,null]} -->
+<div class="wp-block-greenshift-blocks-counter gs-counterwrap gspb_counter-id-gsbp-83afeea"><div class="gs-counterdiv"><div class="gs-counter" data-start="0" data-end="100" data-duration="1" data-postfix="K+">0</div></div></div>
+<!-- /wp:greenshift-blocks/counter -->
+
+<!-- wp:greenshift-blocks/text {"id":"gsbp-5e54057","textContent":"SKUs","spacing":{"margin":{"values":{"bottom":["0px",null,null,"0px"]},"locked":false},"padding":{"values":[],"locked":false}},"typography":{"textShadow":[],"color":"#ffffffd6","customweight":"custom","customweightnumber":500,"alignment":[null,null,null,"center"]}} -->
+<div id="gspb_text-id-gsbp-5e54057" class="gspb_text gspb_text-id-gsbp-5e54057 ">SKUs</div>
+<!-- /wp:greenshift-blocks/text --></div>
+<!-- /wp:greenshift-blocks/row-column --> </div></div>
+<!-- /wp:greenshift-blocks/row -->

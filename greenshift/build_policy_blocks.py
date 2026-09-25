@@ -64,8 +64,9 @@ def table_css(selector, table_styles):
 
 class Block:
     def __init__(self, tag="div", text=None, children=None, class_name=None,
-                 styles=None, custom_css=None, table_styles=None, name=None, anchor=None, href=None, json_extra=None, html_attrs=None, align=None):
+                 styles=None, custom_css=None, table_styles=None, name=None, anchor=None, href=None, json_extra=None, html_attrs=None, align=None, text_is_html=False):
         self.id = new_id()
+        self.text_is_html = text_is_html  # text already HTML (e.g. "&amp;"), as GreenShift stores it
         self.align = align
         self.json_extra = json_extra or {}
         self.html_attrs = html_attrs or []
@@ -143,7 +144,7 @@ class Block:
                     f"{open_tag}/>\n<!-- /wp:greenshift-blocks/element -->")
         open_tag += ">"
         if self.text is not None:
-            inner = html.escape(self.text, quote=False)
+            inner = self.text if self.text_is_html else html.escape(self.text, quote=False)
         else:
             inner = "\n\n".join(c.serialize() for c in self.children)
         return (f"<!-- wp:greenshift-blocks/element {encode(self.attrs())} -->\n"
