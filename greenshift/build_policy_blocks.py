@@ -64,8 +64,9 @@ def table_css(selector, table_styles):
 
 class Block:
     def __init__(self, tag="div", text=None, children=None, class_name=None,
-                 styles=None, custom_css=None, table_styles=None, name=None, anchor=None, href=None, json_extra=None, html_attrs=None):
+                 styles=None, custom_css=None, table_styles=None, name=None, anchor=None, href=None, json_extra=None, html_attrs=None, align=None):
         self.id = new_id()
+        self.align = align
         self.json_extra = json_extra or {}
         self.html_attrs = html_attrs or []
         self.anchor = anchor
@@ -105,6 +106,8 @@ class Block:
         if self.class_name:
             a["className"] = self.class_name
         a["localId"] = self.id
+        if self.align:
+            a["align"] = self.align
         if self.href:
             a["href"] = self.href
         a.update(self.json_extra)
@@ -125,6 +128,8 @@ class Block:
             cls.append(self.class_name)
         if self.css():
             cls.append(self.id)
+        if self.align:
+            cls.append("align" + self.align)
         return cls
 
     def serialize(self):
@@ -274,10 +279,14 @@ def make_root(policy):
 
 
 def write(policy, root, before=""):
-    """Write <dir>/<dir>-greenshift-blocks.txt and a browser preview built from the same code."""
+    """Write <dir>/<dir>-greenshift-blocks.txt and a browser preview built from the same code.
+
+    `before` is code placed ahead of root: a string of existing blocks, or a Block.
+    """
     out_dir = HERE / policy["dir"]
     out_dir.mkdir(exist_ok=True)
-    blocks = (before + "\n\n" if before else "") + root.serialize() + "\n"
+    before_code = before.serialize() if isinstance(before, Block) else before
+    blocks = (before_code + "\n\n" if before_code else "") + root.serialize() + "\n"
     (out_dir / f"{policy['dir']}-greenshift-blocks.txt").write_text(blocks)
 
     # Browser preview built from the exact same markup and CSS the blocks carry.
@@ -287,6 +296,8 @@ def write(policy, root, before=""):
             css.append(b.css())
         for c in b.children:
             collect(c)
+    if isinstance(before, Block):
+        collect(before)
     collect(root)
     markup = re.sub(r"<!-- /?wp:[^>]*-->\n?", "", blocks)
     (out_dir / f"{policy['dir']}-greenshift-preview.html").write_text(
