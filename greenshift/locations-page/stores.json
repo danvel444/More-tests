@@ -1,0 +1,33 @@
+{
+  "_note": "Single source for the Locations page cards and map. lon/lat come from each store's Google Maps embed on the old page.",
+  "provinces": [
+    {"id": "british-columbia", "name": "British Columbia", "stores": [
+      {"city": "Burnaby", "name": "BC Fasteners and Tools 2000", "street": "5035 Still Creek Avenue", "locality": "Burnaby, BC V5C 5V1", "phone": "(778) 330-2602", "website": "https://www.blackcrowfasteners.com/", "lon": -122.99283, "lat": 49.26121},
+      {"city": "Courtenay", "name": "Ono Work and Safety", "street": "#1 - 468 29th St", "locality": "Courtenay, BC V9N 7S7", "phone": "(250) 703-0633", "website": "https://www.onoworkandsafety.com/", "lon": -124.98321, "lat": 49.67123},
+      {"city": "Kamloops", "name": "BC Fasteners and Tools", "street": "425 Mt Paul Way", "locality": "Kamloops, BC V2H 1A7", "phone": "(778) 696-2007", "website": "https://bcfasteners.com/", "lon": -120.32502, "lat": 50.68520},
+      {"city": "Kelowna", "name": "BC Fasteners and Tools", "street": "1960 Windsor Road", "locality": "Kelowna, BC V1Y 4R5", "phone": "(250) 868-9222", "website": "https://bcfasteners.com/", "lon": -119.45498, "lat": 49.88037},
+      {"city": "Nanaimo", "name": "Ono Work and Safety", "street": "6481 Portsmouth Road", "locality": "Nanaimo, BC V9V 1A3", "phone": "(250) 390-4556", "website": "https://www.onoworkandsafety.com/", "lon": -124.04838, "lat": 49.23942},
+      {"city": "Penticton", "name": "BC Fasteners and Tools", "street": "104 – 1750 Dartmouth Road", "locality": "Penticton, BC V2A 4B9", "phone": "(250) 276-7700", "website": "https://bcfasteners.com/", "lon": -119.57209, "lat": 49.48042},
+      {"city": "Surrey", "name": "BC Fasteners and Tools 2000", "street": "7677 132 Street", "locality": "Surrey, BC V3W 4M8", "phone": "(604) 532-2019", "website": "https://www.blackcrowfasteners.com/", "lon": -122.86028, "lat": 49.14295},
+      {"city": "Surrey", "name": "Ono Work and Safety", "street": "18565 96th Ave", "locality": "Surrey, BC V4N 3P7", "phone": "(604) 455-0575", "website": "https://www.onoworkandsafety.com/", "lon": -122.71061, "lat": 49.17726},
+      {"city": "Vernon", "name": "BC Fasteners and Tools", "street": "1110 Waddington Dr", "locality": "Vernon, BC V1T 8T3", "phone": "(250) 542-9444", "website": "https://bcfasteners.com/", "lon": -119.26023, "lat": 50.24999}
+    ]},
+    {"id": "alberta", "name": "Alberta", "stores": [
+      {"city": "Calgary", "name": "Calgary Fasteners and Tools - Foothills", "street": "4550 72 Ave SE", "locality": "Calgary, AB T2C 3Z2", "phone": "(403) 279-7417", "website": "https://www.calfast.com/", "lon": -113.97683, "lat": 50.99046},
+      {"city": "Calgary", "name": "Calgary Fasteners and Tools - Main", "street": "1288 42 Avenue SE", "locality": "Calgary, AB T2G 5P1", "phone": "(403) 287-5340", "website": "https://www.calfast.com/", "lon": -114.05148, "lat": 51.01758},
+      {"city": "Calgary", "name": "Calgary Fasteners and Tools - North", "street": "2211 32 Ave NE", "locality": "Calgary, AB T2E 6Z3", "phone": "(403) 291-9177", "website": "https://www.calfast.com/", "lon": -114.01296, "lat": 51.08056},
+      {"city": "Edmonton", "name": "Edmonton Fasteners and Tools - South", "street": "9619 42 Ave NW", "locality": "Edmonton, AB T6E 5R2", "phone": "(780) 434-3666", "website": "https://edmfast.com/", "lon": -113.48218, "lat": 53.47914},
+      {"city": "Edmonton", "name": "Edmonton Fasteners and Tools - West", "street": "16409 111 Ave NW", "locality": "Edmonton, AB T5M 2S2", "phone": "(780) 484-3113", "website": "https://edmfast.com/", "lon": -113.67546, "lat": 53.55895},
+      {"city": "Lethbridge", "name": "Lethbridge Fasteners and Tools", "street": "2825 12 Avenue North", "locality": "Lethbridge, AB T1H 5K9", "phone": "(403) 380-3503", "website": "https://www.lethfast.ca/", "lon": -112.80262, "lat": 49.71604},
+      {"city": "Red Deer", "name": "Red Deer Fasteners and Tools", "street": "4999 76 St", "locality": "Red Deer, AB T4P 1T5", "phone": "(403) 342-6030", "website": "https://www.rdfasteners.com/", "lon": -113.81517, "lat": 52.30320}
+    ]},
+    {"id": "saskatchewan", "name": "Saskatchewan", "stores": [
+      {"city": "Regina", "name": "JD Industrial Supplies", "street": "565 Park St", "locality": "Regina, SK S4N 5B2", "phone": "(306) 352-5345", "website": "https://jdindustrial.com/", "lon": -104.57399, "lat": 50.46985},
+      {"city": "Saskatoon", "name": "Construction Fasteners and Tools", "street": "3563 Faithfull Ave", "locality": "Saskatoon, SK S7P 0G1", "phone": "(306) 668-8880", "website": "https://cf-t.com/", "lon": -106.66637, "lat": 52.18994}
+    ]},
+    {"id": "manitoba", "name": "Manitoba", "stores": [
+      {"city": "Brandon", "name": "Mid Canada Fasteners and Tools", "street": "358 Park Ave E", "locality": "Brandon, MB R7A 7A7", "phone": "(204) 717-7725", "website": "https://midcanadafasteners.shop/", "lon": -99.93449, "lat": 49.83298},
+      {"city": "Winnipeg", "name": "Mid Canada Fasteners and Tools", "street": "1557 King Edward Street", "locality": "Winnipeg, MB R3H 0R7", "phone": "(204) 697-0635", "website": "https://midcanadafasteners.shop/", "lon": -97.20817, "lat": 49.91453}
+    ]}
+  ]
+}

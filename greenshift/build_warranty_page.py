@@ -4,7 +4,7 @@ Reuses the block format and palette from build_policy_blocks.py. To add a vendor
 add a line to BRANDS; the list is sorted by name when the page is built.
 """
 from build_policy_blocks import (
-    ACCENT, BODY, GS_PREVIEW_CSS, HERE, INK, RULE, Block, _seed, write,
+    ACCENT, BODY, GS_PREVIEW_CSS, HERE, INK, RULE, Block, _seed, make_hero, write,
 )
 
 UPLOADS = "https://thefastenergroup.com/wp-content/uploads/2026/08/"
@@ -107,63 +107,15 @@ def directory():
     }, custom_css="{CURRENT}{scroll-margin-top:2rem;}", children=[heading, grid])
 
 
-HERO_BG = "#3a3a3a"
-HERO_ACCENT = "#ec8a80"  # brand red lightened to pass 4.5:1 contrast on the grey
-PATTERN = "https://thefastenergroup.com/wp-content/uploads/2026/02/Background-3.svg"
-
-HERO_CSS = (
-    # The nut-outline pattern sits on a pseudo-element so its opacity leaves the text alone.
-    "{CURRENT}::before{content:\"\";position:absolute;inset:0;"
-    f"background:url({PATTERN}) center / cover no-repeat;opacity:0.09;pointer-events:none;}}"
-    "{CURRENT} > *{position:relative;z-index:1;}"
-)
-
-BUTTON_CSS = (
-    "{CURRENT}{display:inline-flex;align-items:center;gap:0.6rem;margin-top:2rem;"
-    f"padding:0.6rem 1.25rem;border:1px solid {HERO_ACCENT};color:#ffffff;font-weight:700;"
-    "text-decoration:none;transition:background-color .2s,border-color .2s;}"
-    f"{{CURRENT}}::after{{content:\"\\2193\";color:{HERO_ACCENT};}}"
-    f"{{CURRENT}}:hover,{{CURRENT}}:focus-visible{{background-color:{ACCENT};border-color:{ACCENT};color:#ffffff;}}"
-    "{CURRENT}:hover::after,{CURRENT}:focus-visible::after{color:#ffffff;}"
-    f"{{CURRENT}}:focus-visible{{outline:2px solid {HERO_ACCENT};outline-offset:2px;}}"
-)
-
-
 def hero():
-    """Full-width hero: caption, h1 and intro stacked in one left column, pattern on the right."""
-    _seed["slug"], _seed["n"] = "warranty-hero", 0
-    text_col = Block(name="Hero Text", styles={"maxWidth": ["44rem"]}, children=[
-        Block("p", text="Warranty and service", styles={
-            "marginTop": ["0px"], "marginBottom": ["0.75rem"], "fontWeight": ["700"],
-            "textTransform": ["uppercase"], "color": [HERO_ACCENT],
-        }),
-        Block("h1", text="Find Authorized Service Near You", styles={
-            "marginTop": ["0px"], "marginBottom": ["0px"], "color": ["#ffffff"],
-            "fontSize": ["var(--wp--preset--font-size--giga, clamp(3rem, 5vw, 4.5rem))"],
-            "lineHeight": ["1.1"],
-        }),
-        Block("p", text=("Get the support you need with confidence. Click on the logo of your "
-                         "favourite brand below for direct access to their authorized warranty "
-                         "and repair services."), styles={
-            "marginTop": ["1.25rem"], "marginBottom": ["0px"], "maxWidth": ["36rem"],
-            "color": ["rgba(255, 255, 255, 0.85)"],
-        }),
-        Block("a", text="Browse brands", href="#brands", custom_css=BUTTON_CSS),
-    ])
-    content = Block(name="Content Area", styles={
-        "maxWidth": ["100%"], "width": ["var(--wp--style--global--wide-size, 1200px)"],
-    }, json_extra={"isVariation": "contentarea"}, children=[text_col])
-    return Block("section", name="Hero", align="full", styles={
-        "display": ["flex"], "flexDirection": ["column"], "alignItems": ["center"],
-        "position": ["relative"], "overflow": ["hidden"], "backgroundColor": [HERO_BG],
-        # Top padding clears the theme's see-through header; the bottom leaves room
-        # for the brand panel to overlap.
-        "paddingTop": ["190px", "170px", None, "140px"],
-        "paddingBottom": ["8rem", None, None, "6rem"],
-        "paddingLeft": ["var(--wp--custom--spacing--side, min(3vw, 20px))"],
-        "paddingRight": ["var(--wp--custom--spacing--side, min(3vw, 20px))"],
-        "marginTop": ["0px"], "marginBottom": ["0px"],
-    }, json_extra={"isVariation": "contentcolumns"}, custom_css=HERO_CSS, children=[content])
+    return make_hero(
+        seed="warranty-hero", bg="#3a3a3a", caption="Warranty and service",
+        title="Find Authorized Service Near You",
+        intro=("Get the support you need with confidence. Click on the logo of your "
+               "favourite brand below for direct access to their authorized warranty "
+               "and repair services."),
+        buttons=[("Browse brands", "#brands")],
+    )
 
 
 PAGE = {"dir": "warranty-page", "title": "Warranty and Service", "preview_css": GS_PREVIEW_CSS + """

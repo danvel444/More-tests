@@ -464,6 +464,76 @@ def build_page():
     write(PAGE, wrapper, before=hero)
 
 
+HERO_ACCENT = "#ec8a80"  # brand red lightened to pass 4.5:1 contrast on the dark hero greys
+PATTERN = "https://thefastenergroup.com/wp-content/uploads/2026/02/Background-3.svg"
+
+HERO_CSS = (
+    # The nut-outline pattern sits on a pseudo-element so its opacity leaves the text alone.
+    "{CURRENT}::before{content:\"\";position:absolute;inset:0;"
+    f"background:url({PATTERN}) center / cover no-repeat;opacity:0.09;pointer-events:none;}}"
+    "{CURRENT} > *{position:relative;z-index:1;}"
+)
+
+
+def button_css(margin_top="2rem"):
+    return (
+        "{CURRENT}{display:inline-flex;align-items:center;gap:0.6rem;"
+        f"margin-top:{margin_top};"
+        f"padding:0.6rem 1.25rem;border:1px solid {HERO_ACCENT};color:#ffffff;font-weight:700;"
+        "text-decoration:none;transition:background-color .2s,border-color .2s;}"
+        f"{{CURRENT}}::after{{content:\"\\2193\";color:{HERO_ACCENT};}}"
+        f"{{CURRENT}}:hover,{{CURRENT}}:focus-visible{{background-color:{ACCENT};border-color:{ACCENT};color:#ffffff;}}"
+        "{CURRENT}:hover::after,{CURRENT}:focus-visible::after{color:#ffffff;}"
+        f"{{CURRENT}}:focus-visible{{outline:2px solid {HERO_ACCENT};outline-offset:2px;}}"
+    )
+
+
+def make_hero(seed, bg, caption, title, intro, buttons):
+    """Full-width hero: caption, h1 and intro stacked in one left column, pattern on the right.
+
+    buttons is a list of (text, href) jump links shown under the intro.
+    """
+    _seed["slug"], _seed["n"] = seed, 0
+    children = [
+        Block("p", text=caption, styles={
+            "marginTop": ["0px"], "marginBottom": ["0.75rem"], "fontWeight": ["700"],
+            "textTransform": ["uppercase"], "color": [HERO_ACCENT],
+        }),
+        Block("h1", text=title, styles={
+            "marginTop": ["0px"], "marginBottom": ["0px"], "color": ["#ffffff"],
+            "fontSize": ["var(--wp--preset--font-size--giga, clamp(3rem, 5vw, 4.5rem))"],
+            "lineHeight": ["1.1"],
+        }),
+        Block("p", text=intro, styles={
+            "marginTop": ["1.25rem"], "marginBottom": ["0px"], "maxWidth": ["36rem"],
+            "color": ["rgba(255, 255, 255, 0.85)"],
+        }),
+    ]
+    if len(buttons) == 1:
+        text, href = buttons[0]
+        children.append(Block("a", text=text, href=href, custom_css=button_css()))
+    else:
+        children.append(Block(name="Jump Links", styles={
+            "display": ["flex"], "flexWrap": ["wrap"], "columnGap": ["0.75rem"],
+            "rowGap": ["0.75rem"], "marginTop": ["2rem"],
+        }, children=[Block("a", text=t, href=h, custom_css=button_css("0")) for t, h in buttons]))
+    text_col = Block(name="Hero Text", styles={"maxWidth": ["44rem"]}, children=children)
+    content = Block(name="Content Area", styles={
+        "maxWidth": ["100%"], "width": ["var(--wp--style--global--wide-size, 1200px)"],
+    }, json_extra={"isVariation": "contentarea"}, children=[text_col])
+    return Block("section", name="Hero", align="full", styles={
+        "display": ["flex"], "flexDirection": ["column"], "alignItems": ["center"],
+        "position": ["relative"], "overflow": ["hidden"], "backgroundColor": [bg],
+        # Top padding clears the theme's see-through header; the bottom leaves room
+        # for the panel below to overlap.
+        "paddingTop": ["190px", "170px", None, "140px"],
+        "paddingBottom": ["8rem", None, None, "6rem"],
+        "paddingLeft": ["var(--wp--custom--spacing--side, min(3vw, 20px))"],
+        "paddingRight": ["var(--wp--custom--spacing--side, min(3vw, 20px))"],
+        "marginTop": ["0px"], "marginBottom": ["0px"],
+    }, json_extra={"isVariation": "contentcolumns"}, custom_css=HERO_CSS, children=[content])
+
+
 if __name__ == "__main__":
     build(RETURNS)
     build(SPECIAL_ORDERS)
