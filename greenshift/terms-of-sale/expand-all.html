@@ -18,7 +18,7 @@
   font-weight: 700;
   color: #1d1f21;
   background: #ffffff;
-  border: 1px solid #a3231b;
+  border: 1px solid var(--wp--preset--color--palette-color-1, var(--theme-palette-color-1, #b11f24));
   border-radius: 0;
   cursor: pointer;
   transition: background-color .2s, color .2s;
@@ -27,17 +27,17 @@
   content: "+";
   font-weight: 400;
   line-height: 1;
-  color: #a3231b;
+  color: var(--wp--preset--color--palette-color-1, var(--theme-palette-color-1, #b11f24));
 }
 .tfgr-policy .gs-expand-all[aria-expanded="true"]::before { content: "−"; }
 .tfgr-policy .gs-expand-all:hover,
 .tfgr-policy .gs-expand-all:focus-visible {
-  background: #a3231b;
+  background: var(--wp--preset--color--palette-color-1, var(--theme-palette-color-1, #b11f24));
   color: #ffffff;
 }
 .tfgr-policy .gs-expand-all:hover::before,
 .tfgr-policy .gs-expand-all:focus-visible::before { color: #ffffff; }
-.tfgr-policy .gs-expand-all:focus-visible { outline: 2px solid #a3231b; outline-offset: 2px; }
+.tfgr-policy .gs-expand-all:focus-visible { outline: 2px solid var(--wp--preset--color--palette-color-1, var(--theme-palette-color-1, #b11f24)); outline-offset: 2px; }
 
 /* Accordions: one bordered list per column, like the policy tables.
    !important is needed because GreenShift's own accordion styles are more specific. */
@@ -76,7 +76,7 @@
   border-bottom: 1px solid #d9d5cc !important;
 }
 .tfgr-policy .gs-accordion .gs-accordion-item .gs-accordion-item__title:focus-visible {
-  outline: 2px solid #a3231b;
+  outline: 2px solid var(--wp--preset--color--palette-color-1, var(--theme-palette-color-1, #b11f24));
   outline-offset: -2px;
 }
 .tfgr-policy .gs-accordion .gs-accordion-item__heading,
@@ -84,9 +84,9 @@
   font-weight: 700 !important;
   color: #1d1f21 !important;
 }
-.tfgr-policy .gs-accordion .iconfortoggle { color: #a3231b !important; }
+.tfgr-policy .gs-accordion .iconfortoggle { color: var(--wp--preset--color--palette-color-1, var(--theme-palette-color-1, #b11f24)) !important; }
 .tfgr-policy .gs-accordion .iconfortoggle .gs-iconbefore,
-.tfgr-policy .gs-accordion .iconfortoggle .gs-iconafter { background-color: #a3231b !important; }
+.tfgr-policy .gs-accordion .iconfortoggle .gs-iconafter { background-color: var(--wp--preset--color--palette-color-1, var(--theme-palette-color-1, #b11f24)) !important; }
 .tfgr-policy .gs-accordion .gs-accordion-item__content {
   background: #ffffff !important;
   border: 0 !important;
@@ -115,7 +115,7 @@
   top: calc(0.2rem + 0.5lh - 1px);
   width: 0.6rem;
   height: 2px;
-  background-color: #a3231b;
+  background-color: var(--wp--preset--color--palette-color-1, var(--theme-palette-color-1, #b11f24));
 }
 </style>
 <script>

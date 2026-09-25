@@ -73,7 +73,7 @@ const svg =
   `.tfgr-map-prov path{fill:#f1ede5;stroke:#cfc8bb;stroke-width:1.2;stroke-linejoin:round;}` +
   `.tfgr-map-prov-labels text{fill:#8f877b;font-size:13px;font-weight:700;letter-spacing:0.12em;` +
   `text-transform:uppercase;text-anchor:middle;}` +
-  `.tfgr-map-pin circle{fill:#a3231b;stroke:#ffffff;stroke-width:2;transition:r .15s;}` +
+  `.tfgr-map-pin circle{fill:var(--wp--preset--color--palette-color-1, var(--theme-palette-color-1, #b11f24));stroke:#ffffff;stroke-width:2;transition:r .15s;}` +
   `.tfgr-map-pin text{fill:#1d1f21;font-size:14px;font-weight:700;paint-order:stroke;` +
   `stroke:#ffffff;stroke-width:4px;stroke-linejoin:round;}` +
   `.tfgr-map-pin:hover circle,.tfgr-map-pin:focus circle{fill:#1d1f21;}` +

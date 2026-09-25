@@ -15,7 +15,8 @@ MEDIA = [None, "(max-width: 991.98px)", "(max-width: 767.98px)", "(max-width: 57
 
 INK = "#1d1f21"
 BODY = "#3a3d40"
-ACCENT = "#a3231b"
+# The theme's brand red (palette colour 1).
+ACCENT = "var(--wp--preset--color--palette-color-1, var(--theme-palette-color-1, #b11f24))"
 RULE = "#d9d5cc"
 PAPER = "#faf8f4"
 NUM_BG = "#f1ede5"

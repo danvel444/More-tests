@@ -6,8 +6,7 @@ from build_policy_blocks import (
 )
 
 PAGE_COLOUR = "#3a0916"  # hero only
-# The theme's brand red (palette colour 1), as the original stats panel used.
-BRAND_RED = "var(--wp--preset--color--palette-color-1, var(--theme-palette-color-1, #b11f24))"
+BRAND_RED = ACCENT  # the theme's brand red, as the original stats panel used
 PANEL_BG = "var(--wp--preset--color--palette-color-5, var(--theme-palette-color-5, #F0F2F3))"
 UPLOADS = "https://thefastenergroup.com/wp-content/uploads/2026/02/"
 CONTACT = "https://thefastenergroup.com/contact/"
