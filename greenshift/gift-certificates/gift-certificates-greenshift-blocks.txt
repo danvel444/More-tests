@@ -1,0 +1,199 @@
+<!-- wp:greenshift-blocks/element {"id":"gsbp-f522d7c","anchor":"gift-certificates","inlineCssStyles":".gsbp-f522d7c{background-color:#faf8f4;padding-top:2.25rem;padding-bottom:2.25rem;padding-left:1.5rem;padding-right:1.5rem;}@media (max-width: 575.98px){.gsbp-f522d7c{padding-top:1.5rem;padding-bottom:1.5rem;padding-left:1rem;padding-right:1rem;}}","type":"inner","className":"tfgr-policy","localId":"gsbp-f522d7c","styleAttributes":{"backgroundColor":["#faf8f4"],"paddingTop":["2.25rem",null,null,"1.5rem"],"paddingBottom":["2.25rem",null,null,"1.5rem"],"paddingLeft":["1.5rem",null,null,"1rem"],"paddingRight":["1.5rem",null,null,"1rem"]},"metadata":{"name":"Gift Certificates Policy"}} -->
+<div class="tfgr-policy gsbp-f522d7c" id="gift-certificates"><!-- wp:greenshift-blocks/element {"id":"gsbp-615dcea","inlineCssStyles":".gsbp-615dcea{padding-bottom:1.5rem;margin-bottom:2.25rem;border-bottom:2px solid #1d1f21;}","type":"inner","localId":"gsbp-615dcea","styleAttributes":{"paddingBottom":["1.5rem"],"marginBottom":["2.25rem"],"borderBottom":["2px solid #1d1f21"]},"metadata":{"name":"Heading"}} -->
+<div class="gsbp-615dcea"><!-- wp:greenshift-blocks/element {"id":"gsbp-ab76306","inlineCssStyles":".gsbp-ab76306{margin-top:0px;margin-bottom:0.44rem;font-weight:700;text-transform:uppercase;color:var(\u002d\u002dwp\u002d\u002dpreset\u002d\u002dcolor\u002d\u002dpalette-color-1, var(\u002d\u002dtheme-palette-color-1, #b11f24));}","textContent":"Gift certificate policy statement","tag":"p","localId":"gsbp-ab76306","styleAttributes":{"marginTop":["0px"],"marginBottom":["0.44rem"],"fontWeight":["700"],"textTransform":["uppercase"],"color":["var(\u002d\u002dwp\u002d\u002dpreset\u002d\u002dcolor\u002d\u002dpalette-color-1, var(\u002d\u002dtheme-palette-color-1, #b11f24))"]}} -->
+<p class="gsbp-ab76306">Gift certificate policy statement</p>
+<!-- /wp:greenshift-blocks/element -->
+
+<!-- wp:greenshift-blocks/element {"id":"gsbp-8166b06","inlineCssStyles":".gsbp-8166b06{margin-top:0px;margin-bottom:0px;color:#1d1f21;}","textContent":"Gift Certificates","tag":"h2","localId":"gsbp-8166b06","styleAttributes":{"marginTop":["0px"],"marginBottom":["0px"],"color":["#1d1f21"]}} -->
+<h2 class="gsbp-8166b06">Gift Certificates</h2>
+<!-- /wp:greenshift-blocks/element --></div>
+<!-- /wp:greenshift-blocks/element -->
+
+<!-- wp:greenshift-blocks/element {"id":"gsbp-ce80fba","inlineCssStyles":".gsbp-ce80fba{display:grid;grid-template-columns:repeat(2, 1fr);column-gap:2.25rem;row-gap:2.25rem;align-items:start;}@media (max-width: 991.98px){.gsbp-ce80fba{grid-template-columns:repeat(1, 1fr);row-gap:0px;}}","type":"inner","localId":"gsbp-ce80fba","styleAttributes":{"display":["grid"],"gridTemplateColumns":["repeat(2, 1fr)","repeat(1, 1fr)"],"columnGap":["2.25rem"],"rowGap":["2.25rem","0px"],"alignItems":["start"]},"metadata":{"name":"Columns"}} -->
+<div class="gsbp-ce80fba"><!-- wp:greenshift-blocks/element {"id":"gsbp-4191550","inlineCssStyles":".gsbp-4191550{border-collapse:collapse;table-layout:fixed;}.gsbp-4191550 td{padding-top:1rem;padding-bottom:1rem;padding-right:1.5rem;padding-left:1.5rem;border-style:solid;border-width:1px;border-color:#d9d5cc;}.gsbp-4191550{width:100%;margin-top:0px;margin-bottom:0px;background-color:#ffffff;color:#3a3d40;}.gsbp-4191550 td.tfgr-num{width:4.25rem;vertical-align:top;text-align:center;padding-left:0;padding-right:0;background-color:#f1ede5;color:var(\u002d\u002dwp\u002d\u002dpreset\u002d\u002dcolor\u002d\u002dpalette-color-1, var(\u002d\u002dtheme-palette-color-1, #b11f24));font-weight:700;font-variant-numeric:tabular-nums;}.gsbp-4191550 td{vertical-align:top;}.gsbp-4191550 td p{margin-top:0;margin-bottom:0;}.gsbp-4191550 .tfgr-sub{list-style:none;margin:0.44rem 0 0 0;padding:0;}.gsbp-4191550 .tfgr-sub li{position:relative;margin:0;padding:0.2rem 0 0.2rem 1.25rem;}.gsbp-4191550 .tfgr-sub li::before{content:\u0022\u0022;position:absolute;left:0;top:calc(0.2rem + 0.5lh - 1px);width:0.6rem;height:2px;background-color:var(\u002d\u002dwp\u002d\u002dpreset\u002d\u002dcolor\u002d\u002dpalette-color-1, var(\u002d\u002dtheme-palette-color-1, #b11f24));}@media (max-width: 575.98px){.gsbp-4191550 td.tfgr-num{width:3rem;}}","tag":"table","type":"inner","className":"tfgr-table","localId":"gsbp-4191550","tableStyles":{"table":{"layout":"fixed","border":"collapse"},"td":{"paddingTop":["1rem"],"paddingBottom":["1rem"],"paddingRight":["1.5rem"],"paddingLeft":["1.5rem"],"borderStyle":"solid","borderWidth":"1px","borderColor":"#d9d5cc"}},"styleAttributes":{"width":["100%"],"marginTop":["0px"],"marginBottom":["0px"],"backgroundColor":["#ffffff"],"color":["#3a3d40"],"customCSS_Extra":"{CURRENT} td.tfgr-num{width:4.25rem;vertical-align:top;text-align:center;padding-left:0;padding-right:0;background-color:#f1ede5;color:var(\u002d\u002dwp\u002d\u002dpreset\u002d\u002dcolor\u002d\u002dpalette-color-1, var(\u002d\u002dtheme-palette-color-1, #b11f24));font-weight:700;font-variant-numeric:tabular-nums;}{CURRENT} td{vertical-align:top;}{CURRENT} td p{margin-top:0;margin-bottom:0;}{CURRENT} .tfgr-sub{list-style:none;margin:0.44rem 0 0 0;padding:0;}{CURRENT} .tfgr-sub li{position:relative;margin:0;padding:0.2rem 0 0.2rem 1.25rem;}{CURRENT} .tfgr-sub li::before{content:\u0022\u0022;position:absolute;left:0;top:calc(0.2rem + 0.5lh - 1px);width:0.6rem;height:2px;background-color:var(\u002d\u002dwp\u002d\u002dpreset\u002d\u002dcolor\u002d\u002dpalette-color-1, var(\u002d\u002dtheme-palette-color-1, #b11f24));}@media (max-width: 575.98px){{CURRENT} td.tfgr-num{width:3rem;}}"},"metadata":{"name":"Terms 01 to 07"}} -->
+<table class="tfgr-table gsbp-4191550"><!-- wp:greenshift-blocks/element {"id":"gsbp-eeec78b","tag":"tr","type":"inner","localId":"gsbp-eeec78b","metadata":{"name":"Term 01"}} -->
+<tr><!-- wp:greenshift-blocks/element {"id":"gsbp-96c3fbd","tag":"td","type":"inner","className":"tfgr-num","localId":"gsbp-96c3fbd"} -->
+<td class="tfgr-num"><!-- wp:greenshift-blocks/element {"id":"gsbp-e380f56","textContent":"01","tag":"span","localId":"gsbp-e380f56"} -->
+<span>01</span>
+<!-- /wp:greenshift-blocks/element --></td>
+<!-- /wp:greenshift-blocks/element -->
+
+<!-- wp:greenshift-blocks/element {"id":"gsbp-2915323","tag":"td","type":"inner","localId":"gsbp-2915323"} -->
+<td><!-- wp:greenshift-blocks/element {"id":"gsbp-aba8135","textContent":"TFG Gift Certificates may be used toward the purchase of products at The Fastener Group branch locations.","tag":"p","localId":"gsbp-aba8135"} -->
+<p>TFG Gift Certificates may be used toward the purchase of products at The Fastener Group branch locations.</p>
+<!-- /wp:greenshift-blocks/element --></td>
+<!-- /wp:greenshift-blocks/element --></tr>
+<!-- /wp:greenshift-blocks/element -->
+
+<!-- wp:greenshift-blocks/element {"id":"gsbp-3278112","tag":"tr","type":"inner","localId":"gsbp-3278112","metadata":{"name":"Term 02"}} -->
+<tr><!-- wp:greenshift-blocks/element {"id":"gsbp-905f9d2","tag":"td","type":"inner","className":"tfgr-num","localId":"gsbp-905f9d2"} -->
+<td class="tfgr-num"><!-- wp:greenshift-blocks/element {"id":"gsbp-ff2e9f1","textContent":"02","tag":"span","localId":"gsbp-ff2e9f1"} -->
+<span>02</span>
+<!-- /wp:greenshift-blocks/element --></td>
+<!-- /wp:greenshift-blocks/element -->
+
+<!-- wp:greenshift-blocks/element {"id":"gsbp-512d3d2","tag":"td","type":"inner","localId":"gsbp-512d3d2"} -->
+<td><!-- wp:greenshift-blocks/element {"id":"gsbp-a588f47","textContent":"TFG Gift Certificates are issued electronically. Each Gift Certificate is assigned a unique alphanumeric code and is delivered to the recipient by email.","tag":"p","localId":"gsbp-a588f47"} -->
+<p>TFG Gift Certificates are issued electronically. Each Gift Certificate is assigned a unique alphanumeric code and is delivered to the recipient by email.</p>
+<!-- /wp:greenshift-blocks/element --></td>
+<!-- /wp:greenshift-blocks/element --></tr>
+<!-- /wp:greenshift-blocks/element -->
+
+<!-- wp:greenshift-blocks/element {"id":"gsbp-100dd45","tag":"tr","type":"inner","localId":"gsbp-100dd45","metadata":{"name":"Term 03"}} -->
+<tr><!-- wp:greenshift-blocks/element {"id":"gsbp-5f46c5e","tag":"td","type":"inner","className":"tfgr-num","localId":"gsbp-5f46c5e"} -->
+<td class="tfgr-num"><!-- wp:greenshift-blocks/element {"id":"gsbp-aff4feb","textContent":"03","tag":"span","localId":"gsbp-aff4feb"} -->
+<span>03</span>
+<!-- /wp:greenshift-blocks/element --></td>
+<!-- /wp:greenshift-blocks/element -->
+
+<!-- wp:greenshift-blocks/element {"id":"gsbp-8618630","tag":"td","type":"inner","localId":"gsbp-8618630"} -->
+<td><!-- wp:greenshift-blocks/element {"id":"gsbp-ef05014","textContent":"The unique Gift Certificate code must be provided and entered exactly as issued when the Gift Certificate is redeemed.","tag":"p","localId":"gsbp-ef05014"} -->
+<p>The unique Gift Certificate code must be provided and entered exactly as issued when the Gift Certificate is redeemed.</p>
+<!-- /wp:greenshift-blocks/element --></td>
+<!-- /wp:greenshift-blocks/element --></tr>
+<!-- /wp:greenshift-blocks/element -->
+
+<!-- wp:greenshift-blocks/element {"id":"gsbp-c834290","tag":"tr","type":"inner","localId":"gsbp-c834290","metadata":{"name":"Term 04"}} -->
+<tr><!-- wp:greenshift-blocks/element {"id":"gsbp-694e1f4","tag":"td","type":"inner","className":"tfgr-num","localId":"gsbp-694e1f4"} -->
+<td class="tfgr-num"><!-- wp:greenshift-blocks/element {"id":"gsbp-b4a7385","textContent":"04","tag":"span","localId":"gsbp-b4a7385"} -->
+<span>04</span>
+<!-- /wp:greenshift-blocks/element --></td>
+<!-- /wp:greenshift-blocks/element -->
+
+<!-- wp:greenshift-blocks/element {"id":"gsbp-6750876","tag":"td","type":"inner","localId":"gsbp-6750876"} -->
+<td><!-- wp:greenshift-blocks/element {"id":"gsbp-ee8652c","textContent":"Partial redemptions are permitted. Any unused balance remains available on the original Gift Certificate code for future purchases until the balance reaches zero.","tag":"p","localId":"gsbp-ee8652c"} -->
+<p>Partial redemptions are permitted. Any unused balance remains available on the original Gift Certificate code for future purchases until the balance reaches zero.</p>
+<!-- /wp:greenshift-blocks/element --></td>
+<!-- /wp:greenshift-blocks/element --></tr>
+<!-- /wp:greenshift-blocks/element -->
+
+<!-- wp:greenshift-blocks/element {"id":"gsbp-7b5b5a0","tag":"tr","type":"inner","localId":"gsbp-7b5b5a0","metadata":{"name":"Term 05"}} -->
+<tr><!-- wp:greenshift-blocks/element {"id":"gsbp-6ec5dbc","tag":"td","type":"inner","className":"tfgr-num","localId":"gsbp-6ec5dbc"} -->
+<td class="tfgr-num"><!-- wp:greenshift-blocks/element {"id":"gsbp-6280e1c","textContent":"05","tag":"span","localId":"gsbp-6280e1c"} -->
+<span>05</span>
+<!-- /wp:greenshift-blocks/element --></td>
+<!-- /wp:greenshift-blocks/element -->
+
+<!-- wp:greenshift-blocks/element {"id":"gsbp-1e177f4","tag":"td","type":"inner","localId":"gsbp-1e177f4"} -->
+<td><!-- wp:greenshift-blocks/element {"id":"gsbp-57474e1","textContent":"If the Gift Certificate does not cover the full purchase amount, the customer must pay the remaining balance using an approved payment method.","tag":"p","localId":"gsbp-57474e1"} -->
+<p>If the Gift Certificate does not cover the full purchase amount, the customer must pay the remaining balance using an approved payment method.</p>
+<!-- /wp:greenshift-blocks/element --></td>
+<!-- /wp:greenshift-blocks/element --></tr>
+<!-- /wp:greenshift-blocks/element -->
+
+<!-- wp:greenshift-blocks/element {"id":"gsbp-ee8d77f","tag":"tr","type":"inner","localId":"gsbp-ee8d77f","metadata":{"name":"Term 06"}} -->
+<tr><!-- wp:greenshift-blocks/element {"id":"gsbp-3ba2c9e","tag":"td","type":"inner","className":"tfgr-num","localId":"gsbp-3ba2c9e"} -->
+<td class="tfgr-num"><!-- wp:greenshift-blocks/element {"id":"gsbp-296c0c1","textContent":"06","tag":"span","localId":"gsbp-296c0c1"} -->
+<span>06</span>
+<!-- /wp:greenshift-blocks/element --></td>
+<!-- /wp:greenshift-blocks/element -->
+
+<!-- wp:greenshift-blocks/element {"id":"gsbp-82e4f31","tag":"td","type":"inner","localId":"gsbp-82e4f31"} -->
+<td><!-- wp:greenshift-blocks/element {"id":"gsbp-0c47860","textContent":"Gift Certificates are not redeemable for cash except where required by applicable law.","tag":"p","localId":"gsbp-0c47860"} -->
+<p>Gift Certificates are not redeemable for cash except where required by applicable law.</p>
+<!-- /wp:greenshift-blocks/element --></td>
+<!-- /wp:greenshift-blocks/element --></tr>
+<!-- /wp:greenshift-blocks/element -->
+
+<!-- wp:greenshift-blocks/element {"id":"gsbp-063471c","tag":"tr","type":"inner","localId":"gsbp-063471c","metadata":{"name":"Term 07"}} -->
+<tr><!-- wp:greenshift-blocks/element {"id":"gsbp-7dc9a45","tag":"td","type":"inner","className":"tfgr-num","localId":"gsbp-7dc9a45"} -->
+<td class="tfgr-num"><!-- wp:greenshift-blocks/element {"id":"gsbp-97eab53","textContent":"07","tag":"span","localId":"gsbp-97eab53"} -->
+<span>07</span>
+<!-- /wp:greenshift-blocks/element --></td>
+<!-- /wp:greenshift-blocks/element -->
+
+<!-- wp:greenshift-blocks/element {"id":"gsbp-1252f8b","tag":"td","type":"inner","localId":"gsbp-1252f8b"} -->
+<td><!-- wp:greenshift-blocks/element {"id":"gsbp-616212e","textContent":"Gift Certificates do not expire and are not subject to service, activation, or inactivity fees.","tag":"p","localId":"gsbp-616212e"} -->
+<p>Gift Certificates do not expire and are not subject to service, activation, or inactivity fees.</p>
+<!-- /wp:greenshift-blocks/element --></td>
+<!-- /wp:greenshift-blocks/element --></tr>
+<!-- /wp:greenshift-blocks/element --></table>
+<!-- /wp:greenshift-blocks/element -->
+
+<!-- wp:greenshift-blocks/element {"id":"gsbp-b559a57","inlineCssStyles":".gsbp-b559a57{border-collapse:collapse;table-layout:fixed;}.gsbp-b559a57 td{padding-top:1rem;padding-bottom:1rem;padding-right:1.5rem;padding-left:1.5rem;border-style:solid;border-width:1px;border-color:#d9d5cc;}.gsbp-b559a57{width:100%;margin-top:0px;margin-bottom:0px;background-color:#ffffff;color:#3a3d40;}@media (max-width: 991.98px){.gsbp-b559a57{margin-top:-1px;}}.gsbp-b559a57 td.tfgr-num{width:4.25rem;vertical-align:top;text-align:center;padding-left:0;padding-right:0;background-color:#f1ede5;color:var(\u002d\u002dwp\u002d\u002dpreset\u002d\u002dcolor\u002d\u002dpalette-color-1, var(\u002d\u002dtheme-palette-color-1, #b11f24));font-weight:700;font-variant-numeric:tabular-nums;}.gsbp-b559a57 td{vertical-align:top;}.gsbp-b559a57 td p{margin-top:0;margin-bottom:0;}.gsbp-b559a57 .tfgr-sub{list-style:none;margin:0.44rem 0 0 0;padding:0;}.gsbp-b559a57 .tfgr-sub li{position:relative;margin:0;padding:0.2rem 0 0.2rem 1.25rem;}.gsbp-b559a57 .tfgr-sub li::before{content:\u0022\u0022;position:absolute;left:0;top:calc(0.2rem + 0.5lh - 1px);width:0.6rem;height:2px;background-color:var(\u002d\u002dwp\u002d\u002dpreset\u002d\u002dcolor\u002d\u002dpalette-color-1, var(\u002d\u002dtheme-palette-color-1, #b11f24));}@media (max-width: 575.98px){.gsbp-b559a57 td.tfgr-num{width:3rem;}}","tag":"table","type":"inner","className":"tfgr-table","localId":"gsbp-b559a57","tableStyles":{"table":{"layout":"fixed","border":"collapse"},"td":{"paddingTop":["1rem"],"paddingBottom":["1rem"],"paddingRight":["1.5rem"],"paddingLeft":["1.5rem"],"borderStyle":"solid","borderWidth":"1px","borderColor":"#d9d5cc"}},"styleAttributes":{"width":["100%"],"marginTop":["0px","-1px"],"marginBottom":["0px"],"backgroundColor":["#ffffff"],"color":["#3a3d40"],"customCSS_Extra":"{CURRENT} td.tfgr-num{width:4.25rem;vertical-align:top;text-align:center;padding-left:0;padding-right:0;background-color:#f1ede5;color:var(\u002d\u002dwp\u002d\u002dpreset\u002d\u002dcolor\u002d\u002dpalette-color-1, var(\u002d\u002dtheme-palette-color-1, #b11f24));font-weight:700;font-variant-numeric:tabular-nums;}{CURRENT} td{vertical-align:top;}{CURRENT} td p{margin-top:0;margin-bottom:0;}{CURRENT} .tfgr-sub{list-style:none;margin:0.44rem 0 0 0;padding:0;}{CURRENT} .tfgr-sub li{position:relative;margin:0;padding:0.2rem 0 0.2rem 1.25rem;}{CURRENT} .tfgr-sub li::before{content:\u0022\u0022;position:absolute;left:0;top:calc(0.2rem + 0.5lh - 1px);width:0.6rem;height:2px;background-color:var(\u002d\u002dwp\u002d\u002dpreset\u002d\u002dcolor\u002d\u002dpalette-color-1, var(\u002d\u002dtheme-palette-color-1, #b11f24));}@media (max-width: 575.98px){{CURRENT} td.tfgr-num{width:3rem;}}"},"metadata":{"name":"Terms 08 to 13"}} -->
+<table class="tfgr-table gsbp-b559a57"><!-- wp:greenshift-blocks/element {"id":"gsbp-e9d7acc","tag":"tr","type":"inner","localId":"gsbp-e9d7acc","metadata":{"name":"Term 08"}} -->
+<tr><!-- wp:greenshift-blocks/element {"id":"gsbp-03e53d0","tag":"td","type":"inner","className":"tfgr-num","localId":"gsbp-03e53d0"} -->
+<td class="tfgr-num"><!-- wp:greenshift-blocks/element {"id":"gsbp-9f875ff","textContent":"08","tag":"span","localId":"gsbp-9f875ff"} -->
+<span>08</span>
+<!-- /wp:greenshift-blocks/element --></td>
+<!-- /wp:greenshift-blocks/element -->
+
+<!-- wp:greenshift-blocks/element {"id":"gsbp-d3be654","tag":"td","type":"inner","localId":"gsbp-d3be654"} -->
+<td><!-- wp:greenshift-blocks/element {"id":"gsbp-b0336ea","textContent":"Lost, deleted, misdirected, altered, stolen, or unauthorized Gift Certificates will not be replaced or reissued. TFG may resend the original Gift Certificate email and code to the verified recipient; this does not constitute issuance of a replacement Gift Certificate.","tag":"p","localId":"gsbp-b0336ea"} -->
+<p>Lost, deleted, misdirected, altered, stolen, or unauthorized Gift Certificates will not be replaced or reissued. TFG may resend the original Gift Certificate email and code to the verified recipient; this does not constitute issuance of a replacement Gift Certificate.</p>
+<!-- /wp:greenshift-blocks/element --></td>
+<!-- /wp:greenshift-blocks/element --></tr>
+<!-- /wp:greenshift-blocks/element -->
+
+<!-- wp:greenshift-blocks/element {"id":"gsbp-969b7be","tag":"tr","type":"inner","localId":"gsbp-969b7be","metadata":{"name":"Term 09"}} -->
+<tr><!-- wp:greenshift-blocks/element {"id":"gsbp-8b7c087","tag":"td","type":"inner","className":"tfgr-num","localId":"gsbp-8b7c087"} -->
+<td class="tfgr-num"><!-- wp:greenshift-blocks/element {"id":"gsbp-59b1d07","textContent":"09","tag":"span","localId":"gsbp-59b1d07"} -->
+<span>09</span>
+<!-- /wp:greenshift-blocks/element --></td>
+<!-- /wp:greenshift-blocks/element -->
+
+<!-- wp:greenshift-blocks/element {"id":"gsbp-131968c","tag":"td","type":"inner","localId":"gsbp-131968c"} -->
+<td><!-- wp:greenshift-blocks/element {"id":"gsbp-9e3c704","textContent":"Gift Certificates cannot be used to purchase additional Gift Certificates.","tag":"p","localId":"gsbp-9e3c704"} -->
+<p>Gift Certificates cannot be used to purchase additional Gift Certificates.</p>
+<!-- /wp:greenshift-blocks/element --></td>
+<!-- /wp:greenshift-blocks/element --></tr>
+<!-- /wp:greenshift-blocks/element -->
+
+<!-- wp:greenshift-blocks/element {"id":"gsbp-9c3c22e","tag":"tr","type":"inner","localId":"gsbp-9c3c22e","metadata":{"name":"Term 10"}} -->
+<tr><!-- wp:greenshift-blocks/element {"id":"gsbp-94896cd","tag":"td","type":"inner","className":"tfgr-num","localId":"gsbp-94896cd"} -->
+<td class="tfgr-num"><!-- wp:greenshift-blocks/element {"id":"gsbp-5a81358","textContent":"10","tag":"span","localId":"gsbp-5a81358"} -->
+<span>10</span>
+<!-- /wp:greenshift-blocks/element --></td>
+<!-- /wp:greenshift-blocks/element -->
+
+<!-- wp:greenshift-blocks/element {"id":"gsbp-dc8809a","tag":"td","type":"inner","localId":"gsbp-dc8809a"} -->
+<td><!-- wp:greenshift-blocks/element {"id":"gsbp-1f64ca6","textContent":"Refunds for purchases made using a Gift Certificate may be issued as a store credit or Gift Certificate at the discretion of TFG.","tag":"p","localId":"gsbp-1f64ca6"} -->
+<p>Refunds for purchases made using a Gift Certificate may be issued as a store credit or Gift Certificate at the discretion of TFG.</p>
+<!-- /wp:greenshift-blocks/element --></td>
+<!-- /wp:greenshift-blocks/element --></tr>
+<!-- /wp:greenshift-blocks/element -->
+
+<!-- wp:greenshift-blocks/element {"id":"gsbp-d7b8643","tag":"tr","type":"inner","localId":"gsbp-d7b8643","metadata":{"name":"Term 11"}} -->
+<tr><!-- wp:greenshift-blocks/element {"id":"gsbp-3be940a","tag":"td","type":"inner","className":"tfgr-num","localId":"gsbp-3be940a"} -->
+<td class="tfgr-num"><!-- wp:greenshift-blocks/element {"id":"gsbp-ec029f1","textContent":"11","tag":"span","localId":"gsbp-ec029f1"} -->
+<span>11</span>
+<!-- /wp:greenshift-blocks/element --></td>
+<!-- /wp:greenshift-blocks/element -->
+
+<!-- wp:greenshift-blocks/element {"id":"gsbp-5094bec","tag":"td","type":"inner","localId":"gsbp-5094bec"} -->
+<td><!-- wp:greenshift-blocks/element {"id":"gsbp-50ed8db","textContent":"Gift Certificates are non-refundable and may not be returned.","tag":"p","localId":"gsbp-50ed8db"} -->
+<p>Gift Certificates are non-refundable and may not be returned.</p>
+<!-- /wp:greenshift-blocks/element --></td>
+<!-- /wp:greenshift-blocks/element --></tr>
+<!-- /wp:greenshift-blocks/element -->
+
+<!-- wp:greenshift-blocks/element {"id":"gsbp-8e66258","tag":"tr","type":"inner","localId":"gsbp-8e66258","metadata":{"name":"Term 12"}} -->
+<tr><!-- wp:greenshift-blocks/element {"id":"gsbp-dbbd125","tag":"td","type":"inner","className":"tfgr-num","localId":"gsbp-dbbd125"} -->
+<td class="tfgr-num"><!-- wp:greenshift-blocks/element {"id":"gsbp-1818e9b","textContent":"12","tag":"span","localId":"gsbp-1818e9b"} -->
+<span>12</span>
+<!-- /wp:greenshift-blocks/element --></td>
+<!-- /wp:greenshift-blocks/element -->
+
+<!-- wp:greenshift-blocks/element {"id":"gsbp-1d1d56c","tag":"td","type":"inner","localId":"gsbp-1d1d56c"} -->
+<td><!-- wp:greenshift-blocks/element {"id":"gsbp-1979ba5","textContent":"TFG reserves the right to refuse, cancel, or hold Gift Certificates obtained through fraud, unauthorized resale, or other improper means.","tag":"p","localId":"gsbp-1979ba5"} -->
+<p>TFG reserves the right to refuse, cancel, or hold Gift Certificates obtained through fraud, unauthorized resale, or other improper means.</p>
+<!-- /wp:greenshift-blocks/element --></td>
+<!-- /wp:greenshift-blocks/element --></tr>
+<!-- /wp:greenshift-blocks/element -->
+
+<!-- wp:greenshift-blocks/element {"id":"gsbp-9566fd1","tag":"tr","type":"inner","localId":"gsbp-9566fd1","metadata":{"name":"Term 13"}} -->
+<tr><!-- wp:greenshift-blocks/element {"id":"gsbp-ac3db5f","tag":"td","type":"inner","className":"tfgr-num","localId":"gsbp-ac3db5f"} -->
+<td class="tfgr-num"><!-- wp:greenshift-blocks/element {"id":"gsbp-e0f7589","textContent":"13","tag":"span","localId":"gsbp-e0f7589"} -->
+<span>13</span>
+<!-- /wp:greenshift-blocks/element --></td>
+<!-- /wp:greenshift-blocks/element -->
+
+<!-- wp:greenshift-blocks/element {"id":"gsbp-ed53e46","tag":"td","type":"inner","localId":"gsbp-ed53e46"} -->
+<td><!-- wp:greenshift-blocks/element {"id":"gsbp-a3179d0","textContent":"Use of a Gift Certificate constitutes acceptance of these Terms and Conditions, which may be amended from time to time.","tag":"p","localId":"gsbp-a3179d0"} -->
+<p>Use of a Gift Certificate constitutes acceptance of these Terms and Conditions, which may be amended from time to time.</p>
+<!-- /wp:greenshift-blocks/element --></td>
+<!-- /wp:greenshift-blocks/element --></tr>
+<!-- /wp:greenshift-blocks/element --></table>
+<!-- /wp:greenshift-blocks/element --></div>
+<!-- /wp:greenshift-blocks/element --></div>
+<!-- /wp:greenshift-blocks/element -->

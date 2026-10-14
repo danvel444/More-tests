@@ -389,6 +389,28 @@ GS_PREVIEW_CSS = """
 .gsopen .gs-iconafter{transform:rotate(0)}
 """
 
+GIFT_CERTIFICATES = {
+    "dir": "gift-certificates", "seed": "gift-certificates", "name": "Gift Certificates Policy",
+    "anchor": "gift-certificates",
+    "eyebrow": "Gift certificate policy statement", "title": "Gift Certificates",
+    "split": 7,
+    "terms": [
+        ("01", "TFG Gift Certificates may be used toward the purchase of products at The Fastener Group branch locations.", []),
+        ("02", "TFG Gift Certificates are issued electronically. Each Gift Certificate is assigned a unique alphanumeric code and is delivered to the recipient by email.", []),
+        ("03", "The unique Gift Certificate code must be provided and entered exactly as issued when the Gift Certificate is redeemed.", []),
+        ("04", "Partial redemptions are permitted. Any unused balance remains available on the original Gift Certificate code for future purchases until the balance reaches zero.", []),
+        ("05", "If the Gift Certificate does not cover the full purchase amount, the customer must pay the remaining balance using an approved payment method.", []),
+        ("06", "Gift Certificates are not redeemable for cash except where required by applicable law.", []),
+        ("07", "Gift Certificates do not expire and are not subject to service, activation, or inactivity fees.", []),
+        ("08", "Lost, deleted, misdirected, altered, stolen, or unauthorized Gift Certificates will not be replaced or reissued. TFG may resend the original Gift Certificate email and code to the verified recipient; this does not constitute issuance of a replacement Gift Certificate.", []),
+        ("09", "Gift Certificates cannot be used to purchase additional Gift Certificates.", []),
+        ("10", "Refunds for purchases made using a Gift Certificate may be issued as a store credit or Gift Certificate at the discretion of TFG.", []),
+        ("11", "Gift Certificates are non-refundable and may not be returned.", []),
+        ("12", "TFG reserves the right to refuse, cancel, or hold Gift Certificates obtained through fraud, unauthorized resale, or other improper means.", []),
+        ("13", "Use of a Gift Certificate constitutes acceptance of these Terms and Conditions, which may be amended from time to time.", []),
+    ],
+}
+
 TERMS_OF_SALE = {
     "dir": "terms-of-sale", "seed": "terms-of-sale", "name": "Terms of Sale",
     "anchor": "terms-of-sale",
@@ -401,7 +423,8 @@ TERMS_OF_SALE = {
 INDEX = [
     ("01", "#returns", "Returns", "Branch Return Policy Statement"),
     ("02", "#special-orders", "Special Orders", "Branch Special Order Policy Statement"),
-    ("03", "#terms-of-sale", "Terms of Sale", "General Terms of Sale and Customer Account Conditions"),
+    ("03", "#gift-certificates", "Gift Certificates", "Gift Certificate Policy Statement"),
+    ("04", "#terms-of-sale", "Terms of Sale", "General Terms of Sale and Customer Account Conditions"),
 ]
 
 INDEX_CSS = (
@@ -438,7 +461,7 @@ def policy_index():
     # The 1px gaps over a rule-coloured background draw the lines between cards.
     return Block(name="Policy Index", styles={
         "display": ["grid"],
-        "gridTemplateColumns": ["repeat(3, 1fr)", "repeat(1, 1fr)"],
+        "gridTemplateColumns": ["repeat(4, 1fr)", "repeat(2, 1fr)", "repeat(2, 1fr)", "repeat(1, 1fr)"],
         "columnGap": ["1px"], "rowGap": ["1px"],
         "backgroundColor": [RULE], "border": [f"1px solid {RULE}"],
     }, custom_css=INDEX_CSS, children=cards)
@@ -459,7 +482,8 @@ def build_page():
     hero = hero.replace('"color":["#6d1216","#6d1216","#063532","#6d1216"]',
                         '"color":["#6d1216","#6d1216","#6d1216","#6d1216"]')
     index = policy_index()
-    panels = [make_root(RETURNS), make_root(SPECIAL_ORDERS), make_root(TERMS_OF_SALE)]
+    panels = [make_root(RETURNS), make_root(SPECIAL_ORDERS), make_root(GIFT_CERTIFICATES),
+              make_root(TERMS_OF_SALE)]
     _seed["slug"], _seed["n"] = "page-wrap", 0
     wrapper = Block(name="Policies", class_name="tfgr-page", styles={
         "display": ["flex"], "flexDirection": ["column"],
@@ -541,5 +565,6 @@ def make_hero(seed, bg, caption, title, intro, buttons):
 if __name__ == "__main__":
     build(RETURNS)
     build(SPECIAL_ORDERS)
+    build(GIFT_CERTIFICATES)
     build(TERMS_OF_SALE)
     build_page()
