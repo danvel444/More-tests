@@ -435,10 +435,11 @@ INDEX_CSS = (
     "{CURRENT} .tfgr-idx-num{flex:0 0 4.25rem;text-align:center;padding-top:1rem;"
     f"background-color:{NUM_BG};border-right:1px solid {RULE};color:{ACCENT};"
     "font-weight:700;font-variant-numeric:tabular-nums;}"
-    "{CURRENT} .tfgr-idx-body{flex:1 1 auto;padding:1rem 1.5rem;}"
+    # The text column fills the card and "View" sits at its bottom, so it lines up across cards.
+    "{CURRENT} .tfgr-idx-body{flex:1 1 auto;display:flex;flex-direction:column;padding:1rem 1.5rem;}"
     f"{{CURRENT}} .tfgr-idx-title{{margin:0;font-weight:700;color:{INK};}}"
     "{CURRENT} .tfgr-idx-desc{margin:0.2rem 0 0 0;}"
-    f"{{CURRENT}} .tfgr-idx-view{{margin:0.6rem 0 0 0;font-weight:700;color:{ACCENT};}}"
+    f"{{CURRENT}} .tfgr-idx-view{{margin:auto 0 0 0;padding-top:0.6rem;font-weight:700;color:{ACCENT};}}"
     "{CURRENT} .tfgr-idx-view::after{content:\" \\2192\";}"
     "{CURRENT} .tfgr-idx-card:hover .tfgr-idx-view{text-decoration:underline;}"
     "@media (max-width: 575.98px){{CURRENT} .tfgr-idx-num{flex-basis:3rem;}}"
