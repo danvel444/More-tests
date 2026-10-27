@@ -504,20 +504,20 @@ HERO_CSS = (
 )
 
 
-def button_css(margin_top="2rem", arrow="\\2193"):
+def button_css(margin_top="2rem", arrow="\\2193", accent=HERO_ACCENT):
     return (
         "{CURRENT}{display:inline-flex;align-items:center;gap:0.6rem;"
         f"margin-top:{margin_top};"
-        f"padding:0.6rem 1.25rem;border:1px solid {HERO_ACCENT};color:#ffffff;font-weight:700;"
+        f"padding:0.6rem 1.25rem;border:1px solid {accent};color:#ffffff;font-weight:700;"
         "text-decoration:none;transition:background-color .2s,border-color .2s;}"
-        f"{{CURRENT}}::after{{content:\"{arrow}\";color:{HERO_ACCENT};}}"
+        f"{{CURRENT}}::after{{content:\"{arrow}\";color:{accent};}}"
         f"{{CURRENT}}:hover,{{CURRENT}}:focus-visible{{background-color:{ACCENT};border-color:{ACCENT};color:#ffffff;}}"
         "{CURRENT}:hover::after,{CURRENT}:focus-visible::after{color:#ffffff;}"
-        f"{{CURRENT}}:focus-visible{{outline:2px solid {HERO_ACCENT};outline-offset:2px;}}"
+        f"{{CURRENT}}:focus-visible{{outline:2px solid {accent};outline-offset:2px;}}"
     )
 
 
-def make_hero(seed, bg, caption, title, intro, buttons):
+def make_hero(seed, bg, caption, title, intro, buttons, accent=HERO_ACCENT):
     """Full-width hero: caption, h1 and intro stacked in one left column, pattern on the right.
 
     buttons is a list of (text, href) jump links shown under the intro.
@@ -526,7 +526,7 @@ def make_hero(seed, bg, caption, title, intro, buttons):
     children = [
         Block("p", text=caption, styles={
             "marginTop": ["0px"], "marginBottom": ["0.75rem"], "fontWeight": ["700"],
-            "textTransform": ["uppercase"], "color": [HERO_ACCENT],
+            "textTransform": ["uppercase"], "color": [accent],
         }),
         Block("h1", text=title, styles={
             "marginTop": ["0px"], "marginBottom": ["0px"], "color": ["#ffffff"],
@@ -540,12 +540,12 @@ def make_hero(seed, bg, caption, title, intro, buttons):
     ]
     if len(buttons) == 1:
         text, href = buttons[0]
-        children.append(Block("a", text=text, href=href, custom_css=button_css()))
+        children.append(Block("a", text=text, href=href, custom_css=button_css(accent=accent)))
     else:
         children.append(Block(name="Jump Links", styles={
             "display": ["flex"], "flexWrap": ["wrap"], "columnGap": ["0.75rem"],
             "rowGap": ["0.75rem"], "marginTop": ["2rem"],
-        }, children=[Block("a", text=t, href=h, custom_css=button_css("0")) for t, h in buttons]))
+        }, children=[Block("a", text=t, href=h, custom_css=button_css("0", accent=accent)) for t, h in buttons]))
     text_col = Block(name="Hero Text", styles={"maxWidth": ["44rem"]}, children=children)
     content = Block(name="Content Area", styles={
         "maxWidth": ["100%"], "width": ["var(--wp--style--global--wide-size, 1200px)"],

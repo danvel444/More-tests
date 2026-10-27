@@ -11,25 +11,25 @@ from build_policy_blocks import (
     ACCENT, BODY, GS_PREVIEW_CSS, HERE, HERO_ACCENT, INK, RULE, Block, Raw, _seed, make_hero, write,
 )
 
-UPLOADS = "https://thefastenergroup.com/wp-content/uploads/2026/08/"
+UPLOADS = "https://thefastenergroup.com/wp-content/uploads/"
 
-# (display name, logo file, alt text, service page)
+# (display name, logo path under uploads/, alt text, service page, logo width, logo height)
 BRANDS = [
-    ("Bosch", "Bosch-Logo.webp", "Bosch Tools", "https://www.boschtools.com/ca/en/service/"),
-    ("DeWalt", "DeWalt-Logo.webp", "Dewalt Tools", "https://www.toolservicenet.ca/en/"),
-    ("EGO", "Ego-Power-Tools-Logo.webp", "Ego Tools", "https://egopowerplus.com/support"),
-    ("Fein", "Fein-Logo.webp", "Fein Tools", "https://fein.com/en_ca/service/"),
-    ("Guardian Fall Protection", "Guardian-Fall-Logo.webp", "Guardian Fall Protection", "https://guardianfall.com/en-CA/support/find-your-repair-center"),
-    ("King Canada", "King-Canada-Logo.webp", "King Canada", "https://www.kingcanada.com/en/service-centers/"),
-    ("Makita", "Makita-Logo.webp", "Makita Tools", "https://www.makita.ca/index2new.php?event=memberlanding2"),
-    ("Milwaukee", "Milwaukee-Red-Logo.webp", "Milwaukee Tools", "https://service.milwaukeetool.ca/support"),
-    ("MSA Safety", "MSA-Logo.webp", "MSA Safety", "https://ca.msasafety.com/service"),
-    ("Ridgid", "Ridgid-Logo.webp", "Ridgid Tools", "https://www.ridgid.com/ca/en/service-and-support"),
-    ("Stihl", "Stihl-Logo.webp", "Stihl Tools", "https://www.stihl.ca/en/service-events/dealer-services/repair"),
-    ("Sumner", "Sumner-Logo.webp", "Sumner Material Lifts", "https://sumner.com/services/"),
-    ("Walter", "Walter-Logo.webp", "Walter Tools", "https://www.walter.com/ca/contact-us"),
+    ("Bosch", "2026/08/Bosch-Logo.webp", "Bosch Tools", "https://www.boschtools.com/ca/en/service/", 660, 225),
+    ("DeWalt", "2026/08/DeWalt-Logo.webp", "Dewalt Tools", "https://www.toolservicenet.ca/en/", 660, 225),
+    ("EGO", "2026/08/Ego-Power-Tools-Logo.webp", "Ego Tools", "https://egopowerplus.com/support", 660, 225),
+    ("Fein", "2026/08/Fein-Logo.webp", "Fein Tools", "https://fein.com/en_ca/service/", 660, 225),
+    ("Guardian Fall Protection", "2026/08/Guardian-Fall-Logo.webp", "Guardian Fall Protection", "https://guardianfall.com/en-CA/support/find-your-repair-center", 660, 225),
+    ("King Canada", "2026/08/King-Canada-Logo.webp", "King Canada", "https://www.kingcanada.com/en/service-centers/", 660, 225),
+    ("Klein Tools", "2026/09/KleinStacked-Black.webp", "Klein Tools", "https://www.kleintools.com/content/warranty", 660, 260),
+    ("Makita", "2026/08/Makita-Logo.webp", "Makita Tools", "https://www.makita.ca/index2new.php?event=service", 660, 225),
+    ("Milwaukee", "2026/08/Milwaukee-Red-Logo.webp", "Milwaukee Tools", "https://service.milwaukeetool.ca/support", 660, 225),
+    ("MSA Safety", "2026/08/MSA-Logo.webp", "MSA Safety", "https://ca.msasafety.com/service", 660, 225),
+    ("Ridgid", "2026/08/Ridgid-Logo.webp", "Ridgid Tools", "https://www.ridgid.com/ca/en/service-and-support", 660, 225),
+    ("Stihl", "2026/08/Stihl-Logo.webp", "Stihl Tools", "https://www.stihl.ca/en/service-events/dealer-services/repair", 660, 225),
+    ("Sumner", "2026/08/Sumner-Logo.webp", "Sumner Material Lifts", "https://sumner.com/services/", 660, 225),
+    ("Walter", "2026/08/Walter-Logo.webp", "Walter Tools", "https://www.walter.com/ca/contact-us", 660, 225),
 ]
-LOGO_W, LOGO_H = 660, 225  # every logo file is 660 x 225
 # The theme's palette colour 5, so the panel follows the site palette if it changes.
 PANEL_BG = "var(--wp--preset--color--palette-color-5, var(--theme-palette-color-5, #F0F2F3))"
 
@@ -58,7 +58,7 @@ GRID_CSS = (
 )
 
 
-def brand_tile(name, logo, alt, url):
+def brand_tile(name, logo, alt, url, w, h):
     return Block("a", class_name="tfgr-brand", href=url, name=name,
                  json_extra={"linkNewWindow": True},
                  html_attrs=[("target", "_blank"), ("rel", "noopener")],
@@ -66,10 +66,10 @@ def brand_tile(name, logo, alt, url):
                      Block(class_name="tfgr-brand-logo", children=[
                          Block("img", json_extra={
                              "src": UPLOADS + logo, "alt": alt,
-                             "originalWidth": LOGO_W, "originalHeight": LOGO_H,
+                             "originalWidth": w, "originalHeight": h,
                          }, html_attrs=[
                              ("src", UPLOADS + logo), ("alt", alt),
-                             ("width", str(LOGO_W)), ("height", str(LOGO_H)), ("loading", "lazy"),
+                             ("width", str(w)), ("height", str(h)), ("loading", "lazy"),
                          ]),
                      ]),
                      Block("p", text=name, class_name="tfgr-brand-name"),
@@ -159,7 +159,7 @@ def stihl_partners():
         f'<style>{STIHL_CSS.strip()}</style>\n'
         '<div class="tfgr-stihl">\n'
         '<div class="tfgr-stihl-callout">'
-        f'<span class="tfgr-stihl-logo"><img src="{UPLOADS}Stihl-Logo.webp" alt="STIHL" width="660" height="225" loading="lazy"/></span>'
+        f'<span class="tfgr-stihl-logo"><img src="{UPLOADS}2026/08/Stihl-Logo.webp" alt="STIHL" width="660" height="225" loading="lazy"/></span>'
         '<div class="tfgr-stihl-text"><p class="tfgr-stihl-kicker">Local STIHL service</p>'
         f'<p><strong>STIHL owners:</strong> TFG-authorized STIHL service partners in {e(city_list)}.</p></div>'
         '<button type="button" class="tfgr-stihl-btn tfgr-stihl-open" popovertarget="tfgr-stihl-partners">'
@@ -217,6 +217,7 @@ def hero():
                "favourite brand below for direct access to their authorized warranty "
                "and repair services."),
         buttons=[("Browse brands", "#brands")],
+        accent=ACCENT,
     )
 
 
