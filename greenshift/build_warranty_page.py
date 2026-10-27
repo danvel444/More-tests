@@ -8,7 +8,7 @@ import json
 from urllib.parse import quote
 
 from build_policy_blocks import (
-    ACCENT, BODY, GS_PREVIEW_CSS, HERE, INK, RULE, Block, Raw, _seed, make_hero, write,
+    ACCENT, BODY, GS_PREVIEW_CSS, HERE, HERO_ACCENT, INK, RULE, Block, Raw, _seed, make_hero, write,
 )
 
 UPLOADS = "https://thefastenergroup.com/wp-content/uploads/2026/08/"
@@ -83,17 +83,21 @@ STIHL = json.loads((HERE / "warranty-page" / "stihl-partners.json").read_text())
 # Esc, the close button or a click outside closes it. Browsers without popover support
 # hide the button and show the list inline instead.
 STIHL_CSS = f"""
-.tfgr-stihl{{margin-top:1.5rem;}}
-.tfgr-stihl-callout{{display:flex;flex-wrap:wrap;align-items:center;justify-content:space-between;gap:1rem 2rem;
-  background:#ffffff;border:1px solid {RULE};padding:1.25rem 1.5rem;}}
-.tfgr-stihl-callout p{{margin:0;color:{BODY};max-width:44rem;}}
-.tfgr-stihl-callout strong{{color:{INK};}}
+.tfgr-stihl{{margin:0 0 2rem;}}
+.tfgr-stihl-callout{{display:flex;flex-wrap:wrap;align-items:center;gap:1rem 1.75rem;
+  background:{INK};padding:1.25rem 1.5rem;}}
+.tfgr-stihl-logo{{flex:0 0 auto;display:flex;align-items:center;background:#ffffff;padding:0.5rem 0.75rem;}}
+.tfgr-stihl-logo img{{display:block;width:7rem;height:auto;}}
+.tfgr-stihl-text{{flex:1 1 18rem;}}
+.tfgr-stihl-text p{{margin:0;color:rgba(255,255,255,0.85);}}
+.tfgr-stihl-text .tfgr-stihl-kicker{{margin-bottom:0.25rem;font-weight:700;text-transform:uppercase;color:{HERO_ACCENT};}}
+.tfgr-stihl-text strong{{color:#ffffff;}}
 .tfgr-stihl-open{{display:none;}}
 .tfgr-stihl-btn{{display:inline-flex;align-items:center;gap:0.6rem;padding:0.75rem 1.5rem;cursor:pointer;
   background:{ACCENT};border:1px solid {ACCENT};color:#ffffff;font:inherit;font-weight:700;white-space:nowrap;
   transition:background-color .2s,border-color .2s;}}
-.tfgr-stihl-btn:hover,.tfgr-stihl-btn:focus-visible{{background:{INK};border-color:{INK};}}
-.tfgr-stihl-btn:focus-visible{{outline:2px solid {ACCENT};outline-offset:2px;}}
+.tfgr-stihl-btn:hover,.tfgr-stihl-btn:focus-visible{{background:#ffffff;border-color:#ffffff;color:{INK};}}
+.tfgr-stihl-btn:focus-visible{{outline:2px solid {HERO_ACCENT};outline-offset:2px;}}
 .tfgr-stihl-pop{{color:{BODY};}}
 .tfgr-stihl-head{{display:flex;align-items:flex-start;justify-content:space-between;gap:1rem;
   padding-bottom:1rem;margin-bottom:1.5rem;border-bottom:2px solid {INK};}}
@@ -155,7 +159,9 @@ def stihl_partners():
         f'<style>{STIHL_CSS.strip()}</style>\n'
         '<div class="tfgr-stihl">\n'
         '<div class="tfgr-stihl-callout">'
-        f'<p><strong>STIHL owners:</strong> TFG-authorized STIHL service partners in {e(city_list)}.</p>'
+        f'<span class="tfgr-stihl-logo"><img src="{UPLOADS}Stihl-Logo.webp" alt="STIHL" width="660" height="225" loading="lazy"/></span>'
+        '<div class="tfgr-stihl-text"><p class="tfgr-stihl-kicker">Local STIHL service</p>'
+        f'<p><strong>STIHL owners:</strong> TFG-authorized STIHL service partners in {e(city_list)}.</p></div>'
         '<button type="button" class="tfgr-stihl-btn tfgr-stihl-open" popovertarget="tfgr-stihl-partners">'
         'View STIHL service partners</button></div>\n'
         '<div id="tfgr-stihl-partners" class="tfgr-stihl-pop" popover role="dialog" aria-labelledby="tfgr-stihl-title">'
@@ -200,7 +206,7 @@ def directory():
         # Pulled up over the bottom of the hero so the two read as one piece.
         "marginTop": ["-4rem", None, None, "-3rem"],
         "position": ["relative"], "zIndex": ["2"],
-    }, custom_css="{CURRENT}{scroll-margin-top:2rem;}", children=[heading, grid, stihl_partners()])
+    }, custom_css="{CURRENT}{scroll-margin-top:2rem;}", children=[heading, stihl_partners(), grid])
 
 
 def hero():
