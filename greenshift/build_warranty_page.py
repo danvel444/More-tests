@@ -83,7 +83,7 @@ STIHL = json.loads((HERE / "warranty-page" / "stihl-partners.json").read_text())
 # Esc, the close button or a click outside closes it. Browsers without popover support
 # hide the button and show the list inline instead.
 STIHL_CSS = f"""
-.tfgr-stihl{{margin:0 0 2rem;}}
+.tfgr-stihl{{margin:2rem 0 0;}}
 .tfgr-stihl-callout{{display:flex;flex-wrap:wrap;align-items:center;gap:1rem 1.75rem;
   background:{INK};padding:1.25rem 1.5rem;}}
 .tfgr-stihl-logo{{flex:0 0 auto;display:flex;align-items:center;background:#ffffff;padding:0.5rem 0.75rem;}}
@@ -128,6 +128,7 @@ STIHL_CSS = f"""
 }}
 @media (max-width: 600px){{
   .tfgr-stihl-grid{{grid-template-columns:1fr;}}
+  .tfgr-stihl{{margin-top:1.5rem;}}
   .tfgr-stihl-callout{{padding:1rem;}}
   .tfgr-stihl-btn{{width:100%;justify-content:center;white-space:normal;text-align:center;}}
   @supports selector(:popover-open){{
@@ -161,12 +162,12 @@ def stihl_partners():
         '<div class="tfgr-stihl-callout">'
         f'<span class="tfgr-stihl-logo"><img src="{UPLOADS}2026/08/Stihl-Logo.webp" alt="STIHL" width="660" height="225" loading="lazy"/></span>'
         '<div class="tfgr-stihl-text"><p class="tfgr-stihl-kicker">Local STIHL service</p>'
-        f'<p><strong>STIHL owners:</strong> TFG-authorized STIHL service partners in {e(city_list)}.</p></div>'
+        f'<p><strong>STIHL Owners:</strong> TFG Authorized STIHL Service Partners in {e(city_list)}.</p></div>'
         '<button type="button" class="tfgr-stihl-btn tfgr-stihl-open" popovertarget="tfgr-stihl-partners">'
-        'View STIHL service partners</button></div>\n'
+        'View STIHL Service Partners</button></div>\n'
         '<div id="tfgr-stihl-partners" class="tfgr-stihl-pop" popover role="dialog" aria-labelledby="tfgr-stihl-title">'
-        '<div class="tfgr-stihl-head"><div><p class="tfgr-stihl-cap">STIHL service</p>'
-        '<h2 id="tfgr-stihl-title">TFG-authorized STIHL service partners</h2></div>'
+        '<div class="tfgr-stihl-head"><div><p class="tfgr-stihl-cap">STIHL Service</p>'
+        '<h2 id="tfgr-stihl-title">TFG Authorized STIHL Service Partners</h2></div>'
         '<button type="button" class="tfgr-stihl-close" popovertarget="tfgr-stihl-partners" '
         'popovertargetaction="hide" aria-label="Close">&#x2715;</button></div>'
         + "".join(sections) +
@@ -193,7 +194,6 @@ def directory():
         "display": ["grid"],
         "gridTemplateColumns": ["repeat(4, 1fr)", "repeat(3, 1fr)", "repeat(2, 1fr)", "repeat(2, 1fr)"],
         "borderTop": [f"1px solid {RULE}"], "borderLeft": [f"1px solid {RULE}"],
-        "backgroundColor": ["#ffffff"],
     }, custom_css=GRID_CSS, children=[
         brand_tile(*b) for b in sorted(BRANDS, key=lambda b: b[0].lower())
     ])
@@ -206,7 +206,7 @@ def directory():
         # Pulled up over the bottom of the hero so the two read as one piece.
         "marginTop": ["-4rem", None, None, "-3rem"],
         "position": ["relative"], "zIndex": ["2"],
-    }, custom_css="{CURRENT}{scroll-margin-top:2rem;}", children=[heading, stihl_partners(), grid])
+    }, custom_css="{CURRENT}{scroll-margin-top:2rem;}", children=[heading, grid, stihl_partners()])
 
 
 def hero():
