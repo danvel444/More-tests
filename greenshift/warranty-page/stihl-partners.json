@@ -1,0 +1,23 @@
+{
+  "_note": "TFG-authorized STIHL service partners (list dated Oct 26, 2026). Shown in the popup under the brand grid. Partner order within a city is as supplied.",
+  "as_of": "October 2026",
+  "cities": [
+    {"city": "Calgary", "partners": [
+      {"name": "Brothers Two Small Engines", "phone": "(403) 279-2244", "street": "4320 - 75 Avenue SE, Bay 26", "locality": "Calgary, AB T2C 2H8"},
+      {"name": "Arns Equipment", "phone": "(403) 243-7063", "street": "1107 - 46 Avenue SE", "locality": "Calgary, AB T2G 2A5"}
+    ]},
+    {"city": "Edmonton", "partners": [
+      {"name": "Alberta Small Engine Services", "phone": "(780) 944-9559", "street": "5403 Roper Road NW", "locality": "Edmonton, AB T6B 3L6"},
+      {"name": "PEC Edmonton", "phone": "(780) 438-1818", "street": "9515 - 63 Avenue NW", "locality": "Edmonton, AB T6E 0G2"}
+    ]},
+    {"city": "Saskatoon", "partners": [
+      {"name": "The Rent It Store", "phone": "(306) 652-0101", "street": "633 - 45 Street East", "locality": "Saskatoon, SK S7K 0W4"},
+      {"name": "Rhino Repair", "phone": "(306) 477-2122", "street": "2120 St. George Avenue", "locality": "Saskatoon, SK S7M 0K7"}
+    ]},
+    {"city": "Winnipeg", "partners": [
+      {"name": "Cummings Small Engine Service", "phone": "(204) 237-4911", "street": "567 Marion Street", "locality": "Winnipeg, MB R2J 0J9"},
+      {"name": "Ideal Small Engine Ltd.", "phone": "(204) 775-4555", "street": "400 Berry Street", "locality": "Winnipeg, MB R3J 1N9"},
+      {"name": "Boost Lawn & Garden", "phone": "(204) 772-6678", "street": "1669 Main Street", "locality": "Winnipeg, MB R2V 1Z1"}
+    ]}
+  ]
+}
