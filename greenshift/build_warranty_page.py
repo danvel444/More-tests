@@ -77,6 +77,29 @@ def brand_tile(name, logo, alt, url, w, h):
                  ])
 
 
+def stihl_tile(name, logo, alt, url, w, h):
+    """The STIHL tile opens the TFG partner popup instead of going to stihl.ca.
+
+    It's a button, so it lives in a Custom HTML block. Browsers without popover
+    support get a plain link that jumps to the list, which then shows inline.
+    """
+    inner = (
+        f'<span class="tfgr-brand-logo"><img src="{UPLOADS}{logo}" alt="{alt}" '
+        f'width="{w}" height="{h}" loading="lazy"/></span>'
+        f'<span class="tfgr-brand-name">{name}</span>'
+        '<span class="tfgr-brand-link">TFG service partners</span>'
+    )
+    return Raw(
+        "<!-- wp:html -->\n"
+        '<button type="button" class="tfgr-brand tfgr-brand-pop" popovertarget="tfgr-stihl-partners" '
+        f'aria-haspopup="dialog">{inner}</button>'
+        f'<a class="tfgr-brand tfgr-brand-nopop" href="#tfgr-stihl-partners">{inner}</a>'
+        "\n<!-- /wp:html -->"
+    )
+
+
+STIHL_URL = next(b[3] for b in BRANDS if b[0] == "Stihl")
+
 STIHL = json.loads((HERE / "warranty-page" / "stihl-partners.json").read_text())
 
 # The STIHL partner list opens in a native popover (no script): the button toggles it,
@@ -119,9 +142,24 @@ STIHL_CSS = f"""
 .tfgr-stihl-dir{{color:{INK};}}
 .tfgr-stihl-dir::after{{content:" \\2197" / " (opens in a new tab)";color:{ACCENT};}}
 .tfgr-stihl-note{{margin:1.25rem 0 0;font-size:0.9em;color:#5f6468;}}
+.tfgr-policy .tfgr-brand.tfgr-brand-pop{{display:none;width:100%;margin:0;border-top:0;border-left:0;border-radius:0;
+  box-shadow:none;font:inherit;line-height:inherit;letter-spacing:inherit;text-transform:none;text-align:left;cursor:pointer;}}
+.tfgr-policy .tfgr-brand-pop .tfgr-brand-name,.tfgr-policy .tfgr-brand-nopop .tfgr-brand-name,
+.tfgr-policy .tfgr-brand-pop .tfgr-brand-link,.tfgr-policy .tfgr-brand-nopop .tfgr-brand-link{{display:block;}}
+.tfgr-policy .tfgr-brand-pop .tfgr-brand-link::after,.tfgr-policy .tfgr-brand-nopop .tfgr-brand-link::after{{content:" \\2192";}}
+.tfgr-stihl-more{{display:flex;flex-wrap:wrap;align-items:center;justify-content:space-between;gap:0.75rem 1.5rem;
+  margin-top:1.5rem;padding:1rem 1.25rem;background:{PANEL_BG};}}
+.tfgr-stihl-more p{{margin:0;}}
+.tfgr-stihl-more strong{{color:{INK};}}
+.tfgr-stihl-ext{{display:inline-flex;align-items:center;gap:0.5rem;padding:0.6rem 1.25rem;border:1px solid {INK};
+  color:{INK};font-weight:700;text-decoration:none;white-space:nowrap;transition:background-color .2s,color .2s;}}
+.tfgr-stihl-ext::after{{content:"\\2197" / " (opens in a new tab)";}}
+.tfgr-stihl-ext:hover,.tfgr-stihl-ext:focus-visible{{background:{INK};color:#ffffff;}}
 .tfgr-stihl-pop{{margin-top:1.5rem;background:#ffffff;border:1px solid {RULE};padding:1.5rem;}}
 @supports selector(:popover-open){{
   .tfgr-stihl-open,.tfgr-stihl-close{{display:inline-flex;align-items:center;justify-content:center;}}
+  .tfgr-policy .tfgr-brand.tfgr-brand-pop{{display:flex;}}
+  .tfgr-policy .tfgr-brand.tfgr-brand-nopop{{display:none;}}
   .tfgr-stihl-pop{{box-sizing:border-box;position:fixed;inset:0;margin:auto;width:min(56rem,calc(100vw - 2rem));
     max-height:calc(100dvh - 4rem);overflow:auto;padding:1.75rem 2rem;box-shadow:0 1.5rem 3rem rgba(0,0,0,0.25);}}
   .tfgr-stihl-pop::backdrop{{background:rgba(13,14,16,0.6);}}
@@ -130,6 +168,7 @@ STIHL_CSS = f"""
   .tfgr-stihl-grid{{grid-template-columns:1fr;}}
   .tfgr-stihl{{margin-top:1.5rem;}}
   .tfgr-stihl-callout{{padding:1rem;}}
+  .tfgr-stihl-ext{{width:100%;justify-content:center;white-space:normal;}}
   .tfgr-stihl-btn{{width:100%;justify-content:center;white-space:normal;text-align:center;}}
   @supports selector(:popover-open){{
     .tfgr-stihl-pop{{width:100%;max-width:none;height:100%;max-height:none;margin:0;padding:1.25rem 1rem;border:0;}}
@@ -171,6 +210,9 @@ def stihl_partners():
         '<button type="button" class="tfgr-stihl-close" popovertarget="tfgr-stihl-partners" '
         'popovertargetaction="hide" aria-label="Close">&#x2715;</button></div>'
         + "".join(sections) +
+        '<div class="tfgr-stihl-more"><p><strong>Outside these cities?</strong> '
+        "Find any authorized STIHL dealer on STIHL's own site.</p>"
+        f'<a class="tfgr-stihl-ext" href="{e(STIHL_URL)}" target="_blank" rel="noopener">STIHL service site</a></div>'
         f'<p class="tfgr-stihl-note">Partner list as of {e(STIHL["as_of"])}.</p></div>\n</div>'
     )
     return Raw("<!-- wp:html -->\n" + body + "\n<!-- /wp:html -->")
@@ -195,7 +237,8 @@ def directory():
         "gridTemplateColumns": ["repeat(4, 1fr)", "repeat(3, 1fr)", "repeat(2, 1fr)", "repeat(2, 1fr)"],
         "borderTop": [f"1px solid {RULE}"], "borderLeft": [f"1px solid {RULE}"],
     }, custom_css=GRID_CSS, children=[
-        brand_tile(*b) for b in sorted(BRANDS, key=lambda b: b[0].lower())
+        stihl_tile(*b) if b[0] == "Stihl" else brand_tile(*b)
+        for b in sorted(BRANDS, key=lambda b: b[0].lower())
     ])
     return Block(name="Warranty and Service", class_name="tfgr-policy", anchor="brands", styles={
         "backgroundColor": [PANEL_BG],
