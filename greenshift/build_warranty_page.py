@@ -8,7 +8,7 @@ import json
 from urllib.parse import quote
 
 from build_policy_blocks import (
-    ACCENT, BODY, GS_PREVIEW_CSS, HERE, HERO_ACCENT, INK, RULE, Block, Raw, _seed, make_hero, write,
+    ACCENT, BODY, GS_PREVIEW_CSS, HERE, INK, RULE, Block, Raw, _seed, make_hero, write,
 )
 
 UPLOADS = "https://thefastenergroup.com/wp-content/uploads/"
@@ -102,25 +102,10 @@ STIHL_URL = next(b[3] for b in BRANDS if b[0] == "Stihl")
 
 STIHL = json.loads((HERE / "warranty-page" / "stihl-partners.json").read_text())
 
-# The STIHL partner list opens in a native popover (no script): the button toggles it,
+# The STIHL partner list opens in a native popover (no script): the STIHL tile opens it,
 # Esc, the close button or a click outside closes it. Browsers without popover support
-# hide the button and show the list inline instead.
+# show the list inline under the grid instead, and the tile jumps to it.
 STIHL_CSS = f"""
-.tfgr-stihl{{margin:2rem 0 0;}}
-.tfgr-stihl-callout{{display:flex;flex-wrap:wrap;align-items:center;gap:1rem 1.75rem;
-  background:{INK};padding:1.25rem 1.5rem;}}
-.tfgr-stihl-logo{{flex:0 0 auto;display:flex;align-items:center;background:#ffffff;padding:0.5rem 0.75rem;}}
-.tfgr-stihl-logo img{{display:block;width:7rem;height:auto;}}
-.tfgr-stihl-text{{flex:1 1 18rem;}}
-.tfgr-stihl-text p{{margin:0;color:rgba(255,255,255,0.85);}}
-.tfgr-stihl-text .tfgr-stihl-kicker{{margin-bottom:0.25rem;font-weight:700;text-transform:uppercase;color:{HERO_ACCENT};}}
-.tfgr-stihl-text strong{{color:#ffffff;}}
-.tfgr-stihl-open{{display:none;}}
-.tfgr-stihl-btn{{display:inline-flex;align-items:center;gap:0.6rem;padding:0.75rem 1.5rem;cursor:pointer;
-  background:{ACCENT};border:1px solid {ACCENT};color:#ffffff;font:inherit;font-weight:700;white-space:nowrap;
-  transition:background-color .2s,border-color .2s;}}
-.tfgr-stihl-btn:hover,.tfgr-stihl-btn:focus-visible{{background:#ffffff;border-color:#ffffff;color:{INK};}}
-.tfgr-stihl-btn:focus-visible{{outline:2px solid {HERO_ACCENT};outline-offset:2px;}}
 .tfgr-stihl-pop{{color:{BODY};}}
 .tfgr-stihl-head{{display:flex;align-items:flex-start;justify-content:space-between;gap:1rem;
   padding-bottom:1rem;margin-bottom:1.5rem;border-bottom:2px solid {INK};}}
@@ -157,7 +142,7 @@ STIHL_CSS = f"""
 .tfgr-stihl-ext:hover,.tfgr-stihl-ext:focus-visible{{background:{INK};color:#ffffff;}}
 .tfgr-stihl-pop{{margin-top:1.5rem;background:#ffffff;border:1px solid {RULE};padding:1.5rem;}}
 @supports selector(:popover-open){{
-  .tfgr-stihl-open,.tfgr-stihl-close{{display:inline-flex;align-items:center;justify-content:center;}}
+  .tfgr-stihl-close{{display:inline-flex;align-items:center;justify-content:center;}}
   .tfgr-policy .tfgr-brand.tfgr-brand-pop{{display:flex;}}
   .tfgr-policy .tfgr-brand.tfgr-brand-nopop{{display:none;}}
   .tfgr-stihl-pop{{box-sizing:border-box;position:fixed;inset:0;margin:auto;width:min(56rem,calc(100vw - 2rem));
@@ -166,10 +151,7 @@ STIHL_CSS = f"""
 }}
 @media (max-width: 600px){{
   .tfgr-stihl-grid{{grid-template-columns:1fr;}}
-  .tfgr-stihl{{margin-top:1.5rem;}}
-  .tfgr-stihl-callout{{padding:1rem;}}
   .tfgr-stihl-ext{{width:100%;justify-content:center;white-space:normal;}}
-  .tfgr-stihl-btn{{width:100%;justify-content:center;white-space:normal;text-align:center;}}
   @supports selector(:popover-open){{
     .tfgr-stihl-pop{{width:100%;max-width:none;height:100%;max-height:none;margin:0;padding:1.25rem 1rem;border:0;}}
   }}
@@ -178,10 +160,8 @@ STIHL_CSS = f"""
 
 
 def stihl_partners():
-    """Callout under the brand grid plus the STIHL partner popover, as one Custom HTML block."""
+    """The STIHL partner popover (opened from the STIHL tile), as one Custom HTML block."""
     e = lambda t: html.escape(t, quote=True)
-    cities = [c["city"] for c in STIHL["cities"]]
-    city_list = ", ".join(cities[:-1]) + " and " + cities[-1]
     sections = []
     for c in STIHL["cities"]:
         cards = []
@@ -198,12 +178,6 @@ def stihl_partners():
     body = (
         f'<style>{STIHL_CSS.strip()}</style>\n'
         '<div class="tfgr-stihl">\n'
-        '<div class="tfgr-stihl-callout">'
-        f'<span class="tfgr-stihl-logo"><img src="{UPLOADS}2026/08/Stihl-Logo.webp" alt="STIHL" width="660" height="225" loading="lazy"/></span>'
-        '<div class="tfgr-stihl-text"><p class="tfgr-stihl-kicker">Local STIHL service</p>'
-        f'<p><strong>STIHL Owners:</strong> TFG Authorized STIHL Service Partners in {e(city_list)}.</p></div>'
-        '<button type="button" class="tfgr-stihl-btn tfgr-stihl-open" popovertarget="tfgr-stihl-partners">'
-        'View STIHL Service Partners</button></div>\n'
         '<div id="tfgr-stihl-partners" class="tfgr-stihl-pop" popover role="dialog" aria-labelledby="tfgr-stihl-title">'
         '<div class="tfgr-stihl-head"><div><p class="tfgr-stihl-cap">STIHL Service</p>'
         '<h2 id="tfgr-stihl-title">TFG Authorized STIHL Service Partners</h2></div>'
