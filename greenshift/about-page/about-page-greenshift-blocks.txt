@@ -26,214 +26,292 @@
 <!-- /wp:greenshift-blocks/element --></section>
 <!-- /wp:greenshift-blocks/element -->
 
-<!-- wp:greenshift-blocks/element {"id":"gsbp-99a41d1","inlineCssStyles":".gsbp-99a41d1{display:flex;flex-direction:column;row-gap:4.5rem;margin-top:-4rem;position:relative;z-index:2;margin-bottom:4.5rem;}@media (max-width: 991.98px){.gsbp-99a41d1{row-gap:3.38rem;}}@media (max-width: 575.98px){.gsbp-99a41d1{row-gap:2.25rem;margin-top:-3rem;margin-bottom:2.25rem;}}.gsbp-99a41d1 [id]{scroll-margin-top:2rem;}","type":"inner","className":"tfgr-page","localId":"gsbp-99a41d1","styleAttributes":{"display":["flex"],"flexDirection":["column"],"rowGap":["4.5rem","3.38rem",null,"2.25rem"],"marginTop":["-4rem",null,null,"-3rem"],"position":["relative"],"zIndex":["2"],"marginBottom":["4.5rem",null,null,"2.25rem"],"customCSS_Extra":"{CURRENT} [id]{scroll-margin-top:2rem;}"},"metadata":{"name":"About Page"}} -->
-<div class="tfgr-page gsbp-99a41d1"><!-- wp:greenshift-blocks/element {"id":"gsbp-8a57aa2","inlineCssStyles":".gsbp-8a57aa2{background-color:var(\u002d\u002dwp\u002d\u002dpreset\u002d\u002dcolor\u002d\u002dpalette-color-5, var(\u002d\u002dtheme-palette-color-5, #F0F2F3));padding-top:2.25rem;padding-bottom:2.25rem;padding-left:1.5rem;padding-right:1.5rem;}@media (max-width: 575.98px){.gsbp-8a57aa2{padding-top:1.5rem;padding-bottom:1.5rem;padding-left:1rem;padding-right:1rem;}}","type":"inner","className":"tfgr-policy","localId":"gsbp-8a57aa2","styleAttributes":{"backgroundColor":["var(\u002d\u002dwp\u002d\u002dpreset\u002d\u002dcolor\u002d\u002dpalette-color-5, var(\u002d\u002dtheme-palette-color-5, #F0F2F3))"],"paddingTop":["2.25rem",null,null,"1.5rem"],"paddingBottom":["2.25rem",null,null,"1.5rem"],"paddingLeft":["1.5rem",null,null,"1rem"],"paddingRight":["1.5rem",null,null,"1rem"]},"metadata":{"name":"Our History"}} -->
-<div class="tfgr-policy gsbp-8a57aa2"><!-- wp:greenshift-blocks/element {"id":"gsbp-63b0c39","inlineCssStyles":".gsbp-63b0c39{padding-bottom:1.5rem;margin-bottom:2.25rem;border-bottom:2px solid #1d1f21;}","type":"inner","localId":"gsbp-63b0c39","styleAttributes":{"paddingBottom":["1.5rem"],"marginBottom":["2.25rem"],"borderBottom":["2px solid #1d1f21"]},"metadata":{"name":"Heading"}} -->
-<div class="gsbp-63b0c39"><!-- wp:greenshift-blocks/element {"id":"gsbp-a651386","inlineCssStyles":".gsbp-a651386{margin-top:0px;margin-bottom:0.44rem;font-weight:700;text-transform:uppercase;color:var(\u002d\u002dwp\u002d\u002dpreset\u002d\u002dcolor\u002d\u002dpalette-color-1, var(\u002d\u002dtheme-palette-color-1, #b11f24));}","textContent":"Our history","tag":"p","localId":"gsbp-a651386","styleAttributes":{"marginTop":["0px"],"marginBottom":["0.44rem"],"fontWeight":["700"],"textTransform":["uppercase"],"color":["var(\u002d\u002dwp\u002d\u002dpreset\u002d\u002dcolor\u002d\u002dpalette-color-1, var(\u002d\u002dtheme-palette-color-1, #b11f24))"]}} -->
-<p class="gsbp-a651386">Our history</p>
+<!-- wp:greenshift-blocks/element {"id":"gsbp-d8efb4e","inlineCssStyles":".gsbp-d8efb4e{display:flex;flex-direction:column;row-gap:4.5rem;margin-top:-4rem;position:relative;z-index:2;margin-bottom:4.5rem;}@media (max-width: 991.98px){.gsbp-d8efb4e{row-gap:3.38rem;}}@media (max-width: 575.98px){.gsbp-d8efb4e{row-gap:2.25rem;margin-top:-3rem;margin-bottom:2.25rem;}}.gsbp-d8efb4e [id]{scroll-margin-top:2rem;}","type":"inner","className":"tfgr-page","localId":"gsbp-d8efb4e","styleAttributes":{"display":["flex"],"flexDirection":["column"],"rowGap":["4.5rem","3.38rem",null,"2.25rem"],"marginTop":["-4rem",null,null,"-3rem"],"position":["relative"],"zIndex":["2"],"marginBottom":["4.5rem",null,null,"2.25rem"],"customCSS_Extra":"{CURRENT} [id]{scroll-margin-top:2rem;}"},"metadata":{"name":"About Page"}} -->
+<div class="tfgr-page gsbp-d8efb4e"><!-- wp:greenshift-blocks/element {"id":"gsbp-3086550","inlineCssStyles":".gsbp-3086550{background-color:var(\u002d\u002dwp\u002d\u002dpreset\u002d\u002dcolor\u002d\u002dpalette-color-5, var(\u002d\u002dtheme-palette-color-5, #F0F2F3));padding-top:2.25rem;padding-bottom:2.25rem;padding-left:1.5rem;padding-right:1.5rem;}@media (max-width: 575.98px){.gsbp-3086550{padding-top:1.5rem;padding-bottom:1.5rem;padding-left:1rem;padding-right:1rem;}}","type":"inner","className":"tfgr-policy","localId":"gsbp-3086550","styleAttributes":{"backgroundColor":["var(\u002d\u002dwp\u002d\u002dpreset\u002d\u002dcolor\u002d\u002dpalette-color-5, var(\u002d\u002dtheme-palette-color-5, #F0F2F3))"],"paddingTop":["2.25rem",null,null,"1.5rem"],"paddingBottom":["2.25rem",null,null,"1.5rem"],"paddingLeft":["1.5rem",null,null,"1rem"],"paddingRight":["1.5rem",null,null,"1rem"]},"metadata":{"name":"Our History"}} -->
+<div class="tfgr-policy gsbp-3086550"><!-- wp:greenshift-blocks/element {"id":"gsbp-5c19be2","inlineCssStyles":".gsbp-5c19be2{padding-bottom:1.5rem;margin-bottom:2.25rem;border-bottom:2px solid #1d1f21;}","type":"inner","localId":"gsbp-5c19be2","styleAttributes":{"paddingBottom":["1.5rem"],"marginBottom":["2.25rem"],"borderBottom":["2px solid #1d1f21"]},"metadata":{"name":"Heading"}} -->
+<div class="gsbp-5c19be2"><!-- wp:greenshift-blocks/element {"id":"gsbp-34bd41e","inlineCssStyles":".gsbp-34bd41e{margin-top:0px;margin-bottom:0.44rem;font-weight:700;text-transform:uppercase;color:var(\u002d\u002dwp\u002d\u002dpreset\u002d\u002dcolor\u002d\u002dpalette-color-1, var(\u002d\u002dtheme-palette-color-1, #b11f24));}","textContent":"Our history","tag":"p","localId":"gsbp-34bd41e","styleAttributes":{"marginTop":["0px"],"marginBottom":["0.44rem"],"fontWeight":["700"],"textTransform":["uppercase"],"color":["var(\u002d\u002dwp\u002d\u002dpreset\u002d\u002dcolor\u002d\u002dpalette-color-1, var(\u002d\u002dtheme-palette-color-1, #b11f24))"]}} -->
+<p class="gsbp-34bd41e">Our history</p>
 <!-- /wp:greenshift-blocks/element -->
 
-<!-- wp:greenshift-blocks/element {"id":"gsbp-0fe2139","anchor":"history","inlineCssStyles":".gsbp-0fe2139{margin-top:0px;margin-bottom:0px;color:#1d1f21;}","textContent":"From one Calgary store to a Western Canadian network","tag":"h2","localId":"gsbp-0fe2139","styleAttributes":{"marginTop":["0px"],"marginBottom":["0px"],"color":["#1d1f21"]}} -->
-<h2 class="gsbp-0fe2139" id="history">From one Calgary store to a Western Canadian network</h2>
+<!-- wp:greenshift-blocks/element {"id":"gsbp-de0d917","anchor":"history","inlineCssStyles":".gsbp-de0d917{margin-top:0px;margin-bottom:0px;color:#1d1f21;}","textContent":"From one Calgary store to a Western Canadian network","tag":"h2","localId":"gsbp-de0d917","styleAttributes":{"marginTop":["0px"],"marginBottom":["0px"],"color":["#1d1f21"]}} -->
+<h2 class="gsbp-de0d917" id="history">From one Calgary store to a Western Canadian network</h2>
 <!-- /wp:greenshift-blocks/element --></div>
 <!-- /wp:greenshift-blocks/element -->
 
-<!-- wp:greenshift-blocks/element {"id":"gsbp-e884ed6","inlineCssStyles":".gsbp-e884ed6{list-style:none;margin:0;padding:0;display:grid;grid-template-columns:repeat(4, 1fr);column-gap:2rem;}.gsbp-e884ed6 li{position:relative;margin:0;padding:1.75rem 0 0 0;border-top:2px solid #1d1f21;}.gsbp-e884ed6 li::before{content:\u0022\u0022;position:absolute;top:-7px;left:0;width:12px;height:12px;background-color:var(\u002d\u002dwp\u002d\u002dpreset\u002d\u002dcolor\u002d\u002dpalette-color-1, var(\u002d\u002dtheme-palette-color-1, #b11f24));}.gsbp-e884ed6 .tfgr-tl-label{margin:0 0 0.5rem 0;font-weight:700;font-size:1.5em;line-height:1.2;color:#1d1f21;}.gsbp-e884ed6 .tfgr-tl-text{margin:0;color:#3a3d40;}@media (max-width: 991.98px){.gsbp-e884ed6{grid-template-columns:repeat(2, 1fr);row-gap:2.25rem;}}@media (max-width: 575.98px){.gsbp-e884ed6{grid-template-columns:1fr;row-gap:0;}.gsbp-e884ed6 li{border-top:0;border-left:2px solid #1d1f21;padding:0 0 1.75rem 1.5rem;}.gsbp-e884ed6 li:last-child{padding-bottom:0;}.gsbp-e884ed6 li::before{top:0.35rem;left:-7px;}}","tag":"ol","type":"inner","localId":"gsbp-e884ed6","styleAttributes":{"customCSS_Extra":"{CURRENT}{list-style:none;margin:0;padding:0;display:grid;grid-template-columns:repeat(4, 1fr);column-gap:2rem;}{CURRENT} li{position:relative;margin:0;padding:1.75rem 0 0 0;border-top:2px solid #1d1f21;}{CURRENT} li::before{content:\u0022\u0022;position:absolute;top:-7px;left:0;width:12px;height:12px;background-color:var(\u002d\u002dwp\u002d\u002dpreset\u002d\u002dcolor\u002d\u002dpalette-color-1, var(\u002d\u002dtheme-palette-color-1, #b11f24));}{CURRENT} .tfgr-tl-label{margin:0 0 0.5rem 0;font-weight:700;font-size:1.5em;line-height:1.2;color:#1d1f21;}{CURRENT} .tfgr-tl-text{margin:0;color:#3a3d40;}@media (max-width: 991.98px){{CURRENT}{grid-template-columns:repeat(2, 1fr);row-gap:2.25rem;}}@media (max-width: 575.98px){{CURRENT}{grid-template-columns:1fr;row-gap:0;}{CURRENT} li{border-top:0;border-left:2px solid #1d1f21;padding:0 0 1.75rem 1.5rem;}{CURRENT} li:last-child{padding-bottom:0;}{CURRENT} li::before{top:0.35rem;left:-7px;}}"},"metadata":{"name":"Timeline"}} -->
-<ol class="gsbp-e884ed6"><!-- wp:greenshift-blocks/element {"id":"gsbp-861a19a","tag":"li","type":"inner","localId":"gsbp-861a19a"} -->
-<li><!-- wp:greenshift-blocks/element {"id":"gsbp-2b56ae6","textContent":"1979","tag":"p","className":"tfgr-tl-label","localId":"gsbp-2b56ae6"} -->
-<p class="tfgr-tl-label">1979</p>
+<!-- wp:greenshift-blocks/element {"id":"gsbp-e3f7813","inlineCssStyles":".gsbp-e3f7813{display:grid;grid-template-columns:minmax(0, 3fr) minmax(0, 2fr);column-gap:3rem;row-gap:2.25rem;align-items:start;}@media (max-width: 991.98px){.gsbp-e3f7813{grid-template-columns:1fr;}}","type":"inner","localId":"gsbp-e3f7813","styleAttributes":{"display":["grid"],"gridTemplateColumns":["minmax(0, 3fr) minmax(0, 2fr)","1fr"],"columnGap":["3rem"],"rowGap":["2.25rem"],"alignItems":["start"]},"metadata":{"name":"Two Columns"}} -->
+<div class="gsbp-e3f7813"><!-- wp:greenshift-blocks/element {"id":"gsbp-692681a","inlineCssStyles":".gsbp-692681a p{margin:0 0 1.25rem 0;color:#3a3d40;}.gsbp-692681a p:last-child{margin-bottom:0;}.gsbp-692681a .tfgr-story-lead{font-size:1.3em;line-height:1.45;color:#1d1f21;}.gsbp-692681a .tfgr-story-close{font-weight:700;color:#1d1f21;}","type":"inner","localId":"gsbp-692681a","styleAttributes":{"customCSS_Extra":"{CURRENT} p{margin:0 0 1.25rem 0;color:#3a3d40;}{CURRENT} p:last-child{margin-bottom:0;}{CURRENT} .tfgr-story-lead{font-size:1.3em;line-height:1.45;color:#1d1f21;}{CURRENT} .tfgr-story-close{font-weight:700;color:#1d1f21;}"},"metadata":{"name":"Story"}} -->
+<div class="gsbp-692681a"><!-- wp:greenshift-blocks/element {"id":"gsbp-2b56ae6","textContent":"In 1979, four friends (Mel Soloway, Jerry Miller, Ron Hall, and Moe Gagnon) opened the first Calgary Fasteners \u0026amp; Tools location.","tag":"p","className":"tfgr-story-lead","localId":"gsbp-2b56ae6"} -->
+<p class="tfgr-story-lead">In 1979, four friends (Mel Soloway, Jerry Miller, Ron Hall, and Moe Gagnon) opened the first Calgary Fasteners &amp; Tools location.</p>
 <!-- /wp:greenshift-blocks/element -->
 
-<!-- wp:greenshift-blocks/element {"id":"gsbp-418f917","textContent":"Four friends, Mel Soloway, Jerry Miller, Ron Hall and Moe Gagnon, open the first Calgary Fasteners \u0026amp; Tools location.","tag":"p","className":"tfgr-tl-text","localId":"gsbp-418f917"} -->
-<p class="tfgr-tl-text">Four friends, Mel Soloway, Jerry Miller, Ron Hall and Moe Gagnon, open the first Calgary Fasteners &amp; Tools location.</p>
-<!-- /wp:greenshift-blocks/element --></li>
+<!-- wp:greenshift-blocks/element {"id":"gsbp-418f917","textContent":"Over the years, the company grew, adding locations in Burnaby, Surrey, Kelowna, Vernon, Penticton, Kamloops, Edmonton, Red Deer, Lethbridge, Saskatoon, Winnipeg, and Brandon.","tag":"p","localId":"gsbp-418f917"} -->
+<p>Over the years, the company grew, adding locations in Burnaby, Surrey, Kelowna, Vernon, Penticton, Kamloops, Edmonton, Red Deer, Lethbridge, Saskatoon, Winnipeg, and Brandon.</p>
 <!-- /wp:greenshift-blocks/element -->
 
-<!-- wp:greenshift-blocks/element {"id":"gsbp-9a6dfd5","tag":"li","type":"inner","localId":"gsbp-9a6dfd5"} -->
-<li><!-- wp:greenshift-blocks/element {"id":"gsbp-fc05c11","textContent":"Growth","tag":"p","className":"tfgr-tl-label","localId":"gsbp-fc05c11"} -->
-<p class="tfgr-tl-label">Growth</p>
+<!-- wp:greenshift-blocks/element {"id":"gsbp-861a19a","textContent":"In 2024, The Fastener Group partnered with TriWest Capital Partners to bring our separate companies together under one unified organization. The following year, we expanded further with the acquisitions of JD Industrial Supplies in Regina and Ono Work and Safety in British Columbia.","tag":"p","localId":"gsbp-861a19a"} -->
+<p>In 2024, The Fastener Group partnered with TriWest Capital Partners to bring our separate companies together under one unified organization. The following year, we expanded further with the acquisitions of JD Industrial Supplies in Regina and Ono Work and Safety in British Columbia.</p>
 <!-- /wp:greenshift-blocks/element -->
 
-<!-- wp:greenshift-blocks/element {"id":"gsbp-692681a","textContent":"Locations follow in Burnaby, Surrey, Kelowna, Vernon, Penticton, Kamloops, Edmonton, Red Deer, Lethbridge, Saskatoon, Winnipeg and Brandon.","tag":"p","className":"tfgr-tl-text","localId":"gsbp-692681a"} -->
-<p class="tfgr-tl-text">Locations follow in Burnaby, Surrey, Kelowna, Vernon, Penticton, Kamloops, Edmonton, Red Deer, Lethbridge, Saskatoon, Winnipeg and Brandon.</p>
-<!-- /wp:greenshift-blocks/element --></li>
+<!-- wp:greenshift-blocks/element {"id":"gsbp-fc05c11","textContent":"As we continue to grow and integrate, we’re building a foundation that will make the next 50 years even stronger than the last.","tag":"p","className":"tfgr-story-close","localId":"gsbp-fc05c11"} -->
+<p class="tfgr-story-close">As we continue to grow and integrate, we’re building a foundation that will make the next 50 years even stronger than the last.</p>
+<!-- /wp:greenshift-blocks/element --></div>
 <!-- /wp:greenshift-blocks/element -->
 
-<!-- wp:greenshift-blocks/element {"id":"gsbp-15bc059","tag":"li","type":"inner","localId":"gsbp-15bc059"} -->
-<li><!-- wp:greenshift-blocks/element {"id":"gsbp-b597328","textContent":"2024","tag":"p","className":"tfgr-tl-label","localId":"gsbp-b597328"} -->
-<p class="tfgr-tl-label">2024</p>
+<!-- wp:greenshift-blocks/element {"id":"gsbp-6c4039f","inlineCssStyles":".gsbp-6c4039f{background-color:#ffffff;border:1px solid #d9d5cc;padding-top:1.5rem;padding-bottom:1.5rem;padding-left:1.5rem;padding-right:1.5rem;}@media (max-width: 575.98px){.gsbp-6c4039f{padding-left:1.25rem;padding-right:1.25rem;}}","type":"inner","localId":"gsbp-6c4039f","styleAttributes":{"backgroundColor":["#ffffff"],"border":["1px solid #d9d5cc"],"paddingTop":["1.5rem"],"paddingBottom":["1.5rem"],"paddingLeft":["1.5rem",null,null,"1.25rem"],"paddingRight":["1.5rem",null,null,"1.25rem"]},"metadata":{"name":"Milestones"}} -->
+<div class="gsbp-6c4039f"><!-- wp:greenshift-blocks/element {"id":"gsbp-9a6dfd5","inlineCssStyles":".gsbp-9a6dfd5{margin-top:0px;margin-bottom:1.25rem;font-weight:700;text-transform:uppercase;color:var(\u002d\u002dwp\u002d\u002dpreset\u002d\u002dcolor\u002d\u002dpalette-color-1, var(\u002d\u002dtheme-palette-color-1, #b11f24));}","textContent":"Milestones","tag":"p","localId":"gsbp-9a6dfd5","styleAttributes":{"marginTop":["0px"],"marginBottom":["1.25rem"],"fontWeight":["700"],"textTransform":["uppercase"],"color":["var(\u002d\u002dwp\u002d\u002dpreset\u002d\u002dcolor\u002d\u002dpalette-color-1, var(\u002d\u002dtheme-palette-color-1, #b11f24))"]}} -->
+<p class="gsbp-9a6dfd5">Milestones</p>
 <!-- /wp:greenshift-blocks/element -->
 
-<!-- wp:greenshift-blocks/element {"id":"gsbp-7bab46d","textContent":"The Fastener Group partners with TriWest Capital Partners, bringing our separate companies together as one organization.","tag":"p","className":"tfgr-tl-text","localId":"gsbp-7bab46d"} -->
-<p class="tfgr-tl-text">The Fastener Group partners with TriWest Capital Partners, bringing our separate companies together as one organization.</p>
+<!-- wp:greenshift-blocks/element {"id":"gsbp-6a252c2","inlineCssStyles":".gsbp-6a252c2{list-style:none;margin:0;padding:0;}.gsbp-6a252c2 li{position:relative;margin:0;padding:0 0 1.5rem 1.75rem;border-left:2px solid #d9d5cc;}.gsbp-6a252c2 li:last-child{padding-bottom:0;border-left-color:transparent;}.gsbp-6a252c2 li::before{content:\u0022\u0022;position:absolute;left:-7px;top:0.3rem;width:12px;height:12px;background-color:var(\u002d\u002dwp\u002d\u002dpreset\u002d\u002dcolor\u002d\u002dpalette-color-1, var(\u002d\u002dtheme-palette-color-1, #b11f24));}.gsbp-6a252c2 .tfgr-ms-label{margin:0 0 0.15rem 0;font-weight:700;color:#1d1f21;}.gsbp-6a252c2 .tfgr-ms-text{margin:0;color:#3a3d40;}","tag":"ol","type":"inner","localId":"gsbp-6a252c2","styleAttributes":{"customCSS_Extra":"{CURRENT}{list-style:none;margin:0;padding:0;}{CURRENT} li{position:relative;margin:0;padding:0 0 1.5rem 1.75rem;border-left:2px solid #d9d5cc;}{CURRENT} li:last-child{padding-bottom:0;border-left-color:transparent;}{CURRENT} li::before{content:\u0022\u0022;position:absolute;left:-7px;top:0.3rem;width:12px;height:12px;background-color:var(\u002d\u002dwp\u002d\u002dpreset\u002d\u002dcolor\u002d\u002dpalette-color-1, var(\u002d\u002dtheme-palette-color-1, #b11f24));}{CURRENT} .tfgr-ms-label{margin:0 0 0.15rem 0;font-weight:700;color:#1d1f21;}{CURRENT} .tfgr-ms-text{margin:0;color:#3a3d40;}"}} -->
+<ol class="gsbp-6a252c2"><!-- wp:greenshift-blocks/element {"id":"gsbp-15bc059","tag":"li","type":"inner","localId":"gsbp-15bc059"} -->
+<li><!-- wp:greenshift-blocks/element {"id":"gsbp-b597328","textContent":"1979","tag":"p","className":"tfgr-ms-label","localId":"gsbp-b597328"} -->
+<p class="tfgr-ms-label">1979</p>
+<!-- /wp:greenshift-blocks/element -->
+
+<!-- wp:greenshift-blocks/element {"id":"gsbp-7bab46d","textContent":"First Calgary Fasteners \u0026amp; Tools location opens","tag":"p","className":"tfgr-ms-text","localId":"gsbp-7bab46d"} -->
+<p class="tfgr-ms-text">First Calgary Fasteners &amp; Tools location opens</p>
 <!-- /wp:greenshift-blocks/element --></li>
 <!-- /wp:greenshift-blocks/element -->
 
 <!-- wp:greenshift-blocks/element {"id":"gsbp-1692a72","tag":"li","type":"inner","localId":"gsbp-1692a72"} -->
-<li><!-- wp:greenshift-blocks/element {"id":"gsbp-cd24ce6","textContent":"2025","tag":"p","className":"tfgr-tl-label","localId":"gsbp-cd24ce6"} -->
-<p class="tfgr-tl-label">2025</p>
+<li><!-- wp:greenshift-blocks/element {"id":"gsbp-cd24ce6","textContent":"Growth","tag":"p","className":"tfgr-ms-label","localId":"gsbp-cd24ce6"} -->
+<p class="tfgr-ms-label">Growth</p>
 <!-- /wp:greenshift-blocks/element -->
 
-<!-- wp:greenshift-blocks/element {"id":"gsbp-d272906","textContent":"We welcome JD Industrial Supplies in Regina and Ono Work and Safety in British Columbia.","tag":"p","className":"tfgr-tl-text","localId":"gsbp-d272906"} -->
-<p class="tfgr-tl-text">We welcome JD Industrial Supplies in Regina and Ono Work and Safety in British Columbia.</p>
+<!-- wp:greenshift-blocks/element {"id":"gsbp-d272906","textContent":"12 more locations across BC, Alberta, Saskatchewan and Manitoba","tag":"p","className":"tfgr-ms-text","localId":"gsbp-d272906"} -->
+<p class="tfgr-ms-text">12 more locations across BC, Alberta, Saskatchewan and Manitoba</p>
+<!-- /wp:greenshift-blocks/element --></li>
+<!-- /wp:greenshift-blocks/element -->
+
+<!-- wp:greenshift-blocks/element {"id":"gsbp-0fe2139","tag":"li","type":"inner","localId":"gsbp-0fe2139"} -->
+<li><!-- wp:greenshift-blocks/element {"id":"gsbp-e884ed6","textContent":"2024","tag":"p","className":"tfgr-ms-label","localId":"gsbp-e884ed6"} -->
+<p class="tfgr-ms-label">2024</p>
+<!-- /wp:greenshift-blocks/element -->
+
+<!-- wp:greenshift-blocks/element {"id":"gsbp-a651386","textContent":"Partnership with TriWest Capital Partners unites the companies","tag":"p","className":"tfgr-ms-text","localId":"gsbp-a651386"} -->
+<p class="tfgr-ms-text">Partnership with TriWest Capital Partners unites the companies</p>
+<!-- /wp:greenshift-blocks/element --></li>
+<!-- /wp:greenshift-blocks/element -->
+
+<!-- wp:greenshift-blocks/element {"id":"gsbp-8a57aa2","tag":"li","type":"inner","localId":"gsbp-8a57aa2"} -->
+<li><!-- wp:greenshift-blocks/element {"id":"gsbp-63b0c39","textContent":"2025","tag":"p","className":"tfgr-ms-label","localId":"gsbp-63b0c39"} -->
+<p class="tfgr-ms-label">2025</p>
+<!-- /wp:greenshift-blocks/element -->
+
+<!-- wp:greenshift-blocks/element {"id":"gsbp-1685090","textContent":"JD Industrial Supplies and Ono Work and Safety join the group","tag":"p","className":"tfgr-ms-text","localId":"gsbp-1685090"} -->
+<p class="tfgr-ms-text">JD Industrial Supplies and Ono Work and Safety join the group</p>
 <!-- /wp:greenshift-blocks/element --></li>
 <!-- /wp:greenshift-blocks/element --></ol>
-<!-- /wp:greenshift-blocks/element -->
-
-<!-- wp:greenshift-blocks/element {"id":"gsbp-1685090","inlineCssStyles":".gsbp-1685090{margin-top:2.25rem;margin-bottom:0px;max-width:44rem;font-weight:700;color:#1d1f21;}","textContent":"As we continue to grow and integrate, we’re building a foundation that will make the next 50 years even stronger than the last.","tag":"p","localId":"gsbp-1685090","styleAttributes":{"marginTop":["2.25rem"],"marginBottom":["0px"],"maxWidth":["44rem"],"fontWeight":["700"],"color":["#1d1f21"]}} -->
-<p class="gsbp-1685090">As we continue to grow and integrate, we’re building a foundation that will make the next 50 years even stronger than the last.</p>
+<!-- /wp:greenshift-blocks/element --></div>
+<!-- /wp:greenshift-blocks/element --></div>
 <!-- /wp:greenshift-blocks/element --></div>
 <!-- /wp:greenshift-blocks/element -->
 
-<!-- wp:greenshift-blocks/element {"id":"gsbp-5f23bf8","type":"inner","localId":"gsbp-5f23bf8","metadata":{"name":"Three Pillars"}} -->
-<div><!-- wp:greenshift-blocks/element {"id":"gsbp-35ccbd4","inlineCssStyles":".gsbp-35ccbd4{padding-bottom:1.5rem;margin-bottom:2.25rem;border-bottom:2px solid #1d1f21;}","type":"inner","localId":"gsbp-35ccbd4","styleAttributes":{"paddingBottom":["1.5rem"],"marginBottom":["2.25rem"],"borderBottom":["2px solid #1d1f21"]},"metadata":{"name":"Heading"}} -->
-<div class="gsbp-35ccbd4"><!-- wp:greenshift-blocks/element {"id":"gsbp-0a82ac5","inlineCssStyles":".gsbp-0a82ac5{margin-top:0px;margin-bottom:0.44rem;font-weight:700;text-transform:uppercase;color:var(\u002d\u002dwp\u002d\u002dpreset\u002d\u002dcolor\u002d\u002dpalette-color-1, var(\u002d\u002dtheme-palette-color-1, #b11f24));}","textContent":"What we stand for","tag":"p","localId":"gsbp-0a82ac5","styleAttributes":{"marginTop":["0px"],"marginBottom":["0.44rem"],"fontWeight":["700"],"textTransform":["uppercase"],"color":["var(\u002d\u002dwp\u002d\u002dpreset\u002d\u002dcolor\u002d\u002dpalette-color-1, var(\u002d\u002dtheme-palette-color-1, #b11f24))"]}} -->
-<p class="gsbp-0a82ac5">What we stand for</p>
+<!-- wp:greenshift-blocks/element {"id":"gsbp-9c25dbd","type":"inner","localId":"gsbp-9c25dbd","metadata":{"name":"Three Pillars"}} -->
+<div><!-- wp:greenshift-blocks/element {"id":"gsbp-cbe9d44","inlineCssStyles":".gsbp-cbe9d44{padding-bottom:1.5rem;margin-bottom:2.25rem;border-bottom:2px solid #1d1f21;}","type":"inner","localId":"gsbp-cbe9d44","styleAttributes":{"paddingBottom":["1.5rem"],"marginBottom":["2.25rem"],"borderBottom":["2px solid #1d1f21"]},"metadata":{"name":"Heading"}} -->
+<div class="gsbp-cbe9d44"><!-- wp:greenshift-blocks/element {"id":"gsbp-5f23bf8","inlineCssStyles":".gsbp-5f23bf8{margin-top:0px;margin-bottom:0.44rem;font-weight:700;text-transform:uppercase;color:var(\u002d\u002dwp\u002d\u002dpreset\u002d\u002dcolor\u002d\u002dpalette-color-1, var(\u002d\u002dtheme-palette-color-1, #b11f24));}","textContent":"What we stand for","tag":"p","localId":"gsbp-5f23bf8","styleAttributes":{"marginTop":["0px"],"marginBottom":["0.44rem"],"fontWeight":["700"],"textTransform":["uppercase"],"color":["var(\u002d\u002dwp\u002d\u002dpreset\u002d\u002dcolor\u002d\u002dpalette-color-1, var(\u002d\u002dtheme-palette-color-1, #b11f24))"]}} -->
+<p class="gsbp-5f23bf8">What we stand for</p>
 <!-- /wp:greenshift-blocks/element -->
 
-<!-- wp:greenshift-blocks/element {"id":"gsbp-a8b9f9c","inlineCssStyles":".gsbp-a8b9f9c{margin-top:0px;margin-bottom:0px;color:#1d1f21;}","textContent":"Built on three pillars","tag":"h2","localId":"gsbp-a8b9f9c","styleAttributes":{"marginTop":["0px"],"marginBottom":["0px"],"color":["#1d1f21"]}} -->
-<h2 class="gsbp-a8b9f9c">Built on three pillars</h2>
+<!-- wp:greenshift-blocks/element {"id":"gsbp-6cb8470","inlineCssStyles":".gsbp-6cb8470{margin-top:0px;margin-bottom:0px;color:#1d1f21;}","textContent":"Built on three pillars","tag":"h2","localId":"gsbp-6cb8470","styleAttributes":{"marginTop":["0px"],"marginBottom":["0px"],"color":["#1d1f21"]}} -->
+<h2 class="gsbp-6cb8470">Built on three pillars</h2>
 <!-- /wp:greenshift-blocks/element --></div>
 <!-- /wp:greenshift-blocks/element -->
 
-<!-- wp:greenshift-blocks/element {"id":"gsbp-a0c6841","inlineCssStyles":".gsbp-a0c6841{display:grid;grid-template-columns:repeat(3, 1fr);border-top:1px solid #d9d5cc;border-left:1px solid #d9d5cc;}@media (max-width: 767.98px){.gsbp-a0c6841{grid-template-columns:repeat(1, 1fr);}}.gsbp-a0c6841 .tfgr-pillar{background-color:#ffffff;border-right:1px solid #d9d5cc;border-bottom:1px solid #d9d5cc;padding:1.5rem;}.gsbp-a0c6841 .tfgr-pillar-num{margin:0 0 1rem 0;font-weight:700;color:var(\u002d\u002dwp\u002d\u002dpreset\u002d\u002dcolor\u002d\u002dpalette-color-1, var(\u002d\u002dtheme-palette-color-1, #b11f24));}.gsbp-a0c6841 .tfgr-pillar-name{margin:0 0 0.5rem 0;color:#1d1f21;}.gsbp-a0c6841 .tfgr-pillar-text{margin:0;color:#3a3d40;}@media (max-width: 575.98px){.gsbp-a0c6841 .tfgr-pillar{padding:1.25rem;}}","type":"inner","localId":"gsbp-a0c6841","styleAttributes":{"display":["grid"],"gridTemplateColumns":["repeat(3, 1fr)",null,"repeat(1, 1fr)"],"borderTop":["1px solid #d9d5cc"],"borderLeft":["1px solid #d9d5cc"],"customCSS_Extra":"{CURRENT} .tfgr-pillar{background-color:#ffffff;border-right:1px solid #d9d5cc;border-bottom:1px solid #d9d5cc;padding:1.5rem;}{CURRENT} .tfgr-pillar-num{margin:0 0 1rem 0;font-weight:700;color:var(\u002d\u002dwp\u002d\u002dpreset\u002d\u002dcolor\u002d\u002dpalette-color-1, var(\u002d\u002dtheme-palette-color-1, #b11f24));}{CURRENT} .tfgr-pillar-name{margin:0 0 0.5rem 0;color:#1d1f21;}{CURRENT} .tfgr-pillar-text{margin:0;color:#3a3d40;}@media (max-width: 575.98px){{CURRENT} .tfgr-pillar{padding:1.25rem;}}"},"metadata":{"name":"Pillars"}} -->
-<div class="gsbp-a0c6841"><!-- wp:greenshift-blocks/element {"id":"gsbp-de0d917","type":"inner","className":"tfgr-pillar","localId":"gsbp-de0d917","metadata":{"name":"Great people"}} -->
-<div class="tfgr-pillar"><!-- wp:greenshift-blocks/element {"id":"gsbp-6a252c2","textContent":"01","tag":"p","className":"tfgr-pillar-num","localId":"gsbp-6a252c2"} -->
+<!-- wp:greenshift-blocks/element {"id":"gsbp-27bd4fe","inlineCssStyles":".gsbp-27bd4fe{margin-top:0px;margin-bottom:2.25rem;max-width:52rem;color:#3a3d40;}","textContent":"The Fastener Group is built on three pillars: great people, great partners, and exceptional customer service. We believe customers buy from people, not just companies, and our staff is carefully selected to ensure knowledge, friendliness, and professionalism at every branch. We serve industrial, construction, manufacturing, and maintenance customers across Canada, providing dependable tools, fasteners, and equipment for every job.","tag":"p","localId":"gsbp-27bd4fe","styleAttributes":{"marginTop":["0px"],"marginBottom":["2.25rem"],"maxWidth":["52rem"],"color":["#3a3d40"]}} -->
+<p class="gsbp-27bd4fe">The Fastener Group is built on three pillars: great people, great partners, and exceptional customer service. We believe customers buy from people, not just companies, and our staff is carefully selected to ensure knowledge, friendliness, and professionalism at every branch. We serve industrial, construction, manufacturing, and maintenance customers across Canada, providing dependable tools, fasteners, and equipment for every job.</p>
+<!-- /wp:greenshift-blocks/element -->
+
+<!-- wp:greenshift-blocks/element {"id":"gsbp-3d08cf7","inlineCssStyles":".gsbp-3d08cf7{display:grid;grid-template-columns:repeat(3, 1fr);border-top:1px solid #d9d5cc;border-left:1px solid #d9d5cc;}@media (max-width: 767.98px){.gsbp-3d08cf7{grid-template-columns:repeat(1, 1fr);}}.gsbp-3d08cf7 .tfgr-pillar{display:flex;align-items:baseline;gap:1rem;background-color:#ffffff;border-right:1px solid #d9d5cc;border-bottom:1px solid #d9d5cc;padding:1.5rem;}.gsbp-3d08cf7 .tfgr-pillar-num{margin:0;font-weight:700;color:var(\u002d\u002dwp\u002d\u002dpreset\u002d\u002dcolor\u002d\u002dpalette-color-1, var(\u002d\u002dtheme-palette-color-1, #b11f24));}.gsbp-3d08cf7 .tfgr-pillar-name{margin:0;color:#1d1f21;}@media (max-width: 575.98px){.gsbp-3d08cf7 .tfgr-pillar{padding:1.25rem;}}","type":"inner","localId":"gsbp-3d08cf7","styleAttributes":{"display":["grid"],"gridTemplateColumns":["repeat(3, 1fr)",null,"repeat(1, 1fr)"],"borderTop":["1px solid #d9d5cc"],"borderLeft":["1px solid #d9d5cc"],"customCSS_Extra":"{CURRENT} .tfgr-pillar{display:flex;align-items:baseline;gap:1rem;background-color:#ffffff;border-right:1px solid #d9d5cc;border-bottom:1px solid #d9d5cc;padding:1.5rem;}{CURRENT} .tfgr-pillar-num{margin:0;font-weight:700;color:var(\u002d\u002dwp\u002d\u002dpreset\u002d\u002dcolor\u002d\u002dpalette-color-1, var(\u002d\u002dtheme-palette-color-1, #b11f24));}{CURRENT} .tfgr-pillar-name{margin:0;color:#1d1f21;}@media (max-width: 575.98px){{CURRENT} .tfgr-pillar{padding:1.25rem;}}"},"metadata":{"name":"Pillars"}} -->
+<div class="gsbp-3d08cf7"><!-- wp:greenshift-blocks/element {"id":"gsbp-bdde919","type":"inner","className":"tfgr-pillar","localId":"gsbp-bdde919","metadata":{"name":"Great people"}} -->
+<div class="tfgr-pillar"><!-- wp:greenshift-blocks/element {"id":"gsbp-60f5fa7","textContent":"01","tag":"p","className":"tfgr-pillar-num","localId":"gsbp-60f5fa7"} -->
 <p class="tfgr-pillar-num">01</p>
 <!-- /wp:greenshift-blocks/element -->
 
-<!-- wp:greenshift-blocks/element {"id":"gsbp-6c4039f","textContent":"Great people","tag":"h3","className":"tfgr-pillar-name","localId":"gsbp-6c4039f"} -->
+<!-- wp:greenshift-blocks/element {"id":"gsbp-170935f","textContent":"Great people","tag":"h3","className":"tfgr-pillar-name","localId":"gsbp-170935f"} -->
 <h3 class="tfgr-pillar-name">Great people</h3>
-<!-- /wp:greenshift-blocks/element -->
-
-<!-- wp:greenshift-blocks/element {"id":"gsbp-34bd41e","textContent":"Customers buy from people, not just companies. Our staff are carefully selected for their knowledge, friendliness and professionalism at every branch.","tag":"p","className":"tfgr-pillar-text","localId":"gsbp-34bd41e"} -->
-<p class="tfgr-pillar-text">Customers buy from people, not just companies. Our staff are carefully selected for their knowledge, friendliness and professionalism at every branch.</p>
 <!-- /wp:greenshift-blocks/element --></div>
 <!-- /wp:greenshift-blocks/element -->
 
-<!-- wp:greenshift-blocks/element {"id":"gsbp-60f5fa7","type":"inner","className":"tfgr-pillar","localId":"gsbp-60f5fa7","metadata":{"name":"Great partners"}} -->
-<div class="tfgr-pillar"><!-- wp:greenshift-blocks/element {"id":"gsbp-5c19be2","textContent":"02","tag":"p","className":"tfgr-pillar-num","localId":"gsbp-5c19be2"} -->
+<!-- wp:greenshift-blocks/element {"id":"gsbp-0a82ac5","type":"inner","className":"tfgr-pillar","localId":"gsbp-0a82ac5","metadata":{"name":"Great partners"}} -->
+<div class="tfgr-pillar"><!-- wp:greenshift-blocks/element {"id":"gsbp-120b943","textContent":"02","tag":"p","className":"tfgr-pillar-num","localId":"gsbp-120b943"} -->
 <p class="tfgr-pillar-num">02</p>
 <!-- /wp:greenshift-blocks/element -->
 
-<!-- wp:greenshift-blocks/element {"id":"gsbp-e3f7813","textContent":"Great partners","tag":"h3","className":"tfgr-pillar-name","localId":"gsbp-e3f7813"} -->
+<!-- wp:greenshift-blocks/element {"id":"gsbp-3cbd2f6","textContent":"Great partners","tag":"h3","className":"tfgr-pillar-name","localId":"gsbp-3cbd2f6"} -->
 <h3 class="tfgr-pillar-name">Great partners</h3>
-<!-- /wp:greenshift-blocks/element -->
-
-<!-- wp:greenshift-blocks/element {"id":"gsbp-3086550","textContent":"We work with the manufacturers our customers trust, so the tools, fasteners and equipment on our shelves are ones we can stand behind.","tag":"p","className":"tfgr-pillar-text","localId":"gsbp-3086550"} -->
-<p class="tfgr-pillar-text">We work with the manufacturers our customers trust, so the tools, fasteners and equipment on our shelves are ones we can stand behind.</p>
 <!-- /wp:greenshift-blocks/element --></div>
 <!-- /wp:greenshift-blocks/element -->
 
-<!-- wp:greenshift-blocks/element {"id":"gsbp-3cbd2f6","type":"inner","className":"tfgr-pillar","localId":"gsbp-3cbd2f6","metadata":{"name":"Exceptional customer service"}} -->
-<div class="tfgr-pillar"><!-- wp:greenshift-blocks/element {"id":"gsbp-170935f","textContent":"03","tag":"p","className":"tfgr-pillar-num","localId":"gsbp-170935f"} -->
+<!-- wp:greenshift-blocks/element {"id":"gsbp-a0c6841","type":"inner","className":"tfgr-pillar","localId":"gsbp-a0c6841","metadata":{"name":"Exceptional customer service"}} -->
+<div class="tfgr-pillar"><!-- wp:greenshift-blocks/element {"id":"gsbp-a8b9f9c","textContent":"03","tag":"p","className":"tfgr-pillar-num","localId":"gsbp-a8b9f9c"} -->
 <p class="tfgr-pillar-num">03</p>
 <!-- /wp:greenshift-blocks/element -->
 
-<!-- wp:greenshift-blocks/element {"id":"gsbp-bdde919","textContent":"Exceptional customer service","tag":"h3","className":"tfgr-pillar-name","localId":"gsbp-bdde919"} -->
+<!-- wp:greenshift-blocks/element {"id":"gsbp-35ccbd4","textContent":"Exceptional customer service","tag":"h3","className":"tfgr-pillar-name","localId":"gsbp-35ccbd4"} -->
 <h3 class="tfgr-pillar-name">Exceptional customer service</h3>
-<!-- /wp:greenshift-blocks/element -->
-
-<!-- wp:greenshift-blocks/element {"id":"gsbp-120b943","textContent":"We serve industrial, construction, manufacturing and maintenance customers across Canada with dependable supply for every job.","tag":"p","className":"tfgr-pillar-text","localId":"gsbp-120b943"} -->
-<p class="tfgr-pillar-text">We serve industrial, construction, manufacturing and maintenance customers across Canada with dependable supply for every job.</p>
 <!-- /wp:greenshift-blocks/element --></div>
 <!-- /wp:greenshift-blocks/element --></div>
 <!-- /wp:greenshift-blocks/element --></div>
 <!-- /wp:greenshift-blocks/element -->
 
-<!-- wp:greenshift-blocks/element {"id":"gsbp-443114a","type":"inner","localId":"gsbp-443114a","metadata":{"name":"Leadership Team"}} -->
-<div><!-- wp:greenshift-blocks/element {"id":"gsbp-d97890c","inlineCssStyles":".gsbp-d97890c{padding-bottom:1.5rem;margin-bottom:2.25rem;border-bottom:2px solid #1d1f21;}","type":"inner","localId":"gsbp-d97890c","styleAttributes":{"paddingBottom":["1.5rem"],"marginBottom":["2.25rem"],"borderBottom":["2px solid #1d1f21"]},"metadata":{"name":"Heading"}} -->
-<div class="gsbp-d97890c"><!-- wp:greenshift-blocks/element {"id":"gsbp-7e259f9","inlineCssStyles":".gsbp-7e259f9{margin-top:0px;margin-bottom:0.44rem;font-weight:700;text-transform:uppercase;color:var(\u002d\u002dwp\u002d\u002dpreset\u002d\u002dcolor\u002d\u002dpalette-color-1, var(\u002d\u002dtheme-palette-color-1, #b11f24));}","textContent":"Leadership","tag":"p","localId":"gsbp-7e259f9","styleAttributes":{"marginTop":["0px"],"marginBottom":["0.44rem"],"fontWeight":["700"],"textTransform":["uppercase"],"color":["var(\u002d\u002dwp\u002d\u002dpreset\u002d\u002dcolor\u002d\u002dpalette-color-1, var(\u002d\u002dtheme-palette-color-1, #b11f24))"]}} -->
-<p class="gsbp-7e259f9">Leadership</p>
+<!-- wp:greenshift-blocks/element {"id":"gsbp-097f64c","type":"inner","localId":"gsbp-097f64c","metadata":{"name":"Leadership Team"}} -->
+<div><!-- wp:greenshift-blocks/element {"id":"gsbp-ce7342f","inlineCssStyles":".gsbp-ce7342f{padding-bottom:1.5rem;margin-bottom:2.25rem;border-bottom:2px solid #1d1f21;}","type":"inner","localId":"gsbp-ce7342f","styleAttributes":{"paddingBottom":["1.5rem"],"marginBottom":["2.25rem"],"borderBottom":["2px solid #1d1f21"]},"metadata":{"name":"Heading"}} -->
+<div class="gsbp-ce7342f"><!-- wp:greenshift-blocks/element {"id":"gsbp-431dbed","inlineCssStyles":".gsbp-431dbed{margin-top:0px;margin-bottom:0.44rem;font-weight:700;text-transform:uppercase;color:var(\u002d\u002dwp\u002d\u002dpreset\u002d\u002dcolor\u002d\u002dpalette-color-1, var(\u002d\u002dtheme-palette-color-1, #b11f24));}","textContent":"Leadership","tag":"p","localId":"gsbp-431dbed","styleAttributes":{"marginTop":["0px"],"marginBottom":["0.44rem"],"fontWeight":["700"],"textTransform":["uppercase"],"color":["var(\u002d\u002dwp\u002d\u002dpreset\u002d\u002dcolor\u002d\u002dpalette-color-1, var(\u002d\u002dtheme-palette-color-1, #b11f24))"]}} -->
+<p class="gsbp-431dbed">Leadership</p>
 <!-- /wp:greenshift-blocks/element -->
 
-<!-- wp:greenshift-blocks/element {"id":"gsbp-2f470dd","anchor":"leadership","inlineCssStyles":".gsbp-2f470dd{margin-top:0px;margin-bottom:0px;color:#1d1f21;}","textContent":"Meet our leadership team","tag":"h2","localId":"gsbp-2f470dd","styleAttributes":{"marginTop":["0px"],"marginBottom":["0px"],"color":["#1d1f21"]}} -->
-<h2 class="gsbp-2f470dd" id="leadership">Meet our leadership team</h2>
+<!-- wp:greenshift-blocks/element {"id":"gsbp-2b04252","anchor":"leadership","inlineCssStyles":".gsbp-2b04252{margin-top:0px;margin-bottom:0px;color:#1d1f21;}","textContent":"Meet our leadership team","tag":"h2","localId":"gsbp-2b04252","styleAttributes":{"marginTop":["0px"],"marginBottom":["0px"],"color":["#1d1f21"]}} -->
+<h2 class="gsbp-2b04252" id="leadership">Meet our leadership team</h2>
 <!-- /wp:greenshift-blocks/element --></div>
 <!-- /wp:greenshift-blocks/element -->
 
-<!-- wp:greenshift-blocks/element {"id":"gsbp-6cb8470","inlineCssStyles":".gsbp-6cb8470{display:block;width:100%;height:auto;margin-bottom:2.25rem;}","tag":"img","localId":"gsbp-6cb8470","src":"https://thefastenergroup.com/wp-content/uploads/2026/02/LEADERSHIP-TEAM-WITH-DC-STAFF.webp","alt":"The TFG leadership team with distribution centre staff","originalWidth":1029,"originalHeight":598,"styleAttributes":{"display":["block"],"width":["100%"],"height":["auto"],"marginBottom":["2.25rem"]}} -->
-<img class="gsbp-6cb8470" src="https://thefastenergroup.com/wp-content/uploads/2026/02/LEADERSHIP-TEAM-WITH-DC-STAFF.webp" alt="The TFG leadership team with distribution centre staff" width="1029" height="598" loading="lazy"/>
+<!-- wp:greenshift-blocks/element {"id":"gsbp-a682654","inlineCssStyles":".gsbp-a682654{display:block;width:100%;height:auto;margin-bottom:2.25rem;}","tag":"img","localId":"gsbp-a682654","src":"https://thefastenergroup.com/wp-content/uploads/2026/02/LEADERSHIP-TEAM-WITH-DC-STAFF.webp","alt":"The TFG leadership team with distribution centre staff","originalWidth":1029,"originalHeight":598,"styleAttributes":{"display":["block"],"width":["100%"],"height":["auto"],"marginBottom":["2.25rem"]}} -->
+<img class="gsbp-a682654" src="https://thefastenergroup.com/wp-content/uploads/2026/02/LEADERSHIP-TEAM-WITH-DC-STAFF.webp" alt="The TFG leadership team with distribution centre staff" width="1029" height="598" loading="lazy"/>
 <!-- /wp:greenshift-blocks/element -->
 
-<!-- wp:greenshift-blocks/element {"id":"gsbp-44f6758","inlineCssStyles":".gsbp-44f6758{display:grid;grid-template-columns:repeat(4, 1fr);border-top:1px solid #d9d5cc;border-left:1px solid #d9d5cc;}@media (max-width: 991.98px){.gsbp-44f6758{grid-template-columns:repeat(3, 1fr);}}@media (max-width: 767.98px){.gsbp-44f6758{grid-template-columns:repeat(2, 1fr);}}@media (max-width: 575.98px){.gsbp-44f6758{grid-template-columns:repeat(2, 1fr);}}.gsbp-44f6758 .tfgr-leader{display:flex;flex-direction:column;background-color:#ffffff;border-right:1px solid #d9d5cc;border-bottom:1px solid #d9d5cc;padding:1.5rem;}.gsbp-44f6758 .tfgr-leader-name{margin:0 0 0.35rem 0;padding-top:1rem;border-top:3px solid var(\u002d\u002dwp\u002d\u002dpreset\u002d\u002dcolor\u002d\u002dpalette-color-1, var(\u002d\u002dtheme-palette-color-1, #b11f24));font-size:1.15em;color:#1d1f21;}.gsbp-44f6758 .tfgr-leader-title{margin:0;color:#3a3d40;}@media (max-width: 575.98px){.gsbp-44f6758 .tfgr-leader{padding:1rem;}.gsbp-44f6758 .tfgr-leader-name{font-size:1em;}}","type":"inner","localId":"gsbp-44f6758","styleAttributes":{"display":["grid"],"gridTemplateColumns":["repeat(4, 1fr)","repeat(3, 1fr)","repeat(2, 1fr)","repeat(2, 1fr)"],"borderTop":["1px solid #d9d5cc"],"borderLeft":["1px solid #d9d5cc"],"customCSS_Extra":"{CURRENT} .tfgr-leader{display:flex;flex-direction:column;background-color:#ffffff;border-right:1px solid #d9d5cc;border-bottom:1px solid #d9d5cc;padding:1.5rem;}{CURRENT} .tfgr-leader-name{margin:0 0 0.35rem 0;padding-top:1rem;border-top:3px solid var(\u002d\u002dwp\u002d\u002dpreset\u002d\u002dcolor\u002d\u002dpalette-color-1, var(\u002d\u002dtheme-palette-color-1, #b11f24));font-size:1.15em;color:#1d1f21;}{CURRENT} .tfgr-leader-title{margin:0;color:#3a3d40;}@media (max-width: 575.98px){{CURRENT} .tfgr-leader{padding:1rem;}{CURRENT} .tfgr-leader-name{font-size:1em;}}"},"metadata":{"name":"Roster"}} -->
-<div class="gsbp-44f6758"><!-- wp:greenshift-blocks/element {"id":"gsbp-3d08cf7","type":"inner","className":"tfgr-leader","localId":"gsbp-3d08cf7","metadata":{"name":"Lylle Kephart"}} -->
-<div class="tfgr-leader"><!-- wp:greenshift-blocks/element {"id":"gsbp-cbe9d44","textContent":"Lylle Kephart","tag":"h3","className":"tfgr-leader-name","localId":"gsbp-cbe9d44"} -->
+<!-- wp:greenshift-blocks/element {"id":"gsbp-1c305f8","inlineCssStyles":".gsbp-1c305f8{display:grid;grid-template-columns:repeat(4, 1fr);border-top:1px solid #d9d5cc;border-left:1px solid #d9d5cc;}@media (max-width: 991.98px){.gsbp-1c305f8{grid-template-columns:repeat(3, 1fr);}}@media (max-width: 767.98px){.gsbp-1c305f8{grid-template-columns:repeat(2, 1fr);}}@media (max-width: 575.98px){.gsbp-1c305f8{grid-template-columns:repeat(2, 1fr);}}.gsbp-1c305f8 .tfgr-leader{display:flex;flex-direction:column;background-color:#ffffff;border-right:1px solid #d9d5cc;border-bottom:1px solid #d9d5cc;}.gsbp-1c305f8 .tfgr-leader-photo{position:relative;display:flex;align-items:center;justify-content:center;aspect-ratio:4 / 5;overflow:hidden;background-color:var(\u002d\u002dwp\u002d\u002dpreset\u002d\u002dcolor\u002d\u002dpalette-color-5, var(\u002d\u002dtheme-palette-color-5, #F0F2F3));border-bottom:3px solid var(\u002d\u002dwp\u002d\u002dpreset\u002d\u002dcolor\u002d\u002dpalette-color-1, var(\u002d\u002dtheme-palette-color-1, #b11f24));}.gsbp-1c305f8 .tfgr-leader-initials{margin:0;font-size:clamp(2.25rem, 4vw, 3.25rem);font-weight:700;line-height:1;letter-spacing:0.04em;color:#1d1f21;opacity:0.8;}.gsbp-1c305f8 .tfgr-leader-photo img{position:absolute;inset:0;width:100%;height:100%;object-fit:cover;}.gsbp-1c305f8 .tfgr-leader-body{padding:1.25rem 1.5rem 1.5rem;}.gsbp-1c305f8 .tfgr-leader-name{margin:0 0 0.35rem 0;font-size:1.15em;color:#1d1f21;}.gsbp-1c305f8 .tfgr-leader-title{margin:0;color:#3a3d40;}@media (max-width: 575.98px){.gsbp-1c305f8 .tfgr-leader-body{padding:1rem;}.gsbp-1c305f8 .tfgr-leader-name{font-size:1em;}}","type":"inner","localId":"gsbp-1c305f8","styleAttributes":{"display":["grid"],"gridTemplateColumns":["repeat(4, 1fr)","repeat(3, 1fr)","repeat(2, 1fr)","repeat(2, 1fr)"],"borderTop":["1px solid #d9d5cc"],"borderLeft":["1px solid #d9d5cc"],"customCSS_Extra":"{CURRENT} .tfgr-leader{display:flex;flex-direction:column;background-color:#ffffff;border-right:1px solid #d9d5cc;border-bottom:1px solid #d9d5cc;}{CURRENT} .tfgr-leader-photo{position:relative;display:flex;align-items:center;justify-content:center;aspect-ratio:4 / 5;overflow:hidden;background-color:var(\u002d\u002dwp\u002d\u002dpreset\u002d\u002dcolor\u002d\u002dpalette-color-5, var(\u002d\u002dtheme-palette-color-5, #F0F2F3));border-bottom:3px solid var(\u002d\u002dwp\u002d\u002dpreset\u002d\u002dcolor\u002d\u002dpalette-color-1, var(\u002d\u002dtheme-palette-color-1, #b11f24));}{CURRENT} .tfgr-leader-initials{margin:0;font-size:clamp(2.25rem, 4vw, 3.25rem);font-weight:700;line-height:1;letter-spacing:0.04em;color:#1d1f21;opacity:0.8;}{CURRENT} .tfgr-leader-photo img{position:absolute;inset:0;width:100%;height:100%;object-fit:cover;}{CURRENT} .tfgr-leader-body{padding:1.25rem 1.5rem 1.5rem;}{CURRENT} .tfgr-leader-name{margin:0 0 0.35rem 0;font-size:1.15em;color:#1d1f21;}{CURRENT} .tfgr-leader-title{margin:0;color:#3a3d40;}@media (max-width: 575.98px){{CURRENT} .tfgr-leader-body{padding:1rem;}{CURRENT} .tfgr-leader-name{font-size:1em;}}"},"metadata":{"name":"Roster"}} -->
+<div class="gsbp-1c305f8"><!-- wp:greenshift-blocks/element {"id":"gsbp-9e2c54d","type":"inner","className":"tfgr-leader","localId":"gsbp-9e2c54d","metadata":{"name":"Lylle Kephart"}} -->
+<div class="tfgr-leader"><!-- wp:greenshift-blocks/element {"id":"gsbp-030a5bc","type":"inner","className":"tfgr-leader-photo","localId":"gsbp-030a5bc","metadata":{"name":"Photo"}} -->
+<div class="tfgr-leader-photo"><!-- wp:greenshift-blocks/element {"id":"gsbp-7709b55","textContent":"LK","tag":"p","className":"tfgr-leader-initials","localId":"gsbp-7709b55"} -->
+<p class="tfgr-leader-initials" aria-hidden="true">LK</p>
+<!-- /wp:greenshift-blocks/element --></div>
+<!-- /wp:greenshift-blocks/element -->
+
+<!-- wp:greenshift-blocks/element {"id":"gsbp-49d0551","type":"inner","className":"tfgr-leader-body","localId":"gsbp-49d0551"} -->
+<div class="tfgr-leader-body"><!-- wp:greenshift-blocks/element {"id":"gsbp-9facc63","textContent":"Lylle Kephart","tag":"h3","className":"tfgr-leader-name","localId":"gsbp-9facc63"} -->
 <h3 class="tfgr-leader-name">Lylle Kephart</h3>
 <!-- /wp:greenshift-blocks/element -->
 
-<!-- wp:greenshift-blocks/element {"id":"gsbp-27bd4fe","textContent":"President and CEO","tag":"p","className":"tfgr-leader-title","localId":"gsbp-27bd4fe"} -->
+<!-- wp:greenshift-blocks/element {"id":"gsbp-97a3736","textContent":"President and CEO","tag":"p","className":"tfgr-leader-title","localId":"gsbp-97a3736"} -->
 <p class="tfgr-leader-title">President and CEO</p>
+<!-- /wp:greenshift-blocks/element --></div>
 <!-- /wp:greenshift-blocks/element --></div>
 <!-- /wp:greenshift-blocks/element -->
 
-<!-- wp:greenshift-blocks/element {"id":"gsbp-431dbed","type":"inner","className":"tfgr-leader","localId":"gsbp-431dbed","metadata":{"name":"Ryan Chandler"}} -->
-<div class="tfgr-leader"><!-- wp:greenshift-blocks/element {"id":"gsbp-9c25dbd","textContent":"Ryan Chandler","tag":"h3","className":"tfgr-leader-name","localId":"gsbp-9c25dbd"} -->
+<!-- wp:greenshift-blocks/element {"id":"gsbp-78829c9","type":"inner","className":"tfgr-leader","localId":"gsbp-78829c9","metadata":{"name":"Ryan Chandler"}} -->
+<div class="tfgr-leader"><!-- wp:greenshift-blocks/element {"id":"gsbp-46dd594","type":"inner","className":"tfgr-leader-photo","localId":"gsbp-46dd594","metadata":{"name":"Photo"}} -->
+<div class="tfgr-leader-photo"><!-- wp:greenshift-blocks/element {"id":"gsbp-0154e44","textContent":"RC","tag":"p","className":"tfgr-leader-initials","localId":"gsbp-0154e44"} -->
+<p class="tfgr-leader-initials" aria-hidden="true">RC</p>
+<!-- /wp:greenshift-blocks/element --></div>
+<!-- /wp:greenshift-blocks/element -->
+
+<!-- wp:greenshift-blocks/element {"id":"gsbp-bf36250","type":"inner","className":"tfgr-leader-body","localId":"gsbp-bf36250"} -->
+<div class="tfgr-leader-body"><!-- wp:greenshift-blocks/element {"id":"gsbp-b2b0171","textContent":"Ryan Chandler","tag":"h3","className":"tfgr-leader-name","localId":"gsbp-b2b0171"} -->
 <h3 class="tfgr-leader-name">Ryan Chandler</h3>
 <!-- /wp:greenshift-blocks/element -->
 
-<!-- wp:greenshift-blocks/element {"id":"gsbp-a682654","textContent":"CFO","tag":"p","className":"tfgr-leader-title","localId":"gsbp-a682654"} -->
+<!-- wp:greenshift-blocks/element {"id":"gsbp-e18e63e","textContent":"CFO","tag":"p","className":"tfgr-leader-title","localId":"gsbp-e18e63e"} -->
 <p class="tfgr-leader-title">CFO</p>
+<!-- /wp:greenshift-blocks/element --></div>
 <!-- /wp:greenshift-blocks/element --></div>
 <!-- /wp:greenshift-blocks/element -->
 
-<!-- wp:greenshift-blocks/element {"id":"gsbp-7709b55","type":"inner","className":"tfgr-leader","localId":"gsbp-7709b55","metadata":{"name":"Brett Driver"}} -->
-<div class="tfgr-leader"><!-- wp:greenshift-blocks/element {"id":"gsbp-2b04252","textContent":"Brett Driver","tag":"h3","className":"tfgr-leader-name","localId":"gsbp-2b04252"} -->
+<!-- wp:greenshift-blocks/element {"id":"gsbp-2f470dd","type":"inner","className":"tfgr-leader","localId":"gsbp-2f470dd","metadata":{"name":"Brett Driver"}} -->
+<div class="tfgr-leader"><!-- wp:greenshift-blocks/element {"id":"gsbp-fd07361","type":"inner","className":"tfgr-leader-photo","localId":"gsbp-fd07361","metadata":{"name":"Photo"}} -->
+<div class="tfgr-leader-photo"><!-- wp:greenshift-blocks/element {"id":"gsbp-5c2f68c","textContent":"BD","tag":"p","className":"tfgr-leader-initials","localId":"gsbp-5c2f68c"} -->
+<p class="tfgr-leader-initials" aria-hidden="true">BD</p>
+<!-- /wp:greenshift-blocks/element --></div>
+<!-- /wp:greenshift-blocks/element -->
+
+<!-- wp:greenshift-blocks/element {"id":"gsbp-7e259f9","type":"inner","className":"tfgr-leader-body","localId":"gsbp-7e259f9"} -->
+<div class="tfgr-leader-body"><!-- wp:greenshift-blocks/element {"id":"gsbp-c896fff","textContent":"Brett Driver","tag":"h3","className":"tfgr-leader-name","localId":"gsbp-c896fff"} -->
 <h3 class="tfgr-leader-name">Brett Driver</h3>
 <!-- /wp:greenshift-blocks/element -->
 
-<!-- wp:greenshift-blocks/element {"id":"gsbp-ce7342f","textContent":"VP, Sales","tag":"p","className":"tfgr-leader-title","localId":"gsbp-ce7342f"} -->
+<!-- wp:greenshift-blocks/element {"id":"gsbp-47cf3d6","textContent":"VP, Sales","tag":"p","className":"tfgr-leader-title","localId":"gsbp-47cf3d6"} -->
 <p class="tfgr-leader-title">VP, Sales</p>
+<!-- /wp:greenshift-blocks/element --></div>
 <!-- /wp:greenshift-blocks/element --></div>
 <!-- /wp:greenshift-blocks/element -->
 
-<!-- wp:greenshift-blocks/element {"id":"gsbp-97a3736","type":"inner","className":"tfgr-leader","localId":"gsbp-97a3736","metadata":{"name":"John Sauer"}} -->
-<div class="tfgr-leader"><!-- wp:greenshift-blocks/element {"id":"gsbp-030a5bc","textContent":"John Sauer","tag":"h3","className":"tfgr-leader-name","localId":"gsbp-030a5bc"} -->
+<!-- wp:greenshift-blocks/element {"id":"gsbp-04a143d","type":"inner","className":"tfgr-leader","localId":"gsbp-04a143d","metadata":{"name":"John Sauer"}} -->
+<div class="tfgr-leader"><!-- wp:greenshift-blocks/element {"id":"gsbp-44f6758","type":"inner","className":"tfgr-leader-photo","localId":"gsbp-44f6758","metadata":{"name":"Photo"}} -->
+<div class="tfgr-leader-photo"><!-- wp:greenshift-blocks/element {"id":"gsbp-d97890c","textContent":"JS","tag":"p","className":"tfgr-leader-initials","localId":"gsbp-d97890c"} -->
+<p class="tfgr-leader-initials" aria-hidden="true">JS</p>
+<!-- /wp:greenshift-blocks/element --></div>
+<!-- /wp:greenshift-blocks/element -->
+
+<!-- wp:greenshift-blocks/element {"id":"gsbp-d3a74de","type":"inner","className":"tfgr-leader-body","localId":"gsbp-d3a74de"} -->
+<div class="tfgr-leader-body"><!-- wp:greenshift-blocks/element {"id":"gsbp-443114a","textContent":"John Sauer","tag":"h3","className":"tfgr-leader-name","localId":"gsbp-443114a"} -->
 <h3 class="tfgr-leader-name">John Sauer</h3>
 <!-- /wp:greenshift-blocks/element -->
 
-<!-- wp:greenshift-blocks/element {"id":"gsbp-9facc63","textContent":"VP, Branch \u0026amp; DC Operations","tag":"p","className":"tfgr-leader-title","localId":"gsbp-9facc63"} -->
+<!-- wp:greenshift-blocks/element {"id":"gsbp-99a41d1","textContent":"VP, Branch \u0026amp; DC Operations","tag":"p","className":"tfgr-leader-title","localId":"gsbp-99a41d1"} -->
 <p class="tfgr-leader-title">VP, Branch &amp; DC Operations</p>
+<!-- /wp:greenshift-blocks/element --></div>
 <!-- /wp:greenshift-blocks/element --></div>
 <!-- /wp:greenshift-blocks/element -->
 
-<!-- wp:greenshift-blocks/element {"id":"gsbp-0154e44","type":"inner","className":"tfgr-leader","localId":"gsbp-0154e44","metadata":{"name":"Justin Servedio"}} -->
-<div class="tfgr-leader"><!-- wp:greenshift-blocks/element {"id":"gsbp-49d0551","textContent":"Justin Servedio","tag":"h3","className":"tfgr-leader-name","localId":"gsbp-49d0551"} -->
+<!-- wp:greenshift-blocks/element {"id":"gsbp-aa9f919","type":"inner","className":"tfgr-leader","localId":"gsbp-aa9f919","metadata":{"name":"Justin Servedio"}} -->
+<div class="tfgr-leader"><!-- wp:greenshift-blocks/element {"id":"gsbp-f02b901","type":"inner","className":"tfgr-leader-photo","localId":"gsbp-f02b901","metadata":{"name":"Photo"}} -->
+<div class="tfgr-leader-photo"><!-- wp:greenshift-blocks/element {"id":"gsbp-ac18c2d","textContent":"JS","tag":"p","className":"tfgr-leader-initials","localId":"gsbp-ac18c2d"} -->
+<p class="tfgr-leader-initials" aria-hidden="true">JS</p>
+<!-- /wp:greenshift-blocks/element --></div>
+<!-- /wp:greenshift-blocks/element -->
+
+<!-- wp:greenshift-blocks/element {"id":"gsbp-6321556","type":"inner","className":"tfgr-leader-body","localId":"gsbp-6321556"} -->
+<div class="tfgr-leader-body"><!-- wp:greenshift-blocks/element {"id":"gsbp-a9c0e8f","textContent":"Justin Servedio","tag":"h3","className":"tfgr-leader-name","localId":"gsbp-a9c0e8f"} -->
 <h3 class="tfgr-leader-name">Justin Servedio</h3>
 <!-- /wp:greenshift-blocks/element -->
 
-<!-- wp:greenshift-blocks/element {"id":"gsbp-9e2c54d","textContent":"VP, Marketing \u0026amp; Product Management","tag":"p","className":"tfgr-leader-title","localId":"gsbp-9e2c54d"} -->
+<!-- wp:greenshift-blocks/element {"id":"gsbp-53f8c33","textContent":"VP, Marketing \u0026amp; Product Management","tag":"p","className":"tfgr-leader-title","localId":"gsbp-53f8c33"} -->
 <p class="tfgr-leader-title">VP, Marketing &amp; Product Management</p>
+<!-- /wp:greenshift-blocks/element --></div>
 <!-- /wp:greenshift-blocks/element --></div>
 <!-- /wp:greenshift-blocks/element -->
 
-<!-- wp:greenshift-blocks/element {"id":"gsbp-e18e63e","type":"inner","className":"tfgr-leader","localId":"gsbp-e18e63e","metadata":{"name":"Ryan Deck"}} -->
-<div class="tfgr-leader"><!-- wp:greenshift-blocks/element {"id":"gsbp-46dd594","textContent":"Ryan Deck","tag":"h3","className":"tfgr-leader-name","localId":"gsbp-46dd594"} -->
+<!-- wp:greenshift-blocks/element {"id":"gsbp-66ae8ae","type":"inner","className":"tfgr-leader","localId":"gsbp-66ae8ae","metadata":{"name":"Ryan Deck"}} -->
+<div class="tfgr-leader"><!-- wp:greenshift-blocks/element {"id":"gsbp-383d642","type":"inner","className":"tfgr-leader-photo","localId":"gsbp-383d642","metadata":{"name":"Photo"}} -->
+<div class="tfgr-leader-photo"><!-- wp:greenshift-blocks/element {"id":"gsbp-a8c14e5","textContent":"RD","tag":"p","className":"tfgr-leader-initials","localId":"gsbp-a8c14e5"} -->
+<p class="tfgr-leader-initials" aria-hidden="true">RD</p>
+<!-- /wp:greenshift-blocks/element --></div>
+<!-- /wp:greenshift-blocks/element -->
+
+<!-- wp:greenshift-blocks/element {"id":"gsbp-075447f","type":"inner","className":"tfgr-leader-body","localId":"gsbp-075447f"} -->
+<div class="tfgr-leader-body"><!-- wp:greenshift-blocks/element {"id":"gsbp-a724259","textContent":"Ryan Deck","tag":"h3","className":"tfgr-leader-name","localId":"gsbp-a724259"} -->
 <h3 class="tfgr-leader-name">Ryan Deck</h3>
 <!-- /wp:greenshift-blocks/element -->
 
-<!-- wp:greenshift-blocks/element {"id":"gsbp-b2b0171","textContent":"VP, Procurement","tag":"p","className":"tfgr-leader-title","localId":"gsbp-b2b0171"} -->
+<!-- wp:greenshift-blocks/element {"id":"gsbp-ff7d177","textContent":"VP, Procurement","tag":"p","className":"tfgr-leader-title","localId":"gsbp-ff7d177"} -->
 <p class="tfgr-leader-title">VP, Procurement</p>
+<!-- /wp:greenshift-blocks/element --></div>
 <!-- /wp:greenshift-blocks/element --></div>
 <!-- /wp:greenshift-blocks/element -->
 
-<!-- wp:greenshift-blocks/element {"id":"gsbp-5c2f68c","type":"inner","className":"tfgr-leader","localId":"gsbp-5c2f68c","metadata":{"name":"Sharon Kuystermans"}} -->
-<div class="tfgr-leader"><!-- wp:greenshift-blocks/element {"id":"gsbp-bf36250","textContent":"Sharon Kuystermans","tag":"h3","className":"tfgr-leader-name","localId":"gsbp-bf36250"} -->
+<!-- wp:greenshift-blocks/element {"id":"gsbp-28be961","type":"inner","className":"tfgr-leader","localId":"gsbp-28be961","metadata":{"name":"Sharon Kuystermans"}} -->
+<div class="tfgr-leader"><!-- wp:greenshift-blocks/element {"id":"gsbp-519e5e4","type":"inner","className":"tfgr-leader-photo","localId":"gsbp-519e5e4","metadata":{"name":"Photo"}} -->
+<div class="tfgr-leader-photo"><!-- wp:greenshift-blocks/element {"id":"gsbp-4856120","textContent":"SK","tag":"p","className":"tfgr-leader-initials","localId":"gsbp-4856120"} -->
+<p class="tfgr-leader-initials" aria-hidden="true">SK</p>
+<!-- /wp:greenshift-blocks/element --></div>
+<!-- /wp:greenshift-blocks/element -->
+
+<!-- wp:greenshift-blocks/element {"id":"gsbp-e7142b6","type":"inner","className":"tfgr-leader-body","localId":"gsbp-e7142b6"} -->
+<div class="tfgr-leader-body"><!-- wp:greenshift-blocks/element {"id":"gsbp-cbc0fc6","textContent":"Sharon Kuystermans","tag":"h3","className":"tfgr-leader-name","localId":"gsbp-cbc0fc6"} -->
 <h3 class="tfgr-leader-name">Sharon Kuystermans</h3>
 <!-- /wp:greenshift-blocks/element -->
 
-<!-- wp:greenshift-blocks/element {"id":"gsbp-78829c9","textContent":"Director, HR","tag":"p","className":"tfgr-leader-title","localId":"gsbp-78829c9"} -->
+<!-- wp:greenshift-blocks/element {"id":"gsbp-c0c9b35","textContent":"Director, HR","tag":"p","className":"tfgr-leader-title","localId":"gsbp-c0c9b35"} -->
 <p class="tfgr-leader-title">Director, HR</p>
+<!-- /wp:greenshift-blocks/element --></div>
 <!-- /wp:greenshift-blocks/element --></div>
 <!-- /wp:greenshift-blocks/element -->
 
-<!-- wp:greenshift-blocks/element {"id":"gsbp-47cf3d6","type":"inner","className":"tfgr-leader","localId":"gsbp-47cf3d6","metadata":{"name":"Mike Rorquist"}} -->
-<div class="tfgr-leader"><!-- wp:greenshift-blocks/element {"id":"gsbp-fd07361","textContent":"Mike Rorquist","tag":"h3","className":"tfgr-leader-name","localId":"gsbp-fd07361"} -->
+<!-- wp:greenshift-blocks/element {"id":"gsbp-5a6f2be","type":"inner","className":"tfgr-leader","localId":"gsbp-5a6f2be","metadata":{"name":"Mike Rorquist"}} -->
+<div class="tfgr-leader"><!-- wp:greenshift-blocks/element {"id":"gsbp-45afb4e","type":"inner","className":"tfgr-leader-photo","localId":"gsbp-45afb4e","metadata":{"name":"Photo"}} -->
+<div class="tfgr-leader-photo"><!-- wp:greenshift-blocks/element {"id":"gsbp-2452aed","textContent":"MR","tag":"p","className":"tfgr-leader-initials","localId":"gsbp-2452aed"} -->
+<p class="tfgr-leader-initials" aria-hidden="true">MR</p>
+<!-- /wp:greenshift-blocks/element --></div>
+<!-- /wp:greenshift-blocks/element -->
+
+<!-- wp:greenshift-blocks/element {"id":"gsbp-05d5a04","type":"inner","className":"tfgr-leader-body","localId":"gsbp-05d5a04"} -->
+<div class="tfgr-leader-body"><!-- wp:greenshift-blocks/element {"id":"gsbp-4a80457","textContent":"Mike Rorquist","tag":"h3","className":"tfgr-leader-name","localId":"gsbp-4a80457"} -->
 <h3 class="tfgr-leader-name">Mike Rorquist</h3>
 <!-- /wp:greenshift-blocks/element -->
 
-<!-- wp:greenshift-blocks/element {"id":"gsbp-c896fff","textContent":"Director, IT","tag":"p","className":"tfgr-leader-title","localId":"gsbp-c896fff"} -->
+<!-- wp:greenshift-blocks/element {"id":"gsbp-6d14559","textContent":"Director, IT","tag":"p","className":"tfgr-leader-title","localId":"gsbp-6d14559"} -->
 <p class="tfgr-leader-title">Director, IT</p>
+<!-- /wp:greenshift-blocks/element --></div>
 <!-- /wp:greenshift-blocks/element --></div>
 <!-- /wp:greenshift-blocks/element --></div>
 <!-- /wp:greenshift-blocks/element --></div>
