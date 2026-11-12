@@ -181,8 +181,8 @@
 <!-- wp:greenshift-blocks/element {"id":"gsbp-d8efb4e","inlineCssStyles":".gsbp-d8efb4e{display:grid;grid-template-columns:repeat(4, 1fr);border-top:1px solid #d9d5cc;border-left:1px solid #d9d5cc;}@media (max-width: 991.98px){.gsbp-d8efb4e{grid-template-columns:repeat(3, 1fr);}}@media (max-width: 767.98px){.gsbp-d8efb4e{grid-template-columns:repeat(2, 1fr);}}@media (max-width: 575.98px){.gsbp-d8efb4e{grid-template-columns:repeat(2, 1fr);}}.gsbp-d8efb4e .tfgr-leader{display:flex;flex-direction:column;background-color:#ffffff;border-right:1px solid #d9d5cc;border-bottom:1px solid #d9d5cc;}.gsbp-d8efb4e .tfgr-leader-photo{position:relative;display:flex;align-items:center;justify-content:center;aspect-ratio:4 / 5;overflow:hidden;background-color:var(\u002d\u002dwp\u002d\u002dpreset\u002d\u002dcolor\u002d\u002dpalette-color-5, var(\u002d\u002dtheme-palette-color-5, #F0F2F3));border-bottom:3px solid var(\u002d\u002dwp\u002d\u002dpreset\u002d\u002dcolor\u002d\u002dpalette-color-1, var(\u002d\u002dtheme-palette-color-1, #b11f24));}.gsbp-d8efb4e .tfgr-leader-initials{margin:0;font-size:clamp(2.25rem, 4vw, 3.25rem);font-weight:700;line-height:1;letter-spacing:0.04em;color:#1d1f21;opacity:0.8;}.gsbp-d8efb4e .tfgr-leader-photo img{position:absolute;inset:0;width:100%;height:100%;object-fit:cover;}.gsbp-d8efb4e .tfgr-leader-body{padding:1.25rem 1.5rem 1.5rem;}.gsbp-d8efb4e .tfgr-leader-name{margin:0 0 0.35rem 0;font-size:1.15em;color:#1d1f21;}.gsbp-d8efb4e .tfgr-leader-title{margin:0;color:#3a3d40;}@media (max-width: 575.98px){.gsbp-d8efb4e .tfgr-leader-body{padding:1rem;}.gsbp-d8efb4e .tfgr-leader-name{font-size:1em;}}","type":"inner","localId":"gsbp-d8efb4e","styleAttributes":{"display":["grid"],"gridTemplateColumns":["repeat(4, 1fr)","repeat(3, 1fr)","repeat(2, 1fr)","repeat(2, 1fr)"],"borderTop":["1px solid #d9d5cc"],"borderLeft":["1px solid #d9d5cc"],"customCSS_Extra":"{CURRENT} .tfgr-leader{display:flex;flex-direction:column;background-color:#ffffff;border-right:1px solid #d9d5cc;border-bottom:1px solid #d9d5cc;}{CURRENT} .tfgr-leader-photo{position:relative;display:flex;align-items:center;justify-content:center;aspect-ratio:4 / 5;overflow:hidden;background-color:var(\u002d\u002dwp\u002d\u002dpreset\u002d\u002dcolor\u002d\u002dpalette-color-5, var(\u002d\u002dtheme-palette-color-5, #F0F2F3));border-bottom:3px solid var(\u002d\u002dwp\u002d\u002dpreset\u002d\u002dcolor\u002d\u002dpalette-color-1, var(\u002d\u002dtheme-palette-color-1, #b11f24));}{CURRENT} .tfgr-leader-initials{margin:0;font-size:clamp(2.25rem, 4vw, 3.25rem);font-weight:700;line-height:1;letter-spacing:0.04em;color:#1d1f21;opacity:0.8;}{CURRENT} .tfgr-leader-photo img{position:absolute;inset:0;width:100%;height:100%;object-fit:cover;}{CURRENT} .tfgr-leader-body{padding:1.25rem 1.5rem 1.5rem;}{CURRENT} .tfgr-leader-name{margin:0 0 0.35rem 0;font-size:1.15em;color:#1d1f21;}{CURRENT} .tfgr-leader-title{margin:0;color:#3a3d40;}@media (max-width: 575.98px){{CURRENT} .tfgr-leader-body{padding:1rem;}{CURRENT} .tfgr-leader-name{font-size:1em;}}"},"metadata":{"name":"Roster"}} -->
 <div class="gsbp-d8efb4e"><!-- wp:greenshift-blocks/element {"id":"gsbp-46dd594","type":"inner","className":"tfgr-leader","localId":"gsbp-46dd594","metadata":{"name":"Lylle Kephart"}} -->
 <div class="tfgr-leader"><!-- wp:greenshift-blocks/element {"id":"gsbp-97a3736","type":"inner","className":"tfgr-leader-photo","localId":"gsbp-97a3736","metadata":{"name":"Photo"}} -->
-<div class="tfgr-leader-photo"><!-- wp:greenshift-blocks/element {"id":"gsbp-9facc63","tag":"img","localId":"gsbp-9facc63","src":"https://thefastenergroup.com/wp-content/uploads/2026/11/leader-lylle-kephart.webp","alt":"Lylle Kephart","originalWidth":400,"originalHeight":500} -->
-<img src="https://thefastenergroup.com/wp-content/uploads/2026/11/leader-lylle-kephart.webp" alt="Lylle Kephart" width="400" height="500" loading="lazy"/>
+<div class="tfgr-leader-photo"><!-- wp:greenshift-blocks/element {"id":"gsbp-9facc63","tag":"img","localId":"gsbp-9facc63","src":"https://thefastenergroup.com/wp-content/uploads/2026/11/tfg-leader-lylle-kephart.webp","alt":"Lylle Kephart","originalWidth":320,"originalHeight":400} -->
+<img src="https://thefastenergroup.com/wp-content/uploads/2026/11/tfg-leader-lylle-kephart.webp" alt="Lylle Kephart" width="320" height="400" loading="lazy"/>
 <!-- /wp:greenshift-blocks/element --></div>
 <!-- /wp:greenshift-blocks/element -->
 
@@ -199,8 +199,8 @@
 
 <!-- wp:greenshift-blocks/element {"id":"gsbp-fd07361","type":"inner","className":"tfgr-leader","localId":"gsbp-fd07361","metadata":{"name":"Ryan Chandler"}} -->
 <div class="tfgr-leader"><!-- wp:greenshift-blocks/element {"id":"gsbp-e18e63e","type":"inner","className":"tfgr-leader-photo","localId":"gsbp-e18e63e","metadata":{"name":"Photo"}} -->
-<div class="tfgr-leader-photo"><!-- wp:greenshift-blocks/element {"id":"gsbp-b2b0171","tag":"img","localId":"gsbp-b2b0171","src":"https://thefastenergroup.com/wp-content/uploads/2026/11/leader-ryan-chandler.webp","alt":"Ryan Chandler","originalWidth":400,"originalHeight":500} -->
-<img src="https://thefastenergroup.com/wp-content/uploads/2026/11/leader-ryan-chandler.webp" alt="Ryan Chandler" width="400" height="500" loading="lazy"/>
+<div class="tfgr-leader-photo"><!-- wp:greenshift-blocks/element {"id":"gsbp-b2b0171","tag":"img","localId":"gsbp-b2b0171","src":"https://thefastenergroup.com/wp-content/uploads/2026/11/tfg-leader-ryan-chandler.webp","alt":"Ryan Chandler","originalWidth":320,"originalHeight":400} -->
+<img src="https://thefastenergroup.com/wp-content/uploads/2026/11/tfg-leader-ryan-chandler.webp" alt="Ryan Chandler" width="320" height="400" loading="lazy"/>
 <!-- /wp:greenshift-blocks/element --></div>
 <!-- /wp:greenshift-blocks/element -->
 
@@ -217,8 +217,8 @@
 
 <!-- wp:greenshift-blocks/element {"id":"gsbp-44f6758","type":"inner","className":"tfgr-leader","localId":"gsbp-44f6758","metadata":{"name":"Brett Driver"}} -->
 <div class="tfgr-leader"><!-- wp:greenshift-blocks/element {"id":"gsbp-47cf3d6","type":"inner","className":"tfgr-leader-photo","localId":"gsbp-47cf3d6","metadata":{"name":"Photo"}} -->
-<div class="tfgr-leader-photo"><!-- wp:greenshift-blocks/element {"id":"gsbp-c896fff","tag":"img","localId":"gsbp-c896fff","src":"https://thefastenergroup.com/wp-content/uploads/2026/11/leader-brett-driver.webp","alt":"Brett Driver","originalWidth":400,"originalHeight":500} -->
-<img src="https://thefastenergroup.com/wp-content/uploads/2026/11/leader-brett-driver.webp" alt="Brett Driver" width="400" height="500" loading="lazy"/>
+<div class="tfgr-leader-photo"><!-- wp:greenshift-blocks/element {"id":"gsbp-c896fff","tag":"img","localId":"gsbp-c896fff","src":"https://thefastenergroup.com/wp-content/uploads/2026/11/tfg-leader-brett-driver.webp","alt":"Brett Driver","originalWidth":320,"originalHeight":400} -->
+<img src="https://thefastenergroup.com/wp-content/uploads/2026/11/tfg-leader-brett-driver.webp" alt="Brett Driver" width="320" height="400" loading="lazy"/>
 <!-- /wp:greenshift-blocks/element --></div>
 <!-- /wp:greenshift-blocks/element -->
 
@@ -253,8 +253,8 @@
 
 <!-- wp:greenshift-blocks/element {"id":"gsbp-383d642","type":"inner","className":"tfgr-leader","localId":"gsbp-383d642","metadata":{"name":"Justin Servedio"}} -->
 <div class="tfgr-leader"><!-- wp:greenshift-blocks/element {"id":"gsbp-53f8c33","type":"inner","className":"tfgr-leader-photo","localId":"gsbp-53f8c33","metadata":{"name":"Photo"}} -->
-<div class="tfgr-leader-photo"><!-- wp:greenshift-blocks/element {"id":"gsbp-a9c0e8f","tag":"img","localId":"gsbp-a9c0e8f","src":"https://thefastenergroup.com/wp-content/uploads/2026/11/leader-justin-servedio.webp","alt":"Justin Servedio","originalWidth":400,"originalHeight":500} -->
-<img src="https://thefastenergroup.com/wp-content/uploads/2026/11/leader-justin-servedio.webp" alt="Justin Servedio" width="400" height="500" loading="lazy"/>
+<div class="tfgr-leader-photo"><!-- wp:greenshift-blocks/element {"id":"gsbp-a9c0e8f","tag":"img","localId":"gsbp-a9c0e8f","src":"https://thefastenergroup.com/wp-content/uploads/2026/11/tfg-leader-justin-servedio.webp","alt":"Justin Servedio","originalWidth":320,"originalHeight":400} -->
+<img src="https://thefastenergroup.com/wp-content/uploads/2026/11/tfg-leader-justin-servedio.webp" alt="Justin Servedio" width="320" height="400" loading="lazy"/>
 <!-- /wp:greenshift-blocks/element --></div>
 <!-- /wp:greenshift-blocks/element -->
 
@@ -271,8 +271,8 @@
 
 <!-- wp:greenshift-blocks/element {"id":"gsbp-519e5e4","type":"inner","className":"tfgr-leader","localId":"gsbp-519e5e4","metadata":{"name":"Ryan Deck"}} -->
 <div class="tfgr-leader"><!-- wp:greenshift-blocks/element {"id":"gsbp-ff7d177","type":"inner","className":"tfgr-leader-photo","localId":"gsbp-ff7d177","metadata":{"name":"Photo"}} -->
-<div class="tfgr-leader-photo"><!-- wp:greenshift-blocks/element {"id":"gsbp-a724259","tag":"img","localId":"gsbp-a724259","src":"https://thefastenergroup.com/wp-content/uploads/2026/11/leader-ryan-deck.webp","alt":"Ryan Deck","originalWidth":400,"originalHeight":500} -->
-<img src="https://thefastenergroup.com/wp-content/uploads/2026/11/leader-ryan-deck.webp" alt="Ryan Deck" width="400" height="500" loading="lazy"/>
+<div class="tfgr-leader-photo"><!-- wp:greenshift-blocks/element {"id":"gsbp-a724259","tag":"img","localId":"gsbp-a724259","src":"https://thefastenergroup.com/wp-content/uploads/2026/11/tfg-leader-ryan-deck.webp","alt":"Ryan Deck","originalWidth":320,"originalHeight":400} -->
+<img src="https://thefastenergroup.com/wp-content/uploads/2026/11/tfg-leader-ryan-deck.webp" alt="Ryan Deck" width="320" height="400" loading="lazy"/>
 <!-- /wp:greenshift-blocks/element --></div>
 <!-- /wp:greenshift-blocks/element -->
 
@@ -289,8 +289,8 @@
 
 <!-- wp:greenshift-blocks/element {"id":"gsbp-45afb4e","type":"inner","className":"tfgr-leader","localId":"gsbp-45afb4e","metadata":{"name":"Sharon Kuystermans"}} -->
 <div class="tfgr-leader"><!-- wp:greenshift-blocks/element {"id":"gsbp-c0c9b35","type":"inner","className":"tfgr-leader-photo","localId":"gsbp-c0c9b35","metadata":{"name":"Photo"}} -->
-<div class="tfgr-leader-photo"><!-- wp:greenshift-blocks/element {"id":"gsbp-cbc0fc6","tag":"img","localId":"gsbp-cbc0fc6","src":"https://thefastenergroup.com/wp-content/uploads/2026/11/leader-sharon-kuystermans.webp","alt":"Sharon Kuystermans","originalWidth":400,"originalHeight":500} -->
-<img src="https://thefastenergroup.com/wp-content/uploads/2026/11/leader-sharon-kuystermans.webp" alt="Sharon Kuystermans" width="400" height="500" loading="lazy"/>
+<div class="tfgr-leader-photo"><!-- wp:greenshift-blocks/element {"id":"gsbp-cbc0fc6","tag":"img","localId":"gsbp-cbc0fc6","src":"https://thefastenergroup.com/wp-content/uploads/2026/11/tfg-leader-sharon-kuystermans.webp","alt":"Sharon Kuystermans","originalWidth":320,"originalHeight":400} -->
+<img src="https://thefastenergroup.com/wp-content/uploads/2026/11/tfg-leader-sharon-kuystermans.webp" alt="Sharon Kuystermans" width="320" height="400" loading="lazy"/>
 <!-- /wp:greenshift-blocks/element --></div>
 <!-- /wp:greenshift-blocks/element -->
 
@@ -307,8 +307,8 @@
 
 <!-- wp:greenshift-blocks/element {"id":"gsbp-097f64c","type":"inner","className":"tfgr-leader","localId":"gsbp-097f64c","metadata":{"name":"Mike Rorquist"}} -->
 <div class="tfgr-leader"><!-- wp:greenshift-blocks/element {"id":"gsbp-6d14559","type":"inner","className":"tfgr-leader-photo","localId":"gsbp-6d14559","metadata":{"name":"Photo"}} -->
-<div class="tfgr-leader-photo"><!-- wp:greenshift-blocks/element {"id":"gsbp-4a80457","tag":"img","localId":"gsbp-4a80457","src":"https://thefastenergroup.com/wp-content/uploads/2026/11/leader-mike-rorquist.webp","alt":"Mike Rorquist","originalWidth":400,"originalHeight":500} -->
-<img src="https://thefastenergroup.com/wp-content/uploads/2026/11/leader-mike-rorquist.webp" alt="Mike Rorquist" width="400" height="500" loading="lazy"/>
+<div class="tfgr-leader-photo"><!-- wp:greenshift-blocks/element {"id":"gsbp-4a80457","tag":"img","localId":"gsbp-4a80457","src":"https://thefastenergroup.com/wp-content/uploads/2026/11/tfg-leader-mike-rorquist.webp","alt":"Mike Rorquist","originalWidth":320,"originalHeight":400} -->
+<img src="https://thefastenergroup.com/wp-content/uploads/2026/11/tfg-leader-mike-rorquist.webp" alt="Mike Rorquist" width="320" height="400" loading="lazy"/>
 <!-- /wp:greenshift-blocks/element --></div>
 <!-- /wp:greenshift-blocks/element -->
 

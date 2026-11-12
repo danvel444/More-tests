@@ -9,7 +9,8 @@ from build_industries_page import section_heading
 PAGE_COLOUR = "#040531"  # hero only, from the live page
 PANEL_BG = "var(--wp--preset--color--palette-color-5, var(--theme-palette-color-5, #F0F2F3))"
 TEAM_PHOTO = "https://thefastenergroup.com/wp-content/uploads/2026/02/LEADERSHIP-TEAM-WITH-DC-STAFF.webp"
-# Headshots cropped from the senior leadership strip (files in about-page/headshots/),
+# Headshots from the cut-out portraits in the 2026 Forced Labour Report PDF, on transparent
+# backgrounds so the frame colour shows behind them (files in about-page/headshots/),
 # at the address WordPress gives them when uploaded in November 2026.
 HEADSHOTS = "https://thefastenergroup.com/wp-content/uploads/2026/11/"
 HAS_PHOTO = {"Lylle Kephart", "Ryan Chandler", "Brett Driver", "Ryan Deck", "Justin Servedio",
@@ -170,9 +171,9 @@ def headshot(name):
     if name not in HAS_PHOTO:
         return Block("p", text=initials(name), class_name="tfgr-leader-initials",
                      html_attrs=[("aria-hidden", "true")])
-    src = HEADSHOTS + "leader-" + name.lower().replace(" ", "-") + ".webp"
-    return Block("img", json_extra={"src": src, "alt": name, "originalWidth": 400, "originalHeight": 500},
-                 html_attrs=[("src", src), ("alt", name), ("width", "400"), ("height", "500"),
+    src = HEADSHOTS + "tfg-leader-" + name.lower().replace(" ", "-") + ".webp"
+    return Block("img", json_extra={"src": src, "alt": name, "originalWidth": 320, "originalHeight": 400},
+                 html_attrs=[("src", src), ("alt", name), ("width", "320"), ("height", "400"),
                              ("loading", "lazy")])
 
 
