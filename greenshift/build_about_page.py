@@ -2,11 +2,11 @@
 pillars, and the leadership team (group photo plus headshot profile cards).
 """
 from build_policy_blocks import (
-    ACCENT, BODY, GS_PREVIEW_CSS, INK, RULE, Block, _seed, make_hero, write,
+    ACCENT, BODY, GS_PREVIEW_CSS, INK, RULE, SOFT_WHITE, THREAD_HERO_CSS, Block, _seed, make_hero, write,
 )
 from build_industries_page import section_heading
 
-PAGE_COLOUR = "#040531"  # hero only, from the live page
+PAGE_COLOUR = "#192342"  # hero only: brand navy #090d64 at the shared hero darkness
 PANEL_BG = "var(--wp--preset--color--palette-color-5, var(--theme-palette-color-5, #F0F2F3))"
 TEAM_PHOTO = "https://thefastenergroup.com/wp-content/uploads/2026/02/LEADERSHIP-TEAM-WITH-DC-STAFF.webp"
 # Headshots from the cut-out portraits in the 2026 Forced Labour Report PDF, on transparent
@@ -225,7 +225,7 @@ def hero():
         seed="about-hero", bg=PAGE_COLOUR, caption="Since 1979", title="About Us",
         intro="A look at our history, our growth, and what continues to drive us forward.",
         buttons=[("Our history", "#history"), ("Leadership team", "#leadership")],
-        accent=ACCENT,
+        accent=ACCENT, pattern_css=THREAD_HERO_CSS, caption_color=SOFT_WHITE,
     )
 
 

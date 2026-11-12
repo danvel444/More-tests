@@ -503,6 +503,19 @@ HERO_CSS = (
     "{CURRENT} > *{position:relative;z-index:1;}"
 )
 
+# The newer hero background: fine diagonal "thread" lines fading in from the right, drawn in
+# CSS so they stay crisp at any size, and a brand-red line along the bottom edge.
+THREAD_HERO_CSS = (
+    "{CURRENT}::before{content:\"\";position:absolute;inset:0;pointer-events:none;"
+    "background:repeating-linear-gradient(115deg, rgba(255, 255, 255, 0.07) 0 1px, transparent 1px 14px);"
+    "-webkit-mask-image:linear-gradient(to left, #000 15%, transparent 70%);"
+    "mask-image:linear-gradient(to left, #000 15%, transparent 70%);}"
+    "{CURRENT}::after{content:\"\";position:absolute;left:0;right:0;bottom:0;height:4px;pointer-events:none;"
+    f"background-color:{ACCENT};}}"
+    "{CURRENT} > *{position:relative;z-index:1;}"
+)
+SOFT_WHITE = "rgba(255, 255, 255, 0.72)"  # hero label colour; red is hard to read on dark heroes
+
 
 def button_css(margin_top="2rem", arrow="\\2193", accent=HERO_ACCENT):
     return (
@@ -517,7 +530,8 @@ def button_css(margin_top="2rem", arrow="\\2193", accent=HERO_ACCENT):
     )
 
 
-def make_hero(seed, bg, caption, title, intro, buttons, accent=HERO_ACCENT):
+def make_hero(seed, bg, caption, title, intro, buttons, accent=HERO_ACCENT,
+              pattern_css=HERO_CSS, caption_color=None):
     """Full-width hero: caption, h1 and intro stacked in one left column, pattern on the right.
 
     buttons is a list of (text, href) jump links shown under the intro.
@@ -526,7 +540,7 @@ def make_hero(seed, bg, caption, title, intro, buttons, accent=HERO_ACCENT):
     children = [
         Block("p", text=caption, styles={
             "marginTop": ["0px"], "marginBottom": ["0.75rem"], "fontWeight": ["700"],
-            "textTransform": ["uppercase"], "color": [accent],
+            "textTransform": ["uppercase"], "color": [caption_color or accent],
         }),
         Block("h1", text=title, styles={
             "marginTop": ["0px"], "marginBottom": ["0px"], "color": ["#ffffff"],
@@ -560,7 +574,7 @@ def make_hero(seed, bg, caption, title, intro, buttons, accent=HERO_ACCENT):
         "paddingLeft": ["var(--wp--custom--spacing--side, min(3vw, 20px))"],
         "paddingRight": ["var(--wp--custom--spacing--side, min(3vw, 20px))"],
         "marginTop": ["0px"], "marginBottom": ["0px"],
-    }, json_extra={"isVariation": "contentcolumns"}, custom_css=HERO_CSS, children=[content])
+    }, json_extra={"isVariation": "contentcolumns"}, custom_css=pattern_css, children=[content])
 
 
 if __name__ == "__main__":
