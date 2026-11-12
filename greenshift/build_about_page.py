@@ -95,16 +95,19 @@ PILLAR_CSS = (
 # frame covers them, so headshots can be added later without changing the layout.
 ROSTER_CSS = (
     f"{{CURRENT}} .tfgr-leader{{display:flex;flex-direction:column;background-color:#ffffff;"
-    f"border-right:1px solid {RULE};border-bottom:1px solid {RULE};}}"
+    f"border-right:1px solid {RULE};border-bottom:1px solid {RULE};padding:1.5rem;}}"
+    # The source portraits are small (about 210px), so the frame stays small to keep them sharp.
     "{CURRENT} .tfgr-leader-photo{position:relative;display:flex;align-items:center;justify-content:center;"
-    f"aspect-ratio:4 / 5;overflow:hidden;background-color:{PANEL_BG};border-bottom:3px solid {ACCENT};}}"
-    f"{{CURRENT}} .tfgr-leader-initials{{margin:0;font-size:clamp(2.25rem, 4vw, 3.25rem);font-weight:700;"
+    f"width:8rem;aspect-ratio:1 / 1;overflow:hidden;margin-bottom:1.25rem;background-color:{PANEL_BG};"
+    f"border-bottom:3px solid {ACCENT};}}"
+    f"{{CURRENT}} .tfgr-leader-initials{{margin:0;font-size:2.25rem;font-weight:700;"
     f"line-height:1;letter-spacing:0.04em;color:{INK};opacity:0.8;}}"
     "{CURRENT} .tfgr-leader-photo img{position:absolute;inset:0;width:100%;height:100%;object-fit:cover;}"
-    "{CURRENT} .tfgr-leader-body{padding:1.25rem 1.5rem 1.5rem;}"
     f"{{CURRENT}} .tfgr-leader-name{{margin:0 0 0.35rem 0;font-size:1.15em;color:{INK};}}"
     f"{{CURRENT}} .tfgr-leader-title{{margin:0;color:{BODY};}}"
-    "@media (max-width: 575.98px){{CURRENT} .tfgr-leader-body{padding:1rem;}"
+    "@media (max-width: 575.98px){{CURRENT} .tfgr-leader{padding:1rem;}"
+    "{CURRENT} .tfgr-leader-photo{width:6.5rem;margin-bottom:1rem;}"
+    "{CURRENT} .tfgr-leader-initials{font-size:1.85rem;}"
     "{CURRENT} .tfgr-leader-name{font-size:1em;}}"
 )
 
@@ -171,19 +174,17 @@ def headshot(name):
     if name not in HAS_PHOTO:
         return Block("p", text=initials(name), class_name="tfgr-leader-initials",
                      html_attrs=[("aria-hidden", "true")])
-    src = HEADSHOTS + "tfg-leader-" + name.lower().replace(" ", "-") + ".webp"
-    return Block("img", json_extra={"src": src, "alt": name, "originalWidth": 320, "originalHeight": 400},
-                 html_attrs=[("src", src), ("alt", name), ("width", "320"), ("height", "400"),
+    src = HEADSHOTS + "tfg-headshot-" + name.lower().replace(" ", "-") + ".webp"
+    return Block("img", json_extra={"src": src, "alt": name, "originalWidth": 210, "originalHeight": 210},
+                 html_attrs=[("src", src), ("alt", name), ("width", "210"), ("height", "210"),
                              ("loading", "lazy")])
 
 
 def leader_card(name, title):
     return Block(class_name="tfgr-leader", name=name, children=[
         Block(class_name="tfgr-leader-photo", name="Photo", children=[headshot(name)]),
-        Block(class_name="tfgr-leader-body", children=[
-            Block("h3", text=name, class_name="tfgr-leader-name"),
-            Block("p", text=title, class_name="tfgr-leader-title", text_is_html=True),
-        ]),
+        Block("h3", text=name, class_name="tfgr-leader-name"),
+        Block("p", text=title, class_name="tfgr-leader-title", text_is_html=True),
     ])
 
 
