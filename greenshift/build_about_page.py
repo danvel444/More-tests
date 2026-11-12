@@ -35,7 +35,7 @@ LEADERS = [
     ("Lylle Kephart", "President and CEO"),
     ("Ryan Chandler", "CFO"),
     ("Brett Driver", "VP, Sales"),
-    ("Mike Hamilton", "VP, Branch &amp; DC Operations"),
+    ("John Sauer", "VP, Branch &amp; DC Operations"),
     ("Justin Servedio", "VP, Marketing &amp; Product Management"),
     ("Ryan Deck", "VP, Procurement"),
     ("Sharon Kuystermans", "Director, HR"),
