@@ -94,21 +94,24 @@ PILLAR_CSS = (
 # Profile cards. The portrait frame shows initials for now; an image placed inside the
 # frame covers them, so headshots can be added later without changing the layout.
 ROSTER_CSS = (
-    f"{{CURRENT}} .tfgr-leader{{display:flex;flex-direction:column;background-color:#ffffff;"
-    f"border-right:1px solid {RULE};border-bottom:1px solid {RULE};padding:1.5rem;}}"
+    # Portrait on the left, name and title beside it, so the small portraits don't leave
+    # empty space in wide cells.
+    f"{{CURRENT}} .tfgr-leader{{display:flex;align-items:center;gap:1.5rem;background-color:#ffffff;"
+    f"border-right:1px solid {RULE};border-bottom:1px solid {RULE};padding:1.25rem 1.5rem;}}"
     # The source portraits are small (about 210px), so the frame stays small to keep them sharp.
-    "{CURRENT} .tfgr-leader-photo{position:relative;display:flex;align-items:center;justify-content:center;"
-    f"width:8rem;aspect-ratio:1 / 1;overflow:hidden;margin-bottom:1.25rem;background-color:{PANEL_BG};"
+    "{CURRENT} .tfgr-leader-photo{position:relative;flex:0 0 auto;display:flex;align-items:center;"
+    f"justify-content:center;width:7.5rem;aspect-ratio:1 / 1;overflow:hidden;background-color:{PANEL_BG};"
     f"border-bottom:3px solid {ACCENT};}}"
-    f"{{CURRENT}} .tfgr-leader-initials{{margin:0;font-size:2.25rem;font-weight:700;"
+    f"{{CURRENT}} .tfgr-leader-initials{{margin:0;font-size:2.1rem;font-weight:700;"
     f"line-height:1;letter-spacing:0.04em;color:{INK};opacity:0.8;}}"
     "{CURRENT} .tfgr-leader-photo img{position:absolute;inset:0;width:100%;height:100%;object-fit:cover;}"
-    f"{{CURRENT}} .tfgr-leader-name{{margin:0 0 0.35rem 0;font-size:1.15em;color:{INK};}}"
+    "{CURRENT} .tfgr-leader-body{min-width:0;}"
+    f"{{CURRENT}} .tfgr-leader-name{{margin:0 0 0.35rem 0;font-size:1.2em;color:{INK};}}"
     f"{{CURRENT}} .tfgr-leader-title{{margin:0;color:{BODY};}}"
-    "@media (max-width: 575.98px){{CURRENT} .tfgr-leader{padding:1rem;}"
-    "{CURRENT} .tfgr-leader-photo{width:6.5rem;margin-bottom:1rem;}"
-    "{CURRENT} .tfgr-leader-initials{font-size:1.85rem;}"
-    "{CURRENT} .tfgr-leader-name{font-size:1em;}}"
+    "@media (max-width: 575.98px){{CURRENT} .tfgr-leader{gap:1rem;padding:1rem;}"
+    "{CURRENT} .tfgr-leader-photo{width:5.5rem;}"
+    "{CURRENT} .tfgr-leader-initials{font-size:1.6rem;}"
+    "{CURRENT} .tfgr-leader-name{font-size:1.05em;}}"
 )
 
 
@@ -183,8 +186,10 @@ def headshot(name):
 def leader_card(name, title):
     return Block(class_name="tfgr-leader", name=name, children=[
         Block(class_name="tfgr-leader-photo", name="Photo", children=[headshot(name)]),
-        Block("h3", text=name, class_name="tfgr-leader-name"),
-        Block("p", text=title, class_name="tfgr-leader-title", text_is_html=True),
+        Block(class_name="tfgr-leader-body", children=[
+            Block("h3", text=name, class_name="tfgr-leader-name"),
+            Block("p", text=title, class_name="tfgr-leader-title", text_is_html=True),
+        ]),
     ])
 
 
@@ -199,7 +204,7 @@ def leadership():
     return Block(name="Leadership Team", children=[
         section_heading("Leadership", "Meet our leadership team", anchor="leadership"),
         photo,
-        ruled_grid("Roster", ["repeat(4, 1fr)", "repeat(3, 1fr)", "repeat(2, 1fr)", "repeat(2, 1fr)"],
+        ruled_grid("Roster", ["repeat(2, 1fr)", None, None, "repeat(1, 1fr)"],
                    ROSTER_CSS, [leader_card(n, t) for n, t in LEADERS]),
     ])
 
