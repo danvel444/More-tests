@@ -32,14 +32,14 @@ MILESTONES = [
     ("2025", "JD Industrial Supplies and Ono Work and Safety join the group"),
 ]
 
-PILLARS_INTRO = (
-    "The Fastener Group is built on three pillars: great people, great partners, and exceptional "
-    "customer service. We believe customers buy from people, not just companies, and our staff is "
-    "carefully selected to ensure knowledge, friendliness, and professionalism at every branch. We "
-    "serve industrial, construction, manufacturing, and maintenance customers across Canada, "
-    "providing dependable tools, fasteners, and equipment for every job."
-)
-PILLARS = ["Great people", "Great partners", "Exceptional customer service"]
+PILLARS = [
+    ("Great people", "Customers buy from people, not just companies. Our staff are carefully "
+                     "selected for their knowledge, friendliness and professionalism at every branch."),
+    ("Great partners", "We work with the manufacturers our customers trust, so the tools, fasteners "
+                       "and equipment on our shelves are ones we can stand behind."),
+    ("Exceptional customer service", "We serve industrial, construction, manufacturing and maintenance "
+                                     "customers across Canada with dependable supply for every job."),
+]
 
 # (name, title) in the order the live page lists them.
 LEADERS = [
@@ -77,10 +77,11 @@ RAIL_CSS = (
 )
 
 PILLAR_CSS = (
-    f"{{CURRENT}} .tfgr-pillar{{display:flex;align-items:baseline;gap:1rem;background-color:#ffffff;"
-    f"border-right:1px solid {RULE};border-bottom:1px solid {RULE};padding:1.5rem;}}"
-    f"{{CURRENT}} .tfgr-pillar-num{{margin:0;font-weight:700;color:{ACCENT};}}"
-    f"{{CURRENT}} .tfgr-pillar-name{{margin:0;color:{INK};}}"
+    f"{{CURRENT}} .tfgr-pillar{{background-color:#ffffff;border-right:1px solid {RULE};border-bottom:1px solid {RULE};"
+    "padding:1.5rem;}"
+    f"{{CURRENT}} .tfgr-pillar-num{{margin:0 0 1rem 0;font-weight:700;color:{ACCENT};}}"
+    f"{{CURRENT}} .tfgr-pillar-name{{margin:0 0 0.5rem 0;color:{INK};}}"
+    f"{{CURRENT}} .tfgr-pillar-text{{margin:0;color:{BODY};}}"
     "@media (max-width: 575.98px){{CURRENT} .tfgr-pillar{padding:1.25rem;}}"
 )
 
@@ -147,12 +148,10 @@ def pillars():
     cards = [Block(class_name="tfgr-pillar", name=n, children=[
         Block("p", text=f"0{i}", class_name="tfgr-pillar-num"),
         Block("h3", text=n, class_name="tfgr-pillar-name"),
-    ]) for i, n in enumerate(PILLARS, 1)]
+        Block("p", text=t, class_name="tfgr-pillar-text"),
+    ]) for i, (n, t) in enumerate(PILLARS, 1)]
     return Block(name="Three Pillars", children=[
         section_heading("What we stand for", "Built on three pillars"),
-        Block("p", text=PILLARS_INTRO, styles={
-            "marginTop": ["0px"], "marginBottom": ["2.25rem"], "maxWidth": ["52rem"], "color": [BODY],
-        }),
         ruled_grid("Pillars", ["repeat(3, 1fr)", None, "repeat(1, 1fr)"], PILLAR_CSS, cards),
     ])
 
