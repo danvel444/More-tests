@@ -1,5 +1,5 @@
 """Build the About Us page: hero, the history story with a milestones rail, the three
-pillars, and the leadership team (group photo plus profile cards ready for headshots).
+pillars, and the leadership team (group photo plus headshot profile cards).
 """
 from build_policy_blocks import (
     ACCENT, BODY, GS_PREVIEW_CSS, INK, RULE, Block, _seed, make_hero, write,
@@ -9,6 +9,11 @@ from build_industries_page import section_heading
 PAGE_COLOUR = "#040531"  # hero only, from the live page
 PANEL_BG = "var(--wp--preset--color--palette-color-5, var(--theme-palette-color-5, #F0F2F3))"
 TEAM_PHOTO = "https://thefastenergroup.com/wp-content/uploads/2026/02/LEADERSHIP-TEAM-WITH-DC-STAFF.webp"
+# Headshots cropped from the senior leadership strip (files in about-page/headshots/),
+# at the address WordPress gives them when uploaded in November 2026.
+HEADSHOTS = "https://thefastenergroup.com/wp-content/uploads/2026/11/"
+HAS_PHOTO = {"Lylle Kephart", "Ryan Chandler", "Brett Driver", "Ryan Deck", "Justin Servedio",
+             "Sharon Kuystermans", "Mike Rorquist"}
 
 # The site's own history copy. The first paragraph is set larger as the lead.
 STORY = [
@@ -160,12 +165,20 @@ def initials(name):
     return "".join(part[0] for part in name.split()[:2]).upper()
 
 
+def headshot(name):
+    """The person's photo if we have one, otherwise their initials in the same frame."""
+    if name not in HAS_PHOTO:
+        return Block("p", text=initials(name), class_name="tfgr-leader-initials",
+                     html_attrs=[("aria-hidden", "true")])
+    src = HEADSHOTS + "leader-" + name.lower().replace(" ", "-") + ".webp"
+    return Block("img", json_extra={"src": src, "alt": name, "originalWidth": 400, "originalHeight": 500},
+                 html_attrs=[("src", src), ("alt", name), ("width", "400"), ("height", "500"),
+                             ("loading", "lazy")])
+
+
 def leader_card(name, title):
     return Block(class_name="tfgr-leader", name=name, children=[
-        Block(class_name="tfgr-leader-photo", name="Photo", children=[
-            Block("p", text=initials(name), class_name="tfgr-leader-initials",
-                  html_attrs=[("aria-hidden", "true")]),
-        ]),
+        Block(class_name="tfgr-leader-photo", name="Photo", children=[headshot(name)]),
         Block(class_name="tfgr-leader-body", children=[
             Block("h3", text=name, class_name="tfgr-leader-name"),
             Block("p", text=title, class_name="tfgr-leader-title", text_is_html=True),
