@@ -224,8 +224,8 @@
 <!-- /wp:greenshift-blocks/element -->
 
 <!-- wp:greenshift-blocks/element {"id":"gsbp-1af79ad","type":"inner","localId":"gsbp-1af79ad"} -->
-<div><!-- wp:greenshift-blocks/counter {"id":"gsbp-d9d6fe0","spacing":{"margin":{"values":{"bottom":["15px"]},"locked":false},"padding":{"values":[],"locked":false}},"typographyValue":{"textShadow":[],"size":["30px",null,null,"25px"],"customweight":"bold","line_height":["1em"]},"alignNew":["flex-start","center"],"labelalignNew":["flex-start","center"],"end":350,"duration":1,"textColor":"var(--wp--preset--color--palette-color-4, var(--theme-palette-color-4, #0f1a17))","label":"","postfix":"+","prefix":"","numspace":[0,null,null,null]} -->
-<div class="wp-block-greenshift-blocks-counter gs-counterwrap gspb_counter-id-gsbp-d9d6fe0"><div class="gs-counterdiv"><div class="gs-counter" data-start="0" data-end="350" data-duration="1" data-postfix="+">0</div></div></div>
+<div><!-- wp:greenshift-blocks/counter {"id":"gsbp-d9d6fe0","spacing":{"margin":{"values":{"bottom":["15px"]},"locked":false},"padding":{"values":[],"locked":false}},"typographyValue":{"textShadow":[],"size":["30px",null,null,"25px"],"customweight":"bold","line_height":["1em"]},"alignNew":["flex-start","center"],"labelalignNew":["flex-start","center"],"end":400,"duration":1,"textColor":"var(--wp--preset--color--palette-color-4, var(--theme-palette-color-4, #0f1a17))","label":"","postfix":"+","prefix":"","numspace":[0,null,null,null]} -->
+<div class="wp-block-greenshift-blocks-counter gs-counterwrap gspb_counter-id-gsbp-d9d6fe0"><div class="gs-counterdiv"><div class="gs-counter" data-start="0" data-end="400" data-duration="1" data-postfix="+">0</div></div></div>
 <!-- /wp:greenshift-blocks/counter -->
 
 <!-- wp:greenshift-blocks/text {"id":"gsbp-e4d6f94","textContent":"Employees working across our company today","spacing":{"margin":{"values":{"top":["0px","0px"],"bottom":["0px"]},"locked":false},"padding":{"values":[],"locked":false}},"typography":{"alignment":[null,"center"]}} -->
