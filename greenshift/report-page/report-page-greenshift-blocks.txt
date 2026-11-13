@@ -1,0 +1,133 @@
+<!-- wp:greenshift-blocks/element {"id":"gsbp-c477fe0","inlineCssStyles":".gsbp-c477fe0{display:flex;flex-direction:column;align-items:center;position:relative;overflow:hidden;background-color:#0d0e10;padding-top:190px;padding-bottom:8rem;padding-left:var(\u002d\u002dwp\u002d\u002dcustom\u002d\u002dspacing\u002d\u002dside, min(3vw, 20px));padding-right:var(\u002d\u002dwp\u002d\u002dcustom\u002d\u002dspacing\u002d\u002dside, min(3vw, 20px));margin-top:0px;margin-bottom:0px;}@media (max-width: 991.98px){.gsbp-c477fe0{padding-top:170px;}}@media (max-width: 575.98px){.gsbp-c477fe0{padding-top:140px;padding-bottom:6rem;}}.gsbp-c477fe0::before{content:\u0022\u0022;position:absolute;inset:0;pointer-events:none;background:repeating-linear-gradient(115deg, rgba(255, 255, 255, 0.07) 0 1px, transparent 1px 14px);-webkit-mask-image:linear-gradient(to left, #000 15%, transparent 70%);mask-image:linear-gradient(to left, #000 15%, transparent 70%);}.gsbp-c477fe0::after{content:\u0022\u0022;position:absolute;left:0;right:0;bottom:0;height:4px;pointer-events:none;background-color:var(\u002d\u002dwp\u002d\u002dpreset\u002d\u002dcolor\u002d\u002dpalette-color-1, var(\u002d\u002dtheme-palette-color-1, #b11f24));}.gsbp-c477fe0 \u003e *{position:relative;z-index:1;}","tag":"section","type":"inner","localId":"gsbp-c477fe0","align":"full","isVariation":"contentcolumns","styleAttributes":{"display":["flex"],"flexDirection":["column"],"alignItems":["center"],"position":["relative"],"overflow":["hidden"],"backgroundColor":["#0d0e10"],"paddingTop":["190px","170px",null,"140px"],"paddingBottom":["8rem",null,null,"6rem"],"paddingLeft":["var(\u002d\u002dwp\u002d\u002dcustom\u002d\u002dspacing\u002d\u002dside, min(3vw, 20px))"],"paddingRight":["var(\u002d\u002dwp\u002d\u002dcustom\u002d\u002dspacing\u002d\u002dside, min(3vw, 20px))"],"marginTop":["0px"],"marginBottom":["0px"],"customCSS_Extra":"{CURRENT}::before{content:\u0022\u0022;position:absolute;inset:0;pointer-events:none;background:repeating-linear-gradient(115deg, rgba(255, 255, 255, 0.07) 0 1px, transparent 1px 14px);-webkit-mask-image:linear-gradient(to left, #000 15%, transparent 70%);mask-image:linear-gradient(to left, #000 15%, transparent 70%);}{CURRENT}::after{content:\u0022\u0022;position:absolute;left:0;right:0;bottom:0;height:4px;pointer-events:none;background-color:var(\u002d\u002dwp\u002d\u002dpreset\u002d\u002dcolor\u002d\u002dpalette-color-1, var(\u002d\u002dtheme-palette-color-1, #b11f24));}{CURRENT} \u003e *{position:relative;z-index:1;}"},"metadata":{"name":"Hero"}} -->
+<section class="gsbp-c477fe0 alignfull"><!-- wp:greenshift-blocks/element {"id":"gsbp-091fab7","inlineCssStyles":".gsbp-091fab7{max-width:100%;width:var(\u002d\u002dwp\u002d\u002dstyle\u002d\u002dglobal\u002d\u002dwide-size, 1200px);}","type":"inner","localId":"gsbp-091fab7","isVariation":"contentarea","styleAttributes":{"maxWidth":["100%"],"width":["var(\u002d\u002dwp\u002d\u002dstyle\u002d\u002dglobal\u002d\u002dwide-size, 1200px)"]},"metadata":{"name":"Content Area"}} -->
+<div class="gsbp-091fab7"><!-- wp:greenshift-blocks/element {"id":"gsbp-5b77cf5","inlineCssStyles":".gsbp-5b77cf5{max-width:44rem;}","type":"inner","localId":"gsbp-5b77cf5","styleAttributes":{"maxWidth":["44rem"]},"metadata":{"name":"Hero Text"}} -->
+<div class="gsbp-5b77cf5"><!-- wp:greenshift-blocks/element {"id":"gsbp-9897d60","inlineCssStyles":".gsbp-9897d60{margin-top:0px;margin-bottom:0.75rem;font-weight:700;text-transform:uppercase;color:rgba(255, 255, 255, 0.72);}","textContent":"Bill S-211","tag":"p","localId":"gsbp-9897d60","styleAttributes":{"marginTop":["0px"],"marginBottom":["0.75rem"],"fontWeight":["700"],"textTransform":["uppercase"],"color":["rgba(255, 255, 255, 0.72)"]}} -->
+<p class="gsbp-9897d60">Bill S-211</p>
+<!-- /wp:greenshift-blocks/element -->
+
+<!-- wp:greenshift-blocks/element {"id":"gsbp-a3867dc","inlineCssStyles":".gsbp-a3867dc{margin-top:0px;margin-bottom:0px;color:#ffffff;font-size:var(\u002d\u002dwp\u002d\u002dpreset\u002d\u002dfont-size\u002d\u002dgiga, clamp(3rem, 5vw, 4.5rem));line-height:1.1;}","textContent":"Forced Labour Report","tag":"h1","localId":"gsbp-a3867dc","styleAttributes":{"marginTop":["0px"],"marginBottom":["0px"],"color":["#ffffff"],"fontSize":["var(\u002d\u002dwp\u002d\u002dpreset\u002d\u002dfont-size\u002d\u002dgiga, clamp(3rem, 5vw, 4.5rem))"],"lineHeight":["1.1"]}} -->
+<h1 class="gsbp-a3867dc">Forced Labour Report</h1>
+<!-- /wp:greenshift-blocks/element -->
+
+<!-- wp:greenshift-blocks/element {"id":"gsbp-a189b5d","inlineCssStyles":".gsbp-a189b5d{margin-top:1.25rem;margin-bottom:0px;max-width:36rem;color:rgba(255, 255, 255, 0.85);}","textContent":"Our annual report under Canada’s Fighting Against Forced Labour and Child Labour in Supply Chains Act, covering January 1 to December 31, 2025.","tag":"p","localId":"gsbp-a189b5d","styleAttributes":{"marginTop":["1.25rem"],"marginBottom":["0px"],"maxWidth":["36rem"],"color":["rgba(255, 255, 255, 0.85)"]}} -->
+<p class="gsbp-a189b5d">Our annual report under Canada’s Fighting Against Forced Labour and Child Labour in Supply Chains Act, covering January 1 to December 31, 2025.</p>
+<!-- /wp:greenshift-blocks/element -->
+
+<!-- wp:greenshift-blocks/element {"id":"gsbp-b5c55eb","inlineCssStyles":".gsbp-b5c55eb{display:inline-flex;align-items:center;gap:0.6rem;margin-top:2rem;padding:0.6rem 1.25rem;border:1px solid var(\u002d\u002dwp\u002d\u002dpreset\u002d\u002dcolor\u002d\u002dpalette-color-1, var(\u002d\u002dtheme-palette-color-1, #b11f24));color:#ffffff;font-weight:700;text-decoration:none;transition:background-color .2s,border-color .2s;}.gsbp-b5c55eb::after{content:\u0022\\2193\u0022;color:var(\u002d\u002dwp\u002d\u002dpreset\u002d\u002dcolor\u002d\u002dpalette-color-1, var(\u002d\u002dtheme-palette-color-1, #b11f24));}.gsbp-b5c55eb:hover,.gsbp-b5c55eb:focus-visible{background-color:var(\u002d\u002dwp\u002d\u002dpreset\u002d\u002dcolor\u002d\u002dpalette-color-1, var(\u002d\u002dtheme-palette-color-1, #b11f24));border-color:var(\u002d\u002dwp\u002d\u002dpreset\u002d\u002dcolor\u002d\u002dpalette-color-1, var(\u002d\u002dtheme-palette-color-1, #b11f24));color:#ffffff;}.gsbp-b5c55eb:hover::after,.gsbp-b5c55eb:focus-visible::after{color:#ffffff;}.gsbp-b5c55eb:focus-visible{outline:2px solid var(\u002d\u002dwp\u002d\u002dpreset\u002d\u002dcolor\u002d\u002dpalette-color-1, var(\u002d\u002dtheme-palette-color-1, #b11f24));outline-offset:2px;}","textContent":"Read the report","tag":"a","localId":"gsbp-b5c55eb","href":"#report","styleAttributes":{"customCSS_Extra":"{CURRENT}{display:inline-flex;align-items:center;gap:0.6rem;margin-top:2rem;padding:0.6rem 1.25rem;border:1px solid var(\u002d\u002dwp\u002d\u002dpreset\u002d\u002dcolor\u002d\u002dpalette-color-1, var(\u002d\u002dtheme-palette-color-1, #b11f24));color:#ffffff;font-weight:700;text-decoration:none;transition:background-color .2s,border-color .2s;}{CURRENT}::after{content:\u0022\\2193\u0022;color:var(\u002d\u002dwp\u002d\u002dpreset\u002d\u002dcolor\u002d\u002dpalette-color-1, var(\u002d\u002dtheme-palette-color-1, #b11f24));}{CURRENT}:hover,{CURRENT}:focus-visible{background-color:var(\u002d\u002dwp\u002d\u002dpreset\u002d\u002dcolor\u002d\u002dpalette-color-1, var(\u002d\u002dtheme-palette-color-1, #b11f24));border-color:var(\u002d\u002dwp\u002d\u002dpreset\u002d\u002dcolor\u002d\u002dpalette-color-1, var(\u002d\u002dtheme-palette-color-1, #b11f24));color:#ffffff;}{CURRENT}:hover::after,{CURRENT}:focus-visible::after{color:#ffffff;}{CURRENT}:focus-visible{outline:2px solid var(\u002d\u002dwp\u002d\u002dpreset\u002d\u002dcolor\u002d\u002dpalette-color-1, var(\u002d\u002dtheme-palette-color-1, #b11f24));outline-offset:2px;}"}} -->
+<a class="gsbp-b5c55eb" href="#report">Read the report</a>
+<!-- /wp:greenshift-blocks/element --></div>
+<!-- /wp:greenshift-blocks/element --></div>
+<!-- /wp:greenshift-blocks/element --></section>
+<!-- /wp:greenshift-blocks/element -->
+
+<!-- wp:greenshift-blocks/element {"id":"gsbp-5f739f7","inlineCssStyles":".gsbp-5f739f7{margin-top:-4rem;position:relative;z-index:2;margin-bottom:4.5rem;}@media (max-width: 575.98px){.gsbp-5f739f7{margin-top:-3rem;margin-bottom:2.25rem;}}.gsbp-5f739f7 [id]{scroll-margin-top:2rem;}","type":"inner","className":"tfgr-page","localId":"gsbp-5f739f7","styleAttributes":{"marginTop":["-4rem",null,null,"-3rem"],"position":["relative"],"zIndex":["2"],"marginBottom":["4.5rem",null,null,"2.25rem"],"customCSS_Extra":"{CURRENT} [id]{scroll-margin-top:2rem;}"},"metadata":{"name":"Report Page"}} -->
+<div class="tfgr-page gsbp-5f739f7"><!-- wp:greenshift-blocks/element {"id":"gsbp-20ca5c5","anchor":"report","inlineCssStyles":".gsbp-20ca5c5{background-color:var(\u002d\u002dwp\u002d\u002dpreset\u002d\u002dcolor\u002d\u002dpalette-color-5, var(\u002d\u002dtheme-palette-color-5, #F0F2F3));padding-top:2.25rem;padding-bottom:2.25rem;padding-left:1.5rem;padding-right:1.5rem;}@media (max-width: 575.98px){.gsbp-20ca5c5{padding-top:1.5rem;padding-bottom:1.5rem;padding-left:1rem;padding-right:1rem;}}","type":"inner","className":"tfgr-policy","localId":"gsbp-20ca5c5","styleAttributes":{"backgroundColor":["var(\u002d\u002dwp\u002d\u002dpreset\u002d\u002dcolor\u002d\u002dpalette-color-5, var(\u002d\u002dtheme-palette-color-5, #F0F2F3))"],"paddingTop":["2.25rem",null,null,"1.5rem"],"paddingBottom":["2.25rem",null,null,"1.5rem"],"paddingLeft":["1.5rem",null,null,"1rem"],"paddingRight":["1.5rem",null,null,"1rem"]},"metadata":{"name":"Forced Labour Report"}} -->
+<div class="tfgr-policy gsbp-20ca5c5" id="report"><!-- wp:greenshift-blocks/element {"id":"gsbp-9a4f52f","inlineCssStyles":".gsbp-9a4f52f{padding-bottom:1.5rem;margin-bottom:2.25rem;border-bottom:2px solid #1d1f21;}","type":"inner","localId":"gsbp-9a4f52f","styleAttributes":{"paddingBottom":["1.5rem"],"marginBottom":["2.25rem"],"borderBottom":["2px solid #1d1f21"]},"metadata":{"name":"Heading"}} -->
+<div class="gsbp-9a4f52f"><!-- wp:greenshift-blocks/element {"id":"gsbp-7f32f95","inlineCssStyles":".gsbp-7f32f95{margin-top:0px;margin-bottom:0.44rem;font-weight:700;text-transform:uppercase;color:var(\u002d\u002dwp\u002d\u002dpreset\u002d\u002dcolor\u002d\u002dpalette-color-1, var(\u002d\u002dtheme-palette-color-1, #b11f24));}","textContent":"At a glance","tag":"p","localId":"gsbp-7f32f95","styleAttributes":{"marginTop":["0px"],"marginBottom":["0.44rem"],"fontWeight":["700"],"textTransform":["uppercase"],"color":["var(\u002d\u002dwp\u002d\u002dpreset\u002d\u002dcolor\u002d\u002dpalette-color-1, var(\u002d\u002dtheme-palette-color-1, #b11f24))"]}} -->
+<p class="gsbp-7f32f95">At a glance</p>
+<!-- /wp:greenshift-blocks/element -->
+
+<!-- wp:greenshift-blocks/element {"id":"gsbp-db1000a","inlineCssStyles":".gsbp-db1000a{margin-top:0px;margin-bottom:0px;color:#1d1f21;}","textContent":"2025 reporting year","tag":"h2","localId":"gsbp-db1000a","styleAttributes":{"marginTop":["0px"],"marginBottom":["0px"],"color":["#1d1f21"]}} -->
+<h2 class="gsbp-db1000a">2025 reporting year</h2>
+<!-- /wp:greenshift-blocks/element --></div>
+<!-- /wp:greenshift-blocks/element -->
+
+<!-- wp:greenshift-blocks/element {"id":"gsbp-954f587","inlineCssStyles":".gsbp-954f587{display:grid;grid-template-columns:repeat(3, 1fr);border-top:1px solid #d9d5cc;border-left:1px solid #d9d5cc;margin-bottom:2.25rem;}@media (max-width: 767.98px){.gsbp-954f587{grid-template-columns:1fr;}}.gsbp-954f587 .tfgr-fact{background-color:#ffffff;border-right:1px solid #d9d5cc;border-bottom:1px solid #d9d5cc;padding:1.25rem 1.5rem;}.gsbp-954f587 .tfgr-fact-label{margin:0 0 0.35rem 0;font-weight:700;text-transform:uppercase;color:var(\u002d\u002dwp\u002d\u002dpreset\u002d\u002dcolor\u002d\u002dpalette-color-1, var(\u002d\u002dtheme-palette-color-1, #b11f24));}.gsbp-954f587 .tfgr-fact-value{margin:0;color:#1d1f21;}@media (max-width: 575.98px){.gsbp-954f587 .tfgr-fact{padding:1rem 1.25rem;}}","type":"inner","localId":"gsbp-954f587","styleAttributes":{"display":["grid"],"gridTemplateColumns":["repeat(3, 1fr)",null,"1fr"],"borderTop":["1px solid #d9d5cc"],"borderLeft":["1px solid #d9d5cc"],"marginBottom":["2.25rem"],"customCSS_Extra":"{CURRENT} .tfgr-fact{background-color:#ffffff;border-right:1px solid #d9d5cc;border-bottom:1px solid #d9d5cc;padding:1.25rem 1.5rem;}{CURRENT} .tfgr-fact-label{margin:0 0 0.35rem 0;font-weight:700;text-transform:uppercase;color:var(\u002d\u002dwp\u002d\u002dpreset\u002d\u002dcolor\u002d\u002dpalette-color-1, var(\u002d\u002dtheme-palette-color-1, #b11f24));}{CURRENT} .tfgr-fact-value{margin:0;color:#1d1f21;}@media (max-width: 575.98px){{CURRENT} .tfgr-fact{padding:1rem 1.25rem;}}"},"metadata":{"name":"Key Facts"}} -->
+<div class="gsbp-954f587"><!-- wp:greenshift-blocks/element {"id":"gsbp-a2d6d3c","type":"inner","className":"tfgr-fact","localId":"gsbp-a2d6d3c","metadata":{"name":"Reporting period"}} -->
+<div class="tfgr-fact"><!-- wp:greenshift-blocks/element {"id":"gsbp-4eefb3f","textContent":"Reporting period","tag":"p","className":"tfgr-fact-label","localId":"gsbp-4eefb3f"} -->
+<p class="tfgr-fact-label">Reporting period</p>
+<!-- /wp:greenshift-blocks/element -->
+
+<!-- wp:greenshift-blocks/element {"id":"gsbp-4e25002","textContent":"January 1 to December 31, 2025","tag":"p","className":"tfgr-fact-value","localId":"gsbp-4e25002"} -->
+<p class="tfgr-fact-value">January 1 to December 31, 2025</p>
+<!-- /wp:greenshift-blocks/element --></div>
+<!-- /wp:greenshift-blocks/element -->
+
+<!-- wp:greenshift-blocks/element {"id":"gsbp-fe8b8cb","type":"inner","className":"tfgr-fact","localId":"gsbp-fe8b8cb","metadata":{"name":"Legislation"}} -->
+<div class="tfgr-fact"><!-- wp:greenshift-blocks/element {"id":"gsbp-4b255d3","textContent":"Legislation","tag":"p","className":"tfgr-fact-label","localId":"gsbp-4b255d3"} -->
+<p class="tfgr-fact-label">Legislation</p>
+<!-- /wp:greenshift-blocks/element -->
+
+<!-- wp:greenshift-blocks/element {"id":"gsbp-7b42762","textContent":"Fighting Against Forced Labour and Child Labour in Supply Chains Act (Bill S-211)","tag":"p","className":"tfgr-fact-value","localId":"gsbp-7b42762"} -->
+<p class="tfgr-fact-value">Fighting Against Forced Labour and Child Labour in Supply Chains Act (Bill S-211)</p>
+<!-- /wp:greenshift-blocks/element --></div>
+<!-- /wp:greenshift-blocks/element -->
+
+<!-- wp:greenshift-blocks/element {"id":"gsbp-ef40044","type":"inner","className":"tfgr-fact","localId":"gsbp-ef40044","metadata":{"name":"Approved by"}} -->
+<div class="tfgr-fact"><!-- wp:greenshift-blocks/element {"id":"gsbp-ed91070","textContent":"Approved by","tag":"p","className":"tfgr-fact-label","localId":"gsbp-ed91070"} -->
+<p class="tfgr-fact-label">Approved by</p>
+<!-- /wp:greenshift-blocks/element -->
+
+<!-- wp:greenshift-blocks/element {"id":"gsbp-df83c8a","textContent":"Lylle Kephart, President and CEO, May 29, 2026","tag":"p","className":"tfgr-fact-value","localId":"gsbp-df83c8a"} -->
+<p class="tfgr-fact-value">Lylle Kephart, President and CEO, May 29, 2026</p>
+<!-- /wp:greenshift-blocks/element --></div>
+<!-- /wp:greenshift-blocks/element --></div>
+<!-- /wp:greenshift-blocks/element -->
+
+<!-- wp:greenshift-blocks/element {"id":"gsbp-be4a693","inlineCssStyles":".gsbp-be4a693{max-width:52rem;margin-left:auto;margin-right:auto;}","type":"inner","localId":"gsbp-be4a693","styleAttributes":{"maxWidth":["52rem"],"marginLeft":["auto"],"marginRight":["auto"]},"metadata":{"name":"Viewer"}} -->
+<div class="gsbp-be4a693"><!-- wp:greenshift-blocks/element {"id":"gsbp-06d94f4","inlineCssStyles":".gsbp-06d94f4{margin-bottom:1.5rem;}.gsbp-06d94f4{display:flex;flex-wrap:wrap;align-items:center;gap:0.5rem;}.gsbp-06d94f4 .tfgr-jump-label{margin:0 0.5rem 0 0;font-weight:700;color:#1d1f21;}.gsbp-06d94f4 a{display:inline-flex;align-items:center;justify-content:center;min-width:2.5rem;height:2.5rem;padding:0 0.75rem;border:1px solid #d9d5cc;background-color:#ffffff;color:#1d1f21;font-weight:700;text-decoration:none;transition:border-color .2s,color .2s;}.gsbp-06d94f4 a:hover,.gsbp-06d94f4 a:focus-visible{border-color:var(\u002d\u002dwp\u002d\u002dpreset\u002d\u002dcolor\u002d\u002dpalette-color-1, var(\u002d\u002dtheme-palette-color-1, #b11f24));color:var(\u002d\u002dwp\u002d\u002dpreset\u002d\u002dcolor\u002d\u002dpalette-color-1, var(\u002d\u002dtheme-palette-color-1, #b11f24));}","type":"inner","localId":"gsbp-06d94f4","styleAttributes":{"marginBottom":["1.5rem"],"customCSS_Extra":"{CURRENT}{display:flex;flex-wrap:wrap;align-items:center;gap:0.5rem;}{CURRENT} .tfgr-jump-label{margin:0 0.5rem 0 0;font-weight:700;color:#1d1f21;}{CURRENT} a{display:inline-flex;align-items:center;justify-content:center;min-width:2.5rem;height:2.5rem;padding:0 0.75rem;border:1px solid #d9d5cc;background-color:#ffffff;color:#1d1f21;font-weight:700;text-decoration:none;transition:border-color .2s,color .2s;}{CURRENT} a:hover,{CURRENT} a:focus-visible{border-color:var(\u002d\u002dwp\u002d\u002dpreset\u002d\u002dcolor\u002d\u002dpalette-color-1, var(\u002d\u002dtheme-palette-color-1, #b11f24));color:var(\u002d\u002dwp\u002d\u002dpreset\u002d\u002dcolor\u002d\u002dpalette-color-1, var(\u002d\u002dtheme-palette-color-1, #b11f24));}"},"metadata":{"name":"Page Links"}} -->
+<div class="gsbp-06d94f4"><!-- wp:greenshift-blocks/element {"id":"gsbp-82cbf9d","textContent":"Go to page","tag":"p","className":"tfgr-jump-label","localId":"gsbp-82cbf9d"} -->
+<p class="tfgr-jump-label">Go to page</p>
+<!-- /wp:greenshift-blocks/element -->
+
+<!-- wp:greenshift-blocks/element {"id":"gsbp-21a6bc0","textContent":"1","tag":"a","localId":"gsbp-21a6bc0","href":"#report-page-1"} -->
+<a href="#report-page-1" aria-label="Page 1">1</a>
+<!-- /wp:greenshift-blocks/element -->
+
+<!-- wp:greenshift-blocks/element {"id":"gsbp-46f7fae","textContent":"2","tag":"a","localId":"gsbp-46f7fae","href":"#report-page-2"} -->
+<a href="#report-page-2" aria-label="Page 2">2</a>
+<!-- /wp:greenshift-blocks/element -->
+
+<!-- wp:greenshift-blocks/element {"id":"gsbp-6ad8699","textContent":"3","tag":"a","localId":"gsbp-6ad8699","href":"#report-page-3"} -->
+<a href="#report-page-3" aria-label="Page 3">3</a>
+<!-- /wp:greenshift-blocks/element -->
+
+<!-- wp:greenshift-blocks/element {"id":"gsbp-a609260","textContent":"4","tag":"a","localId":"gsbp-a609260","href":"#report-page-4"} -->
+<a href="#report-page-4" aria-label="Page 4">4</a>
+<!-- /wp:greenshift-blocks/element --></div>
+<!-- /wp:greenshift-blocks/element --></div>
+<!-- /wp:greenshift-blocks/element -->
+
+<!-- wp:greenshift-blocks/element {"id":"gsbp-9125e57","inlineCssStyles":".gsbp-9125e57{display:flex;flex-direction:column;row-gap:2.25rem;max-width:52rem;margin-left:auto;margin-right:auto;}@media (max-width: 575.98px){.gsbp-9125e57{row-gap:1.5rem;}}","type":"inner","localId":"gsbp-9125e57","styleAttributes":{"display":["flex"],"flexDirection":["column"],"rowGap":["2.25rem",null,null,"1.5rem"],"maxWidth":["52rem"],"marginLeft":["auto"],"marginRight":["auto"]},"metadata":{"name":"Report Pages"}} -->
+<div class="gsbp-9125e57"><!-- wp:greenshift-blocks/element {"id":"gsbp-9715933","anchor":"report-page-1","type":"inner","localId":"gsbp-9715933","metadata":{"name":"Page 1"}} -->
+<div id="report-page-1"><!-- wp:greenshift-blocks/element {"id":"gsbp-ce0372e","inlineCssStyles":".gsbp-ce0372e{margin-top:0px;margin-bottom:0.5rem;font-weight:700;color:#3a3d40;}","textContent":"Page 1 of 4","tag":"p","localId":"gsbp-ce0372e","styleAttributes":{"marginTop":["0px"],"marginBottom":["0.5rem"],"fontWeight":["700"],"color":["#3a3d40"]}} -->
+<p class="gsbp-ce0372e">Page 1 of 4</p>
+<!-- /wp:greenshift-blocks/element -->
+
+<!-- wp:greenshift-blocks/element {"id":"gsbp-5e08ff3","inlineCssStyles":".gsbp-5e08ff3{display:block;width:100%;height:auto;border:1px solid #d9d5cc;background-color:#ffffff;}","tag":"img","localId":"gsbp-5e08ff3","src":"https://thefastenergroup.com/wp-content/uploads/2026/06/TFG-Forced-Labour-Report_2026__Page_1.webp","alt":"Forced Labour Report, page 1","originalWidth":1700,"originalHeight":2200,"styleAttributes":{"display":["block"],"width":["100%"],"height":["auto"],"border":["1px solid #d9d5cc"],"backgroundColor":["#ffffff"]}} -->
+<img class="gsbp-5e08ff3" src="https://thefastenergroup.com/wp-content/uploads/2026/06/TFG-Forced-Labour-Report_2026__Page_1.webp" alt="Forced Labour Report, page 1" width="1700" height="2200" loading="lazy"/>
+<!-- /wp:greenshift-blocks/element --></div>
+<!-- /wp:greenshift-blocks/element -->
+
+<!-- wp:greenshift-blocks/element {"id":"gsbp-941c4ea","anchor":"report-page-2","type":"inner","localId":"gsbp-941c4ea","metadata":{"name":"Page 2"}} -->
+<div id="report-page-2"><!-- wp:greenshift-blocks/element {"id":"gsbp-1d2ee79","inlineCssStyles":".gsbp-1d2ee79{margin-top:0px;margin-bottom:0.5rem;font-weight:700;color:#3a3d40;}","textContent":"Page 2 of 4","tag":"p","localId":"gsbp-1d2ee79","styleAttributes":{"marginTop":["0px"],"marginBottom":["0.5rem"],"fontWeight":["700"],"color":["#3a3d40"]}} -->
+<p class="gsbp-1d2ee79">Page 2 of 4</p>
+<!-- /wp:greenshift-blocks/element -->
+
+<!-- wp:greenshift-blocks/element {"id":"gsbp-933de36","inlineCssStyles":".gsbp-933de36{display:block;width:100%;height:auto;border:1px solid #d9d5cc;background-color:#ffffff;}","tag":"img","localId":"gsbp-933de36","src":"https://thefastenergroup.com/wp-content/uploads/2026/06/TFG-Forced-Labour-Report_2026__Page_2.webp","alt":"Forced Labour Report, page 2","originalWidth":1700,"originalHeight":2200,"styleAttributes":{"display":["block"],"width":["100%"],"height":["auto"],"border":["1px solid #d9d5cc"],"backgroundColor":["#ffffff"]}} -->
+<img class="gsbp-933de36" src="https://thefastenergroup.com/wp-content/uploads/2026/06/TFG-Forced-Labour-Report_2026__Page_2.webp" alt="Forced Labour Report, page 2" width="1700" height="2200" loading="lazy"/>
+<!-- /wp:greenshift-blocks/element --></div>
+<!-- /wp:greenshift-blocks/element -->
+
+<!-- wp:greenshift-blocks/element {"id":"gsbp-1ad2853","anchor":"report-page-3","type":"inner","localId":"gsbp-1ad2853","metadata":{"name":"Page 3"}} -->
+<div id="report-page-3"><!-- wp:greenshift-blocks/element {"id":"gsbp-9cae9ce","inlineCssStyles":".gsbp-9cae9ce{margin-top:0px;margin-bottom:0.5rem;font-weight:700;color:#3a3d40;}","textContent":"Page 3 of 4","tag":"p","localId":"gsbp-9cae9ce","styleAttributes":{"marginTop":["0px"],"marginBottom":["0.5rem"],"fontWeight":["700"],"color":["#3a3d40"]}} -->
+<p class="gsbp-9cae9ce">Page 3 of 4</p>
+<!-- /wp:greenshift-blocks/element -->
+
+<!-- wp:greenshift-blocks/element {"id":"gsbp-55ed12f","inlineCssStyles":".gsbp-55ed12f{display:block;width:100%;height:auto;border:1px solid #d9d5cc;background-color:#ffffff;}","tag":"img","localId":"gsbp-55ed12f","src":"https://thefastenergroup.com/wp-content/uploads/2026/06/TFG-Forced-Labour-Report_2026__Page_3.webp","alt":"Forced Labour Report, page 3","originalWidth":1700,"originalHeight":2200,"styleAttributes":{"display":["block"],"width":["100%"],"height":["auto"],"border":["1px solid #d9d5cc"],"backgroundColor":["#ffffff"]}} -->
+<img class="gsbp-55ed12f" src="https://thefastenergroup.com/wp-content/uploads/2026/06/TFG-Forced-Labour-Report_2026__Page_3.webp" alt="Forced Labour Report, page 3" width="1700" height="2200" loading="lazy"/>
+<!-- /wp:greenshift-blocks/element --></div>
+<!-- /wp:greenshift-blocks/element -->
+
+<!-- wp:greenshift-blocks/element {"id":"gsbp-00d45c8","anchor":"report-page-4","type":"inner","localId":"gsbp-00d45c8","metadata":{"name":"Page 4"}} -->
+<div id="report-page-4"><!-- wp:greenshift-blocks/element {"id":"gsbp-b4d41dd","inlineCssStyles":".gsbp-b4d41dd{margin-top:0px;margin-bottom:0.5rem;font-weight:700;color:#3a3d40;}","textContent":"Page 4 of 4","tag":"p","localId":"gsbp-b4d41dd","styleAttributes":{"marginTop":["0px"],"marginBottom":["0.5rem"],"fontWeight":["700"],"color":["#3a3d40"]}} -->
+<p class="gsbp-b4d41dd">Page 4 of 4</p>
+<!-- /wp:greenshift-blocks/element -->
+
+<!-- wp:greenshift-blocks/element {"id":"gsbp-3245915","inlineCssStyles":".gsbp-3245915{display:block;width:100%;height:auto;border:1px solid #d9d5cc;background-color:#ffffff;}","tag":"img","localId":"gsbp-3245915","src":"https://thefastenergroup.com/wp-content/uploads/2026/06/TFG-Forced-Labour-Report_2026__Page_4.webp","alt":"Forced Labour Report, page 4","originalWidth":1700,"originalHeight":2200,"styleAttributes":{"display":["block"],"width":["100%"],"height":["auto"],"border":["1px solid #d9d5cc"],"backgroundColor":["#ffffff"]}} -->
+<img class="gsbp-3245915" src="https://thefastenergroup.com/wp-content/uploads/2026/06/TFG-Forced-Labour-Report_2026__Page_4.webp" alt="Forced Labour Report, page 4" width="1700" height="2200" loading="lazy"/>
+<!-- /wp:greenshift-blocks/element --></div>
+<!-- /wp:greenshift-blocks/element --></div>
+<!-- /wp:greenshift-blocks/element --></div>
+<!-- /wp:greenshift-blocks/element --></div>
+<!-- /wp:greenshift-blocks/element -->
