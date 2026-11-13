@@ -61,7 +61,7 @@ def section_heading(caption, title, anchor=None, dark=False):
 TILE_CSS = (
     "{CURRENT} .tfgr-ind{display:flex;flex-direction:column;background-color:#ffffff;"
     f"border-right:1px solid {RULE};border-bottom:1px solid {RULE};color:{BODY};}}"
-    "{CURRENT} .tfgr-ind img{display:block;width:100%;height:auto;aspect-ratio:7 / 5;object-fit:cover;}"
+    "{CURRENT} .tfgr-ind img{display:block;width:100%;height:auto;aspect-ratio:16 / 9;object-fit:cover;}"
     "{CURRENT} .tfgr-ind-body{padding:1.25rem 1.5rem 1.5rem;}"
     f"{{CURRENT}} .tfgr-ind-name{{margin:0 0 0.5rem 0;color:{INK};}}"
     "{CURRENT} .tfgr-ind-desc{margin:0;}"
@@ -95,6 +95,7 @@ def industries_panel():
     }, children=[
         section_heading("Who we supply", "Supplying the industries that build Western Canada", anchor="industries"),
         grid,
+        Block(name="Footer", styles={"marginTop": ["1.5rem"]}, children=[closing_cta()]),
     ])
 
 
@@ -125,39 +126,57 @@ def visit_section():
     return map_section()
 
 
+CHECK3_CSS = CHECK_CSS.replace("grid-template-columns:repeat(2, 1fr);", "grid-template-columns:repeat(3, 1fr);") + (
+    "@media (max-width: 991.98px){{CURRENT}{grid-template-columns:repeat(2, 1fr);}}"
+    "@media (max-width: 767.98px){{CURRENT}{grid-template-columns:1fr;}}"
+)
+
+
 def why_section():
-    counters = (HERE / "industries-page" / "source-counters.txt").read_text()
-    checklist_card = Block(name="Everything Your Business Needs", styles={
-        "backgroundColor": ["#ffffff"], "border": [f"1px solid {RULE}"],
-        "paddingTop": ["2rem", None, None, "1.5rem"], "paddingBottom": ["2rem", None, None, "1.5rem"],
-        "paddingLeft": ["2rem", None, None, "1.25rem"], "paddingRight": ["2rem", None, None, "1.25rem"],
-    }, children=[
-        Block("h3", text="Everything Your Business Needs to Succeed", styles={
-            "marginTop": ["0px"], "marginBottom": ["1rem"], "color": [INK],
-        }),
-        Block("ul", custom_css=CHECK_CSS, children=[Block("li", text=t) for t in CHECKLIST]),
-    ])
-    stats_card = Block(name="Here to Help You Build", styles={
-        "position": ["relative"], "overflow": ["hidden"], "backgroundColor": [BRAND_RED],
-        "paddingTop": ["2rem", None, None, "1.5rem"], "paddingBottom": ["2rem", None, None, "1.5rem"],
-        "paddingLeft": ["2rem", None, None, "1.25rem"], "paddingRight": ["2rem", None, None, "1.25rem"],
-    }, custom_css=CARD_THREADS, children=[
-        Block("h3", text="We Are Here to Help You Build", styles={
-            "marginTop": ["0px"], "marginBottom": ["1rem"], "color": ["#ffffff"],
-        }),
-        Block("p", text=("With decades of experience, a wide selection of products, and trusted "
-                         "supplier partnerships, we help businesses across Western Canada work "
-                         "smarter, faster, and safer."), styles={
-            "marginTop": ["0px"], "marginBottom": ["2.25rem"], "color": ["rgba(255, 255, 255, 0.85)"],
-        }),
-        Raw(counters),
-    ])
     return Block(name="Why TFG", children=[
-        section_heading("Why TFG", "Expertise, reliable products and dedicated support"),
-        Block(name="Two Columns", styles={
-            "display": ["grid"], "gridTemplateColumns": ["repeat(2, 1fr)", "repeat(1, 1fr)"],
-            "columnGap": ["2.25rem"], "rowGap": ["2.25rem"], "alignItems": ["stretch"],
-        }, children=[checklist_card, stats_card]),
+        section_heading("Why TFG", "Everything your business needs to succeed"),
+        Block(name="Checklist Card", styles={
+            "backgroundColor": ["#ffffff"], "border": [f"1px solid {RULE}"],
+            "paddingTop": ["1.5rem", None, None, "1rem"], "paddingBottom": ["1.5rem", None, None, "1rem"],
+            "paddingLeft": ["2rem", None, None, "1.25rem"], "paddingRight": ["2rem", None, None, "1.25rem"],
+        }, children=[
+            Block("ul", custom_css=CHECK3_CSS, children=[Block("li", text=t) for t in CHECKLIST]),
+        ]),
+    ])
+
+
+# The red band under the hero. The site's own counter row (two columns that wrap to 2 x 2)
+# is laid out four across from here, so the counter blocks themselves stay unchanged.
+BAND_CSS = CARD_THREADS + (
+    "{CURRENT} .gspb_row,{CURRENT} .gspb_row__content{margin:0 !important;padding:0 !important;max-width:none !important;width:auto !important;}"
+    "{CURRENT} .gspb_row__content{display:grid !important;grid-template-columns:repeat(4, minmax(0, 1fr)) !important;"
+    "column-gap:1.5rem !important;row-gap:1.5rem !important;}"
+    "{CURRENT} .gspb_row__content > .gspb_row__col--6{width:auto !important;max-width:none !important;"
+    "flex:none !important;padding:0 !important;margin:0 !important;}"
+    "@media (max-width: 575.98px){{CURRENT} .gspb_row__content{grid-template-columns:repeat(2, minmax(0, 1fr)) !important;}}"
+)
+
+
+def stats_band():
+    counters = (HERE / "industries-page" / "source-counters.txt").read_text()
+    return Block(name="Here to Help You Build", styles={
+        "display": ["grid"], "gridTemplateColumns": ["minmax(0, 2fr) minmax(0, 3fr)", "1fr"],
+        "columnGap": ["3rem"], "rowGap": ["2rem"], "alignItems": ["center"],
+        "position": ["relative"], "overflow": ["hidden"], "backgroundColor": [BRAND_RED],
+        "paddingTop": ["2.25rem", None, None, "1.5rem"], "paddingBottom": ["2.25rem", None, None, "1.5rem"],
+        "paddingLeft": ["2.25rem", None, None, "1.25rem"], "paddingRight": ["2.25rem", None, None, "1.25rem"],
+    }, custom_css=BAND_CSS, children=[
+        Block(name="Text", children=[
+            Block("h2", text="We Are Here to Help You Build", styles={
+                "marginTop": ["0px"], "marginBottom": ["0.75rem"], "color": ["#ffffff"],
+            }),
+            Block("p", text=("With decades of experience, a wide selection of products, and trusted "
+                             "supplier partnerships, we help businesses across Western Canada work "
+                             "smarter, faster, and safer."), styles={
+                "marginTop": ["0px"], "marginBottom": ["0px"], "color": ["rgba(255, 255, 255, 0.85)"],
+            }),
+        ]),
+        Raw(counters),
     ])
 
 
@@ -195,10 +214,10 @@ def body():
     _seed["slug"], _seed["n"] = "industries", 0
     return Block(name="Industries Page", class_name="tfgr-page", styles={
         "display": ["flex"], "flexDirection": ["column"], "rowGap": ["4.5rem", "3.38rem", None, "2.25rem"],
-        # The industries panel is pulled up over the bottom of the hero.
+        # The red band is pulled up over the bottom of the hero.
         "marginTop": ["-4rem", None, None, "-3rem"], "position": ["relative"], "zIndex": ["2"],
     }, custom_css="{CURRENT} [id]{scroll-margin-top:2rem;}",
-        children=[industries_panel(), closing_cta(), why_section(), visit_section()])
+        children=[stats_band(), industries_panel(), why_section(), visit_section()])
 
 
 def hero():
