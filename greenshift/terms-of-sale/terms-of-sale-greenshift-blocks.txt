@@ -236,14 +236,6 @@ document.addEventListener('click', function (e) {
 
 <!-- wp:paragraph -->
 <p>Returned payments, dishonoured payments, or failed electronic payments may result in administrative charges, suspension of account privileges, and prepaid purchasing requirements.</p>
-<!-- /wp:paragraph -->
-
-<!-- wp:paragraph -->
-<p>Prices exclude applicable taxes, duties, tariffs, freight, shipping, handling charges, brokerage fees, environmental fees, surcharges, and other charges arising from the transaction, all of which are the responsibility of the customer.&nbsp;</p>
-<!-- /wp:paragraph -->
-
-<!-- wp:paragraph -->
-<p>TFG reserves the right to correct clerical, typographical, pricing, calculation, product, or availability errors at any time and may revise, cancel, or request customer approval of affected orders.&nbsp;</p>
 <!-- /wp:paragraph --></div></div></div>
 <!-- /wp:greenshift-blocks/accordionitem -->
 
