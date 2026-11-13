@@ -5,10 +5,11 @@ from build_policy_blocks import (
     ACCENT, BODY, GS_PREVIEW_CSS, INK, RULE, SOFT_WHITE, THREAD_HERO_CSS, Block, _seed,
     make_hero, write,
 )
-from build_industries_page import section_heading
+from build_industries_page import SOLID_BUTTON_CSS, section_heading
 
 PAGE_COLOUR = "#0d0e10"  # hero only: TFG black
 PANEL_BG = "var(--wp--preset--color--palette-color-5, var(--theme-palette-color-5, #F0F2F3))"
+PDF = "https://thefastenergroup.com/wp-content/uploads/2026/06/TFG-Forced-Labour-Report_2026_WEB.pdf"
 PAGES = [
     "https://thefastenergroup.com/wp-content/uploads/2026/06/TFG-Forced-Labour-Report_2026__Page_1.webp",
     "https://thefastenergroup.com/wp-content/uploads/2026/06/TFG-Forced-Labour-Report_2026__Page_2.webp",
@@ -38,6 +39,7 @@ JUMP_CSS = (
     f"padding:0 0.75rem;border:1px solid {RULE};background-color:#ffffff;color:{INK};font-weight:700;"
     "text-decoration:none;transition:border-color .2s,color .2s;}"
     f"{{CURRENT}} a:hover,{{CURRENT}} a:focus-visible{{border-color:{ACCENT};color:{ACCENT};}}"
+    "@media (max-width: 575.98px){{CURRENT} .tfgr-jump-label{flex-basis:100%;margin:0;}{CURRENT} a{flex:1 1 0;min-width:0;padding:0;}}"
 )
 
 
@@ -55,7 +57,7 @@ def facts():
 
 
 def jump_links():
-    return Block(name="Page Links", custom_css=JUMP_CSS, styles={"marginBottom": ["1.5rem"]}, children=[
+    return Block(name="Page Links", custom_css=JUMP_CSS, children=[
         Block("p", text="Go to page", class_name="tfgr-jump-label"),
         *[Block("a", text=str(i), href=f"#report-page-{i}",
                 html_attrs=[("aria-label", f"Page {i}")]) for i in range(1, len(PAGES) + 1)],
@@ -91,8 +93,15 @@ def panel():
     }, children=[
         section_heading("At a glance", "2025 reporting year"),
         facts(),
-        Block(name="Viewer", styles={"maxWidth": ["52rem"], "marginLeft": ["auto"], "marginRight": ["auto"]},
-              children=[jump_links()]),
+        Block(name="Viewer Bar", styles={
+            "display": ["flex"], "flexWrap": ["wrap"], "alignItems": ["center"], "justifyContent": ["space-between"],
+            "columnGap": ["1.5rem"], "rowGap": ["1rem"], "marginBottom": ["1.5rem"],
+            "maxWidth": ["52rem"], "marginLeft": ["auto"], "marginRight": ["auto"],
+        }, children=[
+            jump_links(),
+            Block("a", text="Download PDF", href=PDF, custom_css=SOLID_BUTTON_CSS.replace('"\\2192"', '"\\2193"'),
+                  html_attrs=[("download", "")]),
+        ]),
         report_pages(),
     ])
 
