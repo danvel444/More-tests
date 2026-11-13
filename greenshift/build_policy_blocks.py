@@ -18,8 +18,8 @@ BODY = "#3a3d40"
 # The theme's brand red (palette colour 1).
 ACCENT = "var(--wp--preset--color--palette-color-1, var(--theme-palette-color-1, #b11f24))"
 RULE = "#d9d5cc"
-PAPER = "#faf8f4"
-NUM_BG = "#f1ede5"
+PAPER = "var(--wp--preset--color--palette-color-5, var(--theme-palette-color-5, #F0F2F3))"  # panel
+NUM_BG = "#e6e9eb"  # number column, a step darker than the panel
 
 VOID_TAGS = {"img"}
 
@@ -325,7 +325,7 @@ RETURNS = {
     "terms": [
     ("01", "Items purchased from The Fastener Group Ltd. (TFG) may be returned or exchanged within 30 days of the invoice date at any TFG location, unless they are final sale.", []),
     ("02", "A valid proof of purchase is required to qualify for a refund or exchange.", []),
-    ("03", "Returned items must be unused, undamaged, in original packaging, and in saleable condition.", []),
+    ("03", "Returned items and any associated free or bundled products must be unused, undamaged, in their original packaging, and in saleable condition.", []),
     ("04", "All returns are subject to inspection and TFG approval. Returns after 30 days require approval from a Branch Manager or above.", []),
     ("05", "Credit Account Customers must obtain an RMA number and include it on the waybill to ship returns to a TFG branch. All Cash Sale returns must be done in person.", []),
     ("06", "Refunds will be issued to the original payment method after the return is received and approved. If the payment method was cash, the refund may be issued from A/R.", []),
@@ -339,6 +339,7 @@ RETURNS = {
         "Hygienic and emergency response items.",
         "Safety products with open packaging.",
         "Clearance items.",
+        "Gift certificates.",
         "Any other items designated by TFG as final sale.",
     ]),
     ("10", "Returns may be accepted when covered by a vendor’s customer satisfaction guarantee or policy, subject to the vendor’s applicable terms and conditions.", []),
@@ -477,21 +478,31 @@ body > .gsbp-wrap-preview{max-width:1200px;margin:0 auto}
 
 
 def build_page():
-    """The whole Policies and Terms page: hero, index, then the three policy panels."""
-    hero = (HERE / "policies-page" / "source-hero.txt").read_text().strip()
-    # The hero's mobile-landscape background was teal (#063532); every other size is dark red.
-    hero = hero.replace('"color":["#6d1216","#6d1216","#063532","#6d1216"]',
-                        '"color":["#6d1216","#6d1216","#6d1216","#6d1216"]')
+    """The whole Policies and Terms page: hero, then the index and the four policy panels."""
+    hero = make_hero(
+        seed="policies-hero", bg="#3d1a0b",  # brand rust #d7591a at the shared hero darkness
+        caption="Purchasing with TFG", title="Policies and Terms",
+        intro="Important information about purchasing from The Fastener Group.",
+        buttons=[("Browse policies", "#policies")],
+        accent=ACCENT, pattern_css=THREAD_HERO_CSS, caption_color=SOFT_WHITE,
+    )
     index = policy_index()
     panels = [make_root(RETURNS), make_root(SPECIAL_ORDERS), make_root(GIFT_CERTIFICATES),
               make_root(TERMS_OF_SALE)]
     _seed["slug"], _seed["n"] = "page-wrap", 0
+    index_panel = Block(name="Index", class_name="tfgr-policy", anchor="policies", styles={
+        "backgroundColor": [PAPER],
+        "paddingTop": ["1.5rem", None, None, "1rem"], "paddingBottom": ["1.5rem", None, None, "1rem"],
+        "paddingLeft": ["1.5rem", None, None, "1rem"], "paddingRight": ["1.5rem", None, None, "1rem"],
+    }, children=[index])
     wrapper = Block(name="Policies", class_name="tfgr-page", styles={
         "display": ["flex"], "flexDirection": ["column"],
         "rowGap": ["3.38rem", "2.25rem"],
-    }, custom_css="{CURRENT} [id]{scroll-margin-top:7rem;}", children=[index] + panels)
+        # The index panel is pulled up over the bottom of the hero, as on the other pages.
+        "marginTop": ["-4rem", None, None, "-3rem"], "position": ["relative"], "zIndex": ["2"],
+        "marginBottom": ["4.5rem", None, None, "2.25rem"],
+    }, custom_css="{CURRENT} [id]{scroll-margin-top:7rem;}", children=[index_panel] + panels)
     write(PAGE, wrapper, before=hero)
-
 
 HERO_ACCENT = "#ec8a80"  # brand red lightened to pass 4.5:1 contrast on the dark hero greys
 PATTERN = "https://thefastenergroup.com/wp-content/uploads/2026/02/Background-3.svg"
