@@ -550,7 +550,7 @@ THEME_CONTAINER = {
 
 
 def make_hero(seed, bg, caption, title, intro, buttons, accent=HERO_ACCENT,
-              pattern_css=HERO_CSS, caption_color=None, align_to_theme=False):
+              pattern_css=HERO_CSS, caption_color=None, align_to_theme=False, content_size=None):
     """Full-width hero: caption, h1 and intro stacked in one left column, pattern on the right.
 
     buttons is a list of (text, href) jump links shown under the intro.
@@ -582,9 +582,9 @@ def make_hero(seed, bg, caption, title, intro, buttons, accent=HERO_ACCENT,
             "rowGap": ["0.75rem"], "marginTop": ["2rem"],
         }, children=[Block("a", text=t, href=h, custom_css=button_css("0", accent=accent)) for t, h in buttons]))
     text_col = Block(name="Hero Text", styles={"maxWidth": ["44rem"]}, children=children)
-    content_size = THEME_CONTAINER if align_to_theme else {
+    content_size = content_size or (THEME_CONTAINER if align_to_theme else {
         "maxWidth": ["100%"], "width": ["var(--wp--style--global--wide-size, 1200px)"],
-    }
+    })
     content = Block(name="Content Area", styles=dict(content_size),
                     json_extra={"isVariation": "contentarea"}, children=[text_col])
     side = ["0px"] if align_to_theme else ["var(--wp--custom--spacing--side, min(3vw, 20px))"]

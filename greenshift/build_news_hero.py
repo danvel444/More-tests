@@ -12,6 +12,9 @@ if __name__ == "__main__":
         seed="news-hero", bg="#0d0e10", caption="Company updates", title="News",
         intro="Stay informed with the latest updates from The Fastener Group.",
         buttons=[], accent=ACCENT, pattern_css=THREAD_HERO_CSS, caption_color=SOFT_WHITE,
-        align_to_theme=False,  # match the other page heroes for now; True lines up with the logo
+        # Match where the other page heroes' text sits: on the site their "wide size" width
+        # runs nearly full width, but inside a Blocksy content block it is a centred 1200px,
+        # so this hero states full width outright. align_to_theme=True lines up with the logo.
+        content_size={"maxWidth": ["100%"], "width": ["100%"]},
     )
     write(PAGE, hero)
