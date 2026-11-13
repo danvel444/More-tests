@@ -541,8 +541,16 @@ def button_css(margin_top="2rem", arrow="\\2193", accent=HERO_ACCENT):
     )
 
 
+# Blocksy's own container, so hero text lines up with the logo and menu. The WordPress
+# "wide size" the older heroes used is set very wide by Blocksy, so their text sits further out.
+THEME_CONTAINER = {
+    "width": ["var(--theme-container-width, calc(100% - 40px))"],
+    "maxWidth": ["var(--theme-normal-container-max-width, 1290px)"],
+}
+
+
 def make_hero(seed, bg, caption, title, intro, buttons, accent=HERO_ACCENT,
-              pattern_css=HERO_CSS, caption_color=None):
+              pattern_css=HERO_CSS, caption_color=None, align_to_theme=False):
     """Full-width hero: caption, h1 and intro stacked in one left column, pattern on the right.
 
     buttons is a list of (text, href) jump links shown under the intro.
@@ -563,7 +571,9 @@ def make_hero(seed, bg, caption, title, intro, buttons, accent=HERO_ACCENT,
             "color": ["rgba(255, 255, 255, 0.85)"],
         }),
     ]
-    if len(buttons) == 1:
+    if not buttons:
+        pass
+    elif len(buttons) == 1:
         text, href = buttons[0]
         children.append(Block("a", text=text, href=href, custom_css=button_css(accent=accent)))
     else:
@@ -572,9 +582,12 @@ def make_hero(seed, bg, caption, title, intro, buttons, accent=HERO_ACCENT,
             "rowGap": ["0.75rem"], "marginTop": ["2rem"],
         }, children=[Block("a", text=t, href=h, custom_css=button_css("0", accent=accent)) for t, h in buttons]))
     text_col = Block(name="Hero Text", styles={"maxWidth": ["44rem"]}, children=children)
-    content = Block(name="Content Area", styles={
+    content_size = THEME_CONTAINER if align_to_theme else {
         "maxWidth": ["100%"], "width": ["var(--wp--style--global--wide-size, 1200px)"],
-    }, json_extra={"isVariation": "contentarea"}, children=[text_col])
+    }
+    content = Block(name="Content Area", styles=dict(content_size),
+                    json_extra={"isVariation": "contentarea"}, children=[text_col])
+    side = ["0px"] if align_to_theme else ["var(--wp--custom--spacing--side, min(3vw, 20px))"]
     return Block("section", name="Hero", align="full", styles={
         "display": ["flex"], "flexDirection": ["column"], "alignItems": ["center"],
         "position": ["relative"], "overflow": ["hidden"], "backgroundColor": [bg],
@@ -582,8 +595,7 @@ def make_hero(seed, bg, caption, title, intro, buttons, accent=HERO_ACCENT,
         # for the panel below to overlap.
         "paddingTop": ["190px", "170px", None, "140px"],
         "paddingBottom": ["8rem", None, None, "6rem"],
-        "paddingLeft": ["var(--wp--custom--spacing--side, min(3vw, 20px))"],
-        "paddingRight": ["var(--wp--custom--spacing--side, min(3vw, 20px))"],
+        "paddingLeft": side, "paddingRight": side,
         "marginTop": ["0px"], "marginBottom": ["0px"],
     }, json_extra={"isVariation": "contentcolumns"}, custom_css=pattern_css, children=[content])
 
