@@ -1,7 +1,7 @@
 """Build the homepage.
 
-The hero is the site's own (it works as intended) with targeted fixes only: live URLs
-instead of staging, an h1, and alt text for the company logos. Below it: "Stronger
+The hero is the site's own, unchanged apart from image blocks (one staging photo URL, alt
+text for the company logos), plus a page-level restyle of its background. Below it: "Stronger
 Together" as real text with the impact counters, an industries band, and the about teaser.
 The count-up counters are the site's own GreenShift blocks, reused unchanged.
 """
@@ -39,12 +39,10 @@ def replace_once(s, old, new, count=1):
 
 def hero():
     s = (HERE / "home-page" / "source-hero.txt").read_text().strip()
-    # Two staging buttons and one staging photo -> live site (each in JSON and markup).
-    s = replace_once(s, STAGING, LIVE, count=6)
-    # "We are The Fastener Group" becomes the page's h1.
-    s = replace_once(s, '{"id":"gsbp-9655ebd","headingContent"', '{"id":"gsbp-9655ebd","headingTag":"h1","headingContent"')
-    s = replace_once(s, '<h2 id="gspb_heading-id-gsbp-9655ebd"', '<h1 id="gspb_heading-id-gsbp-9655ebd"')
-    s = replace_once(s, 'The Fastener Group</mark></h2>', 'The Fastener Group</mark></h1>')
+    # Only image blocks are edited here: GreenShift rejects edited heading and button blocks
+    # pasted as code (the editor flags them and "recovery" resets them to defaults). So the
+    # heading stays an h2, and the two button links are changed in the editor sidebar instead.
+    s = replace_once(s, STAGING + "wp-content/", LIVE + "wp-content/", count=2)  # staging photo
     # Alt text on the logo row; sizes and layout untouched.
     for file, name in LOGO_ALTS.items():
         s, n = re.subn(rf'({re.escape(file)}","mediaid":\d+,"alt":)""', rf'\1"{name}"', s)
@@ -85,6 +83,7 @@ REVEAL_CSS = (
     "@keyframes tfgr-in-left{from{opacity:0;transform:translateX(-2rem);}to{opacity:1;transform:none;}}"
     "@keyframes tfgr-in-right{from{opacity:0;transform:translateX(2rem);}to{opacity:1;transform:none;}}"
     "{CURRENT} span{display:inline-block;}"
+    "{CURRENT} .tfgr-st-1{margin-right:0.28em;}"  # the word space, which inline-blocks can lose
     "@media (prefers-reduced-motion: no-preference){@supports (animation-timeline: view()){"
     "{CURRENT} .tfgr-st-1{animation:tfgr-in-left linear both;animation-timeline:view();animation-range:entry 10% cover 35%;}"
     "{CURRENT} .tfgr-st-2{animation:tfgr-in-right linear both;animation-timeline:view();animation-range:entry 20% cover 45%;}"
