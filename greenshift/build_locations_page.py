@@ -8,7 +8,8 @@ import json
 from urllib.parse import quote, urlparse
 
 from build_policy_blocks import (
-    ACCENT, BODY, GS_PREVIEW_CSS, HERE, INK, RULE, Block, Raw, _seed, make_hero, write,
+    ACCENT, BODY, GS_PREVIEW_CSS, HERE, INK, RULE, SOFT_WHITE, THREAD_HERO_CSS, Block, Raw, _seed,
+    make_hero, write,
 )
 
 DATA = json.loads((HERE / "locations-page" / "stores.json").read_text())
@@ -130,11 +131,12 @@ def directory():
 
 def hero():
     return make_hero(
-        seed="locations-hero", bg="var(--wp--preset--color--textcolor, #333333)",
+        seed="locations-hero", bg="#2b1d3d",  # brand purple #401268 at the shared hero darkness
         caption="Locations", title="Our Stores",
         intro=("Our 20 Western Canada locations make it easy to serve customers when "
                "and where they need us."),
         buttons=[(p["name"], "#" + p["id"]) for p in DATA["provinces"]],
+        accent=ACCENT, pattern_css=THREAD_HERO_CSS, caption_color=SOFT_WHITE,
     )
 
 
