@@ -2,10 +2,11 @@
 site's own count-up counter blocks on the brand red, and one closing call to action.
 """
 from build_policy_blocks import (
-    ACCENT, BODY, GS_PREVIEW_CSS, HERE, HERO_CSS, INK, RULE, Block, Raw, _seed, make_hero, write,
+    ACCENT, BODY, GS_PREVIEW_CSS, HERE, INK, RULE, SOFT_WHITE, THREAD_HERO_CSS, Block, Raw, _seed,
+    make_hero, write,
 )
 
-PAGE_COLOUR = "#3a0916"  # hero only
+PAGE_COLOUR = "#3d171d"  # hero only: brand burgundy #80102e at the shared hero darkness
 BRAND_RED = ACCENT  # the theme's brand red, as the original stats panel used
 PANEL_BG = "var(--wp--preset--color--palette-color-5, var(--theme-palette-color-5, #F0F2F3))"
 UPLOADS = "https://thefastenergroup.com/wp-content/uploads/2026/02/"
@@ -108,6 +109,22 @@ CHECK_CSS = (
 )
 
 
+# The hero's thread lines, without its red edge, for the red numbers card.
+CARD_THREADS = (
+    "{CURRENT}::before{content:\"\";position:absolute;inset:0;pointer-events:none;"
+    "background:repeating-linear-gradient(115deg, rgba(255, 255, 255, 0.08) 0 1px, transparent 1px 14px);"
+    "-webkit-mask-image:linear-gradient(to left, #000 10%, transparent 80%);"
+    "mask-image:linear-gradient(to left, #000 10%, transparent 80%);}"
+    "{CURRENT} > *{position:relative;z-index:1;}"
+)
+
+
+def visit_section():
+    """The homepage's store map and province counts (imported here to avoid a circular import)."""
+    from build_home_page import map_section
+    return map_section()
+
+
 def why_section():
     counters = (HERE / "industries-page" / "source-counters.txt").read_text()
     checklist_card = Block(name="Everything Your Business Needs", styles={
@@ -124,7 +141,7 @@ def why_section():
         "position": ["relative"], "overflow": ["hidden"], "backgroundColor": [BRAND_RED],
         "paddingTop": ["2rem", None, None, "1.5rem"], "paddingBottom": ["2rem", None, None, "1.5rem"],
         "paddingLeft": ["2rem", None, None, "1.25rem"], "paddingRight": ["2rem", None, None, "1.25rem"],
-    }, custom_css=HERO_CSS, children=[
+    }, custom_css=CARD_THREADS, children=[
         Block("h3", text="We Are Here to Help You Build", styles={
             "marginTop": ["0px"], "marginBottom": ["1rem"], "color": ["#ffffff"],
         }),
@@ -181,7 +198,7 @@ def body():
         # The industries panel is pulled up over the bottom of the hero.
         "marginTop": ["-4rem", None, None, "-3rem"], "position": ["relative"], "zIndex": ["2"],
     }, custom_css="{CURRENT} [id]{scroll-margin-top:2rem;}",
-        children=[industries_panel(), why_section(), closing_cta()])
+        children=[industries_panel(), closing_cta(), why_section(), visit_section()])
 
 
 def hero():
@@ -191,6 +208,7 @@ def hero():
                "offer solutions and services designed to help businesses of all types get the "
                "equipment they need to build."),
         buttons=[("Explore industries", "#industries")],
+        accent=ACCENT, pattern_css=THREAD_HERO_CSS, caption_color=SOFT_WHITE,
     )
 
 
