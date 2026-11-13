@@ -152,7 +152,12 @@ BAND_CSS = CARD_THREADS + (
     "{CURRENT} .gspb_row__content{display:grid !important;grid-template-columns:repeat(4, minmax(0, 1fr)) !important;"
     "column-gap:1.5rem !important;row-gap:1.5rem !important;}"
     "{CURRENT} .gspb_row__content > .gspb_row__col--6{width:auto !important;max-width:none !important;"
-    "flex:none !important;padding:0 !important;margin:0 !important;}"
+    "flex:none !important;padding:0 !important;margin:0 !important;display:block !important;min-width:0 !important;}"
+    # GreenShift's own column styles squeeze the label; make every item in a cell full width.
+    "{CURRENT} .gspb_row__content > .gspb_row__col--6 > *{display:block !important;width:100% !important;"
+    "max-width:none !important;min-width:0 !important;flex:none !important;}"
+    "{CURRENT} .gspb_row__content > .gspb_row__col--6 .gspb_text{white-space:normal !important;"
+    "word-break:normal !important;overflow-wrap:normal !important;}"
     "@media (max-width: 575.98px){{CURRENT} .gspb_row__content{grid-template-columns:repeat(2, minmax(0, 1fr)) !important;}}"
 )
 
