@@ -5,6 +5,7 @@ text for the company logos), plus a page-level restyle of its background. Below 
 Together" as real text with the impact counters, an industries band, and the about teaser.
 The count-up counters are the site's own GreenShift blocks, reused unchanged.
 """
+import json
 import re
 
 from build_policy_blocks import (
@@ -12,6 +13,7 @@ from build_policy_blocks import (
     Block, Raw, _seed, button_css, write,
 )
 from build_industries_page import SOLID_BUTTON_CSS, section_heading
+from build_warranty_page import BRANDS, UPLOADS
 
 LIVE = "https://thefastenergroup.com/"
 STAGING = "https://s48517.p261.sites.pressdns.com/"
@@ -223,37 +225,140 @@ OUTLINE_DARK_CSS = (
 )
 
 
-def closing_band():
-    return Block(name="Visit Us", styles={
-        "display": ["flex"], "flexWrap": ["wrap"], "alignItems": ["center"], "justifyContent": ["space-between"],
-        "columnGap": ["2rem"], "rowGap": ["1.5rem"], "backgroundColor": [PANEL_BG],
-        "borderTop": [f"3px solid {ACCENT}"],
-        "paddingTop": ["2.25rem", None, None, "1.5rem"], "paddingBottom": ["2.25rem", None, None, "1.5rem"],
-        "paddingLeft": ["2.25rem", None, None, "1.25rem"], "paddingRight": ["2.25rem", None, None, "1.25rem"],
+# What we supply: the main product families, as numbered cards.
+SUPPLY = [
+    ("Fasteners and anchors", "Bolts, screws, nuts, washers and anchors in the grades and finishes the job calls for."),
+    ("Power tools", "Cordless and corded tools, batteries and accessories from the brands the trades rely on."),
+    ("Safety gear", "Protective equipment and fall protection to keep crews safe on site."),
+    ("Hardware and supplies", "Accessories, consumables and shop supplies for every job, big or small."),
+]
+
+RULED_CSS = (
+    f"{{CURRENT}} > *{{background-color:#ffffff;border-right:1px solid {RULE};border-bottom:1px solid {RULE};}}"
+)
+
+SUPPLY_CSS = RULED_CSS + (
+    "{CURRENT} .tfgr-sup{padding:1.75rem 1.5rem;}"
+    f"{{CURRENT}} .tfgr-sup-num{{margin:0 0 1.25rem 0;font-weight:700;color:{ACCENT};}}"
+    f"{{CURRENT}} .tfgr-sup-name{{margin:0 0 0.5rem 0;color:{INK};}}"
+    f"{{CURRENT}} .tfgr-sup-text{{margin:0;color:{BODY};}}"
+    "@media (max-width: 575.98px){{CURRENT} .tfgr-sup{padding:1.25rem;}}"
+)
+
+
+def ruled_grid(name, cols, css, children, extra=None):
+    return Block(name=name, styles={
+        "display": ["grid"], "gridTemplateColumns": cols,
+        "borderTop": [f"1px solid {RULE}"], "borderLeft": [f"1px solid {RULE}"], **(extra or {}),
+    }, custom_css=css, children=children)
+
+
+def supply_section():
+    cards = [Block(class_name="tfgr-sup", name=n, children=[
+        Block("p", text=f"0{i}", class_name="tfgr-sup-num"),
+        Block("h3", text=n, class_name="tfgr-sup-name"),
+        Block("p", text=t, class_name="tfgr-sup-text"),
+    ]) for i, (n, t) in enumerate(SUPPLY, 1)]
+    return Block(name="What We Supply", styles={
         "marginBottom": ["5.06rem", None, None, "3.38rem"],
     }, children=[
-        Block(styles={"maxWidth": ["40rem"]}, children=[
-            caption("Visit us"),
-            Block("h2", text="Find your nearest TFG store", styles={
-                "marginTop": ["0px"], "marginBottom": ["0.5rem"], "color": [INK],
-            }),
-            Block("p", text="Talk to our team in person, or send us a message and we’ll get back to you.", styles={
-                "marginTop": ["0px"], "marginBottom": ["0px"], "color": [BODY],
-            }),
+        section_heading("What we supply", "Everything your crew needs, under one roof"),
+        ruled_grid("Categories", ["repeat(4, 1fr)", "repeat(2, 1fr)", None, "1fr"], SUPPLY_CSS, cards),
+    ])
+
+
+# Brands we carry: the same logo files as the Service page, shown as a static wall.
+BRAND_CSS = RULED_CSS + (
+    "{CURRENT} .tfgr-logo{display:flex;align-items:center;justify-content:center;padding:1.25rem 1.5rem;"
+    "aspect-ratio:3 / 2;}"
+    "{CURRENT} .tfgr-logo img{display:block;width:100%;max-width:9rem;height:auto;max-height:100%;"
+    "object-fit:contain;mix-blend-mode:multiply;}"
+    "@media (max-width: 575.98px){{CURRENT} .tfgr-logo{padding:0.6rem 0.75rem;}}"
+)
+
+
+def brands_section():
+    logos = []
+    for name, logo, alt, _url, w, h in sorted(BRANDS, key=lambda b: b[0].lower()):
+        src = UPLOADS + logo
+        logos.append(Block(class_name="tfgr-logo", name=name, children=[
+            Block("img", json_extra={"src": src, "alt": name, "originalWidth": w, "originalHeight": h},
+                  html_attrs=[("src", src), ("alt", name), ("width", str(w)), ("height", str(h)),
+                              ("loading", "lazy")]),
+        ]))
+    return Block(name="Brands We Carry", class_name="tfgr-policy", styles={
+        "backgroundColor": [PANEL_BG],
+        "paddingTop": ["2.25rem", None, None, "1.5rem"], "paddingBottom": ["2.25rem", None, None, "1.5rem"],
+        "paddingLeft": ["1.5rem", None, None, "1rem"], "paddingRight": ["1.5rem", None, None, "1rem"],
+        "marginTop": ["5.06rem", None, None, "3.38rem"],
+    }, children=[
+        section_heading("Brands we carry", "The names the trades trust"),
+        ruled_grid("Logos", ["repeat(7, 1fr)", "repeat(4, 1fr)", None, "repeat(3, 1fr)"], BRAND_CSS, logos),
+        Block("p", text="Plus thousands more products from our 500+ supplier partners.", styles={
+            "marginTop": ["1.25rem"], "marginBottom": ["0px"], "color": [BODY],
+        }),
+    ])
+
+
+# Visit us: the Locations page map beside a store count for each province.
+STORES = json.loads((HERE / "locations-page" / "stores.json").read_text())
+PROV_CSS = (
+    "{CURRENT}{list-style:none;margin:0 0 2rem 0;padding:0;"
+    f"border-top:2px solid {INK};}}"
+    "{CURRENT} li{margin:0;}"
+    f"{{CURRENT}} a{{display:flex;align-items:baseline;justify-content:space-between;gap:1rem;padding:0.85rem 0;"
+    f"border-bottom:1px solid {RULE};color:{INK};font-weight:700;text-decoration:none;}}"
+    f"{{CURRENT}} .tfgr-prov-count{{font-size:1.6em;line-height:1;color:{ACCENT};}}"
+    f"{{CURRENT}} .tfgr-prov-count::after{{content:\" stores\";font-size:0.55em;font-weight:400;color:{BODY};}}"
+    "{CURRENT} a:hover .tfgr-prov-name,{CURRENT} a:focus-visible .tfgr-prov-name{text-decoration:underline;}"
+    f"{{CURRENT}} a:focus-visible{{outline:2px solid {ACCENT};outline-offset:2px;}}"
+)
+
+
+def map_section():
+    provinces = STORES["provinces"]
+    total = sum(len(pv["stores"]) for pv in provinces)
+    svg = (HERE / "locations-page" / "map.svg").read_text().strip()
+    rows = [Block("li", children=[
+        Block("a", href=f"{LIVE}branches/#{pv['id']}", children=[
+            Block("span", text=pv["name"], class_name="tfgr-prov-name"),
+            Block("span", text=str(len(pv["stores"])), class_name="tfgr-prov-count"),
         ]),
+    ]) for pv in provinces]
+    text = Block(name="Text", children=[
+        caption("Visit us"),
+        Block("h2", text=f"{total} stores across Western Canada", styles={
+            "marginTop": ["0px"], "marginBottom": ["0.75rem"], "color": [INK],
+        }),
+        Block("p", text=("Talk to our team in person at your local branch, or send us a message "
+                         "and we’ll get back to you."), styles={
+            "marginTop": ["0px"], "marginBottom": ["1.75rem"], "color": [BODY],
+        }),
+        Block("ul", name="Provinces", custom_css=PROV_CSS, children=rows),
         Block(name="Buttons", styles={
             "display": ["flex"], "flexWrap": ["wrap"], "columnGap": ["0.75rem"], "rowGap": ["0.75rem"],
         }, children=[
-            Block("a", text="See our stores", href=f"{LIVE}branches/", custom_css=SOLID_BUTTON_CSS),
+            Block("a", text="Find your store", href=f"{LIVE}branches/", custom_css=SOLID_BUTTON_CSS),
             Block("a", text="Contact us", href=f"{LIVE}contact/", custom_css=OUTLINE_DARK_CSS),
         ]),
     ])
+    mapbox = Block(name="Map", styles={"backgroundColor": ["#ffffff"], "border": [f"1px solid {RULE}"]},
+                   children=[Raw("<!-- wp:html -->\n" + svg + "\n<!-- /wp:html -->")])
+    return Block(name="Visit Us", class_name="tfgr-policy", styles={
+        "display": ["grid"], "gridTemplateColumns": ["minmax(0, 3fr) minmax(0, 2fr)", "1fr"],
+        "columnGap": ["2.25rem"], "rowGap": ["2rem"], "alignItems": ["center"],
+        "backgroundColor": [PANEL_BG], "borderTop": [f"3px solid {ACCENT}"],
+        "paddingTop": ["2.25rem", None, None, "1.5rem"], "paddingBottom": ["2.25rem", None, None, "1.5rem"],
+        "paddingLeft": ["2.25rem", None, None, "1rem"], "paddingRight": ["2.25rem", None, None, "1rem"],
+        "marginBottom": ["5.06rem", None, None, "3.38rem"],
+    }, children=[mapbox, text])
 
 
 def body():
     _seed["slug"], _seed["n"] = "home", 0
     cells = counter_cells()
-    return [numbers_section(cells[:4]), industries_band(), about_section(cells[4:]), closing_band()]
+    return [numbers_section(cells[:4]), supply_section(), industries_band(), brands_section(),
+            about_section(cells[4:]), map_section()]
 
 
 PAGE = {"dir": "home-page", "title": "The Fastener Group", "preview_css": GS_PREVIEW_CSS + """
