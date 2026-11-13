@@ -1,0 +1,37 @@
+/* News (blog) hero: the thread lines and red bottom edge used on every other page hero.
+   Paste into Appearance > Customize > Additional CSS.
+   Scoped to the blog and its archive pages, so other Blocksy heroes are untouched. */
+.blog .hero-section[data-type="type-2"],
+.archive .hero-section[data-type="type-2"] {
+  position: relative;
+  overflow: hidden;
+  background-color: #0d0e10; /* TFG black */
+}
+.blog .hero-section[data-type="type-2"]::before,
+.archive .hero-section[data-type="type-2"]::before {
+  content: "";
+  position: absolute;
+  inset: 0;
+  z-index: 1;
+  pointer-events: none;
+  background: repeating-linear-gradient(115deg, rgba(255, 255, 255, 0.07) 0 1px, transparent 1px 14px);
+  -webkit-mask-image: linear-gradient(to left, #000 15%, transparent 70%);
+  mask-image: linear-gradient(to left, #000 15%, transparent 70%);
+}
+.blog .hero-section[data-type="type-2"]::after,
+.archive .hero-section[data-type="type-2"]::after {
+  content: "";
+  position: absolute;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  height: 4px;
+  z-index: 1;
+  pointer-events: none;
+  background-color: var(--theme-palette-color-1, #b11f24);
+}
+.blog .hero-section[data-type="type-2"] > *:not(figure),
+.archive .hero-section[data-type="type-2"] > *:not(figure) {
+  position: relative;
+  z-index: 2;
+}
