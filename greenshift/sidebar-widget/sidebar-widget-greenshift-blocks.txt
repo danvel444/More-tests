@@ -1,0 +1,59 @@
+<!-- wp:greenshift-blocks/element {"id":"gsbp-d646d13","inlineCssStyles":".gsbp-d646d13{position:relative;overflow:hidden;background-color:var(\u002d\u002dwp\u002d\u002dpreset\u002d\u002dcolor\u002d\u002dpalette-color-1, var(\u002d\u002dtheme-palette-color-1, #b11f24));padding-top:1.75rem;padding-bottom:1.75rem;padding-left:1.75rem;padding-right:1.75rem;}.gsbp-d646d13::before{content:\u0022\u0022;position:absolute;inset:0;pointer-events:none;background:repeating-linear-gradient(115deg, rgba(255, 255, 255, 0.08) 0 1px, transparent 1px 14px);-webkit-mask-image:linear-gradient(to left, #000 10%, transparent 80%);mask-image:linear-gradient(to left, #000 10%, transparent 80%);}.gsbp-d646d13 \u003e *{position:relative;z-index:1;}","type":"inner","localId":"gsbp-d646d13","styleAttributes":{"position":["relative"],"overflow":["hidden"],"backgroundColor":["var(\u002d\u002dwp\u002d\u002dpreset\u002d\u002dcolor\u002d\u002dpalette-color-1, var(\u002d\u002dtheme-palette-color-1, #b11f24))"],"paddingTop":["1.75rem"],"paddingBottom":["1.75rem"],"paddingLeft":["1.75rem"],"paddingRight":["1.75rem"],"customCSS_Extra":"{CURRENT}::before{content:\u0022\u0022;position:absolute;inset:0;pointer-events:none;background:repeating-linear-gradient(115deg, rgba(255, 255, 255, 0.08) 0 1px, transparent 1px 14px);-webkit-mask-image:linear-gradient(to left, #000 10%, transparent 80%);mask-image:linear-gradient(to left, #000 10%, transparent 80%);}{CURRENT} \u003e *{position:relative;z-index:1;}"},"metadata":{"name":"Here to Help You Build"}} -->
+<div class="gsbp-d646d13"><!-- wp:greenshift-blocks/element {"id":"gsbp-c8b4907","inlineCssStyles":".gsbp-c8b4907{margin-top:0px;margin-bottom:0.5rem;font-weight:700;text-transform:uppercase;color:rgba(255, 255, 255, 0.72);}","textContent":"Why TFG","tag":"p","localId":"gsbp-c8b4907","styleAttributes":{"marginTop":["0px"],"marginBottom":["0.5rem"],"fontWeight":["700"],"textTransform":["uppercase"],"color":["rgba(255, 255, 255, 0.72)"]}} -->
+<p class="gsbp-c8b4907">Why TFG</p>
+<!-- /wp:greenshift-blocks/element -->
+
+<!-- wp:greenshift-blocks/element {"id":"gsbp-1129640","inlineCssStyles":".gsbp-1129640{margin-top:0px;margin-bottom:0.75rem;color:#ffffff;}","textContent":"We Are Here to Help You Build","tag":"h3","localId":"gsbp-1129640","styleAttributes":{"marginTop":["0px"],"marginBottom":["0.75rem"],"color":["#ffffff"]}} -->
+<h3 class="gsbp-1129640">We Are Here to Help You Build</h3>
+<!-- /wp:greenshift-blocks/element -->
+
+<!-- wp:greenshift-blocks/element {"id":"gsbp-a0fbb55","inlineCssStyles":".gsbp-a0fbb55{margin-top:0px;margin-bottom:0px;color:rgba(255, 255, 255, 0.85);}","textContent":"With decades of experience, a wide selection of products, and trusted supplier partnerships, we help businesses across Western Canada work smarter, faster, and safer.","tag":"p","localId":"gsbp-a0fbb55","styleAttributes":{"marginTop":["0px"],"marginBottom":["0px"],"color":["rgba(255, 255, 255, 0.85)"]}} -->
+<p class="gsbp-a0fbb55">With decades of experience, a wide selection of products, and trusted supplier partnerships, we help businesses across Western Canada work smarter, faster, and safer.</p>
+<!-- /wp:greenshift-blocks/element -->
+
+<!-- wp:greenshift-blocks/element {"id":"gsbp-8ca88d5","inlineCssStyles":".gsbp-8ca88d5{display:grid;grid-template-columns:repeat(2, minmax(0, 1fr));column-gap:1px;row-gap:1px;background-color:rgba(255, 255, 255, 0.25);margin-top:1.5rem;margin-bottom:1.75rem;}.gsbp-8ca88d5 \u003e div{background-color:var(\u002d\u002dwp\u002d\u002dpreset\u002d\u002dcolor\u002d\u002dpalette-color-1, var(\u002d\u002dtheme-palette-color-1, #b11f24));padding:1rem 0.25rem 1rem 0;}.gsbp-8ca88d5 \u003e div:nth-child(even){padding-left:1rem;}.gsbp-8ca88d5 .gs-counter{line-height:1;}","type":"inner","localId":"gsbp-8ca88d5","styleAttributes":{"display":["grid"],"gridTemplateColumns":["repeat(2, minmax(0, 1fr))"],"columnGap":["1px"],"rowGap":["1px"],"backgroundColor":["rgba(255, 255, 255, 0.25)"],"marginTop":["1.5rem"],"marginBottom":["1.75rem"],"customCSS_Extra":"{CURRENT} \u003e div{background-color:var(\u002d\u002dwp\u002d\u002dpreset\u002d\u002dcolor\u002d\u002dpalette-color-1, var(\u002d\u002dtheme-palette-color-1, #b11f24));padding:1rem 0.25rem 1rem 0;}{CURRENT} \u003e div:nth-child(even){padding-left:1rem;}{CURRENT} .gs-counter{line-height:1;}"},"metadata":{"name":"Numbers"}} -->
+<div class="gsbp-8ca88d5"><!-- wp:greenshift-blocks/element {"id":"gsbp-e560d93","type":"inner","localId":"gsbp-e560d93","metadata":{"name":"Counter"}} -->
+<div><!-- wp:greenshift-blocks/counter {"id":"gsbp-35230d6","spacing":{"margin":{"values":{"bottom":["10px"]},"locked":false},"padding":{"values":[],"locked":false}},"typographyValue":{"textShadow":[],"customweight":"custom","customweightnumber":600,"size":["50px","35px"],"line_height":["1em"]},"alignNew":["flex-start",null,null,"center"],"labelalignNew":["flex-start",null,null,"center"],"end":45,"duration":1,"textColor":"var(--wp--preset--color--palette-color-8, var(--theme-palette-color-8, #ffffff))","label":"","postfix":"+","numspace":[0,null,null,null]} -->
+<div class="wp-block-greenshift-blocks-counter gs-counterwrap gspb_counter-id-gsbp-35230d6"><div class="gs-counterdiv"><div class="gs-counter" data-start="0" data-end="45" data-duration="1" data-postfix="+">0</div></div></div>
+<!-- /wp:greenshift-blocks/counter -->
+
+<!-- wp:greenshift-blocks/text {"id":"gsbp-90074d4","textContent":"Years of experience","typography":{"textShadow":[],"color":"#ffffffd6","customweight":"custom","customweightnumber":500,"alignment":[null,null,null,"center"]}} -->
+<div id="gspb_text-id-gsbp-90074d4" class="gspb_text gspb_text-id-gsbp-90074d4 ">Years of experience</div>
+<!-- /wp:greenshift-blocks/text --></div>
+<!-- /wp:greenshift-blocks/element -->
+
+<!-- wp:greenshift-blocks/element {"id":"gsbp-379cfb7","type":"inner","localId":"gsbp-379cfb7","metadata":{"name":"Counter"}} -->
+<div><!-- wp:greenshift-blocks/counter {"id":"gsbp-7983841","spacing":{"margin":{"values":{"bottom":["10px"]},"locked":false},"padding":{"values":[],"locked":false}},"typographyValue":{"textShadow":[],"customweight":"custom","customweightnumber":600,"size":["50px","35px"],"line_height":["1em"]},"alignNew":["flex-start",null,null,"center"],"labelalignNew":["flex-start",null,null,"center"],"end":20,"duration":1,"textColor":"var(--wp--preset--color--palette-color-8, var(--theme-palette-color-8, #ffffff))","label":"","postfix":"","numspace":[0,null,null,null]} -->
+<div class="wp-block-greenshift-blocks-counter gs-counterwrap gspb_counter-id-gsbp-7983841"><div class="gs-counterdiv"><div class="gs-counter" data-start="0" data-end="20" data-duration="1">0</div></div></div>
+<!-- /wp:greenshift-blocks/counter -->
+
+<!-- wp:greenshift-blocks/text {"id":"gsbp-e6f84fd","textContent":"Stores across Western Canada","spacing":{"margin":{"values":{"bottom":["0px"]},"locked":false},"padding":{"values":[],"locked":false}},"typography":{"textShadow":[],"color":"#ffffffd6","customweight":"custom","customweightnumber":500,"alignment":[null,null,null,"center"]}} -->
+<div id="gspb_text-id-gsbp-e6f84fd" class="gspb_text gspb_text-id-gsbp-e6f84fd ">Stores across Western Canada</div>
+<!-- /wp:greenshift-blocks/text --></div>
+<!-- /wp:greenshift-blocks/element -->
+
+<!-- wp:greenshift-blocks/element {"id":"gsbp-896929f","type":"inner","localId":"gsbp-896929f","metadata":{"name":"Counter"}} -->
+<div><!-- wp:greenshift-blocks/counter {"id":"gsbp-87d0f51","spacing":{"margin":{"values":{"bottom":["10px"]},"locked":false},"padding":{"values":[],"locked":false}},"typographyValue":{"textShadow":[],"customweight":"custom","customweightnumber":600,"size":["50px","35px"],"line_height":["1em"]},"alignNew":["flex-start",null,null,"center"],"labelalignNew":["flex-start",null,null,"center"],"end":500,"duration":1,"textColor":"var(--wp--preset--color--palette-color-8, var(--theme-palette-color-8, #ffffff))","label":"","postfix":"+","numspace":[0,null,null,null]} -->
+<div class="wp-block-greenshift-blocks-counter gs-counterwrap gspb_counter-id-gsbp-87d0f51"><div class="gs-counterdiv"><div class="gs-counter" data-start="0" data-end="500" data-duration="1" data-postfix="+">0</div></div></div>
+<!-- /wp:greenshift-blocks/counter -->
+
+<!-- wp:greenshift-blocks/text {"id":"gsbp-149cfc5","textContent":"Trusted Supplier Partners","spacing":{"margin":{"values":{"bottom":["0px"]},"locked":false},"padding":{"values":[],"locked":false}},"typography":{"textShadow":[],"color":"#ffffffd6","customweight":"custom","customweightnumber":500,"alignment":[null,null,null,"center"]}} -->
+<div id="gspb_text-id-gsbp-149cfc5" class="gspb_text gspb_text-id-gsbp-149cfc5 ">Trusted Supplier Partners</div>
+<!-- /wp:greenshift-blocks/text --></div>
+<!-- /wp:greenshift-blocks/element -->
+
+<!-- wp:greenshift-blocks/element {"id":"gsbp-5af0722","type":"inner","localId":"gsbp-5af0722","metadata":{"name":"Counter"}} -->
+<div><!-- wp:greenshift-blocks/counter {"id":"gsbp-83afeea","spacing":{"margin":{"values":{"bottom":["10px"]},"locked":false},"padding":{"values":[],"locked":false}},"typographyValue":{"textShadow":[],"customweight":"custom","customweightnumber":600,"size":["50px","35px"],"line_height":["1em"]},"alignNew":["flex-start",null,null,"center"],"labelalignNew":["flex-start",null,null,"center"],"end":100,"duration":1,"textColor":"var(--wp--preset--color--palette-color-8, var(--theme-palette-color-8, #ffffff))","label":"","postfix":"K+","numspace":[0,null,null,null]} -->
+<div class="wp-block-greenshift-blocks-counter gs-counterwrap gspb_counter-id-gsbp-83afeea"><div class="gs-counterdiv"><div class="gs-counter" data-start="0" data-end="100" data-duration="1" data-postfix="K+">0</div></div></div>
+<!-- /wp:greenshift-blocks/counter -->
+
+<!-- wp:greenshift-blocks/text {"id":"gsbp-5e54057","textContent":"SKUs","spacing":{"margin":{"values":{"bottom":["0px",null,null,"0px"]},"locked":false},"padding":{"values":[],"locked":false}},"typography":{"textShadow":[],"color":"#ffffffd6","customweight":"custom","customweightnumber":500,"alignment":[null,null,null,"center"]}} -->
+<div id="gspb_text-id-gsbp-5e54057" class="gspb_text gspb_text-id-gsbp-5e54057 ">SKUs</div>
+<!-- /wp:greenshift-blocks/text --></div>
+<!-- /wp:greenshift-blocks/element --></div>
+<!-- /wp:greenshift-blocks/element -->
+
+<!-- wp:greenshift-blocks/element {"id":"gsbp-e0a4539","inlineCssStyles":".gsbp-e0a4539{display:inline-flex;align-items:center;gap:0.6rem;padding:0.6rem 1.25rem;border:1px solid #ffffff;color:#ffffff;font-weight:700;text-decoration:none;transition:background-color .2s,color .2s;}.gsbp-e0a4539::after{content:\u0022\\2192\u0022;}.gsbp-e0a4539:hover,.gsbp-e0a4539:focus-visible{background-color:#ffffff;color:#1d1f21;}.gsbp-e0a4539:focus-visible{outline:2px solid #ffffff;outline-offset:2px;}","textContent":"Find your store","tag":"a","localId":"gsbp-e0a4539","href":"https://thefastenergroup.com/branches/","styleAttributes":{"customCSS_Extra":"{CURRENT}{display:inline-flex;align-items:center;gap:0.6rem;padding:0.6rem 1.25rem;border:1px solid #ffffff;color:#ffffff;font-weight:700;text-decoration:none;transition:background-color .2s,color .2s;}{CURRENT}::after{content:\u0022\\2192\u0022;}{CURRENT}:hover,{CURRENT}:focus-visible{background-color:#ffffff;color:#1d1f21;}{CURRENT}:focus-visible{outline:2px solid #ffffff;outline-offset:2px;}"}} -->
+<a class="gsbp-e0a4539" href="https://thefastenergroup.com/branches/">Find your store</a>
+<!-- /wp:greenshift-blocks/element --></div>
+<!-- /wp:greenshift-blocks/element -->
