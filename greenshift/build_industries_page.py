@@ -1,6 +1,8 @@
 """Build the Industries page: hero, the industries grid, a "why TFG" section with the
 site's own count-up counter blocks on the brand red, and one closing call to action.
 """
+import re
+
 from build_policy_blocks import (
     ACCENT, BODY, GS_PREVIEW_CSS, HERE, INK, RULE, SOFT_WHITE, THREAD_HERO_CSS, Block, Raw, _seed,
     make_hero, write,
@@ -145,25 +147,25 @@ def why_section():
     ])
 
 
-# The red band under the hero. The site's own counter row (two columns that wrap to 2 x 2)
-# is laid out four across from here, so the counter blocks themselves stay unchanged.
-BAND_CSS = CARD_THREADS + (
-    "{CURRENT} .gspb_row,{CURRENT} .gspb_row__content{margin:0 !important;padding:0 !important;max-width:none !important;width:auto !important;}"
-    "{CURRENT} .gspb_row__content{display:grid !important;grid-template-columns:repeat(4, minmax(0, 1fr)) !important;"
-    "column-gap:1.5rem !important;row-gap:1.5rem !important;}"
-    "{CURRENT} .gspb_row__content > .gspb_row__col--6{width:auto !important;max-width:none !important;"
-    "flex:none !important;padding:0 !important;margin:0 !important;display:block !important;min-width:0 !important;}"
-    # GreenShift's own column styles squeeze the label; make every item in a cell full width.
-    "{CURRENT} .gspb_row__content > .gspb_row__col--6 > *{display:block !important;width:100% !important;"
-    "max-width:none !important;min-width:0 !important;flex:none !important;}"
-    "{CURRENT} .gspb_row__content > .gspb_row__col--6 .gspb_text{white-space:normal !important;"
-    "word-break:normal !important;overflow-wrap:normal !important;}"
-    "@media (max-width: 575.98px){{CURRENT} .gspb_row__content{grid-template-columns:repeat(2, minmax(0, 1fr)) !important;}}"
-)
+# The red band under the hero. The four counter blocks are lifted out of the site's own
+# two-column GreenShift row into a plain grid here: that row's column styles squeezed the
+# labels on the live site. The counter and label blocks themselves are unchanged.
+BAND_CSS = CARD_THREADS
+
+
+def counter_cells():
+    src = (HERE / "industries-page" / "source-counters.txt").read_text()
+    cells = re.findall(r'<div class="wp-block-greenshift-blocks-row-column[^"]*"[^>]*>(.*?)</div>\n'
+                       r'<!-- /wp:greenshift-blocks/row-column -->', src, re.S)
+    assert len(cells) == 4, len(cells)
+    return [c.strip() for c in cells]
 
 
 def stats_band():
-    counters = (HERE / "industries-page" / "source-counters.txt").read_text()
+    counters = Block(name="Numbers", styles={
+        "display": ["grid"], "gridTemplateColumns": ["repeat(4, minmax(0, 1fr))", None, None, "repeat(2, minmax(0, 1fr))"],
+        "columnGap": ["1.5rem"], "rowGap": ["1.5rem"],
+    }, children=[Block(name="Counter", children=[Raw(c)]) for c in counter_cells()])
     return Block(name="Here to Help You Build", styles={
         "display": ["grid"], "gridTemplateColumns": ["minmax(0, 2fr) minmax(0, 3fr)", "1fr"],
         "columnGap": ["3rem"], "rowGap": ["2rem"], "alignItems": ["center"],
@@ -181,7 +183,7 @@ def stats_band():
                 "marginTop": ["0px"], "marginBottom": ["0px"], "color": ["rgba(255, 255, 255, 0.85)"],
             }),
         ]),
-        Raw(counters),
+        counters,
     ])
 
 
