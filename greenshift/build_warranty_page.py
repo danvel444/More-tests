@@ -8,7 +8,8 @@ import json
 from urllib.parse import quote
 
 from build_policy_blocks import (
-    ACCENT, BODY, GS_PREVIEW_CSS, HERE, INK, RULE, Block, Raw, _seed, make_hero, write,
+    ACCENT, BODY, GS_PREVIEW_CSS, HERE, INK, RULE, SOFT_WHITE, THREAD_HERO_CSS, Block, Raw, _seed,
+    make_hero, write,
 )
 
 UPLOADS = "https://thefastenergroup.com/wp-content/uploads/"
@@ -228,13 +229,14 @@ def directory():
 
 def hero():
     return make_hero(
-        seed="warranty-hero", bg="#3a3a3a", caption="Warranty and service",
+        seed="warranty-hero", bg="#002e2c",  # brand teal #096461 at the shared hero darkness
+        caption="Warranty and service",
         title="Find Authorized Service Near You",
         intro=("Get the support you need with confidence. Click on the logo of your "
                "favourite brand below for direct access to their authorized warranty "
                "and repair services."),
         buttons=[("Browse brands", "#brands")],
-        accent=ACCENT,
+        accent=ACCENT, pattern_css=THREAD_HERO_CSS, caption_color=SOFT_WHITE,
     )
 
 
