@@ -24,6 +24,7 @@ CUSTOMERS = [
     ("Industries We Serve", SITE + "services/"),
     ("Authorized Service", SITE + "service-centres/"),
     ("Policies and Terms", SITE + "policies-and-terms/"),
+    ("Forced Labour Report", SITE + "forced-labour-report/"),
 ]
 # (name, logo, website). Names are the alt text, so screen readers hear each company.
 FAMILY = [
