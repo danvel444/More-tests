@@ -59,6 +59,8 @@ FAMILY_CSS = (
     "{CURRENT} a:hover,{CURRENT} a:focus-visible{opacity:1;}"
     "{CURRENT} a:focus-visible{outline:2px solid #ffffff;outline-offset:3px;}"
     "{CURRENT} img{display:block;width:100%;height:auto;aspect-ratio:1;object-fit:contain;}"
+    # The Ono wordmark is not a hexagon; sit it a little higher so it lines up with the others.
+    "{CURRENT} a:last-child img{object-position:50% 38%;}"
 )
 
 
