@@ -115,15 +115,18 @@ def column_4():
 
 
 # Additional CSS (Customizer). Blocksy's footer: footer.ct-footer > [data-row] > .ct-container.
-FOOTER_CSS = """/* TFG footer: thread lines on the main row, red top edge. */
+FOOTER_CSS = """/* TFG footer: one dark background with thread lines behind every row, red top edge. */
 .ct-footer {
-  border-top: 4px solid var(--theme-palette-color-1, #b11f24);
-}
-.ct-footer [data-row*="middle"] {
   position: relative;
   overflow: hidden;
+  background-color: #0d0e10;
+  border-top: 4px solid var(--theme-palette-color-1, #b11f24);
 }
-.ct-footer [data-row*="middle"]::before {
+/* Let the rows show the footer's background instead of painting their own. */
+.ct-footer [data-row] {
+  background: transparent !important;
+}
+.ct-footer::before {
   content: "";
   position: absolute;
   inset: 0;
@@ -132,7 +135,7 @@ FOOTER_CSS = """/* TFG footer: thread lines on the main row, red top edge. */
   -webkit-mask-image: linear-gradient(to left, #000 5%, transparent 45%);
   mask-image: linear-gradient(to left, #000 5%, transparent 45%);
 }
-.ct-footer [data-row*="middle"] > .ct-container {
+.ct-footer [data-row] {
   position: relative;
   z-index: 1;
 }
