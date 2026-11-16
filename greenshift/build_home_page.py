@@ -9,7 +9,7 @@ import json
 import re
 
 from build_policy_blocks import (
-    ACCENT, BODY, GS_PREVIEW_CSS, HERE, INK, RULE, SOFT_WHITE, THREAD_HERO_CSS,
+    ACCENT, BODY, GS_PREVIEW_CSS, HERE, INK, RULE, SOFT_WHITE, THREAD_HERO_CSS, HEX_CLASS,
     Block, Raw, _seed, button_css, write,
 )
 from build_industries_page import SOLID_BUTTON_CSS, section_heading
@@ -53,13 +53,14 @@ def hero():
     return Raw(s)
 
 
-# The thread-line pattern and red bottom edge used on every page hero, applied to the
+# The honeycomb and red bottom edge used on every page hero, applied to the
 # homepage hero's existing overlay layer. The hero row keeps its old overlay settings so
 # the block stays valid in the editor; these rules override the old hexagon image.
 HERO_PATTERN_CSS = (
     f"{HERO_ROW}{{position:relative;box-shadow:inset 0 -4px 0 {ACCENT};}}"
-    f"{HERO_ROW} > .gspb_backgroundOverlay{{position:absolute;inset:0;pointer-events:none;opacity:1 !important;"
-    "background:repeating-linear-gradient(115deg, rgba(255, 255, 255, 0.07) 0 1px, transparent 1px 14px) !important;"
+    f"{HERO_ROW} > .gspb_backgroundOverlay{{position:absolute;inset:0;pointer-events:none;"
+    "background:var(--tfg-hex-image) 0 0 / var(--tfg-hex-size) repeat !important;"
+    "opacity:var(--tfg-hex-opacity) !important;"
     "-webkit-mask-image:linear-gradient(to left, #000 20%, transparent 75%);"
     "mask-image:linear-gradient(to left, #000 20%, transparent 75%);}"
     f"{HERO_ROW} > .gspb_row__content{{position:relative;z-index:1;}}"
@@ -187,7 +188,8 @@ def industries_band():
         "paddingLeft": ["var(--wp--custom--spacing--side, min(3vw, 20px))"],
         "paddingRight": ["var(--wp--custom--spacing--side, min(3vw, 20px))"],
         "marginTop": ["0px"], "marginBottom": ["0px"],
-    }, json_extra={"isVariation": "contentcolumns"}, custom_css=THREAD_HERO_CSS, children=[content])
+    }, json_extra={"isVariation": "contentcolumns"}, custom_css=THREAD_HERO_CSS, class_name=HEX_CLASS,
+       children=[content])
 
 
 def about_section(cells):

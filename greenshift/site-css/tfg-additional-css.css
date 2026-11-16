@@ -1,0 +1,49 @@
+/* TFG honeycomb. Used by heroes and dark cards (class "tfg-hex") and the footer.
+   Strength: --tfg-hex-opacity. Cell size: --tfg-hex-size (keep the 52 : 90 ratio,
+   e.g. 39px 67.5px for smaller cells). */
+:root {
+  --tfg-hex-image: url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' width='51.96' height='90' viewBox='0 0 51.96 90'%3E%3Cpath d='M-38.97 -45.00 L-12.99 -30.00 L-12.99 -0.00 L-38.97 15.00 L-64.95 -0.00 L-64.95 -30.00ZM12.99 -45.00 L38.97 -30.00 L38.97 -0.00 L12.99 15.00 L-12.99 -0.00 L-12.99 -30.00ZM64.95 -45.00 L90.93 -30.00 L90.93 -0.00 L64.95 15.00 L38.97 -0.00 L38.97 -30.00ZM-12.99 0.00 L12.99 15.00 L12.99 45.00 L-12.99 60.00 L-38.97 45.00 L-38.97 15.00ZM38.97 0.00 L64.95 15.00 L64.95 45.00 L38.97 60.00 L12.99 45.00 L12.99 15.00ZM90.93 0.00 L116.91 15.00 L116.91 45.00 L90.93 60.00 L64.95 45.00 L64.95 15.00ZM-38.97 45.00 L-12.99 60.00 L-12.99 90.00 L-38.97 105.00 L-64.95 90.00 L-64.95 60.00ZM12.99 45.00 L38.97 60.00 L38.97 90.00 L12.99 105.00 L-12.99 90.00 L-12.99 60.00ZM64.95 45.00 L90.93 60.00 L90.93 90.00 L64.95 105.00 L38.97 90.00 L38.97 60.00ZM-12.99 90.00 L12.99 105.00 L12.99 135.00 L-12.99 150.00 L-38.97 135.00 L-38.97 105.00ZM38.97 90.00 L64.95 105.00 L64.95 135.00 L38.97 150.00 L12.99 135.00 L12.99 105.00ZM90.93 90.00 L116.91 105.00 L116.91 135.00 L90.93 150.00 L64.95 135.00 L64.95 105.00Z' fill='none' stroke='white' stroke-width='1'/%3E%3C/svg%3E");
+  --tfg-hex-size: 51.96px 90px;
+  --tfg-hex-opacity: 0.09;
+}
+.tfg-hex {
+  position: relative;
+  isolation: isolate;
+}
+.tfg-hex::before {
+  content: "";
+  position: absolute;
+  inset: 0;
+  z-index: -1;
+  pointer-events: none;
+  background: var(--tfg-hex-image) 0 0 / var(--tfg-hex-size) repeat;
+  opacity: var(--tfg-hex-opacity);
+  -webkit-mask-image: linear-gradient(to left, #000 15%, transparent 70%);
+  mask-image: linear-gradient(to left, #000 15%, transparent 70%);
+}
+
+/* TFG footer: one dark background with honeycomb behind every row, red top edge. */
+.ct-footer {
+  position: relative;
+  overflow: hidden;
+  background-color: #0d0e10;
+  border-top: 4px solid var(--theme-palette-color-1, #b11f24);
+}
+/* Let the rows show the footer's background instead of painting their own. */
+.ct-footer [data-row] {
+  background: transparent !important;
+}
+.ct-footer::before {
+  content: "";
+  position: absolute;
+  inset: 0;
+  pointer-events: none;
+  background: var(--tfg-hex-image) 0 0 / var(--tfg-hex-size) repeat;
+  opacity: var(--tfg-hex-opacity);
+  -webkit-mask-image: linear-gradient(to left, #000 5%, transparent 45%);
+  mask-image: linear-gradient(to left, #000 5%, transparent 45%);
+}
+.ct-footer [data-row] {
+  position: relative;
+  z-index: 1;
+}

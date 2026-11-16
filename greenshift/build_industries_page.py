@@ -4,7 +4,7 @@ site's own count-up counter blocks on the brand red, and one closing call to act
 import re
 
 from build_policy_blocks import (
-    ACCENT, BODY, GS_PREVIEW_CSS, HERE, INK, RULE, SOFT_WHITE, THREAD_HERO_CSS, Block, Raw, _seed,
+    ACCENT, BODY, GS_PREVIEW_CSS, HERE, INK, RULE, SOFT_WHITE, THREAD_HERO_CSS, HEX_CLASS, Block, Raw, _seed,
     make_hero, write,
 )
 
@@ -112,14 +112,8 @@ CHECK_CSS = (
 )
 
 
-# The hero's thread lines, without its red edge, for the red numbers card.
-CARD_THREADS = (
-    "{CURRENT}::before{content:\"\";position:absolute;inset:0;pointer-events:none;"
-    "background:repeating-linear-gradient(115deg, rgba(255, 255, 255, 0.08) 0 1px, transparent 1px 14px);"
-    "-webkit-mask-image:linear-gradient(to left, #000 10%, transparent 80%);"
-    "mask-image:linear-gradient(to left, #000 10%, transparent 80%);}"
-    "{CURRENT} > *{position:relative;z-index:1;}"
-)
+# The red numbers card takes the honeycomb from the shared tfg-hex class.
+CARD_THREADS = ""
 
 
 def visit_section():
@@ -166,7 +160,7 @@ def stats_band():
         "display": ["grid"], "gridTemplateColumns": ["repeat(4, minmax(0, 1fr))", None, None, "repeat(2, minmax(0, 1fr))"],
         "columnGap": ["1.5rem"], "rowGap": ["1.5rem"],
     }, children=[Block(name="Counter", children=[Raw(c)]) for c in counter_cells()])
-    return Block(name="Here to Help You Build", styles={
+    return Block(name="Here to Help You Build", class_name=HEX_CLASS, styles={
         "display": ["grid"], "gridTemplateColumns": ["minmax(0, 2fr) minmax(0, 3fr)", "1fr"],
         "columnGap": ["3rem"], "rowGap": ["2rem"], "alignItems": ["center"],
         "position": ["relative"], "overflow": ["hidden"], "backgroundColor": [BRAND_RED],

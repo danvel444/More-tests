@@ -1,4 +1,4 @@
-"""Build the Forced Labour Report page: the thread-line hero, a short key-facts strip, then
+"""Build the Forced Labour Report page: the honeycomb hero, a short key-facts strip, then
 the four report pages in a simple document viewer with page jump links.
 """
 from build_policy_blocks import (

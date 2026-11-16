@@ -1,8 +1,8 @@
-"""Build the Contact Us page: the thread-line hero, then one panel with the enquiry form
+"""Build the Contact Us page: the honeycomb hero, then one panel with the enquiry form
 beside the "not a form person?" options and the store link.
 """
 from build_policy_blocks import (
-    ACCENT, BODY, GS_PREVIEW_CSS, INK, RULE, SOFT_WHITE, THREAD_HERO_CSS, Block, Raw, _seed,
+    ACCENT, BODY, GS_PREVIEW_CSS, INK, RULE, SOFT_WHITE, THREAD_HERO_CSS, HEX_CLASS, Block, Raw, _seed,
     make_hero, write,
 )
 from build_industries_page import SOLID_BUTTON_CSS, section_heading
@@ -59,18 +59,12 @@ def photo_card():
     ])
 
 
-# The hero's thread lines, without the red edge, so the dark card echoes the hero.
-CARD_THREADS = (
-    "{CURRENT}::before{content:\"\";position:absolute;inset:0;pointer-events:none;"
-    "background:repeating-linear-gradient(115deg, rgba(255, 255, 255, 0.07) 0 1px, transparent 1px 14px);"
-    "-webkit-mask-image:linear-gradient(to left, #000 10%, transparent 80%);"
-    "mask-image:linear-gradient(to left, #000 10%, transparent 80%);}"
-    "{CURRENT} > *{position:relative;z-index:1;}"
-)
+# The dark card takes the honeycomb from the shared tfg-hex class.
+CARD_THREADS = ""
 
 
 def stores_card():
-    return Block(name="Not a Form Person", styles={
+    return Block(name="Not a Form Person", class_name=HEX_CLASS, styles={
         "position": ["relative"], "overflow": ["hidden"], "backgroundColor": [INK],
         "paddingTop": ["1.75rem", None, None, "1.5rem"], "paddingBottom": ["1.75rem", None, None, "1.5rem"],
         "paddingLeft": ["1.75rem", None, None, "1.25rem"], "paddingRight": ["1.75rem", None, None, "1.25rem"],

@@ -1,10 +1,10 @@
 """Build the sidebar "Here to Help You Build" card for the Blocksy Main Sidebar widget area.
 
-It matches the red numbers band on the Industries page: square corners, the thread-line
+It matches the red numbers band on the Industries page: square corners, the honeycomb
 pattern, the site's own count-up counter blocks (unchanged) in a 2 x 2 grid, and a
 "Find your store" button.
 """
-from build_policy_blocks import ACCENT, GS_PREVIEW_CSS, SOFT_WHITE, Block, Raw, _seed, write
+from build_policy_blocks import ACCENT, HEX_CLASS, GS_PREVIEW_CSS, SOFT_WHITE, Block, Raw, _seed, write
 from build_industries_page import CARD_THREADS, counter_cells
 
 STORES = "https://thefastenergroup.com/branches/"
@@ -35,7 +35,7 @@ def card():
         "backgroundColor": ["rgba(255, 255, 255, 0.25)"],
         "marginTop": ["1.5rem"], "marginBottom": ["1.75rem"],
     }, custom_css=NUMBERS_CSS, children=[Block(name="Counter", children=[Raw(c)]) for c in counter_cells()])
-    return Block(name="Here to Help You Build", styles={
+    return Block(name="Here to Help You Build", class_name=HEX_CLASS, styles={
         "position": ["relative"], "overflow": ["hidden"], "backgroundColor": [ACCENT],
         "paddingTop": ["1.75rem"], "paddingBottom": ["1.75rem"],
         "paddingLeft": ["1.75rem"], "paddingRight": ["1.75rem"],
