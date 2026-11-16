@@ -77,7 +77,15 @@ def links(title, items):
 
 def column_1():
     _seed["slug"], _seed["n"] = "footer-1", 0
+    logo = SITE + "wp-content/uploads/2025/10/TFG-Logo-Stacked_WHITE.png"
     return Block(name="Footer About", children=[
+        Block("a", href=SITE, name="Logo", styles={"display": ["inline-block"], "marginBottom": ["1.25rem"]},
+              children=[
+            Block("img", json_extra={"src": logo, "alt": "The Fastener Group Ltd. home"},
+                  html_attrs=[("src", logo), ("alt", "The Fastener Group Ltd. home"), ("loading", "lazy")],
+                  styles={"display": ["block"], "width": ["11rem", None, None, "9.5rem"],
+                          "maxWidth": ["100%"], "height": ["auto"]}),
+        ]),
         Block("p", text=("Western Canada’s source for fasteners, tools, safety gear and "
                          "accessories since 1979."), styles={
             "marginTop": ["0px"], "marginBottom": ["0px"], "maxWidth": ["22rem"], "color": [SOFT_WHITE],

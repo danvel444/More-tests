@@ -1,5 +1,11 @@
-<!-- wp:greenshift-blocks/element {"id":"gsbp-9f3eeec","type":"inner","localId":"gsbp-9f3eeec","metadata":{"name":"Footer About"}} -->
-<div><!-- wp:greenshift-blocks/element {"id":"gsbp-8a5aa96","inlineCssStyles":".gsbp-8a5aa96{margin-top:0px;margin-bottom:0px;max-width:22rem;color:rgba(255, 255, 255, 0.72);}","textContent":"Western Canada’s source for fasteners, tools, safety gear and accessories since 1979.","tag":"p","localId":"gsbp-8a5aa96","styleAttributes":{"marginTop":["0px"],"marginBottom":["0px"],"maxWidth":["22rem"],"color":["rgba(255, 255, 255, 0.72)"]}} -->
-<p class="gsbp-8a5aa96">Western Canada’s source for fasteners, tools, safety gear and accessories since 1979.</p>
+<!-- wp:greenshift-blocks/element {"id":"gsbp-0a2b7a9","type":"inner","localId":"gsbp-0a2b7a9","metadata":{"name":"Footer About"}} -->
+<div><!-- wp:greenshift-blocks/element {"id":"gsbp-9f3eeec","inlineCssStyles":".gsbp-9f3eeec{display:inline-block;margin-bottom:1.25rem;}","tag":"a","type":"inner","localId":"gsbp-9f3eeec","href":"https://thefastenergroup.com/","styleAttributes":{"display":["inline-block"],"marginBottom":["1.25rem"]},"metadata":{"name":"Logo"}} -->
+<a class="gsbp-9f3eeec" href="https://thefastenergroup.com/"><!-- wp:greenshift-blocks/element {"id":"gsbp-8a5aa96","inlineCssStyles":".gsbp-8a5aa96{display:block;width:11rem;max-width:100%;height:auto;}@media (max-width: 575.98px){.gsbp-8a5aa96{width:9.5rem;}}","tag":"img","localId":"gsbp-8a5aa96","src":"https://thefastenergroup.com/wp-content/uploads/2025/10/TFG-Logo-Stacked_WHITE.png","alt":"The Fastener Group Ltd. home","styleAttributes":{"display":["block"],"width":["11rem",null,null,"9.5rem"],"maxWidth":["100%"],"height":["auto"]}} -->
+<img class="gsbp-8a5aa96" src="https://thefastenergroup.com/wp-content/uploads/2025/10/TFG-Logo-Stacked_WHITE.png" alt="The Fastener Group Ltd. home" loading="lazy"/>
+<!-- /wp:greenshift-blocks/element --></a>
+<!-- /wp:greenshift-blocks/element -->
+
+<!-- wp:greenshift-blocks/element {"id":"gsbp-783b0f9","inlineCssStyles":".gsbp-783b0f9{margin-top:0px;margin-bottom:0px;max-width:22rem;color:rgba(255, 255, 255, 0.72);}","textContent":"Western Canada’s source for fasteners, tools, safety gear and accessories since 1979.","tag":"p","localId":"gsbp-783b0f9","styleAttributes":{"marginTop":["0px"],"marginBottom":["0px"],"maxWidth":["22rem"],"color":["rgba(255, 255, 255, 0.72)"]}} -->
+<p class="gsbp-783b0f9">Western Canada’s source for fasteners, tools, safety gear and accessories since 1979.</p>
 <!-- /wp:greenshift-blocks/element --></div>
 <!-- /wp:greenshift-blocks/element -->
