@@ -1,0 +1,21 @@
+/* TFG footer: thread lines on the main row, red top edge. */
+.ct-footer {
+  border-top: 4px solid var(--theme-palette-color-1, #b11f24);
+}
+.ct-footer [data-row*="middle"] {
+  position: relative;
+  overflow: hidden;
+}
+.ct-footer [data-row*="middle"]::before {
+  content: "";
+  position: absolute;
+  inset: 0;
+  pointer-events: none;
+  background: repeating-linear-gradient(115deg, rgba(255, 255, 255, 0.05) 0 1px, transparent 1px 14px);
+  -webkit-mask-image: linear-gradient(to left, #000 5%, transparent 45%);
+  mask-image: linear-gradient(to left, #000 5%, transparent 45%);
+}
+.ct-footer [data-row*="middle"] > .ct-container {
+  position: relative;
+  z-index: 1;
+}

@@ -1,0 +1,5 @@
+<!-- wp:greenshift-blocks/element {"id":"gsbp-9f3eeec","type":"inner","localId":"gsbp-9f3eeec","metadata":{"name":"Footer About"}} -->
+<div><!-- wp:greenshift-blocks/element {"id":"gsbp-8a5aa96","inlineCssStyles":".gsbp-8a5aa96{margin-top:0px;margin-bottom:0px;max-width:22rem;color:rgba(255, 255, 255, 0.72);}","textContent":"Western Canada’s source for fasteners, tools, safety gear and accessories since 1979.","tag":"p","localId":"gsbp-8a5aa96","styleAttributes":{"marginTop":["0px"],"marginBottom":["0px"],"maxWidth":["22rem"],"color":["rgba(255, 255, 255, 0.72)"]}} -->
+<p class="gsbp-8a5aa96">Western Canada’s source for fasteners, tools, safety gear and accessories since 1979.</p>
+<!-- /wp:greenshift-blocks/element --></div>
+<!-- /wp:greenshift-blocks/element -->

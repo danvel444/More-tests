@@ -1,0 +1,25 @@
+<!-- wp:greenshift-blocks/element {"id":"gsbp-14afe53","type":"inner","localId":"gsbp-14afe53","metadata":{"name":"Customers"}} -->
+<div><!-- wp:greenshift-blocks/element {"id":"gsbp-eae248d","inlineCssStyles":".gsbp-eae248d{margin-top:0px;margin-bottom:1rem;font-weight:700;text-transform:uppercase;letter-spacing:0.06em;color:#ffffff;}","textContent":"Customers","tag":"p","localId":"gsbp-eae248d","styleAttributes":{"marginTop":["0px"],"marginBottom":["1rem"],"fontWeight":["700"],"textTransform":["uppercase"],"letterSpacing":["0.06em"],"color":["#ffffff"]}} -->
+<p class="gsbp-eae248d">Customers</p>
+<!-- /wp:greenshift-blocks/element -->
+
+<!-- wp:greenshift-blocks/element {"id":"gsbp-6c96e9b","inlineCssStyles":".gsbp-6c96e9b{list-style:none;margin:0;padding:0;}.gsbp-6c96e9b li{margin:0 0 0.6rem 0;padding:0;}.gsbp-6c96e9b a{color:rgba(255, 255, 255, 0.82);text-decoration:none;transition:color .2s;}.gsbp-6c96e9b a:hover,.gsbp-6c96e9b a:focus-visible{color:#ffffff;text-decoration:underline;text-underline-offset:0.2em;}","tag":"ul","type":"inner","localId":"gsbp-6c96e9b","styleAttributes":{"customCSS_Extra":"{CURRENT}{list-style:none;margin:0;padding:0;}{CURRENT} li{margin:0 0 0.6rem 0;padding:0;}{CURRENT} a{color:rgba(255, 255, 255, 0.82);text-decoration:none;transition:color .2s;}{CURRENT} a:hover,{CURRENT} a:focus-visible{color:#ffffff;text-decoration:underline;text-underline-offset:0.2em;}"}} -->
+<ul class="gsbp-6c96e9b"><!-- wp:greenshift-blocks/element {"id":"gsbp-9f46eb2","tag":"li","type":"inner","localId":"gsbp-9f46eb2"} -->
+<li><!-- wp:greenshift-blocks/element {"id":"gsbp-a794fb1","textContent":"Industries We Serve","tag":"a","localId":"gsbp-a794fb1","href":"https://thefastenergroup.com/services/"} -->
+<a href="https://thefastenergroup.com/services/">Industries We Serve</a>
+<!-- /wp:greenshift-blocks/element --></li>
+<!-- /wp:greenshift-blocks/element -->
+
+<!-- wp:greenshift-blocks/element {"id":"gsbp-7bda368","tag":"li","type":"inner","localId":"gsbp-7bda368"} -->
+<li><!-- wp:greenshift-blocks/element {"id":"gsbp-08356d9","textContent":"Authorized Service","tag":"a","localId":"gsbp-08356d9","href":"https://thefastenergroup.com/service-centres/"} -->
+<a href="https://thefastenergroup.com/service-centres/">Authorized Service</a>
+<!-- /wp:greenshift-blocks/element --></li>
+<!-- /wp:greenshift-blocks/element -->
+
+<!-- wp:greenshift-blocks/element {"id":"gsbp-ea7b17b","tag":"li","type":"inner","localId":"gsbp-ea7b17b"} -->
+<li><!-- wp:greenshift-blocks/element {"id":"gsbp-a8bb275","textContent":"Policies and Terms","tag":"a","localId":"gsbp-a8bb275","href":"https://thefastenergroup.com/policies-and-terms/"} -->
+<a href="https://thefastenergroup.com/policies-and-terms/">Policies and Terms</a>
+<!-- /wp:greenshift-blocks/element --></li>
+<!-- /wp:greenshift-blocks/element --></ul>
+<!-- /wp:greenshift-blocks/element --></div>
+<!-- /wp:greenshift-blocks/element -->

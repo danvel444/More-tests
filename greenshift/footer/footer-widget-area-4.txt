@@ -1,0 +1,71 @@
+<!-- wp:greenshift-blocks/element {"id":"gsbp-55a83db","type":"inner","localId":"gsbp-55a83db","metadata":{"name":"Family of Companies"}} -->
+<div><!-- wp:greenshift-blocks/element {"id":"gsbp-fc0627c","inlineCssStyles":".gsbp-fc0627c{margin-top:0px;margin-bottom:1rem;font-weight:700;text-transform:uppercase;letter-spacing:0.06em;color:#ffffff;}","textContent":"Our family of companies","tag":"p","localId":"gsbp-fc0627c","styleAttributes":{"marginTop":["0px"],"marginBottom":["1rem"],"fontWeight":["700"],"textTransform":["uppercase"],"letterSpacing":["0.06em"],"color":["#ffffff"]}} -->
+<p class="gsbp-fc0627c">Our family of companies</p>
+<!-- /wp:greenshift-blocks/element -->
+
+<!-- wp:greenshift-blocks/element {"id":"gsbp-5ba04bf","inlineCssStyles":".gsbp-5ba04bf{display:grid;grid-template-columns:repeat(5, minmax(0, 3rem));gap:0.6rem;}.gsbp-5ba04bf a{display:block;opacity:0.9;transition:opacity .2s;}.gsbp-5ba04bf a:hover,.gsbp-5ba04bf a:focus-visible{opacity:1;}.gsbp-5ba04bf a:focus-visible{outline:2px solid #ffffff;outline-offset:3px;}.gsbp-5ba04bf img{display:block;width:100%;height:auto;aspect-ratio:1;object-fit:contain;}","type":"inner","localId":"gsbp-5ba04bf","styleAttributes":{"customCSS_Extra":"{CURRENT}{display:grid;grid-template-columns:repeat(5, minmax(0, 3rem));gap:0.6rem;}{CURRENT} a{display:block;opacity:0.9;transition:opacity .2s;}{CURRENT} a:hover,{CURRENT} a:focus-visible{opacity:1;}{CURRENT} a:focus-visible{outline:2px solid #ffffff;outline-offset:3px;}{CURRENT} img{display:block;width:100%;height:auto;aspect-ratio:1;object-fit:contain;}"},"metadata":{"name":"Logos"}} -->
+<div class="gsbp-5ba04bf"><!-- wp:greenshift-blocks/element {"id":"gsbp-de5a976","tag":"a","type":"inner","localId":"gsbp-de5a976","href":"https://bcfasteners.com/"} -->
+<a href="https://bcfasteners.com/"><!-- wp:greenshift-blocks/element {"id":"gsbp-0ccc46f","tag":"img","localId":"gsbp-0ccc46f","src":"https://thefastenergroup.com/wp-content/uploads/2025/12/BC-Hex-Logo.png","alt":"BC Fasteners and Tools"} -->
+<img src="https://thefastenergroup.com/wp-content/uploads/2025/12/BC-Hex-Logo.png" alt="BC Fasteners and Tools" width="48" height="48" loading="lazy"/>
+<!-- /wp:greenshift-blocks/element --></a>
+<!-- /wp:greenshift-blocks/element -->
+
+<!-- wp:greenshift-blocks/element {"id":"gsbp-caf91e1","tag":"a","type":"inner","localId":"gsbp-caf91e1","href":"https://www.blackcrowfasteners.com/"} -->
+<a href="https://www.blackcrowfasteners.com/"><!-- wp:greenshift-blocks/element {"id":"gsbp-ff3e82a","tag":"img","localId":"gsbp-ff3e82a","src":"https://thefastenergroup.com/wp-content/uploads/2025/12/BC2000-Hex-Logo.png","alt":"BC Fasteners and Tools 2000"} -->
+<img src="https://thefastenergroup.com/wp-content/uploads/2025/12/BC2000-Hex-Logo.png" alt="BC Fasteners and Tools 2000" width="48" height="48" loading="lazy"/>
+<!-- /wp:greenshift-blocks/element --></a>
+<!-- /wp:greenshift-blocks/element -->
+
+<!-- wp:greenshift-blocks/element {"id":"gsbp-b0f3a71","tag":"a","type":"inner","localId":"gsbp-b0f3a71","href":"https://www.calfast.com/"} -->
+<a href="https://www.calfast.com/"><!-- wp:greenshift-blocks/element {"id":"gsbp-4553840","tag":"img","localId":"gsbp-4553840","src":"https://thefastenergroup.com/wp-content/uploads/2025/12/Calgary-Hex-Logo.png","alt":"Calgary Fasteners and Tools"} -->
+<img src="https://thefastenergroup.com/wp-content/uploads/2025/12/Calgary-Hex-Logo.png" alt="Calgary Fasteners and Tools" width="48" height="48" loading="lazy"/>
+<!-- /wp:greenshift-blocks/element --></a>
+<!-- /wp:greenshift-blocks/element -->
+
+<!-- wp:greenshift-blocks/element {"id":"gsbp-d58be6f","tag":"a","type":"inner","localId":"gsbp-d58be6f","href":"https://cf-t.com/"} -->
+<a href="https://cf-t.com/"><!-- wp:greenshift-blocks/element {"id":"gsbp-59d1bd1","tag":"img","localId":"gsbp-59d1bd1","src":"https://thefastenergroup.com/wp-content/uploads/2025/12/Construction-Hex-Logo.png","alt":"Construction Fasteners and Tools"} -->
+<img src="https://thefastenergroup.com/wp-content/uploads/2025/12/Construction-Hex-Logo.png" alt="Construction Fasteners and Tools" width="48" height="48" loading="lazy"/>
+<!-- /wp:greenshift-blocks/element --></a>
+<!-- /wp:greenshift-blocks/element -->
+
+<!-- wp:greenshift-blocks/element {"id":"gsbp-6828302","tag":"a","type":"inner","localId":"gsbp-6828302","href":"https://edmfast.com/"} -->
+<a href="https://edmfast.com/"><!-- wp:greenshift-blocks/element {"id":"gsbp-2a53423","tag":"img","localId":"gsbp-2a53423","src":"https://thefastenergroup.com/wp-content/uploads/2025/12/Edmonton-Hex-Logo.png","alt":"Edmonton Fasteners and Tools"} -->
+<img src="https://thefastenergroup.com/wp-content/uploads/2025/12/Edmonton-Hex-Logo.png" alt="Edmonton Fasteners and Tools" width="48" height="48" loading="lazy"/>
+<!-- /wp:greenshift-blocks/element --></a>
+<!-- /wp:greenshift-blocks/element -->
+
+<!-- wp:greenshift-blocks/element {"id":"gsbp-34e57c4","tag":"a","type":"inner","localId":"gsbp-34e57c4","href":"https://www.lethfast.ca/"} -->
+<a href="https://www.lethfast.ca/"><!-- wp:greenshift-blocks/element {"id":"gsbp-21b041e","tag":"img","localId":"gsbp-21b041e","src":"https://thefastenergroup.com/wp-content/uploads/2025/12/Lethbridge-Hex-Logo.png","alt":"Lethbridge Fasteners and Tools"} -->
+<img src="https://thefastenergroup.com/wp-content/uploads/2025/12/Lethbridge-Hex-Logo.png" alt="Lethbridge Fasteners and Tools" width="48" height="48" loading="lazy"/>
+<!-- /wp:greenshift-blocks/element --></a>
+<!-- /wp:greenshift-blocks/element -->
+
+<!-- wp:greenshift-blocks/element {"id":"gsbp-b42e549","tag":"a","type":"inner","localId":"gsbp-b42e549","href":"https://midcanadafasteners.shop/"} -->
+<a href="https://midcanadafasteners.shop/"><!-- wp:greenshift-blocks/element {"id":"gsbp-6c1a7cf","tag":"img","localId":"gsbp-6c1a7cf","src":"https://thefastenergroup.com/wp-content/uploads/2025/12/Mid-Can-Hex-Logo.png","alt":"Mid Canada Fasteners and Tools"} -->
+<img src="https://thefastenergroup.com/wp-content/uploads/2025/12/Mid-Can-Hex-Logo.png" alt="Mid Canada Fasteners and Tools" width="48" height="48" loading="lazy"/>
+<!-- /wp:greenshift-blocks/element --></a>
+<!-- /wp:greenshift-blocks/element -->
+
+<!-- wp:greenshift-blocks/element {"id":"gsbp-11f411c","tag":"a","type":"inner","localId":"gsbp-11f411c","href":"https://www.rdfasteners.com/"} -->
+<a href="https://www.rdfasteners.com/"><!-- wp:greenshift-blocks/element {"id":"gsbp-27af669","tag":"img","localId":"gsbp-27af669","src":"https://thefastenergroup.com/wp-content/uploads/2025/12/Red-Deer-Hex-Logo.png","alt":"Red Deer Fasteners and Tools"} -->
+<img src="https://thefastenergroup.com/wp-content/uploads/2025/12/Red-Deer-Hex-Logo.png" alt="Red Deer Fasteners and Tools" width="48" height="48" loading="lazy"/>
+<!-- /wp:greenshift-blocks/element --></a>
+<!-- /wp:greenshift-blocks/element -->
+
+<!-- wp:greenshift-blocks/element {"id":"gsbp-428572f","tag":"a","type":"inner","localId":"gsbp-428572f","href":"https://jdindustrial.com/"} -->
+<a href="https://jdindustrial.com/"><!-- wp:greenshift-blocks/element {"id":"gsbp-1f5a72c","tag":"img","localId":"gsbp-1f5a72c","src":"https://thefastenergroup.com/wp-content/uploads/2025/12/JD-Hex-Logo.png","alt":"JD Industrial Supplies"} -->
+<img src="https://thefastenergroup.com/wp-content/uploads/2025/12/JD-Hex-Logo.png" alt="JD Industrial Supplies" width="48" height="48" loading="lazy"/>
+<!-- /wp:greenshift-blocks/element --></a>
+<!-- /wp:greenshift-blocks/element -->
+
+<!-- wp:greenshift-blocks/element {"id":"gsbp-75847b6","tag":"a","type":"inner","localId":"gsbp-75847b6","href":"https://www.onoworkandsafety.com/"} -->
+<a href="https://www.onoworkandsafety.com/"><!-- wp:greenshift-blocks/element {"id":"gsbp-6f3ff41","tag":"img","localId":"gsbp-6f3ff41","src":"https://thefastenergroup.com/wp-content/uploads/2026/02/Ono-Logo.webp","alt":"Ono Work and Safety"} -->
+<img src="https://thefastenergroup.com/wp-content/uploads/2026/02/Ono-Logo.webp" alt="Ono Work and Safety" width="48" height="48" loading="lazy"/>
+<!-- /wp:greenshift-blocks/element --></a>
+<!-- /wp:greenshift-blocks/element --></div>
+<!-- /wp:greenshift-blocks/element -->
+
+<!-- wp:greenshift-blocks/element {"id":"gsbp-77467a3","inlineCssStyles":".gsbp-77467a3{margin-top:1rem;margin-bottom:0px;font-size:0.875rem;color:rgba(255, 255, 255, 0.55);}","textContent":"Local names, one group. Each logo opens that company’s own site.","tag":"p","localId":"gsbp-77467a3","styleAttributes":{"marginTop":["1rem"],"marginBottom":["0px"],"fontSize":["0.875rem"],"color":["rgba(255, 255, 255, 0.55)"]}} -->
+<p class="gsbp-77467a3">Local names, one group. Each logo opens that company’s own site.</p>
+<!-- /wp:greenshift-blocks/element --></div>
+<!-- /wp:greenshift-blocks/element -->
