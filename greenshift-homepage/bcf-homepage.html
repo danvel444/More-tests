@@ -1,0 +1,545 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>BC Fasteners Homepage</title>
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Archivo:ital,wdth,wght@0,62..125,400..900;1,62..125,400..900&display=swap" rel="stylesheet">
+<style data-wp-block-html="css">
+.wp-section{display:flex;justify-content:center;flex-direction:column;align-items:center;padding-right:var(--wp--spacing--side, min(3vw, 20px));padding-left:var(--wp--spacing--side, min(3vw, 20px));padding-top:var(--wp--spacing--top, 0px);padding-bottom:var(--wp--spacing--bottom, 0px);margin-top:0px;margin-bottom:0px;position:relative;}
+.wp-content-wrap{max-width:100%;width:var(--wp--style--global--wide-size, 1200px);}
+
+.bcfh-root{--bcfh-ink:#17191b;--bcfh-ink-2:#24272a;--bcfh-paper:#f3f1ec;--bcfh-line:#dcd7cc;--bcfh-muted:#5f5b53;--bcfh-red:#c4202b;--bcfh-red-dark:#9e1821;--bcfh-hivis:#e2f23a;--bcfh-slate:#2e5169;--bcfh-white:#ffffff;--bcfh-display:"Archivo","Arial Narrow",Arial,sans-serif;font-family:var(--bcfh-display);font-stretch:100%;color:var(--bcfh-ink);font-size:16px;line-height:1.5;}
+
+.bcfh-paperbg{background-color:var(--bcfh-paper);}
+.bcfh-whitebg{background-color:var(--bcfh-white);}
+.bcfh-inkbg{background-color:var(--bcfh-ink);color:var(--bcfh-white);}
+.bcfh-slatebg{background-color:var(--bcfh-slate);color:var(--bcfh-white);}
+
+.bcfh-promo{padding-top:var(--wp--preset--spacing--60, 2.25rem);padding-bottom:var(--wp--preset--spacing--60, 2.25rem);}
+.bcfh-intro{display:flex;justify-content:space-between;align-items:flex-end;gap:24px;margin-bottom:20px;}
+.bcfh-h1{font-family:var(--bcfh-display);font-stretch:68%;font-weight:850;text-transform:uppercase;font-size:clamp(2rem, 4.2vw, 3.25rem);line-height:0.95;letter-spacing:-0.01em;margin-top:0;margin-bottom:0;max-width:16ch;}
+.bcfh-h1em{color:var(--bcfh-red);font-style:normal;}
+.bcfh-introtext{font-size:15px;line-height:1.5;color:var(--bcfh-muted);margin-top:0;margin-bottom:0;max-width:34ch;text-align:right;}
+.bcfh-introlink{color:var(--bcfh-ink);font-weight:700;text-decoration:none;border-bottom:2px solid var(--bcfh-red);}
+.bcfh-introlink:hover{color:var(--bcfh-red);}
+
+.bcfh-bento{display:grid;grid-template-columns:repeat(12, minmax(0, 1fr));grid-template-rows:minmax(310px, auto) minmax(310px, auto);gap:12px;}
+.bcfh-tile{position:relative;display:flex;flex-direction:column;overflow:hidden;border-radius:4px;text-decoration:none;color:inherit;padding:24px;transition:transform 0.25s ease, box-shadow 0.25s ease;}
+.bcfh-tile:hover{transform:translateY(-3px);box-shadow:0px 14px 28px 0px rgba(23, 25, 27, 0.16);}
+.bcfh-tile:focus-visible{outline:3px solid var(--bcfh-hivis);outline-offset:3px;}
+
+.bcfh-feature{grid-column:1 / 7;grid-row:1 / 3;background-color:var(--bcfh-red);color:var(--bcfh-white);padding:32px;display:grid;grid-template-columns:1.05fr 0.95fr;grid-template-rows:auto 1fr auto;column-gap:20px;}
+.bcfh-ftop{grid-column:1 / 3;display:flex;justify-content:space-between;align-items:center;gap:12px;padding-bottom:16px;border-bottom:1px solid rgba(255, 255, 255, 0.35);}
+.bcfh-flabel{font-stretch:75%;font-weight:800;text-transform:uppercase;letter-spacing:0.08em;font-size:13px;line-height:1.2;}
+.bcfh-fbrand{font-weight:800;font-style:italic;font-size:20px;line-height:1.2;letter-spacing:-0.01em;}
+.bcfh-fbody{grid-column:1 / 2;display:flex;flex-direction:column;justify-content:center;padding-top:24px;padding-bottom:24px;}
+.bcfh-fname{font-stretch:68%;font-weight:850;text-transform:uppercase;font-size:clamp(1.9rem, 3.2vw, 2.6rem);line-height:0.98;margin-top:0;margin-bottom:12px;}
+.bcfh-fpart{font-size:14px;line-height:1.4;opacity:0.85;margin-top:0;margin-bottom:24px;}
+.bcfh-stamp{display:inline-flex;flex-direction:column;align-self:flex-start;background-color:var(--bcfh-white);color:var(--bcfh-ink);border-radius:2px;overflow:hidden;}
+.bcfh-stampsave{background-color:var(--bcfh-ink);color:var(--bcfh-white);font-stretch:75%;font-weight:800;text-transform:uppercase;letter-spacing:0.06em;font-size:14px;line-height:1.2;padding:8px 14px;}
+.bcfh-stampnow{display:flex;align-items:baseline;gap:8px;padding:8px 14px 10px 14px;}
+.bcfh-stamplabel{font-stretch:75%;font-weight:800;text-transform:uppercase;font-size:16px;line-height:1;}
+.bcfh-stampprice{font-stretch:68%;font-weight:900;font-size:56px;line-height:1;color:var(--bcfh-red);font-variant-numeric:tabular-nums;}
+.bcfh-fmedia{grid-column:2 / 3;grid-row:2 / 3;display:flex;align-items:center;justify-content:center;}
+.bcfh-fimg{width:100%;height:auto;max-width:360px;aspect-ratio:1 / 1;object-fit:contain;display:block;}
+.bcfh-ffoot{grid-column:1 / 3;display:flex;justify-content:space-between;align-items:center;gap:12px;padding-top:16px;border-top:1px solid rgba(255, 255, 255, 0.35);}
+.bcfh-ffine{font-size:12px;line-height:1.4;text-transform:uppercase;letter-spacing:0.04em;opacity:0.85;}
+
+.bcfh-btn{display:inline-flex;align-items:center;gap:8px;font-stretch:80%;font-weight:800;text-transform:uppercase;letter-spacing:0.05em;font-size:14px;line-height:1;padding:12px 16px;border-radius:2px;background-color:var(--bcfh-ink);color:var(--bcfh-white);white-space:nowrap;}
+.bcfh-btnlight{background-color:var(--bcfh-white);color:var(--bcfh-ink);}
+.bcfh-btnline{background-color:transparent;color:var(--bcfh-ink);padding:0;border-bottom:2px solid currentColor;padding-bottom:4px;border-radius:0;}
+.bcfh-arrow{width:14px;height:14px;flex-shrink:0;transition:transform 0.2s ease;}
+.bcfh-tile:hover .bcfh-arrow{transform:translateX(3px);}
+
+.bcfh-wide{grid-column:7 / 11;grid-row:1 / 2;background-color:#d9dbdb;color:var(--bcfh-ink);display:grid;grid-template-columns:1fr 1fr;gap:16px;padding:0;}
+.bcfh-widetext{display:flex;flex-direction:column;justify-content:space-between;padding:24px 0 24px 24px;}
+.bcfh-tbrand{font-stretch:75%;font-weight:800;text-transform:uppercase;letter-spacing:0.08em;font-size:13px;line-height:1.2;margin-top:0;margin-bottom:10px;}
+.bcfh-tbrandgap{margin-top:14px;}
+.bcfh-ttitle{font-stretch:68%;font-weight:850;text-transform:uppercase;font-size:34px;line-height:0.98;margin-top:0;margin-bottom:10px;}
+.bcfh-tcopy{font-size:14px;line-height:1.45;margin-top:0;margin-bottom:16px;max-width:28ch;}
+.bcfh-widemedia{position:relative;min-height:100%;}
+.bcfh-wideimg{position:absolute;top:0;left:0;width:100%;height:100%;object-fit:cover;display:block;}
+
+.bcfh-small{grid-row:2 / 3;justify-content:space-between;}
+.bcfh-smallA{grid-column:7 / 9;background-color:var(--bcfh-ink);color:var(--bcfh-white);}
+.bcfh-smallB{grid-column:9 / 11;background-color:var(--bcfh-white);color:var(--bcfh-ink);border:1px solid var(--bcfh-line);}
+.bcfh-stitle{font-stretch:68%;font-weight:850;text-transform:uppercase;font-size:24px;line-height:1;margin-top:0;margin-bottom:6px;}
+.bcfh-smeta{font-size:13px;line-height:1.4;opacity:0.8;margin-top:0;margin-bottom:0;}
+.bcfh-simg{width:100%;height:auto;aspect-ratio:4 / 3;object-fit:contain;display:block;margin-top:12px;margin-bottom:12px;}
+.bcfh-sfoot{display:flex;justify-content:space-between;align-items:center;gap:8px;}
+.bcfh-tag{display:inline-block;font-stretch:80%;font-weight:800;text-transform:uppercase;letter-spacing:0.06em;font-size:11px;line-height:1;padding:5px 7px;border-radius:2px;background-color:var(--bcfh-hivis);color:var(--bcfh-ink);}
+.bcfh-tagred{background-color:var(--bcfh-red);color:var(--bcfh-white);}
+
+.bcfh-tall{grid-column:11 / 13;grid-row:1 / 3;background-color:#c9cdcf;color:var(--bcfh-ink);justify-content:space-between;}
+.bcfh-tallimg{width:100%;height:auto;aspect-ratio:1 / 1;object-fit:contain;display:block;margin-top:auto;margin-bottom:12px;}
+.bcfh-swatches{display:grid;grid-template-columns:repeat(6, 1fr);gap:4px;margin-top:8px;margin-bottom:0;padding-left:0;list-style:none;}
+.bcfh-sw{display:block;aspect-ratio:1 / 1;border:1px solid rgba(23, 25, 27, 0.35);border-radius:1px;}
+.bcfh-swlabel{font-size:12px;line-height:1.3;margin-top:0;margin-bottom:0;font-weight:600;}
+
+.bcfh-trust{border-top:1px solid var(--bcfh-line);border-bottom:1px solid var(--bcfh-line);}
+.bcfh-trustlist{display:grid;grid-template-columns:repeat(4, minmax(0, 1fr));margin-top:0;margin-bottom:0;padding-left:0;list-style:none;}
+.bcfh-trustitem{display:flex;align-items:center;gap:12px;padding:18px 20px;border-left:1px solid var(--bcfh-line);}
+.bcfh-trustitem:first-child{border-left:0;padding-left:0;}
+.bcfh-trusticon{width:26px;height:26px;flex-shrink:0;color:var(--bcfh-red);}
+.bcfh-trusttext{font-size:14px;line-height:1.35;margin-top:0;margin-bottom:0;color:var(--bcfh-muted);}
+.bcfh-trustlead{display:block;font-weight:750;color:var(--bcfh-ink);}
+
+.bcfh-block{padding-top:var(--wp--preset--spacing--80, 5.06rem);padding-bottom:var(--wp--preset--spacing--70, 3.38rem);}
+.bcfh-head{display:flex;justify-content:space-between;align-items:flex-end;gap:24px;padding-bottom:14px;margin-bottom:24px;border-bottom:3px solid var(--bcfh-ink);}
+.bcfh-headinv{border-bottom-color:var(--bcfh-white);}
+.bcfh-kicker{font-stretch:75%;font-weight:800;text-transform:uppercase;letter-spacing:0.1em;font-size:13px;line-height:1.2;color:var(--bcfh-red);margin-top:0;margin-bottom:6px;}
+.bcfh-kickerinv{color:var(--bcfh-hivis);}
+.bcfh-h2{font-stretch:68%;font-weight:850;text-transform:uppercase;font-size:clamp(2.2rem, 4vw, 3rem);line-height:0.95;margin-top:0;margin-bottom:0;}
+.bcfh-headlink{display:inline-flex;align-items:center;gap:8px;font-stretch:80%;font-weight:800;text-transform:uppercase;letter-spacing:0.05em;font-size:14px;line-height:1;color:inherit;text-decoration:none;padding-bottom:4px;border-bottom:2px solid var(--bcfh-red);white-space:nowrap;}
+.bcfh-headlink:hover{color:var(--bcfh-red);}
+.bcfh-headlinkinv:hover{color:var(--bcfh-hivis);}
+
+.bcfh-pgrid{display:grid;grid-template-columns:repeat(7, minmax(0, 1fr));gap:10px;margin-top:0;margin-bottom:0;padding-left:0;list-style:none;}
+.bcfh-pcard{display:flex;}
+.bcfh-plink{display:flex;flex-direction:column;width:100%;background-color:var(--bcfh-white);border:1px solid var(--bcfh-line);border-radius:4px;text-decoration:none;color:var(--bcfh-ink);overflow:hidden;transition:border-color 0.2s ease;}
+.bcfh-plink:hover{border-color:var(--bcfh-ink);}
+.bcfh-plink:hover .bcfh-pimg{transform:scale(1.04);}
+.bcfh-plink:focus-visible{outline:3px solid var(--bcfh-red);outline-offset:2px;}
+.bcfh-pmedia{display:block;padding:16px;background-color:var(--bcfh-white);}
+.bcfh-pimg{display:block;width:100%;height:auto;aspect-ratio:1 / 1;object-fit:contain;transition:transform 0.3s ease;}
+.bcfh-pbody{display:flex;flex-direction:column;flex-grow:1;padding:0 12px 12px 12px;}
+.bcfh-pbrand{font-stretch:75%;font-weight:800;text-transform:uppercase;letter-spacing:0.08em;font-size:11px;line-height:1.2;color:var(--bcfh-red);margin-top:0;margin-bottom:4px;}
+.bcfh-pname{font-weight:600;font-size:14px;line-height:1.3;margin-top:0;margin-bottom:6px;}
+.bcfh-psku{font-size:12px;line-height:1.3;color:var(--bcfh-muted);margin-top:0;margin-bottom:12px;}
+.bcfh-pfoot{display:flex;justify-content:space-between;align-items:center;margin-top:auto;}
+.bcfh-pprice{display:inline-block;background-color:var(--bcfh-ink);color:var(--bcfh-hivis);font-stretch:80%;font-weight:800;font-size:18px;line-height:1;padding:7px 9px;border-radius:2px;font-variant-numeric:tabular-nums;}
+.bcfh-pnote{font-size:11px;line-height:1.2;color:var(--bcfh-muted);text-transform:uppercase;letter-spacing:0.04em;}
+
+.bcfh-rank{display:grid;grid-template-columns:repeat(7, minmax(0, 1fr));margin-top:0;margin-bottom:0;padding-left:0;list-style:none;border-left:1px solid rgba(255, 255, 255, 0.16);}
+.bcfh-ritem{display:flex;border-right:1px solid rgba(255, 255, 255, 0.16);}
+.bcfh-rlink{display:flex;flex-direction:column;width:100%;padding:4px 14px 18px 14px;color:var(--bcfh-white);text-decoration:none;transition:background-color 0.2s ease;}
+.bcfh-rlink:hover{background-color:var(--bcfh-ink-2);}
+.bcfh-rlink:hover .bcfh-rname{text-decoration:underline;text-decoration-color:var(--bcfh-hivis);text-underline-offset:3px;}
+.bcfh-rnum{font-stretch:62%;font-weight:900;font-size:64px;line-height:1;color:var(--bcfh-hivis);font-variant-numeric:tabular-nums;}
+.bcfh-rmedia{display:block;background-color:var(--bcfh-white);border-radius:3px;padding:12px;margin-top:10px;margin-bottom:14px;}
+.bcfh-rimg{display:block;width:100%;height:auto;aspect-ratio:1 / 1;object-fit:contain;}
+.bcfh-rbrand{font-stretch:75%;font-weight:800;text-transform:uppercase;letter-spacing:0.08em;font-size:11px;line-height:1.2;color:rgba(255, 255, 255, 0.6);margin-top:0;margin-bottom:4px;}
+.bcfh-rname{font-weight:600;font-size:14px;line-height:1.3;margin-top:0;margin-bottom:0;}
+
+.bcfh-bgrid{display:grid;grid-template-columns:repeat(4, minmax(0, 1fr));gap:12px;margin-top:0;margin-bottom:0;padding-left:0;list-style:none;}
+.bcfh-bitem{display:flex;}
+.bcfh-blink{position:relative;display:flex;flex-direction:column;width:100%;border-radius:4px;overflow:hidden;text-decoration:none;color:var(--bcfh-ink);background-color:var(--bcfh-white);border:1px solid var(--bcfh-line);}
+.bcfh-blink:hover .bcfh-bimg{transform:scale(1.04);}
+.bcfh-blink:hover .bcfh-bcta{color:var(--bcfh-red);}
+.bcfh-blink:focus-visible{outline:3px solid var(--bcfh-red);outline-offset:2px;}
+.bcfh-bmedia{display:block;overflow:hidden;aspect-ratio:16 / 9;background-color:var(--bcfh-ink);}
+.bcfh-bimg{display:block;width:100%;height:100%;object-fit:cover;transition:transform 0.4s ease;}
+.bcfh-bbar{display:flex;justify-content:space-between;align-items:center;gap:8px;padding:12px 14px;}
+.bcfh-bname{font-stretch:75%;font-weight:800;text-transform:uppercase;font-size:18px;line-height:1.1;margin-top:0;margin-bottom:0;}
+.bcfh-bcta{display:inline-flex;align-items:center;gap:6px;font-size:13px;line-height:1;font-weight:600;color:var(--bcfh-muted);transition:color 0.2s ease;}
+
+.bcfh-help{padding-top:var(--wp--preset--spacing--70, 3.38rem);padding-bottom:var(--wp--preset--spacing--70, 3.38rem);}
+.bcfh-helpgrid{display:grid;grid-template-columns:1.25fr 1fr;}
+.bcfh-helpcol{padding-right:48px;}
+.bcfh-newscol{padding-left:48px;border-left:1px solid rgba(255, 255, 255, 0.25);}
+.bcfh-h3{font-stretch:72%;font-weight:850;text-transform:uppercase;font-size:30px;line-height:1;margin-top:0;margin-bottom:10px;}
+.bcfh-helptext{font-size:16px;line-height:1.5;margin-top:0;margin-bottom:24px;color:rgba(255, 255, 255, 0.85);max-width:46ch;}
+.bcfh-contacts{display:flex;flex-wrap:wrap;gap:12px 36px;margin-top:0;margin-bottom:0;padding-left:0;list-style:none;}
+.bcfh-contact{display:flex;align-items:center;gap:12px;}
+.bcfh-cicon{width:24px;height:24px;flex-shrink:0;color:var(--bcfh-hivis);}
+.bcfh-clabel{display:block;font-size:12px;line-height:1.2;text-transform:uppercase;letter-spacing:0.08em;color:rgba(255, 255, 255, 0.7);margin-bottom:2px;}
+.bcfh-clink{font-weight:700;font-size:18px;line-height:1.3;color:var(--bcfh-white);text-decoration:underline;text-decoration-color:rgba(255, 255, 255, 0.4);text-underline-offset:4px;}
+.bcfh-clink:hover{text-decoration-color:var(--bcfh-hivis);}
+.bcfh-form{display:flex;gap:8px;margin-top:0;margin-bottom:10px;}
+.bcfh-input{flex-grow:1;min-width:0;font-family:var(--bcfh-display);font-size:16px;line-height:1.3;padding:13px 14px;border:1px solid rgba(255, 255, 255, 0.5);border-radius:2px;background-color:rgba(255, 255, 255, 0.06);color:var(--bcfh-white);}
+.bcfh-input::placeholder{color:rgba(255, 255, 255, 0.6);}
+.bcfh-input:focus{outline:2px solid var(--bcfh-hivis);outline-offset:1px;}
+.bcfh-submit{font-family:var(--bcfh-display);font-stretch:80%;font-weight:800;text-transform:uppercase;letter-spacing:0.05em;font-size:14px;line-height:1;padding:13px 20px;border:0;border-radius:2px;background-color:var(--bcfh-hivis);color:var(--bcfh-ink);cursor:pointer;}
+.bcfh-submit:hover{background-color:var(--bcfh-white);}
+.bcfh-fineinv{font-size:12px;line-height:1.4;margin-top:0;margin-bottom:0;color:rgba(255, 255, 255, 0.65);}
+
+.bcfh-srt{position:absolute;width:1px;height:1px;padding:0;margin:-1px;overflow:hidden;clip:rect(0, 0, 0, 0);white-space:nowrap;border:0;}
+
+@media (max-width: 1100px){
+.bcfh-pgrid{grid-template-columns:repeat(4, minmax(0, 1fr));}
+.bcfh-rank{display:flex;overflow-x:auto;scroll-snap-type:x mandatory;padding-bottom:12px;}
+.bcfh-ritem{flex:0 0 200px;scroll-snap-align:start;}
+}
+@media (max-width: 1023px){
+.bcfh-bento{grid-template-columns:repeat(6, minmax(0, 1fr));grid-template-rows:auto;}
+.bcfh-feature{grid-column:1 / 7;grid-row:auto;}
+.bcfh-wide{grid-column:1 / 7;grid-row:auto;min-height:280px;}
+.bcfh-smallA{grid-column:1 / 4;grid-row:auto;}
+.bcfh-smallB{grid-column:4 / 7;grid-row:auto;}
+.bcfh-tall{grid-column:1 / 7;grid-row:auto;display:grid;grid-template-columns:1fr 1fr;gap:16px;}
+.bcfh-tallimg{grid-row:1 / 4;grid-column:2 / 3;margin-top:0;}
+.bcfh-trustlist{grid-template-columns:repeat(2, minmax(0, 1fr));}
+.bcfh-trustitem:nth-child(3){border-left:0;padding-left:0;}
+.bcfh-bgrid{grid-template-columns:repeat(2, minmax(0, 1fr));}
+.bcfh-helpgrid{grid-template-columns:1fr;}
+.bcfh-helpcol{padding-right:0;padding-bottom:32px;}
+.bcfh-newscol{padding-left:0;padding-top:32px;border-left:0;border-top:1px solid rgba(255, 255, 255, 0.25);}
+}
+@media (max-width: 680px){
+.bcfh-intro{flex-direction:column;align-items:flex-start;}
+.bcfh-introtext{text-align:left;}
+.bcfh-feature{grid-template-columns:1fr;padding:22px;}
+.bcfh-ftop{grid-column:1 / 2;}
+.bcfh-fbody{grid-column:1 / 2;}
+.bcfh-fmedia{grid-column:1 / 2;grid-row:auto;}
+.bcfh-ffoot{grid-column:1 / 2;flex-direction:column;align-items:flex-start;}
+.bcfh-stampprice{font-size:46px;}
+.bcfh-wide{grid-template-columns:1fr;}
+.bcfh-widetext{padding:22px 22px 0 22px;}
+.bcfh-widemedia{min-height:220px;}
+.bcfh-smallA{grid-column:1 / 7;}
+.bcfh-smallB{grid-column:1 / 7;}
+.bcfh-tall{grid-template-columns:1fr;}
+.bcfh-tallimg{grid-row:auto;grid-column:auto;max-width:240px;}
+.bcfh-trustlist{grid-template-columns:1fr;}
+.bcfh-trustitem{border-left:0;padding-left:0;padding-top:12px;padding-bottom:12px;}
+.bcfh-head{flex-direction:column;align-items:flex-start;gap:14px;}
+.bcfh-pgrid{grid-template-columns:repeat(2, minmax(0, 1fr));}
+.bcfh-bgrid{gap:8px;}
+.bcfh-bbar{padding:10px;}
+.bcfh-bname{font-size:15px;line-height:1.1;}
+.bcfh-bcta{display:none;}
+.bcfh-form{flex-direction:column;}
+}
+</style>
+</head>
+<body>
+
+<section class="wp-section alignfull bcfh-root bcfh-paperbg bcfh-promo" data-type="section-component" aria-label="Featured deals">
+  <div class="wp-content-wrap" data-type="content-area-component">
+    <div class="bcfh-intro">
+      <h1 class="bcfh-h1">Tools, fasteners and <em class="bcfh-h1em">site safety</em> for the trades</h1>
+      <p class="bcfh-introtext">Canadian owned and operated. Questions about a part? Call <a class="bcfh-introlink" href="tel:18442862550">1-844-286-2550</a></p>
+    </div>
+
+    <div class="bcfh-bento">
+      <a class="bcfh-tile bcfh-feature" href="/?s=48-11-1852&amp;post_type=product">
+        <div class="bcfh-ftop">
+          <span class="bcfh-flabel">Holiday event deals</span>
+          <span class="bcfh-fbrand">Milwaukee</span>
+        </div>
+        <div class="bcfh-fbody">
+          <h2 class="bcfh-fname">M18 REDLITHIUM XC5.0 extended capacity battery, 2 pack</h2>
+          <p class="bcfh-fpart">Part no. 48-11-1852</p>
+          <div class="bcfh-stamp">
+            <span class="bcfh-stampsave">Save $220</span>
+            <div class="bcfh-stampnow">
+              <span class="bcfh-stamplabel">Now</span>
+              <span class="bcfh-stampprice">$228</span>
+            </div>
+          </div>
+        </div>
+        <div class="bcfh-fmedia">
+          <img class="bcfh-fimg" src="https://placehold.co/720x720/c4202b/ffffff/png?text=48-11-1852" alt="Two Milwaukee M18 REDLITHIUM XC5.0 batteries" width="720" height="720" loading="lazy">
+        </div>
+        <div class="bcfh-ffoot">
+          <span class="bcfh-ffine">Limited quantities. While supplies last.</span>
+          <span class="bcfh-btn">Shop the deal
+            <svg class="bcfh-arrow" viewBox="0 0 16 16" fill="none" stroke="currentColor" stroke-width="2" aria-hidden="true"><path d="M2 8h11M9 4l4 4-4 4"/></svg>
+          </span>
+        </div>
+      </a>
+
+      <a class="bcfh-tile bcfh-wide" href="/?s=Wera+2go&amp;post_type=product">
+        <div class="bcfh-widetext">
+          <div>
+            <p class="bcfh-tbrand">Wera</p>
+            <h2 class="bcfh-ttitle">2go tool transport system</h2>
+            <p class="bcfh-tcopy">Bags, pouches and containers that connect to each other, so the kit fits the job.</p>
+          </div>
+          <span class="bcfh-btn bcfh-btnline">Learn more
+            <svg class="bcfh-arrow" viewBox="0 0 16 16" fill="none" stroke="currentColor" stroke-width="2" aria-hidden="true"><path d="M2 8h11M9 4l4 4-4 4"/></svg>
+          </span>
+        </div>
+        <div class="bcfh-widemedia">
+          <img class="bcfh-wideimg" src="https://placehold.co/640x640/bfc3c3/17191b/png?text=Wera+2go" alt="Tradesperson packing a Wera 2go tool bag at a workbench" width="640" height="640" loading="lazy">
+        </div>
+      </a>
+
+      <a class="bcfh-tile bcfh-small bcfh-smallA" href="/?s=Wera+advent+calendar&amp;post_type=product">
+        <div>
+          <span class="bcfh-tag">Now in stock</span>
+          <h2 class="bcfh-stitle">Wera 2026 advent calendar</h2>
+        </div>
+        <img class="bcfh-simg" src="https://placehold.co/480x360/24272a/e2f23a/png?text=Wera+Advent" alt="Wera 2026 advent calendar box" width="480" height="360" loading="lazy">
+        <div class="bcfh-sfoot">
+          <span class="bcfh-smeta">24 days of tools</span>
+          <svg class="bcfh-arrow" viewBox="0 0 16 16" fill="none" stroke="currentColor" stroke-width="2" aria-hidden="true"><path d="M2 8h11M9 4l4 4-4 4"/></svg>
+        </div>
+      </a>
+
+      <a class="bcfh-tile bcfh-small bcfh-smallB" href="/?s=49-32-4985A&amp;post_type=product">
+        <div>
+          <span class="bcfh-tag bcfh-tagred">New</span>
+          <h2 class="bcfh-stitle">Milwaukee 2026 holiday advent calendar</h2>
+        </div>
+        <img class="bcfh-simg" src="https://placehold.co/480x360/ffffff/c4202b/png?text=49-32-4985A" alt="Milwaukee 2026 holiday advent calendar and contents" width="480" height="360" loading="lazy">
+        <div class="bcfh-sfoot">
+          <span class="bcfh-smeta">49-32-4985A. Exclusive to Canada.</span>
+          <svg class="bcfh-arrow" viewBox="0 0 16 16" fill="none" stroke="currentColor" stroke-width="2" aria-hidden="true"><path d="M2 8h11M9 4l4 4-4 4"/></svg>
+        </div>
+      </a>
+
+      <a class="bcfh-tile bcfh-tall" href="/?s=RZRBACK&amp;post_type=product">
+        <div>
+          <span class="bcfh-tag bcfh-tagred">New in stock</span>
+          <p class="bcfh-tbrand bcfh-tbrandgap">PIP</p>
+          <h2 class="bcfh-ttitle">RZRBACK safety helmets</h2>
+          <p class="bcfh-tcopy">Type 2, Class E. Made in Canada. Stay compliant on your site.</p>
+        </div>
+        <img class="bcfh-tallimg" src="https://placehold.co/480x480/c9cdcf/17191b/png?text=RZRBACK" alt="White PIP RZRBACK Type 2 safety helmet" width="480" height="480" loading="lazy">
+        <div>
+          <p class="bcfh-swlabel">Available in 12 colours</p>
+          <ul class="bcfh-swatches" aria-hidden="true">
+            <li class="bcfh-sw" style="background-color:#ffffff"></li>
+            <li class="bcfh-sw" style="background-color:#111111"></li>
+            <li class="bcfh-sw" style="background-color:#9bd21f"></li>
+            <li class="bcfh-sw" style="background-color:#d8231f"></li>
+            <li class="bcfh-sw" style="background-color:#3a6fd1"></li>
+            <li class="bcfh-sw" style="background-color:#f2e21b"></li>
+            <li class="bcfh-sw" style="background-color:#3b3f44"></li>
+            <li class="bcfh-sw" style="background-color:#f3f0dd"></li>
+            <li class="bcfh-sw" style="background-color:#4c5a2c"></li>
+            <li class="bcfh-sw" style="background-color:#5b56a8"></li>
+            <li class="bcfh-sw" style="background-color:#e0621b"></li>
+            <li class="bcfh-sw" style="background-color:#36a3a0"></li>
+          </ul>
+        </div>
+      </a>
+    </div>
+  </div>
+</section>
+
+<section class="wp-section alignfull bcfh-root bcfh-whitebg bcfh-trust" data-type="section-component" aria-label="Why shop with us">
+  <div class="wp-content-wrap" data-type="content-area-component">
+    <ul class="bcfh-trustlist">
+      <li class="bcfh-trustitem">
+        <svg class="bcfh-trusticon" viewBox="0 0 24 24" fill="currentColor" aria-hidden="true"><path d="M12 2l1.6 3.4 2.2-1 -.5 4.4 2.6-2.2.6 1.8 2.7-.4-1 3 1.3.8L17 15l.6 1.6-4.6-.6.1 4.8h-2.2l.1-4.8-4.6.6L7 15l-4.5-3.6 1.3-.8-1-3 2.7.4.6-1.8 2.6 2.2-.5-4.4 2.2 1z"/></svg>
+        <p class="bcfh-trusttext"><strong class="bcfh-trustlead">100% Canadian</strong>Owned and operated</p>
+      </li>
+      <li class="bcfh-trustitem">
+        <svg class="bcfh-trusticon" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" aria-hidden="true"><path d="M3 7h11v9H3zM14 10h4l3 3v3h-7z"/><circle cx="7" cy="18" r="2"/><circle cx="17" cy="18" r="2"/></svg>
+        <p class="bcfh-trusttext"><strong class="bcfh-trustlead">Free shipping</strong><a class="bcfh-introlink" href="/free-shipping-policy/">On qualifying orders</a></p>
+      </li>
+      <li class="bcfh-trustitem">
+        <svg class="bcfh-trusticon" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" aria-hidden="true"><path d="M5 4h4l2 5-2.5 1.5a11 11 0 0 0 5 5L15 13l5 2v4a2 2 0 0 1-2 2A16 16 0 0 1 3 6a2 2 0 0 1 2-2"/></svg>
+        <p class="bcfh-trusttext"><strong class="bcfh-trustlead">Real people on the phone</strong>Mon to Fri, 7AM to 4PM Pacific</p>
+      </li>
+      <li class="bcfh-trustitem">
+        <svg class="bcfh-trusticon" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" aria-hidden="true"><path d="M12 2l8 4.5v11L12 22l-8-4.5v-11z"/><circle cx="12" cy="12" r="3.5"/></svg>
+        <p class="bcfh-trusttext"><strong class="bcfh-trustlead">The Fastener Group</strong>A proud member</p>
+      </li>
+    </ul>
+  </div>
+</section>
+
+<section class="wp-section alignfull bcfh-root bcfh-paperbg bcfh-block" data-type="section-component" aria-labelledby="bcfh-new-title">
+  <div class="wp-content-wrap" data-type="content-area-component">
+    <div class="bcfh-head">
+      <div>
+        <p class="bcfh-kicker">Just landed</p>
+        <h2 class="bcfh-h2" id="bcfh-new-title">New products</h2>
+      </div>
+      <a class="bcfh-headlink" href="/shop/?orderby=date">View all new
+        <svg class="bcfh-arrow" viewBox="0 0 16 16" fill="none" stroke="currentColor" stroke-width="2" aria-hidden="true"><path d="M2 8h11M9 4l4 4-4 4"/></svg>
+      </a>
+    </div>
+
+    <ul class="bcfh-pgrid">
+      <li class="bcfh-pcard"><a class="bcfh-plink" href="/?s=MTB-10000&amp;post_type=product">
+        <div class="bcfh-pmedia"><img class="bcfh-pimg" src="https://placehold.co/400x400/ffffff/9a958c/png?text=MTB-10000" alt="Unilite MTB-10000 site light" width="400" height="400" loading="lazy"></div>
+        <div class="bcfh-pbody"><p class="bcfh-pbrand">Unilite</p><h3 class="bcfh-pname">Power tool battery site light</h3><p class="bcfh-psku">MTB-10000</p><div class="bcfh-pfoot"><span class="bcfh-pprice">$394.99</span></div></div>
+      </a></li>
+      <li class="bcfh-pcard"><a class="bcfh-plink" href="/?s=CL-1700&amp;post_type=product">
+        <div class="bcfh-pmedia"><img class="bcfh-pimg" src="https://placehold.co/400x400/ffffff/9a958c/png?text=CL-1700" alt="Unilite CL-1700 clamp work light" width="400" height="400" loading="lazy"></div>
+        <div class="bcfh-pbody"><p class="bcfh-pbrand">Unilite</p><h3 class="bcfh-pname">Clamp work light</h3><p class="bcfh-psku">CL-1700</p><div class="bcfh-pfoot"><span class="bcfh-pprice">$114.99</span></div></div>
+      </a></li>
+      <li class="bcfh-pcard"><a class="bcfh-plink" href="/?s=HL-8R&amp;post_type=product">
+        <div class="bcfh-pmedia"><img class="bcfh-pimg" src="https://placehold.co/400x400/ffffff/9a958c/png?text=HL-8R" alt="Unilite HL-8R headlamp" width="400" height="400" loading="lazy"></div>
+        <div class="bcfh-pbody"><p class="bcfh-pbrand">Unilite</p><h3 class="bcfh-pname">Dual beam sensor headlamp</h3><p class="bcfh-psku">HL-8R</p><div class="bcfh-pfoot"><span class="bcfh-pprice">$109.99</span></div></div>
+      </a></li>
+      <li class="bcfh-pcard"><a class="bcfh-plink" href="/?s=IL-425R&amp;post_type=product">
+        <div class="bcfh-pmedia"><img class="bcfh-pimg" src="https://placehold.co/400x400/ffffff/9a958c/png?text=IL-425R" alt="Unilite IL-425R folding inspection light" width="400" height="400" loading="lazy"></div>
+        <div class="bcfh-pbody"><p class="bcfh-pbrand">Unilite</p><h3 class="bcfh-pname">Folding inspection light</h3><p class="bcfh-psku">IL-425R</p><div class="bcfh-pfoot"><span class="bcfh-pprice">$99.99</span></div></div>
+      </a></li>
+      <li class="bcfh-pcard"><a class="bcfh-plink" href="/?s=GR-100&amp;post_type=product">
+        <div class="bcfh-pmedia"><img class="bcfh-pimg" src="https://placehold.co/400x400/ffffff/9a958c/png?text=GR-100%2B" alt="Microjig GRR-RIPPER GR-100+ safety pusher" width="400" height="400" loading="lazy"></div>
+        <div class="bcfh-pbody"><p class="bcfh-pbrand">Microjig</p><h3 class="bcfh-pname">GRR-RIPPER safety pusher</h3><p class="bcfh-psku">GR-100+</p><div class="bcfh-pfoot"><span class="bcfh-pprice">$71.95</span></div></div>
+      </a></li>
+      <li class="bcfh-pcard"><a class="bcfh-plink" href="/?s=GB-1&amp;post_type=product">
+        <div class="bcfh-pmedia"><img class="bcfh-pimg" src="https://placehold.co/400x400/ffffff/9a958c/png?text=GB-1" alt="Microjig GRR-RIP BLOCK GB-1 pushblock" width="400" height="400" loading="lazy"></div>
+        <div class="bcfh-pbody"><p class="bcfh-pbrand">Microjig</p><h3 class="bcfh-pname">GRR-RIP BLOCK smart pushblock</h3><p class="bcfh-psku">GB-1</p><div class="bcfh-pfoot"><span class="bcfh-pprice">$49.95</span></div></div>
+      </a></li>
+      <li class="bcfh-pcard"><a class="bcfh-plink" href="/?s=GR2-GO&amp;post_type=product">
+        <div class="bcfh-pmedia"><img class="bcfh-pimg" src="https://placehold.co/400x400/ffffff/9a958c/png?text=GR2-GO" alt="Microjig GRR-RIPPER 2GO" width="400" height="400" loading="lazy"></div>
+        <div class="bcfh-pbody"><p class="bcfh-pbrand">Microjig</p><h3 class="bcfh-pname">GRR-RIPPER 2GO</h3><p class="bcfh-psku">GR2-GO</p><div class="bcfh-pfoot"><span class="bcfh-pprice">$49.95</span></div></div>
+      </a></li>
+      <li class="bcfh-pcard"><a class="bcfh-plink" href="/?s=9K0080156US&amp;post_type=product">
+        <div class="bcfh-pmedia"><img class="bcfh-pimg" src="https://placehold.co/400x400/ffffff/9a958c/png?text=9K0080156US" alt="Knipex top selling pliers set, 3 piece" width="400" height="400" loading="lazy"></div>
+        <div class="bcfh-pbody"><p class="bcfh-pbrand">Knipex</p><h3 class="bcfh-pname">Top selling pliers set, 3 piece</h3><p class="bcfh-psku">9K0080156US</p><div class="bcfh-pfoot"><span class="bcfh-pprice">$157.59</span></div></div>
+      </a></li>
+      <li class="bcfh-pcard"><a class="bcfh-plink" href="/?s=9K008094US&amp;post_type=product">
+        <div class="bcfh-pmedia"><img class="bcfh-pimg" src="https://placehold.co/400x400/ffffff/9a958c/png?text=9K008094US" alt="Knipex special pliers set, 4 piece" width="400" height="400" loading="lazy"></div>
+        <div class="bcfh-pbody"><p class="bcfh-pbrand">Knipex</p><h3 class="bcfh-pname">Special pliers set, 4 piece</h3><p class="bcfh-psku">9K008094US</p><div class="bcfh-pfoot"><span class="bcfh-pprice">$191.79</span></div></div>
+      </a></li>
+      <li class="bcfh-pcard"><a class="bcfh-plink" href="/?s=002006US4&amp;post_type=product">
+        <div class="bcfh-pmedia"><img class="bcfh-pimg" src="https://placehold.co/400x400/ffffff/9a958c/png?text=002006US4" alt="Knipex TwinGrip plastic dipped pliers set" width="400" height="400" loading="lazy"></div>
+        <div class="bcfh-pbody"><p class="bcfh-pbrand">Knipex</p><h3 class="bcfh-pname">TwinGrip plastic dipped pliers set, 3 piece</h3><p class="bcfh-psku">002006US4</p><div class="bcfh-pfoot"><span class="bcfh-pprice">$143.60</span></div></div>
+      </a></li>
+      <li class="bcfh-pcard"><a class="bcfh-plink" href="/?s=3469-20&amp;post_type=product">
+        <div class="bcfh-pmedia"><img class="bcfh-pimg" src="https://placehold.co/400x400/ffffff/9a958c/png?text=3469-20" alt="Milwaukee M18 FUEL steel pipe cutter" width="400" height="400" loading="lazy"></div>
+        <div class="bcfh-pbody"><p class="bcfh-pbrand">Milwaukee</p><h3 class="bcfh-pname">M18 FUEL 1/2" to 1" steel pipe cutter</h3><p class="bcfh-psku">3469-20</p><div class="bcfh-pfoot"><span class="bcfh-pprice">$559</span><span class="bcfh-pnote">Tool only</span></div></div>
+      </a></li>
+      <li class="bcfh-pcard"><a class="bcfh-plink" href="/?s=3675-20&amp;post_type=product">
+        <div class="bcfh-pmedia"><img class="bcfh-pimg" src="https://placehold.co/400x400/ffffff/9a958c/png?text=3675-20" alt="Milwaukee M18 FUEL rebar cutter" width="400" height="400" loading="lazy"></div>
+        <div class="bcfh-pbody"><p class="bcfh-pbrand">Milwaukee</p><h3 class="bcfh-pname">M18 FUEL rebar cutter</h3><p class="bcfh-psku">3675-20</p><div class="bcfh-pfoot"><span class="bcfh-pprice">$998</span><span class="bcfh-pnote">Tool only</span></div></div>
+      </a></li>
+      <li class="bcfh-pcard"><a class="bcfh-plink" href="/?s=DCCS621B&amp;post_type=product">
+        <div class="bcfh-pmedia"><img class="bcfh-pimg" src="https://placehold.co/400x400/ffffff/9a958c/png?text=DCCS621B" alt="DeWalt 20V MAX XR 12 inch compact chainsaw" width="400" height="400" loading="lazy"></div>
+        <div class="bcfh-pbody"><p class="bcfh-pbrand">DeWalt</p><h3 class="bcfh-pname">20V MAX XR 12" brushless compact chainsaw</h3><p class="bcfh-psku">DCCS621B</p><div class="bcfh-pfoot"><span class="bcfh-pprice">$289</span><span class="bcfh-pnote">Tool only</span></div></div>
+      </a></li>
+      <li class="bcfh-pcard"><a class="bcfh-plink" href="/?s=DCHT821B&amp;post_type=product">
+        <div class="bcfh-pmedia"><img class="bcfh-pimg" src="https://placehold.co/400x400/ffffff/9a958c/png?text=DCHT821B" alt="DeWalt 20V MAX 22 inch hedge trimmer" width="400" height="400" loading="lazy"></div>
+        <div class="bcfh-pbody"><p class="bcfh-pbrand">DeWalt</p><h3 class="bcfh-pname">20V MAX 22" brushless hedge trimmer</h3><p class="bcfh-psku">DCHT821B</p><div class="bcfh-pfoot"><span class="bcfh-pprice">$229</span><span class="bcfh-pnote">Tool only</span></div></div>
+      </a></li>
+    </ul>
+  </div>
+</section>
+
+<section class="wp-section alignfull bcfh-root bcfh-inkbg bcfh-block" data-type="section-component" aria-labelledby="bcfh-top-title">
+  <div class="wp-content-wrap" data-type="content-area-component">
+    <div class="bcfh-head bcfh-headinv">
+      <div>
+        <p class="bcfh-kicker bcfh-kickerinv">What the trades are buying</p>
+        <h2 class="bcfh-h2" id="bcfh-top-title">Top selling items</h2>
+      </div>
+      <a class="bcfh-headlink bcfh-headlinkinv" href="/shop/?orderby=popularity">See best sellers
+        <svg class="bcfh-arrow" viewBox="0 0 16 16" fill="none" stroke="currentColor" stroke-width="2" aria-hidden="true"><path d="M2 8h11M9 4l4 4-4 4"/></svg>
+      </a>
+    </div>
+
+    <ol class="bcfh-rank">
+      <li class="bcfh-ritem"><a class="bcfh-rlink" href="/?s=3697-22CXC&amp;post_type=product">
+        <span class="bcfh-rnum">01</span>
+        <div class="bcfh-rmedia"><img class="bcfh-rimg" src="https://placehold.co/400x400/ffffff/9a958c/png?text=3697-22CXC" alt="Milwaukee M18 FUEL 2-tool combo kit" width="400" height="400" loading="lazy"></div>
+        <p class="bcfh-rbrand">Milwaukee</p><h3 class="bcfh-rname">M18 FUEL 2-tool combo kit</h3>
+      </a></li>
+      <li class="bcfh-ritem"><a class="bcfh-rlink" href="/?s=0880-20&amp;post_type=product">
+        <span class="bcfh-rnum">02</span>
+        <div class="bcfh-rmedia"><img class="bcfh-rimg" src="https://placehold.co/400x400/ffffff/9a958c/png?text=0880-20" alt="Milwaukee M18 cordless wet dry vacuum" width="400" height="400" loading="lazy"></div>
+        <p class="bcfh-rbrand">Milwaukee</p><h3 class="bcfh-rname">M18 cordless wet/dry vacuum, tool only</h3>
+      </a></li>
+      <li class="bcfh-ritem"><a class="bcfh-rlink" href="/?s=056491&amp;post_type=product">
+        <span class="bcfh-rnum">03</span>
+        <div class="bcfh-rmedia"><img class="bcfh-rimg" src="https://placehold.co/400x400/ffffff/9a958c/png?text=056491" alt="Wera Tool-Check Plus imperial bit set" width="400" height="400" loading="lazy"></div>
+        <p class="bcfh-rbrand">Wera</p><h3 class="bcfh-rname">Tool-Check Plus imperial bits</h3>
+      </a></li>
+      <li class="bcfh-ritem"><a class="bcfh-rlink" href="/?s=2846-20&amp;post_type=product">
+        <span class="bcfh-rnum">04</span>
+        <div class="bcfh-rmedia"><img class="bcfh-rimg" src="https://placehold.co/400x400/ffffff/9a958c/png?text=2846-20" alt="Milwaukee M18 TOP-OFF 175W power supply" width="400" height="400" loading="lazy"></div>
+        <p class="bcfh-rbrand">Milwaukee</p><h3 class="bcfh-rname">M18 TOP-OFF 175W power supply, tool only</h3>
+      </a></li>
+      <li class="bcfh-ritem"><a class="bcfh-rlink" href="/?s=DCST922B&amp;post_type=product">
+        <span class="bcfh-rnum">05</span>
+        <div class="bcfh-rmedia"><img class="bcfh-rimg" src="https://placehold.co/400x400/ffffff/9a958c/png?text=DCST922B" alt="DeWalt 20V MAX 14 inch string trimmer" width="400" height="400" loading="lazy"></div>
+        <p class="bcfh-rbrand">DeWalt</p><h3 class="bcfh-rname">20V MAX 14" dual line string trimmer, tool only</h3>
+      </a></li>
+      <li class="bcfh-ritem"><a class="bcfh-rlink" href="/?s=S96110&amp;post_type=product">
+        <span class="bcfh-rnum">06</span>
+        <div class="bcfh-rmedia"><img class="bcfh-rimg" src="https://placehold.co/400x400/ffffff/9a958c/png?text=S96110" alt="Sellstrom KneePro Ultra Flex III knee pad" width="400" height="400" loading="lazy"></div>
+        <p class="bcfh-rbrand">Sellstrom</p><h3 class="bcfh-rname">KneePro Ultra Flex III knee pad</h3>
+      </a></li>
+      <li class="bcfh-ritem"><a class="bcfh-rlink" href="/?s=8201200&amp;post_type=product">
+        <span class="bcfh-rnum">07</span>
+        <div class="bcfh-rmedia"><img class="bcfh-rimg" src="https://placehold.co/400x400/ffffff/9a958c/png?text=8201200" alt="Knipex 8 inch TwinGrip slip joint pliers" width="400" height="400" loading="lazy"></div>
+        <p class="bcfh-rbrand">Knipex</p><h3 class="bcfh-rname">8" (200mm) TwinGrip slip joint pliers</h3>
+      </a></li>
+    </ol>
+  </div>
+</section>
+
+<section class="wp-section alignfull bcfh-root bcfh-paperbg bcfh-block" data-type="section-component" aria-labelledby="bcfh-brand-title">
+  <div class="wp-content-wrap" data-type="content-area-component">
+    <div class="bcfh-head">
+      <div>
+        <p class="bcfh-kicker">Shop by brand</p>
+        <h2 class="bcfh-h2" id="bcfh-brand-title">Top brands</h2>
+      </div>
+      <a class="bcfh-headlink" href="/brands/">All brands
+        <svg class="bcfh-arrow" viewBox="0 0 16 16" fill="none" stroke="currentColor" stroke-width="2" aria-hidden="true"><path d="M2 8h11M9 4l4 4-4 4"/></svg>
+      </a>
+    </div>
+
+    <ul class="bcfh-bgrid">
+      <li class="bcfh-bitem"><a class="bcfh-blink" href="/?s=Milwaukee&amp;post_type=product">
+        <div class="bcfh-bmedia"><img class="bcfh-bimg" src="https://placehold.co/800x450/24272a/ffffff/png?text=Milwaukee" alt="Milwaukee tools" width="800" height="450" loading="lazy"></div>
+        <div class="bcfh-bbar"><h3 class="bcfh-bname">Milwaukee</h3><span class="bcfh-bcta">Shop</span></div>
+      </a></li>
+      <li class="bcfh-bitem"><a class="bcfh-blink" href="/?s=DeWalt&amp;post_type=product">
+        <div class="bcfh-bmedia"><img class="bcfh-bimg" src="https://placehold.co/800x450/24272a/ffffff/png?text=DeWalt" alt="DeWalt tools" width="800" height="450" loading="lazy"></div>
+        <div class="bcfh-bbar"><h3 class="bcfh-bname">DeWalt</h3><span class="bcfh-bcta">Shop</span></div>
+      </a></li>
+      <li class="bcfh-bitem"><a class="bcfh-blink" href="/?s=Wera&amp;post_type=product">
+        <div class="bcfh-bmedia"><img class="bcfh-bimg" src="https://placehold.co/800x450/24272a/ffffff/png?text=Wera" alt="Wera tools" width="800" height="450" loading="lazy"></div>
+        <div class="bcfh-bbar"><h3 class="bcfh-bname">Wera</h3><span class="bcfh-bcta">Shop</span></div>
+      </a></li>
+      <li class="bcfh-bitem"><a class="bcfh-blink" href="/?s=Diablo&amp;post_type=product">
+        <div class="bcfh-bmedia"><img class="bcfh-bimg" src="https://placehold.co/800x450/24272a/ffffff/png?text=Diablo" alt="Diablo blades" width="800" height="450" loading="lazy"></div>
+        <div class="bcfh-bbar"><h3 class="bcfh-bname">Diablo</h3><span class="bcfh-bcta">Shop</span></div>
+      </a></li>
+      <li class="bcfh-bitem"><a class="bcfh-blink" href="/?s=Occidental+Leather&amp;post_type=product">
+        <div class="bcfh-bmedia"><img class="bcfh-bimg" src="https://placehold.co/800x450/24272a/ffffff/png?text=Occidental+Leather" alt="Occidental Leather tool belts" width="800" height="450" loading="lazy"></div>
+        <div class="bcfh-bbar"><h3 class="bcfh-bname">Occidental Leather</h3><span class="bcfh-bcta">Shop</span></div>
+      </a></li>
+      <li class="bcfh-bitem"><a class="bcfh-blink" href="/?s=GearWrench&amp;post_type=product">
+        <div class="bcfh-bmedia"><img class="bcfh-bimg" src="https://placehold.co/800x450/24272a/ffffff/png?text=GearWrench" alt="GearWrench tools" width="800" height="450" loading="lazy"></div>
+        <div class="bcfh-bbar"><h3 class="bcfh-bname">GearWrench</h3><span class="bcfh-bcta">Shop</span></div>
+      </a></li>
+      <li class="bcfh-bitem"><a class="bcfh-blink" href="/?s=Knipex&amp;post_type=product">
+        <div class="bcfh-bmedia"><img class="bcfh-bimg" src="https://placehold.co/800x450/24272a/ffffff/png?text=Knipex" alt="Knipex pliers" width="800" height="450" loading="lazy"></div>
+        <div class="bcfh-bbar"><h3 class="bcfh-bname">Knipex</h3><span class="bcfh-bcta">Shop</span></div>
+      </a></li>
+      <li class="bcfh-bitem"><a class="bcfh-blink" href="/?s=Klein+Tools&amp;post_type=product">
+        <div class="bcfh-bmedia"><img class="bcfh-bimg" src="https://placehold.co/800x450/24272a/ffffff/png?text=Klein+Tools" alt="Klein Tools" width="800" height="450" loading="lazy"></div>
+        <div class="bcfh-bbar"><h3 class="bcfh-bname">Klein Tools</h3><span class="bcfh-bcta">Shop</span></div>
+      </a></li>
+    </ul>
+  </div>
+</section>
+
+<section class="wp-section alignfull bcfh-root bcfh-slatebg bcfh-help" data-type="section-component" aria-label="Customer service and newsletter">
+  <div class="wp-content-wrap" data-type="content-area-component">
+    <div class="bcfh-helpgrid">
+      <div class="bcfh-helpcol">
+        <h2 class="bcfh-h3">Still have questions?</h2>
+        <p class="bcfh-helptext">Our team is available Monday to Friday, 7AM to 4PM Pacific. Closed weekends and holidays.</p>
+        <ul class="bcfh-contacts">
+          <li class="bcfh-contact">
+            <svg class="bcfh-cicon" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" aria-hidden="true"><path d="M5 4h4l2 5-2.5 1.5a11 11 0 0 0 5 5L15 13l5 2v4a2 2 0 0 1-2 2A16 16 0 0 1 3 6a2 2 0 0 1 2-2"/></svg>
+            <div><span class="bcfh-clabel">Phone</span><a class="bcfh-clink" href="tel:18442862550">1-844-286-2550</a></div>
+          </li>
+          <li class="bcfh-contact">
+            <svg class="bcfh-cicon" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" aria-hidden="true"><rect x="3" y="5" width="18" height="14" rx="1"/><path d="M3 7l9 6 9-6"/></svg>
+            <div><span class="bcfh-clabel">Email</span><a class="bcfh-clink" href="mailto:customerservice@bcfasteners.com">customerservice@bcfasteners.com</a></div>
+          </li>
+        </ul>
+      </div>
+      <div class="bcfh-newscol">
+        <h2 class="bcfh-h3">Stay updated</h2>
+        <p class="bcfh-helptext">Sign up for exclusive promotions, product previews and the latest news.</p>
+        <form class="bcfh-form" action="#" method="post">
+          <label class="bcfh-srt" for="bcfh-email">Email address</label>
+          <input class="bcfh-input" id="bcfh-email" type="email" name="email" placeholder="Your email address" required>
+          <button class="bcfh-submit" type="submit">Sign up</button>
+        </form>
+        <p class="bcfh-fineinv">You can unsubscribe at any time.</p>
+      </div>
+    </div>
+  </div>
+</section>
+
+</body>
+</html>

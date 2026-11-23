@@ -1,0 +1,1041 @@
+<!-- wp:html {"metadata":{"name":"Links Import"}} -->
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Archivo:ital,wdth,wght@0,62..125,400..900;1,62..125,400..900&display=swap" rel="stylesheet">
+<!-- /wp:html -->
+
+<!-- wp:greenshift-blocks/element {"tag":"div","type":"no","isVariation":"stylemanager","dynamicGClasses":[{"value":"wp-section","type":"local","label":"wp-section","localed":false,"css":".wp-section{display:flex;justify-content:center;flex-direction:column;align-items:center;padding-right:var(--wp--spacing--side, min(3vw, 20px));padding-left:var(--wp--spacing--side, min(3vw, 20px));padding-top:var(--wp--spacing--top, 0px);padding-bottom:var(--wp--spacing--bottom, 0px);margin-top:0px;margin-bottom:0px;position:relative;}","attributes":{"styleAttributes":{"display":["flex"],"justifyContent":["center"],"flexDirection":["column"],"alignItems":["center"],"paddingRight":["var(--wp--spacing--side, min(3vw, 20px))"],"paddingLeft":["var(--wp--spacing--side, min(3vw, 20px))"],"paddingTop":["var(--wp--spacing--top, 0px)"],"paddingBottom":["var(--wp--spacing--bottom, 0px)"],"marginTop":["0px"],"marginBottom":["0px"],"position":["relative"]}},"originalBlock":"greenshift-blocks/element","selectors":[]},{"value":"wp-content-wrap","type":"local","label":"wp-content-wrap","localed":false,"css":".wp-content-wrap{max-width:100%;width:var(--wp--style--global--wide-size, 1200px);}","attributes":{"styleAttributes":{"maxWidth":["100%"],"width":["var(--wp--style--global--wide-size, 1200px)"]}},"originalBlock":"greenshift-blocks/element","selectors":[]},{"value":"bcfh-root","type":"local","label":"bcfh-root","localed":false,"css":".bcfh-root{--bcfh-ink:#17191b;--bcfh-ink-2:#24272a;--bcfh-paper:#f3f1ec;--bcfh-line:#dcd7cc;--bcfh-muted:#5f5b53;--bcfh-red:#c4202b;--bcfh-red-dark:#9e1821;--bcfh-hivis:#e2f23a;--bcfh-slate:#2e5169;--bcfh-white:#ffffff;--bcfh-display:\"Archivo\",\"Arial Narrow\",Arial,sans-serif;font-family:var(--bcfh-display);font-stretch:100%;color:var(--bcfh-ink);font-size:16px;line-height:1.5;}","attributes":{"styleAttributes":{"fontFamily":["var(--bcfh-display)"],"color":["var(--bcfh-ink)"],"fontSize":["16px"],"lineHeight":["1.5"],"customCSS_Extra":"{CURRENT}{--bcfh-ink:#17191b;--bcfh-ink-2:#24272a;--bcfh-paper:#f3f1ec;--bcfh-line:#dcd7cc;--bcfh-muted:#5f5b53;--bcfh-red:#c4202b;--bcfh-red-dark:#9e1821;--bcfh-hivis:#e2f23a;--bcfh-slate:#2e5169;--bcfh-white:#ffffff;--bcfh-display:\"Archivo\",\"Arial Narrow\",Arial,sans-serif;font-stretch:100%}"}},"originalBlock":"greenshift-blocks/element","selectors":[]},{"value":"bcfh-paperbg","type":"local","label":"bcfh-paperbg","localed":false,"css":".bcfh-paperbg{background-color:var(--bcfh-paper);}","attributes":{"styleAttributes":{"backgroundColor":["var(--bcfh-paper)"]}},"originalBlock":"greenshift-blocks/element","selectors":[]},{"value":"bcfh-whitebg","type":"local","label":"bcfh-whitebg","localed":false,"css":".bcfh-whitebg{background-color:var(--bcfh-white);}","attributes":{"styleAttributes":{"backgroundColor":["var(--bcfh-white)"]}},"originalBlock":"greenshift-blocks/element","selectors":[]},{"value":"bcfh-inkbg","type":"local","label":"bcfh-inkbg","localed":false,"css":".bcfh-inkbg{background-color:var(--bcfh-ink);color:var(--bcfh-white);}","attributes":{"styleAttributes":{"backgroundColor":["var(--bcfh-ink)"],"color":["var(--bcfh-white)"]}},"originalBlock":"greenshift-blocks/element","selectors":[]},{"value":"bcfh-slatebg","type":"local","label":"bcfh-slatebg","localed":false,"css":".bcfh-slatebg{background-color:var(--bcfh-slate);color:var(--bcfh-white);}","attributes":{"styleAttributes":{"backgroundColor":["var(--bcfh-slate)"],"color":["var(--bcfh-white)"]}},"originalBlock":"greenshift-blocks/element","selectors":[]},{"value":"bcfh-promo","type":"local","label":"bcfh-promo","localed":false,"css":".bcfh-promo{padding-top:var(--wp--preset--spacing--60, 2.25rem);padding-bottom:var(--wp--preset--spacing--60, 2.25rem);}","attributes":{"styleAttributes":{"paddingTop":["var(--wp--preset--spacing--60, 2.25rem)"],"paddingBottom":["var(--wp--preset--spacing--60, 2.25rem)"]}},"originalBlock":"greenshift-blocks/element","selectors":[]},{"value":"bcfh-intro","type":"local","label":"bcfh-intro","localed":false,"css":".bcfh-intro{display:flex;justify-content:space-between;align-items:flex-end;gap:24px;margin-bottom:20px;}@media (max-width: 680px){.bcfh-intro{flex-direction:column;align-items:flex-start;}}","attributes":{"styleAttributes":{"display":["flex"],"justifyContent":["space-between"],"alignItems":["flex-end"],"rowGap":["24px"],"columnGap":["24px"],"marginBottom":["20px"],"customCSS_Extra":"@media (max-width: 680px){.bcfh-intro{flex-direction:column;align-items:flex-start;}}"}},"originalBlock":"greenshift-blocks/element","selectors":[]},{"value":"bcfh-h1","type":"local","label":"bcfh-h1","localed":false,"css":".bcfh-h1{font-family:var(--bcfh-display);font-stretch:68%;font-weight:850;text-transform:uppercase;font-size:clamp(2rem, 4.2vw, 3.25rem);line-height:0.95;letter-spacing:-0.01em;margin-top:0;margin-bottom:0;max-width:16ch;}","attributes":{"styleAttributes":{"fontFamily":["var(--bcfh-display)"],"fontWeight":["850"],"textTransform":["uppercase"],"fontSize":["clamp(2rem, 4.2vw, 3.25rem)"],"lineHeight":["0.95"],"letterSpacing":["-0.01em"],"marginTop":["0"],"marginBottom":["0"],"maxWidth":["16ch"],"customCSS_Extra":"{CURRENT}{font-stretch:68%}"}},"originalBlock":"greenshift-blocks/element","selectors":[]},{"value":"bcfh-h1em","type":"local","label":"bcfh-h1em","localed":false,"css":".bcfh-h1em{color:var(--bcfh-red);font-style:normal;}","attributes":{"styleAttributes":{"color":["var(--bcfh-red)"],"fontStyle":["normal"]}},"originalBlock":"greenshift-blocks/element","selectors":[]},{"value":"bcfh-introtext","type":"local","label":"bcfh-introtext","localed":false,"css":".bcfh-introtext{font-size:15px;line-height:1.5;color:var(--bcfh-muted);margin-top:0;margin-bottom:0;max-width:34ch;text-align:right;}@media (max-width: 680px){.bcfh-introtext{text-align:left;}}","attributes":{"styleAttributes":{"fontSize":["15px"],"lineHeight":["1.5"],"color":["var(--bcfh-muted)"],"marginTop":["0"],"marginBottom":["0"],"maxWidth":["34ch"],"textAlign":["right"],"customCSS_Extra":"@media (max-width: 680px){.bcfh-introtext{text-align:left;}}"}},"originalBlock":"greenshift-blocks/element","selectors":[]},{"value":"bcfh-introlink","type":"local","label":"bcfh-introlink","localed":false,"css":".bcfh-introlink{color:var(--bcfh-ink);font-weight:700;text-decoration:none;border-bottom:2px solid var(--bcfh-red);}.bcfh-introlink:hover{color:var(--bcfh-red);}","attributes":{"styleAttributes":{"color":["var(--bcfh-ink)"],"fontWeight":["700"],"textDecoration":["none"],"borderBottom":["2px solid var(--bcfh-red)"],"color_hover":["var(--bcfh-red)"]}},"originalBlock":"greenshift-blocks/element","selectors":[]},{"value":"bcfh-bento","type":"local","label":"bcfh-bento","localed":false,"css":".bcfh-bento{display:grid;grid-template-columns:repeat(12, minmax(0, 1fr));grid-template-rows:minmax(310px, auto) minmax(310px, auto);gap:12px;}@media (max-width: 1023px){.bcfh-bento{grid-template-columns:repeat(6, minmax(0, 1fr));grid-template-rows:auto;}}","attributes":{"styleAttributes":{"display":["grid"],"gridTemplateColumns":["repeat(12, minmax(0, 1fr))"],"gridTemplateRows":["minmax(310px, auto) minmax(310px, auto)"],"rowGap":["12px"],"columnGap":["12px"],"customCSS_Extra":"@media (max-width: 1023px){.bcfh-bento{grid-template-columns:repeat(6, minmax(0, 1fr));grid-template-rows:auto;}}"}},"originalBlock":"greenshift-blocks/element","selectors":[]},{"value":"bcfh-tile","type":"local","label":"bcfh-tile","localed":false,"css":".bcfh-tile{position:relative;display:flex;flex-direction:column;overflow:hidden;border-radius:4px;text-decoration:none;color:inherit;padding:24px;transition:transform 0.25s ease, box-shadow 0.25s ease;}.bcfh-tile:hover{transform:translateY(-3px);box-shadow:0px 14px 28px 0px rgba(23, 25, 27, 0.16);}.bcfh-tile:focus-visible{outline:3px solid var(--bcfh-hivis);outline-offset:3px;}","attributes":{"styleAttributes":{"position":["relative"],"display":["flex"],"flexDirection":["column"],"overflow":["hidden"],"borderRadius":["4px"],"textDecoration":["none"],"color":["inherit"],"paddingTop":["24px"],"paddingRight":["24px"],"paddingBottom":["24px"],"paddingLeft":["24px"],"transition":["transform 0.25s ease, box-shadow 0.25s ease"],"transform_hover":["translateY(-3px)"],"boxShadow_hover":["0px 14px 28px 0px rgba(23, 25, 27, 0.16)"],"outline_focus":["3px solid var(--bcfh-hivis)"],"outlineOffset_focus":["3px"]}},"originalBlock":"greenshift-blocks/element","selectors":[{"value":":hover .bcfh-arrow","attributes":{"styleAttributes":{"transform":["translateX(3px)"]}},"css":".bcfh-tile:hover .bcfh-arrow{transform:translateX(3px);}"}]},{"value":"bcfh-feature","type":"local","label":"bcfh-feature","localed":false,"css":".bcfh-feature{grid-column:1 / 7;grid-row:1 / 3;background-color:var(--bcfh-red);color:var(--bcfh-white);padding:32px;display:grid;grid-template-columns:1.05fr 0.95fr;grid-template-rows:auto 1fr auto;column-gap:20px;}@media (max-width: 1023px){.bcfh-feature{grid-column:1 / 7;grid-row:auto;}}@media (max-width: 680px){.bcfh-feature{grid-template-columns:1fr;padding:22px;}}","attributes":{"styleAttributes":{"gridColumn":["1 / 7"],"gridRow":["1 / 3"],"backgroundColor":["var(--bcfh-red)"],"color":["var(--bcfh-white)"],"paddingTop":["32px"],"paddingRight":["32px"],"paddingBottom":["32px"],"paddingLeft":["32px"],"display":["grid"],"gridTemplateColumns":["1.05fr 0.95fr"],"gridTemplateRows":["auto 1fr auto"],"columnGap":["20px"],"customCSS_Extra":"@media (max-width: 1023px){.bcfh-feature{grid-column:1 / 7;grid-row:auto;}}@media (max-width: 680px){.bcfh-feature{grid-template-columns:1fr;padding:22px;}}"}},"originalBlock":"greenshift-blocks/element","selectors":[]},{"value":"bcfh-ftop","type":"local","label":"bcfh-ftop","localed":false,"css":".bcfh-ftop{grid-column:1 / 3;display:flex;justify-content:space-between;align-items:center;gap:12px;padding-bottom:16px;border-bottom:1px solid rgba(255, 255, 255, 0.35);}@media (max-width: 680px){.bcfh-ftop{grid-column:1 / 2;}}","attributes":{"styleAttributes":{"gridColumn":["1 / 3"],"display":["flex"],"justifyContent":["space-between"],"alignItems":["center"],"rowGap":["12px"],"columnGap":["12px"],"paddingBottom":["16px"],"borderBottom":["1px solid rgba(255, 255, 255, 0.35)"],"customCSS_Extra":"@media (max-width: 680px){.bcfh-ftop{grid-column:1 / 2;}}"}},"originalBlock":"greenshift-blocks/element","selectors":[]},{"value":"bcfh-flabel","type":"local","label":"bcfh-flabel","localed":false,"css":".bcfh-flabel{font-stretch:75%;font-weight:800;text-transform:uppercase;letter-spacing:0.08em;font-size:13px;line-height:1.2;}","attributes":{"styleAttributes":{"fontWeight":["800"],"textTransform":["uppercase"],"letterSpacing":["0.08em"],"fontSize":["13px"],"lineHeight":["1.2"],"customCSS_Extra":"{CURRENT}{font-stretch:75%}"}},"originalBlock":"greenshift-blocks/element","selectors":[]},{"value":"bcfh-fbrand","type":"local","label":"bcfh-fbrand","localed":false,"css":".bcfh-fbrand{font-weight:800;font-style:italic;font-size:20px;line-height:1.2;letter-spacing:-0.01em;}","attributes":{"styleAttributes":{"fontWeight":["800"],"fontStyle":["italic"],"fontSize":["20px"],"lineHeight":["1.2"],"letterSpacing":["-0.01em"]}},"originalBlock":"greenshift-blocks/element","selectors":[]},{"value":"bcfh-fbody","type":"local","label":"bcfh-fbody","localed":false,"css":".bcfh-fbody{grid-column:1 / 2;display:flex;flex-direction:column;justify-content:center;padding-top:24px;padding-bottom:24px;}@media (max-width: 680px){.bcfh-fbody{grid-column:1 / 2;}}","attributes":{"styleAttributes":{"gridColumn":["1 / 2"],"display":["flex"],"flexDirection":["column"],"justifyContent":["center"],"paddingTop":["24px"],"paddingBottom":["24px"],"customCSS_Extra":"@media (max-width: 680px){.bcfh-fbody{grid-column:1 / 2;}}"}},"originalBlock":"greenshift-blocks/element","selectors":[]},{"value":"bcfh-fname","type":"local","label":"bcfh-fname","localed":false,"css":".bcfh-fname{font-stretch:68%;font-weight:850;text-transform:uppercase;font-size:clamp(1.9rem, 3.2vw, 2.6rem);line-height:0.98;margin-top:0;margin-bottom:12px;}","attributes":{"styleAttributes":{"fontWeight":["850"],"textTransform":["uppercase"],"fontSize":["clamp(1.9rem, 3.2vw, 2.6rem)"],"lineHeight":["0.98"],"marginTop":["0"],"marginBottom":["12px"],"customCSS_Extra":"{CURRENT}{font-stretch:68%}"}},"originalBlock":"greenshift-blocks/element","selectors":[]},{"value":"bcfh-fpart","type":"local","label":"bcfh-fpart","localed":false,"css":".bcfh-fpart{font-size:14px;line-height:1.4;opacity:0.85;margin-top:0;margin-bottom:24px;}","attributes":{"styleAttributes":{"fontSize":["14px"],"lineHeight":["1.4"],"opacity":["0.85"],"marginTop":["0"],"marginBottom":["24px"]}},"originalBlock":"greenshift-blocks/element","selectors":[]},{"value":"bcfh-stamp","type":"local","label":"bcfh-stamp","localed":false,"css":".bcfh-stamp{display:inline-flex;flex-direction:column;align-self:flex-start;background-color:var(--bcfh-white);color:var(--bcfh-ink);border-radius:2px;overflow:hidden;}","attributes":{"styleAttributes":{"display":["inline-flex"],"flexDirection":["column"],"alignSelf":["flex-start"],"backgroundColor":["var(--bcfh-white)"],"color":["var(--bcfh-ink)"],"borderRadius":["2px"],"overflow":["hidden"]}},"originalBlock":"greenshift-blocks/element","selectors":[]},{"value":"bcfh-stampsave","type":"local","label":"bcfh-stampsave","localed":false,"css":".bcfh-stampsave{background-color:var(--bcfh-ink);color:var(--bcfh-white);font-stretch:75%;font-weight:800;text-transform:uppercase;letter-spacing:0.06em;font-size:14px;line-height:1.2;padding:8px 14px;}","attributes":{"styleAttributes":{"backgroundColor":["var(--bcfh-ink)"],"color":["var(--bcfh-white)"],"fontWeight":["800"],"textTransform":["uppercase"],"letterSpacing":["0.06em"],"fontSize":["14px"],"lineHeight":["1.2"],"paddingTop":["8px"],"paddingBottom":["8px"],"paddingRight":["14px"],"paddingLeft":["14px"],"customCSS_Extra":"{CURRENT}{font-stretch:75%}"}},"originalBlock":"greenshift-blocks/element","selectors":[]},{"value":"bcfh-stampnow","type":"local","label":"bcfh-stampnow","localed":false,"css":".bcfh-stampnow{display:flex;align-items:baseline;gap:8px;padding:8px 14px 10px 14px;}","attributes":{"styleAttributes":{"display":["flex"],"alignItems":["baseline"],"rowGap":["8px"],"columnGap":["8px"],"paddingTop":["8px"],"paddingRight":["14px"],"paddingBottom":["10px"],"paddingLeft":["14px"]}},"originalBlock":"greenshift-blocks/element","selectors":[]},{"value":"bcfh-stamplabel","type":"local","label":"bcfh-stamplabel","localed":false,"css":".bcfh-stamplabel{font-stretch:75%;font-weight:800;text-transform:uppercase;font-size:16px;line-height:1;}","attributes":{"styleAttributes":{"fontWeight":["800"],"textTransform":["uppercase"],"fontSize":["16px"],"lineHeight":["1"],"customCSS_Extra":"{CURRENT}{font-stretch:75%}"}},"originalBlock":"greenshift-blocks/element","selectors":[]},{"value":"bcfh-stampprice","type":"local","label":"bcfh-stampprice","localed":false,"css":".bcfh-stampprice{font-stretch:68%;font-weight:900;font-size:56px;line-height:1;color:var(--bcfh-red);font-variant-numeric:tabular-nums;}@media (max-width: 680px){.bcfh-stampprice{font-size:46px;}}","attributes":{"styleAttributes":{"fontWeight":["900"],"fontSize":["56px"],"lineHeight":["1"],"color":["var(--bcfh-red)"],"customCSS_Extra":"{CURRENT}{font-stretch:68%;font-variant-numeric:tabular-nums}@media (max-width: 680px){.bcfh-stampprice{font-size:46px;}}"}},"originalBlock":"greenshift-blocks/element","selectors":[]},{"value":"bcfh-fmedia","type":"local","label":"bcfh-fmedia","localed":false,"css":".bcfh-fmedia{grid-column:2 / 3;grid-row:2 / 3;display:flex;align-items:center;justify-content:center;}@media (max-width: 680px){.bcfh-fmedia{grid-column:1 / 2;grid-row:auto;}}","attributes":{"styleAttributes":{"gridColumn":["2 / 3"],"gridRow":["2 / 3"],"display":["flex"],"alignItems":["center"],"justifyContent":["center"],"customCSS_Extra":"@media (max-width: 680px){.bcfh-fmedia{grid-column:1 / 2;grid-row:auto;}}"}},"originalBlock":"greenshift-blocks/element","selectors":[]},{"value":"bcfh-fimg","type":"local","label":"bcfh-fimg","localed":false,"css":".bcfh-fimg{width:100%;height:auto;max-width:360px;aspect-ratio:1 / 1;object-fit:contain;display:block;}","attributes":{"styleAttributes":{"width":["100%"],"height":["auto"],"maxWidth":["360px"],"aspectRatio":["1 / 1"],"objectFit":["contain"],"display":["block"]}},"originalBlock":"greenshift-blocks/element","selectors":[]},{"value":"bcfh-ffoot","type":"local","label":"bcfh-ffoot","localed":false,"css":".bcfh-ffoot{grid-column:1 / 3;display:flex;justify-content:space-between;align-items:center;gap:12px;padding-top:16px;border-top:1px solid rgba(255, 255, 255, 0.35);}@media (max-width: 680px){.bcfh-ffoot{grid-column:1 / 2;flex-direction:column;align-items:flex-start;}}","attributes":{"styleAttributes":{"gridColumn":["1 / 3"],"display":["flex"],"justifyContent":["space-between"],"alignItems":["center"],"rowGap":["12px"],"columnGap":["12px"],"paddingTop":["16px"],"borderTop":["1px solid rgba(255, 255, 255, 0.35)"],"customCSS_Extra":"@media (max-width: 680px){.bcfh-ffoot{grid-column:1 / 2;flex-direction:column;align-items:flex-start;}}"}},"originalBlock":"greenshift-blocks/element","selectors":[]},{"value":"bcfh-ffine","type":"local","label":"bcfh-ffine","localed":false,"css":".bcfh-ffine{font-size:12px;line-height:1.4;text-transform:uppercase;letter-spacing:0.04em;opacity:0.85;}","attributes":{"styleAttributes":{"fontSize":["12px"],"lineHeight":["1.4"],"textTransform":["uppercase"],"letterSpacing":["0.04em"],"opacity":["0.85"]}},"originalBlock":"greenshift-blocks/element","selectors":[]},{"value":"bcfh-btn","type":"local","label":"bcfh-btn","localed":false,"css":".bcfh-btn{display:inline-flex;align-items:center;gap:8px;font-stretch:80%;font-weight:800;text-transform:uppercase;letter-spacing:0.05em;font-size:14px;line-height:1;padding:12px 16px;border-radius:2px;background-color:var(--bcfh-ink);color:var(--bcfh-white);white-space:nowrap;}","attributes":{"styleAttributes":{"display":["inline-flex"],"alignItems":["center"],"rowGap":["8px"],"columnGap":["8px"],"fontWeight":["800"],"textTransform":["uppercase"],"letterSpacing":["0.05em"],"fontSize":["14px"],"lineHeight":["1"],"paddingTop":["12px"],"paddingBottom":["12px"],"paddingRight":["16px"],"paddingLeft":["16px"],"borderRadius":["2px"],"backgroundColor":["var(--bcfh-ink)"],"color":["var(--bcfh-white)"],"customCSS_Extra":"{CURRENT}{font-stretch:80%;white-space:nowrap}"}},"originalBlock":"greenshift-blocks/element","selectors":[]},{"value":"bcfh-btnlight","type":"local","label":"bcfh-btnlight","localed":false,"css":".bcfh-btnlight{background-color:var(--bcfh-white);color:var(--bcfh-ink);}","attributes":{"styleAttributes":{"backgroundColor":["var(--bcfh-white)"],"color":["var(--bcfh-ink)"]}},"originalBlock":"greenshift-blocks/element","selectors":[]},{"value":"bcfh-btnline","type":"local","label":"bcfh-btnline","localed":false,"css":".bcfh-btnline{background-color:transparent;color:var(--bcfh-ink);padding:0;border-bottom:2px solid currentColor;padding-bottom:4px;border-radius:0;}","attributes":{"styleAttributes":{"backgroundColor":["transparent"],"color":["var(--bcfh-ink)"],"paddingTop":["0"],"paddingRight":["0"],"paddingBottom":["4px"],"paddingLeft":["0"],"borderBottom":["2px solid currentColor"],"borderRadius":["0"]}},"originalBlock":"greenshift-blocks/element","selectors":[]},{"value":"bcfh-arrow","type":"local","label":"bcfh-arrow","localed":false,"css":".bcfh-arrow{width:14px;height:14px;flex-shrink:0;transition:transform 0.2s ease;}","attributes":{"styleAttributes":{"width":["14px"],"height":["14px"],"flexShrink":["0"],"transition":["transform 0.2s ease"]}},"originalBlock":"greenshift-blocks/element","selectors":[]},{"value":"bcfh-wide","type":"local","label":"bcfh-wide","localed":false,"css":".bcfh-wide{grid-column:7 / 11;grid-row:1 / 2;background-color:#d9dbdb;color:var(--bcfh-ink);display:grid;grid-template-columns:1fr 1fr;gap:16px;padding:0;}@media (max-width: 1023px){.bcfh-wide{grid-column:1 / 7;grid-row:auto;min-height:280px;}}@media (max-width: 680px){.bcfh-wide{grid-template-columns:1fr;}}","attributes":{"styleAttributes":{"gridColumn":["7 / 11"],"gridRow":["1 / 2"],"backgroundColor":["#d9dbdb"],"color":["var(--bcfh-ink)"],"display":["grid"],"gridTemplateColumns":["1fr 1fr"],"rowGap":["16px"],"columnGap":["16px"],"paddingTop":["0"],"paddingRight":["0"],"paddingBottom":["0"],"paddingLeft":["0"],"customCSS_Extra":"@media (max-width: 1023px){.bcfh-wide{grid-column:1 / 7;grid-row:auto;min-height:280px;}}@media (max-width: 680px){.bcfh-wide{grid-template-columns:1fr;}}"}},"originalBlock":"greenshift-blocks/element","selectors":[]},{"value":"bcfh-widetext","type":"local","label":"bcfh-widetext","localed":false,"css":".bcfh-widetext{display:flex;flex-direction:column;justify-content:space-between;padding:24px 0 24px 24px;}@media (max-width: 680px){.bcfh-widetext{padding:22px 22px 0 22px;}}","attributes":{"styleAttributes":{"display":["flex"],"flexDirection":["column"],"justifyContent":["space-between"],"paddingTop":["24px"],"paddingRight":["0"],"paddingBottom":["24px"],"paddingLeft":["24px"],"customCSS_Extra":"@media (max-width: 680px){.bcfh-widetext{padding:22px 22px 0 22px;}}"}},"originalBlock":"greenshift-blocks/element","selectors":[]},{"value":"bcfh-tbrand","type":"local","label":"bcfh-tbrand","localed":false,"css":".bcfh-tbrand{font-stretch:75%;font-weight:800;text-transform:uppercase;letter-spacing:0.08em;font-size:13px;line-height:1.2;margin-top:0;margin-bottom:10px;}","attributes":{"styleAttributes":{"fontWeight":["800"],"textTransform":["uppercase"],"letterSpacing":["0.08em"],"fontSize":["13px"],"lineHeight":["1.2"],"marginTop":["0"],"marginBottom":["10px"],"customCSS_Extra":"{CURRENT}{font-stretch:75%}"}},"originalBlock":"greenshift-blocks/element","selectors":[]},{"value":"bcfh-tbrandgap","type":"local","label":"bcfh-tbrandgap","localed":false,"css":".bcfh-tbrandgap{margin-top:14px;}","attributes":{"styleAttributes":{"marginTop":["14px"]}},"originalBlock":"greenshift-blocks/element","selectors":[]},{"value":"bcfh-ttitle","type":"local","label":"bcfh-ttitle","localed":false,"css":".bcfh-ttitle{font-stretch:68%;font-weight:850;text-transform:uppercase;font-size:34px;line-height:0.98;margin-top:0;margin-bottom:10px;}","attributes":{"styleAttributes":{"fontWeight":["850"],"textTransform":["uppercase"],"fontSize":["34px"],"lineHeight":["0.98"],"marginTop":["0"],"marginBottom":["10px"],"customCSS_Extra":"{CURRENT}{font-stretch:68%}"}},"originalBlock":"greenshift-blocks/element","selectors":[]},{"value":"bcfh-tcopy","type":"local","label":"bcfh-tcopy","localed":false,"css":".bcfh-tcopy{font-size:14px;line-height:1.45;margin-top:0;margin-bottom:16px;max-width:28ch;}","attributes":{"styleAttributes":{"fontSize":["14px"],"lineHeight":["1.45"],"marginTop":["0"],"marginBottom":["16px"],"maxWidth":["28ch"]}},"originalBlock":"greenshift-blocks/element","selectors":[]},{"value":"bcfh-widemedia","type":"local","label":"bcfh-widemedia","localed":false,"css":".bcfh-widemedia{position:relative;min-height:100%;}@media (max-width: 680px){.bcfh-widemedia{min-height:220px;}}","attributes":{"styleAttributes":{"position":["relative"],"minHeight":["100%"],"customCSS_Extra":"@media (max-width: 680px){.bcfh-widemedia{min-height:220px;}}"}},"originalBlock":"greenshift-blocks/element","selectors":[]},{"value":"bcfh-wideimg","type":"local","label":"bcfh-wideimg","localed":false,"css":".bcfh-wideimg{position:absolute;top:0;left:0;width:100%;height:100%;object-fit:cover;display:block;}","attributes":{"styleAttributes":{"position":["absolute"],"top":["0"],"left":["0"],"width":["100%"],"height":["100%"],"objectFit":["cover"],"display":["block"]}},"originalBlock":"greenshift-blocks/element","selectors":[]},{"value":"bcfh-small","type":"local","label":"bcfh-small","localed":false,"css":".bcfh-small{grid-row:2 / 3;justify-content:space-between;}","attributes":{"styleAttributes":{"gridRow":["2 / 3"],"justifyContent":["space-between"]}},"originalBlock":"greenshift-blocks/element","selectors":[]},{"value":"bcfh-smallA","type":"local","label":"bcfh-smallA","localed":false,"css":".bcfh-smallA{grid-column:7 / 9;background-color:var(--bcfh-ink);color:var(--bcfh-white);}@media (max-width: 1023px){.bcfh-smallA{grid-column:1 / 4;grid-row:auto;}}@media (max-width: 680px){.bcfh-smallA{grid-column:1 / 7;}}","attributes":{"styleAttributes":{"gridColumn":["7 / 9"],"backgroundColor":["var(--bcfh-ink)"],"color":["var(--bcfh-white)"],"customCSS_Extra":"@media (max-width: 1023px){.bcfh-smallA{grid-column:1 / 4;grid-row:auto;}}@media (max-width: 680px){.bcfh-smallA{grid-column:1 / 7;}}"}},"originalBlock":"greenshift-blocks/element","selectors":[]},{"value":"bcfh-smallB","type":"local","label":"bcfh-smallB","localed":false,"css":".bcfh-smallB{grid-column:9 / 11;background-color:var(--bcfh-white);color:var(--bcfh-ink);border:1px solid var(--bcfh-line);}@media (max-width: 1023px){.bcfh-smallB{grid-column:4 / 7;grid-row:auto;}}@media (max-width: 680px){.bcfh-smallB{grid-column:1 / 7;}}","attributes":{"styleAttributes":{"gridColumn":["9 / 11"],"backgroundColor":["var(--bcfh-white)"],"color":["var(--bcfh-ink)"],"border":["1px solid var(--bcfh-line)"],"customCSS_Extra":"@media (max-width: 1023px){.bcfh-smallB{grid-column:4 / 7;grid-row:auto;}}@media (max-width: 680px){.bcfh-smallB{grid-column:1 / 7;}}"}},"originalBlock":"greenshift-blocks/element","selectors":[]},{"value":"bcfh-stitle","type":"local","label":"bcfh-stitle","localed":false,"css":".bcfh-stitle{font-stretch:68%;font-weight:850;text-transform:uppercase;font-size:24px;line-height:1;margin-top:0;margin-bottom:6px;}","attributes":{"styleAttributes":{"fontWeight":["850"],"textTransform":["uppercase"],"fontSize":["24px"],"lineHeight":["1"],"marginTop":["0"],"marginBottom":["6px"],"customCSS_Extra":"{CURRENT}{font-stretch:68%}"}},"originalBlock":"greenshift-blocks/element","selectors":[]},{"value":"bcfh-smeta","type":"local","label":"bcfh-smeta","localed":false,"css":".bcfh-smeta{font-size:13px;line-height:1.4;opacity:0.8;margin-top:0;margin-bottom:0;}","attributes":{"styleAttributes":{"fontSize":["13px"],"lineHeight":["1.4"],"opacity":["0.8"],"marginTop":["0"],"marginBottom":["0"]}},"originalBlock":"greenshift-blocks/element","selectors":[]},{"value":"bcfh-simg","type":"local","label":"bcfh-simg","localed":false,"css":".bcfh-simg{width:100%;height:auto;aspect-ratio:4 / 3;object-fit:contain;display:block;margin-top:12px;margin-bottom:12px;}","attributes":{"styleAttributes":{"width":["100%"],"height":["auto"],"aspectRatio":["4 / 3"],"objectFit":["contain"],"display":["block"],"marginTop":["12px"],"marginBottom":["12px"]}},"originalBlock":"greenshift-blocks/element","selectors":[]},{"value":"bcfh-sfoot","type":"local","label":"bcfh-sfoot","localed":false,"css":".bcfh-sfoot{display:flex;justify-content:space-between;align-items:center;gap:8px;}","attributes":{"styleAttributes":{"display":["flex"],"justifyContent":["space-between"],"alignItems":["center"],"rowGap":["8px"],"columnGap":["8px"]}},"originalBlock":"greenshift-blocks/element","selectors":[]},{"value":"bcfh-tag","type":"local","label":"bcfh-tag","localed":false,"css":".bcfh-tag{display:inline-block;font-stretch:80%;font-weight:800;text-transform:uppercase;letter-spacing:0.06em;font-size:11px;line-height:1;padding:5px 7px;border-radius:2px;background-color:var(--bcfh-hivis);color:var(--bcfh-ink);}","attributes":{"styleAttributes":{"display":["inline-block"],"fontWeight":["800"],"textTransform":["uppercase"],"letterSpacing":["0.06em"],"fontSize":["11px"],"lineHeight":["1"],"paddingTop":["5px"],"paddingBottom":["5px"],"paddingRight":["7px"],"paddingLeft":["7px"],"borderRadius":["2px"],"backgroundColor":["var(--bcfh-hivis)"],"color":["var(--bcfh-ink)"],"customCSS_Extra":"{CURRENT}{font-stretch:80%}"}},"originalBlock":"greenshift-blocks/element","selectors":[]},{"value":"bcfh-tagred","type":"local","label":"bcfh-tagred","localed":false,"css":".bcfh-tagred{background-color:var(--bcfh-red);color:var(--bcfh-white);}","attributes":{"styleAttributes":{"backgroundColor":["var(--bcfh-red)"],"color":["var(--bcfh-white)"]}},"originalBlock":"greenshift-blocks/element","selectors":[]},{"value":"bcfh-tall","type":"local","label":"bcfh-tall","localed":false,"css":".bcfh-tall{grid-column:11 / 13;grid-row:1 / 3;background-color:#c9cdcf;color:var(--bcfh-ink);justify-content:space-between;}@media (max-width: 1023px){.bcfh-tall{grid-column:1 / 7;grid-row:auto;display:grid;grid-template-columns:1fr 1fr;gap:16px;}}@media (max-width: 680px){.bcfh-tall{grid-template-columns:1fr;}}","attributes":{"styleAttributes":{"gridColumn":["11 / 13"],"gridRow":["1 / 3"],"backgroundColor":["#c9cdcf"],"color":["var(--bcfh-ink)"],"justifyContent":["space-between"],"customCSS_Extra":"@media (max-width: 1023px){.bcfh-tall{grid-column:1 / 7;grid-row:auto;display:grid;grid-template-columns:1fr 1fr;gap:16px;}}@media (max-width: 680px){.bcfh-tall{grid-template-columns:1fr;}}"}},"originalBlock":"greenshift-blocks/element","selectors":[]},{"value":"bcfh-tallimg","type":"local","label":"bcfh-tallimg","localed":false,"css":".bcfh-tallimg{width:100%;height:auto;aspect-ratio:1 / 1;object-fit:contain;display:block;margin-top:auto;margin-bottom:12px;}@media (max-width: 1023px){.bcfh-tallimg{grid-row:1 / 4;grid-column:2 / 3;margin-top:0;}}@media (max-width: 680px){.bcfh-tallimg{grid-row:auto;grid-column:auto;max-width:240px;}}","attributes":{"styleAttributes":{"width":["100%"],"height":["auto"],"aspectRatio":["1 / 1"],"objectFit":["contain"],"display":["block"],"marginTop":["auto"],"marginBottom":["12px"],"customCSS_Extra":"@media (max-width: 1023px){.bcfh-tallimg{grid-row:1 / 4;grid-column:2 / 3;margin-top:0;}}@media (max-width: 680px){.bcfh-tallimg{grid-row:auto;grid-column:auto;max-width:240px;}}"}},"originalBlock":"greenshift-blocks/element","selectors":[]},{"value":"bcfh-swatches","type":"local","label":"bcfh-swatches","localed":false,"css":".bcfh-swatches{display:grid;grid-template-columns:repeat(6, 1fr);gap:4px;margin-top:8px;margin-bottom:0;padding-left:0;list-style:none;}","attributes":{"styleAttributes":{"display":["grid"],"gridTemplateColumns":["repeat(6, 1fr)"],"rowGap":["4px"],"columnGap":["4px"],"marginTop":["8px"],"marginBottom":["0"],"paddingLeft":["0"],"customCSS_Extra":"{CURRENT}{list-style:none}"}},"originalBlock":"greenshift-blocks/element","selectors":[]},{"value":"bcfh-sw","type":"local","label":"bcfh-sw","localed":false,"css":".bcfh-sw{display:block;aspect-ratio:1 / 1;border:1px solid rgba(23, 25, 27, 0.35);border-radius:1px;}","attributes":{"styleAttributes":{"display":["block"],"aspectRatio":["1 / 1"],"border":["1px solid rgba(23, 25, 27, 0.35)"],"borderRadius":["1px"]}},"originalBlock":"greenshift-blocks/element","selectors":[]},{"value":"bcfh-swlabel","type":"local","label":"bcfh-swlabel","localed":false,"css":".bcfh-swlabel{font-size:12px;line-height:1.3;margin-top:0;margin-bottom:0;font-weight:600;}","attributes":{"styleAttributes":{"fontSize":["12px"],"lineHeight":["1.3"],"marginTop":["0"],"marginBottom":["0"],"fontWeight":["600"]}},"originalBlock":"greenshift-blocks/element","selectors":[]},{"value":"bcfh-trust","type":"local","label":"bcfh-trust","localed":false,"css":".bcfh-trust{border-top:1px solid var(--bcfh-line);border-bottom:1px solid var(--bcfh-line);}","attributes":{"styleAttributes":{"borderTop":["1px solid var(--bcfh-line)"],"borderBottom":["1px solid var(--bcfh-line)"]}},"originalBlock":"greenshift-blocks/element","selectors":[]},{"value":"bcfh-trustlist","type":"local","label":"bcfh-trustlist","localed":false,"css":".bcfh-trustlist{display:grid;grid-template-columns:repeat(4, minmax(0, 1fr));margin-top:0;margin-bottom:0;padding-left:0;list-style:none;}@media (max-width: 1023px){.bcfh-trustlist{grid-template-columns:repeat(2, minmax(0, 1fr));}}@media (max-width: 680px){.bcfh-trustlist{grid-template-columns:1fr;}}","attributes":{"styleAttributes":{"display":["grid"],"gridTemplateColumns":["repeat(4, minmax(0, 1fr))"],"marginTop":["0"],"marginBottom":["0"],"paddingLeft":["0"],"customCSS_Extra":"{CURRENT}{list-style:none}@media (max-width: 1023px){.bcfh-trustlist{grid-template-columns:repeat(2, minmax(0, 1fr));}}@media (max-width: 680px){.bcfh-trustlist{grid-template-columns:1fr;}}"}},"originalBlock":"greenshift-blocks/element","selectors":[]},{"value":"bcfh-trustitem","type":"local","label":"bcfh-trustitem","localed":false,"css":".bcfh-trustitem{display:flex;align-items:center;gap:12px;padding:18px 20px;border-left:1px solid var(--bcfh-line);}.bcfh-trustitem:first-child{border-left:0;padding-left:0;}@media (max-width: 1023px){.bcfh-trustitem:nth-child(3){border-left:0;padding-left:0;}}@media (max-width: 680px){.bcfh-trustitem{border-left:0;padding-left:0;padding-top:12px;padding-bottom:12px;}}","attributes":{"styleAttributes":{"display":["flex"],"alignItems":["center"],"rowGap":["12px"],"columnGap":["12px"],"paddingTop":["18px"],"paddingBottom":["18px"],"paddingRight":["20px"],"paddingLeft":["0"],"borderLeft":["0"],"customCSS_Extra":"@media (max-width: 1023px){.bcfh-trustitem:nth-child(3){border-left:0;padding-left:0;}}@media (max-width: 680px){.bcfh-trustitem{border-left:0;padding-left:0;padding-top:12px;padding-bottom:12px;}}"}},"originalBlock":"greenshift-blocks/element","selectors":[]},{"value":"bcfh-trusticon","type":"local","label":"bcfh-trusticon","localed":false,"css":".bcfh-trusticon{width:26px;height:26px;flex-shrink:0;color:var(--bcfh-red);}","attributes":{"styleAttributes":{"width":["26px"],"height":["26px"],"flexShrink":["0"],"color":["var(--bcfh-red)"]}},"originalBlock":"greenshift-blocks/element","selectors":[]},{"value":"bcfh-trusttext","type":"local","label":"bcfh-trusttext","localed":false,"css":".bcfh-trusttext{font-size:14px;line-height:1.35;margin-top:0;margin-bottom:0;color:var(--bcfh-muted);}","attributes":{"styleAttributes":{"fontSize":["14px"],"lineHeight":["1.35"],"marginTop":["0"],"marginBottom":["0"],"color":["var(--bcfh-muted)"]}},"originalBlock":"greenshift-blocks/element","selectors":[]},{"value":"bcfh-trustlead","type":"local","label":"bcfh-trustlead","localed":false,"css":".bcfh-trustlead{display:block;font-weight:750;color:var(--bcfh-ink);}","attributes":{"styleAttributes":{"display":["block"],"fontWeight":["750"],"color":["var(--bcfh-ink)"]}},"originalBlock":"greenshift-blocks/element","selectors":[]},{"value":"bcfh-block","type":"local","label":"bcfh-block","localed":false,"css":".bcfh-block{padding-top:var(--wp--preset--spacing--80, 5.06rem);padding-bottom:var(--wp--preset--spacing--70, 3.38rem);}","attributes":{"styleAttributes":{"paddingTop":["var(--wp--preset--spacing--80, 5.06rem)"],"paddingBottom":["var(--wp--preset--spacing--70, 3.38rem)"]}},"originalBlock":"greenshift-blocks/element","selectors":[]},{"value":"bcfh-head","type":"local","label":"bcfh-head","localed":false,"css":".bcfh-head{display:flex;justify-content:space-between;align-items:flex-end;gap:24px;padding-bottom:14px;margin-bottom:24px;border-bottom:3px solid var(--bcfh-ink);}@media (max-width: 680px){.bcfh-head{flex-direction:column;align-items:flex-start;gap:14px;}}","attributes":{"styleAttributes":{"display":["flex"],"justifyContent":["space-between"],"alignItems":["flex-end"],"rowGap":["24px"],"columnGap":["24px"],"paddingBottom":["14px"],"marginBottom":["24px"],"borderBottom":["3px solid var(--bcfh-ink)"],"customCSS_Extra":"@media (max-width: 680px){.bcfh-head{flex-direction:column;align-items:flex-start;gap:14px;}}"}},"originalBlock":"greenshift-blocks/element","selectors":[]},{"value":"bcfh-headinv","type":"local","label":"bcfh-headinv","localed":false,"css":".bcfh-headinv{border-bottom-color:var(--bcfh-white);}","attributes":{"styleAttributes":{"borderBottomColor":["var(--bcfh-white)"]}},"originalBlock":"greenshift-blocks/element","selectors":[]},{"value":"bcfh-kicker","type":"local","label":"bcfh-kicker","localed":false,"css":".bcfh-kicker{font-stretch:75%;font-weight:800;text-transform:uppercase;letter-spacing:0.1em;font-size:13px;line-height:1.2;color:var(--bcfh-red);margin-top:0;margin-bottom:6px;}","attributes":{"styleAttributes":{"fontWeight":["800"],"textTransform":["uppercase"],"letterSpacing":["0.1em"],"fontSize":["13px"],"lineHeight":["1.2"],"color":["var(--bcfh-red)"],"marginTop":["0"],"marginBottom":["6px"],"customCSS_Extra":"{CURRENT}{font-stretch:75%}"}},"originalBlock":"greenshift-blocks/element","selectors":[]},{"value":"bcfh-kickerinv","type":"local","label":"bcfh-kickerinv","localed":false,"css":".bcfh-kickerinv{color:var(--bcfh-hivis);}","attributes":{"styleAttributes":{"color":["var(--bcfh-hivis)"]}},"originalBlock":"greenshift-blocks/element","selectors":[]},{"value":"bcfh-h2","type":"local","label":"bcfh-h2","localed":false,"css":".bcfh-h2{font-stretch:68%;font-weight:850;text-transform:uppercase;font-size:clamp(2.2rem, 4vw, 3rem);line-height:0.95;margin-top:0;margin-bottom:0;}","attributes":{"styleAttributes":{"fontWeight":["850"],"textTransform":["uppercase"],"fontSize":["clamp(2.2rem, 4vw, 3rem)"],"lineHeight":["0.95"],"marginTop":["0"],"marginBottom":["0"],"customCSS_Extra":"{CURRENT}{font-stretch:68%}"}},"originalBlock":"greenshift-blocks/element","selectors":[]},{"value":"bcfh-headlink","type":"local","label":"bcfh-headlink","localed":false,"css":".bcfh-headlink{display:inline-flex;align-items:center;gap:8px;font-stretch:80%;font-weight:800;text-transform:uppercase;letter-spacing:0.05em;font-size:14px;line-height:1;color:inherit;text-decoration:none;padding-bottom:4px;border-bottom:2px solid var(--bcfh-red);white-space:nowrap;}.bcfh-headlink:hover{color:var(--bcfh-red);}","attributes":{"styleAttributes":{"display":["inline-flex"],"alignItems":["center"],"rowGap":["8px"],"columnGap":["8px"],"fontWeight":["800"],"textTransform":["uppercase"],"letterSpacing":["0.05em"],"fontSize":["14px"],"lineHeight":["1"],"color":["inherit"],"textDecoration":["none"],"paddingBottom":["4px"],"borderBottom":["2px solid var(--bcfh-red)"],"color_hover":["var(--bcfh-red)"],"customCSS_Extra":"{CURRENT}{font-stretch:80%;white-space:nowrap}"}},"originalBlock":"greenshift-blocks/element","selectors":[]},{"value":"bcfh-headlinkinv","type":"local","label":"bcfh-headlinkinv","localed":false,"css":".bcfh-headlinkinv:hover{color:var(--bcfh-hivis);}","attributes":{"styleAttributes":{"color_hover":["var(--bcfh-hivis)"]}},"originalBlock":"greenshift-blocks/element","selectors":[]},{"value":"bcfh-pgrid","type":"local","label":"bcfh-pgrid","localed":false,"css":".bcfh-pgrid{display:grid;grid-template-columns:repeat(7, minmax(0, 1fr));gap:10px;margin-top:0;margin-bottom:0;padding-left:0;list-style:none;}@media (max-width: 1100px){.bcfh-pgrid{grid-template-columns:repeat(4, minmax(0, 1fr));}}@media (max-width: 680px){.bcfh-pgrid{grid-template-columns:repeat(2, minmax(0, 1fr));}}","attributes":{"styleAttributes":{"display":["grid"],"gridTemplateColumns":["repeat(7, minmax(0, 1fr))"],"rowGap":["10px"],"columnGap":["10px"],"marginTop":["0"],"marginBottom":["0"],"paddingLeft":["0"],"customCSS_Extra":"{CURRENT}{list-style:none}@media (max-width: 1100px){.bcfh-pgrid{grid-template-columns:repeat(4, minmax(0, 1fr));}}@media (max-width: 680px){.bcfh-pgrid{grid-template-columns:repeat(2, minmax(0, 1fr));}}"}},"originalBlock":"greenshift-blocks/element","selectors":[]},{"value":"bcfh-pcard","type":"local","label":"bcfh-pcard","localed":false,"css":".bcfh-pcard{display:flex;}","attributes":{"styleAttributes":{"display":["flex"]}},"originalBlock":"greenshift-blocks/element","selectors":[]},{"value":"bcfh-plink","type":"local","label":"bcfh-plink","localed":false,"css":".bcfh-plink{display:flex;flex-direction:column;width:100%;background-color:var(--bcfh-white);border:1px solid var(--bcfh-line);border-radius:4px;text-decoration:none;color:var(--bcfh-ink);overflow:hidden;transition:border-color 0.2s ease;}.bcfh-plink:hover{border-color:var(--bcfh-ink);}.bcfh-plink:focus-visible{outline:3px solid var(--bcfh-red);outline-offset:2px;}","attributes":{"styleAttributes":{"display":["flex"],"flexDirection":["column"],"width":["100%"],"backgroundColor":["var(--bcfh-white)"],"border":["1px solid var(--bcfh-line)"],"borderRadius":["4px"],"textDecoration":["none"],"color":["var(--bcfh-ink)"],"overflow":["hidden"],"transition":["border-color 0.2s ease"],"borderColor_hover":["var(--bcfh-ink)"],"outline_focus":["3px solid var(--bcfh-red)"],"outlineOffset_focus":["2px"]}},"originalBlock":"greenshift-blocks/element","selectors":[{"value":":hover .bcfh-pimg","attributes":{"styleAttributes":{"transform":["scale(1.04)"]}},"css":".bcfh-plink:hover .bcfh-pimg{transform:scale(1.04);}"}]},{"value":"bcfh-pmedia","type":"local","label":"bcfh-pmedia","localed":false,"css":".bcfh-pmedia{display:block;padding:16px;background-color:var(--bcfh-white);}","attributes":{"styleAttributes":{"display":["block"],"paddingTop":["16px"],"paddingRight":["16px"],"paddingBottom":["16px"],"paddingLeft":["16px"],"backgroundColor":["var(--bcfh-white)"]}},"originalBlock":"greenshift-blocks/element","selectors":[]},{"value":"bcfh-pimg","type":"local","label":"bcfh-pimg","localed":false,"css":".bcfh-pimg{display:block;width:100%;height:auto;aspect-ratio:1 / 1;object-fit:contain;transition:transform 0.3s ease;}","attributes":{"styleAttributes":{"display":["block"],"width":["100%"],"height":["auto"],"aspectRatio":["1 / 1"],"objectFit":["contain"],"transition":["transform 0.3s ease"]}},"originalBlock":"greenshift-blocks/element","selectors":[]},{"value":"bcfh-pbody","type":"local","label":"bcfh-pbody","localed":false,"css":".bcfh-pbody{display:flex;flex-direction:column;flex-grow:1;padding:0 12px 12px 12px;}","attributes":{"styleAttributes":{"display":["flex"],"flexDirection":["column"],"flexGrow":["1"],"paddingTop":["0"],"paddingRight":["12px"],"paddingBottom":["12px"],"paddingLeft":["12px"]}},"originalBlock":"greenshift-blocks/element","selectors":[]},{"value":"bcfh-pbrand","type":"local","label":"bcfh-pbrand","localed":false,"css":".bcfh-pbrand{font-stretch:75%;font-weight:800;text-transform:uppercase;letter-spacing:0.08em;font-size:11px;line-height:1.2;color:var(--bcfh-red);margin-top:0;margin-bottom:4px;}","attributes":{"styleAttributes":{"fontWeight":["800"],"textTransform":["uppercase"],"letterSpacing":["0.08em"],"fontSize":["11px"],"lineHeight":["1.2"],"color":["var(--bcfh-red)"],"marginTop":["0"],"marginBottom":["4px"],"customCSS_Extra":"{CURRENT}{font-stretch:75%}"}},"originalBlock":"greenshift-blocks/element","selectors":[]},{"value":"bcfh-pname","type":"local","label":"bcfh-pname","localed":false,"css":".bcfh-pname{font-weight:600;font-size:14px;line-height:1.3;margin-top:0;margin-bottom:6px;}","attributes":{"styleAttributes":{"fontWeight":["600"],"fontSize":["14px"],"lineHeight":["1.3"],"marginTop":["0"],"marginBottom":["6px"]}},"originalBlock":"greenshift-blocks/element","selectors":[]},{"value":"bcfh-psku","type":"local","label":"bcfh-psku","localed":false,"css":".bcfh-psku{font-size:12px;line-height:1.3;color:var(--bcfh-muted);margin-top:0;margin-bottom:12px;}","attributes":{"styleAttributes":{"fontSize":["12px"],"lineHeight":["1.3"],"color":["var(--bcfh-muted)"],"marginTop":["0"],"marginBottom":["12px"]}},"originalBlock":"greenshift-blocks/element","selectors":[]},{"value":"bcfh-pfoot","type":"local","label":"bcfh-pfoot","localed":false,"css":".bcfh-pfoot{display:flex;justify-content:space-between;align-items:center;margin-top:auto;}","attributes":{"styleAttributes":{"display":["flex"],"justifyContent":["space-between"],"alignItems":["center"],"marginTop":["auto"]}},"originalBlock":"greenshift-blocks/element","selectors":[]},{"value":"bcfh-pprice","type":"local","label":"bcfh-pprice","localed":false,"css":".bcfh-pprice{display:inline-block;background-color:var(--bcfh-ink);color:var(--bcfh-hivis);font-stretch:80%;font-weight:800;font-size:18px;line-height:1;padding:7px 9px;border-radius:2px;font-variant-numeric:tabular-nums;}","attributes":{"styleAttributes":{"display":["inline-block"],"backgroundColor":["var(--bcfh-ink)"],"color":["var(--bcfh-hivis)"],"fontWeight":["800"],"fontSize":["18px"],"lineHeight":["1"],"paddingTop":["7px"],"paddingBottom":["7px"],"paddingRight":["9px"],"paddingLeft":["9px"],"borderRadius":["2px"],"customCSS_Extra":"{CURRENT}{font-stretch:80%;font-variant-numeric:tabular-nums}"}},"originalBlock":"greenshift-blocks/element","selectors":[]},{"value":"bcfh-pnote","type":"local","label":"bcfh-pnote","localed":false,"css":".bcfh-pnote{font-size:11px;line-height:1.2;color:var(--bcfh-muted);text-transform:uppercase;letter-spacing:0.04em;}","attributes":{"styleAttributes":{"fontSize":["11px"],"lineHeight":["1.2"],"color":["var(--bcfh-muted)"],"textTransform":["uppercase"],"letterSpacing":["0.04em"]}},"originalBlock":"greenshift-blocks/element","selectors":[]},{"value":"bcfh-rank","type":"local","label":"bcfh-rank","localed":false,"css":".bcfh-rank{display:grid;grid-template-columns:repeat(7, minmax(0, 1fr));margin-top:0;margin-bottom:0;padding-left:0;list-style:none;border-left:1px solid rgba(255, 255, 255, 0.16);}@media (max-width: 1100px){.bcfh-rank{display:flex;overflow-x:auto;scroll-snap-type:x mandatory;padding-bottom:12px;}}","attributes":{"styleAttributes":{"display":["grid"],"gridTemplateColumns":["repeat(7, minmax(0, 1fr))"],"marginTop":["0"],"marginBottom":["0"],"paddingLeft":["0"],"borderLeft":["1px solid rgba(255, 255, 255, 0.16)"],"customCSS_Extra":"{CURRENT}{list-style:none}@media (max-width: 1100px){.bcfh-rank{display:flex;overflow-x:auto;scroll-snap-type:x mandatory;padding-bottom:12px;}}"}},"originalBlock":"greenshift-blocks/element","selectors":[]},{"value":"bcfh-ritem","type":"local","label":"bcfh-ritem","localed":false,"css":".bcfh-ritem{display:flex;border-right:1px solid rgba(255, 255, 255, 0.16);}@media (max-width: 1100px){.bcfh-ritem{flex:0 0 200px;scroll-snap-align:start;}}","attributes":{"styleAttributes":{"display":["flex"],"borderRight":["1px solid rgba(255, 255, 255, 0.16)"],"customCSS_Extra":"@media (max-width: 1100px){.bcfh-ritem{flex:0 0 200px;scroll-snap-align:start;}}"}},"originalBlock":"greenshift-blocks/element","selectors":[]},{"value":"bcfh-rlink","type":"local","label":"bcfh-rlink","localed":false,"css":".bcfh-rlink{display:flex;flex-direction:column;width:100%;padding:4px 14px 18px 14px;color:var(--bcfh-white);text-decoration:none;transition:background-color 0.2s ease;}.bcfh-rlink:hover{background-color:var(--bcfh-ink-2);}","attributes":{"styleAttributes":{"display":["flex"],"flexDirection":["column"],"width":["100%"],"paddingTop":["4px"],"paddingRight":["14px"],"paddingBottom":["18px"],"paddingLeft":["14px"],"color":["var(--bcfh-white)"],"textDecoration":["none"],"transition":["background-color 0.2s ease"],"backgroundColor_hover":["var(--bcfh-ink-2)"],"customCSS_Extra":"{CURRENT}{text-decoration-color:var(--bcfh-hivis);text-underline-offset:3px}"}},"originalBlock":"greenshift-blocks/element","selectors":[{"value":":hover .bcfh-rname","attributes":{"styleAttributes":{"textDecoration":["underline"],"customCSS_Extra":"{CURRENT}:hover .bcfh-rname{text-decoration-color:var(--bcfh-hivis);text-underline-offset:3px}"}},"css":".bcfh-rlink:hover .bcfh-rname{text-decoration:underline;text-decoration-color:var(--bcfh-hivis);text-underline-offset:3px;}"}]},{"value":"bcfh-rnum","type":"local","label":"bcfh-rnum","localed":false,"css":".bcfh-rnum{font-stretch:62%;font-weight:900;font-size:64px;line-height:1;color:var(--bcfh-hivis);font-variant-numeric:tabular-nums;}","attributes":{"styleAttributes":{"fontWeight":["900"],"fontSize":["64px"],"lineHeight":["1"],"color":["var(--bcfh-hivis)"],"customCSS_Extra":"{CURRENT}{font-stretch:62%;font-variant-numeric:tabular-nums}"}},"originalBlock":"greenshift-blocks/element","selectors":[]},{"value":"bcfh-rmedia","type":"local","label":"bcfh-rmedia","localed":false,"css":".bcfh-rmedia{display:block;background-color:var(--bcfh-white);border-radius:3px;padding:12px;margin-top:10px;margin-bottom:14px;}","attributes":{"styleAttributes":{"display":["block"],"backgroundColor":["var(--bcfh-white)"],"borderRadius":["3px"],"paddingTop":["12px"],"paddingRight":["12px"],"paddingBottom":["12px"],"paddingLeft":["12px"],"marginTop":["10px"],"marginBottom":["14px"]}},"originalBlock":"greenshift-blocks/element","selectors":[]},{"value":"bcfh-rimg","type":"local","label":"bcfh-rimg","localed":false,"css":".bcfh-rimg{display:block;width:100%;height:auto;aspect-ratio:1 / 1;object-fit:contain;}","attributes":{"styleAttributes":{"display":["block"],"width":["100%"],"height":["auto"],"aspectRatio":["1 / 1"],"objectFit":["contain"]}},"originalBlock":"greenshift-blocks/element","selectors":[]},{"value":"bcfh-rbrand","type":"local","label":"bcfh-rbrand","localed":false,"css":".bcfh-rbrand{font-stretch:75%;font-weight:800;text-transform:uppercase;letter-spacing:0.08em;font-size:11px;line-height:1.2;color:rgba(255, 255, 255, 0.6);margin-top:0;margin-bottom:4px;}","attributes":{"styleAttributes":{"fontWeight":["800"],"textTransform":["uppercase"],"letterSpacing":["0.08em"],"fontSize":["11px"],"lineHeight":["1.2"],"color":["rgba(255, 255, 255, 0.6)"],"marginTop":["0"],"marginBottom":["4px"],"customCSS_Extra":"{CURRENT}{font-stretch:75%}"}},"originalBlock":"greenshift-blocks/element","selectors":[]},{"value":"bcfh-rname","type":"local","label":"bcfh-rname","localed":false,"css":".bcfh-rname{font-weight:600;font-size:14px;line-height:1.3;margin-top:0;margin-bottom:0;}","attributes":{"styleAttributes":{"fontWeight":["600"],"fontSize":["14px"],"lineHeight":["1.3"],"marginTop":["0"],"marginBottom":["0"]}},"originalBlock":"greenshift-blocks/element","selectors":[]},{"value":"bcfh-bgrid","type":"local","label":"bcfh-bgrid","localed":false,"css":".bcfh-bgrid{display:grid;grid-template-columns:repeat(4, minmax(0, 1fr));gap:12px;margin-top:0;margin-bottom:0;padding-left:0;list-style:none;}@media (max-width: 1023px){.bcfh-bgrid{grid-template-columns:repeat(2, minmax(0, 1fr));}}@media (max-width: 680px){.bcfh-bgrid{gap:8px;}}","attributes":{"styleAttributes":{"display":["grid"],"gridTemplateColumns":["repeat(4, minmax(0, 1fr))"],"rowGap":["12px"],"columnGap":["12px"],"marginTop":["0"],"marginBottom":["0"],"paddingLeft":["0"],"customCSS_Extra":"{CURRENT}{list-style:none}@media (max-width: 1023px){.bcfh-bgrid{grid-template-columns:repeat(2, minmax(0, 1fr));}}@media (max-width: 680px){.bcfh-bgrid{gap:8px;}}"}},"originalBlock":"greenshift-blocks/element","selectors":[]},{"value":"bcfh-bitem","type":"local","label":"bcfh-bitem","localed":false,"css":".bcfh-bitem{display:flex;}","attributes":{"styleAttributes":{"display":["flex"]}},"originalBlock":"greenshift-blocks/element","selectors":[]},{"value":"bcfh-blink","type":"local","label":"bcfh-blink","localed":false,"css":".bcfh-blink{position:relative;display:flex;flex-direction:column;width:100%;border-radius:4px;overflow:hidden;text-decoration:none;color:var(--bcfh-ink);background-color:var(--bcfh-white);border:1px solid var(--bcfh-line);}.bcfh-blink:focus-visible{outline:3px solid var(--bcfh-red);outline-offset:2px;}","attributes":{"styleAttributes":{"position":["relative"],"display":["flex"],"flexDirection":["column"],"width":["100%"],"borderRadius":["4px"],"overflow":["hidden"],"textDecoration":["none"],"color":["var(--bcfh-ink)"],"backgroundColor":["var(--bcfh-white)"],"border":["1px solid var(--bcfh-line)"],"outline_focus":["3px solid var(--bcfh-red)"],"outlineOffset_focus":["2px"]}},"originalBlock":"greenshift-blocks/element","selectors":[{"value":":hover .bcfh-bimg","attributes":{"styleAttributes":{"transform":["scale(1.04)"]}},"css":".bcfh-blink:hover .bcfh-bimg{transform:scale(1.04);}"},{"value":":hover .bcfh-bcta","attributes":{"styleAttributes":{"color":["var(--bcfh-red)"]}},"css":".bcfh-blink:hover .bcfh-bcta{color:var(--bcfh-red);}"}]},{"value":"bcfh-bmedia","type":"local","label":"bcfh-bmedia","localed":false,"css":".bcfh-bmedia{display:block;overflow:hidden;aspect-ratio:16 / 9;background-color:var(--bcfh-ink);}","attributes":{"styleAttributes":{"display":["block"],"overflow":["hidden"],"aspectRatio":["16 / 9"],"backgroundColor":["var(--bcfh-ink)"]}},"originalBlock":"greenshift-blocks/element","selectors":[]},{"value":"bcfh-bimg","type":"local","label":"bcfh-bimg","localed":false,"css":".bcfh-bimg{display:block;width:100%;height:100%;object-fit:cover;transition:transform 0.4s ease;}","attributes":{"styleAttributes":{"display":["block"],"width":["100%"],"height":["100%"],"objectFit":["cover"],"transition":["transform 0.4s ease"]}},"originalBlock":"greenshift-blocks/element","selectors":[]},{"value":"bcfh-bbar","type":"local","label":"bcfh-bbar","localed":false,"css":".bcfh-bbar{display:flex;justify-content:space-between;align-items:center;gap:8px;padding:12px 14px;}@media (max-width: 680px){.bcfh-bbar{padding:10px;}}","attributes":{"styleAttributes":{"display":["flex"],"justifyContent":["space-between"],"alignItems":["center"],"rowGap":["8px"],"columnGap":["8px"],"paddingTop":["12px"],"paddingBottom":["12px"],"paddingRight":["14px"],"paddingLeft":["14px"],"customCSS_Extra":"@media (max-width: 680px){.bcfh-bbar{padding:10px;}}"}},"originalBlock":"greenshift-blocks/element","selectors":[]},{"value":"bcfh-bname","type":"local","label":"bcfh-bname","localed":false,"css":".bcfh-bname{font-stretch:75%;font-weight:800;text-transform:uppercase;font-size:18px;line-height:1.1;margin-top:0;margin-bottom:0;}@media (max-width: 680px){.bcfh-bname{font-size:15px;line-height:1.1;}}","attributes":{"styleAttributes":{"fontWeight":["800"],"textTransform":["uppercase"],"fontSize":["18px"],"lineHeight":["1.1"],"marginTop":["0"],"marginBottom":["0"],"customCSS_Extra":"{CURRENT}{font-stretch:75%}@media (max-width: 680px){.bcfh-bname{font-size:15px;line-height:1.1;}}"}},"originalBlock":"greenshift-blocks/element","selectors":[]},{"value":"bcfh-bcta","type":"local","label":"bcfh-bcta","localed":false,"css":".bcfh-bcta{display:inline-flex;align-items:center;gap:6px;font-size:13px;line-height:1;font-weight:600;color:var(--bcfh-muted);transition:color 0.2s ease;}@media (max-width: 680px){.bcfh-bcta{display:none;}}","attributes":{"styleAttributes":{"display":["inline-flex"],"alignItems":["center"],"rowGap":["6px"],"columnGap":["6px"],"fontSize":["13px"],"lineHeight":["1"],"fontWeight":["600"],"color":["var(--bcfh-muted)"],"transition":["color 0.2s ease"],"customCSS_Extra":"@media (max-width: 680px){.bcfh-bcta{display:none;}}"}},"originalBlock":"greenshift-blocks/element","selectors":[]},{"value":"bcfh-help","type":"local","label":"bcfh-help","localed":false,"css":".bcfh-help{padding-top:var(--wp--preset--spacing--70, 3.38rem);padding-bottom:var(--wp--preset--spacing--70, 3.38rem);}","attributes":{"styleAttributes":{"paddingTop":["var(--wp--preset--spacing--70, 3.38rem)"],"paddingBottom":["var(--wp--preset--spacing--70, 3.38rem)"]}},"originalBlock":"greenshift-blocks/element","selectors":[]},{"value":"bcfh-helpgrid","type":"local","label":"bcfh-helpgrid","localed":false,"css":".bcfh-helpgrid{display:grid;grid-template-columns:1.25fr 1fr;}@media (max-width: 1023px){.bcfh-helpgrid{grid-template-columns:1fr;}}","attributes":{"styleAttributes":{"display":["grid"],"gridTemplateColumns":["1.25fr 1fr"],"customCSS_Extra":"@media (max-width: 1023px){.bcfh-helpgrid{grid-template-columns:1fr;}}"}},"originalBlock":"greenshift-blocks/element","selectors":[]},{"value":"bcfh-helpcol","type":"local","label":"bcfh-helpcol","localed":false,"css":".bcfh-helpcol{padding-right:48px;}@media (max-width: 1023px){.bcfh-helpcol{padding-right:0;padding-bottom:32px;}}","attributes":{"styleAttributes":{"paddingRight":["48px"],"customCSS_Extra":"@media (max-width: 1023px){.bcfh-helpcol{padding-right:0;padding-bottom:32px;}}"}},"originalBlock":"greenshift-blocks/element","selectors":[]},{"value":"bcfh-newscol","type":"local","label":"bcfh-newscol","localed":false,"css":".bcfh-newscol{padding-left:48px;border-left:1px solid rgba(255, 255, 255, 0.25);}@media (max-width: 1023px){.bcfh-newscol{padding-left:0;padding-top:32px;border-left:0;border-top:1px solid rgba(255, 255, 255, 0.25);}}","attributes":{"styleAttributes":{"paddingLeft":["48px"],"borderLeft":["1px solid rgba(255, 255, 255, 0.25)"],"customCSS_Extra":"@media (max-width: 1023px){.bcfh-newscol{padding-left:0;padding-top:32px;border-left:0;border-top:1px solid rgba(255, 255, 255, 0.25);}}"}},"originalBlock":"greenshift-blocks/element","selectors":[]},{"value":"bcfh-h3","type":"local","label":"bcfh-h3","localed":false,"css":".bcfh-h3{font-stretch:72%;font-weight:850;text-transform:uppercase;font-size:30px;line-height:1;margin-top:0;margin-bottom:10px;}","attributes":{"styleAttributes":{"fontWeight":["850"],"textTransform":["uppercase"],"fontSize":["30px"],"lineHeight":["1"],"marginTop":["0"],"marginBottom":["10px"],"customCSS_Extra":"{CURRENT}{font-stretch:72%}"}},"originalBlock":"greenshift-blocks/element","selectors":[]},{"value":"bcfh-helptext","type":"local","label":"bcfh-helptext","localed":false,"css":".bcfh-helptext{font-size:16px;line-height:1.5;margin-top:0;margin-bottom:24px;color:rgba(255, 255, 255, 0.85);max-width:46ch;}","attributes":{"styleAttributes":{"fontSize":["16px"],"lineHeight":["1.5"],"marginTop":["0"],"marginBottom":["24px"],"color":["rgba(255, 255, 255, 0.85)"],"maxWidth":["46ch"]}},"originalBlock":"greenshift-blocks/element","selectors":[]},{"value":"bcfh-contacts","type":"local","label":"bcfh-contacts","localed":false,"css":".bcfh-contacts{display:flex;flex-wrap:wrap;gap:12px 36px;margin-top:0;margin-bottom:0;padding-left:0;list-style:none;}","attributes":{"styleAttributes":{"display":["flex"],"flexWrap":["wrap"],"rowGap":["12px"],"columnGap":["36px"],"marginTop":["0"],"marginBottom":["0"],"paddingLeft":["0"],"customCSS_Extra":"{CURRENT}{list-style:none}"}},"originalBlock":"greenshift-blocks/element","selectors":[]},{"value":"bcfh-contact","type":"local","label":"bcfh-contact","localed":false,"css":".bcfh-contact{display:flex;align-items:center;gap:12px;}","attributes":{"styleAttributes":{"display":["flex"],"alignItems":["center"],"rowGap":["12px"],"columnGap":["12px"]}},"originalBlock":"greenshift-blocks/element","selectors":[]},{"value":"bcfh-cicon","type":"local","label":"bcfh-cicon","localed":false,"css":".bcfh-cicon{width:24px;height:24px;flex-shrink:0;color:var(--bcfh-hivis);}","attributes":{"styleAttributes":{"width":["24px"],"height":["24px"],"flexShrink":["0"],"color":["var(--bcfh-hivis)"]}},"originalBlock":"greenshift-blocks/element","selectors":[]},{"value":"bcfh-clabel","type":"local","label":"bcfh-clabel","localed":false,"css":".bcfh-clabel{display:block;font-size:12px;line-height:1.2;text-transform:uppercase;letter-spacing:0.08em;color:rgba(255, 255, 255, 0.7);margin-bottom:2px;}","attributes":{"styleAttributes":{"display":["block"],"fontSize":["12px"],"lineHeight":["1.2"],"textTransform":["uppercase"],"letterSpacing":["0.08em"],"color":["rgba(255, 255, 255, 0.7)"],"marginBottom":["2px"]}},"originalBlock":"greenshift-blocks/element","selectors":[]},{"value":"bcfh-clink","type":"local","label":"bcfh-clink","localed":false,"css":".bcfh-clink{font-weight:700;font-size:18px;line-height:1.3;color:var(--bcfh-white);text-decoration:underline;text-decoration-color:rgba(255, 255, 255, 0.4);text-underline-offset:4px;}.bcfh-clink:hover{text-decoration-color:var(--bcfh-hivis);}","attributes":{"styleAttributes":{"fontWeight":["700"],"fontSize":["18px"],"lineHeight":["1.3"],"color":["var(--bcfh-white)"],"textDecoration":["underline"],"customCSS_Extra":"{CURRENT}{text-decoration-color:rgba(255, 255, 255, 0.4);text-underline-offset:4px}{CURRENT}{text-decoration-color:var(--bcfh-hivis)}"}},"originalBlock":"greenshift-blocks/element","selectors":[]},{"value":"bcfh-form","type":"local","label":"bcfh-form","localed":false,"css":".bcfh-form{display:flex;gap:8px;margin-top:0;margin-bottom:10px;}@media (max-width: 680px){.bcfh-form{flex-direction:column;}}","attributes":{"styleAttributes":{"display":["flex"],"rowGap":["8px"],"columnGap":["8px"],"marginTop":["0"],"marginBottom":["10px"],"customCSS_Extra":"@media (max-width: 680px){.bcfh-form{flex-direction:column;}}"}},"originalBlock":"greenshift-blocks/element","selectors":[]},{"value":"bcfh-input","type":"local","label":"bcfh-input","localed":false,"css":".bcfh-input{flex-grow:1;min-width:0;font-family:var(--bcfh-display);font-size:16px;line-height:1.3;padding:13px 14px;border:1px solid rgba(255, 255, 255, 0.5);border-radius:2px;background-color:rgba(255, 255, 255, 0.06);color:var(--bcfh-white);}.bcfh-input:focus{outline:2px solid var(--bcfh-hivis);outline-offset:1px;}","attributes":{"styleAttributes":{"flexGrow":["1"],"minWidth":["0"],"fontFamily":["var(--bcfh-display)"],"fontSize":["16px"],"lineHeight":["1.3"],"paddingTop":["13px"],"paddingBottom":["13px"],"paddingRight":["14px"],"paddingLeft":["14px"],"border":["1px solid rgba(255, 255, 255, 0.5)"],"borderRadius":["2px"],"backgroundColor":["rgba(255, 255, 255, 0.06)"],"color":["var(--bcfh-white)"],"outline_focus":["2px solid var(--bcfh-hivis)"],"outlineOffset_focus":["1px"]}},"originalBlock":"greenshift-blocks/element","selectors":[{"value":"::placeholder","attributes":{"styleAttributes":{"color":["rgba(255, 255, 255, 0.6)"]}},"css":".bcfh-input::placeholder{color:rgba(255, 255, 255, 0.6);}"}]},{"value":"bcfh-submit","type":"local","label":"bcfh-submit","localed":false,"css":".bcfh-submit{font-family:var(--bcfh-display);font-stretch:80%;font-weight:800;text-transform:uppercase;letter-spacing:0.05em;font-size:14px;line-height:1;padding:13px 20px;border:0;border-radius:2px;background-color:var(--bcfh-hivis);color:var(--bcfh-ink);cursor:pointer;}.bcfh-submit:hover{background-color:var(--bcfh-white);}","attributes":{"styleAttributes":{"fontFamily":["var(--bcfh-display)"],"fontWeight":["800"],"textTransform":["uppercase"],"letterSpacing":["0.05em"],"fontSize":["14px"],"lineHeight":["1"],"paddingTop":["13px"],"paddingBottom":["13px"],"paddingRight":["20px"],"paddingLeft":["20px"],"border":["0"],"borderRadius":["2px"],"backgroundColor":["var(--bcfh-hivis)"],"color":["var(--bcfh-ink)"],"cursor":["pointer"],"backgroundColor_hover":["var(--bcfh-white)"],"customCSS_Extra":"{CURRENT}{font-stretch:80%}"}},"originalBlock":"greenshift-blocks/element","selectors":[]},{"value":"bcfh-fineinv","type":"local","label":"bcfh-fineinv","localed":false,"css":".bcfh-fineinv{font-size:12px;line-height:1.4;margin-top:0;margin-bottom:0;color:rgba(255, 255, 255, 0.65);}","attributes":{"styleAttributes":{"fontSize":["12px"],"lineHeight":["1.4"],"marginTop":["0"],"marginBottom":["0"],"color":["rgba(255, 255, 255, 0.65)"]}},"originalBlock":"greenshift-blocks/element","selectors":[]},{"value":"bcfh-srt","type":"local","label":"bcfh-srt","localed":false,"css":".bcfh-srt{position:absolute;width:1px;height:1px;padding:0;margin:-1px;overflow:hidden;clip:rect(0, 0, 0, 0);white-space:nowrap;border:0;}","attributes":{"styleAttributes":{"position":["absolute"],"width":["1px"],"height":["1px"],"paddingTop":["0"],"paddingRight":["0"],"paddingBottom":["0"],"paddingLeft":["0"],"marginTop":["-1px"],"marginRight":["-1px"],"marginBottom":["-1px"],"marginLeft":["-1px"],"overflow":["hidden"],"border":["0"],"customCSS_Extra":"{CURRENT}{clip:rect(0, 0, 0, 0);white-space:nowrap}"}},"originalBlock":"greenshift-blocks/element","selectors":[]}],"className":"wp-section wp-content-wrap bcfh-root bcfh-paperbg bcfh-whitebg bcfh-inkbg bcfh-slatebg bcfh-promo bcfh-intro bcfh-h1 bcfh-h1em bcfh-introtext bcfh-introlink bcfh-bento bcfh-tile bcfh-feature bcfh-ftop bcfh-flabel bcfh-fbrand bcfh-fbody bcfh-fname bcfh-fpart bcfh-stamp bcfh-stampsave bcfh-stampnow bcfh-stamplabel bcfh-stampprice bcfh-fmedia bcfh-fimg bcfh-ffoot bcfh-ffine bcfh-btn bcfh-btnlight bcfh-btnline bcfh-arrow bcfh-wide bcfh-widetext bcfh-tbrand bcfh-tbrandgap bcfh-ttitle bcfh-tcopy bcfh-widemedia bcfh-wideimg bcfh-small bcfh-smallA bcfh-smallB bcfh-stitle bcfh-smeta bcfh-simg bcfh-sfoot bcfh-tag bcfh-tagred bcfh-tall bcfh-tallimg bcfh-swatches bcfh-sw bcfh-swlabel bcfh-trust bcfh-trustlist bcfh-trustitem bcfh-trusticon bcfh-trusttext bcfh-trustlead bcfh-block bcfh-head bcfh-headinv bcfh-kicker bcfh-kickerinv bcfh-h2 bcfh-headlink bcfh-headlinkinv bcfh-pgrid bcfh-pcard bcfh-plink bcfh-pmedia bcfh-pimg bcfh-pbody bcfh-pbrand bcfh-pname bcfh-psku bcfh-pfoot bcfh-pprice bcfh-pnote bcfh-rank bcfh-ritem bcfh-rlink bcfh-rnum bcfh-rmedia bcfh-rimg bcfh-rbrand bcfh-rname bcfh-bgrid bcfh-bitem bcfh-blink bcfh-bmedia bcfh-bimg bcfh-bbar bcfh-bname bcfh-bcta bcfh-help bcfh-helpgrid bcfh-helpcol bcfh-newscol bcfh-h3 bcfh-helptext bcfh-contacts bcfh-contact bcfh-cicon bcfh-clabel bcfh-clink bcfh-form bcfh-input bcfh-submit bcfh-fineinv bcfh-srt"} -->
+<div class="wp-section wp-content-wrap bcfh-root bcfh-paperbg bcfh-whitebg bcfh-inkbg bcfh-slatebg bcfh-promo bcfh-intro bcfh-h1 bcfh-h1em bcfh-introtext bcfh-introlink bcfh-bento bcfh-tile bcfh-feature bcfh-ftop bcfh-flabel bcfh-fbrand bcfh-fbody bcfh-fname bcfh-fpart bcfh-stamp bcfh-stampsave bcfh-stampnow bcfh-stamplabel bcfh-stampprice bcfh-fmedia bcfh-fimg bcfh-ffoot bcfh-ffine bcfh-btn bcfh-btnlight bcfh-btnline bcfh-arrow bcfh-wide bcfh-widetext bcfh-tbrand bcfh-tbrandgap bcfh-ttitle bcfh-tcopy bcfh-widemedia bcfh-wideimg bcfh-small bcfh-smallA bcfh-smallB bcfh-stitle bcfh-smeta bcfh-simg bcfh-sfoot bcfh-tag bcfh-tagred bcfh-tall bcfh-tallimg bcfh-swatches bcfh-sw bcfh-swlabel bcfh-trust bcfh-trustlist bcfh-trustitem bcfh-trusticon bcfh-trusttext bcfh-trustlead bcfh-block bcfh-head bcfh-headinv bcfh-kicker bcfh-kickerinv bcfh-h2 bcfh-headlink bcfh-headlinkinv bcfh-pgrid bcfh-pcard bcfh-plink bcfh-pmedia bcfh-pimg bcfh-pbody bcfh-pbrand bcfh-pname bcfh-psku bcfh-pfoot bcfh-pprice bcfh-pnote bcfh-rank bcfh-ritem bcfh-rlink bcfh-rnum bcfh-rmedia bcfh-rimg bcfh-rbrand bcfh-rname bcfh-bgrid bcfh-bitem bcfh-blink bcfh-bmedia bcfh-bimg bcfh-bbar bcfh-bname bcfh-bcta bcfh-help bcfh-helpgrid bcfh-helpcol bcfh-newscol bcfh-h3 bcfh-helptext bcfh-contacts bcfh-contact bcfh-cicon bcfh-clabel bcfh-clink bcfh-form bcfh-input bcfh-submit bcfh-fineinv bcfh-srt"></div>
+<!-- /wp:greenshift-blocks/element -->
+
+<!-- wp:greenshift-blocks/element {"tag":"section","className":"wp-section alignfull bcfh-root bcfh-paperbg bcfh-promo","isVariation":"contentwrapper","align":"full","dynamicAttributes":[{"name":"aria-label","value":"Featured deals"}],"type":"inner","metadata":{"name":"Promo mosaic"}} -->
+<section class="wp-section alignfull bcfh-root bcfh-paperbg bcfh-promo" aria-label="Featured deals"><!-- wp:greenshift-blocks/element {"tag":"div","className":"wp-content-wrap","isVariation":"nocolumncontent","type":"inner"} -->
+<div class="wp-content-wrap"><!-- wp:greenshift-blocks/element {"tag":"div","className":"bcfh-intro","type":"inner"} -->
+<div class="bcfh-intro"><!-- wp:greenshift-blocks/element {"tag":"h1","className":"bcfh-h1","type":"inner"} -->
+<h1 class="bcfh-h1"><!-- wp:greenshift-blocks/element {"textContent":"Tools, fasteners and","tag":"span"} -->
+<span>Tools, fasteners and</span>
+<!-- /wp:greenshift-blocks/element -->
+<!-- wp:greenshift-blocks/element {"tag":"em","className":"bcfh-h1em","textContent":"site safety","type":"text"} -->
+<em class="bcfh-h1em">site safety</em>
+<!-- /wp:greenshift-blocks/element -->
+<!-- wp:greenshift-blocks/element {"textContent":"for the trades","tag":"span"} -->
+<span>for the trades</span>
+<!-- /wp:greenshift-blocks/element --></h1>
+<!-- /wp:greenshift-blocks/element -->
+<!-- wp:greenshift-blocks/element {"tag":"p","className":"bcfh-introtext","type":"inner"} -->
+<p class="bcfh-introtext"><!-- wp:greenshift-blocks/element {"textContent":"Canadian owned and operated. Questions about a part? Call","tag":"span"} -->
+<span>Canadian owned and operated. Questions about a part? Call</span>
+<!-- /wp:greenshift-blocks/element -->
+<!-- wp:greenshift-blocks/element {"tag":"a","className":"bcfh-introlink","textContent":"1-844-286-2550","href":"tel:18442862550","type":"text"} -->
+<a class="bcfh-introlink" href="tel:18442862550">1-844-286-2550</a>
+<!-- /wp:greenshift-blocks/element --></p>
+<!-- /wp:greenshift-blocks/element --></div>
+<!-- /wp:greenshift-blocks/element -->
+<!-- wp:greenshift-blocks/element {"tag":"div","className":"bcfh-bento","type":"inner"} -->
+<div class="bcfh-bento"><!-- wp:greenshift-blocks/element {"tag":"a","className":"bcfh-tile bcfh-feature","href":"/?s=48-11-1852\u0026amp;post_type=product","type":"inner"} -->
+<a class="bcfh-tile bcfh-feature" href="/?s=48-11-1852&amp;post_type=product"><!-- wp:greenshift-blocks/element {"tag":"div","className":"bcfh-ftop","type":"inner"} -->
+<div class="bcfh-ftop"><!-- wp:greenshift-blocks/element {"tag":"span","className":"bcfh-flabel","textContent":"Holiday event deals","type":"text"} -->
+<span class="bcfh-flabel">Holiday event deals</span>
+<!-- /wp:greenshift-blocks/element -->
+<!-- wp:greenshift-blocks/element {"tag":"span","className":"bcfh-fbrand","textContent":"Milwaukee","type":"text"} -->
+<span class="bcfh-fbrand">Milwaukee</span>
+<!-- /wp:greenshift-blocks/element --></div>
+<!-- /wp:greenshift-blocks/element -->
+<!-- wp:greenshift-blocks/element {"tag":"div","className":"bcfh-fbody","type":"inner"} -->
+<div class="bcfh-fbody"><!-- wp:greenshift-blocks/element {"tag":"h2","className":"bcfh-fname","textContent":"M18 REDLITHIUM XC5.0 extended capacity battery, 2 pack","type":"text"} -->
+<h2 class="bcfh-fname">M18 REDLITHIUM XC5.0 extended capacity battery, 2 pack</h2>
+<!-- /wp:greenshift-blocks/element -->
+<!-- wp:greenshift-blocks/element {"tag":"p","className":"bcfh-fpart","textContent":"Part no. 48-11-1852","type":"text"} -->
+<p class="bcfh-fpart">Part no. 48-11-1852</p>
+<!-- /wp:greenshift-blocks/element -->
+<!-- wp:greenshift-blocks/element {"tag":"div","className":"bcfh-stamp","type":"inner"} -->
+<div class="bcfh-stamp"><!-- wp:greenshift-blocks/element {"tag":"span","className":"bcfh-stampsave","textContent":"Save $220","type":"text"} -->
+<span class="bcfh-stampsave">Save $220</span>
+<!-- /wp:greenshift-blocks/element -->
+<!-- wp:greenshift-blocks/element {"tag":"div","className":"bcfh-stampnow","type":"inner"} -->
+<div class="bcfh-stampnow"><!-- wp:greenshift-blocks/element {"tag":"span","className":"bcfh-stamplabel","textContent":"Now","type":"text"} -->
+<span class="bcfh-stamplabel">Now</span>
+<!-- /wp:greenshift-blocks/element -->
+<!-- wp:greenshift-blocks/element {"tag":"span","className":"bcfh-stampprice","textContent":"$228","type":"text"} -->
+<span class="bcfh-stampprice">$228</span>
+<!-- /wp:greenshift-blocks/element --></div>
+<!-- /wp:greenshift-blocks/element --></div>
+<!-- /wp:greenshift-blocks/element --></div>
+<!-- /wp:greenshift-blocks/element -->
+<!-- wp:greenshift-blocks/element {"tag":"div","className":"bcfh-fmedia","type":"inner"} -->
+<div class="bcfh-fmedia"><!-- wp:greenshift-blocks/element {"tag":"img","className":"bcfh-fimg","src":"https://placehold.co/720x720/c4202b/ffffff/png?text=48-11-1852","alt":"Two Milwaukee M18 REDLITHIUM XC5.0 batteries","originalWidth":720,"originalHeight":720,"type":"no"} -->
+<img class="bcfh-fimg" src="https://placehold.co/720x720/c4202b/ffffff/png?text=48-11-1852" alt="Two Milwaukee M18 REDLITHIUM XC5.0 batteries" width="720" height="720" loading="lazy"/>
+<!-- /wp:greenshift-blocks/element --></div>
+<!-- /wp:greenshift-blocks/element -->
+<!-- wp:greenshift-blocks/element {"tag":"div","className":"bcfh-ffoot","type":"inner"} -->
+<div class="bcfh-ffoot"><!-- wp:greenshift-blocks/element {"tag":"span","className":"bcfh-ffine","textContent":"Limited quantities. While supplies last.","type":"text"} -->
+<span class="bcfh-ffine">Limited quantities. While supplies last.</span>
+<!-- /wp:greenshift-blocks/element -->
+<!-- wp:greenshift-blocks/element {"tag":"span","className":"bcfh-btn","type":"inner"} -->
+<span class="bcfh-btn"><!-- wp:greenshift-blocks/element {"textContent":"Shop the deal","tag":"span"} -->
+<span>Shop the deal</span>
+<!-- /wp:greenshift-blocks/element -->
+<!-- wp:greenshift-blocks/element {"tag":"svg","icon":{"icon":{"svgRaw":"\u003csvg class=\"bcfh-arrow\" viewBox=\"0 0 16 16\" fill=\"none\" stroke=\"currentColor\" stroke-width=\"2\" aria-hidden=\"true\"\u003e\u003cpath d=\"M2 8h11M9 4l4 4-4 4\"/\u003e\u003c/svg\u003e","image":""},"type":"svg"}} -->
+<svg class="bcfh-arrow" viewBox="0 0 16 16" fill="none" stroke="currentColor" stroke-width="2" aria-hidden="true"><path d="M2 8h11M9 4l4 4-4 4"/></svg>
+<!-- /wp:greenshift-blocks/element --></span>
+<!-- /wp:greenshift-blocks/element --></div>
+<!-- /wp:greenshift-blocks/element --></a>
+<!-- /wp:greenshift-blocks/element -->
+<!-- wp:greenshift-blocks/element {"tag":"a","className":"bcfh-tile bcfh-wide","href":"/?s=Wera+2go\u0026amp;post_type=product","type":"inner"} -->
+<a class="bcfh-tile bcfh-wide" href="/?s=Wera+2go&amp;post_type=product"><!-- wp:greenshift-blocks/element {"tag":"div","className":"bcfh-widetext","type":"inner"} -->
+<div class="bcfh-widetext"><!-- wp:greenshift-blocks/element {"tag":"div","type":"inner"} -->
+<div><!-- wp:greenshift-blocks/element {"tag":"p","className":"bcfh-tbrand","textContent":"Wera","type":"text"} -->
+<p class="bcfh-tbrand">Wera</p>
+<!-- /wp:greenshift-blocks/element -->
+<!-- wp:greenshift-blocks/element {"tag":"h2","className":"bcfh-ttitle","textContent":"2go tool transport system","type":"text"} -->
+<h2 class="bcfh-ttitle">2go tool transport system</h2>
+<!-- /wp:greenshift-blocks/element -->
+<!-- wp:greenshift-blocks/element {"tag":"p","className":"bcfh-tcopy","textContent":"Bags, pouches and containers that connect to each other, so the kit fits the job.","type":"text"} -->
+<p class="bcfh-tcopy">Bags, pouches and containers that connect to each other, so the kit fits the job.</p>
+<!-- /wp:greenshift-blocks/element --></div>
+<!-- /wp:greenshift-blocks/element -->
+<!-- wp:greenshift-blocks/element {"tag":"span","className":"bcfh-btn bcfh-btnline","type":"inner"} -->
+<span class="bcfh-btn bcfh-btnline"><!-- wp:greenshift-blocks/element {"textContent":"Learn more","tag":"span"} -->
+<span>Learn more</span>
+<!-- /wp:greenshift-blocks/element -->
+<!-- wp:greenshift-blocks/element {"tag":"svg","icon":{"icon":{"svgRaw":"\u003csvg class=\"bcfh-arrow\" viewBox=\"0 0 16 16\" fill=\"none\" stroke=\"currentColor\" stroke-width=\"2\" aria-hidden=\"true\"\u003e\u003cpath d=\"M2 8h11M9 4l4 4-4 4\"/\u003e\u003c/svg\u003e","image":""},"type":"svg"}} -->
+<svg class="bcfh-arrow" viewBox="0 0 16 16" fill="none" stroke="currentColor" stroke-width="2" aria-hidden="true"><path d="M2 8h11M9 4l4 4-4 4"/></svg>
+<!-- /wp:greenshift-blocks/element --></span>
+<!-- /wp:greenshift-blocks/element --></div>
+<!-- /wp:greenshift-blocks/element -->
+<!-- wp:greenshift-blocks/element {"tag":"div","className":"bcfh-widemedia","type":"inner"} -->
+<div class="bcfh-widemedia"><!-- wp:greenshift-blocks/element {"tag":"img","className":"bcfh-wideimg","src":"https://placehold.co/640x640/bfc3c3/17191b/png?text=Wera+2go","alt":"Tradesperson packing a Wera 2go tool bag at a workbench","originalWidth":640,"originalHeight":640,"type":"no"} -->
+<img class="bcfh-wideimg" src="https://placehold.co/640x640/bfc3c3/17191b/png?text=Wera+2go" alt="Tradesperson packing a Wera 2go tool bag at a workbench" width="640" height="640" loading="lazy"/>
+<!-- /wp:greenshift-blocks/element --></div>
+<!-- /wp:greenshift-blocks/element --></a>
+<!-- /wp:greenshift-blocks/element -->
+<!-- wp:greenshift-blocks/element {"tag":"a","className":"bcfh-tile bcfh-small bcfh-smallA","href":"/?s=Wera+advent+calendar\u0026amp;post_type=product","type":"inner"} -->
+<a class="bcfh-tile bcfh-small bcfh-smallA" href="/?s=Wera+advent+calendar&amp;post_type=product"><!-- wp:greenshift-blocks/element {"tag":"div","type":"inner"} -->
+<div><!-- wp:greenshift-blocks/element {"tag":"span","className":"bcfh-tag","textContent":"Now in stock","type":"text"} -->
+<span class="bcfh-tag">Now in stock</span>
+<!-- /wp:greenshift-blocks/element -->
+<!-- wp:greenshift-blocks/element {"tag":"h2","className":"bcfh-stitle","textContent":"Wera 2026 advent calendar","type":"text"} -->
+<h2 class="bcfh-stitle">Wera 2026 advent calendar</h2>
+<!-- /wp:greenshift-blocks/element --></div>
+<!-- /wp:greenshift-blocks/element -->
+<!-- wp:greenshift-blocks/element {"tag":"img","className":"bcfh-simg","src":"https://placehold.co/480x360/24272a/e2f23a/png?text=Wera+Advent","alt":"Wera 2026 advent calendar box","originalWidth":480,"originalHeight":360,"type":"no"} -->
+<img class="bcfh-simg" src="https://placehold.co/480x360/24272a/e2f23a/png?text=Wera+Advent" alt="Wera 2026 advent calendar box" width="480" height="360" loading="lazy"/>
+<!-- /wp:greenshift-blocks/element -->
+<!-- wp:greenshift-blocks/element {"tag":"div","className":"bcfh-sfoot","type":"inner"} -->
+<div class="bcfh-sfoot"><!-- wp:greenshift-blocks/element {"tag":"span","className":"bcfh-smeta","textContent":"24 days of tools","type":"text"} -->
+<span class="bcfh-smeta">24 days of tools</span>
+<!-- /wp:greenshift-blocks/element -->
+<!-- wp:greenshift-blocks/element {"tag":"svg","icon":{"icon":{"svgRaw":"\u003csvg class=\"bcfh-arrow\" viewBox=\"0 0 16 16\" fill=\"none\" stroke=\"currentColor\" stroke-width=\"2\" aria-hidden=\"true\"\u003e\u003cpath d=\"M2 8h11M9 4l4 4-4 4\"/\u003e\u003c/svg\u003e","image":""},"type":"svg"}} -->
+<svg class="bcfh-arrow" viewBox="0 0 16 16" fill="none" stroke="currentColor" stroke-width="2" aria-hidden="true"><path d="M2 8h11M9 4l4 4-4 4"/></svg>
+<!-- /wp:greenshift-blocks/element --></div>
+<!-- /wp:greenshift-blocks/element --></a>
+<!-- /wp:greenshift-blocks/element -->
+<!-- wp:greenshift-blocks/element {"tag":"a","className":"bcfh-tile bcfh-small bcfh-smallB","href":"/?s=49-32-4985A\u0026amp;post_type=product","type":"inner"} -->
+<a class="bcfh-tile bcfh-small bcfh-smallB" href="/?s=49-32-4985A&amp;post_type=product"><!-- wp:greenshift-blocks/element {"tag":"div","type":"inner"} -->
+<div><!-- wp:greenshift-blocks/element {"tag":"span","className":"bcfh-tag bcfh-tagred","textContent":"New","type":"text"} -->
+<span class="bcfh-tag bcfh-tagred">New</span>
+<!-- /wp:greenshift-blocks/element -->
+<!-- wp:greenshift-blocks/element {"tag":"h2","className":"bcfh-stitle","textContent":"Milwaukee 2026 holiday advent calendar","type":"text"} -->
+<h2 class="bcfh-stitle">Milwaukee 2026 holiday advent calendar</h2>
+<!-- /wp:greenshift-blocks/element --></div>
+<!-- /wp:greenshift-blocks/element -->
+<!-- wp:greenshift-blocks/element {"tag":"img","className":"bcfh-simg","src":"https://placehold.co/480x360/ffffff/c4202b/png?text=49-32-4985A","alt":"Milwaukee 2026 holiday advent calendar and contents","originalWidth":480,"originalHeight":360,"type":"no"} -->
+<img class="bcfh-simg" src="https://placehold.co/480x360/ffffff/c4202b/png?text=49-32-4985A" alt="Milwaukee 2026 holiday advent calendar and contents" width="480" height="360" loading="lazy"/>
+<!-- /wp:greenshift-blocks/element -->
+<!-- wp:greenshift-blocks/element {"tag":"div","className":"bcfh-sfoot","type":"inner"} -->
+<div class="bcfh-sfoot"><!-- wp:greenshift-blocks/element {"tag":"span","className":"bcfh-smeta","textContent":"49-32-4985A. Exclusive to Canada.","type":"text"} -->
+<span class="bcfh-smeta">49-32-4985A. Exclusive to Canada.</span>
+<!-- /wp:greenshift-blocks/element -->
+<!-- wp:greenshift-blocks/element {"tag":"svg","icon":{"icon":{"svgRaw":"\u003csvg class=\"bcfh-arrow\" viewBox=\"0 0 16 16\" fill=\"none\" stroke=\"currentColor\" stroke-width=\"2\" aria-hidden=\"true\"\u003e\u003cpath d=\"M2 8h11M9 4l4 4-4 4\"/\u003e\u003c/svg\u003e","image":""},"type":"svg"}} -->
+<svg class="bcfh-arrow" viewBox="0 0 16 16" fill="none" stroke="currentColor" stroke-width="2" aria-hidden="true"><path d="M2 8h11M9 4l4 4-4 4"/></svg>
+<!-- /wp:greenshift-blocks/element --></div>
+<!-- /wp:greenshift-blocks/element --></a>
+<!-- /wp:greenshift-blocks/element -->
+<!-- wp:greenshift-blocks/element {"tag":"a","className":"bcfh-tile bcfh-tall","href":"/?s=RZRBACK\u0026amp;post_type=product","type":"inner"} -->
+<a class="bcfh-tile bcfh-tall" href="/?s=RZRBACK&amp;post_type=product"><!-- wp:greenshift-blocks/element {"tag":"div","type":"inner"} -->
+<div><!-- wp:greenshift-blocks/element {"tag":"span","className":"bcfh-tag bcfh-tagred","textContent":"New in stock","type":"text"} -->
+<span class="bcfh-tag bcfh-tagred">New in stock</span>
+<!-- /wp:greenshift-blocks/element -->
+<!-- wp:greenshift-blocks/element {"tag":"p","className":"bcfh-tbrand bcfh-tbrandgap","textContent":"PIP","type":"text"} -->
+<p class="bcfh-tbrand bcfh-tbrandgap">PIP</p>
+<!-- /wp:greenshift-blocks/element -->
+<!-- wp:greenshift-blocks/element {"tag":"h2","className":"bcfh-ttitle","textContent":"RZRBACK safety helmets","type":"text"} -->
+<h2 class="bcfh-ttitle">RZRBACK safety helmets</h2>
+<!-- /wp:greenshift-blocks/element -->
+<!-- wp:greenshift-blocks/element {"tag":"p","className":"bcfh-tcopy","textContent":"Type 2, Class E. Made in Canada. Stay compliant on your site.","type":"text"} -->
+<p class="bcfh-tcopy">Type 2, Class E. Made in Canada. Stay compliant on your site.</p>
+<!-- /wp:greenshift-blocks/element --></div>
+<!-- /wp:greenshift-blocks/element -->
+<!-- wp:greenshift-blocks/element {"tag":"img","className":"bcfh-tallimg","src":"https://placehold.co/480x480/c9cdcf/17191b/png?text=RZRBACK","alt":"White PIP RZRBACK Type 2 safety helmet","originalWidth":480,"originalHeight":480,"type":"no"} -->
+<img class="bcfh-tallimg" src="https://placehold.co/480x480/c9cdcf/17191b/png?text=RZRBACK" alt="White PIP RZRBACK Type 2 safety helmet" width="480" height="480" loading="lazy"/>
+<!-- /wp:greenshift-blocks/element -->
+<!-- wp:greenshift-blocks/element {"tag":"div","type":"inner"} -->
+<div><!-- wp:greenshift-blocks/element {"tag":"p","className":"bcfh-swlabel","textContent":"Available in 12 colours","type":"text"} -->
+<p class="bcfh-swlabel">Available in 12 colours</p>
+<!-- /wp:greenshift-blocks/element -->
+<!-- wp:greenshift-blocks/element {"tag":"ul","className":"bcfh-swatches","dynamicAttributes":[{"name":"aria-hidden","value":"true"}],"type":"inner"} -->
+<ul class="bcfh-swatches" aria-hidden="true"><!-- wp:greenshift-blocks/element {"tag":"li","className":"bcfh-sw","dynamicAttributes":[{"name":"style","value":"background-color:#ffffff"}],"type":"no"} -->
+<li class="bcfh-sw" style="background-color:#ffffff"></li>
+<!-- /wp:greenshift-blocks/element -->
+<!-- wp:greenshift-blocks/element {"tag":"li","className":"bcfh-sw","dynamicAttributes":[{"name":"style","value":"background-color:#111111"}],"type":"no"} -->
+<li class="bcfh-sw" style="background-color:#111111"></li>
+<!-- /wp:greenshift-blocks/element -->
+<!-- wp:greenshift-blocks/element {"tag":"li","className":"bcfh-sw","dynamicAttributes":[{"name":"style","value":"background-color:#9bd21f"}],"type":"no"} -->
+<li class="bcfh-sw" style="background-color:#9bd21f"></li>
+<!-- /wp:greenshift-blocks/element -->
+<!-- wp:greenshift-blocks/element {"tag":"li","className":"bcfh-sw","dynamicAttributes":[{"name":"style","value":"background-color:#d8231f"}],"type":"no"} -->
+<li class="bcfh-sw" style="background-color:#d8231f"></li>
+<!-- /wp:greenshift-blocks/element -->
+<!-- wp:greenshift-blocks/element {"tag":"li","className":"bcfh-sw","dynamicAttributes":[{"name":"style","value":"background-color:#3a6fd1"}],"type":"no"} -->
+<li class="bcfh-sw" style="background-color:#3a6fd1"></li>
+<!-- /wp:greenshift-blocks/element -->
+<!-- wp:greenshift-blocks/element {"tag":"li","className":"bcfh-sw","dynamicAttributes":[{"name":"style","value":"background-color:#f2e21b"}],"type":"no"} -->
+<li class="bcfh-sw" style="background-color:#f2e21b"></li>
+<!-- /wp:greenshift-blocks/element -->
+<!-- wp:greenshift-blocks/element {"tag":"li","className":"bcfh-sw","dynamicAttributes":[{"name":"style","value":"background-color:#3b3f44"}],"type":"no"} -->
+<li class="bcfh-sw" style="background-color:#3b3f44"></li>
+<!-- /wp:greenshift-blocks/element -->
+<!-- wp:greenshift-blocks/element {"tag":"li","className":"bcfh-sw","dynamicAttributes":[{"name":"style","value":"background-color:#f3f0dd"}],"type":"no"} -->
+<li class="bcfh-sw" style="background-color:#f3f0dd"></li>
+<!-- /wp:greenshift-blocks/element -->
+<!-- wp:greenshift-blocks/element {"tag":"li","className":"bcfh-sw","dynamicAttributes":[{"name":"style","value":"background-color:#4c5a2c"}],"type":"no"} -->
+<li class="bcfh-sw" style="background-color:#4c5a2c"></li>
+<!-- /wp:greenshift-blocks/element -->
+<!-- wp:greenshift-blocks/element {"tag":"li","className":"bcfh-sw","dynamicAttributes":[{"name":"style","value":"background-color:#5b56a8"}],"type":"no"} -->
+<li class="bcfh-sw" style="background-color:#5b56a8"></li>
+<!-- /wp:greenshift-blocks/element -->
+<!-- wp:greenshift-blocks/element {"tag":"li","className":"bcfh-sw","dynamicAttributes":[{"name":"style","value":"background-color:#e0621b"}],"type":"no"} -->
+<li class="bcfh-sw" style="background-color:#e0621b"></li>
+<!-- /wp:greenshift-blocks/element -->
+<!-- wp:greenshift-blocks/element {"tag":"li","className":"bcfh-sw","dynamicAttributes":[{"name":"style","value":"background-color:#36a3a0"}],"type":"no"} -->
+<li class="bcfh-sw" style="background-color:#36a3a0"></li>
+<!-- /wp:greenshift-blocks/element --></ul>
+<!-- /wp:greenshift-blocks/element --></div>
+<!-- /wp:greenshift-blocks/element --></a>
+<!-- /wp:greenshift-blocks/element --></div>
+<!-- /wp:greenshift-blocks/element --></div>
+<!-- /wp:greenshift-blocks/element --></section>
+<!-- /wp:greenshift-blocks/element -->
+
+<!-- wp:greenshift-blocks/element {"tag":"section","className":"wp-section alignfull bcfh-root bcfh-whitebg bcfh-trust","isVariation":"contentwrapper","align":"full","dynamicAttributes":[{"name":"aria-label","value":"Why shop with us"}],"type":"inner","metadata":{"name":"Trust strip"}} -->
+<section class="wp-section alignfull bcfh-root bcfh-whitebg bcfh-trust" aria-label="Why shop with us"><!-- wp:greenshift-blocks/element {"tag":"div","className":"wp-content-wrap","isVariation":"nocolumncontent","type":"inner"} -->
+<div class="wp-content-wrap"><!-- wp:greenshift-blocks/element {"tag":"ul","className":"bcfh-trustlist","type":"inner"} -->
+<ul class="bcfh-trustlist"><!-- wp:greenshift-blocks/element {"tag":"li","className":"bcfh-trustitem","type":"inner"} -->
+<li class="bcfh-trustitem"><!-- wp:greenshift-blocks/element {"tag":"svg","icon":{"icon":{"svgRaw":"\u003csvg class=\"bcfh-trusticon\" viewBox=\"0 0 24 24\" fill=\"currentColor\" aria-hidden=\"true\"\u003e\u003cpath d=\"M12 2l1.6 3.4 2.2-1 -.5 4.4 2.6-2.2.6 1.8 2.7-.4-1 3 1.3.8L17 15l.6 1.6-4.6-.6.1 4.8h-2.2l.1-4.8-4.6.6L7 15l-4.5-3.6 1.3-.8-1-3 2.7.4.6-1.8 2.6 2.2-.5-4.4 2.2 1z\"/\u003e\u003c/svg\u003e","image":""},"type":"svg"}} -->
+<svg class="bcfh-trusticon" viewBox="0 0 24 24" fill="currentColor" aria-hidden="true"><path d="M12 2l1.6 3.4 2.2-1 -.5 4.4 2.6-2.2.6 1.8 2.7-.4-1 3 1.3.8L17 15l.6 1.6-4.6-.6.1 4.8h-2.2l.1-4.8-4.6.6L7 15l-4.5-3.6 1.3-.8-1-3 2.7.4.6-1.8 2.6 2.2-.5-4.4 2.2 1z"/></svg>
+<!-- /wp:greenshift-blocks/element -->
+<!-- wp:greenshift-blocks/element {"tag":"p","className":"bcfh-trusttext","type":"inner"} -->
+<p class="bcfh-trusttext"><!-- wp:greenshift-blocks/element {"tag":"strong","className":"bcfh-trustlead","textContent":"100% Canadian","type":"text"} -->
+<strong class="bcfh-trustlead">100% Canadian</strong>
+<!-- /wp:greenshift-blocks/element -->
+<!-- wp:greenshift-blocks/element {"textContent":"Owned and operated","tag":"span"} -->
+<span>Owned and operated</span>
+<!-- /wp:greenshift-blocks/element --></p>
+<!-- /wp:greenshift-blocks/element --></li>
+<!-- /wp:greenshift-blocks/element -->
+<!-- wp:greenshift-blocks/element {"tag":"li","className":"bcfh-trustitem","type":"inner"} -->
+<li class="bcfh-trustitem"><!-- wp:greenshift-blocks/element {"tag":"svg","icon":{"icon":{"svgRaw":"\u003csvg class=\"bcfh-trusticon\" viewBox=\"0 0 24 24\" fill=\"none\" stroke=\"currentColor\" stroke-width=\"2\" aria-hidden=\"true\"\u003e\u003cpath d=\"M3 7h11v9H3zM14 10h4l3 3v3h-7z\"/\u003e\u003ccircle cx=\"7\" cy=\"18\" r=\"2\"/\u003e\u003ccircle cx=\"17\" cy=\"18\" r=\"2\"/\u003e\u003c/svg\u003e","image":""},"type":"svg"}} -->
+<svg class="bcfh-trusticon" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" aria-hidden="true"><path d="M3 7h11v9H3zM14 10h4l3 3v3h-7z"/><circle cx="7" cy="18" r="2"/><circle cx="17" cy="18" r="2"/></svg>
+<!-- /wp:greenshift-blocks/element -->
+<!-- wp:greenshift-blocks/element {"tag":"p","className":"bcfh-trusttext","type":"inner"} -->
+<p class="bcfh-trusttext"><!-- wp:greenshift-blocks/element {"tag":"strong","className":"bcfh-trustlead","textContent":"Free shipping","type":"text"} -->
+<strong class="bcfh-trustlead">Free shipping</strong>
+<!-- /wp:greenshift-blocks/element -->
+<!-- wp:greenshift-blocks/element {"tag":"a","className":"bcfh-introlink","textContent":"On qualifying orders","href":"/free-shipping-policy/","type":"text"} -->
+<a class="bcfh-introlink" href="/free-shipping-policy/">On qualifying orders</a>
+<!-- /wp:greenshift-blocks/element --></p>
+<!-- /wp:greenshift-blocks/element --></li>
+<!-- /wp:greenshift-blocks/element -->
+<!-- wp:greenshift-blocks/element {"tag":"li","className":"bcfh-trustitem","type":"inner"} -->
+<li class="bcfh-trustitem"><!-- wp:greenshift-blocks/element {"tag":"svg","icon":{"icon":{"svgRaw":"\u003csvg class=\"bcfh-trusticon\" viewBox=\"0 0 24 24\" fill=\"none\" stroke=\"currentColor\" stroke-width=\"2\" aria-hidden=\"true\"\u003e\u003cpath d=\"M5 4h4l2 5-2.5 1.5a11 11 0 0 0 5 5L15 13l5 2v4a2 2 0 0 1-2 2A16 16 0 0 1 3 6a2 2 0 0 1 2-2\"/\u003e\u003c/svg\u003e","image":""},"type":"svg"}} -->
+<svg class="bcfh-trusticon" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" aria-hidden="true"><path d="M5 4h4l2 5-2.5 1.5a11 11 0 0 0 5 5L15 13l5 2v4a2 2 0 0 1-2 2A16 16 0 0 1 3 6a2 2 0 0 1 2-2"/></svg>
+<!-- /wp:greenshift-blocks/element -->
+<!-- wp:greenshift-blocks/element {"tag":"p","className":"bcfh-trusttext","type":"inner"} -->
+<p class="bcfh-trusttext"><!-- wp:greenshift-blocks/element {"tag":"strong","className":"bcfh-trustlead","textContent":"Real people on the phone","type":"text"} -->
+<strong class="bcfh-trustlead">Real people on the phone</strong>
+<!-- /wp:greenshift-blocks/element -->
+<!-- wp:greenshift-blocks/element {"textContent":"Mon to Fri, 7AM to 4PM Pacific","tag":"span"} -->
+<span>Mon to Fri, 7AM to 4PM Pacific</span>
+<!-- /wp:greenshift-blocks/element --></p>
+<!-- /wp:greenshift-blocks/element --></li>
+<!-- /wp:greenshift-blocks/element -->
+<!-- wp:greenshift-blocks/element {"tag":"li","className":"bcfh-trustitem","type":"inner"} -->
+<li class="bcfh-trustitem"><!-- wp:greenshift-blocks/element {"tag":"svg","icon":{"icon":{"svgRaw":"\u003csvg class=\"bcfh-trusticon\" viewBox=\"0 0 24 24\" fill=\"none\" stroke=\"currentColor\" stroke-width=\"2\" aria-hidden=\"true\"\u003e\u003cpath d=\"M12 2l8 4.5v11L12 22l-8-4.5v-11z\"/\u003e\u003ccircle cx=\"12\" cy=\"12\" r=\"3.5\"/\u003e\u003c/svg\u003e","image":""},"type":"svg"}} -->
+<svg class="bcfh-trusticon" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" aria-hidden="true"><path d="M12 2l8 4.5v11L12 22l-8-4.5v-11z"/><circle cx="12" cy="12" r="3.5"/></svg>
+<!-- /wp:greenshift-blocks/element -->
+<!-- wp:greenshift-blocks/element {"tag":"p","className":"bcfh-trusttext","type":"inner"} -->
+<p class="bcfh-trusttext"><!-- wp:greenshift-blocks/element {"tag":"strong","className":"bcfh-trustlead","textContent":"The Fastener Group","type":"text"} -->
+<strong class="bcfh-trustlead">The Fastener Group</strong>
+<!-- /wp:greenshift-blocks/element -->
+<!-- wp:greenshift-blocks/element {"textContent":"A proud member","tag":"span"} -->
+<span>A proud member</span>
+<!-- /wp:greenshift-blocks/element --></p>
+<!-- /wp:greenshift-blocks/element --></li>
+<!-- /wp:greenshift-blocks/element --></ul>
+<!-- /wp:greenshift-blocks/element --></div>
+<!-- /wp:greenshift-blocks/element --></section>
+<!-- /wp:greenshift-blocks/element -->
+
+<!-- wp:greenshift-blocks/element {"tag":"section","className":"wp-section alignfull bcfh-root bcfh-paperbg bcfh-block","isVariation":"contentwrapper","align":"full","dynamicAttributes":[{"name":"aria-labelledby","value":"bcfh-new-title"}],"type":"inner","metadata":{"name":"New products"}} -->
+<section class="wp-section alignfull bcfh-root bcfh-paperbg bcfh-block" aria-labelledby="bcfh-new-title"><!-- wp:greenshift-blocks/element {"tag":"div","className":"wp-content-wrap","isVariation":"nocolumncontent","type":"inner"} -->
+<div class="wp-content-wrap"><!-- wp:greenshift-blocks/element {"tag":"div","className":"bcfh-head","type":"inner"} -->
+<div class="bcfh-head"><!-- wp:greenshift-blocks/element {"tag":"div","type":"inner"} -->
+<div><!-- wp:greenshift-blocks/element {"tag":"p","className":"bcfh-kicker","textContent":"Just landed","type":"text"} -->
+<p class="bcfh-kicker">Just landed</p>
+<!-- /wp:greenshift-blocks/element -->
+<!-- wp:greenshift-blocks/element {"tag":"h2","className":"bcfh-h2","anchor":"bcfh-new-title","textContent":"New products","type":"text"} -->
+<h2 class="bcfh-h2" id="bcfh-new-title">New products</h2>
+<!-- /wp:greenshift-blocks/element --></div>
+<!-- /wp:greenshift-blocks/element -->
+<!-- wp:greenshift-blocks/element {"tag":"a","className":"bcfh-headlink","href":"/shop/?orderby=date","type":"inner"} -->
+<a class="bcfh-headlink" href="/shop/?orderby=date"><!-- wp:greenshift-blocks/element {"textContent":"View all new","tag":"span"} -->
+<span>View all new</span>
+<!-- /wp:greenshift-blocks/element -->
+<!-- wp:greenshift-blocks/element {"tag":"svg","icon":{"icon":{"svgRaw":"\u003csvg class=\"bcfh-arrow\" viewBox=\"0 0 16 16\" fill=\"none\" stroke=\"currentColor\" stroke-width=\"2\" aria-hidden=\"true\"\u003e\u003cpath d=\"M2 8h11M9 4l4 4-4 4\"/\u003e\u003c/svg\u003e","image":""},"type":"svg"}} -->
+<svg class="bcfh-arrow" viewBox="0 0 16 16" fill="none" stroke="currentColor" stroke-width="2" aria-hidden="true"><path d="M2 8h11M9 4l4 4-4 4"/></svg>
+<!-- /wp:greenshift-blocks/element --></a>
+<!-- /wp:greenshift-blocks/element --></div>
+<!-- /wp:greenshift-blocks/element -->
+<!-- wp:greenshift-blocks/element {"tag":"ul","className":"bcfh-pgrid","type":"inner"} -->
+<ul class="bcfh-pgrid"><!-- wp:greenshift-blocks/element {"tag":"li","className":"bcfh-pcard","type":"inner"} -->
+<li class="bcfh-pcard"><!-- wp:greenshift-blocks/element {"tag":"a","className":"bcfh-plink","href":"/?s=MTB-10000\u0026amp;post_type=product","type":"inner"} -->
+<a class="bcfh-plink" href="/?s=MTB-10000&amp;post_type=product"><!-- wp:greenshift-blocks/element {"tag":"div","className":"bcfh-pmedia","type":"inner"} -->
+<div class="bcfh-pmedia"><!-- wp:greenshift-blocks/element {"tag":"img","className":"bcfh-pimg","src":"https://placehold.co/400x400/ffffff/9a958c/png?text=MTB-10000","alt":"Unilite MTB-10000 site light","originalWidth":400,"originalHeight":400,"type":"no"} -->
+<img class="bcfh-pimg" src="https://placehold.co/400x400/ffffff/9a958c/png?text=MTB-10000" alt="Unilite MTB-10000 site light" width="400" height="400" loading="lazy"/>
+<!-- /wp:greenshift-blocks/element --></div>
+<!-- /wp:greenshift-blocks/element -->
+<!-- wp:greenshift-blocks/element {"tag":"div","className":"bcfh-pbody","type":"inner"} -->
+<div class="bcfh-pbody"><!-- wp:greenshift-blocks/element {"tag":"p","className":"bcfh-pbrand","textContent":"Unilite","type":"text"} -->
+<p class="bcfh-pbrand">Unilite</p>
+<!-- /wp:greenshift-blocks/element -->
+<!-- wp:greenshift-blocks/element {"tag":"h3","className":"bcfh-pname","textContent":"Power tool battery site light","type":"text"} -->
+<h3 class="bcfh-pname">Power tool battery site light</h3>
+<!-- /wp:greenshift-blocks/element -->
+<!-- wp:greenshift-blocks/element {"tag":"p","className":"bcfh-psku","textContent":"MTB-10000","type":"text"} -->
+<p class="bcfh-psku">MTB-10000</p>
+<!-- /wp:greenshift-blocks/element -->
+<!-- wp:greenshift-blocks/element {"tag":"div","className":"bcfh-pfoot","type":"inner"} -->
+<div class="bcfh-pfoot"><!-- wp:greenshift-blocks/element {"tag":"span","className":"bcfh-pprice","textContent":"$394.99","type":"text"} -->
+<span class="bcfh-pprice">$394.99</span>
+<!-- /wp:greenshift-blocks/element --></div>
+<!-- /wp:greenshift-blocks/element --></div>
+<!-- /wp:greenshift-blocks/element --></a>
+<!-- /wp:greenshift-blocks/element --></li>
+<!-- /wp:greenshift-blocks/element -->
+<!-- wp:greenshift-blocks/element {"tag":"li","className":"bcfh-pcard","type":"inner"} -->
+<li class="bcfh-pcard"><!-- wp:greenshift-blocks/element {"tag":"a","className":"bcfh-plink","href":"/?s=CL-1700\u0026amp;post_type=product","type":"inner"} -->
+<a class="bcfh-plink" href="/?s=CL-1700&amp;post_type=product"><!-- wp:greenshift-blocks/element {"tag":"div","className":"bcfh-pmedia","type":"inner"} -->
+<div class="bcfh-pmedia"><!-- wp:greenshift-blocks/element {"tag":"img","className":"bcfh-pimg","src":"https://placehold.co/400x400/ffffff/9a958c/png?text=CL-1700","alt":"Unilite CL-1700 clamp work light","originalWidth":400,"originalHeight":400,"type":"no"} -->
+<img class="bcfh-pimg" src="https://placehold.co/400x400/ffffff/9a958c/png?text=CL-1700" alt="Unilite CL-1700 clamp work light" width="400" height="400" loading="lazy"/>
+<!-- /wp:greenshift-blocks/element --></div>
+<!-- /wp:greenshift-blocks/element -->
+<!-- wp:greenshift-blocks/element {"tag":"div","className":"bcfh-pbody","type":"inner"} -->
+<div class="bcfh-pbody"><!-- wp:greenshift-blocks/element {"tag":"p","className":"bcfh-pbrand","textContent":"Unilite","type":"text"} -->
+<p class="bcfh-pbrand">Unilite</p>
+<!-- /wp:greenshift-blocks/element -->
+<!-- wp:greenshift-blocks/element {"tag":"h3","className":"bcfh-pname","textContent":"Clamp work light","type":"text"} -->
+<h3 class="bcfh-pname">Clamp work light</h3>
+<!-- /wp:greenshift-blocks/element -->
+<!-- wp:greenshift-blocks/element {"tag":"p","className":"bcfh-psku","textContent":"CL-1700","type":"text"} -->
+<p class="bcfh-psku">CL-1700</p>
+<!-- /wp:greenshift-blocks/element -->
+<!-- wp:greenshift-blocks/element {"tag":"div","className":"bcfh-pfoot","type":"inner"} -->
+<div class="bcfh-pfoot"><!-- wp:greenshift-blocks/element {"tag":"span","className":"bcfh-pprice","textContent":"$114.99","type":"text"} -->
+<span class="bcfh-pprice">$114.99</span>
+<!-- /wp:greenshift-blocks/element --></div>
+<!-- /wp:greenshift-blocks/element --></div>
+<!-- /wp:greenshift-blocks/element --></a>
+<!-- /wp:greenshift-blocks/element --></li>
+<!-- /wp:greenshift-blocks/element -->
+<!-- wp:greenshift-blocks/element {"tag":"li","className":"bcfh-pcard","type":"inner"} -->
+<li class="bcfh-pcard"><!-- wp:greenshift-blocks/element {"tag":"a","className":"bcfh-plink","href":"/?s=HL-8R\u0026amp;post_type=product","type":"inner"} -->
+<a class="bcfh-plink" href="/?s=HL-8R&amp;post_type=product"><!-- wp:greenshift-blocks/element {"tag":"div","className":"bcfh-pmedia","type":"inner"} -->
+<div class="bcfh-pmedia"><!-- wp:greenshift-blocks/element {"tag":"img","className":"bcfh-pimg","src":"https://placehold.co/400x400/ffffff/9a958c/png?text=HL-8R","alt":"Unilite HL-8R headlamp","originalWidth":400,"originalHeight":400,"type":"no"} -->
+<img class="bcfh-pimg" src="https://placehold.co/400x400/ffffff/9a958c/png?text=HL-8R" alt="Unilite HL-8R headlamp" width="400" height="400" loading="lazy"/>
+<!-- /wp:greenshift-blocks/element --></div>
+<!-- /wp:greenshift-blocks/element -->
+<!-- wp:greenshift-blocks/element {"tag":"div","className":"bcfh-pbody","type":"inner"} -->
+<div class="bcfh-pbody"><!-- wp:greenshift-blocks/element {"tag":"p","className":"bcfh-pbrand","textContent":"Unilite","type":"text"} -->
+<p class="bcfh-pbrand">Unilite</p>
+<!-- /wp:greenshift-blocks/element -->
+<!-- wp:greenshift-blocks/element {"tag":"h3","className":"bcfh-pname","textContent":"Dual beam sensor headlamp","type":"text"} -->
+<h3 class="bcfh-pname">Dual beam sensor headlamp</h3>
+<!-- /wp:greenshift-blocks/element -->
+<!-- wp:greenshift-blocks/element {"tag":"p","className":"bcfh-psku","textContent":"HL-8R","type":"text"} -->
+<p class="bcfh-psku">HL-8R</p>
+<!-- /wp:greenshift-blocks/element -->
+<!-- wp:greenshift-blocks/element {"tag":"div","className":"bcfh-pfoot","type":"inner"} -->
+<div class="bcfh-pfoot"><!-- wp:greenshift-blocks/element {"tag":"span","className":"bcfh-pprice","textContent":"$109.99","type":"text"} -->
+<span class="bcfh-pprice">$109.99</span>
+<!-- /wp:greenshift-blocks/element --></div>
+<!-- /wp:greenshift-blocks/element --></div>
+<!-- /wp:greenshift-blocks/element --></a>
+<!-- /wp:greenshift-blocks/element --></li>
+<!-- /wp:greenshift-blocks/element -->
+<!-- wp:greenshift-blocks/element {"tag":"li","className":"bcfh-pcard","type":"inner"} -->
+<li class="bcfh-pcard"><!-- wp:greenshift-blocks/element {"tag":"a","className":"bcfh-plink","href":"/?s=IL-425R\u0026amp;post_type=product","type":"inner"} -->
+<a class="bcfh-plink" href="/?s=IL-425R&amp;post_type=product"><!-- wp:greenshift-blocks/element {"tag":"div","className":"bcfh-pmedia","type":"inner"} -->
+<div class="bcfh-pmedia"><!-- wp:greenshift-blocks/element {"tag":"img","className":"bcfh-pimg","src":"https://placehold.co/400x400/ffffff/9a958c/png?text=IL-425R","alt":"Unilite IL-425R folding inspection light","originalWidth":400,"originalHeight":400,"type":"no"} -->
+<img class="bcfh-pimg" src="https://placehold.co/400x400/ffffff/9a958c/png?text=IL-425R" alt="Unilite IL-425R folding inspection light" width="400" height="400" loading="lazy"/>
+<!-- /wp:greenshift-blocks/element --></div>
+<!-- /wp:greenshift-blocks/element -->
+<!-- wp:greenshift-blocks/element {"tag":"div","className":"bcfh-pbody","type":"inner"} -->
+<div class="bcfh-pbody"><!-- wp:greenshift-blocks/element {"tag":"p","className":"bcfh-pbrand","textContent":"Unilite","type":"text"} -->
+<p class="bcfh-pbrand">Unilite</p>
+<!-- /wp:greenshift-blocks/element -->
+<!-- wp:greenshift-blocks/element {"tag":"h3","className":"bcfh-pname","textContent":"Folding inspection light","type":"text"} -->
+<h3 class="bcfh-pname">Folding inspection light</h3>
+<!-- /wp:greenshift-blocks/element -->
+<!-- wp:greenshift-blocks/element {"tag":"p","className":"bcfh-psku","textContent":"IL-425R","type":"text"} -->
+<p class="bcfh-psku">IL-425R</p>
+<!-- /wp:greenshift-blocks/element -->
+<!-- wp:greenshift-blocks/element {"tag":"div","className":"bcfh-pfoot","type":"inner"} -->
+<div class="bcfh-pfoot"><!-- wp:greenshift-blocks/element {"tag":"span","className":"bcfh-pprice","textContent":"$99.99","type":"text"} -->
+<span class="bcfh-pprice">$99.99</span>
+<!-- /wp:greenshift-blocks/element --></div>
+<!-- /wp:greenshift-blocks/element --></div>
+<!-- /wp:greenshift-blocks/element --></a>
+<!-- /wp:greenshift-blocks/element --></li>
+<!-- /wp:greenshift-blocks/element -->
+<!-- wp:greenshift-blocks/element {"tag":"li","className":"bcfh-pcard","type":"inner"} -->
+<li class="bcfh-pcard"><!-- wp:greenshift-blocks/element {"tag":"a","className":"bcfh-plink","href":"/?s=GR-100\u0026amp;post_type=product","type":"inner"} -->
+<a class="bcfh-plink" href="/?s=GR-100&amp;post_type=product"><!-- wp:greenshift-blocks/element {"tag":"div","className":"bcfh-pmedia","type":"inner"} -->
+<div class="bcfh-pmedia"><!-- wp:greenshift-blocks/element {"tag":"img","className":"bcfh-pimg","src":"https://placehold.co/400x400/ffffff/9a958c/png?text=GR-100%2B","alt":"Microjig GRR-RIPPER GR-100+ safety pusher","originalWidth":400,"originalHeight":400,"type":"no"} -->
+<img class="bcfh-pimg" src="https://placehold.co/400x400/ffffff/9a958c/png?text=GR-100%2B" alt="Microjig GRR-RIPPER GR-100+ safety pusher" width="400" height="400" loading="lazy"/>
+<!-- /wp:greenshift-blocks/element --></div>
+<!-- /wp:greenshift-blocks/element -->
+<!-- wp:greenshift-blocks/element {"tag":"div","className":"bcfh-pbody","type":"inner"} -->
+<div class="bcfh-pbody"><!-- wp:greenshift-blocks/element {"tag":"p","className":"bcfh-pbrand","textContent":"Microjig","type":"text"} -->
+<p class="bcfh-pbrand">Microjig</p>
+<!-- /wp:greenshift-blocks/element -->
+<!-- wp:greenshift-blocks/element {"tag":"h3","className":"bcfh-pname","textContent":"GRR-RIPPER safety pusher","type":"text"} -->
+<h3 class="bcfh-pname">GRR-RIPPER safety pusher</h3>
+<!-- /wp:greenshift-blocks/element -->
+<!-- wp:greenshift-blocks/element {"tag":"p","className":"bcfh-psku","textContent":"GR-100+","type":"text"} -->
+<p class="bcfh-psku">GR-100+</p>
+<!-- /wp:greenshift-blocks/element -->
+<!-- wp:greenshift-blocks/element {"tag":"div","className":"bcfh-pfoot","type":"inner"} -->
+<div class="bcfh-pfoot"><!-- wp:greenshift-blocks/element {"tag":"span","className":"bcfh-pprice","textContent":"$71.95","type":"text"} -->
+<span class="bcfh-pprice">$71.95</span>
+<!-- /wp:greenshift-blocks/element --></div>
+<!-- /wp:greenshift-blocks/element --></div>
+<!-- /wp:greenshift-blocks/element --></a>
+<!-- /wp:greenshift-blocks/element --></li>
+<!-- /wp:greenshift-blocks/element -->
+<!-- wp:greenshift-blocks/element {"tag":"li","className":"bcfh-pcard","type":"inner"} -->
+<li class="bcfh-pcard"><!-- wp:greenshift-blocks/element {"tag":"a","className":"bcfh-plink","href":"/?s=GB-1\u0026amp;post_type=product","type":"inner"} -->
+<a class="bcfh-plink" href="/?s=GB-1&amp;post_type=product"><!-- wp:greenshift-blocks/element {"tag":"div","className":"bcfh-pmedia","type":"inner"} -->
+<div class="bcfh-pmedia"><!-- wp:greenshift-blocks/element {"tag":"img","className":"bcfh-pimg","src":"https://placehold.co/400x400/ffffff/9a958c/png?text=GB-1","alt":"Microjig GRR-RIP BLOCK GB-1 pushblock","originalWidth":400,"originalHeight":400,"type":"no"} -->
+<img class="bcfh-pimg" src="https://placehold.co/400x400/ffffff/9a958c/png?text=GB-1" alt="Microjig GRR-RIP BLOCK GB-1 pushblock" width="400" height="400" loading="lazy"/>
+<!-- /wp:greenshift-blocks/element --></div>
+<!-- /wp:greenshift-blocks/element -->
+<!-- wp:greenshift-blocks/element {"tag":"div","className":"bcfh-pbody","type":"inner"} -->
+<div class="bcfh-pbody"><!-- wp:greenshift-blocks/element {"tag":"p","className":"bcfh-pbrand","textContent":"Microjig","type":"text"} -->
+<p class="bcfh-pbrand">Microjig</p>
+<!-- /wp:greenshift-blocks/element -->
+<!-- wp:greenshift-blocks/element {"tag":"h3","className":"bcfh-pname","textContent":"GRR-RIP BLOCK smart pushblock","type":"text"} -->
+<h3 class="bcfh-pname">GRR-RIP BLOCK smart pushblock</h3>
+<!-- /wp:greenshift-blocks/element -->
+<!-- wp:greenshift-blocks/element {"tag":"p","className":"bcfh-psku","textContent":"GB-1","type":"text"} -->
+<p class="bcfh-psku">GB-1</p>
+<!-- /wp:greenshift-blocks/element -->
+<!-- wp:greenshift-blocks/element {"tag":"div","className":"bcfh-pfoot","type":"inner"} -->
+<div class="bcfh-pfoot"><!-- wp:greenshift-blocks/element {"tag":"span","className":"bcfh-pprice","textContent":"$49.95","type":"text"} -->
+<span class="bcfh-pprice">$49.95</span>
+<!-- /wp:greenshift-blocks/element --></div>
+<!-- /wp:greenshift-blocks/element --></div>
+<!-- /wp:greenshift-blocks/element --></a>
+<!-- /wp:greenshift-blocks/element --></li>
+<!-- /wp:greenshift-blocks/element -->
+<!-- wp:greenshift-blocks/element {"tag":"li","className":"bcfh-pcard","type":"inner"} -->
+<li class="bcfh-pcard"><!-- wp:greenshift-blocks/element {"tag":"a","className":"bcfh-plink","href":"/?s=GR2-GO\u0026amp;post_type=product","type":"inner"} -->
+<a class="bcfh-plink" href="/?s=GR2-GO&amp;post_type=product"><!-- wp:greenshift-blocks/element {"tag":"div","className":"bcfh-pmedia","type":"inner"} -->
+<div class="bcfh-pmedia"><!-- wp:greenshift-blocks/element {"tag":"img","className":"bcfh-pimg","src":"https://placehold.co/400x400/ffffff/9a958c/png?text=GR2-GO","alt":"Microjig GRR-RIPPER 2GO","originalWidth":400,"originalHeight":400,"type":"no"} -->
+<img class="bcfh-pimg" src="https://placehold.co/400x400/ffffff/9a958c/png?text=GR2-GO" alt="Microjig GRR-RIPPER 2GO" width="400" height="400" loading="lazy"/>
+<!-- /wp:greenshift-blocks/element --></div>
+<!-- /wp:greenshift-blocks/element -->
+<!-- wp:greenshift-blocks/element {"tag":"div","className":"bcfh-pbody","type":"inner"} -->
+<div class="bcfh-pbody"><!-- wp:greenshift-blocks/element {"tag":"p","className":"bcfh-pbrand","textContent":"Microjig","type":"text"} -->
+<p class="bcfh-pbrand">Microjig</p>
+<!-- /wp:greenshift-blocks/element -->
+<!-- wp:greenshift-blocks/element {"tag":"h3","className":"bcfh-pname","textContent":"GRR-RIPPER 2GO","type":"text"} -->
+<h3 class="bcfh-pname">GRR-RIPPER 2GO</h3>
+<!-- /wp:greenshift-blocks/element -->
+<!-- wp:greenshift-blocks/element {"tag":"p","className":"bcfh-psku","textContent":"GR2-GO","type":"text"} -->
+<p class="bcfh-psku">GR2-GO</p>
+<!-- /wp:greenshift-blocks/element -->
+<!-- wp:greenshift-blocks/element {"tag":"div","className":"bcfh-pfoot","type":"inner"} -->
+<div class="bcfh-pfoot"><!-- wp:greenshift-blocks/element {"tag":"span","className":"bcfh-pprice","textContent":"$49.95","type":"text"} -->
+<span class="bcfh-pprice">$49.95</span>
+<!-- /wp:greenshift-blocks/element --></div>
+<!-- /wp:greenshift-blocks/element --></div>
+<!-- /wp:greenshift-blocks/element --></a>
+<!-- /wp:greenshift-blocks/element --></li>
+<!-- /wp:greenshift-blocks/element -->
+<!-- wp:greenshift-blocks/element {"tag":"li","className":"bcfh-pcard","type":"inner"} -->
+<li class="bcfh-pcard"><!-- wp:greenshift-blocks/element {"tag":"a","className":"bcfh-plink","href":"/?s=9K0080156US\u0026amp;post_type=product","type":"inner"} -->
+<a class="bcfh-plink" href="/?s=9K0080156US&amp;post_type=product"><!-- wp:greenshift-blocks/element {"tag":"div","className":"bcfh-pmedia","type":"inner"} -->
+<div class="bcfh-pmedia"><!-- wp:greenshift-blocks/element {"tag":"img","className":"bcfh-pimg","src":"https://placehold.co/400x400/ffffff/9a958c/png?text=9K0080156US","alt":"Knipex top selling pliers set, 3 piece","originalWidth":400,"originalHeight":400,"type":"no"} -->
+<img class="bcfh-pimg" src="https://placehold.co/400x400/ffffff/9a958c/png?text=9K0080156US" alt="Knipex top selling pliers set, 3 piece" width="400" height="400" loading="lazy"/>
+<!-- /wp:greenshift-blocks/element --></div>
+<!-- /wp:greenshift-blocks/element -->
+<!-- wp:greenshift-blocks/element {"tag":"div","className":"bcfh-pbody","type":"inner"} -->
+<div class="bcfh-pbody"><!-- wp:greenshift-blocks/element {"tag":"p","className":"bcfh-pbrand","textContent":"Knipex","type":"text"} -->
+<p class="bcfh-pbrand">Knipex</p>
+<!-- /wp:greenshift-blocks/element -->
+<!-- wp:greenshift-blocks/element {"tag":"h3","className":"bcfh-pname","textContent":"Top selling pliers set, 3 piece","type":"text"} -->
+<h3 class="bcfh-pname">Top selling pliers set, 3 piece</h3>
+<!-- /wp:greenshift-blocks/element -->
+<!-- wp:greenshift-blocks/element {"tag":"p","className":"bcfh-psku","textContent":"9K0080156US","type":"text"} -->
+<p class="bcfh-psku">9K0080156US</p>
+<!-- /wp:greenshift-blocks/element -->
+<!-- wp:greenshift-blocks/element {"tag":"div","className":"bcfh-pfoot","type":"inner"} -->
+<div class="bcfh-pfoot"><!-- wp:greenshift-blocks/element {"tag":"span","className":"bcfh-pprice","textContent":"$157.59","type":"text"} -->
+<span class="bcfh-pprice">$157.59</span>
+<!-- /wp:greenshift-blocks/element --></div>
+<!-- /wp:greenshift-blocks/element --></div>
+<!-- /wp:greenshift-blocks/element --></a>
+<!-- /wp:greenshift-blocks/element --></li>
+<!-- /wp:greenshift-blocks/element -->
+<!-- wp:greenshift-blocks/element {"tag":"li","className":"bcfh-pcard","type":"inner"} -->
+<li class="bcfh-pcard"><!-- wp:greenshift-blocks/element {"tag":"a","className":"bcfh-plink","href":"/?s=9K008094US\u0026amp;post_type=product","type":"inner"} -->
+<a class="bcfh-plink" href="/?s=9K008094US&amp;post_type=product"><!-- wp:greenshift-blocks/element {"tag":"div","className":"bcfh-pmedia","type":"inner"} -->
+<div class="bcfh-pmedia"><!-- wp:greenshift-blocks/element {"tag":"img","className":"bcfh-pimg","src":"https://placehold.co/400x400/ffffff/9a958c/png?text=9K008094US","alt":"Knipex special pliers set, 4 piece","originalWidth":400,"originalHeight":400,"type":"no"} -->
+<img class="bcfh-pimg" src="https://placehold.co/400x400/ffffff/9a958c/png?text=9K008094US" alt="Knipex special pliers set, 4 piece" width="400" height="400" loading="lazy"/>
+<!-- /wp:greenshift-blocks/element --></div>
+<!-- /wp:greenshift-blocks/element -->
+<!-- wp:greenshift-blocks/element {"tag":"div","className":"bcfh-pbody","type":"inner"} -->
+<div class="bcfh-pbody"><!-- wp:greenshift-blocks/element {"tag":"p","className":"bcfh-pbrand","textContent":"Knipex","type":"text"} -->
+<p class="bcfh-pbrand">Knipex</p>
+<!-- /wp:greenshift-blocks/element -->
+<!-- wp:greenshift-blocks/element {"tag":"h3","className":"bcfh-pname","textContent":"Special pliers set, 4 piece","type":"text"} -->
+<h3 class="bcfh-pname">Special pliers set, 4 piece</h3>
+<!-- /wp:greenshift-blocks/element -->
+<!-- wp:greenshift-blocks/element {"tag":"p","className":"bcfh-psku","textContent":"9K008094US","type":"text"} -->
+<p class="bcfh-psku">9K008094US</p>
+<!-- /wp:greenshift-blocks/element -->
+<!-- wp:greenshift-blocks/element {"tag":"div","className":"bcfh-pfoot","type":"inner"} -->
+<div class="bcfh-pfoot"><!-- wp:greenshift-blocks/element {"tag":"span","className":"bcfh-pprice","textContent":"$191.79","type":"text"} -->
+<span class="bcfh-pprice">$191.79</span>
+<!-- /wp:greenshift-blocks/element --></div>
+<!-- /wp:greenshift-blocks/element --></div>
+<!-- /wp:greenshift-blocks/element --></a>
+<!-- /wp:greenshift-blocks/element --></li>
+<!-- /wp:greenshift-blocks/element -->
+<!-- wp:greenshift-blocks/element {"tag":"li","className":"bcfh-pcard","type":"inner"} -->
+<li class="bcfh-pcard"><!-- wp:greenshift-blocks/element {"tag":"a","className":"bcfh-plink","href":"/?s=002006US4\u0026amp;post_type=product","type":"inner"} -->
+<a class="bcfh-plink" href="/?s=002006US4&amp;post_type=product"><!-- wp:greenshift-blocks/element {"tag":"div","className":"bcfh-pmedia","type":"inner"} -->
+<div class="bcfh-pmedia"><!-- wp:greenshift-blocks/element {"tag":"img","className":"bcfh-pimg","src":"https://placehold.co/400x400/ffffff/9a958c/png?text=002006US4","alt":"Knipex TwinGrip plastic dipped pliers set","originalWidth":400,"originalHeight":400,"type":"no"} -->
+<img class="bcfh-pimg" src="https://placehold.co/400x400/ffffff/9a958c/png?text=002006US4" alt="Knipex TwinGrip plastic dipped pliers set" width="400" height="400" loading="lazy"/>
+<!-- /wp:greenshift-blocks/element --></div>
+<!-- /wp:greenshift-blocks/element -->
+<!-- wp:greenshift-blocks/element {"tag":"div","className":"bcfh-pbody","type":"inner"} -->
+<div class="bcfh-pbody"><!-- wp:greenshift-blocks/element {"tag":"p","className":"bcfh-pbrand","textContent":"Knipex","type":"text"} -->
+<p class="bcfh-pbrand">Knipex</p>
+<!-- /wp:greenshift-blocks/element -->
+<!-- wp:greenshift-blocks/element {"tag":"h3","className":"bcfh-pname","textContent":"TwinGrip plastic dipped pliers set, 3 piece","type":"text"} -->
+<h3 class="bcfh-pname">TwinGrip plastic dipped pliers set, 3 piece</h3>
+<!-- /wp:greenshift-blocks/element -->
+<!-- wp:greenshift-blocks/element {"tag":"p","className":"bcfh-psku","textContent":"002006US4","type":"text"} -->
+<p class="bcfh-psku">002006US4</p>
+<!-- /wp:greenshift-blocks/element -->
+<!-- wp:greenshift-blocks/element {"tag":"div","className":"bcfh-pfoot","type":"inner"} -->
+<div class="bcfh-pfoot"><!-- wp:greenshift-blocks/element {"tag":"span","className":"bcfh-pprice","textContent":"$143.60","type":"text"} -->
+<span class="bcfh-pprice">$143.60</span>
+<!-- /wp:greenshift-blocks/element --></div>
+<!-- /wp:greenshift-blocks/element --></div>
+<!-- /wp:greenshift-blocks/element --></a>
+<!-- /wp:greenshift-blocks/element --></li>
+<!-- /wp:greenshift-blocks/element -->
+<!-- wp:greenshift-blocks/element {"tag":"li","className":"bcfh-pcard","type":"inner"} -->
+<li class="bcfh-pcard"><!-- wp:greenshift-blocks/element {"tag":"a","className":"bcfh-plink","href":"/?s=3469-20\u0026amp;post_type=product","type":"inner"} -->
+<a class="bcfh-plink" href="/?s=3469-20&amp;post_type=product"><!-- wp:greenshift-blocks/element {"tag":"div","className":"bcfh-pmedia","type":"inner"} -->
+<div class="bcfh-pmedia"><!-- wp:greenshift-blocks/element {"tag":"img","className":"bcfh-pimg","src":"https://placehold.co/400x400/ffffff/9a958c/png?text=3469-20","alt":"Milwaukee M18 FUEL steel pipe cutter","originalWidth":400,"originalHeight":400,"type":"no"} -->
+<img class="bcfh-pimg" src="https://placehold.co/400x400/ffffff/9a958c/png?text=3469-20" alt="Milwaukee M18 FUEL steel pipe cutter" width="400" height="400" loading="lazy"/>
+<!-- /wp:greenshift-blocks/element --></div>
+<!-- /wp:greenshift-blocks/element -->
+<!-- wp:greenshift-blocks/element {"tag":"div","className":"bcfh-pbody","type":"inner"} -->
+<div class="bcfh-pbody"><!-- wp:greenshift-blocks/element {"tag":"p","className":"bcfh-pbrand","textContent":"Milwaukee","type":"text"} -->
+<p class="bcfh-pbrand">Milwaukee</p>
+<!-- /wp:greenshift-blocks/element -->
+<!-- wp:greenshift-blocks/element {"tag":"h3","className":"bcfh-pname","textContent":"M18 FUEL 1/2\" to 1\" steel pipe cutter","type":"text"} -->
+<h3 class="bcfh-pname">M18 FUEL 1/2&quot; to 1&quot; steel pipe cutter</h3>
+<!-- /wp:greenshift-blocks/element -->
+<!-- wp:greenshift-blocks/element {"tag":"p","className":"bcfh-psku","textContent":"3469-20","type":"text"} -->
+<p class="bcfh-psku">3469-20</p>
+<!-- /wp:greenshift-blocks/element -->
+<!-- wp:greenshift-blocks/element {"tag":"div","className":"bcfh-pfoot","type":"inner"} -->
+<div class="bcfh-pfoot"><!-- wp:greenshift-blocks/element {"tag":"span","className":"bcfh-pprice","textContent":"$559","type":"text"} -->
+<span class="bcfh-pprice">$559</span>
+<!-- /wp:greenshift-blocks/element -->
+<!-- wp:greenshift-blocks/element {"tag":"span","className":"bcfh-pnote","textContent":"Tool only","type":"text"} -->
+<span class="bcfh-pnote">Tool only</span>
+<!-- /wp:greenshift-blocks/element --></div>
+<!-- /wp:greenshift-blocks/element --></div>
+<!-- /wp:greenshift-blocks/element --></a>
+<!-- /wp:greenshift-blocks/element --></li>
+<!-- /wp:greenshift-blocks/element -->
+<!-- wp:greenshift-blocks/element {"tag":"li","className":"bcfh-pcard","type":"inner"} -->
+<li class="bcfh-pcard"><!-- wp:greenshift-blocks/element {"tag":"a","className":"bcfh-plink","href":"/?s=3675-20\u0026amp;post_type=product","type":"inner"} -->
+<a class="bcfh-plink" href="/?s=3675-20&amp;post_type=product"><!-- wp:greenshift-blocks/element {"tag":"div","className":"bcfh-pmedia","type":"inner"} -->
+<div class="bcfh-pmedia"><!-- wp:greenshift-blocks/element {"tag":"img","className":"bcfh-pimg","src":"https://placehold.co/400x400/ffffff/9a958c/png?text=3675-20","alt":"Milwaukee M18 FUEL rebar cutter","originalWidth":400,"originalHeight":400,"type":"no"} -->
+<img class="bcfh-pimg" src="https://placehold.co/400x400/ffffff/9a958c/png?text=3675-20" alt="Milwaukee M18 FUEL rebar cutter" width="400" height="400" loading="lazy"/>
+<!-- /wp:greenshift-blocks/element --></div>
+<!-- /wp:greenshift-blocks/element -->
+<!-- wp:greenshift-blocks/element {"tag":"div","className":"bcfh-pbody","type":"inner"} -->
+<div class="bcfh-pbody"><!-- wp:greenshift-blocks/element {"tag":"p","className":"bcfh-pbrand","textContent":"Milwaukee","type":"text"} -->
+<p class="bcfh-pbrand">Milwaukee</p>
+<!-- /wp:greenshift-blocks/element -->
+<!-- wp:greenshift-blocks/element {"tag":"h3","className":"bcfh-pname","textContent":"M18 FUEL rebar cutter","type":"text"} -->
+<h3 class="bcfh-pname">M18 FUEL rebar cutter</h3>
+<!-- /wp:greenshift-blocks/element -->
+<!-- wp:greenshift-blocks/element {"tag":"p","className":"bcfh-psku","textContent":"3675-20","type":"text"} -->
+<p class="bcfh-psku">3675-20</p>
+<!-- /wp:greenshift-blocks/element -->
+<!-- wp:greenshift-blocks/element {"tag":"div","className":"bcfh-pfoot","type":"inner"} -->
+<div class="bcfh-pfoot"><!-- wp:greenshift-blocks/element {"tag":"span","className":"bcfh-pprice","textContent":"$998","type":"text"} -->
+<span class="bcfh-pprice">$998</span>
+<!-- /wp:greenshift-blocks/element -->
+<!-- wp:greenshift-blocks/element {"tag":"span","className":"bcfh-pnote","textContent":"Tool only","type":"text"} -->
+<span class="bcfh-pnote">Tool only</span>
+<!-- /wp:greenshift-blocks/element --></div>
+<!-- /wp:greenshift-blocks/element --></div>
+<!-- /wp:greenshift-blocks/element --></a>
+<!-- /wp:greenshift-blocks/element --></li>
+<!-- /wp:greenshift-blocks/element -->
+<!-- wp:greenshift-blocks/element {"tag":"li","className":"bcfh-pcard","type":"inner"} -->
+<li class="bcfh-pcard"><!-- wp:greenshift-blocks/element {"tag":"a","className":"bcfh-plink","href":"/?s=DCCS621B\u0026amp;post_type=product","type":"inner"} -->
+<a class="bcfh-plink" href="/?s=DCCS621B&amp;post_type=product"><!-- wp:greenshift-blocks/element {"tag":"div","className":"bcfh-pmedia","type":"inner"} -->
+<div class="bcfh-pmedia"><!-- wp:greenshift-blocks/element {"tag":"img","className":"bcfh-pimg","src":"https://placehold.co/400x400/ffffff/9a958c/png?text=DCCS621B","alt":"DeWalt 20V MAX XR 12 inch compact chainsaw","originalWidth":400,"originalHeight":400,"type":"no"} -->
+<img class="bcfh-pimg" src="https://placehold.co/400x400/ffffff/9a958c/png?text=DCCS621B" alt="DeWalt 20V MAX XR 12 inch compact chainsaw" width="400" height="400" loading="lazy"/>
+<!-- /wp:greenshift-blocks/element --></div>
+<!-- /wp:greenshift-blocks/element -->
+<!-- wp:greenshift-blocks/element {"tag":"div","className":"bcfh-pbody","type":"inner"} -->
+<div class="bcfh-pbody"><!-- wp:greenshift-blocks/element {"tag":"p","className":"bcfh-pbrand","textContent":"DeWalt","type":"text"} -->
+<p class="bcfh-pbrand">DeWalt</p>
+<!-- /wp:greenshift-blocks/element -->
+<!-- wp:greenshift-blocks/element {"tag":"h3","className":"bcfh-pname","textContent":"20V MAX XR 12\" brushless compact chainsaw","type":"text"} -->
+<h3 class="bcfh-pname">20V MAX XR 12&quot; brushless compact chainsaw</h3>
+<!-- /wp:greenshift-blocks/element -->
+<!-- wp:greenshift-blocks/element {"tag":"p","className":"bcfh-psku","textContent":"DCCS621B","type":"text"} -->
+<p class="bcfh-psku">DCCS621B</p>
+<!-- /wp:greenshift-blocks/element -->
+<!-- wp:greenshift-blocks/element {"tag":"div","className":"bcfh-pfoot","type":"inner"} -->
+<div class="bcfh-pfoot"><!-- wp:greenshift-blocks/element {"tag":"span","className":"bcfh-pprice","textContent":"$289","type":"text"} -->
+<span class="bcfh-pprice">$289</span>
+<!-- /wp:greenshift-blocks/element -->
+<!-- wp:greenshift-blocks/element {"tag":"span","className":"bcfh-pnote","textContent":"Tool only","type":"text"} -->
+<span class="bcfh-pnote">Tool only</span>
+<!-- /wp:greenshift-blocks/element --></div>
+<!-- /wp:greenshift-blocks/element --></div>
+<!-- /wp:greenshift-blocks/element --></a>
+<!-- /wp:greenshift-blocks/element --></li>
+<!-- /wp:greenshift-blocks/element -->
+<!-- wp:greenshift-blocks/element {"tag":"li","className":"bcfh-pcard","type":"inner"} -->
+<li class="bcfh-pcard"><!-- wp:greenshift-blocks/element {"tag":"a","className":"bcfh-plink","href":"/?s=DCHT821B\u0026amp;post_type=product","type":"inner"} -->
+<a class="bcfh-plink" href="/?s=DCHT821B&amp;post_type=product"><!-- wp:greenshift-blocks/element {"tag":"div","className":"bcfh-pmedia","type":"inner"} -->
+<div class="bcfh-pmedia"><!-- wp:greenshift-blocks/element {"tag":"img","className":"bcfh-pimg","src":"https://placehold.co/400x400/ffffff/9a958c/png?text=DCHT821B","alt":"DeWalt 20V MAX 22 inch hedge trimmer","originalWidth":400,"originalHeight":400,"type":"no"} -->
+<img class="bcfh-pimg" src="https://placehold.co/400x400/ffffff/9a958c/png?text=DCHT821B" alt="DeWalt 20V MAX 22 inch hedge trimmer" width="400" height="400" loading="lazy"/>
+<!-- /wp:greenshift-blocks/element --></div>
+<!-- /wp:greenshift-blocks/element -->
+<!-- wp:greenshift-blocks/element {"tag":"div","className":"bcfh-pbody","type":"inner"} -->
+<div class="bcfh-pbody"><!-- wp:greenshift-blocks/element {"tag":"p","className":"bcfh-pbrand","textContent":"DeWalt","type":"text"} -->
+<p class="bcfh-pbrand">DeWalt</p>
+<!-- /wp:greenshift-blocks/element -->
+<!-- wp:greenshift-blocks/element {"tag":"h3","className":"bcfh-pname","textContent":"20V MAX 22\" brushless hedge trimmer","type":"text"} -->
+<h3 class="bcfh-pname">20V MAX 22&quot; brushless hedge trimmer</h3>
+<!-- /wp:greenshift-blocks/element -->
+<!-- wp:greenshift-blocks/element {"tag":"p","className":"bcfh-psku","textContent":"DCHT821B","type":"text"} -->
+<p class="bcfh-psku">DCHT821B</p>
+<!-- /wp:greenshift-blocks/element -->
+<!-- wp:greenshift-blocks/element {"tag":"div","className":"bcfh-pfoot","type":"inner"} -->
+<div class="bcfh-pfoot"><!-- wp:greenshift-blocks/element {"tag":"span","className":"bcfh-pprice","textContent":"$229","type":"text"} -->
+<span class="bcfh-pprice">$229</span>
+<!-- /wp:greenshift-blocks/element -->
+<!-- wp:greenshift-blocks/element {"tag":"span","className":"bcfh-pnote","textContent":"Tool only","type":"text"} -->
+<span class="bcfh-pnote">Tool only</span>
+<!-- /wp:greenshift-blocks/element --></div>
+<!-- /wp:greenshift-blocks/element --></div>
+<!-- /wp:greenshift-blocks/element --></a>
+<!-- /wp:greenshift-blocks/element --></li>
+<!-- /wp:greenshift-blocks/element --></ul>
+<!-- /wp:greenshift-blocks/element --></div>
+<!-- /wp:greenshift-blocks/element --></section>
+<!-- /wp:greenshift-blocks/element -->
+
+<!-- wp:greenshift-blocks/element {"tag":"section","className":"wp-section alignfull bcfh-root bcfh-inkbg bcfh-block","isVariation":"contentwrapper","align":"full","dynamicAttributes":[{"name":"aria-labelledby","value":"bcfh-top-title"}],"type":"inner","metadata":{"name":"Top selling items"}} -->
+<section class="wp-section alignfull bcfh-root bcfh-inkbg bcfh-block" aria-labelledby="bcfh-top-title"><!-- wp:greenshift-blocks/element {"tag":"div","className":"wp-content-wrap","isVariation":"nocolumncontent","type":"inner"} -->
+<div class="wp-content-wrap"><!-- wp:greenshift-blocks/element {"tag":"div","className":"bcfh-head bcfh-headinv","type":"inner"} -->
+<div class="bcfh-head bcfh-headinv"><!-- wp:greenshift-blocks/element {"tag":"div","type":"inner"} -->
+<div><!-- wp:greenshift-blocks/element {"tag":"p","className":"bcfh-kicker bcfh-kickerinv","textContent":"What the trades are buying","type":"text"} -->
+<p class="bcfh-kicker bcfh-kickerinv">What the trades are buying</p>
+<!-- /wp:greenshift-blocks/element -->
+<!-- wp:greenshift-blocks/element {"tag":"h2","className":"bcfh-h2","anchor":"bcfh-top-title","textContent":"Top selling items","type":"text"} -->
+<h2 class="bcfh-h2" id="bcfh-top-title">Top selling items</h2>
+<!-- /wp:greenshift-blocks/element --></div>
+<!-- /wp:greenshift-blocks/element -->
+<!-- wp:greenshift-blocks/element {"tag":"a","className":"bcfh-headlink bcfh-headlinkinv","href":"/shop/?orderby=popularity","type":"inner"} -->
+<a class="bcfh-headlink bcfh-headlinkinv" href="/shop/?orderby=popularity"><!-- wp:greenshift-blocks/element {"textContent":"See best sellers","tag":"span"} -->
+<span>See best sellers</span>
+<!-- /wp:greenshift-blocks/element -->
+<!-- wp:greenshift-blocks/element {"tag":"svg","icon":{"icon":{"svgRaw":"\u003csvg class=\"bcfh-arrow\" viewBox=\"0 0 16 16\" fill=\"none\" stroke=\"currentColor\" stroke-width=\"2\" aria-hidden=\"true\"\u003e\u003cpath d=\"M2 8h11M9 4l4 4-4 4\"/\u003e\u003c/svg\u003e","image":""},"type":"svg"}} -->
+<svg class="bcfh-arrow" viewBox="0 0 16 16" fill="none" stroke="currentColor" stroke-width="2" aria-hidden="true"><path d="M2 8h11M9 4l4 4-4 4"/></svg>
+<!-- /wp:greenshift-blocks/element --></a>
+<!-- /wp:greenshift-blocks/element --></div>
+<!-- /wp:greenshift-blocks/element -->
+<!-- wp:greenshift-blocks/element {"tag":"ol","className":"bcfh-rank","type":"inner"} -->
+<ol class="bcfh-rank"><!-- wp:greenshift-blocks/element {"tag":"li","className":"bcfh-ritem","type":"inner"} -->
+<li class="bcfh-ritem"><!-- wp:greenshift-blocks/element {"tag":"a","className":"bcfh-rlink","href":"/?s=3697-22CXC\u0026amp;post_type=product","type":"inner"} -->
+<a class="bcfh-rlink" href="/?s=3697-22CXC&amp;post_type=product"><!-- wp:greenshift-blocks/element {"tag":"span","className":"bcfh-rnum","textContent":"01","type":"text"} -->
+<span class="bcfh-rnum">01</span>
+<!-- /wp:greenshift-blocks/element -->
+<!-- wp:greenshift-blocks/element {"tag":"div","className":"bcfh-rmedia","type":"inner"} -->
+<div class="bcfh-rmedia"><!-- wp:greenshift-blocks/element {"tag":"img","className":"bcfh-rimg","src":"https://placehold.co/400x400/ffffff/9a958c/png?text=3697-22CXC","alt":"Milwaukee M18 FUEL 2-tool combo kit","originalWidth":400,"originalHeight":400,"type":"no"} -->
+<img class="bcfh-rimg" src="https://placehold.co/400x400/ffffff/9a958c/png?text=3697-22CXC" alt="Milwaukee M18 FUEL 2-tool combo kit" width="400" height="400" loading="lazy"/>
+<!-- /wp:greenshift-blocks/element --></div>
+<!-- /wp:greenshift-blocks/element -->
+<!-- wp:greenshift-blocks/element {"tag":"p","className":"bcfh-rbrand","textContent":"Milwaukee","type":"text"} -->
+<p class="bcfh-rbrand">Milwaukee</p>
+<!-- /wp:greenshift-blocks/element -->
+<!-- wp:greenshift-blocks/element {"tag":"h3","className":"bcfh-rname","textContent":"M18 FUEL 2-tool combo kit","type":"text"} -->
+<h3 class="bcfh-rname">M18 FUEL 2-tool combo kit</h3>
+<!-- /wp:greenshift-blocks/element --></a>
+<!-- /wp:greenshift-blocks/element --></li>
+<!-- /wp:greenshift-blocks/element -->
+<!-- wp:greenshift-blocks/element {"tag":"li","className":"bcfh-ritem","type":"inner"} -->
+<li class="bcfh-ritem"><!-- wp:greenshift-blocks/element {"tag":"a","className":"bcfh-rlink","href":"/?s=0880-20\u0026amp;post_type=product","type":"inner"} -->
+<a class="bcfh-rlink" href="/?s=0880-20&amp;post_type=product"><!-- wp:greenshift-blocks/element {"tag":"span","className":"bcfh-rnum","textContent":"02","type":"text"} -->
+<span class="bcfh-rnum">02</span>
+<!-- /wp:greenshift-blocks/element -->
+<!-- wp:greenshift-blocks/element {"tag":"div","className":"bcfh-rmedia","type":"inner"} -->
+<div class="bcfh-rmedia"><!-- wp:greenshift-blocks/element {"tag":"img","className":"bcfh-rimg","src":"https://placehold.co/400x400/ffffff/9a958c/png?text=0880-20","alt":"Milwaukee M18 cordless wet dry vacuum","originalWidth":400,"originalHeight":400,"type":"no"} -->
+<img class="bcfh-rimg" src="https://placehold.co/400x400/ffffff/9a958c/png?text=0880-20" alt="Milwaukee M18 cordless wet dry vacuum" width="400" height="400" loading="lazy"/>
+<!-- /wp:greenshift-blocks/element --></div>
+<!-- /wp:greenshift-blocks/element -->
+<!-- wp:greenshift-blocks/element {"tag":"p","className":"bcfh-rbrand","textContent":"Milwaukee","type":"text"} -->
+<p class="bcfh-rbrand">Milwaukee</p>
+<!-- /wp:greenshift-blocks/element -->
+<!-- wp:greenshift-blocks/element {"tag":"h3","className":"bcfh-rname","textContent":"M18 cordless wet/dry vacuum, tool only","type":"text"} -->
+<h3 class="bcfh-rname">M18 cordless wet/dry vacuum, tool only</h3>
+<!-- /wp:greenshift-blocks/element --></a>
+<!-- /wp:greenshift-blocks/element --></li>
+<!-- /wp:greenshift-blocks/element -->
+<!-- wp:greenshift-blocks/element {"tag":"li","className":"bcfh-ritem","type":"inner"} -->
+<li class="bcfh-ritem"><!-- wp:greenshift-blocks/element {"tag":"a","className":"bcfh-rlink","href":"/?s=056491\u0026amp;post_type=product","type":"inner"} -->
+<a class="bcfh-rlink" href="/?s=056491&amp;post_type=product"><!-- wp:greenshift-blocks/element {"tag":"span","className":"bcfh-rnum","textContent":"03","type":"text"} -->
+<span class="bcfh-rnum">03</span>
+<!-- /wp:greenshift-blocks/element -->
+<!-- wp:greenshift-blocks/element {"tag":"div","className":"bcfh-rmedia","type":"inner"} -->
+<div class="bcfh-rmedia"><!-- wp:greenshift-blocks/element {"tag":"img","className":"bcfh-rimg","src":"https://placehold.co/400x400/ffffff/9a958c/png?text=056491","alt":"Wera Tool-Check Plus imperial bit set","originalWidth":400,"originalHeight":400,"type":"no"} -->
+<img class="bcfh-rimg" src="https://placehold.co/400x400/ffffff/9a958c/png?text=056491" alt="Wera Tool-Check Plus imperial bit set" width="400" height="400" loading="lazy"/>
+<!-- /wp:greenshift-blocks/element --></div>
+<!-- /wp:greenshift-blocks/element -->
+<!-- wp:greenshift-blocks/element {"tag":"p","className":"bcfh-rbrand","textContent":"Wera","type":"text"} -->
+<p class="bcfh-rbrand">Wera</p>
+<!-- /wp:greenshift-blocks/element -->
+<!-- wp:greenshift-blocks/element {"tag":"h3","className":"bcfh-rname","textContent":"Tool-Check Plus imperial bits","type":"text"} -->
+<h3 class="bcfh-rname">Tool-Check Plus imperial bits</h3>
+<!-- /wp:greenshift-blocks/element --></a>
+<!-- /wp:greenshift-blocks/element --></li>
+<!-- /wp:greenshift-blocks/element -->
+<!-- wp:greenshift-blocks/element {"tag":"li","className":"bcfh-ritem","type":"inner"} -->
+<li class="bcfh-ritem"><!-- wp:greenshift-blocks/element {"tag":"a","className":"bcfh-rlink","href":"/?s=2846-20\u0026amp;post_type=product","type":"inner"} -->
+<a class="bcfh-rlink" href="/?s=2846-20&amp;post_type=product"><!-- wp:greenshift-blocks/element {"tag":"span","className":"bcfh-rnum","textContent":"04","type":"text"} -->
+<span class="bcfh-rnum">04</span>
+<!-- /wp:greenshift-blocks/element -->
+<!-- wp:greenshift-blocks/element {"tag":"div","className":"bcfh-rmedia","type":"inner"} -->
+<div class="bcfh-rmedia"><!-- wp:greenshift-blocks/element {"tag":"img","className":"bcfh-rimg","src":"https://placehold.co/400x400/ffffff/9a958c/png?text=2846-20","alt":"Milwaukee M18 TOP-OFF 175W power supply","originalWidth":400,"originalHeight":400,"type":"no"} -->
+<img class="bcfh-rimg" src="https://placehold.co/400x400/ffffff/9a958c/png?text=2846-20" alt="Milwaukee M18 TOP-OFF 175W power supply" width="400" height="400" loading="lazy"/>
+<!-- /wp:greenshift-blocks/element --></div>
+<!-- /wp:greenshift-blocks/element -->
+<!-- wp:greenshift-blocks/element {"tag":"p","className":"bcfh-rbrand","textContent":"Milwaukee","type":"text"} -->
+<p class="bcfh-rbrand">Milwaukee</p>
+<!-- /wp:greenshift-blocks/element -->
+<!-- wp:greenshift-blocks/element {"tag":"h3","className":"bcfh-rname","textContent":"M18 TOP-OFF 175W power supply, tool only","type":"text"} -->
+<h3 class="bcfh-rname">M18 TOP-OFF 175W power supply, tool only</h3>
+<!-- /wp:greenshift-blocks/element --></a>
+<!-- /wp:greenshift-blocks/element --></li>
+<!-- /wp:greenshift-blocks/element -->
+<!-- wp:greenshift-blocks/element {"tag":"li","className":"bcfh-ritem","type":"inner"} -->
+<li class="bcfh-ritem"><!-- wp:greenshift-blocks/element {"tag":"a","className":"bcfh-rlink","href":"/?s=DCST922B\u0026amp;post_type=product","type":"inner"} -->
+<a class="bcfh-rlink" href="/?s=DCST922B&amp;post_type=product"><!-- wp:greenshift-blocks/element {"tag":"span","className":"bcfh-rnum","textContent":"05","type":"text"} -->
+<span class="bcfh-rnum">05</span>
+<!-- /wp:greenshift-blocks/element -->
+<!-- wp:greenshift-blocks/element {"tag":"div","className":"bcfh-rmedia","type":"inner"} -->
+<div class="bcfh-rmedia"><!-- wp:greenshift-blocks/element {"tag":"img","className":"bcfh-rimg","src":"https://placehold.co/400x400/ffffff/9a958c/png?text=DCST922B","alt":"DeWalt 20V MAX 14 inch string trimmer","originalWidth":400,"originalHeight":400,"type":"no"} -->
+<img class="bcfh-rimg" src="https://placehold.co/400x400/ffffff/9a958c/png?text=DCST922B" alt="DeWalt 20V MAX 14 inch string trimmer" width="400" height="400" loading="lazy"/>
+<!-- /wp:greenshift-blocks/element --></div>
+<!-- /wp:greenshift-blocks/element -->
+<!-- wp:greenshift-blocks/element {"tag":"p","className":"bcfh-rbrand","textContent":"DeWalt","type":"text"} -->
+<p class="bcfh-rbrand">DeWalt</p>
+<!-- /wp:greenshift-blocks/element -->
+<!-- wp:greenshift-blocks/element {"tag":"h3","className":"bcfh-rname","textContent":"20V MAX 14\" dual line string trimmer, tool only","type":"text"} -->
+<h3 class="bcfh-rname">20V MAX 14&quot; dual line string trimmer, tool only</h3>
+<!-- /wp:greenshift-blocks/element --></a>
+<!-- /wp:greenshift-blocks/element --></li>
+<!-- /wp:greenshift-blocks/element -->
+<!-- wp:greenshift-blocks/element {"tag":"li","className":"bcfh-ritem","type":"inner"} -->
+<li class="bcfh-ritem"><!-- wp:greenshift-blocks/element {"tag":"a","className":"bcfh-rlink","href":"/?s=S96110\u0026amp;post_type=product","type":"inner"} -->
+<a class="bcfh-rlink" href="/?s=S96110&amp;post_type=product"><!-- wp:greenshift-blocks/element {"tag":"span","className":"bcfh-rnum","textContent":"06","type":"text"} -->
+<span class="bcfh-rnum">06</span>
+<!-- /wp:greenshift-blocks/element -->
+<!-- wp:greenshift-blocks/element {"tag":"div","className":"bcfh-rmedia","type":"inner"} -->
+<div class="bcfh-rmedia"><!-- wp:greenshift-blocks/element {"tag":"img","className":"bcfh-rimg","src":"https://placehold.co/400x400/ffffff/9a958c/png?text=S96110","alt":"Sellstrom KneePro Ultra Flex III knee pad","originalWidth":400,"originalHeight":400,"type":"no"} -->
+<img class="bcfh-rimg" src="https://placehold.co/400x400/ffffff/9a958c/png?text=S96110" alt="Sellstrom KneePro Ultra Flex III knee pad" width="400" height="400" loading="lazy"/>
+<!-- /wp:greenshift-blocks/element --></div>
+<!-- /wp:greenshift-blocks/element -->
+<!-- wp:greenshift-blocks/element {"tag":"p","className":"bcfh-rbrand","textContent":"Sellstrom","type":"text"} -->
+<p class="bcfh-rbrand">Sellstrom</p>
+<!-- /wp:greenshift-blocks/element -->
+<!-- wp:greenshift-blocks/element {"tag":"h3","className":"bcfh-rname","textContent":"KneePro Ultra Flex III knee pad","type":"text"} -->
+<h3 class="bcfh-rname">KneePro Ultra Flex III knee pad</h3>
+<!-- /wp:greenshift-blocks/element --></a>
+<!-- /wp:greenshift-blocks/element --></li>
+<!-- /wp:greenshift-blocks/element -->
+<!-- wp:greenshift-blocks/element {"tag":"li","className":"bcfh-ritem","type":"inner"} -->
+<li class="bcfh-ritem"><!-- wp:greenshift-blocks/element {"tag":"a","className":"bcfh-rlink","href":"/?s=8201200\u0026amp;post_type=product","type":"inner"} -->
+<a class="bcfh-rlink" href="/?s=8201200&amp;post_type=product"><!-- wp:greenshift-blocks/element {"tag":"span","className":"bcfh-rnum","textContent":"07","type":"text"} -->
+<span class="bcfh-rnum">07</span>
+<!-- /wp:greenshift-blocks/element -->
+<!-- wp:greenshift-blocks/element {"tag":"div","className":"bcfh-rmedia","type":"inner"} -->
+<div class="bcfh-rmedia"><!-- wp:greenshift-blocks/element {"tag":"img","className":"bcfh-rimg","src":"https://placehold.co/400x400/ffffff/9a958c/png?text=8201200","alt":"Knipex 8 inch TwinGrip slip joint pliers","originalWidth":400,"originalHeight":400,"type":"no"} -->
+<img class="bcfh-rimg" src="https://placehold.co/400x400/ffffff/9a958c/png?text=8201200" alt="Knipex 8 inch TwinGrip slip joint pliers" width="400" height="400" loading="lazy"/>
+<!-- /wp:greenshift-blocks/element --></div>
+<!-- /wp:greenshift-blocks/element -->
+<!-- wp:greenshift-blocks/element {"tag":"p","className":"bcfh-rbrand","textContent":"Knipex","type":"text"} -->
+<p class="bcfh-rbrand">Knipex</p>
+<!-- /wp:greenshift-blocks/element -->
+<!-- wp:greenshift-blocks/element {"tag":"h3","className":"bcfh-rname","textContent":"8\" (200mm) TwinGrip slip joint pliers","type":"text"} -->
+<h3 class="bcfh-rname">8&quot; (200mm) TwinGrip slip joint pliers</h3>
+<!-- /wp:greenshift-blocks/element --></a>
+<!-- /wp:greenshift-blocks/element --></li>
+<!-- /wp:greenshift-blocks/element --></ol>
+<!-- /wp:greenshift-blocks/element --></div>
+<!-- /wp:greenshift-blocks/element --></section>
+<!-- /wp:greenshift-blocks/element -->
+
+<!-- wp:greenshift-blocks/element {"tag":"section","className":"wp-section alignfull bcfh-root bcfh-paperbg bcfh-block","isVariation":"contentwrapper","align":"full","dynamicAttributes":[{"name":"aria-labelledby","value":"bcfh-brand-title"}],"type":"inner","metadata":{"name":"Top brands"}} -->
+<section class="wp-section alignfull bcfh-root bcfh-paperbg bcfh-block" aria-labelledby="bcfh-brand-title"><!-- wp:greenshift-blocks/element {"tag":"div","className":"wp-content-wrap","isVariation":"nocolumncontent","type":"inner"} -->
+<div class="wp-content-wrap"><!-- wp:greenshift-blocks/element {"tag":"div","className":"bcfh-head","type":"inner"} -->
+<div class="bcfh-head"><!-- wp:greenshift-blocks/element {"tag":"div","type":"inner"} -->
+<div><!-- wp:greenshift-blocks/element {"tag":"p","className":"bcfh-kicker","textContent":"Shop by brand","type":"text"} -->
+<p class="bcfh-kicker">Shop by brand</p>
+<!-- /wp:greenshift-blocks/element -->
+<!-- wp:greenshift-blocks/element {"tag":"h2","className":"bcfh-h2","anchor":"bcfh-brand-title","textContent":"Top brands","type":"text"} -->
+<h2 class="bcfh-h2" id="bcfh-brand-title">Top brands</h2>
+<!-- /wp:greenshift-blocks/element --></div>
+<!-- /wp:greenshift-blocks/element -->
+<!-- wp:greenshift-blocks/element {"tag":"a","className":"bcfh-headlink","href":"/brands/","type":"inner"} -->
+<a class="bcfh-headlink" href="/brands/"><!-- wp:greenshift-blocks/element {"textContent":"All brands","tag":"span"} -->
+<span>All brands</span>
+<!-- /wp:greenshift-blocks/element -->
+<!-- wp:greenshift-blocks/element {"tag":"svg","icon":{"icon":{"svgRaw":"\u003csvg class=\"bcfh-arrow\" viewBox=\"0 0 16 16\" fill=\"none\" stroke=\"currentColor\" stroke-width=\"2\" aria-hidden=\"true\"\u003e\u003cpath d=\"M2 8h11M9 4l4 4-4 4\"/\u003e\u003c/svg\u003e","image":""},"type":"svg"}} -->
+<svg class="bcfh-arrow" viewBox="0 0 16 16" fill="none" stroke="currentColor" stroke-width="2" aria-hidden="true"><path d="M2 8h11M9 4l4 4-4 4"/></svg>
+<!-- /wp:greenshift-blocks/element --></a>
+<!-- /wp:greenshift-blocks/element --></div>
+<!-- /wp:greenshift-blocks/element -->
+<!-- wp:greenshift-blocks/element {"tag":"ul","className":"bcfh-bgrid","type":"inner"} -->
+<ul class="bcfh-bgrid"><!-- wp:greenshift-blocks/element {"tag":"li","className":"bcfh-bitem","type":"inner"} -->
+<li class="bcfh-bitem"><!-- wp:greenshift-blocks/element {"tag":"a","className":"bcfh-blink","href":"/?s=Milwaukee\u0026amp;post_type=product","type":"inner"} -->
+<a class="bcfh-blink" href="/?s=Milwaukee&amp;post_type=product"><!-- wp:greenshift-blocks/element {"tag":"div","className":"bcfh-bmedia","type":"inner"} -->
+<div class="bcfh-bmedia"><!-- wp:greenshift-blocks/element {"tag":"img","className":"bcfh-bimg","src":"https://placehold.co/800x450/24272a/ffffff/png?text=Milwaukee","alt":"Milwaukee tools","originalWidth":800,"originalHeight":450,"type":"no"} -->
+<img class="bcfh-bimg" src="https://placehold.co/800x450/24272a/ffffff/png?text=Milwaukee" alt="Milwaukee tools" width="800" height="450" loading="lazy"/>
+<!-- /wp:greenshift-blocks/element --></div>
+<!-- /wp:greenshift-blocks/element -->
+<!-- wp:greenshift-blocks/element {"tag":"div","className":"bcfh-bbar","type":"inner"} -->
+<div class="bcfh-bbar"><!-- wp:greenshift-blocks/element {"tag":"h3","className":"bcfh-bname","textContent":"Milwaukee","type":"text"} -->
+<h3 class="bcfh-bname">Milwaukee</h3>
+<!-- /wp:greenshift-blocks/element -->
+<!-- wp:greenshift-blocks/element {"tag":"span","className":"bcfh-bcta","textContent":"Shop","type":"text"} -->
+<span class="bcfh-bcta">Shop</span>
+<!-- /wp:greenshift-blocks/element --></div>
+<!-- /wp:greenshift-blocks/element --></a>
+<!-- /wp:greenshift-blocks/element --></li>
+<!-- /wp:greenshift-blocks/element -->
+<!-- wp:greenshift-blocks/element {"tag":"li","className":"bcfh-bitem","type":"inner"} -->
+<li class="bcfh-bitem"><!-- wp:greenshift-blocks/element {"tag":"a","className":"bcfh-blink","href":"/?s=DeWalt\u0026amp;post_type=product","type":"inner"} -->
+<a class="bcfh-blink" href="/?s=DeWalt&amp;post_type=product"><!-- wp:greenshift-blocks/element {"tag":"div","className":"bcfh-bmedia","type":"inner"} -->
+<div class="bcfh-bmedia"><!-- wp:greenshift-blocks/element {"tag":"img","className":"bcfh-bimg","src":"https://placehold.co/800x450/24272a/ffffff/png?text=DeWalt","alt":"DeWalt tools","originalWidth":800,"originalHeight":450,"type":"no"} -->
+<img class="bcfh-bimg" src="https://placehold.co/800x450/24272a/ffffff/png?text=DeWalt" alt="DeWalt tools" width="800" height="450" loading="lazy"/>
+<!-- /wp:greenshift-blocks/element --></div>
+<!-- /wp:greenshift-blocks/element -->
+<!-- wp:greenshift-blocks/element {"tag":"div","className":"bcfh-bbar","type":"inner"} -->
+<div class="bcfh-bbar"><!-- wp:greenshift-blocks/element {"tag":"h3","className":"bcfh-bname","textContent":"DeWalt","type":"text"} -->
+<h3 class="bcfh-bname">DeWalt</h3>
+<!-- /wp:greenshift-blocks/element -->
+<!-- wp:greenshift-blocks/element {"tag":"span","className":"bcfh-bcta","textContent":"Shop","type":"text"} -->
+<span class="bcfh-bcta">Shop</span>
+<!-- /wp:greenshift-blocks/element --></div>
+<!-- /wp:greenshift-blocks/element --></a>
+<!-- /wp:greenshift-blocks/element --></li>
+<!-- /wp:greenshift-blocks/element -->
+<!-- wp:greenshift-blocks/element {"tag":"li","className":"bcfh-bitem","type":"inner"} -->
+<li class="bcfh-bitem"><!-- wp:greenshift-blocks/element {"tag":"a","className":"bcfh-blink","href":"/?s=Wera\u0026amp;post_type=product","type":"inner"} -->
+<a class="bcfh-blink" href="/?s=Wera&amp;post_type=product"><!-- wp:greenshift-blocks/element {"tag":"div","className":"bcfh-bmedia","type":"inner"} -->
+<div class="bcfh-bmedia"><!-- wp:greenshift-blocks/element {"tag":"img","className":"bcfh-bimg","src":"https://placehold.co/800x450/24272a/ffffff/png?text=Wera","alt":"Wera tools","originalWidth":800,"originalHeight":450,"type":"no"} -->
+<img class="bcfh-bimg" src="https://placehold.co/800x450/24272a/ffffff/png?text=Wera" alt="Wera tools" width="800" height="450" loading="lazy"/>
+<!-- /wp:greenshift-blocks/element --></div>
+<!-- /wp:greenshift-blocks/element -->
+<!-- wp:greenshift-blocks/element {"tag":"div","className":"bcfh-bbar","type":"inner"} -->
+<div class="bcfh-bbar"><!-- wp:greenshift-blocks/element {"tag":"h3","className":"bcfh-bname","textContent":"Wera","type":"text"} -->
+<h3 class="bcfh-bname">Wera</h3>
+<!-- /wp:greenshift-blocks/element -->
+<!-- wp:greenshift-blocks/element {"tag":"span","className":"bcfh-bcta","textContent":"Shop","type":"text"} -->
+<span class="bcfh-bcta">Shop</span>
+<!-- /wp:greenshift-blocks/element --></div>
+<!-- /wp:greenshift-blocks/element --></a>
+<!-- /wp:greenshift-blocks/element --></li>
+<!-- /wp:greenshift-blocks/element -->
+<!-- wp:greenshift-blocks/element {"tag":"li","className":"bcfh-bitem","type":"inner"} -->
+<li class="bcfh-bitem"><!-- wp:greenshift-blocks/element {"tag":"a","className":"bcfh-blink","href":"/?s=Diablo\u0026amp;post_type=product","type":"inner"} -->
+<a class="bcfh-blink" href="/?s=Diablo&amp;post_type=product"><!-- wp:greenshift-blocks/element {"tag":"div","className":"bcfh-bmedia","type":"inner"} -->
+<div class="bcfh-bmedia"><!-- wp:greenshift-blocks/element {"tag":"img","className":"bcfh-bimg","src":"https://placehold.co/800x450/24272a/ffffff/png?text=Diablo","alt":"Diablo blades","originalWidth":800,"originalHeight":450,"type":"no"} -->
+<img class="bcfh-bimg" src="https://placehold.co/800x450/24272a/ffffff/png?text=Diablo" alt="Diablo blades" width="800" height="450" loading="lazy"/>
+<!-- /wp:greenshift-blocks/element --></div>
+<!-- /wp:greenshift-blocks/element -->
+<!-- wp:greenshift-blocks/element {"tag":"div","className":"bcfh-bbar","type":"inner"} -->
+<div class="bcfh-bbar"><!-- wp:greenshift-blocks/element {"tag":"h3","className":"bcfh-bname","textContent":"Diablo","type":"text"} -->
+<h3 class="bcfh-bname">Diablo</h3>
+<!-- /wp:greenshift-blocks/element -->
+<!-- wp:greenshift-blocks/element {"tag":"span","className":"bcfh-bcta","textContent":"Shop","type":"text"} -->
+<span class="bcfh-bcta">Shop</span>
+<!-- /wp:greenshift-blocks/element --></div>
+<!-- /wp:greenshift-blocks/element --></a>
+<!-- /wp:greenshift-blocks/element --></li>
+<!-- /wp:greenshift-blocks/element -->
+<!-- wp:greenshift-blocks/element {"tag":"li","className":"bcfh-bitem","type":"inner"} -->
+<li class="bcfh-bitem"><!-- wp:greenshift-blocks/element {"tag":"a","className":"bcfh-blink","href":"/?s=Occidental+Leather\u0026amp;post_type=product","type":"inner"} -->
+<a class="bcfh-blink" href="/?s=Occidental+Leather&amp;post_type=product"><!-- wp:greenshift-blocks/element {"tag":"div","className":"bcfh-bmedia","type":"inner"} -->
+<div class="bcfh-bmedia"><!-- wp:greenshift-blocks/element {"tag":"img","className":"bcfh-bimg","src":"https://placehold.co/800x450/24272a/ffffff/png?text=Occidental+Leather","alt":"Occidental Leather tool belts","originalWidth":800,"originalHeight":450,"type":"no"} -->
+<img class="bcfh-bimg" src="https://placehold.co/800x450/24272a/ffffff/png?text=Occidental+Leather" alt="Occidental Leather tool belts" width="800" height="450" loading="lazy"/>
+<!-- /wp:greenshift-blocks/element --></div>
+<!-- /wp:greenshift-blocks/element -->
+<!-- wp:greenshift-blocks/element {"tag":"div","className":"bcfh-bbar","type":"inner"} -->
+<div class="bcfh-bbar"><!-- wp:greenshift-blocks/element {"tag":"h3","className":"bcfh-bname","textContent":"Occidental Leather","type":"text"} -->
+<h3 class="bcfh-bname">Occidental Leather</h3>
+<!-- /wp:greenshift-blocks/element -->
+<!-- wp:greenshift-blocks/element {"tag":"span","className":"bcfh-bcta","textContent":"Shop","type":"text"} -->
+<span class="bcfh-bcta">Shop</span>
+<!-- /wp:greenshift-blocks/element --></div>
+<!-- /wp:greenshift-blocks/element --></a>
+<!-- /wp:greenshift-blocks/element --></li>
+<!-- /wp:greenshift-blocks/element -->
+<!-- wp:greenshift-blocks/element {"tag":"li","className":"bcfh-bitem","type":"inner"} -->
+<li class="bcfh-bitem"><!-- wp:greenshift-blocks/element {"tag":"a","className":"bcfh-blink","href":"/?s=GearWrench\u0026amp;post_type=product","type":"inner"} -->
+<a class="bcfh-blink" href="/?s=GearWrench&amp;post_type=product"><!-- wp:greenshift-blocks/element {"tag":"div","className":"bcfh-bmedia","type":"inner"} -->
+<div class="bcfh-bmedia"><!-- wp:greenshift-blocks/element {"tag":"img","className":"bcfh-bimg","src":"https://placehold.co/800x450/24272a/ffffff/png?text=GearWrench","alt":"GearWrench tools","originalWidth":800,"originalHeight":450,"type":"no"} -->
+<img class="bcfh-bimg" src="https://placehold.co/800x450/24272a/ffffff/png?text=GearWrench" alt="GearWrench tools" width="800" height="450" loading="lazy"/>
+<!-- /wp:greenshift-blocks/element --></div>
+<!-- /wp:greenshift-blocks/element -->
+<!-- wp:greenshift-blocks/element {"tag":"div","className":"bcfh-bbar","type":"inner"} -->
+<div class="bcfh-bbar"><!-- wp:greenshift-blocks/element {"tag":"h3","className":"bcfh-bname","textContent":"GearWrench","type":"text"} -->
+<h3 class="bcfh-bname">GearWrench</h3>
+<!-- /wp:greenshift-blocks/element -->
+<!-- wp:greenshift-blocks/element {"tag":"span","className":"bcfh-bcta","textContent":"Shop","type":"text"} -->
+<span class="bcfh-bcta">Shop</span>
+<!-- /wp:greenshift-blocks/element --></div>
+<!-- /wp:greenshift-blocks/element --></a>
+<!-- /wp:greenshift-blocks/element --></li>
+<!-- /wp:greenshift-blocks/element -->
+<!-- wp:greenshift-blocks/element {"tag":"li","className":"bcfh-bitem","type":"inner"} -->
+<li class="bcfh-bitem"><!-- wp:greenshift-blocks/element {"tag":"a","className":"bcfh-blink","href":"/?s=Knipex\u0026amp;post_type=product","type":"inner"} -->
+<a class="bcfh-blink" href="/?s=Knipex&amp;post_type=product"><!-- wp:greenshift-blocks/element {"tag":"div","className":"bcfh-bmedia","type":"inner"} -->
+<div class="bcfh-bmedia"><!-- wp:greenshift-blocks/element {"tag":"img","className":"bcfh-bimg","src":"https://placehold.co/800x450/24272a/ffffff/png?text=Knipex","alt":"Knipex pliers","originalWidth":800,"originalHeight":450,"type":"no"} -->
+<img class="bcfh-bimg" src="https://placehold.co/800x450/24272a/ffffff/png?text=Knipex" alt="Knipex pliers" width="800" height="450" loading="lazy"/>
+<!-- /wp:greenshift-blocks/element --></div>
+<!-- /wp:greenshift-blocks/element -->
+<!-- wp:greenshift-blocks/element {"tag":"div","className":"bcfh-bbar","type":"inner"} -->
+<div class="bcfh-bbar"><!-- wp:greenshift-blocks/element {"tag":"h3","className":"bcfh-bname","textContent":"Knipex","type":"text"} -->
+<h3 class="bcfh-bname">Knipex</h3>
+<!-- /wp:greenshift-blocks/element -->
+<!-- wp:greenshift-blocks/element {"tag":"span","className":"bcfh-bcta","textContent":"Shop","type":"text"} -->
+<span class="bcfh-bcta">Shop</span>
+<!-- /wp:greenshift-blocks/element --></div>
+<!-- /wp:greenshift-blocks/element --></a>
+<!-- /wp:greenshift-blocks/element --></li>
+<!-- /wp:greenshift-blocks/element -->
+<!-- wp:greenshift-blocks/element {"tag":"li","className":"bcfh-bitem","type":"inner"} -->
+<li class="bcfh-bitem"><!-- wp:greenshift-blocks/element {"tag":"a","className":"bcfh-blink","href":"/?s=Klein+Tools\u0026amp;post_type=product","type":"inner"} -->
+<a class="bcfh-blink" href="/?s=Klein+Tools&amp;post_type=product"><!-- wp:greenshift-blocks/element {"tag":"div","className":"bcfh-bmedia","type":"inner"} -->
+<div class="bcfh-bmedia"><!-- wp:greenshift-blocks/element {"tag":"img","className":"bcfh-bimg","src":"https://placehold.co/800x450/24272a/ffffff/png?text=Klein+Tools","alt":"Klein Tools","originalWidth":800,"originalHeight":450,"type":"no"} -->
+<img class="bcfh-bimg" src="https://placehold.co/800x450/24272a/ffffff/png?text=Klein+Tools" alt="Klein Tools" width="800" height="450" loading="lazy"/>
+<!-- /wp:greenshift-blocks/element --></div>
+<!-- /wp:greenshift-blocks/element -->
+<!-- wp:greenshift-blocks/element {"tag":"div","className":"bcfh-bbar","type":"inner"} -->
+<div class="bcfh-bbar"><!-- wp:greenshift-blocks/element {"tag":"h3","className":"bcfh-bname","textContent":"Klein Tools","type":"text"} -->
+<h3 class="bcfh-bname">Klein Tools</h3>
+<!-- /wp:greenshift-blocks/element -->
+<!-- wp:greenshift-blocks/element {"tag":"span","className":"bcfh-bcta","textContent":"Shop","type":"text"} -->
+<span class="bcfh-bcta">Shop</span>
+<!-- /wp:greenshift-blocks/element --></div>
+<!-- /wp:greenshift-blocks/element --></a>
+<!-- /wp:greenshift-blocks/element --></li>
+<!-- /wp:greenshift-blocks/element --></ul>
+<!-- /wp:greenshift-blocks/element --></div>
+<!-- /wp:greenshift-blocks/element --></section>
+<!-- /wp:greenshift-blocks/element -->
+
+<!-- wp:greenshift-blocks/element {"tag":"section","className":"wp-section alignfull bcfh-root bcfh-slatebg bcfh-help","isVariation":"contentwrapper","align":"full","dynamicAttributes":[{"name":"aria-label","value":"Customer service and newsletter"}],"type":"inner","metadata":{"name":"Help and newsletter"}} -->
+<section class="wp-section alignfull bcfh-root bcfh-slatebg bcfh-help" aria-label="Customer service and newsletter"><!-- wp:greenshift-blocks/element {"tag":"div","className":"wp-content-wrap","isVariation":"nocolumncontent","type":"inner"} -->
+<div class="wp-content-wrap"><!-- wp:greenshift-blocks/element {"tag":"div","className":"bcfh-helpgrid","type":"inner"} -->
+<div class="bcfh-helpgrid"><!-- wp:greenshift-blocks/element {"tag":"div","className":"bcfh-helpcol","type":"inner"} -->
+<div class="bcfh-helpcol"><!-- wp:greenshift-blocks/element {"tag":"h2","className":"bcfh-h3","textContent":"Still have questions?","type":"text"} -->
+<h2 class="bcfh-h3">Still have questions?</h2>
+<!-- /wp:greenshift-blocks/element -->
+<!-- wp:greenshift-blocks/element {"tag":"p","className":"bcfh-helptext","textContent":"Our team is available Monday to Friday, 7AM to 4PM Pacific. Closed weekends and holidays.","type":"text"} -->
+<p class="bcfh-helptext">Our team is available Monday to Friday, 7AM to 4PM Pacific. Closed weekends and holidays.</p>
+<!-- /wp:greenshift-blocks/element -->
+<!-- wp:greenshift-blocks/element {"tag":"ul","className":"bcfh-contacts","type":"inner"} -->
+<ul class="bcfh-contacts"><!-- wp:greenshift-blocks/element {"tag":"li","className":"bcfh-contact","type":"inner"} -->
+<li class="bcfh-contact"><!-- wp:greenshift-blocks/element {"tag":"svg","icon":{"icon":{"svgRaw":"\u003csvg class=\"bcfh-cicon\" viewBox=\"0 0 24 24\" fill=\"none\" stroke=\"currentColor\" stroke-width=\"2\" aria-hidden=\"true\"\u003e\u003cpath d=\"M5 4h4l2 5-2.5 1.5a11 11 0 0 0 5 5L15 13l5 2v4a2 2 0 0 1-2 2A16 16 0 0 1 3 6a2 2 0 0 1 2-2\"/\u003e\u003c/svg\u003e","image":""},"type":"svg"}} -->
+<svg class="bcfh-cicon" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" aria-hidden="true"><path d="M5 4h4l2 5-2.5 1.5a11 11 0 0 0 5 5L15 13l5 2v4a2 2 0 0 1-2 2A16 16 0 0 1 3 6a2 2 0 0 1 2-2"/></svg>
+<!-- /wp:greenshift-blocks/element -->
+<!-- wp:greenshift-blocks/element {"tag":"div","type":"inner"} -->
+<div><!-- wp:greenshift-blocks/element {"tag":"span","className":"bcfh-clabel","textContent":"Phone","type":"text"} -->
+<span class="bcfh-clabel">Phone</span>
+<!-- /wp:greenshift-blocks/element -->
+<!-- wp:greenshift-blocks/element {"tag":"a","className":"bcfh-clink","textContent":"1-844-286-2550","href":"tel:18442862550","type":"text"} -->
+<a class="bcfh-clink" href="tel:18442862550">1-844-286-2550</a>
+<!-- /wp:greenshift-blocks/element --></div>
+<!-- /wp:greenshift-blocks/element --></li>
+<!-- /wp:greenshift-blocks/element -->
+<!-- wp:greenshift-blocks/element {"tag":"li","className":"bcfh-contact","type":"inner"} -->
+<li class="bcfh-contact"><!-- wp:greenshift-blocks/element {"tag":"svg","icon":{"icon":{"svgRaw":"\u003csvg class=\"bcfh-cicon\" viewBox=\"0 0 24 24\" fill=\"none\" stroke=\"currentColor\" stroke-width=\"2\" aria-hidden=\"true\"\u003e\u003crect x=\"3\" y=\"5\" width=\"18\" height=\"14\" rx=\"1\"/\u003e\u003cpath d=\"M3 7l9 6 9-6\"/\u003e\u003c/svg\u003e","image":""},"type":"svg"}} -->
+<svg class="bcfh-cicon" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" aria-hidden="true"><rect x="3" y="5" width="18" height="14" rx="1"/><path d="M3 7l9 6 9-6"/></svg>
+<!-- /wp:greenshift-blocks/element -->
+<!-- wp:greenshift-blocks/element {"tag":"div","type":"inner"} -->
+<div><!-- wp:greenshift-blocks/element {"tag":"span","className":"bcfh-clabel","textContent":"Email","type":"text"} -->
+<span class="bcfh-clabel">Email</span>
+<!-- /wp:greenshift-blocks/element -->
+<!-- wp:greenshift-blocks/element {"tag":"a","className":"bcfh-clink","textContent":"customerservice@bcfasteners.com","href":"mailto:customerservice@bcfasteners.com","type":"text"} -->
+<a class="bcfh-clink" href="mailto:customerservice@bcfasteners.com">customerservice@bcfasteners.com</a>
+<!-- /wp:greenshift-blocks/element --></div>
+<!-- /wp:greenshift-blocks/element --></li>
+<!-- /wp:greenshift-blocks/element --></ul>
+<!-- /wp:greenshift-blocks/element --></div>
+<!-- /wp:greenshift-blocks/element -->
+<!-- wp:greenshift-blocks/element {"tag":"div","className":"bcfh-newscol","type":"inner"} -->
+<div class="bcfh-newscol"><!-- wp:greenshift-blocks/element {"tag":"h2","className":"bcfh-h3","textContent":"Stay updated","type":"text"} -->
+<h2 class="bcfh-h3">Stay updated</h2>
+<!-- /wp:greenshift-blocks/element -->
+<!-- wp:greenshift-blocks/element {"tag":"p","className":"bcfh-helptext","textContent":"Sign up for exclusive promotions, product previews and the latest news.","type":"text"} -->
+<p class="bcfh-helptext">Sign up for exclusive promotions, product previews and the latest news.</p>
+<!-- /wp:greenshift-blocks/element -->
+<!-- wp:greenshift-blocks/element {"tag":"form","className":"bcfh-form","formAttributes":{"method":"post","action":"#"},"type":"inner"} -->
+<form class="bcfh-form" method="post" action="#"><!-- wp:greenshift-blocks/element {"tag":"label","className":"bcfh-srt","textContent":"Email address","type":"text"} -->
+<label class="bcfh-srt">Email address</label>
+<!-- /wp:greenshift-blocks/element -->
+<!-- wp:greenshift-blocks/element {"tag":"input","className":"bcfh-input","anchor":"bcfh-email","formAttributes":{"type":"email","name":"email","placeholder":"Your email address","required":true},"type":"form"} -->
+<input class="bcfh-input" id="bcfh-email" type="email" name="email" placeholder="Your email address" required/>
+<!-- /wp:greenshift-blocks/element -->
+<!-- wp:greenshift-blocks/element {"tag":"button","className":"bcfh-submit","textContent":"Sign up","formAttributes":{"type":"submit"},"type":"text"} -->
+<button class="bcfh-submit" type="submit">Sign up</button>
+<!-- /wp:greenshift-blocks/element --></form>
+<!-- /wp:greenshift-blocks/element -->
+<!-- wp:greenshift-blocks/element {"tag":"p","className":"bcfh-fineinv","textContent":"You can unsubscribe at any time.","type":"text"} -->
+<p class="bcfh-fineinv">You can unsubscribe at any time.</p>
+<!-- /wp:greenshift-blocks/element --></div>
+<!-- /wp:greenshift-blocks/element --></div>
+<!-- /wp:greenshift-blocks/element --></div>
+<!-- /wp:greenshift-blocks/element --></section>
+<!-- /wp:greenshift-blocks/element -->
