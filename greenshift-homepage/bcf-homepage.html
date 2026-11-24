@@ -9,24 +9,37 @@
 <link href="https://fonts.googleapis.com/css2?family=Outfit:wght@500;600;700;800;900&family=Poppins:wght@400;500;600;700&display=swap" rel="stylesheet">
 <style data-wp-block-html="css">
 .wp-section{display:flex;justify-content:center;flex-direction:column;align-items:center;padding-right:var(--wp--spacing--side, min(3vw, 20px));padding-left:var(--wp--spacing--side, min(3vw, 20px));padding-top:var(--wp--spacing--top, 0px);padding-bottom:var(--wp--spacing--bottom, 0px);margin-top:0px;margin-bottom:0px;position:relative;}
-.wp-content-wrap{max-width:100%;width:var(--wp--style--global--wide-size, 1200px);}
+.wp-content-wrap{max-width:100%;width:var(--wp--style--global--wide-size, 1200px);position:relative;z-index:1;}
 
-.bcfh-root{--bcfh-ink:#111315;--bcfh-ink-2:#1c1f23;--bcfh-ink-3:#2a2e33;--bcfh-paper:#f4f3ef;--bcfh-line:#dedbd3;--bcfh-muted:#5d5a54;--bcfh-red:#d22630;--bcfh-red-dark:#a81c24;--bcfh-volt:#d9f20b;--bcfh-slate:#2e5169;--bcfh-blue-paper:#e7edf1;--bcfh-white:#ffffff;--bcfh-head:"Outfit",sans-serif;--bcfh-body:"Poppins",sans-serif;font-family:var(--bcfh-body);color:var(--bcfh-ink);font-size:15px;line-height:1.6;}
+.bcfh-root{--bcfh-ink:#111315;--bcfh-ink-2:#1c1f23;--bcfh-ink-3:#2a2e33;--bcfh-paper:#f4f3ef;--bcfh-line:#dedbd3;--bcfh-muted:#5d5a54;--bcfh-red:#d22630;--bcfh-volt:#d9f20b;--bcfh-slate:#2e5169;--bcfh-white:#ffffff;--bcfh-head:"Outfit",sans-serif;--bcfh-body:"Poppins",sans-serif;--bcfh-hex:polygon(25% 0%, 75% 0%, 100% 50%, 75% 100%, 25% 100%, 0% 50%);--bcfh-hexup:polygon(50% 0%, 100% 25%, 100% 75%, 50% 100%, 0% 75%, 0% 25%);--bcfh-cham:polygon(12px 0%, calc(100% - 12px) 0%, 100% 50%, calc(100% - 12px) 100%, 12px 100%, 0% 50%);font-family:var(--bcfh-body);color:var(--bcfh-ink);font-size:15px;line-height:1.6;}
 
 .bcfh-paperbg{background-color:var(--bcfh-paper);}
 .bcfh-inkbg{background-color:var(--bcfh-ink);color:var(--bcfh-white);}
 .bcfh-slatebg{background-color:var(--bcfh-slate);color:var(--bcfh-white);}
 .bcfh-voltbg{background-color:var(--bcfh-volt);color:var(--bcfh-ink);}
 
-.bcfh-hazard{position:absolute;left:0;bottom:0;display:block;height:14px;width:100%;background-image:repeating-linear-gradient(-45deg, var(--bcfh-volt) 0px, var(--bcfh-volt) 16px, var(--bcfh-ink) 16px, var(--bcfh-ink) 32px);}
-
 .bcfh-kicker{display:inline-flex;align-items:center;gap:10px;font-family:var(--bcfh-body);font-weight:600;text-transform:uppercase;letter-spacing:0.14em;font-size:12px;line-height:1.2;color:var(--bcfh-red);margin-top:0;margin-bottom:12px;}
-.bcfh-kicker::before{content:"";display:block;width:22px;height:3px;background-color:currentColor;}
+.bcfh-kicker::before{content:"";display:block;width:14px;height:12px;background-color:currentColor;clip-path:var(--bcfh-hex);}
 .bcfh-kickervolt{color:var(--bcfh-volt);}
 .bcfh-h2{font-family:var(--bcfh-head);font-weight:800;font-size:clamp(2.2rem, 4.4vw, 3.4rem);line-height:1;letter-spacing:-0.03em;margin-top:0;margin-bottom:0;}
 .bcfh-arrow{width:16px;height:16px;flex-shrink:0;transition:transform 0.25s ease;}
 
-.bcfh-hero{padding-top:var(--wp--preset--spacing--70, 3.38rem);padding-bottom:var(--wp--preset--spacing--70, 3.38rem);overflow:hidden;}
+.bcfh-btn{display:inline-flex;align-items:center;gap:10px;font-family:var(--bcfh-body);font-weight:600;font-size:14px;line-height:1;padding:15px 24px;background-color:var(--bcfh-ink);color:var(--bcfh-white);white-space:nowrap;text-decoration:none;clip-path:var(--bcfh-cham);transition:background-color 0.2s ease, color 0.2s ease;}
+.bcfh-btn:hover{background-color:var(--bcfh-volt);color:var(--bcfh-ink);}
+.bcfh-btn:hover .bcfh-arrow{transform:translateX(4px);}
+.bcfh-btn:focus-visible{background-color:var(--bcfh-volt);color:var(--bcfh-ink);text-decoration:underline;outline:none;}
+.bcfh-textlink{display:inline-flex;align-items:center;gap:8px;font-weight:600;font-size:14px;line-height:1.2;color:inherit;text-decoration:none;}
+
+.bcfh-hexbg{position:absolute;top:0;left:0;width:100%;height:100%;z-index:0;pointer-events:none;}
+.bcfh-hexline{fill:none;stroke-width:1;}
+
+.bcfh-nutrow{position:absolute;top:0;left:0;z-index:2;display:block;width:100%;height:22px;}
+.bcfh-nutrowbg{fill:var(--bcfh-ink);}
+.bcfh-nutrownut{fill:#4a4f56;}
+
+.bcfh-hero{padding-top:var(--wp--preset--spacing--70, 3.38rem);padding-bottom:calc(var(--wp--preset--spacing--70, 3.38rem) + 18px);overflow:hidden;}
+.bcfh-heronut{position:absolute;top:-120px;right:-140px;width:560px;height:560px;z-index:0;color:var(--bcfh-ink-3);pointer-events:none;}
+.bcfh-tear{position:absolute;left:0;bottom:-1px;z-index:2;display:block;width:100%;height:28px;background-color:var(--bcfh-volt);clip-path:polygon(0% 100%, 0.0% 12px, 2.5% 14px, 4.5% 4px, 6.8% 5px, 8.2% 3px, 10.7% 8px, 11.5% 15px, 13.1% 9px, 14.0% 15px, 14.9% 20px, 16.0% 9px, 17.9% 20px, 20.4% 20px, 22.3% 3px, 24.8% 3px, 26.6% 6px, 27.9% 6px, 29.7% 20px, 31.1% 7px, 32.1% 20px, 34.0% 13px, 35.0% 4px, 36.8% 21px, 38.0% 19px, 39.5% 12px, 41.2% 16px, 42.6% 9px, 44.9% 9px, 45.8% 11px, 47.5% 12px, 49.7% 11px, 51.6% 4px, 52.6% 15px, 53.7% 12px, 54.7% 17px, 56.3% 4px, 58.5% 20px, 60.7% 12px, 62.1% 13px, 64.0% 20px, 66.2% 4px, 68.5% 10px, 70.2% 4px, 71.1% 11px, 73.1% 16px, 74.4% 14px, 76.8% 13px, 77.6% 16px, 79.0% 21px, 80.1% 3px, 81.2% 11px, 82.3% 9px, 83.8% 17px, 84.7% 16px, 86.3% 10px, 88.7% 15px, 91.0% 10px, 93.1% 13px, 95.1% 14px, 97.6% 6px, 98.6% 6px, 99.8% 9px, 100% 10px, 100% 100%);}
 .bcfh-herohead{display:grid;grid-template-columns:1.4fr 1fr;gap:40px;align-items:end;margin-bottom:32px;}
 .bcfh-h1{font-family:var(--bcfh-head);font-weight:800;font-size:clamp(2.6rem, 5.6vw, 4.6rem);line-height:0.98;letter-spacing:-0.035em;margin-top:0;margin-bottom:0;}
 .bcfh-h1mark{color:var(--bcfh-volt);font-style:normal;}
@@ -44,7 +57,7 @@
 .bcfh-feature{grid-column:1 / 8;grid-row:1 / 3;background-color:var(--bcfh-red);color:var(--bcfh-white);padding:34px;display:grid;grid-template-columns:1fr 1fr;grid-template-rows:auto 1fr auto;column-gap:16px;isolation:isolate;}
 .bcfh-ghost{position:absolute;right:-12px;bottom:40px;z-index:-1;font-family:var(--bcfh-head);font-weight:900;font-size:220px;line-height:0.8;letter-spacing:-0.05em;color:transparent;-webkit-text-stroke:2px rgba(255, 255, 255, 0.22);white-space:nowrap;pointer-events:none;}
 .bcfh-ftop{grid-column:1 / 3;display:flex;justify-content:space-between;align-items:center;gap:12px;}
-.bcfh-fevent{display:inline-flex;align-items:center;gap:8px;background-color:var(--bcfh-ink);color:var(--bcfh-white);font-weight:600;text-transform:uppercase;letter-spacing:0.12em;font-size:11px;line-height:1;padding:9px 12px;border-radius:3px;}
+.bcfh-fevent{display:inline-flex;align-items:center;gap:8px;background-color:var(--bcfh-ink);color:var(--bcfh-white);font-weight:600;text-transform:uppercase;letter-spacing:0.12em;font-size:11px;line-height:1;padding:9px 18px;clip-path:var(--bcfh-cham);}
 .bcfh-fbrand{font-family:var(--bcfh-head);font-weight:800;font-style:italic;font-size:22px;line-height:1;letter-spacing:-0.02em;}
 .bcfh-fbody{grid-column:1 / 2;grid-row:2 / 3;display:flex;flex-direction:column;justify-content:center;padding-top:20px;padding-bottom:20px;}
 .bcfh-fname{font-family:var(--bcfh-head);font-weight:800;font-size:clamp(1.9rem, 3vw, 2.6rem);line-height:1.02;letter-spacing:-0.03em;margin-top:0;margin-bottom:10px;}
@@ -52,20 +65,15 @@
 .bcfh-fmedia{grid-column:2 / 3;grid-row:2 / 3;position:relative;display:flex;align-items:center;justify-content:center;}
 .bcfh-fimg{width:100%;height:auto;max-width:340px;aspect-ratio:1 / 1;object-fit:contain;display:block;transition:transform 0.5s cubic-bezier(0.2, 0.7, 0.2, 1);}
 .bcfh-feature:hover .bcfh-fimg{transform:scale(1.04) rotate(-2deg);}
-.bcfh-hang{position:absolute;top:4px;left:-8px;display:flex;flex-direction:column;align-items:flex-start;background-color:var(--bcfh-white);color:var(--bcfh-ink);padding:26px 18px 14px 18px;border-radius:4px 4px 10px 10px;box-shadow:0px 14px 24px 0px rgba(17, 19, 21, 0.28);transform:rotate(-7deg);transform-origin:50% 0%;transition:transform 0.5s cubic-bezier(0.35, 0.11, 0.22, 1.16);}
-.bcfh-hang::before{content:"";position:absolute;top:9px;left:50%;width:10px;height:10px;margin-left:-5px;border-radius:50%;background-color:var(--bcfh-red);box-shadow:inset 0px 1px 2px 0px rgba(0, 0, 0, 0.35);}
-.bcfh-feature:hover .bcfh-hang{transform:rotate(-2deg);}
+.bcfh-hangwrap{position:absolute;top:0px;left:-10px;filter:drop-shadow(0px 12px 14px rgba(17, 19, 21, 0.35));transform:rotate(-7deg);transform-origin:50% 0%;transition:transform 0.5s cubic-bezier(0.35, 0.11, 0.22, 1.16);}
+.bcfh-feature:hover .bcfh-hangwrap{transform:rotate(-2deg);}
+.bcfh-hang{position:relative;display:flex;flex-direction:column;align-items:flex-start;background-color:var(--bcfh-white);color:var(--bcfh-ink);padding:28px 20px 20px 20px;border-radius:4px 4px 0px 0px;clip-path:polygon(0% 0%, 100% 0%, 100.0% calc(100% - 3px), 94.6% calc(100% - 2px), 90.1% calc(100% - 9px), 85.3% calc(100% - 9px), 82.0% calc(100% - 0px), 75.4% calc(100% - 7px), 71.3% calc(100% - 3px), 67.6% calc(100% - 7px), 62.4% calc(100% - 8px), 57.5% calc(100% - 2px), 53.6% calc(100% - 2px), 47.1% calc(100% - 8px), 42.5% calc(100% - 0px), 36.8% calc(100% - 1px), 33.2% calc(100% - 9px), 30.0% calc(100% - 0px), 23.7% calc(100% - 4px), 18.8% calc(100% - 6px), 13.0% calc(100% - 6px), 8.4% calc(100% - 9px), 3.6% calc(100% - 2px), 0% calc(100% - 4px));}
+.bcfh-hang::before{content:"";position:absolute;top:9px;left:50%;width:12px;height:11px;margin-left:-6px;background-color:var(--bcfh-red);clip-path:var(--bcfh-hex);}
 .bcfh-hangsave{font-weight:700;text-transform:uppercase;letter-spacing:0.1em;font-size:11px;line-height:1.2;color:var(--bcfh-red);}
 .bcfh-hangnow{font-family:var(--bcfh-head);font-weight:900;font-size:58px;line-height:0.95;letter-spacing:-0.04em;}
 .bcfh-hangnote{font-size:11px;line-height:1.3;color:var(--bcfh-muted);}
 .bcfh-ffoot{grid-column:1 / 3;display:flex;justify-content:space-between;align-items:center;gap:12px;padding-top:18px;border-top:1px solid rgba(255, 255, 255, 0.3);}
 .bcfh-ffine{font-size:12px;line-height:1.4;color:rgba(255, 255, 255, 0.85);}
-
-.bcfh-btn{display:inline-flex;align-items:center;gap:10px;font-family:var(--bcfh-body);font-weight:600;font-size:14px;line-height:1;padding:14px 18px;border-radius:4px;background-color:var(--bcfh-ink);color:var(--bcfh-white);white-space:nowrap;text-decoration:none;transition:background-color 0.2s ease, color 0.2s ease;}
-.bcfh-btn:hover{background-color:var(--bcfh-volt);color:var(--bcfh-ink);}
-.bcfh-btnvolt{background-color:var(--bcfh-volt);color:var(--bcfh-ink);}
-.bcfh-btnvolt:hover{background-color:var(--bcfh-white);color:var(--bcfh-ink);}
-.bcfh-textlink{display:inline-flex;align-items:center;gap:8px;font-weight:600;font-size:14px;line-height:1.2;color:inherit;text-decoration:none;}
 
 .bcfh-wide{grid-column:8 / 13;grid-row:1 / 2;background-color:#cfd3d4;color:var(--bcfh-ink);padding:0;}
 .bcfh-wideimg{position:absolute;top:0;left:0;width:100%;height:100%;object-fit:cover;display:block;transition:transform 0.6s cubic-bezier(0.2, 0.7, 0.2, 1);}
@@ -82,13 +90,13 @@
 .bcfh-simg{width:100%;height:auto;aspect-ratio:4 / 3;object-fit:contain;display:block;margin-top:10px;margin-bottom:10px;transition:transform 0.5s cubic-bezier(0.2, 0.7, 0.2, 1);}
 .bcfh-small:hover .bcfh-simg{transform:translateY(-6px);}
 .bcfh-sfoot{display:flex;justify-content:space-between;align-items:center;gap:8px;font-size:12px;line-height:1.35;}
-.bcfh-tag{display:inline-block;align-self:flex-start;font-weight:600;text-transform:uppercase;letter-spacing:0.1em;font-size:10px;line-height:1;padding:6px 8px;border-radius:3px;background-color:var(--bcfh-volt);color:var(--bcfh-ink);}
+.bcfh-tag{display:inline-block;align-self:flex-start;font-weight:600;text-transform:uppercase;letter-spacing:0.1em;font-size:10px;line-height:1;padding:6px 12px;background-color:var(--bcfh-volt);color:var(--bcfh-ink);clip-path:polygon(7px 0%, calc(100% - 7px) 0%, 100% 50%, calc(100% - 7px) 100%, 7px 100%, 0% 50%);}
 .bcfh-tagred{background-color:var(--bcfh-red);color:var(--bcfh-white);}
 
-.bcfh-trust{padding-top:16px;padding-bottom:16px;}
+.bcfh-trust{padding-top:14px;padding-bottom:18px;}
 .bcfh-trustlist{display:grid;grid-template-columns:repeat(4, minmax(0, 1fr));gap:20px;margin-top:0;margin-bottom:0;padding-left:0;list-style:none;}
 .bcfh-trustitem{display:flex;align-items:center;gap:12px;}
-.bcfh-trusticon{width:30px;height:30px;flex-shrink:0;padding:6px;border-radius:50%;background-color:var(--bcfh-ink);color:var(--bcfh-volt);}
+.bcfh-trusticon{width:38px;height:42px;flex-shrink:0;padding:10px 9px;box-sizing:border-box;background-color:var(--bcfh-ink);color:var(--bcfh-volt);clip-path:var(--bcfh-hexup);}
 .bcfh-trusttext{font-size:13px;line-height:1.35;margin-top:0;margin-bottom:0;}
 .bcfh-trustlead{display:block;font-family:var(--bcfh-head);font-weight:700;font-size:16px;line-height:1.2;}
 .bcfh-trustlink{color:var(--bcfh-ink);text-decoration:underline;text-underline-offset:3px;}
@@ -99,55 +107,59 @@
 .bcfh-headlink:hover .bcfh-arrow{transform:translateX(4px);}
 .bcfh-headlinkvolt{border-bottom-color:var(--bcfh-volt);}
 
-.bcfh-chips{display:flex;flex-wrap:wrap;gap:8px;margin-top:0;margin-bottom:24px;}
-.bcfh-chip{font-family:var(--bcfh-body);font-weight:500;font-size:13px;line-height:1;padding:10px 14px;border-radius:40px;border:1px solid var(--bcfh-line);background-color:var(--bcfh-white);color:var(--bcfh-ink);cursor:pointer;transition:background-color 0.2s ease, color 0.2s ease, border-color 0.2s ease;}
-.bcfh-chip:hover{border-color:var(--bcfh-ink);}
-.bcfh-chip[aria-pressed="true"]{background-color:var(--bcfh-ink);border-color:var(--bcfh-ink);color:var(--bcfh-volt);}
-.bcfh-chipcount{opacity:0.55;margin-left:4px;}
-
-.bcfh-pgrid{display:grid;grid-template-columns:repeat(7, minmax(0, 1fr));gap:12px;margin-top:0;margin-bottom:0;padding-left:0;list-style:none;}
-.bcfh-pcard{display:flex;}
-.bcfh-pcard[hidden]{display:none;}
-.bcfh-plink{position:relative;display:flex;flex-direction:column;width:100%;background-color:var(--bcfh-white);border-radius:6px;text-decoration:none;color:var(--bcfh-ink);overflow:hidden;box-shadow:0px 0px 0px 1px var(--bcfh-line);transition:box-shadow 0.25s ease, transform 0.25s ease;}
-.bcfh-plink:hover{box-shadow:0px 0px 0px 2px var(--bcfh-ink), 0px 16px 30px 0px rgba(17, 19, 21, 0.12);transform:translateY(-4px);}
-.bcfh-plink:hover .bcfh-pview{transform:translateY(0%);}
-.bcfh-plink:hover .bcfh-pimg{transform:scale(1.06);}
-.bcfh-plink:focus-visible{outline:3px solid var(--bcfh-red);outline-offset:2px;}
-.bcfh-pmedia{position:relative;display:block;padding:16px;overflow:hidden;}
+.bcfh-pgrid{display:grid;grid-template-columns:repeat(7, minmax(0, 1fr));gap:12px;}
+.bcfh-pgrid :not(.bcfh-pcard):has(.bcfh-pcard){display:contents;}
+.bcfh-pcard{box-sizing:border-box;position:relative;display:flex;flex-direction:column;height:100%;background-color:var(--bcfh-white);color:var(--bcfh-ink);border-radius:6px;overflow:hidden;box-shadow:0px 0px 0px 1px var(--bcfh-line);transition:box-shadow 0.25s ease, transform 0.25s ease;}
+.bcfh-pcard:hover{box-shadow:0px 0px 0px 2px var(--bcfh-ink), 0px 16px 30px 0px rgba(17, 19, 21, 0.12);transform:translateY(-4px);}
+.bcfh-pcard:hover .bcfh-pnut{transform:rotate(30deg) scale(1.04);color:#e9f6a4;}
+.bcfh-pcard:hover .bcfh-pimg{transform:scale(1.05);}
+.bcfh-pcard:hover .bcfh-pgo{color:var(--bcfh-red);}
+.bcfh-pcard:focus-within{box-shadow:0px 0px 0px 3px var(--bcfh-red);}
+.bcfh-pmedia{position:relative;display:flex;align-items:center;justify-content:center;padding:16px;isolation:isolate;}
+.bcfh-pnut{position:absolute;top:8%;left:8%;width:84%;height:84%;z-index:-1;color:#efede7;transition:transform 0.6s cubic-bezier(0.2, 0.7, 0.2, 1), color 0.3s ease;}
 .bcfh-pimg{display:block;width:100%;height:auto;aspect-ratio:1 / 1;object-fit:contain;transition:transform 0.4s cubic-bezier(0.2, 0.7, 0.2, 1);}
-.bcfh-pview{position:absolute;left:0;right:0;bottom:0;display:flex;justify-content:center;align-items:center;gap:6px;padding:9px;background-color:var(--bcfh-ink);color:var(--bcfh-volt);font-weight:600;font-size:12px;line-height:1;transform:translateY(101%);transition:transform 0.3s cubic-bezier(0.2, 0.7, 0.2, 1);}
 .bcfh-pbody{display:flex;flex-direction:column;flex-grow:1;padding:0 13px 13px 13px;}
-.bcfh-pbrand{font-weight:600;text-transform:uppercase;letter-spacing:0.12em;font-size:10px;line-height:1.2;color:var(--bcfh-red);margin-top:0;margin-bottom:4px;}
-.bcfh-pname{font-family:var(--bcfh-head);font-weight:600;font-size:15px;line-height:1.25;letter-spacing:-0.01em;margin-top:0;margin-bottom:4px;}
+.bcfh-pbrand{position:relative;z-index:2;font-weight:600;text-transform:uppercase;letter-spacing:0.12em;font-size:10px;line-height:1.2;color:var(--bcfh-red);margin-top:0;margin-bottom:4px;}
+.bcfh-pbrand a{color:inherit;text-decoration:none;}
+.bcfh-pbrand a:hover{text-decoration:underline;}
+.bcfh-pname{font-family:var(--bcfh-head);font-weight:600;font-size:15px;line-height:1.25;letter-spacing:-0.01em;margin-top:0;margin-bottom:4px;display:-webkit-box;-webkit-line-clamp:3;-webkit-box-orient:vertical;overflow:hidden;}
+.bcfh-pnamelink{color:inherit;text-decoration:none;}
+.bcfh-pnamelink::after{content:"";position:absolute;top:0;right:0;bottom:0;left:0;z-index:1;}
+.bcfh-pnamelink:focus-visible{outline:none;}
 .bcfh-psku{font-size:11px;line-height:1.3;color:var(--bcfh-muted);margin-top:0;margin-bottom:12px;}
 .bcfh-pfoot{display:flex;justify-content:space-between;align-items:center;gap:6px;margin-top:auto;}
-.bcfh-pprice{display:inline-block;background-color:var(--bcfh-ink);color:var(--bcfh-volt);font-family:var(--bcfh-head);font-weight:700;font-size:17px;line-height:1;padding:7px 9px;border-radius:3px;}
-.bcfh-pnote{font-size:10px;line-height:1.2;color:var(--bcfh-muted);text-transform:uppercase;letter-spacing:0.06em;}
+.bcfh-pprice{display:inline-flex;align-items:baseline;gap:1px;background-color:var(--bcfh-ink);color:var(--bcfh-volt);font-family:var(--bcfh-head);font-weight:700;font-size:17px;line-height:1;padding:7px 13px;clip-path:polygon(7px 0%, calc(100% - 7px) 0%, 100% 50%, calc(100% - 7px) 100%, 7px 100%, 0% 50%);}
+.bcfh-pcur{font-size:13px;line-height:1;}
+.bcfh-pgo{font-size:12px;line-height:1;font-weight:600;color:var(--bcfh-muted);transition:color 0.2s ease;}
 
-.bcfh-spot{background-color:var(--bcfh-blue-paper);background-image:linear-gradient(rgba(46, 81, 105, 0.09) 1px, transparent 1px), linear-gradient(90deg, rgba(46, 81, 105, 0.09) 1px, transparent 1px);background-size:28px 28px;padding-top:var(--wp--preset--spacing--80, 5.06rem);padding-bottom:var(--wp--preset--spacing--80, 5.06rem);}
+.bcfh-spot{background-color:#e7edf1;padding-top:calc(var(--wp--preset--spacing--80, 5.06rem) + 22px);padding-bottom:var(--wp--preset--spacing--80, 5.06rem);overflow:hidden;}
+.bcfh-spothex{stroke:rgba(46, 81, 105, 0.13);}
 .bcfh-spotgrid{display:grid;grid-template-columns:1.25fr 1fr;gap:56px;align-items:center;}
-.bcfh-stage{box-sizing:border-box;position:relative;aspect-ratio:1 / 0.86;border:2px solid var(--bcfh-slate);border-radius:6px;background-color:var(--bcfh-white);}
+.bcfh-stage{box-sizing:border-box;position:relative;aspect-ratio:1 / 0.86;border-radius:6px;background-color:var(--bcfh-white);box-shadow:0px 0px 0px 2px var(--bcfh-slate);isolation:isolate;}
+.bcfh-stagenut{position:absolute;top:6%;left:50%;width:76%;height:88%;margin-left:-38%;z-index:-1;color:#eef2f4;}
 .bcfh-stageimg{position:absolute;top:8%;left:8%;width:84%;height:84%;object-fit:contain;display:block;}
-.bcfh-stagecorner{position:absolute;top:-2px;left:-2px;background-color:var(--bcfh-slate);color:var(--bcfh-white);font-weight:600;font-size:11px;line-height:1;letter-spacing:0.1em;text-transform:uppercase;padding:8px 12px;border-radius:6px 0px 6px 0px;}
+.bcfh-stagecorner{position:absolute;top:14px;left:14px;background-color:var(--bcfh-slate);color:var(--bcfh-white);font-weight:600;font-size:11px;line-height:1;letter-spacing:0.1em;text-transform:uppercase;padding:8px 16px;clip-path:polygon(8px 0%, calc(100% - 8px) 0%, 100% 50%, calc(100% - 8px) 100%, 8px 100%, 0% 50%);}
 .bcfh-pin{position:absolute;display:flex;align-items:center;gap:10px;}
 .bcfh-pin1{top:20%;left:58%;}
 .bcfh-pin2{top:56%;left:-24px;}
 .bcfh-pin3{bottom:12%;right:-24px;flex-direction:row-reverse;}
-.bcfh-pindot{display:flex;align-items:center;justify-content:center;width:30px;height:30px;flex-shrink:0;border-radius:50%;background-color:var(--bcfh-red);color:var(--bcfh-white);font-family:var(--bcfh-head);font-weight:800;font-size:14px;line-height:1;box-shadow:0px 0px 0px 4px rgba(210, 38, 48, 0.2);}
+.bcfh-pindot{display:flex;align-items:center;justify-content:center;width:34px;height:30px;flex-shrink:0;background-color:var(--bcfh-red);color:var(--bcfh-white);font-family:var(--bcfh-head);font-weight:800;font-size:14px;line-height:1;clip-path:var(--bcfh-hex);}
 .bcfh-pinlabel{background-color:var(--bcfh-ink);color:var(--bcfh-white);font-size:12px;line-height:1.3;font-weight:500;padding:8px 11px;border-radius:4px;max-width:190px;}
 .bcfh-spotcopy{display:flex;flex-direction:column;align-items:flex-start;}
 .bcfh-spotbrand{font-family:var(--bcfh-head);font-weight:800;font-style:italic;font-size:18px;line-height:1;color:var(--bcfh-red);margin-top:0;margin-bottom:8px;}
 .bcfh-spottext{font-size:16px;line-height:1.65;color:var(--bcfh-muted);margin-top:16px;margin-bottom:22px;max-width:44ch;}
 .bcfh-specs{width:100%;margin-top:0;margin-bottom:24px;padding-left:0;list-style:none;border-top:2px solid var(--bcfh-ink);}
 .bcfh-spec{display:flex;justify-content:space-between;gap:16px;padding:11px 0;border-bottom:1px solid rgba(46, 81, 105, 0.25);font-size:14px;line-height:1.4;}
-.bcfh-specnum{display:inline-flex;align-items:center;justify-content:center;width:20px;height:20px;margin-right:8px;border-radius:50%;background-color:var(--bcfh-red);color:var(--bcfh-white);font-family:var(--bcfh-head);font-weight:800;font-size:11px;line-height:1;}
+.bcfh-specnum{display:inline-flex;align-items:center;justify-content:center;width:23px;height:20px;margin-right:8px;background-color:var(--bcfh-red);color:var(--bcfh-white);font-family:var(--bcfh-head);font-weight:800;font-size:11px;line-height:1;clip-path:var(--bcfh-hex);}
 .bcfh-speckey{display:inline-flex;align-items:center;color:var(--bcfh-muted);}
 .bcfh-specval{font-weight:600;text-align:right;}
-.bcfh-buyrow{display:flex;align-items:center;gap:20px;flex-wrap:wrap;margin-bottom:24px;}
+.bcfh-buyrow{display:flex;align-items:center;gap:20px;flex-wrap:wrap;margin-bottom:26px;}
 .bcfh-bigprice{font-family:var(--bcfh-head);font-weight:900;font-size:52px;line-height:1;letter-spacing:-0.04em;}
-.bcfh-pair{box-sizing:border-box;display:flex;align-items:center;gap:14px;width:100%;padding:12px 14px;border-radius:6px;background-color:var(--bcfh-white);border:1px dashed var(--bcfh-slate);color:var(--bcfh-ink);text-decoration:none;}
-.bcfh-pair:hover{border-style:solid;}
-.bcfh-pair:hover .bcfh-arrow{transform:translateX(4px);}
+.bcfh-coupon{box-sizing:border-box;position:relative;display:flex;align-items:center;gap:14px;width:100%;padding:20px 16px 14px 16px;background-color:var(--bcfh-white);color:var(--bcfh-ink);text-decoration:none;clip-path:polygon(0.0% 7px, 4.6% 7px, 8.0% 9px, 10.5% 8px, 13.9% 9px, 18.3% 1px, 21.7% 2px, 23.9% 0px, 27.7% 6px, 32.6% 9px, 36.6% 9px, 38.6% 8px, 40.8% 0px, 43.4% 3px, 47.2% 7px, 50.2% 9px, 54.7% 8px, 57.4% 4px, 60.9% 1px, 64.3% 4px, 67.5% 8px, 72.5% 1px, 76.6% 5px, 80.9% 8px, 83.7% 1px, 87.4% 1px, 90.6% 4px, 93.8% 0px, 98.3% 0px, 100% 4px, 100% 100%, 0% 100%);transition:transform 0.3s cubic-bezier(0.2, 0.7, 0.2, 1);}
+.bcfh-coupon:hover{transform:translateY(-3px);}
+.bcfh-coupon:hover .bcfh-arrow{transform:translateX(4px);}
+.bcfh-coupon:focus-visible{outline:none;background-color:#fbfde6;}
+.bcfh-couponflag{position:absolute;top:14px;right:14px;font-weight:700;text-transform:uppercase;letter-spacing:0.1em;font-size:10px;line-height:1;color:var(--bcfh-red);}
 .bcfh-pairimg{width:56px;height:56px;object-fit:contain;flex-shrink:0;}
 .bcfh-pairtext{font-size:13px;line-height:1.4;flex-grow:1;}
 .bcfh-pairlead{display:block;font-family:var(--bcfh-head);font-weight:700;font-size:15px;line-height:1.3;}
@@ -157,15 +169,17 @@
 .bcfh-piptext{font-size:16px;line-height:1.65;color:var(--bcfh-muted);margin-top:16px;margin-bottom:24px;max-width:42ch;}
 .bcfh-piplabel{font-size:13px;line-height:1.4;margin-top:0;margin-bottom:10px;}
 .bcfh-pipcur{font-weight:600;}
-.bcfh-swatches{display:grid;grid-template-columns:repeat(6, 44px);gap:8px;margin-top:0;margin-bottom:26px;}
-.bcfh-sw{width:44px;height:44px;border-radius:50%;border:2px solid var(--bcfh-white);box-shadow:0px 0px 0px 1px var(--bcfh-line);cursor:pointer;padding:0;transition:transform 0.2s ease, box-shadow 0.2s ease;}
-.bcfh-sw:hover{transform:scale(1.1);}
-.bcfh-sw:focus-visible{outline:3px solid var(--bcfh-red);outline-offset:2px;}
-.bcfh-sw[aria-pressed="true"]{box-shadow:0px 0px 0px 2px var(--bcfh-ink);}
-.bcfh-helmetstage{--bcfh-hc:#ffffff;position:relative;display:flex;align-items:center;justify-content:center;aspect-ratio:1 / 0.85;border-radius:8px;background-color:var(--bcfh-ink);}
-.bcfh-helmetbadge{position:absolute;top:18px;left:18px;display:flex;gap:8px;}
-.bcfh-helmetmade{position:absolute;right:18px;bottom:16px;font-weight:600;text-transform:uppercase;letter-spacing:0.12em;font-size:11px;line-height:1.2;color:rgba(255, 255, 255, 0.6);}
-.bcfh-helmet{width:78%;height:auto;display:block;}
+.bcfh-swatches{display:grid;grid-template-columns:repeat(6, 44px);gap:6px 8px;margin-top:0;margin-bottom:26px;}
+.bcfh-swwrap{display:block;padding:3px;background-color:transparent;clip-path:var(--bcfh-hexup);transition:background-color 0.2s ease;}
+.bcfh-swwrap:has([aria-pressed="true"]){background-color:var(--bcfh-ink);}
+.bcfh-sw{display:block;width:38px;height:44px;border:0;padding:0;cursor:pointer;clip-path:var(--bcfh-hexup);box-shadow:inset 0px 0px 0px 1px rgba(17, 19, 21, 0.2);transition:transform 0.2s ease;}
+.bcfh-sw:hover{transform:scale(0.9);}
+.bcfh-sw:focus-visible{outline:none;transform:scale(0.82);}
+.bcfh-helmetstage{--bcfh-hc:#ffffff;position:relative;display:flex;align-items:center;justify-content:center;aspect-ratio:1 / 0.85;border-radius:8px;background-color:var(--bcfh-ink);overflow:hidden;isolation:isolate;}
+.bcfh-stagehex{stroke:rgba(255, 255, 255, 0.06);}
+.bcfh-helmetbadge{position:absolute;top:18px;left:18px;z-index:1;display:flex;gap:8px;}
+.bcfh-helmetmade{position:absolute;right:18px;bottom:16px;z-index:1;font-weight:600;text-transform:uppercase;letter-spacing:0.12em;font-size:11px;line-height:1.2;color:rgba(255, 255, 255, 0.6);}
+.bcfh-helmet{position:relative;z-index:1;width:78%;height:auto;display:block;}
 .bcfh-hshell{fill:var(--bcfh-hc);transition:fill 0.45s ease;}
 .bcfh-hshade{fill:#000000;opacity:0.14;}
 .bcfh-hlight{fill:#ffffff;opacity:0.35;}
@@ -173,42 +187,62 @@
 .bcfh-hstrap{fill:none;stroke:#3a3f45;stroke-width:6;stroke-linecap:round;}
 
 .bcfh-podium{display:grid;grid-template-columns:1fr 1.25fr;gap:14px;}
-.bcfh-first{box-sizing:border-box;position:relative;display:flex;flex-direction:column;border-radius:6px;overflow:hidden;background-color:var(--bcfh-volt);color:var(--bcfh-ink);text-decoration:none;padding:26px;}
+.bcfh-firstloop{display:flex;flex-direction:column;}
+.bcfh-firstloop :not(.bcfh-first):has(.bcfh-first){display:contents;}
+.bcfh-first{box-sizing:border-box;position:relative;display:flex;flex-direction:column;flex-grow:1;height:100%;overflow:hidden;background-color:var(--bcfh-volt);color:var(--bcfh-ink);padding:26px;clip-path:polygon(0% 0%, calc(100% - 46px) 0%, 100% 46px, 100% 100%, 0% 100%);}
 .bcfh-first:hover .bcfh-firstimg{transform:scale(1.05) rotate(-2deg);}
 .bcfh-first:hover .bcfh-arrow{transform:translateX(4px);}
-.bcfh-firstnum{font-family:var(--bcfh-head);font-weight:900;font-size:120px;line-height:0.8;letter-spacing:-0.06em;}
-.bcfh-firstlabel{font-weight:600;text-transform:uppercase;letter-spacing:0.12em;font-size:11px;line-height:1.3;margin-top:8px;margin-bottom:0;}
-.bcfh-firstmedia{display:block;margin-top:16px;margin-bottom:16px;background-color:var(--bcfh-white);border-radius:6px;padding:18px;}
+.bcfh-first:focus-within{box-shadow:inset 0px 0px 0px 3px var(--bcfh-ink);}
+.bcfh-firstrow{display:flex;align-items:center;gap:14px;}
+.bcfh-firstnum{display:flex;align-items:center;justify-content:center;width:92px;height:80px;flex-shrink:0;background-color:var(--bcfh-ink);color:var(--bcfh-volt);font-family:var(--bcfh-head);font-weight:900;font-size:40px;line-height:1;letter-spacing:-0.04em;clip-path:var(--bcfh-hex);}
+.bcfh-firstlabel{font-weight:600;text-transform:uppercase;letter-spacing:0.12em;font-size:11px;line-height:1.4;margin-top:0;margin-bottom:0;}
+.bcfh-firstmedia{display:block;margin-top:18px;margin-bottom:16px;background-color:var(--bcfh-white);border-radius:6px;padding:18px;}
 .bcfh-firstimg{display:block;width:100%;height:auto;aspect-ratio:4 / 3;object-fit:contain;transition:transform 0.5s cubic-bezier(0.2, 0.7, 0.2, 1);}
+.bcfh-firstbrand{position:relative;z-index:2;font-weight:600;text-transform:uppercase;letter-spacing:0.12em;font-size:11px;line-height:1.3;margin-top:0;margin-bottom:4px;}
+.bcfh-firstbrand a{color:inherit;}
 .bcfh-firstname{font-family:var(--bcfh-head);font-weight:800;font-size:28px;line-height:1.05;letter-spacing:-0.025em;margin-top:0;margin-bottom:14px;}
+.bcfh-firstlink{color:inherit;text-decoration:none;}
+.bcfh-firstlink::after{content:"";position:absolute;top:0;right:0;bottom:0;left:0;z-index:1;}
+.bcfh-firstlink:focus-visible{outline:none;}
 .bcfh-firstfoot{display:flex;justify-content:space-between;align-items:center;margin-top:auto;font-weight:600;font-size:14px;line-height:1.2;}
-.bcfh-ranklist{display:flex;flex-direction:column;margin-top:0;margin-bottom:0;padding-left:0;list-style:none;border-top:1px solid var(--bcfh-ink-3);}
-.bcfh-ritem{display:flex;border-bottom:1px solid var(--bcfh-ink-3);}
-.bcfh-rlink{box-sizing:border-box;display:grid;grid-template-columns:56px 76px 1fr 24px;align-items:center;gap:16px;width:100%;padding:12px 10px;color:var(--bcfh-white);text-decoration:none;transition:background-color 0.25s ease, padding-left 0.25s ease;}
-.bcfh-rlink:hover{background-color:var(--bcfh-ink-2);padding-left:18px;}
-.bcfh-rlink:hover .bcfh-rnum{color:var(--bcfh-volt);}
-.bcfh-rlink:hover .bcfh-arrow{transform:translateX(4px);color:var(--bcfh-volt);}
-.bcfh-rnum{font-family:var(--bcfh-head);font-weight:800;font-size:34px;line-height:1;letter-spacing:-0.04em;color:rgba(255, 255, 255, 0.35);transition:color 0.25s ease;}
-.bcfh-rimg{display:block;width:76px;height:76px;object-fit:contain;background-color:var(--bcfh-white);border-radius:5px;padding:6px;}
+.bcfh-ranklist{display:flex;flex-direction:column;counter-reset:bcfh-rank 1;border-top:1px solid var(--bcfh-ink-3);}
+.bcfh-ranklist :not(.bcfh-ritem):has(.bcfh-ritem){display:contents;}
+.bcfh-ritem{box-sizing:border-box;position:relative;display:grid;grid-template-columns:58px 76px 1fr 24px;align-items:center;gap:16px;padding:12px 10px;border-bottom:1px solid var(--bcfh-ink-3);counter-increment:bcfh-rank;transition:background-color 0.25s ease, padding-left 0.25s ease;}
+.bcfh-ritem:hover{background-color:var(--bcfh-ink-2);padding-left:18px;}
+.bcfh-ritem:hover .bcfh-rnum{background-color:var(--bcfh-volt);color:var(--bcfh-ink);}
+.bcfh-ritem:hover .bcfh-arrow{transform:translateX(4px);color:var(--bcfh-volt);}
+.bcfh-ritem:focus-within{box-shadow:inset 0px 0px 0px 2px var(--bcfh-volt);}
+.bcfh-rnum{display:flex;align-items:center;justify-content:center;width:52px;height:46px;background-color:var(--bcfh-ink-3);color:rgba(255, 255, 255, 0.75);font-family:var(--bcfh-head);font-weight:800;font-size:20px;line-height:1;clip-path:var(--bcfh-hex);transition:background-color 0.25s ease, color 0.25s ease;}
+.bcfh-rnum::before{content:counter(bcfh-rank, decimal-leading-zero);}
+.bcfh-rimg{display:block;width:76px;height:76px;object-fit:contain;background-color:var(--bcfh-white);border-radius:5px;padding:6px;box-sizing:border-box;}
 .bcfh-rtext{display:flex;flex-direction:column;}
-.bcfh-rbrand{font-weight:600;text-transform:uppercase;letter-spacing:0.12em;font-size:10px;line-height:1.3;color:rgba(255, 255, 255, 0.55);}
+.bcfh-rbrand{position:relative;z-index:2;font-weight:600;text-transform:uppercase;letter-spacing:0.12em;font-size:10px;line-height:1.3;color:rgba(255, 255, 255, 0.55);}
+.bcfh-rbrand a{color:inherit;text-decoration:none;}
 .bcfh-rname{font-family:var(--bcfh-head);font-weight:600;font-size:17px;line-height:1.25;margin-top:2px;margin-bottom:0;}
+.bcfh-rlink{color:var(--bcfh-white);text-decoration:none;}
+.bcfh-rlink::after{content:"";position:absolute;top:0;right:0;bottom:0;left:0;z-index:1;}
+.bcfh-rlink:focus-visible{outline:none;}
 
+.bcfh-brands{padding-top:calc(var(--wp--preset--spacing--80, 5.06rem) + 22px);}
 .bcfh-bgrid{display:grid;grid-template-columns:repeat(4, minmax(0, 1fr));gap:14px;margin-top:0;margin-bottom:0;padding-left:0;list-style:none;}
 .bcfh-bitem{display:flex;}
 .bcfh-blink{position:relative;display:flex;flex-direction:column;justify-content:flex-end;width:100%;aspect-ratio:4 / 3;border-radius:6px;overflow:hidden;text-decoration:none;color:var(--bcfh-white);background-color:var(--bcfh-ink);isolation:isolate;}
 .bcfh-blink:hover .bcfh-bimg{transform:scale(1.07);}
 .bcfh-blink:hover .bcfh-bbar{width:100%;}
 .bcfh-blink:hover .bcfh-bcta{opacity:1;transform:translateX(0px);}
+.bcfh-blink:hover .bcfh-bhex{transform:rotate(30deg);background-color:var(--bcfh-volt);}
 .bcfh-blink:focus-visible{outline:3px solid var(--bcfh-red);outline-offset:3px;}
 .bcfh-bimg{position:absolute;top:0;left:0;z-index:-2;display:block;width:100%;height:100%;object-fit:cover;transition:transform 0.6s cubic-bezier(0.2, 0.7, 0.2, 1);}
 .bcfh-bscrim{position:absolute;left:0;right:0;bottom:0;height:60%;z-index:-1;background-image:linear-gradient(to top, rgba(17, 19, 21, 0.85), rgba(17, 19, 21, 0));}
-.bcfh-bmeta{display:flex;justify-content:space-between;align-items:flex-end;gap:8px;padding:16px 18px 14px 18px;}
+.bcfh-bmeta{display:flex;justify-content:space-between;align-items:center;gap:8px;padding:16px 18px 14px 18px;}
+.bcfh-bnamewrap{display:flex;align-items:center;gap:10px;}
+.bcfh-bhex{display:block;width:14px;height:16px;flex-shrink:0;background-color:var(--bcfh-white);clip-path:var(--bcfh-hexup);transition:transform 0.4s ease, background-color 0.3s ease;}
 .bcfh-bname{font-family:var(--bcfh-head);font-weight:800;font-size:22px;line-height:1.1;letter-spacing:-0.02em;margin-top:0;margin-bottom:0;}
 .bcfh-bcta{display:inline-flex;align-items:center;gap:6px;font-weight:600;font-size:12px;line-height:1;color:var(--bcfh-volt);opacity:0;transform:translateX(-8px);transition:opacity 0.3s ease, transform 0.3s ease;}
 .bcfh-bbar{display:block;height:4px;width:0%;background-color:var(--bcfh-red);transition:width 0.45s cubic-bezier(0.2, 0.7, 0.2, 1);}
 
-.bcfh-help{padding-top:var(--wp--preset--spacing--70, 3.38rem);padding-bottom:var(--wp--preset--spacing--70, 3.38rem);}
+.bcfh-help{padding-top:var(--wp--preset--spacing--70, 3.38rem);padding-bottom:var(--wp--preset--spacing--70, 3.38rem);overflow:hidden;}
+.bcfh-helphex{stroke:rgba(255, 255, 255, 0.06);}
 .bcfh-helpgrid{display:grid;grid-template-columns:1.25fr 1fr;}
 .bcfh-helpcol{padding-right:48px;}
 .bcfh-newscol{padding-left:48px;border-left:1px solid rgba(255, 255, 255, 0.25);}
@@ -216,7 +250,7 @@
 .bcfh-helptext{font-size:15px;line-height:1.6;margin-top:0;margin-bottom:24px;color:rgba(255, 255, 255, 0.85);max-width:46ch;}
 .bcfh-contacts{display:flex;flex-wrap:wrap;gap:14px 36px;margin-top:0;margin-bottom:0;padding-left:0;list-style:none;}
 .bcfh-contact{display:flex;align-items:center;gap:12px;}
-.bcfh-cicon{width:40px;height:40px;flex-shrink:0;padding:9px;border-radius:50%;background-color:rgba(255, 255, 255, 0.1);color:var(--bcfh-volt);}
+.bcfh-cicon{width:42px;height:46px;flex-shrink:0;padding:12px 11px;box-sizing:border-box;background-color:rgba(255, 255, 255, 0.12);color:var(--bcfh-volt);clip-path:var(--bcfh-hexup);}
 .bcfh-clabel{display:block;font-size:11px;line-height:1.2;text-transform:uppercase;letter-spacing:0.1em;color:rgba(255, 255, 255, 0.7);margin-bottom:3px;}
 .bcfh-clink{font-family:var(--bcfh-head);font-weight:600;font-size:18px;line-height:1.3;color:var(--bcfh-white);text-decoration:underline;text-decoration-color:rgba(255, 255, 255, 0.4);text-underline-offset:4px;}
 .bcfh-clink:hover{text-decoration-color:var(--bcfh-volt);}
@@ -224,22 +258,25 @@
 .bcfh-input{box-sizing:border-box;flex-grow:1;min-width:0;font-family:var(--bcfh-body);font-size:15px;line-height:1.3;padding:13px 14px;border:1px solid rgba(255, 255, 255, 0.5);border-radius:4px;background-color:rgba(255, 255, 255, 0.06);color:var(--bcfh-white);}
 .bcfh-input::placeholder{color:rgba(255, 255, 255, 0.6);}
 .bcfh-input:focus{outline:2px solid var(--bcfh-volt);outline-offset:1px;}
-.bcfh-submit{font-family:var(--bcfh-body);font-weight:600;font-size:14px;line-height:1;padding:13px 22px;border:0;border-radius:4px;background-color:var(--bcfh-volt);color:var(--bcfh-ink);cursor:pointer;}
+.bcfh-submit{font-family:var(--bcfh-body);font-weight:600;font-size:14px;line-height:1;padding:14px 26px;border:0;background-color:var(--bcfh-volt);color:var(--bcfh-ink);cursor:pointer;clip-path:var(--bcfh-cham);}
 .bcfh-submit:hover{background-color:var(--bcfh-white);}
+.bcfh-submit:focus-visible{background-color:var(--bcfh-white);text-decoration:underline;outline:none;}
 .bcfh-fineinv{font-size:12px;line-height:1.4;margin-top:0;margin-bottom:0;color:rgba(255, 255, 255, 0.65);}
 .bcfh-srt{position:absolute;width:1px;height:1px;padding:0;margin:-1px;overflow:hidden;clip:rect(0, 0, 0, 0);white-space:nowrap;border:0;}
 
 @keyframes bcfh-rise{from{opacity:0;transform:translateY(28px);}to{opacity:1;transform:translateY(0px);}}
 @keyframes bcfh-swing{0%{transform:rotate(-18deg);}55%{transform:rotate(-3deg);}80%{transform:rotate(-9deg);}100%{transform:rotate(-7deg);}}
-@keyframes bcfh-wipe{from{clip-path:inset(0 100% 0 0);}to{clip-path:inset(0 0% 0 0);}}
+@keyframes bcfh-rip{from{transform:translateY(28px);}to{transform:translateY(0px);}}
+@keyframes bcfh-turn{from{transform:rotate(0deg);}to{transform:rotate(60deg);}}
 
 @media (prefers-reduced-motion: no-preference){
 .bcfh-tile{animation:bcfh-rise 0.7s cubic-bezier(0.2, 0.7, 0.2, 1) both;}
 .bcfh-wide{animation-delay:0.1s;}
 .bcfh-smallA{animation-delay:0.2s;}
 .bcfh-smallB{animation-delay:0.3s;}
-.bcfh-hang{animation:bcfh-swing 1.1s 0.5s cubic-bezier(0.3, 0.6, 0.3, 1) both;}
-.bcfh-hazard{animation:bcfh-wipe 1s 0.3s cubic-bezier(0.7, 0, 0.2, 1) both;}
+.bcfh-hangwrap{animation:bcfh-swing 1.1s 0.5s cubic-bezier(0.3, 0.6, 0.3, 1) both;}
+.bcfh-tear{animation:bcfh-rip 0.6s 0.2s cubic-bezier(0.7, 0, 0.2, 1) both;}
+.bcfh-heronut{animation:bcfh-turn linear both;animation-timeline:scroll(root);animation-range:0px 700px;}
 .bcfh-pcard{animation:bcfh-rise linear both;animation-timeline:view();animation-range:entry 5% entry 70%;}
 .bcfh-pin{animation:bcfh-rise linear both;animation-timeline:view();animation-range:entry 20% cover 40%;}
 .bcfh-ritem{animation:bcfh-rise linear both;animation-timeline:view();animation-range:entry 0% entry 80%;}
@@ -253,6 +290,7 @@
 }
 @media (max-width: 1023px){
 .bcfh-herohead{grid-template-columns:1fr;gap:20px;}
+.bcfh-heronut{width:380px;height:380px;top:-80px;right:-150px;}
 .bcfh-bento{grid-template-columns:repeat(6, minmax(0, 1fr));grid-template-rows:auto;}
 .bcfh-feature{grid-column:1 / 7;grid-row:auto;}
 .bcfh-wide{grid-column:1 / 7;grid-row:auto;min-height:300px;}
@@ -278,7 +316,7 @@
 .bcfh-hangnow{font-size:46px;line-height:0.95;}
 .bcfh-smallA{grid-column:1 / 7;}
 .bcfh-smallB{grid-column:1 / 7;}
-.bcfh-trustlist{grid-template-columns:1fr;gap:12px;}
+.bcfh-trustlist{grid-template-columns:1fr;gap:10px;}
 .bcfh-head{flex-direction:column;align-items:flex-start;gap:14px;}
 .bcfh-pgrid{grid-template-columns:repeat(2, minmax(0, 1fr));gap:8px;}
 .bcfh-pin{position:static;margin-top:8px;}
@@ -287,11 +325,12 @@
 .bcfh-stageimg{top:4%;height:60%;}
 .bcfh-bigprice{font-size:42px;line-height:1;}
 .bcfh-swatches{grid-template-columns:repeat(6, 40px);}
-.bcfh-sw{width:40px;height:40px;}
-.bcfh-firstnum{font-size:84px;line-height:0.8;}
-.bcfh-rlink{grid-template-columns:36px 60px 1fr;gap:12px;}
+.bcfh-sw{width:34px;height:40px;}
+.bcfh-firstnum{width:72px;height:62px;font-size:30px;line-height:1;}
+.bcfh-ritem{grid-template-columns:44px 60px 1fr;gap:12px;}
+.bcfh-ritem .bcfh-arrow{display:none;}
+.bcfh-rnum{width:42px;height:36px;font-size:15px;line-height:1;}
 .bcfh-rimg{width:60px;height:60px;}
-.bcfh-rnum{font-size:26px;line-height:1;}
 .bcfh-rname{font-size:15px;line-height:1.25;}
 .bcfh-bgrid{gap:8px;}
 .bcfh-bname{font-size:16px;line-height:1.1;}
@@ -304,6 +343,7 @@
 <body>
 
 <section class="wp-section alignfull bcfh-root bcfh-inkbg bcfh-hero" data-type="section-component" aria-label="Featured deals">
+  <svg class="bcfh-heronut" viewBox="0 0 100 100" fill="none" stroke="currentColor" stroke-width="0.6" aria-hidden="true"><path d="M50 2L91.6 26V74L50 98L8.4 74V26Z"/><circle cx="50" cy="50" r="40"/><circle cx="50" cy="50" r="21"/><circle cx="50" cy="50" r="17"/></svg>
   <div class="wp-content-wrap" data-type="content-area-component">
     <div class="bcfh-herohead">
       <h1 class="bcfh-h1">Tools, fasteners and <em class="bcfh-h1mark">site safety</em> for the trades.</h1>
@@ -329,10 +369,12 @@
         </div>
         <div class="bcfh-fmedia">
           <img class="bcfh-fimg" src="https://placehold.co/720x720/d22630/ffffff/png?text=48-11-1852" alt="Two Milwaukee M18 REDLITHIUM XC5.0 batteries" width="720" height="720" loading="lazy">
-          <div class="bcfh-hang">
-            <span class="bcfh-hangsave">Save $220</span>
-            <span class="bcfh-hangnow">$228</span>
-            <span class="bcfh-hangnote">Holiday price</span>
+          <div class="bcfh-hangwrap">
+            <div class="bcfh-hang">
+              <span class="bcfh-hangsave">Save $220</span>
+              <span class="bcfh-hangnow">$228</span>
+              <span class="bcfh-hangnote">Holiday price</span>
+            </div>
           </div>
         </div>
         <div class="bcfh-ffoot">
@@ -376,7 +418,7 @@
       </a>
     </div>
   </div>
-  <span class="bcfh-hazard" aria-hidden="true"></span>
+  <span class="bcfh-tear" aria-hidden="true"></span>
 </section>
 
 <section class="wp-section alignfull bcfh-root bcfh-voltbg bcfh-trust" data-type="section-component" aria-label="Why shop with us">
@@ -414,79 +456,37 @@
       </a>
     </div>
 
-    <div class="bcfh-chips" role="group" aria-label="Filter new products">
-      <button class="bcfh-chip" type="button" data-bcfh-filter="all" aria-pressed="true">All<span class="bcfh-chipcount">14</span></button>
-      <button class="bcfh-chip" type="button" data-bcfh-filter="lighting" aria-pressed="false">Lighting<span class="bcfh-chipcount">4</span></button>
-      <button class="bcfh-chip" type="button" data-bcfh-filter="shop" aria-pressed="false">Shop safety<span class="bcfh-chipcount">3</span></button>
-      <button class="bcfh-chip" type="button" data-bcfh-filter="pliers" aria-pressed="false">Pliers<span class="bcfh-chipcount">3</span></button>
-      <button class="bcfh-chip" type="button" data-bcfh-filter="cordless" aria-pressed="false">Cordless tools<span class="bcfh-chipcount">4</span></button>
+    <div class="bcfh-pgrid">
+
+    <div data-bcfh-loop="new" data-gl-query-arguments='{"post_type":"product","post_status":"publish","posts_per_page":14,"orderby":"date","order":"DESC","ignore_sticky_posts":true,"tax_query":[{"taxonomy":"product_visibility","field":"name","terms":["exclude-from-catalog","outofstock"],"operator":"NOT IN"}]}'>
+      <article class="bcfh-pcard">
+        <div class="bcfh-pmedia">
+          <svg class="bcfh-pnut" viewBox="0 0 100 100" fill="currentColor" aria-hidden="true"><path fill-rule="evenodd" d="M50 2L91.6 26V74L50 98L8.4 74V26Z M50 30a20 20 0 1 0 0.01 0Z"/></svg>
+          <img class="bcfh-pimg" src="https://placehold.co/400x400/ffffff/9a958c/png?text=Product" alt="Product image" width="400" height="400" loading="lazy" data-gl-dynamic-src="{{THUMBNAIL_URL}}" data-gl-dynamic-alt="{{POST_TITLE}}">
+        </div>
+        <div class="bcfh-pbody">
+          <div class="bcfh-pbrand" data-gl-dynamic-text="{{TERM_LINKS:product_brand}}">Brand</div>
+          <h3 class="bcfh-pname"><a class="bcfh-pnamelink" href="#" data-gl-dynamic-href="{{POST_URL}}" data-gl-dynamic-text="{{POST_TITLE}}">Product name</a></h3>
+          <p class="bcfh-psku" data-gl-dynamic-text="{{META:_sku}}">SKU</p>
+          <div class="bcfh-pfoot">
+            <span class="bcfh-pprice"><span class="bcfh-pcur">$</span><span data-gl-dynamic-text="{{META:_price}}">0.00</span></span>
+            <span class="bcfh-pgo">View</span>
+          </div>
+        </div>
+      </article>
     </div>
 
-    <ul class="bcfh-pgrid">
-      <li class="bcfh-pcard" data-bcfh-cat="lighting"><a class="bcfh-plink" href="/?s=MTB-10000&amp;post_type=product">
-        <div class="bcfh-pmedia"><img class="bcfh-pimg" src="https://placehold.co/400x400/ffffff/9a958c/png?text=MTB-10000" alt="Unilite MTB-10000 site light" width="400" height="400" loading="lazy"><span class="bcfh-pview">View product</span></div>
-        <div class="bcfh-pbody"><p class="bcfh-pbrand">Unilite</p><h3 class="bcfh-pname">Power tool battery site light</h3><p class="bcfh-psku">MTB-10000</p><div class="bcfh-pfoot"><span class="bcfh-pprice">$394.99</span></div></div>
-      </a></li>
-      <li class="bcfh-pcard" data-bcfh-cat="lighting"><a class="bcfh-plink" href="/?s=CL-1700&amp;post_type=product">
-        <div class="bcfh-pmedia"><img class="bcfh-pimg" src="https://placehold.co/400x400/ffffff/9a958c/png?text=CL-1700" alt="Unilite CL-1700 clamp work light" width="400" height="400" loading="lazy"><span class="bcfh-pview">View product</span></div>
-        <div class="bcfh-pbody"><p class="bcfh-pbrand">Unilite</p><h3 class="bcfh-pname">Clamp work light</h3><p class="bcfh-psku">CL-1700</p><div class="bcfh-pfoot"><span class="bcfh-pprice">$114.99</span></div></div>
-      </a></li>
-      <li class="bcfh-pcard" data-bcfh-cat="lighting"><a class="bcfh-plink" href="/?s=HL-8R&amp;post_type=product">
-        <div class="bcfh-pmedia"><img class="bcfh-pimg" src="https://placehold.co/400x400/ffffff/9a958c/png?text=HL-8R" alt="Unilite HL-8R headlamp" width="400" height="400" loading="lazy"><span class="bcfh-pview">View product</span></div>
-        <div class="bcfh-pbody"><p class="bcfh-pbrand">Unilite</p><h3 class="bcfh-pname">Dual beam sensor headlamp</h3><p class="bcfh-psku">HL-8R</p><div class="bcfh-pfoot"><span class="bcfh-pprice">$109.99</span></div></div>
-      </a></li>
-      <li class="bcfh-pcard" data-bcfh-cat="lighting"><a class="bcfh-plink" href="/?s=IL-425R&amp;post_type=product">
-        <div class="bcfh-pmedia"><img class="bcfh-pimg" src="https://placehold.co/400x400/ffffff/9a958c/png?text=IL-425R" alt="Unilite IL-425R folding inspection light" width="400" height="400" loading="lazy"><span class="bcfh-pview">View product</span></div>
-        <div class="bcfh-pbody"><p class="bcfh-pbrand">Unilite</p><h3 class="bcfh-pname">Folding inspection light</h3><p class="bcfh-psku">IL-425R</p><div class="bcfh-pfoot"><span class="bcfh-pprice">$99.99</span></div></div>
-      </a></li>
-      <li class="bcfh-pcard" data-bcfh-cat="shop"><a class="bcfh-plink" href="/?s=GR-100&amp;post_type=product">
-        <div class="bcfh-pmedia"><img class="bcfh-pimg" src="https://placehold.co/400x400/ffffff/9a958c/png?text=GR-100%2B" alt="Microjig GRR-RIPPER GR-100+ safety pusher" width="400" height="400" loading="lazy"><span class="bcfh-pview">View product</span></div>
-        <div class="bcfh-pbody"><p class="bcfh-pbrand">Microjig</p><h3 class="bcfh-pname">GRR-RIPPER safety pusher</h3><p class="bcfh-psku">GR-100+</p><div class="bcfh-pfoot"><span class="bcfh-pprice">$71.95</span></div></div>
-      </a></li>
-      <li class="bcfh-pcard" data-bcfh-cat="shop"><a class="bcfh-plink" href="/?s=GB-1&amp;post_type=product">
-        <div class="bcfh-pmedia"><img class="bcfh-pimg" src="https://placehold.co/400x400/ffffff/9a958c/png?text=GB-1" alt="Microjig GRR-RIP BLOCK GB-1 pushblock" width="400" height="400" loading="lazy"><span class="bcfh-pview">View product</span></div>
-        <div class="bcfh-pbody"><p class="bcfh-pbrand">Microjig</p><h3 class="bcfh-pname">GRR-RIP BLOCK smart pushblock</h3><p class="bcfh-psku">GB-1</p><div class="bcfh-pfoot"><span class="bcfh-pprice">$49.95</span></div></div>
-      </a></li>
-      <li class="bcfh-pcard" data-bcfh-cat="shop"><a class="bcfh-plink" href="/?s=GR2-GO&amp;post_type=product">
-        <div class="bcfh-pmedia"><img class="bcfh-pimg" src="https://placehold.co/400x400/ffffff/9a958c/png?text=GR2-GO" alt="Microjig GRR-RIPPER 2GO" width="400" height="400" loading="lazy"><span class="bcfh-pview">View product</span></div>
-        <div class="bcfh-pbody"><p class="bcfh-pbrand">Microjig</p><h3 class="bcfh-pname">GRR-RIPPER 2GO</h3><p class="bcfh-psku">GR2-GO</p><div class="bcfh-pfoot"><span class="bcfh-pprice">$49.95</span></div></div>
-      </a></li>
-      <li class="bcfh-pcard" data-bcfh-cat="pliers"><a class="bcfh-plink" href="/?s=9K0080156US&amp;post_type=product">
-        <div class="bcfh-pmedia"><img class="bcfh-pimg" src="https://placehold.co/400x400/ffffff/9a958c/png?text=9K0080156US" alt="Knipex top selling pliers set, 3 piece" width="400" height="400" loading="lazy"><span class="bcfh-pview">View product</span></div>
-        <div class="bcfh-pbody"><p class="bcfh-pbrand">Knipex</p><h3 class="bcfh-pname">Top selling pliers set, 3 piece</h3><p class="bcfh-psku">9K0080156US</p><div class="bcfh-pfoot"><span class="bcfh-pprice">$157.59</span></div></div>
-      </a></li>
-      <li class="bcfh-pcard" data-bcfh-cat="pliers"><a class="bcfh-plink" href="/?s=9K008094US&amp;post_type=product">
-        <div class="bcfh-pmedia"><img class="bcfh-pimg" src="https://placehold.co/400x400/ffffff/9a958c/png?text=9K008094US" alt="Knipex special pliers set, 4 piece" width="400" height="400" loading="lazy"><span class="bcfh-pview">View product</span></div>
-        <div class="bcfh-pbody"><p class="bcfh-pbrand">Knipex</p><h3 class="bcfh-pname">Special pliers set, 4 piece</h3><p class="bcfh-psku">9K008094US</p><div class="bcfh-pfoot"><span class="bcfh-pprice">$191.79</span></div></div>
-      </a></li>
-      <li class="bcfh-pcard" data-bcfh-cat="pliers"><a class="bcfh-plink" href="/?s=002006US4&amp;post_type=product">
-        <div class="bcfh-pmedia"><img class="bcfh-pimg" src="https://placehold.co/400x400/ffffff/9a958c/png?text=002006US4" alt="Knipex TwinGrip plastic dipped pliers set" width="400" height="400" loading="lazy"><span class="bcfh-pview">View product</span></div>
-        <div class="bcfh-pbody"><p class="bcfh-pbrand">Knipex</p><h3 class="bcfh-pname">TwinGrip dipped pliers set, 3 piece</h3><p class="bcfh-psku">002006US4</p><div class="bcfh-pfoot"><span class="bcfh-pprice">$143.60</span></div></div>
-      </a></li>
-      <li class="bcfh-pcard" data-bcfh-cat="cordless"><a class="bcfh-plink" href="/?s=3469-20&amp;post_type=product">
-        <div class="bcfh-pmedia"><img class="bcfh-pimg" src="https://placehold.co/400x400/ffffff/9a958c/png?text=3469-20" alt="Milwaukee M18 FUEL steel pipe cutter" width="400" height="400" loading="lazy"><span class="bcfh-pview">View product</span></div>
-        <div class="bcfh-pbody"><p class="bcfh-pbrand">Milwaukee</p><h3 class="bcfh-pname">M18 FUEL 1/2" to 1" steel pipe cutter</h3><p class="bcfh-psku">3469-20</p><div class="bcfh-pfoot"><span class="bcfh-pprice">$559</span><span class="bcfh-pnote">Tool only</span></div></div>
-      </a></li>
-      <li class="bcfh-pcard" data-bcfh-cat="cordless"><a class="bcfh-plink" href="/?s=3675-20&amp;post_type=product">
-        <div class="bcfh-pmedia"><img class="bcfh-pimg" src="https://placehold.co/400x400/ffffff/9a958c/png?text=3675-20" alt="Milwaukee M18 FUEL rebar cutter" width="400" height="400" loading="lazy"><span class="bcfh-pview">View product</span></div>
-        <div class="bcfh-pbody"><p class="bcfh-pbrand">Milwaukee</p><h3 class="bcfh-pname">M18 FUEL rebar cutter</h3><p class="bcfh-psku">3675-20</p><div class="bcfh-pfoot"><span class="bcfh-pprice">$998</span><span class="bcfh-pnote">Tool only</span></div></div>
-      </a></li>
-      <li class="bcfh-pcard" data-bcfh-cat="cordless"><a class="bcfh-plink" href="/?s=DCCS621B&amp;post_type=product">
-        <div class="bcfh-pmedia"><img class="bcfh-pimg" src="https://placehold.co/400x400/ffffff/9a958c/png?text=DCCS621B" alt="DeWalt 20V MAX XR 12 inch compact chainsaw" width="400" height="400" loading="lazy"><span class="bcfh-pview">View product</span></div>
-        <div class="bcfh-pbody"><p class="bcfh-pbrand">DeWalt</p><h3 class="bcfh-pname">20V MAX XR 12" compact chainsaw</h3><p class="bcfh-psku">DCCS621B</p><div class="bcfh-pfoot"><span class="bcfh-pprice">$289</span><span class="bcfh-pnote">Tool only</span></div></div>
-      </a></li>
-      <li class="bcfh-pcard" data-bcfh-cat="cordless"><a class="bcfh-plink" href="/?s=DCHT821B&amp;post_type=product">
-        <div class="bcfh-pmedia"><img class="bcfh-pimg" src="https://placehold.co/400x400/ffffff/9a958c/png?text=DCHT821B" alt="DeWalt 20V MAX 22 inch hedge trimmer" width="400" height="400" loading="lazy"><span class="bcfh-pview">View product</span></div>
-        <div class="bcfh-pbody"><p class="bcfh-pbrand">DeWalt</p><h3 class="bcfh-pname">20V MAX 22" hedge trimmer</h3><p class="bcfh-psku">DCHT821B</p><div class="bcfh-pfoot"><span class="bcfh-pprice">$229</span><span class="bcfh-pnote">Tool only</span></div></div>
-      </a></li>
-    </ul>
+    </div>
   </div>
 </section>
 
 <section class="wp-section alignfull bcfh-root bcfh-spot" data-type="section-component" aria-labelledby="bcfh-spot-title">
+  <svg class="bcfh-nutrow" aria-hidden="true"><defs><pattern id="bcfh-nutpat-1" width="44" height="22" patternUnits="userSpaceOnUse"><rect class="bcfh-nutrowbg" width="44" height="22"/><path class="bcfh-nutrownut" fill-rule="evenodd" d="M13 11L17.5 3.2H26.5L31 11L26.5 18.8H17.5Z M22 7.4a3.6 3.6 0 1 0 0.01 0Z"/></pattern></defs><rect width="100%" height="22" fill="url(#bcfh-nutpat-1)"/></svg>
+  <svg class="bcfh-hexbg" aria-hidden="true"><defs><pattern id="bcfh-hexpat-1" width="38.1" height="66" patternUnits="userSpaceOnUse"><path class="bcfh-hexline bcfh-spothex" d="M19.05 0L38.1 11V33L19.05 44L0 33V11Z M19.05 44V66"/></pattern></defs><rect width="100%" height="100%" fill="url(#bcfh-hexpat-1)"/></svg>
   <div class="wp-content-wrap" data-type="content-area-component">
     <div class="bcfh-spotgrid">
       <div class="bcfh-stage">
+        <svg class="bcfh-stagenut" viewBox="0 0 100 100" fill="currentColor" aria-hidden="true"><path fill-rule="evenodd" d="M50 2L91.6 26V74L50 98L8.4 74V26Z M50 30a20 20 0 1 0 0.01 0Z"/></svg>
         <span class="bcfh-stagecorner">Product spotlight</span>
         <img class="bcfh-stageimg" src="https://placehold.co/900x780/ffffff/2e5169/png?text=3469-20+pipe+cutter" alt="Milwaukee 3469-20 M18 FUEL steel pipe cutter" width="900" height="780" loading="lazy">
         <div class="bcfh-pin bcfh-pin1"><span class="bcfh-pindot">1</span><span class="bcfh-pinlabel">Cuts 1/2" to 1" steel pipe</span></div>
@@ -510,9 +510,10 @@
             <svg class="bcfh-arrow" viewBox="0 0 16 16" fill="none" stroke="currentColor" stroke-width="2" aria-hidden="true"><path d="M2 8h11M9 4l4 4-4 4"/></svg>
           </a>
         </div>
-        <a class="bcfh-pair" href="/?s=48-11-1852&amp;post_type=product">
+        <a class="bcfh-coupon" href="/?s=48-11-1852&amp;post_type=product">
+          <span class="bcfh-couponflag">Holiday deal</span>
           <img class="bcfh-pairimg" src="https://placehold.co/120x120/ffffff/d22630/png?text=XC5.0" alt="Milwaukee M18 XC5.0 battery 2 pack" width="120" height="120" loading="lazy">
-          <span class="bcfh-pairtext"><strong class="bcfh-pairlead">Need batteries? Pair it with the XC5.0 2 pack</strong>Holiday price $228, save $220</span>
+          <span class="bcfh-pairtext"><strong class="bcfh-pairlead">Need batteries? Pair it with the XC5.0 2 pack</strong>Now $228, save $220</span>
           <svg class="bcfh-arrow" viewBox="0 0 16 16" fill="none" stroke="currentColor" stroke-width="2" aria-hidden="true"><path d="M2 8h11M9 4l4 4-4 4"/></svg>
         </a>
       </div>
@@ -529,24 +530,25 @@
         <p class="bcfh-piptext">Type 2, Class E helmets, made in Canada. Colour code your trades, supervisors and visitors so everyone on site can tell who's who at a glance.</p>
         <p class="bcfh-piplabel">12 colours available. Showing: <span class="bcfh-pipcur" data-bcfh-current>White</span></p>
         <div class="bcfh-swatches" role="group" aria-label="Preview helmet colour">
-          <button class="bcfh-sw" type="button" style="background-color:#ffffff" data-bcfh-color="#ffffff" data-bcfh-name="White" aria-label="White" aria-pressed="true"></button>
-          <button class="bcfh-sw" type="button" style="background-color:#1b1c1e" data-bcfh-color="#1b1c1e" data-bcfh-name="Black" aria-label="Black" aria-pressed="false"></button>
-          <button class="bcfh-sw" type="button" style="background-color:#a4d11f" data-bcfh-color="#a4d11f" data-bcfh-name="Hi-vis green" aria-label="Hi-vis green" aria-pressed="false"></button>
-          <button class="bcfh-sw" type="button" style="background-color:#d8231f" data-bcfh-color="#d8231f" data-bcfh-name="Red" aria-label="Red" aria-pressed="false"></button>
-          <button class="bcfh-sw" type="button" style="background-color:#3a6fd1" data-bcfh-color="#3a6fd1" data-bcfh-name="Blue" aria-label="Blue" aria-pressed="false"></button>
-          <button class="bcfh-sw" type="button" style="background-color:#f2d81b" data-bcfh-color="#f2d81b" data-bcfh-name="Yellow" aria-label="Yellow" aria-pressed="false"></button>
-          <button class="bcfh-sw" type="button" style="background-color:#4a4f55" data-bcfh-color="#4a4f55" data-bcfh-name="Grey" aria-label="Grey" aria-pressed="false"></button>
-          <button class="bcfh-sw" type="button" style="background-color:#efe9cf" data-bcfh-color="#efe9cf" data-bcfh-name="Cream" aria-label="Cream" aria-pressed="false"></button>
-          <button class="bcfh-sw" type="button" style="background-color:#56632f" data-bcfh-color="#56632f" data-bcfh-name="Olive" aria-label="Olive" aria-pressed="false"></button>
-          <button class="bcfh-sw" type="button" style="background-color:#5b56a8" data-bcfh-color="#5b56a8" data-bcfh-name="Purple" aria-label="Purple" aria-pressed="false"></button>
-          <button class="bcfh-sw" type="button" style="background-color:#e0621b" data-bcfh-color="#e0621b" data-bcfh-name="Orange" aria-label="Orange" aria-pressed="false"></button>
-          <button class="bcfh-sw" type="button" style="background-color:#2fa29f" data-bcfh-color="#2fa29f" data-bcfh-name="Teal" aria-label="Teal" aria-pressed="false"></button>
+          <span class="bcfh-swwrap"><button class="bcfh-sw" type="button" style="background-color:#ffffff" data-bcfh-color="#ffffff" data-bcfh-name="White" aria-label="White" aria-pressed="true"></button></span>
+          <span class="bcfh-swwrap"><button class="bcfh-sw" type="button" style="background-color:#1b1c1e" data-bcfh-color="#1b1c1e" data-bcfh-name="Black" aria-label="Black" aria-pressed="false"></button></span>
+          <span class="bcfh-swwrap"><button class="bcfh-sw" type="button" style="background-color:#a4d11f" data-bcfh-color="#a4d11f" data-bcfh-name="Hi-vis green" aria-label="Hi-vis green" aria-pressed="false"></button></span>
+          <span class="bcfh-swwrap"><button class="bcfh-sw" type="button" style="background-color:#d8231f" data-bcfh-color="#d8231f" data-bcfh-name="Red" aria-label="Red" aria-pressed="false"></button></span>
+          <span class="bcfh-swwrap"><button class="bcfh-sw" type="button" style="background-color:#3a6fd1" data-bcfh-color="#3a6fd1" data-bcfh-name="Blue" aria-label="Blue" aria-pressed="false"></button></span>
+          <span class="bcfh-swwrap"><button class="bcfh-sw" type="button" style="background-color:#f2d81b" data-bcfh-color="#f2d81b" data-bcfh-name="Yellow" aria-label="Yellow" aria-pressed="false"></button></span>
+          <span class="bcfh-swwrap"><button class="bcfh-sw" type="button" style="background-color:#4a4f55" data-bcfh-color="#4a4f55" data-bcfh-name="Grey" aria-label="Grey" aria-pressed="false"></button></span>
+          <span class="bcfh-swwrap"><button class="bcfh-sw" type="button" style="background-color:#efe9cf" data-bcfh-color="#efe9cf" data-bcfh-name="Cream" aria-label="Cream" aria-pressed="false"></button></span>
+          <span class="bcfh-swwrap"><button class="bcfh-sw" type="button" style="background-color:#56632f" data-bcfh-color="#56632f" data-bcfh-name="Olive" aria-label="Olive" aria-pressed="false"></button></span>
+          <span class="bcfh-swwrap"><button class="bcfh-sw" type="button" style="background-color:#5b56a8" data-bcfh-color="#5b56a8" data-bcfh-name="Purple" aria-label="Purple" aria-pressed="false"></button></span>
+          <span class="bcfh-swwrap"><button class="bcfh-sw" type="button" style="background-color:#e0621b" data-bcfh-color="#e0621b" data-bcfh-name="Orange" aria-label="Orange" aria-pressed="false"></button></span>
+          <span class="bcfh-swwrap"><button class="bcfh-sw" type="button" style="background-color:#2fa29f" data-bcfh-color="#2fa29f" data-bcfh-name="Teal" aria-label="Teal" aria-pressed="false"></button></span>
         </div>
         <a class="bcfh-btn" href="/?s=RZRBACK&amp;post_type=product">Shop RZRBACK helmets
           <svg class="bcfh-arrow" viewBox="0 0 16 16" fill="none" stroke="currentColor" stroke-width="2" aria-hidden="true"><path d="M2 8h11M9 4l4 4-4 4"/></svg>
         </a>
       </div>
       <div class="bcfh-helmetstage" data-bcfh-stage>
+        <svg class="bcfh-hexbg" aria-hidden="true"><defs><pattern id="bcfh-hexpat-2" width="38.1" height="66" patternUnits="userSpaceOnUse"><path class="bcfh-hexline bcfh-stagehex" d="M19.05 0L38.1 11V33L19.05 44L0 33V11Z M19.05 44V66"/></pattern></defs><rect width="100%" height="100%" fill="url(#bcfh-hexpat-2)"/></svg>
         <div class="bcfh-helmetbadge"><span class="bcfh-tag">New in stock</span><span class="bcfh-tag bcfh-tagred">Type 2, Class E</span></div>
         <svg class="bcfh-helmet" viewBox="0 0 320 230" role="img" aria-label="Illustration of a RZRBACK style safety helmet"><path class="bcfh-hstrap" d="M62 168 C70 196 96 210 124 210 L196 210 C224 210 250 196 258 168"/><path class="bcfh-hshell" d="M40 160 C38 92 88 34 160 32 C232 34 282 92 280 160 C290 164 298 170 298 178 C298 186 290 190 280 190 L40 190 C30 190 22 186 22 178 C22 170 30 164 40 160 Z"/><path class="bcfh-hshade" d="M206 42 C252 62 282 106 280 160 C290 164 298 170 298 178 C298 186 290 190 280 190 L214 190 C236 150 236 86 206 42 Z"/><path class="bcfh-hlight" d="M150 34 C164 33 172 36 176 40 C176 80 174 130 168 160 L152 160 C146 130 144 80 150 34 Z"/><path class="bcfh-hlight" d="M84 74 C96 58 112 48 128 42 C116 62 108 88 104 118 C96 116 88 114 80 112 C80 98 80 86 84 74 Z"/><rect class="bcfh-hdark" x="196" y="78" width="10" height="34" rx="5"/><rect class="bcfh-hdark" x="218" y="88" width="10" height="34" rx="5"/><rect class="bcfh-hdark" x="114" y="78" width="10" height="34" rx="5"/><rect class="bcfh-hdark" x="92" y="88" width="10" height="34" rx="5"/><path class="bcfh-hshade" d="M40 160 L280 160 C290 164 298 170 298 178 C298 186 290 190 280 190 L40 190 C30 190 22 186 22 178 C22 170 30 164 40 160 Z"/></svg>
         <span class="bcfh-helmetmade">Made in Canada</span>
@@ -568,51 +570,40 @@
     </div>
 
     <div class="bcfh-podium">
-      <a class="bcfh-first" href="/?s=3697-22CXC&amp;post_type=product">
-        <span class="bcfh-firstnum">01</span>
-        <p class="bcfh-firstlabel">Best seller right now</p>
-        <div class="bcfh-firstmedia"><img class="bcfh-firstimg" src="https://placehold.co/640x480/ffffff/9a958c/png?text=3697-22CXC" alt="Milwaukee M18 FUEL 2-tool combo kit" width="640" height="480" loading="lazy"></div>
-        <h3 class="bcfh-firstname">Milwaukee M18 FUEL 2-tool combo kit</h3>
-        <div class="bcfh-firstfoot"><span>3697-22CXC</span><span class="bcfh-textlink">Shop now
-          <svg class="bcfh-arrow" viewBox="0 0 16 16" fill="none" stroke="currentColor" stroke-width="2" aria-hidden="true"><path d="M2 8h11M9 4l4 4-4 4"/></svg></span></div>
-      </a>
-      <ol class="bcfh-ranklist">
-        <li class="bcfh-ritem"><a class="bcfh-rlink" href="/?s=0880-20&amp;post_type=product">
-          <span class="bcfh-rnum">02</span><img class="bcfh-rimg" src="https://placehold.co/160x160/ffffff/9a958c/png?text=0880-20" alt="Milwaukee M18 cordless wet dry vacuum" width="160" height="160" loading="lazy">
-          <span class="bcfh-rtext"><span class="bcfh-rbrand">Milwaukee</span><span class="bcfh-rname">M18 cordless wet/dry vacuum, tool only</span></span>
+      <div class="bcfh-firstloop">
+      <div data-bcfh-loop="first" data-gl-query-arguments='{"post_type":"product","post_status":"publish","posts_per_page":1,"meta_key":"total_sales","orderby":"meta_value_num","order":"DESC","ignore_sticky_posts":true,"tax_query":[{"taxonomy":"product_visibility","field":"name","terms":["exclude-from-catalog","outofstock"],"operator":"NOT IN"}]}'>
+        <article class="bcfh-first">
+          <div class="bcfh-firstrow">
+            <span class="bcfh-firstnum">01</span>
+            <p class="bcfh-firstlabel">Best seller<br>right now</p>
+          </div>
+          <div class="bcfh-firstmedia"><img class="bcfh-firstimg" src="https://placehold.co/640x480/ffffff/9a958c/png?text=Best+seller" alt="Best selling product" width="640" height="480" loading="lazy" data-gl-dynamic-src="{{THUMBNAIL_URL}}" data-gl-dynamic-alt="{{POST_TITLE}}"></div>
+          <div class="bcfh-firstbrand" data-gl-dynamic-text="{{TERM_LINKS:product_brand}}">Brand</div>
+          <h3 class="bcfh-firstname"><a class="bcfh-firstlink" href="#" data-gl-dynamic-href="{{POST_URL}}" data-gl-dynamic-text="{{POST_TITLE}}">Product name</a></h3>
+          <div class="bcfh-firstfoot"><span data-gl-dynamic-text="{{META:_sku}}">SKU</span><span class="bcfh-textlink">Shop now
+            <svg class="bcfh-arrow" viewBox="0 0 16 16" fill="none" stroke="currentColor" stroke-width="2" aria-hidden="true"><path d="M2 8h11M9 4l4 4-4 4"/></svg></span></div>
+        </article>
+      </div>
+      </div>
+      <div class="bcfh-ranklist">
+      <div data-bcfh-loop="rank" data-gl-query-arguments='{"post_type":"product","post_status":"publish","posts_per_page":6,"offset":1,"meta_key":"total_sales","orderby":"meta_value_num","order":"DESC","ignore_sticky_posts":true,"tax_query":[{"taxonomy":"product_visibility","field":"name","terms":["exclude-from-catalog","outofstock"],"operator":"NOT IN"}]}'>
+        <article class="bcfh-ritem">
+          <span class="bcfh-rnum" aria-hidden="true"></span>
+          <img class="bcfh-rimg" src="https://placehold.co/160x160/ffffff/9a958c/png?text=Product" alt="Product image" width="160" height="160" loading="lazy" data-gl-dynamic-src="{{THUMBNAIL_URL}}" data-gl-dynamic-alt="{{POST_TITLE}}">
+          <div class="bcfh-rtext">
+            <div class="bcfh-rbrand" data-gl-dynamic-text="{{TERM_LINKS:product_brand}}">Brand</div>
+            <h3 class="bcfh-rname"><a class="bcfh-rlink" href="#" data-gl-dynamic-href="{{POST_URL}}" data-gl-dynamic-text="{{POST_TITLE}}">Product name</a></h3>
+          </div>
           <svg class="bcfh-arrow" viewBox="0 0 16 16" fill="none" stroke="currentColor" stroke-width="2" aria-hidden="true"><path d="M2 8h11M9 4l4 4-4 4"/></svg>
-        </a></li>
-        <li class="bcfh-ritem"><a class="bcfh-rlink" href="/?s=056491&amp;post_type=product">
-          <span class="bcfh-rnum">03</span><img class="bcfh-rimg" src="https://placehold.co/160x160/ffffff/9a958c/png?text=056491" alt="Wera Tool-Check Plus imperial bit set" width="160" height="160" loading="lazy">
-          <span class="bcfh-rtext"><span class="bcfh-rbrand">Wera</span><span class="bcfh-rname">Tool-Check Plus imperial bits</span></span>
-          <svg class="bcfh-arrow" viewBox="0 0 16 16" fill="none" stroke="currentColor" stroke-width="2" aria-hidden="true"><path d="M2 8h11M9 4l4 4-4 4"/></svg>
-        </a></li>
-        <li class="bcfh-ritem"><a class="bcfh-rlink" href="/?s=2846-20&amp;post_type=product">
-          <span class="bcfh-rnum">04</span><img class="bcfh-rimg" src="https://placehold.co/160x160/ffffff/9a958c/png?text=2846-20" alt="Milwaukee M18 TOP-OFF 175W power supply" width="160" height="160" loading="lazy">
-          <span class="bcfh-rtext"><span class="bcfh-rbrand">Milwaukee</span><span class="bcfh-rname">M18 TOP-OFF 175W power supply, tool only</span></span>
-          <svg class="bcfh-arrow" viewBox="0 0 16 16" fill="none" stroke="currentColor" stroke-width="2" aria-hidden="true"><path d="M2 8h11M9 4l4 4-4 4"/></svg>
-        </a></li>
-        <li class="bcfh-ritem"><a class="bcfh-rlink" href="/?s=DCST922B&amp;post_type=product">
-          <span class="bcfh-rnum">05</span><img class="bcfh-rimg" src="https://placehold.co/160x160/ffffff/9a958c/png?text=DCST922B" alt="DeWalt 20V MAX 14 inch string trimmer" width="160" height="160" loading="lazy">
-          <span class="bcfh-rtext"><span class="bcfh-rbrand">DeWalt</span><span class="bcfh-rname">20V MAX 14" dual line string trimmer, tool only</span></span>
-          <svg class="bcfh-arrow" viewBox="0 0 16 16" fill="none" stroke="currentColor" stroke-width="2" aria-hidden="true"><path d="M2 8h11M9 4l4 4-4 4"/></svg>
-        </a></li>
-        <li class="bcfh-ritem"><a class="bcfh-rlink" href="/?s=S96110&amp;post_type=product">
-          <span class="bcfh-rnum">06</span><img class="bcfh-rimg" src="https://placehold.co/160x160/ffffff/9a958c/png?text=S96110" alt="Sellstrom KneePro Ultra Flex III knee pad" width="160" height="160" loading="lazy">
-          <span class="bcfh-rtext"><span class="bcfh-rbrand">Sellstrom</span><span class="bcfh-rname">KneePro Ultra Flex III knee pad</span></span>
-          <svg class="bcfh-arrow" viewBox="0 0 16 16" fill="none" stroke="currentColor" stroke-width="2" aria-hidden="true"><path d="M2 8h11M9 4l4 4-4 4"/></svg>
-        </a></li>
-        <li class="bcfh-ritem"><a class="bcfh-rlink" href="/?s=8201200&amp;post_type=product">
-          <span class="bcfh-rnum">07</span><img class="bcfh-rimg" src="https://placehold.co/160x160/ffffff/9a958c/png?text=8201200" alt="Knipex 8 inch TwinGrip slip joint pliers" width="160" height="160" loading="lazy">
-          <span class="bcfh-rtext"><span class="bcfh-rbrand">Knipex</span><span class="bcfh-rname">8" (200mm) TwinGrip slip joint pliers</span></span>
-          <svg class="bcfh-arrow" viewBox="0 0 16 16" fill="none" stroke="currentColor" stroke-width="2" aria-hidden="true"><path d="M2 8h11M9 4l4 4-4 4"/></svg>
-        </a></li>
-      </ol>
+        </article>
+      </div>
+      </div>
     </div>
   </div>
 </section>
 
-<section class="wp-section alignfull bcfh-root bcfh-paperbg bcfh-block" data-type="section-component" aria-labelledby="bcfh-brand-title">
+<section class="wp-section alignfull bcfh-root bcfh-paperbg bcfh-block bcfh-brands" data-type="section-component" aria-labelledby="bcfh-brand-title">
+  <svg class="bcfh-nutrow" aria-hidden="true"><defs><pattern id="bcfh-nutpat-2" width="44" height="22" patternUnits="userSpaceOnUse"><rect class="bcfh-nutrowbg" width="44" height="22"/><path class="bcfh-nutrownut" fill-rule="evenodd" d="M13 11L17.5 3.2H26.5L31 11L26.5 18.8H17.5Z M22 7.4a3.6 3.6 0 1 0 0.01 0Z"/></pattern></defs><rect width="100%" height="22" fill="url(#bcfh-nutpat-2)"/></svg>
   <div class="wp-content-wrap" data-type="content-area-component">
     <div class="bcfh-head">
       <div>
@@ -625,19 +616,20 @@
     </div>
 
     <ul class="bcfh-bgrid">
-      <li class="bcfh-bitem"><a class="bcfh-blink" href="/?s=Milwaukee&amp;post_type=product"><img class="bcfh-bimg" src="https://placehold.co/800x600/3a3e44/ffffff/png?text=Milwaukee" alt="Milwaukee tools" width="800" height="600" loading="lazy"><span class="bcfh-bscrim"></span><div class="bcfh-bmeta"><h3 class="bcfh-bname">Milwaukee</h3><span class="bcfh-bcta">Shop brand</span></div><span class="bcfh-bbar"></span></a></li>
-      <li class="bcfh-bitem"><a class="bcfh-blink" href="/?s=DeWalt&amp;post_type=product"><img class="bcfh-bimg" src="https://placehold.co/800x600/3a3e44/ffffff/png?text=DeWalt" alt="DeWalt tools" width="800" height="600" loading="lazy"><span class="bcfh-bscrim"></span><div class="bcfh-bmeta"><h3 class="bcfh-bname">DeWalt</h3><span class="bcfh-bcta">Shop brand</span></div><span class="bcfh-bbar"></span></a></li>
-      <li class="bcfh-bitem"><a class="bcfh-blink" href="/?s=Wera&amp;post_type=product"><img class="bcfh-bimg" src="https://placehold.co/800x600/3a3e44/ffffff/png?text=Wera" alt="Wera tools" width="800" height="600" loading="lazy"><span class="bcfh-bscrim"></span><div class="bcfh-bmeta"><h3 class="bcfh-bname">Wera</h3><span class="bcfh-bcta">Shop brand</span></div><span class="bcfh-bbar"></span></a></li>
-      <li class="bcfh-bitem"><a class="bcfh-blink" href="/?s=Diablo&amp;post_type=product"><img class="bcfh-bimg" src="https://placehold.co/800x600/3a3e44/ffffff/png?text=Diablo" alt="Diablo blades" width="800" height="600" loading="lazy"><span class="bcfh-bscrim"></span><div class="bcfh-bmeta"><h3 class="bcfh-bname">Diablo</h3><span class="bcfh-bcta">Shop brand</span></div><span class="bcfh-bbar"></span></a></li>
-      <li class="bcfh-bitem"><a class="bcfh-blink" href="/?s=Occidental+Leather&amp;post_type=product"><img class="bcfh-bimg" src="https://placehold.co/800x600/3a3e44/ffffff/png?text=Occidental" alt="Occidental Leather tool belts" width="800" height="600" loading="lazy"><span class="bcfh-bscrim"></span><div class="bcfh-bmeta"><h3 class="bcfh-bname">Occidental Leather</h3><span class="bcfh-bcta">Shop brand</span></div><span class="bcfh-bbar"></span></a></li>
-      <li class="bcfh-bitem"><a class="bcfh-blink" href="/?s=GearWrench&amp;post_type=product"><img class="bcfh-bimg" src="https://placehold.co/800x600/3a3e44/ffffff/png?text=GearWrench" alt="GearWrench tools" width="800" height="600" loading="lazy"><span class="bcfh-bscrim"></span><div class="bcfh-bmeta"><h3 class="bcfh-bname">GearWrench</h3><span class="bcfh-bcta">Shop brand</span></div><span class="bcfh-bbar"></span></a></li>
-      <li class="bcfh-bitem"><a class="bcfh-blink" href="/?s=Knipex&amp;post_type=product"><img class="bcfh-bimg" src="https://placehold.co/800x600/3a3e44/ffffff/png?text=Knipex" alt="Knipex pliers" width="800" height="600" loading="lazy"><span class="bcfh-bscrim"></span><div class="bcfh-bmeta"><h3 class="bcfh-bname">Knipex</h3><span class="bcfh-bcta">Shop brand</span></div><span class="bcfh-bbar"></span></a></li>
-      <li class="bcfh-bitem"><a class="bcfh-blink" href="/?s=Klein+Tools&amp;post_type=product"><img class="bcfh-bimg" src="https://placehold.co/800x600/3a3e44/ffffff/png?text=Klein+Tools" alt="Klein Tools" width="800" height="600" loading="lazy"><span class="bcfh-bscrim"></span><div class="bcfh-bmeta"><h3 class="bcfh-bname">Klein Tools</h3><span class="bcfh-bcta">Shop brand</span></div><span class="bcfh-bbar"></span></a></li>
+      <li class="bcfh-bitem"><a class="bcfh-blink" href="/?s=Milwaukee&amp;post_type=product"><img class="bcfh-bimg" src="https://placehold.co/800x600/3a3e44/ffffff/png?text=Milwaukee" alt="Milwaukee tools" width="800" height="600" loading="lazy"><span class="bcfh-bscrim"></span><div class="bcfh-bmeta"><div class="bcfh-bnamewrap"><span class="bcfh-bhex"></span><h3 class="bcfh-bname">Milwaukee</h3></div><span class="bcfh-bcta">Shop brand</span></div><span class="bcfh-bbar"></span></a></li>
+      <li class="bcfh-bitem"><a class="bcfh-blink" href="/?s=DeWalt&amp;post_type=product"><img class="bcfh-bimg" src="https://placehold.co/800x600/3a3e44/ffffff/png?text=DeWalt" alt="DeWalt tools" width="800" height="600" loading="lazy"><span class="bcfh-bscrim"></span><div class="bcfh-bmeta"><div class="bcfh-bnamewrap"><span class="bcfh-bhex"></span><h3 class="bcfh-bname">DeWalt</h3></div><span class="bcfh-bcta">Shop brand</span></div><span class="bcfh-bbar"></span></a></li>
+      <li class="bcfh-bitem"><a class="bcfh-blink" href="/?s=Wera&amp;post_type=product"><img class="bcfh-bimg" src="https://placehold.co/800x600/3a3e44/ffffff/png?text=Wera" alt="Wera tools" width="800" height="600" loading="lazy"><span class="bcfh-bscrim"></span><div class="bcfh-bmeta"><div class="bcfh-bnamewrap"><span class="bcfh-bhex"></span><h3 class="bcfh-bname">Wera</h3></div><span class="bcfh-bcta">Shop brand</span></div><span class="bcfh-bbar"></span></a></li>
+      <li class="bcfh-bitem"><a class="bcfh-blink" href="/?s=Diablo&amp;post_type=product"><img class="bcfh-bimg" src="https://placehold.co/800x600/3a3e44/ffffff/png?text=Diablo" alt="Diablo blades" width="800" height="600" loading="lazy"><span class="bcfh-bscrim"></span><div class="bcfh-bmeta"><div class="bcfh-bnamewrap"><span class="bcfh-bhex"></span><h3 class="bcfh-bname">Diablo</h3></div><span class="bcfh-bcta">Shop brand</span></div><span class="bcfh-bbar"></span></a></li>
+      <li class="bcfh-bitem"><a class="bcfh-blink" href="/?s=Occidental+Leather&amp;post_type=product"><img class="bcfh-bimg" src="https://placehold.co/800x600/3a3e44/ffffff/png?text=Occidental" alt="Occidental Leather tool belts" width="800" height="600" loading="lazy"><span class="bcfh-bscrim"></span><div class="bcfh-bmeta"><div class="bcfh-bnamewrap"><span class="bcfh-bhex"></span><h3 class="bcfh-bname">Occidental Leather</h3></div><span class="bcfh-bcta">Shop brand</span></div><span class="bcfh-bbar"></span></a></li>
+      <li class="bcfh-bitem"><a class="bcfh-blink" href="/?s=GearWrench&amp;post_type=product"><img class="bcfh-bimg" src="https://placehold.co/800x600/3a3e44/ffffff/png?text=GearWrench" alt="GearWrench tools" width="800" height="600" loading="lazy"><span class="bcfh-bscrim"></span><div class="bcfh-bmeta"><div class="bcfh-bnamewrap"><span class="bcfh-bhex"></span><h3 class="bcfh-bname">GearWrench</h3></div><span class="bcfh-bcta">Shop brand</span></div><span class="bcfh-bbar"></span></a></li>
+      <li class="bcfh-bitem"><a class="bcfh-blink" href="/?s=Knipex&amp;post_type=product"><img class="bcfh-bimg" src="https://placehold.co/800x600/3a3e44/ffffff/png?text=Knipex" alt="Knipex pliers" width="800" height="600" loading="lazy"><span class="bcfh-bscrim"></span><div class="bcfh-bmeta"><div class="bcfh-bnamewrap"><span class="bcfh-bhex"></span><h3 class="bcfh-bname">Knipex</h3></div><span class="bcfh-bcta">Shop brand</span></div><span class="bcfh-bbar"></span></a></li>
+      <li class="bcfh-bitem"><a class="bcfh-blink" href="/?s=Klein+Tools&amp;post_type=product"><img class="bcfh-bimg" src="https://placehold.co/800x600/3a3e44/ffffff/png?text=Klein+Tools" alt="Klein Tools" width="800" height="600" loading="lazy"><span class="bcfh-bscrim"></span><div class="bcfh-bmeta"><div class="bcfh-bnamewrap"><span class="bcfh-bhex"></span><h3 class="bcfh-bname">Klein Tools</h3></div><span class="bcfh-bcta">Shop brand</span></div><span class="bcfh-bbar"></span></a></li>
     </ul>
   </div>
 </section>
 
 <section class="wp-section alignfull bcfh-root bcfh-slatebg bcfh-help" data-type="section-component" aria-label="Customer service and newsletter">
+  <svg class="bcfh-hexbg" aria-hidden="true"><defs><pattern id="bcfh-hexpat-3" width="38.1" height="66" patternUnits="userSpaceOnUse"><path class="bcfh-hexline bcfh-helphex" d="M19.05 0L38.1 11V33L19.05 44L0 33V11Z M19.05 44V66"/></pattern></defs><rect width="100%" height="100%" fill="url(#bcfh-hexpat-3)"/></svg>
   <div class="wp-content-wrap" data-type="content-area-component">
     <div class="bcfh-helpgrid">
       <div class="bcfh-helpcol">
@@ -670,30 +662,15 @@
 
 <script data-wp-block-html="js">
 (function () {
-  var chips = document.querySelectorAll('[data-bcfh-filter]');
-  var cards = document.querySelectorAll('[data-bcfh-cat]');
-  chips.forEach(function (chip) {
-    chip.addEventListener('click', function () {
-      var filter = chip.getAttribute('data-bcfh-filter');
-      chips.forEach(function (c) { c.setAttribute('aria-pressed', c === chip ? 'true' : 'false'); });
-      cards.forEach(function (card) {
-        card.hidden = !(filter === 'all' || card.getAttribute('data-bcfh-cat') === filter);
-      });
-    });
-  });
-
   var stage = document.querySelector('[data-bcfh-stage]');
   var current = document.querySelector('[data-bcfh-current]');
   var swatches = document.querySelectorAll('[data-bcfh-color]');
   if (!stage) return;
-  function paint(sw) {
-    stage.style.setProperty('--bcfh-hc', sw.getAttribute('data-bcfh-color'));
-    if (current) current.textContent = sw.getAttribute('data-bcfh-name');
-  }
   swatches.forEach(function (sw) {
     sw.addEventListener('click', function () {
       swatches.forEach(function (s) { s.setAttribute('aria-pressed', s === sw ? 'true' : 'false'); });
-      paint(sw);
+      stage.style.setProperty('--bcfh-hc', sw.getAttribute('data-bcfh-color'));
+      if (current) current.textContent = sw.getAttribute('data-bcfh-name');
     });
   });
 })();

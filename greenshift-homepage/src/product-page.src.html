@@ -1,0 +1,243 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>BC Fasteners Product Page</title>
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Outfit:wght@500;600;700;800;900&family=Poppins:wght@400;500;600;700&display=swap" rel="stylesheet">
+<style data-wp-block-html="css">
+/*@@SHARED@@*/
+
+.bcfh-pdtop{padding-top:28px;padding-bottom:var(--wp--preset--spacing--80, 5.06rem);overflow:hidden;}
+.bcfh-pdhex{stroke:rgba(17, 19, 21, 0.05);}
+.bcfh-pdcrumbs{margin-bottom:22px;font-size:13px;line-height:1.5;color:var(--bcfh-muted);}
+.bcfh-pdcrumbs .woocommerce-breadcrumb{margin:0;padding:0;font-size:13px;line-height:1.5;color:var(--bcfh-muted);}
+.bcfh-pdcrumbs a{color:var(--bcfh-ink);text-decoration:none;font-weight:500;}
+.bcfh-pdcrumbs a:hover{color:var(--bcfh-red);text-decoration:underline;}
+
+.bcfh-pdgrid{display:grid;grid-template-columns:1.1fr 1fr;gap:56px;align-items:start;}
+.bcfh-pdgallery{position:relative;}
+.bcfh-pdnut{position:absolute;top:40px;left:-110px;width:260px;height:260px;z-index:0;color:var(--bcfh-line);pointer-events:none;}
+.bcfh-pdpanel{box-sizing:border-box;position:relative;z-index:1;padding:22px;background-color:var(--bcfh-white);border-radius:8px;box-shadow:0px 0px 0px 1px var(--bcfh-line);}
+.bcfh-pdpanel .woocommerce-product-gallery{position:relative;margin:0;width:100%;float:none;opacity:1;}
+.bcfh-pdpanel .woocommerce-product-gallery__wrapper{margin:0;}
+.bcfh-pdpanel .woocommerce-product-gallery__image img{display:block;width:100%;height:auto;border-radius:4px;}
+.bcfh-pdpanel .woocommerce-product-gallery__trigger{position:absolute;top:12px;right:12px;z-index:5;}
+.bcfh-pdpanel .flex-control-thumbs{display:flex;flex-wrap:wrap;gap:10px;margin:18px 0px 0px 0px;padding:0;list-style:none;}
+.bcfh-pdpanel .flex-control-thumbs li{width:76px;margin:0;padding:0;list-style:none;}
+.bcfh-pdpanel .flex-control-thumbs img{display:block;width:100%;height:auto;padding:4px;box-sizing:border-box;border-radius:4px;background-color:var(--bcfh-white);box-shadow:0px 0px 0px 1px var(--bcfh-line);opacity:0.6;cursor:pointer;transition:opacity 0.2s ease, box-shadow 0.2s ease;}
+.bcfh-pdpanel .flex-control-thumbs img:hover{opacity:1;}
+.bcfh-pdpanel .flex-control-thumbs .flex-active{opacity:1;box-shadow:0px 0px 0px 2px var(--bcfh-ink);}
+
+.bcfh-pdbuy{display:flex;flex-direction:column;align-items:flex-start;padding-top:6px;}
+.bcfh-pdbrand{display:inline-flex;align-items:center;gap:8px;font-weight:600;text-transform:uppercase;letter-spacing:0.14em;font-size:12px;line-height:1.2;color:var(--bcfh-red);margin-bottom:12px;}
+.bcfh-pdbrand::before{content:"";display:block;width:14px;height:12px;background-color:currentColor;clip-path:var(--bcfh-hex);}
+.bcfh-pdbrand a{color:inherit;text-decoration:none;}
+.bcfh-pdbrand a:hover{text-decoration:underline;}
+.bcfh-pdtitle{font-family:var(--bcfh-head);font-weight:800;font-size:clamp(2rem, 3.4vw, 2.9rem);line-height:1.04;letter-spacing:-0.03em;margin-top:0;margin-bottom:16px;}
+.bcfh-pdmeta{display:flex;flex-wrap:wrap;align-items:center;gap:10px 18px;margin-bottom:22px;}
+.bcfh-pdsku{display:inline-flex;align-items:center;gap:8px;font-size:13px;line-height:1.4;margin-top:0;margin-bottom:0;}
+.bcfh-pdskulabel{color:var(--bcfh-muted);}
+.bcfh-pdskuval{font-weight:600;}
+.bcfh-pdstock .wc-block-components-product-stock-indicator{display:inline-flex;align-items:center;gap:8px;margin:0;font-size:13px;line-height:1.4;font-weight:600;}
+.bcfh-pdstock .wc-block-components-product-stock-indicator::before{content:"";display:block;width:12px;height:10px;background-color:currentColor;clip-path:var(--bcfh-hex);}
+.bcfh-pdstock .wc-block-components-product-stock-indicator--in-stock{color:#2f7d32;}
+.bcfh-pdstock .wc-block-components-product-stock-indicator--out-of-stock{color:var(--bcfh-red);}
+.bcfh-pdstock .wc-block-components-product-stock-indicator--available-on-backorder{color:#9a6a00;}
+
+.bcfh-pdprice{box-sizing:border-box;position:relative;display:inline-flex;flex-direction:column;align-items:flex-start;margin-bottom:22px;}
+.bcfh-pdprice .wc-block-components-product-price{display:flex;flex-wrap:wrap;align-items:baseline;gap:4px 14px;margin:0;font-family:var(--bcfh-head);font-weight:900;font-size:46px;line-height:1;letter-spacing:-0.035em;color:var(--bcfh-ink);}
+.bcfh-pdprice del{font-weight:600;font-size:22px;line-height:1;letter-spacing:-0.01em;color:var(--bcfh-muted);text-decoration-thickness:2px;opacity:1;}
+.bcfh-pdprice ins{text-decoration:none;color:var(--bcfh-red);background-color:transparent;}
+.bcfh-pdprice:has(del){padding:30px 22px 22px 22px;background-color:var(--bcfh-white);clip-path:polygon(0% 0%, 100% 0%, 100.0% calc(100% - 3px), 94.6% calc(100% - 2px), 90.1% calc(100% - 9px), 85.3% calc(100% - 9px), 82.0% calc(100% - 0px), 75.4% calc(100% - 7px), 71.3% calc(100% - 3px), 67.6% calc(100% - 7px), 62.4% calc(100% - 8px), 57.5% calc(100% - 2px), 53.6% calc(100% - 2px), 47.1% calc(100% - 8px), 42.5% calc(100% - 0px), 36.8% calc(100% - 1px), 33.2% calc(100% - 9px), 30.0% calc(100% - 0px), 23.7% calc(100% - 4px), 18.8% calc(100% - 6px), 13.0% calc(100% - 6px), 8.4% calc(100% - 9px), 3.6% calc(100% - 2px), 0% calc(100% - 4px));}
+.bcfh-pdprice:has(del)::before{content:"Sale price";position:absolute;top:10px;left:22px;font-family:var(--bcfh-body);font-weight:700;text-transform:uppercase;letter-spacing:0.12em;font-size:10px;line-height:1.2;color:var(--bcfh-red);}
+
+.bcfh-pdexcerpt{font-size:15px;line-height:1.7;color:var(--bcfh-muted);margin-top:0;margin-bottom:24px;max-width:52ch;}
+
+.bcfh-pdcart{box-sizing:border-box;width:100%;padding-top:22px;padding-bottom:22px;border-top:2px solid var(--bcfh-ink);border-bottom:1px solid var(--bcfh-line);margin-bottom:22px;}
+.bcfh-pdcart form.cart{display:flex;flex-wrap:wrap;align-items:stretch;gap:12px;margin:0;}
+.bcfh-pdcart .screen-reader-text{position:absolute;width:1px;height:1px;padding:0;margin:-1px;overflow:hidden;clip:rect(0, 0, 0, 0);white-space:nowrap;border:0;}
+.bcfh-pdcart form.cart .quantity{display:flex;align-items:stretch;margin:0;}
+.bcfh-pdcart form.cart .quantity .qty{box-sizing:border-box;width:84px;height:54px;padding:0 10px;text-align:center;font-family:var(--bcfh-head);font-weight:700;font-size:18px;line-height:1;color:var(--bcfh-ink);background-color:var(--bcfh-white);border:0;clip-path:var(--bcfh-cham);box-shadow:inset 0px 0px 0px 2px var(--bcfh-ink);}
+.bcfh-pdcart form.cart .single_add_to_cart_button{flex-grow:1;height:54px;margin:0;padding:0 34px;font-family:var(--bcfh-body);font-weight:600;font-size:16px;line-height:1;color:var(--bcfh-white);background-color:var(--bcfh-red);border:0;border-radius:0;cursor:pointer;clip-path:var(--bcfh-cham);transition:background-color 0.2s ease, color 0.2s ease;}
+.bcfh-pdcart form.cart .single_add_to_cart_button:hover{background-color:var(--bcfh-ink);color:var(--bcfh-volt);}
+.bcfh-pdcart form.cart .single_add_to_cart_button:focus-visible{background-color:var(--bcfh-ink);color:var(--bcfh-volt);text-decoration:underline;outline:none;}
+.bcfh-pdcart form.cart .single_add_to_cart_button.disabled{opacity:0.45;cursor:not-allowed;}
+.bcfh-pdcart table.variations{width:100%;margin:0 0 6px 0;border:0;border-collapse:collapse;}
+.bcfh-pdcart table.variations th{padding:0 0 6px 0;text-align:left;font-weight:600;font-size:13px;line-height:1.3;border:0;}
+.bcfh-pdcart table.variations td{display:block;padding:0 0 12px 0;border:0;}
+.bcfh-pdcart table.variations select{box-sizing:border-box;width:100%;height:48px;padding:0 14px;font-family:var(--bcfh-body);font-size:15px;line-height:1.2;border:2px solid var(--bcfh-ink);border-radius:4px;background-color:var(--bcfh-white);}
+.bcfh-pdcart .reset_variations{font-size:12px;line-height:1.3;color:var(--bcfh-muted);}
+.bcfh-pdcart .woocommerce-variation-price{margin-bottom:12px;font-family:var(--bcfh-head);font-weight:800;font-size:26px;line-height:1.1;}
+
+.bcfh-pdassure{display:grid;grid-template-columns:repeat(3, minmax(0, 1fr));gap:14px;width:100%;margin-top:0;margin-bottom:0;padding-left:0;list-style:none;}
+.bcfh-pdassureitem{display:flex;align-items:flex-start;gap:10px;font-size:12px;line-height:1.45;color:var(--bcfh-muted);}
+.bcfh-pdassureicon{width:30px;height:34px;flex-shrink:0;padding:8px 7px;box-sizing:border-box;background-color:var(--bcfh-ink);color:var(--bcfh-volt);clip-path:var(--bcfh-hexup);}
+.bcfh-pdassurelead{display:block;font-family:var(--bcfh-head);font-weight:700;font-size:14px;line-height:1.25;color:var(--bcfh-ink);}
+.bcfh-pdassurelink{color:var(--bcfh-ink);text-decoration:underline;text-underline-offset:3px;}
+
+.bcfh-pddetails{background-color:var(--bcfh-white);padding-top:calc(var(--wp--preset--spacing--80, 5.06rem) + 22px);padding-bottom:var(--wp--preset--spacing--80, 5.06rem);}
+.bcfh-pddgrid{display:grid;grid-template-columns:1.7fr 1fr;gap:48px;align-items:start;}
+.bcfh-pdtabs .woocommerce-tabs{margin:0;padding:0;}
+.bcfh-pdtabs .woocommerce-tabs ul.tabs{display:flex;flex-wrap:wrap;gap:6px;margin:0 0 0 0;padding:0 0 0 0;list-style:none;border-bottom:2px solid var(--bcfh-ink);overflow:visible;}
+.bcfh-pdtabs .woocommerce-tabs ul.tabs::before{display:none;}
+.bcfh-pdtabs .woocommerce-tabs ul.tabs li{margin:0;padding:0;border:0;background-color:transparent;border-radius:0;}
+.bcfh-pdtabs .woocommerce-tabs ul.tabs li::before{display:none;}
+.bcfh-pdtabs .woocommerce-tabs ul.tabs li::after{display:none;}
+.bcfh-pdtabs .woocommerce-tabs ul.tabs li a{display:block;padding:13px 26px;font-family:var(--bcfh-head);font-weight:700;font-size:16px;line-height:1;color:var(--bcfh-ink);text-decoration:none;background-color:var(--bcfh-paper);clip-path:polygon(12px 0%, calc(100% - 12px) 0%, 100% 100%, 0% 100%);transition:background-color 0.2s ease, color 0.2s ease;}
+.bcfh-pdtabs .woocommerce-tabs ul.tabs li a:hover{background-color:var(--bcfh-line);}
+.bcfh-pdtabs .woocommerce-tabs ul.tabs li.active a{background-color:var(--bcfh-ink);color:var(--bcfh-volt);}
+.bcfh-pdtabs .woocommerce-Tabs-panel{margin:0;padding:28px 0 0 0;font-size:15px;line-height:1.75;color:#33312d;}
+.bcfh-pdtabs .woocommerce-Tabs-panel h2{font-family:var(--bcfh-head);font-weight:800;font-size:24px;line-height:1.15;margin-top:0;margin-bottom:12px;}
+.bcfh-pdtabs .woocommerce-Tabs-panel p{margin-top:0;margin-bottom:16px;}
+.bcfh-pdtabs .woocommerce-product-attributes{width:100%;margin:0;border:0;border-collapse:collapse;}
+.bcfh-pdtabs .woocommerce-product-attributes th{width:34%;padding:12px 16px 12px 0;text-align:left;font-weight:600;font-size:14px;line-height:1.4;border:0;border-bottom:1px solid var(--bcfh-line);}
+.bcfh-pdtabs .woocommerce-product-attributes td{padding:12px 0;font-size:14px;line-height:1.4;border:0;border-bottom:1px solid var(--bcfh-line);font-style:normal;}
+.bcfh-pdtabs .woocommerce-product-attributes td p{margin:0;}
+
+.bcfh-pdhelp{box-sizing:border-box;position:sticky;top:24px;overflow:hidden;padding:28px;border-radius:8px;background-color:var(--bcfh-slate);color:var(--bcfh-white);isolation:isolate;}
+.bcfh-pdhelphex{stroke:rgba(255, 255, 255, 0.07);}
+.bcfh-pdhelpbody{position:relative;z-index:1;}
+.bcfh-pdhelptitle{font-family:var(--bcfh-head);font-weight:800;font-size:26px;line-height:1.08;letter-spacing:-0.02em;margin-top:0;margin-bottom:10px;}
+.bcfh-pdhelptext{font-size:14px;line-height:1.6;color:rgba(255, 255, 255, 0.82);margin-top:0;margin-bottom:20px;}
+.bcfh-pdhelplist{display:flex;flex-direction:column;gap:14px;margin-top:0;margin-bottom:18px;padding-left:0;list-style:none;}
+.bcfh-pdhelpitem{display:flex;align-items:center;gap:12px;}
+.bcfh-pdhelpicon{width:40px;height:44px;flex-shrink:0;padding:11px 10px;box-sizing:border-box;background-color:rgba(255, 255, 255, 0.12);color:var(--bcfh-volt);clip-path:var(--bcfh-hexup);}
+.bcfh-pdhelplabel{display:block;font-size:11px;line-height:1.2;text-transform:uppercase;letter-spacing:0.1em;color:rgba(255, 255, 255, 0.7);margin-bottom:3px;}
+.bcfh-pdhelplink{font-family:var(--bcfh-head);font-weight:600;font-size:17px;line-height:1.3;color:var(--bcfh-white);text-decoration:underline;text-decoration-color:rgba(255, 255, 255, 0.4);text-underline-offset:4px;word-break:break-word;}
+.bcfh-pdhelplink:hover{text-decoration-color:var(--bcfh-volt);}
+.bcfh-pdhelphours{font-size:12px;line-height:1.5;color:rgba(255, 255, 255, 0.7);margin-top:0;margin-bottom:0;padding-top:14px;border-top:1px solid rgba(255, 255, 255, 0.2);}
+
+.bcfh-pdrelated{padding-top:var(--wp--preset--spacing--80, 5.06rem);padding-bottom:var(--wp--preset--spacing--80, 5.06rem);}
+
+@media (prefers-reduced-motion: no-preference){
+.bcfh-pcard{animation:bcfh-rise linear both;animation-timeline:view();animation-range:entry 5% entry 70%;}
+}
+@media (max-width: 1100px){
+.bcfh-pgrid{grid-template-columns:repeat(4, minmax(0, 1fr));}
+.bcfh-pdassure{grid-template-columns:1fr;}
+}
+@media (max-width: 1023px){
+.bcfh-pdgrid{grid-template-columns:1fr;gap:32px;}
+.bcfh-pdnut{left:-60px;}
+.bcfh-pddgrid{grid-template-columns:1fr;gap:32px;}
+.bcfh-pdhelp{position:relative;top:0;}
+.bcfh-pdassure{grid-template-columns:repeat(3, minmax(0, 1fr));}
+}
+@media (max-width: 680px){
+.bcfh-pdpanel{padding:12px;}
+.bcfh-pdprice .wc-block-components-product-price{font-size:38px;line-height:1;}
+.bcfh-pdassure{grid-template-columns:1fr;}
+.bcfh-pdtabs .woocommerce-tabs ul.tabs li a{padding:11px 16px;font-size:14px;line-height:1;}
+.bcfh-head{flex-direction:column;align-items:flex-start;gap:14px;}
+.bcfh-pgrid{grid-template-columns:repeat(2, minmax(0, 1fr));gap:8px;}
+}
+</style>
+</head>
+<body>
+
+<section class="wp-section alignfull bcfh-root bcfh-paperbg bcfh-pdtop" data-type="section-component" aria-label="Product">
+  <svg class="bcfh-hexbg" aria-hidden="true"><defs><pattern id="bcfh-hexpat-p1" width="38.1" height="66" patternUnits="userSpaceOnUse"><path class="bcfh-hexline bcfh-pdhex" d="M19.05 0L38.1 11V33L19.05 44L0 33V11Z M19.05 44V66"/></pattern></defs><rect width="100%" height="100%" fill="url(#bcfh-hexpat-p1)"/></svg>
+  <div class="wp-content-wrap" data-type="content-area-component">
+    <div class="bcfh-pdcrumbs"><span>@@WC:breadcrumbs@@</span></div>
+    <div class="bcfh-pdgrid">
+      <div class="bcfh-pdgallery">
+        <svg class="bcfh-pdnut" viewBox="0 0 100 100" fill="none" stroke="currentColor" stroke-width="1.2" aria-hidden="true"><path d="M50 2L91.6 26V74L50 98L8.4 74V26Z"/><circle cx="50" cy="50" r="40"/><circle cx="50" cy="50" r="20"/></svg>
+        <div class="bcfh-pdpanel"><span>@@WC:product-image-gallery@@</span></div>
+      </div>
+      <div class="bcfh-pdbuy">
+        <div class="bcfh-pdbrand" data-gl-dynamic-text="{{TERM_LINKS:product_brand}}">Brand</div>
+        <h1 class="bcfh-pdtitle" data-gl-dynamic-text="{{POST_TITLE}}">Product name</h1>
+        <div class="bcfh-pdmeta">
+          <p class="bcfh-pdsku"><span class="bcfh-pdskulabel">Part no.</span><span class="bcfh-pdskuval" data-gl-dynamic-text="{{META:_sku}}">SKU</span></p>
+          <div class="bcfh-pdstock"><span>@@WC:product-stock-indicator@@</span></div>
+        </div>
+        <div class="bcfh-pdprice"><span>@@WC:product-price@@</span></div>
+        <p class="bcfh-pdexcerpt" data-gl-dynamic-text="{{POST_EXCERPT}}">Short description</p>
+        <div class="bcfh-pdcart"><span>@@WC:add-to-cart-form@@</span></div>
+        <ul class="bcfh-pdassure">
+          <li class="bcfh-pdassureitem">
+            <svg class="bcfh-pdassureicon" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" aria-hidden="true"><path d="M3 7h11v9H3zM14 10h4l3 3v3h-7z"/><circle cx="7" cy="18" r="2"/><circle cx="17" cy="18" r="2"/></svg>
+            <span><strong class="bcfh-pdassurelead">Free shipping</strong><a class="bcfh-pdassurelink" href="/free-shipping-policy/">On qualifying orders</a></span>
+          </li>
+          <li class="bcfh-pdassureitem">
+            <svg class="bcfh-pdassureicon" viewBox="0 0 24 24" fill="currentColor" aria-hidden="true"><path d="M12 2l1.6 3.4 2.2-1-.5 4.4 2.6-2.2.6 1.8 2.7-.4-1 3 1.3.8L17 15l.6 1.6-4.6-.6.1 4.8h-2.2l.1-4.8-4.6.6L7 15l-4.5-3.6 1.3-.8-1-3 2.7.4.6-1.8 2.6 2.2-.5-4.4 2.2 1z"/></svg>
+            <span><strong class="bcfh-pdassurelead">100% Canadian</strong>Owned and operated</span>
+          </li>
+          <li class="bcfh-pdassureitem">
+            <svg class="bcfh-pdassureicon" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" aria-hidden="true"><path d="M5 4h4l2 5-2.5 1.5a11 11 0 0 0 5 5L15 13l5 2v4a2 2 0 0 1-2 2A16 16 0 0 1 3 6a2 2 0 0 1 2-2"/></svg>
+            <span><strong class="bcfh-pdassurelead">Real people</strong><a class="bcfh-pdassurelink" href="tel:18442862550">1-844-286-2550</a></span>
+          </li>
+        </ul>
+      </div>
+    </div>
+  </div>
+</section>
+
+<section class="wp-section alignfull bcfh-root bcfh-pddetails" data-type="section-component" aria-label="Product details">
+  <svg class="bcfh-nutrow" aria-hidden="true"><defs><pattern id="bcfh-nutpat-p1" width="44" height="22" patternUnits="userSpaceOnUse"><rect class="bcfh-nutrowbg" width="44" height="22"/><path class="bcfh-nutrownut" fill-rule="evenodd" d="M13 11L17.5 3.2H26.5L31 11L26.5 18.8H17.5Z M22 7.4a3.6 3.6 0 1 0 0.01 0Z"/></pattern></defs><rect width="100%" height="22" fill="url(#bcfh-nutpat-p1)"/></svg>
+  <div class="wp-content-wrap" data-type="content-area-component">
+    <div class="bcfh-pddgrid">
+      <div class="bcfh-pdtabs">
+        <p class="bcfh-kicker">Specs and details</p>
+        <span>@@WC:product-details@@</span>
+      </div>
+      <aside class="bcfh-pdhelp">
+        <svg class="bcfh-hexbg" aria-hidden="true"><defs><pattern id="bcfh-hexpat-p2" width="38.1" height="66" patternUnits="userSpaceOnUse"><path class="bcfh-hexline bcfh-pdhelphex" d="M19.05 0L38.1 11V33L19.05 44L0 33V11Z M19.05 44V66"/></pattern></defs><rect width="100%" height="100%" fill="url(#bcfh-hexpat-p2)"/></svg>
+        <div class="bcfh-pdhelpbody">
+          <h2 class="bcfh-pdhelptitle">Not sure it's the right part?</h2>
+          <p class="bcfh-pdhelptext">Call or email with the part number and our team will help you check it before you order.</p>
+          <ul class="bcfh-pdhelplist">
+            <li class="bcfh-pdhelpitem">
+              <svg class="bcfh-pdhelpicon" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" aria-hidden="true"><path d="M5 4h4l2 5-2.5 1.5a11 11 0 0 0 5 5L15 13l5 2v4a2 2 0 0 1-2 2A16 16 0 0 1 3 6a2 2 0 0 1 2-2"/></svg>
+              <div><span class="bcfh-pdhelplabel">Phone</span><a class="bcfh-pdhelplink" href="tel:18442862550">1-844-286-2550</a></div>
+            </li>
+            <li class="bcfh-pdhelpitem">
+              <svg class="bcfh-pdhelpicon" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" aria-hidden="true"><rect x="3" y="5" width="18" height="14" rx="1"/><path d="M3 7l9 6 9-6"/></svg>
+              <div><span class="bcfh-pdhelplabel">Email</span><a class="bcfh-pdhelplink" href="mailto:customerservice@bcfasteners.com">customerservice@bcfasteners.com</a></div>
+            </li>
+          </ul>
+          <p class="bcfh-pdhelphours">Monday to Friday, 7AM to 4PM Pacific. Closed weekends and holidays.</p>
+        </div>
+      </aside>
+    </div>
+  </div>
+</section>
+
+<section class="wp-section alignfull bcfh-root bcfh-inkbg bcfh-pdrelated" data-type="section-component" aria-labelledby="bcfh-pdrel-title">
+  <div class="wp-content-wrap" data-type="content-area-component">
+    <div class="bcfh-head">
+      <div>
+        <p class="bcfh-kicker bcfh-kickervolt">What the trades are buying</p>
+        <h2 class="bcfh-h2" id="bcfh-pdrel-title">Popular right now</h2>
+      </div>
+      <a class="bcfh-headlink bcfh-headlinkvolt" href="/shop/?orderby=popularity">See best sellers
+        <svg class="bcfh-arrow" viewBox="0 0 16 16" fill="none" stroke="currentColor" stroke-width="2" aria-hidden="true"><path d="M2 8h11M9 4l4 4-4 4"/></svg>
+      </a>
+    </div>
+    <div class="bcfh-pgrid">
+      <div data-bcfh-loop="related" data-gl-query-arguments='{"post_type":"product","post_status":"publish","posts_per_page":7,"meta_key":"total_sales","orderby":"meta_value_num","order":"DESC","ignore_sticky_posts":true,"tax_query":[{"taxonomy":"product_visibility","field":"name","terms":["exclude-from-catalog","outofstock"],"operator":"NOT IN"}]}'>
+        <article class="bcfh-pcard">
+          <div class="bcfh-pmedia">
+            <svg class="bcfh-pnut" viewBox="0 0 100 100" fill="currentColor" aria-hidden="true"><path fill-rule="evenodd" d="M50 2L91.6 26V74L50 98L8.4 74V26Z M50 30a20 20 0 1 0 0.01 0Z"/></svg>
+            <img class="bcfh-pimg" src="https://placehold.co/400x400/ffffff/9a958c/png?text=Product" alt="Product image" width="400" height="400" loading="lazy" data-gl-dynamic-src="{{THUMBNAIL_URL}}" data-gl-dynamic-alt="{{POST_TITLE}}">
+          </div>
+          <div class="bcfh-pbody">
+            <div class="bcfh-pbrand" data-gl-dynamic-text="{{TERM_LINKS:product_brand}}">Brand</div>
+            <h3 class="bcfh-pname"><a class="bcfh-pnamelink" href="#" data-gl-dynamic-href="{{POST_URL}}" data-gl-dynamic-text="{{POST_TITLE}}">Product name</a></h3>
+            <p class="bcfh-psku" data-gl-dynamic-text="{{META:_sku}}">SKU</p>
+            <div class="bcfh-pfoot">
+              <span class="bcfh-pprice"><span class="bcfh-pcur">$</span><span data-gl-dynamic-text="{{META:_price}}">0.00</span></span>
+              <span class="bcfh-pgo">View</span>
+            </div>
+          </div>
+        </article>
+      </div>
+    </div>
+  </div>
+</section>
+
+</body>
+</html>
