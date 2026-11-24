@@ -28,7 +28,7 @@ SHARED_CLASSES = {
 
 SECTION_NAMES = {
     "bcf-homepage": ["Hero and promo mosaic", "Trust strip", "New products (live)", "Product spotlight",
-                     "PIP helmet colour picker", "Top selling items (live)", "Top brands", "Help and newsletter"],
+                     "PIP helmet colour picker", "Most popular (live)", "Top brands", "Help and newsletter"],
     "product-page": ["Product buy box", "Product details and help", "Popular right now (live)"],
 }
 

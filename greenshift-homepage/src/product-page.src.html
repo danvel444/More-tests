@@ -34,8 +34,8 @@
 .bcfh-pdbuy{display:flex;flex-direction:column;align-items:flex-start;padding-top:6px;}
 .bcfh-pdbrand{display:inline-flex;align-items:center;gap:8px;font-weight:600;text-transform:uppercase;letter-spacing:0.14em;font-size:12px;line-height:1.2;color:var(--bcfh-red);margin-bottom:12px;}
 .bcfh-pdbrand::before{content:"";display:block;width:14px;height:12px;background-color:currentColor;clip-path:var(--bcfh-hex);}
-.bcfh-pdbrand a{color:inherit;text-decoration:none;}
-.bcfh-pdbrand a:hover{text-decoration:underline;}
+.bcfh-pdbrand{text-decoration:none;}
+.bcfh-pdbrand:hover{text-decoration:underline;}
 .bcfh-pdtitle{font-family:var(--bcfh-head);font-weight:800;font-size:clamp(2rem, 3.4vw, 2.9rem);line-height:1.04;letter-spacing:-0.03em;margin-top:0;margin-bottom:16px;}
 .bcfh-pdmeta{display:flex;flex-wrap:wrap;align-items:center;gap:10px 18px;margin-bottom:22px;}
 .bcfh-pdsku{display:inline-flex;align-items:center;gap:8px;font-size:13px;line-height:1.4;margin-top:0;margin-bottom:0;}
@@ -148,7 +148,7 @@
         <div class="bcfh-pdpanel"><span>@@WC:product-image-gallery@@</span></div>
       </div>
       <div class="bcfh-pdbuy">
-        <div class="bcfh-pdbrand" data-gl-dynamic-text="{{TERM_LINKS:product_brand}}">Brand</div>
+        <a class="bcfh-pdbrand" href="#" data-gl-dynamic-href="{{META:_bcf_brand_url}}" data-gl-dynamic-text="{{META:_bcf_brand}}">Brand</a>
         <h1 class="bcfh-pdtitle" data-gl-dynamic-text="{{POST_TITLE}}">Product name</h1>
         <div class="bcfh-pdmeta">
           <p class="bcfh-pdsku"><span class="bcfh-pdskulabel">Part no.</span><span class="bcfh-pdskuval" data-gl-dynamic-text="{{META:_sku}}">SKU</span></p>
@@ -210,22 +210,22 @@
   <div class="wp-content-wrap" data-type="content-area-component">
     <div class="bcfh-head">
       <div>
-        <p class="bcfh-kicker bcfh-kickervolt">What the trades are buying</p>
+        <p class="bcfh-kicker bcfh-kickervolt">Ordered most often</p>
         <h2 class="bcfh-h2" id="bcfh-pdrel-title">Popular right now</h2>
       </div>
-      <a class="bcfh-headlink bcfh-headlinkvolt" href="/shop/?orderby=popularity">See best sellers
+      <a class="bcfh-headlink bcfh-headlinkvolt" href="/shop/?orderby=popularity">See all popular
         <svg class="bcfh-arrow" viewBox="0 0 16 16" fill="none" stroke="currentColor" stroke-width="2" aria-hidden="true"><path d="M2 8h11M9 4l4 4-4 4"/></svg>
       </a>
     </div>
     <div class="bcfh-pgrid">
-      <div data-bcfh-loop="related" data-gl-query-arguments='{"post_type":"product","post_status":"publish","posts_per_page":7,"meta_key":"total_sales","orderby":"meta_value_num","order":"DESC","ignore_sticky_posts":true,"tax_query":[{"taxonomy":"product_visibility","field":"name","terms":["exclude-from-catalog","outofstock"],"operator":"NOT IN"}]}'>
+      <div data-bcfh-loop="related" data-gl-query-arguments='{"post_type":"product","post_status":"publish","posts_per_page":7,"meta_key":"_bcf_popular_score","orderby":"meta_value_num","order":"DESC","ignore_sticky_posts":true,"tax_query":[{"taxonomy":"product_visibility","field":"name","terms":["exclude-from-catalog","outofstock"],"operator":"NOT IN"}]}'>
         <article class="bcfh-pcard">
           <div class="bcfh-pmedia">
             <svg class="bcfh-pnut" viewBox="0 0 100 100" fill="currentColor" aria-hidden="true"><path fill-rule="evenodd" d="M50 2L91.6 26V74L50 98L8.4 74V26Z M50 30a20 20 0 1 0 0.01 0Z"/></svg>
             <img class="bcfh-pimg" src="https://placehold.co/400x400/ffffff/9a958c/png?text=Product" alt="Product image" width="400" height="400" loading="lazy" data-gl-dynamic-src="{{THUMBNAIL_URL}}" data-gl-dynamic-alt="{{POST_TITLE}}">
           </div>
           <div class="bcfh-pbody">
-            <div class="bcfh-pbrand" data-gl-dynamic-text="{{TERM_LINKS:product_brand}}">Brand</div>
+            <a class="bcfh-pbrand" href="#" data-gl-dynamic-href="{{META:_bcf_brand_url}}" data-gl-dynamic-text="{{META:_bcf_brand}}">Brand</a>
             <h3 class="bcfh-pname"><a class="bcfh-pnamelink" href="#" data-gl-dynamic-href="{{POST_URL}}" data-gl-dynamic-text="{{POST_TITLE}}">Product name</a></h3>
             <p class="bcfh-psku" data-gl-dynamic-text="{{META:_sku}}">SKU</p>
             <div class="bcfh-pfoot">

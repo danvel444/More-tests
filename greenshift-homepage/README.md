@@ -32,16 +32,33 @@ python3 greenshift-homepage/build.py
   WooCommerce shows a sale (`.bcfh-pdprice:has(del)`).
 - Fonts: Outfit (headings), Poppins (body). Colours live on `.bcfh-root`.
 
-## Live product loops
+## Live product loops and rankings
 
-New products, top sellers and "Popular right now" are GreenShift query loops:
+New products, Most popular and "Popular right now" are GreenShift query loops that sort
+by scores from `wp/bcf-product-rankings.php`. **Install that plugin first**: copy it to
+`wp-content/mu-plugins/`, then open WooCommerce > Product rankings and click
+"Recalculate now". Until it has run, the loops are empty.
 
-- New: newest 14 published products.
-- Top sellers: ordered by WooCommerce `total_sales`; podium shows #1, the list shows #2 to #7.
-- Hidden and out-of-stock products are excluded (`product_visibility` taxonomy).
-- Brand label uses `{{TERM_LINKS:product_brand}}` (WooCommerce Brands). If brands are an
-  attribute instead, change it to `{{TERM_LINKS:pa_brand}}` in the source and rebuild.
+- **Most popular** (`_bcf_popular_score`): number of separate orders containing the product
+  in the last 90 days. An order of 1,000 screws counts once, the same as an order of one drill.
+  Variations count toward their parent product. Refunds are ignored.
+- **New products** (`_bcf_new_score`): products published in the last 120 days (and always
+  the 40 newest), scored as
+  `(1 + orders since launch) x log10(price + 10) x 0.5^(age / 30 days) x 3 if Featured`.
+  A new power tool outranks a new driver bit out of the gate, but a bit that lots of
+  separate orders pick up still climbs. Star a product as Featured to push a launch.
+- Tag a product `exclude-from-rankings` to keep it out of both lists.
+- Scores refresh twice a day (WP-Cron), from the admin page, or with `wp bcf rankings`.
+- Settings (windows, half-life, Featured boost, brand attribute) are constants at the top of the plugin.
+- Data comes from WooCommerce Analytics tables. If Analytics hasn't imported historical
+  orders yet, run WooCommerce > Settings > Advanced > Analytics > Import historical data.
+- Hidden and out-of-stock products are excluded by the loop queries.
+- **Brand**: the plugin copies each product's `pa_brand` attribute to `_bcf_brand` and links
+  it to the product category with the same name (`_bcf_brand_url`), falling back to a store
+  search. Change `BRAND_ATTRIBUTE` if your attribute slug differs.
 - Price uses `{{META:_price}}`: current price, no "was" price, lowest price for variable products.
+
+Test the scoring math with `php greenshift-homepage/wp/test-rankings.php`.
 
 ## Product template
 

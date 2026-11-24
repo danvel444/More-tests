@@ -120,8 +120,8 @@
 .bcfh-pimg{display:block;width:100%;height:auto;aspect-ratio:1 / 1;object-fit:contain;transition:transform 0.4s cubic-bezier(0.2, 0.7, 0.2, 1);}
 .bcfh-pbody{display:flex;flex-direction:column;flex-grow:1;padding:0 13px 13px 13px;}
 .bcfh-pbrand{position:relative;z-index:2;font-weight:600;text-transform:uppercase;letter-spacing:0.12em;font-size:10px;line-height:1.2;color:var(--bcfh-red);margin-top:0;margin-bottom:4px;}
-.bcfh-pbrand a{color:inherit;text-decoration:none;}
-.bcfh-pbrand a:hover{text-decoration:underline;}
+.bcfh-pbrand{text-decoration:none;align-self:flex-start;}
+.bcfh-pbrand:hover{text-decoration:underline;}
 .bcfh-pname{font-family:var(--bcfh-head);font-weight:600;font-size:15px;line-height:1.25;letter-spacing:-0.01em;margin-top:0;margin-bottom:4px;display:-webkit-box;-webkit-line-clamp:3;-webkit-box-orient:vertical;overflow:hidden;}
 .bcfh-pnamelink{color:inherit;text-decoration:none;}
 .bcfh-pnamelink::after{content:"";position:absolute;top:0;right:0;bottom:0;left:0;z-index:1;}
@@ -199,7 +199,8 @@
 .bcfh-firstmedia{display:block;margin-top:18px;margin-bottom:16px;background-color:var(--bcfh-white);border-radius:6px;padding:18px;}
 .bcfh-firstimg{display:block;width:100%;height:auto;aspect-ratio:4 / 3;object-fit:contain;transition:transform 0.5s cubic-bezier(0.2, 0.7, 0.2, 1);}
 .bcfh-firstbrand{position:relative;z-index:2;font-weight:600;text-transform:uppercase;letter-spacing:0.12em;font-size:11px;line-height:1.3;margin-top:0;margin-bottom:4px;}
-.bcfh-firstbrand a{color:inherit;}
+.bcfh-firstbrand{color:inherit;text-decoration:none;}
+.bcfh-firstbrand:hover{text-decoration:underline;}
 .bcfh-firstname{font-family:var(--bcfh-head);font-weight:800;font-size:28px;line-height:1.05;letter-spacing:-0.025em;margin-top:0;margin-bottom:14px;}
 .bcfh-firstlink{color:inherit;text-decoration:none;}
 .bcfh-firstlink::after{content:"";position:absolute;top:0;right:0;bottom:0;left:0;z-index:1;}
@@ -217,7 +218,8 @@
 .bcfh-rimg{display:block;width:76px;height:76px;object-fit:contain;background-color:var(--bcfh-white);border-radius:5px;padding:6px;box-sizing:border-box;}
 .bcfh-rtext{display:flex;flex-direction:column;}
 .bcfh-rbrand{position:relative;z-index:2;font-weight:600;text-transform:uppercase;letter-spacing:0.12em;font-size:10px;line-height:1.3;color:rgba(255, 255, 255, 0.55);}
-.bcfh-rbrand a{color:inherit;text-decoration:none;}
+.bcfh-rbrand{text-decoration:none;align-self:flex-start;}
+.bcfh-rbrand:hover{text-decoration:underline;}
 .bcfh-rname{font-family:var(--bcfh-head);font-weight:600;font-size:17px;line-height:1.25;margin-top:2px;margin-bottom:0;}
 .bcfh-rlink{color:var(--bcfh-white);text-decoration:none;}
 .bcfh-rlink::after{content:"";position:absolute;top:0;right:0;bottom:0;left:0;z-index:1;}
@@ -458,14 +460,14 @@
 
     <div class="bcfh-pgrid">
 
-    <div data-bcfh-loop="new" data-gl-query-arguments='{"post_type":"product","post_status":"publish","posts_per_page":14,"orderby":"date","order":"DESC","ignore_sticky_posts":true,"tax_query":[{"taxonomy":"product_visibility","field":"name","terms":["exclude-from-catalog","outofstock"],"operator":"NOT IN"}]}'>
+    <div data-bcfh-loop="new" data-gl-query-arguments='{"post_type":"product","post_status":"publish","posts_per_page":14,"meta_key":"_bcf_new_score","orderby":"meta_value_num","order":"DESC","ignore_sticky_posts":true,"tax_query":[{"taxonomy":"product_visibility","field":"name","terms":["exclude-from-catalog","outofstock"],"operator":"NOT IN"}]}'>
       <article class="bcfh-pcard">
         <div class="bcfh-pmedia">
           <svg class="bcfh-pnut" viewBox="0 0 100 100" fill="currentColor" aria-hidden="true"><path fill-rule="evenodd" d="M50 2L91.6 26V74L50 98L8.4 74V26Z M50 30a20 20 0 1 0 0.01 0Z"/></svg>
           <img class="bcfh-pimg" src="https://placehold.co/400x400/ffffff/9a958c/png?text=Product" alt="Product image" width="400" height="400" loading="lazy" data-gl-dynamic-src="{{THUMBNAIL_URL}}" data-gl-dynamic-alt="{{POST_TITLE}}">
         </div>
         <div class="bcfh-pbody">
-          <div class="bcfh-pbrand" data-gl-dynamic-text="{{TERM_LINKS:product_brand}}">Brand</div>
+          <a class="bcfh-pbrand" href="#" data-gl-dynamic-href="{{META:_bcf_brand_url}}" data-gl-dynamic-text="{{META:_bcf_brand}}">Brand</a>
           <h3 class="bcfh-pname"><a class="bcfh-pnamelink" href="#" data-gl-dynamic-href="{{POST_URL}}" data-gl-dynamic-text="{{POST_TITLE}}">Product name</a></h3>
           <p class="bcfh-psku" data-gl-dynamic-text="{{META:_sku}}">SKU</p>
           <div class="bcfh-pfoot">
@@ -561,24 +563,24 @@
   <div class="wp-content-wrap" data-type="content-area-component">
     <div class="bcfh-head">
       <div>
-        <p class="bcfh-kicker bcfh-kickervolt">What the trades are buying</p>
-        <h2 class="bcfh-h2" id="bcfh-top-title">Top selling items</h2>
+        <p class="bcfh-kicker bcfh-kickervolt">Ordered most often</p>
+        <h2 class="bcfh-h2" id="bcfh-top-title">Most popular</h2>
       </div>
-      <a class="bcfh-headlink bcfh-headlinkvolt" href="/shop/?orderby=popularity">See best sellers
+      <a class="bcfh-headlink bcfh-headlinkvolt" href="/shop/?orderby=popularity">See all popular
         <svg class="bcfh-arrow" viewBox="0 0 16 16" fill="none" stroke="currentColor" stroke-width="2" aria-hidden="true"><path d="M2 8h11M9 4l4 4-4 4"/></svg>
       </a>
     </div>
 
     <div class="bcfh-podium">
       <div class="bcfh-firstloop">
-      <div data-bcfh-loop="first" data-gl-query-arguments='{"post_type":"product","post_status":"publish","posts_per_page":1,"meta_key":"total_sales","orderby":"meta_value_num","order":"DESC","ignore_sticky_posts":true,"tax_query":[{"taxonomy":"product_visibility","field":"name","terms":["exclude-from-catalog","outofstock"],"operator":"NOT IN"}]}'>
+      <div data-bcfh-loop="first" data-gl-query-arguments='{"post_type":"product","post_status":"publish","posts_per_page":1,"meta_key":"_bcf_popular_score","orderby":"meta_value_num","order":"DESC","ignore_sticky_posts":true,"tax_query":[{"taxonomy":"product_visibility","field":"name","terms":["exclude-from-catalog","outofstock"],"operator":"NOT IN"}]}'>
         <article class="bcfh-first">
           <div class="bcfh-firstrow">
             <span class="bcfh-firstnum">01</span>
-            <p class="bcfh-firstlabel">Best seller<br>right now</p>
+            <p class="bcfh-firstlabel">Most ordered<br>right now</p>
           </div>
           <div class="bcfh-firstmedia"><img class="bcfh-firstimg" src="https://placehold.co/640x480/ffffff/9a958c/png?text=Best+seller" alt="Best selling product" width="640" height="480" loading="lazy" data-gl-dynamic-src="{{THUMBNAIL_URL}}" data-gl-dynamic-alt="{{POST_TITLE}}"></div>
-          <div class="bcfh-firstbrand" data-gl-dynamic-text="{{TERM_LINKS:product_brand}}">Brand</div>
+          <a class="bcfh-firstbrand" href="#" data-gl-dynamic-href="{{META:_bcf_brand_url}}" data-gl-dynamic-text="{{META:_bcf_brand}}">Brand</a>
           <h3 class="bcfh-firstname"><a class="bcfh-firstlink" href="#" data-gl-dynamic-href="{{POST_URL}}" data-gl-dynamic-text="{{POST_TITLE}}">Product name</a></h3>
           <div class="bcfh-firstfoot"><span data-gl-dynamic-text="{{META:_sku}}">SKU</span><span class="bcfh-textlink">Shop now
             <svg class="bcfh-arrow" viewBox="0 0 16 16" fill="none" stroke="currentColor" stroke-width="2" aria-hidden="true"><path d="M2 8h11M9 4l4 4-4 4"/></svg></span></div>
@@ -586,12 +588,12 @@
       </div>
       </div>
       <div class="bcfh-ranklist">
-      <div data-bcfh-loop="rank" data-gl-query-arguments='{"post_type":"product","post_status":"publish","posts_per_page":6,"offset":1,"meta_key":"total_sales","orderby":"meta_value_num","order":"DESC","ignore_sticky_posts":true,"tax_query":[{"taxonomy":"product_visibility","field":"name","terms":["exclude-from-catalog","outofstock"],"operator":"NOT IN"}]}'>
+      <div data-bcfh-loop="rank" data-gl-query-arguments='{"post_type":"product","post_status":"publish","posts_per_page":6,"offset":1,"meta_key":"_bcf_popular_score","orderby":"meta_value_num","order":"DESC","ignore_sticky_posts":true,"tax_query":[{"taxonomy":"product_visibility","field":"name","terms":["exclude-from-catalog","outofstock"],"operator":"NOT IN"}]}'>
         <article class="bcfh-ritem">
           <span class="bcfh-rnum" aria-hidden="true"></span>
           <img class="bcfh-rimg" src="https://placehold.co/160x160/ffffff/9a958c/png?text=Product" alt="Product image" width="160" height="160" loading="lazy" data-gl-dynamic-src="{{THUMBNAIL_URL}}" data-gl-dynamic-alt="{{POST_TITLE}}">
           <div class="bcfh-rtext">
-            <div class="bcfh-rbrand" data-gl-dynamic-text="{{TERM_LINKS:product_brand}}">Brand</div>
+            <a class="bcfh-rbrand" href="#" data-gl-dynamic-href="{{META:_bcf_brand_url}}" data-gl-dynamic-text="{{META:_bcf_brand}}">Brand</a>
             <h3 class="bcfh-rname"><a class="bcfh-rlink" href="#" data-gl-dynamic-href="{{POST_URL}}" data-gl-dynamic-text="{{POST_TITLE}}">Product name</a></h3>
           </div>
           <svg class="bcfh-arrow" viewBox="0 0 16 16" fill="none" stroke="currentColor" stroke-width="2" aria-hidden="true"><path d="M2 8h11M9 4l4 4-4 4"/></svg>
