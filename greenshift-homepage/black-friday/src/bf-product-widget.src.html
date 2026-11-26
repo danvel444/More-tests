@@ -1,0 +1,77 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Black Friday Product Widget</title>
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Outfit:wght@500;600;700;800;900&family=Poppins:wght@400;500;600;700&display=swap" rel="stylesheet">
+<style data-wp-block-html="css">
+.bcbf-pw{--bcbf-ink:#0b0c0d;--bcbf-ink-2:#17191c;--bcbf-ink-3:#2a2e33;--bcbf-red:#d22630;--bcbf-volt:#d9f20b;--bcbf-white:#ffffff;--bcbf-muted:rgba(255, 255, 255, 0.66);--bcbf-head:"Outfit",sans-serif;--bcbf-body:"Poppins",sans-serif;--bcbf-hex:polygon(25% 0%, 75% 0%, 100% 50%, 75% 100%, 25% 100%, 0% 50%);box-sizing:border-box;position:relative;width:100%;margin-top:20px;margin-bottom:20px;padding:26px 20px 18px 20px;background-color:var(--bcbf-ink);color:var(--bcbf-white);font-family:var(--bcbf-body);font-size:14px;line-height:1.5;overflow:hidden;clip-path:polygon(0.0% 7px, 4.6% 7px, 8.0% 9px, 10.5% 8px, 13.9% 9px, 18.3% 1px, 21.7% 2px, 23.9% 0px, 27.7% 6px, 32.6% 9px, 36.6% 9px, 38.6% 8px, 40.8% 0px, 43.4% 3px, 47.2% 7px, 50.2% 9px, 54.7% 8px, 57.4% 4px, 60.9% 1px, 64.3% 4px, 67.5% 8px, 72.5% 1px, 76.6% 5px, 80.9% 8px, 83.7% 1px, 87.4% 1px, 90.6% 4px, 93.8% 0px, 98.3% 0px, 100% 4px, 100% 100%, 0% 100%);border-radius:0px 0px 6px 6px;}
+.bcbf-pwtop{display:flex;flex-wrap:wrap;align-items:center;justify-content:space-between;gap:10px;margin-bottom:6px;}
+.bcbf-pwtag{display:inline-block;white-space:nowrap;padding:6px 14px;background-color:var(--bcbf-red);color:var(--bcbf-white);font-weight:700;font-size:10px;line-height:1;text-transform:uppercase;letter-spacing:0.14em;clip-path:polygon(7px 0%, calc(100% - 7px) 0%, 100% 50%, calc(100% - 7px) 100%, 7px 100%, 0% 50%);}
+.bcbf-pwonline{font-size:11px;line-height:1.2;color:var(--bcbf-muted);}
+.bcbf-pwtitle{font-family:var(--bcbf-head);font-weight:900;font-size:24px;line-height:1.05;letter-spacing:-0.025em;text-transform:uppercase;margin-top:8px;margin-bottom:4px;}
+.bcbf-pwvolt{color:var(--bcbf-volt);font-style:normal;}
+.bcbf-pwintro{font-size:13px;line-height:1.5;color:var(--bcbf-muted);margin-top:0;margin-bottom:16px;}
+.bcbf-pwbrands{display:flex;flex-wrap:wrap;gap:18px 22px;}
+.bcbf-pwbrand{flex:1 1 230px;min-width:0;}
+.bcbf-pwbrandhead{display:flex;align-items:baseline;justify-content:space-between;gap:10px;padding-bottom:8px;margin-bottom:4px;border-bottom:2px solid var(--bcbf-ink-3);}
+.bcbf-pwname{font-family:var(--bcbf-head);font-weight:900;font-style:italic;font-size:19px;line-height:1;letter-spacing:-0.02em;margin-top:0;margin-bottom:0;}
+.bcbf-pwmax{font-size:11px;line-height:1.2;color:var(--bcbf-muted);}
+.bcbf-pwtiers{margin-top:0;margin-bottom:10px;padding-left:0;list-style:none;}
+.bcbf-pwtier{display:grid;grid-template-columns:78px 1fr auto;align-items:center;gap:10px;padding:7px 0;border-bottom:1px solid var(--bcbf-ink-2);}
+.bcbf-pwspend{display:flex;align-items:center;justify-content:center;height:28px;font-family:var(--bcbf-head);font-weight:800;font-size:15px;line-height:1;clip-path:polygon(7px 0%, calc(100% - 7px) 0%, 100% 50%, calc(100% - 7px) 100%, 7px 100%, 0% 50%);}
+.bcbf-pwmil .bcbf-pwspend{background-color:var(--bcbf-red);color:var(--bcbf-white);}
+.bcbf-pwwera .bcbf-pwspend{background-color:var(--bcbf-volt);color:var(--bcbf-ink);}
+.bcbf-pwgift{font-weight:600;font-size:13px;line-height:1.3;}
+.bcbf-pwcount{font-size:11px;line-height:1.2;color:var(--bcbf-muted);white-space:nowrap;}
+.bcbf-pwlink{display:inline-flex;align-items:center;gap:6px;font-weight:600;font-size:13px;line-height:1.2;color:var(--bcbf-white);text-decoration:underline;text-decoration-color:rgba(255, 255, 255, 0.35);text-underline-offset:4px;}
+.bcbf-pwlink:hover{text-decoration-color:var(--bcbf-volt);}
+.bcbf-pwarrow{width:14px;height:14px;flex-shrink:0;transition:transform 0.25s ease;}
+.bcbf-pwlink:hover .bcbf-pwarrow{transform:translateX(3px);}
+.bcbf-pwfine{font-size:10px;line-height:1.5;color:rgba(255, 255, 255, 0.45);margin-top:14px;margin-bottom:0;}
+</style>
+</head>
+<body>
+
+<div class="bcbf-pw" role="region" aria-label="Black Friday free gifts with purchase">
+  <div class="bcbf-pwtop">
+    <span class="bcbf-pwtag">Black Friday</span>
+    <span class="bcbf-pwonline">Online only. While quantities last.</span>
+  </div>
+  <p class="bcbf-pwtitle">Free swag <em class="bcbf-pwvolt">with purchase</em></p>
+  <p class="bcbf-pwintro">Gifts stack: every tier includes the gifts below it.</p>
+  <div class="bcbf-pwbrands">
+@@BRAND:mil@@
+    <div class="bcbf-pwbrand bcbf-pwmil">
+      <div class="bcbf-pwbrandhead"><h3 class="bcbf-pwname">Milwaukee</h3><span class="bcbf-pwmax">Up to 7 gifts</span></div>
+      <ul class="bcbf-pwtiers">
+        <li class="bcbf-pwtier"><span class="bcbf-pwspend">$500+</span><span class="bcbf-pwgift">Trucker hat + toque</span><span class="bcbf-pwcount">2 gifts</span></li>
+        <li class="bcbf-pwtier"><span class="bcbf-pwspend">$800+</span><span class="bcbf-pwgift">Towel + duffle bag</span><span class="bcbf-pwcount">4 gifts</span></li>
+        <li class="bcbf-pwtier"><span class="bcbf-pwspend">$1,000+</span><span class="bcbf-pwgift">Crewneck sweater</span><span class="bcbf-pwcount">5 gifts</span></li>
+        <li class="bcbf-pwtier"><span class="bcbf-pwspend">$1,500+</span><span class="bcbf-pwgift">Camping chair</span><span class="bcbf-pwcount">6 gifts</span></li>
+        <li class="bcbf-pwtier"><span class="bcbf-pwspend">$3,000+</span><span class="bcbf-pwgift">Vintage cooler</span><span class="bcbf-pwcount">All 7</span></li>
+      </ul>
+      <a class="bcbf-pwlink" href="/?s=Milwaukee&amp;post_type=product">Shop Milwaukee<svg class="bcbf-pwarrow" viewBox="0 0 16 16" fill="none" stroke="currentColor" stroke-width="2" aria-hidden="true"><path d="M2 8h11M9 4l4 4-4 4"/></svg></a>
+    </div>
+@@END@@
+@@BRAND:wera@@
+    <div class="bcbf-pwbrand bcbf-pwwera">
+      <div class="bcbf-pwbrandhead"><h3 class="bcbf-pwname">Wera</h3><span class="bcbf-pwmax">Up to 4 gifts</span></div>
+      <ul class="bcbf-pwtiers">
+        <li class="bcbf-pwtier"><span class="bcbf-pwspend">$150+</span><span class="bcbf-pwgift">Trucker hat</span><span class="bcbf-pwcount">1 gift</span></li>
+        <li class="bcbf-pwtier"><span class="bcbf-pwspend">$250+</span><span class="bcbf-pwgift">Toque</span><span class="bcbf-pwcount">2 gifts</span></li>
+        <li class="bcbf-pwtier"><span class="bcbf-pwspend">$500+</span><span class="bcbf-pwgift">Flag</span><span class="bcbf-pwcount">3 gifts</span></li>
+        <li class="bcbf-pwtier"><span class="bcbf-pwspend">$600+</span><span class="bcbf-pwgift">Backpack</span><span class="bcbf-pwcount">All 4</span></li>
+      </ul>
+      <a class="bcbf-pwlink" href="/?s=Wera&amp;post_type=product">Shop Wera<svg class="bcbf-pwarrow" viewBox="0 0 16 16" fill="none" stroke="currentColor" stroke-width="2" aria-hidden="true"><path d="M2 8h11M9 4l4 4-4 4"/></svg></a>
+    </div>
+@@END@@
+  </div>
+  <p class="bcbf-pwfine">@@FINE@@</p>
+</div>
+
+</body>
+</html>
