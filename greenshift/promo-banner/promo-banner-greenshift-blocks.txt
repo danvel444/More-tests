@@ -1,0 +1,153 @@
+<!-- wp:greenshift-blocks/element {"id":"gsbp-1a55d9a","inlineCssStyles":".gsbp-1a55d9a{position:relative;overflow:hidden;background-color:#0d0e10;padding-top:2.25rem;padding-bottom:2.5rem;padding-left:2.25rem;padding-right:2.25rem;}@media (max-width: 575.98px){.gsbp-1a55d9a{padding-top:1.5rem;padding-bottom:1.75rem;padding-left:1.25rem;padding-right:1.25rem;}}.gsbp-1a55d9a::after{content:\u0022\u0022;position:absolute;left:0;right:0;bottom:0;height:4px;pointer-events:none;background-color:var(\u002d\u002dwp\u002d\u002dpreset\u002d\u002dcolor\u002d\u002dpalette-color-1, var(\u002d\u002dtheme-palette-color-1, #b11f24));}","tag":"section","type":"inner","className":"tfg-hex","localId":"gsbp-1a55d9a","styleAttributes":{"position":["relative"],"overflow":["hidden"],"backgroundColor":["#0d0e10"],"paddingTop":["2.25rem",null,null,"1.5rem"],"paddingBottom":["2.5rem",null,null,"1.75rem"],"paddingLeft":["2.25rem",null,null,"1.25rem"],"paddingRight":["2.25rem",null,null,"1.25rem"],"customCSS_Extra":"{CURRENT}::after{content:\u0022\u0022;position:absolute;left:0;right:0;bottom:0;height:4px;pointer-events:none;background-color:var(\u002d\u002dwp\u002d\u002dpreset\u002d\u002dcolor\u002d\u002dpalette-color-1, var(\u002d\u002dtheme-palette-color-1, #b11f24));}"},"metadata":{"name":"Promo Banner"}} -->
+<section class="tfg-hex gsbp-1a55d9a"><!-- wp:greenshift-blocks/element {"id":"gsbp-614ae38","inlineCssStyles":".gsbp-614ae38{display:flex;flex-wrap:wrap;align-items:flex-end;justify-content:space-between;column-gap:2rem;row-gap:1rem;padding-bottom:1.5rem;margin-bottom:1.75rem;border-bottom:1px solid rgba(255, 255, 255, 0.14);}","type":"inner","localId":"gsbp-614ae38","styleAttributes":{"display":["flex"],"flexWrap":["wrap"],"alignItems":["flex-end"],"justifyContent":["space-between"],"columnGap":["2rem"],"rowGap":["1rem"],"paddingBottom":["1.5rem"],"marginBottom":["1.75rem"],"borderBottom":["1px solid rgba(255, 255, 255, 0.14)"]},"metadata":{"name":"Header"}} -->
+<div class="gsbp-614ae38"><!-- wp:greenshift-blocks/element {"id":"gsbp-f33cd13","type":"inner","localId":"gsbp-f33cd13","metadata":{"name":"Title"}} -->
+<div><!-- wp:greenshift-blocks/element {"id":"gsbp-465b01c","inlineCssStyles":".gsbp-465b01c{margin-top:0px;margin-bottom:0.35rem;color:#ffffff;line-height:1.1;font-size:clamp(2rem, 4vw, 2.75rem);}","textContent":"Black Friday","tag":"h2","localId":"gsbp-465b01c","styleAttributes":{"marginTop":["0px"],"marginBottom":["0.35rem"],"color":["#ffffff"],"lineHeight":["1.1"],"fontSize":["clamp(2rem, 4vw, 2.75rem)"]}} -->
+<h2 class="gsbp-465b01c">Black Friday</h2>
+<!-- /wp:greenshift-blocks/element -->
+
+<!-- wp:greenshift-blocks/element {"id":"gsbp-ca264b6","inlineCssStyles":".gsbp-ca264b6{margin-top:0px;margin-bottom:0px;font-size:1.125rem;color:rgba(255, 255, 255, 0.72);}","textContent":"Free gifts with purchase","tag":"p","localId":"gsbp-ca264b6","styleAttributes":{"marginTop":["0px"],"marginBottom":["0px"],"fontSize":["1.125rem"],"color":["rgba(255, 255, 255, 0.72)"]}} -->
+<p class="gsbp-ca264b6">Free gifts with purchase</p>
+<!-- /wp:greenshift-blocks/element --></div>
+<!-- /wp:greenshift-blocks/element -->
+
+<!-- wp:greenshift-blocks/element {"id":"gsbp-395f748","inlineCssStyles":".gsbp-395f748{margin-top:0px;margin-bottom:0px;padding-top:0.5rem;padding-bottom:0.5rem;padding-left:0.9rem;padding-right:0.9rem;background-color:var(\u002d\u002dwp\u002d\u002dpreset\u002d\u002dcolor\u002d\u002dpalette-color-1, var(\u002d\u002dtheme-palette-color-1, #b11f24));color:#ffffff;font-weight:700;font-size:0.85rem;text-transform:uppercase;letter-spacing:0.04em;}","textContent":"Online only. Extremely limited quantities.","tag":"p","localId":"gsbp-395f748","styleAttributes":{"marginTop":["0px"],"marginBottom":["0px"],"paddingTop":["0.5rem"],"paddingBottom":["0.5rem"],"paddingLeft":["0.9rem"],"paddingRight":["0.9rem"],"backgroundColor":["var(\u002d\u002dwp\u002d\u002dpreset\u002d\u002dcolor\u002d\u002dpalette-color-1, var(\u002d\u002dtheme-palette-color-1, #b11f24))"],"color":["#ffffff"],"fontWeight":["700"],"fontSize":["0.85rem"],"textTransform":["uppercase"],"letterSpacing":["0.04em"]}} -->
+<p class="gsbp-395f748">Online only. Extremely limited quantities.</p>
+<!-- /wp:greenshift-blocks/element --></div>
+<!-- /wp:greenshift-blocks/element -->
+
+<!-- wp:greenshift-blocks/element {"id":"gsbp-ea7baf7","inlineCssStyles":".gsbp-ea7baf7{display:grid;grid-template-columns:minmax(0, 5fr) minmax(0, 4fr);column-gap:2.5rem;row-gap:2.25rem;}@media (max-width: 991.98px){.gsbp-ea7baf7{grid-template-columns:1fr;}}","type":"inner","localId":"gsbp-ea7baf7","styleAttributes":{"display":["grid"],"gridTemplateColumns":["minmax(0, 5fr) minmax(0, 4fr)","1fr"],"columnGap":["2.5rem"],"rowGap":["2.25rem"]},"metadata":{"name":"Brands"}} -->
+<div class="gsbp-ea7baf7"><!-- wp:greenshift-blocks/element {"id":"gsbp-842eb77","inlineCssStyles":".gsbp-842eb77{display:flex;flex-direction:column;}","type":"inner","localId":"gsbp-842eb77","styleAttributes":{"display":["flex"],"flexDirection":["column"]},"metadata":{"name":"Milwaukee"}} -->
+<div class="gsbp-842eb77"><!-- wp:greenshift-blocks/element {"id":"gsbp-8db2e98","inlineCssStyles":".gsbp-8db2e98{display:flex;flex-wrap:wrap;align-items:baseline;justify-content:space-between;column-gap:1rem;row-gap:0.25rem;margin-bottom:0.85rem;}","type":"inner","localId":"gsbp-8db2e98","styleAttributes":{"display":["flex"],"flexWrap":["wrap"],"alignItems":["baseline"],"justifyContent":["space-between"],"columnGap":["1rem"],"rowGap":["0.25rem"],"marginBottom":["0.85rem"]},"metadata":{"name":"Brand Heading"}} -->
+<div class="gsbp-8db2e98"><!-- wp:greenshift-blocks/element {"id":"gsbp-c4ac929","inlineCssStyles":".gsbp-c4ac929{margin-top:0px;margin-bottom:0px;color:#ffffff;}","textContent":"Milwaukee","tag":"h3","localId":"gsbp-c4ac929","styleAttributes":{"marginTop":["0px"],"marginBottom":["0px"],"color":["#ffffff"]}} -->
+<h3 class="gsbp-c4ac929">Milwaukee</h3>
+<!-- /wp:greenshift-blocks/element -->
+
+<!-- wp:greenshift-blocks/element {"id":"gsbp-5dc08a1","inlineCssStyles":".gsbp-5dc08a1{margin-top:0px;margin-bottom:0px;font-size:0.8rem;font-weight:700;text-transform:uppercase;letter-spacing:0.06em;color:rgba(255, 255, 255, 0.72);}","textContent":"Up to 7 free gifts","tag":"p","localId":"gsbp-5dc08a1","styleAttributes":{"marginTop":["0px"],"marginBottom":["0px"],"fontSize":["0.8rem"],"fontWeight":["700"],"textTransform":["uppercase"],"letterSpacing":["0.06em"],"color":["rgba(255, 255, 255, 0.72)"]}} -->
+<p class="gsbp-5dc08a1">Up to 7 free gifts</p>
+<!-- /wp:greenshift-blocks/element --></div>
+<!-- /wp:greenshift-blocks/element -->
+
+<!-- wp:greenshift-blocks/element {"id":"gsbp-0737e0d","inlineCssStyles":".gsbp-0737e0d{grid-template-columns:repeat(5, minmax(0, 1fr));}.gsbp-0737e0d{list-style:none;margin:0;padding:0;display:grid;gap:1px;background-color:rgba(255, 255, 255, 0.14);border:1px solid rgba(255, 255, 255, 0.14);}.gsbp-0737e0d li{margin:0;padding:0.9rem 0.75rem;background-color:#0d0e10;display:flex;flex-direction:column;gap:0.3rem;}.gsbp-0737e0d .tfgp-amount{font-weight:700;font-size:1.25rem;line-height:1.2;color:#ffffff;font-variant-numeric:tabular-nums;}.gsbp-0737e0d .tfgp-amount::before{content:\u0022\u0022;display:block;width:1.25rem;height:2px;margin-bottom:0.6rem;background-color:var(\u002d\u002dwp\u002d\u002dpreset\u002d\u002dcolor\u002d\u002dpalette-color-1, var(\u002d\u002dtheme-palette-color-1, #b11f24));}.gsbp-0737e0d .tfgp-gift{font-size:0.9rem;line-height:1.35;color:rgba(255, 255, 255, 0.72);}@media (max-width: 575.98px){.gsbp-0737e0d{grid-template-columns:1fr !important;}.gsbp-0737e0d li{flex-direction:row;justify-content:space-between;align-items:baseline;gap:1rem;}.gsbp-0737e0d .tfgp-amount{font-size:1.1rem;}.gsbp-0737e0d .tfgp-amount::before{display:none;}.gsbp-0737e0d .tfgp-gift{text-align:right;}}","tag":"ul","type":"inner","localId":"gsbp-0737e0d","styleAttributes":{"gridTemplateColumns":["repeat(5, minmax(0, 1fr))"],"customCSS_Extra":"{CURRENT}{list-style:none;margin:0;padding:0;display:grid;gap:1px;background-color:rgba(255, 255, 255, 0.14);border:1px solid rgba(255, 255, 255, 0.14);}{CURRENT} li{margin:0;padding:0.9rem 0.75rem;background-color:#0d0e10;display:flex;flex-direction:column;gap:0.3rem;}{CURRENT} .tfgp-amount{font-weight:700;font-size:1.25rem;line-height:1.2;color:#ffffff;font-variant-numeric:tabular-nums;}{CURRENT} .tfgp-amount::before{content:\u0022\u0022;display:block;width:1.25rem;height:2px;margin-bottom:0.6rem;background-color:var(\u002d\u002dwp\u002d\u002dpreset\u002d\u002dcolor\u002d\u002dpalette-color-1, var(\u002d\u002dtheme-palette-color-1, #b11f24));}{CURRENT} .tfgp-gift{font-size:0.9rem;line-height:1.35;color:rgba(255, 255, 255, 0.72);}@media (max-width: 575.98px){{CURRENT}{grid-template-columns:1fr !important;}{CURRENT} li{flex-direction:row;justify-content:space-between;align-items:baseline;gap:1rem;}{CURRENT} .tfgp-amount{font-size:1.1rem;}{CURRENT} .tfgp-amount::before{display:none;}{CURRENT} .tfgp-gift{text-align:right;}}"},"metadata":{"name":"Tiers"}} -->
+<ul class="gsbp-0737e0d"><!-- wp:greenshift-blocks/element {"id":"gsbp-e3d9b1a","tag":"li","type":"inner","localId":"gsbp-e3d9b1a"} -->
+<li><!-- wp:greenshift-blocks/element {"id":"gsbp-f78dc5d","textContent":"$500+","tag":"span","className":"tfgp-amount","localId":"gsbp-f78dc5d"} -->
+<span class="tfgp-amount">$500+</span>
+<!-- /wp:greenshift-blocks/element -->
+
+<!-- wp:greenshift-blocks/element {"id":"gsbp-d5bd80c","textContent":"Hat + Toque","tag":"span","className":"tfgp-gift","localId":"gsbp-d5bd80c"} -->
+<span class="tfgp-gift">Hat + Toque</span>
+<!-- /wp:greenshift-blocks/element --></li>
+<!-- /wp:greenshift-blocks/element -->
+
+<!-- wp:greenshift-blocks/element {"id":"gsbp-6d257ed","tag":"li","type":"inner","localId":"gsbp-6d257ed"} -->
+<li><!-- wp:greenshift-blocks/element {"id":"gsbp-1f4a71a","textContent":"$800+","tag":"span","className":"tfgp-amount","localId":"gsbp-1f4a71a"} -->
+<span class="tfgp-amount">$800+</span>
+<!-- /wp:greenshift-blocks/element -->
+
+<!-- wp:greenshift-blocks/element {"id":"gsbp-0984f24","textContent":"Bag + Towel","tag":"span","className":"tfgp-gift","localId":"gsbp-0984f24"} -->
+<span class="tfgp-gift">Bag + Towel</span>
+<!-- /wp:greenshift-blocks/element --></li>
+<!-- /wp:greenshift-blocks/element -->
+
+<!-- wp:greenshift-blocks/element {"id":"gsbp-f7e5b6d","tag":"li","type":"inner","localId":"gsbp-f7e5b6d"} -->
+<li><!-- wp:greenshift-blocks/element {"id":"gsbp-97a1e67","textContent":"$1,000+","tag":"span","className":"tfgp-amount","localId":"gsbp-97a1e67"} -->
+<span class="tfgp-amount">$1,000+</span>
+<!-- /wp:greenshift-blocks/element -->
+
+<!-- wp:greenshift-blocks/element {"id":"gsbp-c19cb54","textContent":"Sweater","tag":"span","className":"tfgp-gift","localId":"gsbp-c19cb54"} -->
+<span class="tfgp-gift">Sweater</span>
+<!-- /wp:greenshift-blocks/element --></li>
+<!-- /wp:greenshift-blocks/element -->
+
+<!-- wp:greenshift-blocks/element {"id":"gsbp-19bded3","tag":"li","type":"inner","localId":"gsbp-19bded3"} -->
+<li><!-- wp:greenshift-blocks/element {"id":"gsbp-852c9d0","textContent":"$1,500+","tag":"span","className":"tfgp-amount","localId":"gsbp-852c9d0"} -->
+<span class="tfgp-amount">$1,500+</span>
+<!-- /wp:greenshift-blocks/element -->
+
+<!-- wp:greenshift-blocks/element {"id":"gsbp-6e024cf","textContent":"Chair","tag":"span","className":"tfgp-gift","localId":"gsbp-6e024cf"} -->
+<span class="tfgp-gift">Chair</span>
+<!-- /wp:greenshift-blocks/element --></li>
+<!-- /wp:greenshift-blocks/element -->
+
+<!-- wp:greenshift-blocks/element {"id":"gsbp-21e8949","tag":"li","type":"inner","localId":"gsbp-21e8949"} -->
+<li><!-- wp:greenshift-blocks/element {"id":"gsbp-b7e9f4a","textContent":"$3,000+","tag":"span","className":"tfgp-amount","localId":"gsbp-b7e9f4a"} -->
+<span class="tfgp-amount">$3,000+</span>
+<!-- /wp:greenshift-blocks/element -->
+
+<!-- wp:greenshift-blocks/element {"id":"gsbp-6709886","textContent":"Cooler","tag":"span","className":"tfgp-gift","localId":"gsbp-6709886"} -->
+<span class="tfgp-gift">Cooler</span>
+<!-- /wp:greenshift-blocks/element --></li>
+<!-- /wp:greenshift-blocks/element --></ul>
+<!-- /wp:greenshift-blocks/element -->
+
+<!-- wp:greenshift-blocks/element {"id":"gsbp-e964ff7","inlineCssStyles":".gsbp-e964ff7{margin-top:1.25rem;}","type":"inner","localId":"gsbp-e964ff7","styleAttributes":{"marginTop":["1.25rem"]},"metadata":{"name":"Button Row"}} -->
+<div class="gsbp-e964ff7"><!-- wp:greenshift-blocks/element {"id":"gsbp-03201ab","inlineCssStyles":".gsbp-03201ab{display:inline-flex;align-items:center;gap:0.6rem;padding:0.75rem 1.5rem;background-color:var(\u002d\u002dwp\u002d\u002dpreset\u002d\u002dcolor\u002d\u002dpalette-color-1, var(\u002d\u002dtheme-palette-color-1, #b11f24));border:1px solid var(\u002d\u002dwp\u002d\u002dpreset\u002d\u002dcolor\u002d\u002dpalette-color-1, var(\u002d\u002dtheme-palette-color-1, #b11f24));color:#ffffff;font-weight:700;text-decoration:none;white-space:nowrap;transition:background-color .2s,border-color .2s;}.gsbp-03201ab::after{content:\u0022\\2192\u0022;}.gsbp-03201ab:hover,.gsbp-03201ab:focus-visible{background-color:#ffffff;border-color:#ffffff;color:#1d1f21;}.gsbp-03201ab:focus-visible{outline:2px solid var(\u002d\u002dwp\u002d\u002dpreset\u002d\u002dcolor\u002d\u002dpalette-color-1, var(\u002d\u002dtheme-palette-color-1, #b11f24));outline-offset:2px;}","textContent":"Shop Milwaukee","tag":"a","localId":"gsbp-03201ab","href":"#","styleAttributes":{"customCSS_Extra":"{CURRENT}{display:inline-flex;align-items:center;gap:0.6rem;padding:0.75rem 1.5rem;background-color:var(\u002d\u002dwp\u002d\u002dpreset\u002d\u002dcolor\u002d\u002dpalette-color-1, var(\u002d\u002dtheme-palette-color-1, #b11f24));border:1px solid var(\u002d\u002dwp\u002d\u002dpreset\u002d\u002dcolor\u002d\u002dpalette-color-1, var(\u002d\u002dtheme-palette-color-1, #b11f24));color:#ffffff;font-weight:700;text-decoration:none;white-space:nowrap;transition:background-color .2s,border-color .2s;}{CURRENT}::after{content:\u0022\\2192\u0022;}{CURRENT}:hover,{CURRENT}:focus-visible{background-color:#ffffff;border-color:#ffffff;color:#1d1f21;}{CURRENT}:focus-visible{outline:2px solid var(\u002d\u002dwp\u002d\u002dpreset\u002d\u002dcolor\u002d\u002dpalette-color-1, var(\u002d\u002dtheme-palette-color-1, #b11f24));outline-offset:2px;}"}} -->
+<a class="gsbp-03201ab" href="#">Shop Milwaukee</a>
+<!-- /wp:greenshift-blocks/element --></div>
+<!-- /wp:greenshift-blocks/element --></div>
+<!-- /wp:greenshift-blocks/element -->
+
+<!-- wp:greenshift-blocks/element {"id":"gsbp-db492ef","inlineCssStyles":".gsbp-db492ef{display:flex;flex-direction:column;}","type":"inner","localId":"gsbp-db492ef","styleAttributes":{"display":["flex"],"flexDirection":["column"]},"metadata":{"name":"Wera"}} -->
+<div class="gsbp-db492ef"><!-- wp:greenshift-blocks/element {"id":"gsbp-072384b","inlineCssStyles":".gsbp-072384b{display:flex;flex-wrap:wrap;align-items:baseline;justify-content:space-between;column-gap:1rem;row-gap:0.25rem;margin-bottom:0.85rem;}","type":"inner","localId":"gsbp-072384b","styleAttributes":{"display":["flex"],"flexWrap":["wrap"],"alignItems":["baseline"],"justifyContent":["space-between"],"columnGap":["1rem"],"rowGap":["0.25rem"],"marginBottom":["0.85rem"]},"metadata":{"name":"Brand Heading"}} -->
+<div class="gsbp-072384b"><!-- wp:greenshift-blocks/element {"id":"gsbp-202e938","inlineCssStyles":".gsbp-202e938{margin-top:0px;margin-bottom:0px;color:#ffffff;}","textContent":"Wera","tag":"h3","localId":"gsbp-202e938","styleAttributes":{"marginTop":["0px"],"marginBottom":["0px"],"color":["#ffffff"]}} -->
+<h3 class="gsbp-202e938">Wera</h3>
+<!-- /wp:greenshift-blocks/element -->
+
+<!-- wp:greenshift-blocks/element {"id":"gsbp-58c4218","inlineCssStyles":".gsbp-58c4218{margin-top:0px;margin-bottom:0px;font-size:0.8rem;font-weight:700;text-transform:uppercase;letter-spacing:0.06em;color:rgba(255, 255, 255, 0.72);}","textContent":"Up to 4 free gifts","tag":"p","localId":"gsbp-58c4218","styleAttributes":{"marginTop":["0px"],"marginBottom":["0px"],"fontSize":["0.8rem"],"fontWeight":["700"],"textTransform":["uppercase"],"letterSpacing":["0.06em"],"color":["rgba(255, 255, 255, 0.72)"]}} -->
+<p class="gsbp-58c4218">Up to 4 free gifts</p>
+<!-- /wp:greenshift-blocks/element --></div>
+<!-- /wp:greenshift-blocks/element -->
+
+<!-- wp:greenshift-blocks/element {"id":"gsbp-b1c7502","inlineCssStyles":".gsbp-b1c7502{grid-template-columns:repeat(4, minmax(0, 1fr));}.gsbp-b1c7502{list-style:none;margin:0;padding:0;display:grid;gap:1px;background-color:rgba(255, 255, 255, 0.14);border:1px solid rgba(255, 255, 255, 0.14);}.gsbp-b1c7502 li{margin:0;padding:0.9rem 0.75rem;background-color:#0d0e10;display:flex;flex-direction:column;gap:0.3rem;}.gsbp-b1c7502 .tfgp-amount{font-weight:700;font-size:1.25rem;line-height:1.2;color:#ffffff;font-variant-numeric:tabular-nums;}.gsbp-b1c7502 .tfgp-amount::before{content:\u0022\u0022;display:block;width:1.25rem;height:2px;margin-bottom:0.6rem;background-color:var(\u002d\u002dwp\u002d\u002dpreset\u002d\u002dcolor\u002d\u002dpalette-color-1, var(\u002d\u002dtheme-palette-color-1, #b11f24));}.gsbp-b1c7502 .tfgp-gift{font-size:0.9rem;line-height:1.35;color:rgba(255, 255, 255, 0.72);}@media (max-width: 575.98px){.gsbp-b1c7502{grid-template-columns:1fr !important;}.gsbp-b1c7502 li{flex-direction:row;justify-content:space-between;align-items:baseline;gap:1rem;}.gsbp-b1c7502 .tfgp-amount{font-size:1.1rem;}.gsbp-b1c7502 .tfgp-amount::before{display:none;}.gsbp-b1c7502 .tfgp-gift{text-align:right;}}","tag":"ul","type":"inner","localId":"gsbp-b1c7502","styleAttributes":{"gridTemplateColumns":["repeat(4, minmax(0, 1fr))"],"customCSS_Extra":"{CURRENT}{list-style:none;margin:0;padding:0;display:grid;gap:1px;background-color:rgba(255, 255, 255, 0.14);border:1px solid rgba(255, 255, 255, 0.14);}{CURRENT} li{margin:0;padding:0.9rem 0.75rem;background-color:#0d0e10;display:flex;flex-direction:column;gap:0.3rem;}{CURRENT} .tfgp-amount{font-weight:700;font-size:1.25rem;line-height:1.2;color:#ffffff;font-variant-numeric:tabular-nums;}{CURRENT} .tfgp-amount::before{content:\u0022\u0022;display:block;width:1.25rem;height:2px;margin-bottom:0.6rem;background-color:var(\u002d\u002dwp\u002d\u002dpreset\u002d\u002dcolor\u002d\u002dpalette-color-1, var(\u002d\u002dtheme-palette-color-1, #b11f24));}{CURRENT} .tfgp-gift{font-size:0.9rem;line-height:1.35;color:rgba(255, 255, 255, 0.72);}@media (max-width: 575.98px){{CURRENT}{grid-template-columns:1fr !important;}{CURRENT} li{flex-direction:row;justify-content:space-between;align-items:baseline;gap:1rem;}{CURRENT} .tfgp-amount{font-size:1.1rem;}{CURRENT} .tfgp-amount::before{display:none;}{CURRENT} .tfgp-gift{text-align:right;}}"},"metadata":{"name":"Tiers"}} -->
+<ul class="gsbp-b1c7502"><!-- wp:greenshift-blocks/element {"id":"gsbp-97212b4","tag":"li","type":"inner","localId":"gsbp-97212b4"} -->
+<li><!-- wp:greenshift-blocks/element {"id":"gsbp-4005030","textContent":"$150+","tag":"span","className":"tfgp-amount","localId":"gsbp-4005030"} -->
+<span class="tfgp-amount">$150+</span>
+<!-- /wp:greenshift-blocks/element -->
+
+<!-- wp:greenshift-blocks/element {"id":"gsbp-48ec528","textContent":"Trucker Hat","tag":"span","className":"tfgp-gift","localId":"gsbp-48ec528"} -->
+<span class="tfgp-gift">Trucker Hat</span>
+<!-- /wp:greenshift-blocks/element --></li>
+<!-- /wp:greenshift-blocks/element -->
+
+<!-- wp:greenshift-blocks/element {"id":"gsbp-7f5d301","tag":"li","type":"inner","localId":"gsbp-7f5d301"} -->
+<li><!-- wp:greenshift-blocks/element {"id":"gsbp-8631448","textContent":"$250+","tag":"span","className":"tfgp-amount","localId":"gsbp-8631448"} -->
+<span class="tfgp-amount">$250+</span>
+<!-- /wp:greenshift-blocks/element -->
+
+<!-- wp:greenshift-blocks/element {"id":"gsbp-7d87a73","textContent":"Toque","tag":"span","className":"tfgp-gift","localId":"gsbp-7d87a73"} -->
+<span class="tfgp-gift">Toque</span>
+<!-- /wp:greenshift-blocks/element --></li>
+<!-- /wp:greenshift-blocks/element -->
+
+<!-- wp:greenshift-blocks/element {"id":"gsbp-13c3cb8","tag":"li","type":"inner","localId":"gsbp-13c3cb8"} -->
+<li><!-- wp:greenshift-blocks/element {"id":"gsbp-7ab5373","textContent":"$500+","tag":"span","className":"tfgp-amount","localId":"gsbp-7ab5373"} -->
+<span class="tfgp-amount">$500+</span>
+<!-- /wp:greenshift-blocks/element -->
+
+<!-- wp:greenshift-blocks/element {"id":"gsbp-e3c393b","textContent":"Flag","tag":"span","className":"tfgp-gift","localId":"gsbp-e3c393b"} -->
+<span class="tfgp-gift">Flag</span>
+<!-- /wp:greenshift-blocks/element --></li>
+<!-- /wp:greenshift-blocks/element -->
+
+<!-- wp:greenshift-blocks/element {"id":"gsbp-ca73738","tag":"li","type":"inner","localId":"gsbp-ca73738"} -->
+<li><!-- wp:greenshift-blocks/element {"id":"gsbp-7fd5883","textContent":"$600+","tag":"span","className":"tfgp-amount","localId":"gsbp-7fd5883"} -->
+<span class="tfgp-amount">$600+</span>
+<!-- /wp:greenshift-blocks/element -->
+
+<!-- wp:greenshift-blocks/element {"id":"gsbp-4b99b25","textContent":"Backpack","tag":"span","className":"tfgp-gift","localId":"gsbp-4b99b25"} -->
+<span class="tfgp-gift">Backpack</span>
+<!-- /wp:greenshift-blocks/element --></li>
+<!-- /wp:greenshift-blocks/element --></ul>
+<!-- /wp:greenshift-blocks/element -->
+
+<!-- wp:greenshift-blocks/element {"id":"gsbp-745bcc6","inlineCssStyles":".gsbp-745bcc6{margin-top:1.25rem;}","type":"inner","localId":"gsbp-745bcc6","styleAttributes":{"marginTop":["1.25rem"]},"metadata":{"name":"Button Row"}} -->
+<div class="gsbp-745bcc6"><!-- wp:greenshift-blocks/element {"id":"gsbp-4e07552","inlineCssStyles":".gsbp-4e07552{display:inline-flex;align-items:center;gap:0.6rem;padding:0.75rem 1.5rem;background-color:var(\u002d\u002dwp\u002d\u002dpreset\u002d\u002dcolor\u002d\u002dpalette-color-1, var(\u002d\u002dtheme-palette-color-1, #b11f24));border:1px solid var(\u002d\u002dwp\u002d\u002dpreset\u002d\u002dcolor\u002d\u002dpalette-color-1, var(\u002d\u002dtheme-palette-color-1, #b11f24));color:#ffffff;font-weight:700;text-decoration:none;white-space:nowrap;transition:background-color .2s,border-color .2s;}.gsbp-4e07552::after{content:\u0022\\2192\u0022;}.gsbp-4e07552:hover,.gsbp-4e07552:focus-visible{background-color:#ffffff;border-color:#ffffff;color:#1d1f21;}.gsbp-4e07552:focus-visible{outline:2px solid var(\u002d\u002dwp\u002d\u002dpreset\u002d\u002dcolor\u002d\u002dpalette-color-1, var(\u002d\u002dtheme-palette-color-1, #b11f24));outline-offset:2px;}","textContent":"Shop Wera","tag":"a","localId":"gsbp-4e07552","href":"#","styleAttributes":{"customCSS_Extra":"{CURRENT}{display:inline-flex;align-items:center;gap:0.6rem;padding:0.75rem 1.5rem;background-color:var(\u002d\u002dwp\u002d\u002dpreset\u002d\u002dcolor\u002d\u002dpalette-color-1, var(\u002d\u002dtheme-palette-color-1, #b11f24));border:1px solid var(\u002d\u002dwp\u002d\u002dpreset\u002d\u002dcolor\u002d\u002dpalette-color-1, var(\u002d\u002dtheme-palette-color-1, #b11f24));color:#ffffff;font-weight:700;text-decoration:none;white-space:nowrap;transition:background-color .2s,border-color .2s;}{CURRENT}::after{content:\u0022\\2192\u0022;}{CURRENT}:hover,{CURRENT}:focus-visible{background-color:#ffffff;border-color:#ffffff;color:#1d1f21;}{CURRENT}:focus-visible{outline:2px solid var(\u002d\u002dwp\u002d\u002dpreset\u002d\u002dcolor\u002d\u002dpalette-color-1, var(\u002d\u002dtheme-palette-color-1, #b11f24));outline-offset:2px;}"}} -->
+<a class="gsbp-4e07552" href="#">Shop Wera</a>
+<!-- /wp:greenshift-blocks/element --></div>
+<!-- /wp:greenshift-blocks/element --></div>
+<!-- /wp:greenshift-blocks/element --></div>
+<!-- /wp:greenshift-blocks/element -->
+
+<!-- wp:greenshift-blocks/element {"id":"gsbp-152a96b","inlineCssStyles":".gsbp-152a96b{margin-top:1.75rem;margin-bottom:0px;padding-top:1.25rem;border-top:1px solid rgba(255, 255, 255, 0.14);color:rgba(255, 255, 255, 0.72);}.gsbp-152a96b strong{color:#ffffff;}","textContent":"\u003cstrong\u003eDeals are cumulative.\u003c/strong\u003e The more you spend, the more you get.","tag":"p","localId":"gsbp-152a96b","styleAttributes":{"marginTop":["1.75rem"],"marginBottom":["0px"],"paddingTop":["1.25rem"],"borderTop":["1px solid rgba(255, 255, 255, 0.14)"],"color":["rgba(255, 255, 255, 0.72)"],"customCSS_Extra":"{CURRENT} strong{color:#ffffff;}"}} -->
+<p class="gsbp-152a96b"><strong>Deals are cumulative.</strong> The more you spend, the more you get.</p>
+<!-- /wp:greenshift-blocks/element --></section>
+<!-- /wp:greenshift-blocks/element -->
