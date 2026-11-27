@@ -1,0 +1,231 @@
+<!-- wp:greenshift-blocks/element {"id":"gsbp-5b554ab","inlineCssStyles":".gsbp-5b554ab{display:flex;flex-direction:column;align-items:center;position:relative;overflow:hidden;background-color:#0d0e10;padding-top:5rem;padding-bottom:8rem;padding-left:0px;padding-right:0px;margin-top:0px;margin-bottom:0px;}@media (max-width: 575.98px){.gsbp-5b554ab{padding-top:3.5rem;padding-bottom:6rem;}}.gsbp-5b554ab::after{content:\u0022\u0022;position:absolute;left:0;right:0;bottom:0;height:4px;pointer-events:none;background-color:var(\u002d\u002dwp\u002d\u002dpreset\u002d\u002dcolor\u002d\u002dpalette-color-1, var(\u002d\u002dtheme-palette-color-1, #b11f24));}","tag":"section","type":"inner","localId":"gsbp-5b554ab","align":"full","isVariation":"contentcolumns","styleAttributes":{"display":["flex"],"flexDirection":["column"],"alignItems":["center"],"position":["relative"],"overflow":["hidden"],"backgroundColor":["#0d0e10"],"paddingTop":["5rem",null,null,"3.5rem"],"paddingBottom":["8rem",null,null,"6rem"],"paddingLeft":["0px"],"paddingRight":["0px"],"marginTop":["0px"],"marginBottom":["0px"],"customCSS_Extra":"{CURRENT}::after{content:\u0022\u0022;position:absolute;left:0;right:0;bottom:0;height:4px;pointer-events:none;background-color:var(\u002d\u002dwp\u002d\u002dpreset\u002d\u002dcolor\u002d\u002dpalette-color-1, var(\u002d\u002dtheme-palette-color-1, #b11f24));}"},"metadata":{"name":"Hero"}} -->
+<section class="gsbp-5b554ab alignfull"><!-- wp:greenshift-blocks/element {"id":"gsbp-ce1932c","inlineCssStyles":".gsbp-ce1932c{width:var(\u002d\u002dtheme-container-width, calc(100% - 40px));max-width:var(\u002d\u002dtheme-normal-container-max-width, 1290px);}","type":"inner","localId":"gsbp-ce1932c","isVariation":"contentarea","styleAttributes":{"width":["var(\u002d\u002dtheme-container-width, calc(100% - 40px))"],"maxWidth":["var(\u002d\u002dtheme-normal-container-max-width, 1290px)"]},"metadata":{"name":"Content Area"}} -->
+<div class="gsbp-ce1932c"><!-- wp:greenshift-blocks/element {"id":"gsbp-50f26bf","inlineCssStyles":".gsbp-50f26bf{max-width:44rem;}","type":"inner","localId":"gsbp-50f26bf","styleAttributes":{"maxWidth":["44rem"]},"metadata":{"name":"Hero Text"}} -->
+<div class="gsbp-50f26bf"><!-- wp:greenshift-blocks/element {"id":"gsbp-4479413","inlineCssStyles":".gsbp-4479413{margin-top:0px;margin-bottom:0.75rem;font-weight:700;text-transform:uppercase;color:rgba(255, 255, 255, 0.72);}","textContent":"Online only. Extremely limited quantities.","tag":"p","localId":"gsbp-4479413","styleAttributes":{"marginTop":["0px"],"marginBottom":["0.75rem"],"fontWeight":["700"],"textTransform":["uppercase"],"color":["rgba(255, 255, 255, 0.72)"]}} -->
+<p class="gsbp-4479413">Online only. Extremely limited quantities.</p>
+<!-- /wp:greenshift-blocks/element -->
+
+<!-- wp:greenshift-blocks/element {"id":"gsbp-ec428ed","inlineCssStyles":".gsbp-ec428ed{margin-top:0px;margin-bottom:0px;color:#ffffff;font-size:var(\u002d\u002dwp\u002d\u002dpreset\u002d\u002dfont-size\u002d\u002dgiga, clamp(3rem, 5vw, 4.5rem));line-height:1.1;}","textContent":"Black Friday","tag":"h1","localId":"gsbp-ec428ed","styleAttributes":{"marginTop":["0px"],"marginBottom":["0px"],"color":["#ffffff"],"fontSize":["var(\u002d\u002dwp\u002d\u002dpreset\u002d\u002dfont-size\u002d\u002dgiga, clamp(3rem, 5vw, 4.5rem))"],"lineHeight":["1.1"]}} -->
+<h1 class="gsbp-ec428ed">Black Friday</h1>
+<!-- /wp:greenshift-blocks/element -->
+
+<!-- wp:greenshift-blocks/element {"id":"gsbp-49048c7","inlineCssStyles":".gsbp-49048c7{margin-top:1.25rem;margin-bottom:0px;max-width:36rem;color:rgba(255, 255, 255, 0.85);}","textContent":"Free gifts with purchase. Deals are cumulative: the more you spend, the more you get.","tag":"p","localId":"gsbp-49048c7","styleAttributes":{"marginTop":["1.25rem"],"marginBottom":["0px"],"maxWidth":["36rem"],"color":["rgba(255, 255, 255, 0.85)"]}} -->
+<p class="gsbp-49048c7">Free gifts with purchase. Deals are cumulative: the more you spend, the more you get.</p>
+<!-- /wp:greenshift-blocks/element -->
+
+<!-- wp:greenshift-blocks/element {"id":"gsbp-50bcd2f","inlineCssStyles":".gsbp-50bcd2f{display:flex;flex-wrap:wrap;column-gap:0.75rem;row-gap:0.75rem;margin-top:2rem;}","type":"inner","localId":"gsbp-50bcd2f","styleAttributes":{"display":["flex"],"flexWrap":["wrap"],"columnGap":["0.75rem"],"rowGap":["0.75rem"],"marginTop":["2rem"]},"metadata":{"name":"Jump Links"}} -->
+<div class="gsbp-50bcd2f"><!-- wp:greenshift-blocks/element {"id":"gsbp-cd4cb20","inlineCssStyles":".gsbp-cd4cb20{display:inline-flex;align-items:center;gap:0.6rem;margin-top:0;padding:0.6rem 1.25rem;border:1px solid var(\u002d\u002dwp\u002d\u002dpreset\u002d\u002dcolor\u002d\u002dpalette-color-1, var(\u002d\u002dtheme-palette-color-1, #b11f24));color:#ffffff;font-weight:700;text-decoration:none;transition:background-color .2s,border-color .2s;}.gsbp-cd4cb20::after{content:\u0022\\2193\u0022;color:var(\u002d\u002dwp\u002d\u002dpreset\u002d\u002dcolor\u002d\u002dpalette-color-1, var(\u002d\u002dtheme-palette-color-1, #b11f24));}.gsbp-cd4cb20:hover,.gsbp-cd4cb20:focus-visible{background-color:var(\u002d\u002dwp\u002d\u002dpreset\u002d\u002dcolor\u002d\u002dpalette-color-1, var(\u002d\u002dtheme-palette-color-1, #b11f24));border-color:var(\u002d\u002dwp\u002d\u002dpreset\u002d\u002dcolor\u002d\u002dpalette-color-1, var(\u002d\u002dtheme-palette-color-1, #b11f24));color:#ffffff;}.gsbp-cd4cb20:hover::after,.gsbp-cd4cb20:focus-visible::after{color:#ffffff;}.gsbp-cd4cb20:focus-visible{outline:2px solid var(\u002d\u002dwp\u002d\u002dpreset\u002d\u002dcolor\u002d\u002dpalette-color-1, var(\u002d\u002dtheme-palette-color-1, #b11f24));outline-offset:2px;}","textContent":"See the free gifts","tag":"a","localId":"gsbp-cd4cb20","href":"#gifts","styleAttributes":{"customCSS_Extra":"{CURRENT}{display:inline-flex;align-items:center;gap:0.6rem;margin-top:0;padding:0.6rem 1.25rem;border:1px solid var(\u002d\u002dwp\u002d\u002dpreset\u002d\u002dcolor\u002d\u002dpalette-color-1, var(\u002d\u002dtheme-palette-color-1, #b11f24));color:#ffffff;font-weight:700;text-decoration:none;transition:background-color .2s,border-color .2s;}{CURRENT}::after{content:\u0022\\2193\u0022;color:var(\u002d\u002dwp\u002d\u002dpreset\u002d\u002dcolor\u002d\u002dpalette-color-1, var(\u002d\u002dtheme-palette-color-1, #b11f24));}{CURRENT}:hover,{CURRENT}:focus-visible{background-color:var(\u002d\u002dwp\u002d\u002dpreset\u002d\u002dcolor\u002d\u002dpalette-color-1, var(\u002d\u002dtheme-palette-color-1, #b11f24));border-color:var(\u002d\u002dwp\u002d\u002dpreset\u002d\u002dcolor\u002d\u002dpalette-color-1, var(\u002d\u002dtheme-palette-color-1, #b11f24));color:#ffffff;}{CURRENT}:hover::after,{CURRENT}:focus-visible::after{color:#ffffff;}{CURRENT}:focus-visible{outline:2px solid var(\u002d\u002dwp\u002d\u002dpreset\u002d\u002dcolor\u002d\u002dpalette-color-1, var(\u002d\u002dtheme-palette-color-1, #b11f24));outline-offset:2px;}"}} -->
+<a class="gsbp-cd4cb20" href="#gifts">See the free gifts</a>
+<!-- /wp:greenshift-blocks/element -->
+
+<!-- wp:greenshift-blocks/element {"id":"gsbp-562c0ab","inlineCssStyles":".gsbp-562c0ab{display:inline-flex;align-items:center;gap:0.6rem;margin-top:0;padding:0.6rem 1.25rem;border:1px solid var(\u002d\u002dwp\u002d\u002dpreset\u002d\u002dcolor\u002d\u002dpalette-color-1, var(\u002d\u002dtheme-palette-color-1, #b11f24));color:#ffffff;font-weight:700;text-decoration:none;transition:background-color .2s,border-color .2s;}.gsbp-562c0ab::after{content:\u0022\\2193\u0022;color:var(\u002d\u002dwp\u002d\u002dpreset\u002d\u002dcolor\u002d\u002dpalette-color-1, var(\u002d\u002dtheme-palette-color-1, #b11f24));}.gsbp-562c0ab:hover,.gsbp-562c0ab:focus-visible{background-color:var(\u002d\u002dwp\u002d\u002dpreset\u002d\u002dcolor\u002d\u002dpalette-color-1, var(\u002d\u002dtheme-palette-color-1, #b11f24));border-color:var(\u002d\u002dwp\u002d\u002dpreset\u002d\u002dcolor\u002d\u002dpalette-color-1, var(\u002d\u002dtheme-palette-color-1, #b11f24));color:#ffffff;}.gsbp-562c0ab:hover::after,.gsbp-562c0ab:focus-visible::after{color:#ffffff;}.gsbp-562c0ab:focus-visible{outline:2px solid var(\u002d\u002dwp\u002d\u002dpreset\u002d\u002dcolor\u002d\u002dpalette-color-1, var(\u002d\u002dtheme-palette-color-1, #b11f24));outline-offset:2px;}","textContent":"Shop the deals","tag":"a","localId":"gsbp-562c0ab","href":"#deals","styleAttributes":{"customCSS_Extra":"{CURRENT}{display:inline-flex;align-items:center;gap:0.6rem;margin-top:0;padding:0.6rem 1.25rem;border:1px solid var(\u002d\u002dwp\u002d\u002dpreset\u002d\u002dcolor\u002d\u002dpalette-color-1, var(\u002d\u002dtheme-palette-color-1, #b11f24));color:#ffffff;font-weight:700;text-decoration:none;transition:background-color .2s,border-color .2s;}{CURRENT}::after{content:\u0022\\2193\u0022;color:var(\u002d\u002dwp\u002d\u002dpreset\u002d\u002dcolor\u002d\u002dpalette-color-1, var(\u002d\u002dtheme-palette-color-1, #b11f24));}{CURRENT}:hover,{CURRENT}:focus-visible{background-color:var(\u002d\u002dwp\u002d\u002dpreset\u002d\u002dcolor\u002d\u002dpalette-color-1, var(\u002d\u002dtheme-palette-color-1, #b11f24));border-color:var(\u002d\u002dwp\u002d\u002dpreset\u002d\u002dcolor\u002d\u002dpalette-color-1, var(\u002d\u002dtheme-palette-color-1, #b11f24));color:#ffffff;}{CURRENT}:hover::after,{CURRENT}:focus-visible::after{color:#ffffff;}{CURRENT}:focus-visible{outline:2px solid var(\u002d\u002dwp\u002d\u002dpreset\u002d\u002dcolor\u002d\u002dpalette-color-1, var(\u002d\u002dtheme-palette-color-1, #b11f24));outline-offset:2px;}"}} -->
+<a class="gsbp-562c0ab" href="#deals">Shop the deals</a>
+<!-- /wp:greenshift-blocks/element --></div>
+<!-- /wp:greenshift-blocks/element --></div>
+<!-- /wp:greenshift-blocks/element --></div>
+<!-- /wp:greenshift-blocks/element --></section>
+<!-- /wp:greenshift-blocks/element -->
+
+<!-- wp:greenshift-blocks/element {"id":"gsbp-af4aab8","inlineCssStyles":".gsbp-af4aab8{margin-top:-4rem;position:relative;z-index:2;margin-bottom:4.5rem;}@media (max-width: 575.98px){.gsbp-af4aab8{margin-top:-3rem;margin-bottom:2.25rem;}}.gsbp-af4aab8 [id]{scroll-margin-top:2rem;}","type":"inner","className":"tfgr-page","localId":"gsbp-af4aab8","styleAttributes":{"marginTop":["-4rem",null,null,"-3rem"],"position":["relative"],"zIndex":["2"],"marginBottom":["4.5rem",null,null,"2.25rem"],"customCSS_Extra":"{CURRENT} [id]{scroll-margin-top:2rem;}"},"metadata":{"name":"Black Friday Page"}} -->
+<div class="tfgr-page gsbp-af4aab8"><!-- wp:greenshift-blocks/element {"id":"gsbp-c701bc0","anchor":"gifts","inlineCssStyles":".gsbp-c701bc0{background-color:var(\u002d\u002dwp\u002d\u002dpreset\u002d\u002dcolor\u002d\u002dpalette-color-5, var(\u002d\u002dtheme-palette-color-5, #F0F2F3));padding-top:2.25rem;padding-bottom:2.25rem;padding-left:1.5rem;padding-right:1.5rem;}@media (max-width: 575.98px){.gsbp-c701bc0{padding-top:1.5rem;padding-bottom:1.5rem;padding-left:1rem;padding-right:1rem;}}","type":"inner","localId":"gsbp-c701bc0","styleAttributes":{"backgroundColor":["var(\u002d\u002dwp\u002d\u002dpreset\u002d\u002dcolor\u002d\u002dpalette-color-5, var(\u002d\u002dtheme-palette-color-5, #F0F2F3))"],"paddingTop":["2.25rem",null,null,"1.5rem"],"paddingBottom":["2.25rem",null,null,"1.5rem"],"paddingLeft":["1.5rem",null,null,"1rem"],"paddingRight":["1.5rem",null,null,"1rem"]},"metadata":{"name":"Free Gifts"}} -->
+<div class="gsbp-c701bc0" id="gifts"><!-- wp:greenshift-blocks/element {"id":"gsbp-7eb8dac","inlineCssStyles":".gsbp-7eb8dac{padding-bottom:1.5rem;margin-bottom:2.25rem;border-bottom:2px solid #1d1f21;}","type":"inner","localId":"gsbp-7eb8dac","styleAttributes":{"paddingBottom":["1.5rem"],"marginBottom":["2.25rem"],"borderBottom":["2px solid #1d1f21"]},"metadata":{"name":"Heading"}} -->
+<div class="gsbp-7eb8dac"><!-- wp:greenshift-blocks/element {"id":"gsbp-cca8174","inlineCssStyles":".gsbp-cca8174{margin-top:0px;margin-bottom:0.44rem;font-weight:700;text-transform:uppercase;color:var(\u002d\u002dwp\u002d\u002dpreset\u002d\u002dcolor\u002d\u002dpalette-color-1, var(\u002d\u002dtheme-palette-color-1, #b11f24));}","textContent":"Free gifts with purchase","tag":"p","localId":"gsbp-cca8174","styleAttributes":{"marginTop":["0px"],"marginBottom":["0.44rem"],"fontWeight":["700"],"textTransform":["uppercase"],"color":["var(\u002d\u002dwp\u002d\u002dpreset\u002d\u002dcolor\u002d\u002dpalette-color-1, var(\u002d\u002dtheme-palette-color-1, #b11f24))"]}} -->
+<p class="gsbp-cca8174">Free gifts with purchase</p>
+<!-- /wp:greenshift-blocks/element -->
+
+<!-- wp:greenshift-blocks/element {"id":"gsbp-ff384d5","inlineCssStyles":".gsbp-ff384d5{margin-top:0px;margin-bottom:0px;color:#1d1f21;}","textContent":"Spend more, get more","tag":"h2","localId":"gsbp-ff384d5","styleAttributes":{"marginTop":["0px"],"marginBottom":["0px"],"color":["#1d1f21"]}} -->
+<h2 class="gsbp-ff384d5">Spend more, get more</h2>
+<!-- /wp:greenshift-blocks/element --></div>
+<!-- /wp:greenshift-blocks/element -->
+
+<!-- wp:greenshift-blocks/element {"id":"gsbp-f8f342b","inlineCssStyles":".gsbp-f8f342b{display:flex;flex-direction:column;row-gap:1.5rem;}","type":"inner","localId":"gsbp-f8f342b","styleAttributes":{"display":["flex"],"flexDirection":["column"],"rowGap":["1.5rem"]},"metadata":{"name":"Brands"}} -->
+<div class="gsbp-f8f342b"><!-- wp:greenshift-blocks/element {"id":"gsbp-54261f3","inlineCssStyles":".gsbp-54261f3{background-color:#ffffff;border:1px solid #d9d5cc;padding-top:1.5rem;padding-bottom:1.5rem;padding-left:1.5rem;padding-right:1.5rem;}@media (max-width: 575.98px){.gsbp-54261f3{padding-top:1.25rem;padding-bottom:1.25rem;padding-left:1rem;padding-right:1rem;}}","type":"inner","localId":"gsbp-54261f3","styleAttributes":{"backgroundColor":["#ffffff"],"border":["1px solid #d9d5cc"],"paddingTop":["1.5rem",null,null,"1.25rem"],"paddingBottom":["1.5rem",null,null,"1.25rem"],"paddingLeft":["1.5rem",null,null,"1rem"],"paddingRight":["1.5rem",null,null,"1rem"]},"metadata":{"name":"Milwaukee"}} -->
+<div class="gsbp-54261f3"><!-- wp:greenshift-blocks/element {"id":"gsbp-c50634c","inlineCssStyles":".gsbp-c50634c{display:flex;flex-wrap:wrap;align-items:center;justify-content:space-between;column-gap:1rem;row-gap:0.75rem;margin-bottom:1.25rem;}","type":"inner","localId":"gsbp-c50634c","styleAttributes":{"display":["flex"],"flexWrap":["wrap"],"alignItems":["center"],"justifyContent":["space-between"],"columnGap":["1rem"],"rowGap":["0.75rem"],"marginBottom":["1.25rem"]},"metadata":{"name":"Brand Heading"}} -->
+<div class="gsbp-c50634c"><!-- wp:greenshift-blocks/element {"id":"gsbp-973d304","type":"inner","localId":"gsbp-973d304","metadata":{"name":"Name"}} -->
+<div><!-- wp:greenshift-blocks/element {"id":"gsbp-c20e66b","inlineCssStyles":".gsbp-c20e66b{margin-top:0px;margin-bottom:0.15rem;color:#1d1f21;}","textContent":"Milwaukee","tag":"h3","localId":"gsbp-c20e66b","styleAttributes":{"marginTop":["0px"],"marginBottom":["0.15rem"],"color":["#1d1f21"]}} -->
+<h3 class="gsbp-c20e66b">Milwaukee</h3>
+<!-- /wp:greenshift-blocks/element -->
+
+<!-- wp:greenshift-blocks/element {"id":"gsbp-2834d4a","inlineCssStyles":".gsbp-2834d4a{margin-top:0px;margin-bottom:0px;font-weight:700;font-size:0.8rem;text-transform:uppercase;letter-spacing:0.06em;color:#3a3d40;}","textContent":"Up to 7 free gifts","tag":"p","localId":"gsbp-2834d4a","styleAttributes":{"marginTop":["0px"],"marginBottom":["0px"],"fontWeight":["700"],"fontSize":["0.8rem"],"textTransform":["uppercase"],"letterSpacing":["0.06em"],"color":["#3a3d40"]}} -->
+<p class="gsbp-2834d4a">Up to 7 free gifts</p>
+<!-- /wp:greenshift-blocks/element --></div>
+<!-- /wp:greenshift-blocks/element -->
+
+<!-- wp:greenshift-blocks/element {"id":"gsbp-df10254","inlineCssStyles":".gsbp-df10254{display:inline-flex;align-items:center;gap:0.6rem;padding:0.75rem 1.5rem;background-color:var(\u002d\u002dwp\u002d\u002dpreset\u002d\u002dcolor\u002d\u002dpalette-color-1, var(\u002d\u002dtheme-palette-color-1, #b11f24));border:1px solid var(\u002d\u002dwp\u002d\u002dpreset\u002d\u002dcolor\u002d\u002dpalette-color-1, var(\u002d\u002dtheme-palette-color-1, #b11f24));color:#ffffff;font-weight:700;text-decoration:none;white-space:nowrap;transition:background-color .2s,border-color .2s;}.gsbp-df10254::after{content:\u0022\\2192\u0022;}.gsbp-df10254:hover,.gsbp-df10254:focus-visible{background-color:#1d1f21;border-color:#1d1f21;color:#ffffff;}.gsbp-df10254:focus-visible{outline:2px solid var(\u002d\u002dwp\u002d\u002dpreset\u002d\u002dcolor\u002d\u002dpalette-color-1, var(\u002d\u002dtheme-palette-color-1, #b11f24));outline-offset:2px;}","textContent":"Shop Milwaukee","tag":"a","localId":"gsbp-df10254","href":"/product-category/brand-names/milwaukee/","styleAttributes":{"customCSS_Extra":"{CURRENT}{display:inline-flex;align-items:center;gap:0.6rem;padding:0.75rem 1.5rem;background-color:var(\u002d\u002dwp\u002d\u002dpreset\u002d\u002dcolor\u002d\u002dpalette-color-1, var(\u002d\u002dtheme-palette-color-1, #b11f24));border:1px solid var(\u002d\u002dwp\u002d\u002dpreset\u002d\u002dcolor\u002d\u002dpalette-color-1, var(\u002d\u002dtheme-palette-color-1, #b11f24));color:#ffffff;font-weight:700;text-decoration:none;white-space:nowrap;transition:background-color .2s,border-color .2s;}{CURRENT}::after{content:\u0022\\2192\u0022;}{CURRENT}:hover,{CURRENT}:focus-visible{background-color:#1d1f21;border-color:#1d1f21;color:#ffffff;}{CURRENT}:focus-visible{outline:2px solid var(\u002d\u002dwp\u002d\u002dpreset\u002d\u002dcolor\u002d\u002dpalette-color-1, var(\u002d\u002dtheme-palette-color-1, #b11f24));outline-offset:2px;}"}} -->
+<a class="gsbp-df10254" href="/product-category/brand-names/milwaukee/">Shop Milwaukee</a>
+<!-- /wp:greenshift-blocks/element --></div>
+<!-- /wp:greenshift-blocks/element -->
+
+<!-- wp:greenshift-blocks/element {"id":"gsbp-982894f","inlineCssStyles":".gsbp-982894f{grid-template-columns:repeat(5, minmax(0, 1fr));}.gsbp-982894f{list-style:none;margin:0;padding:0;display:grid;gap:1px;background-color:#d9d5cc;border:1px solid #d9d5cc;border-top:3px solid var(\u002d\u002dwp\u002d\u002dpreset\u002d\u002dcolor\u002d\u002dpalette-color-1, var(\u002d\u002dtheme-palette-color-1, #b11f24));}.gsbp-982894f li{margin:0;padding:1rem 0.9rem;background-color:#ffffff;display:flex;flex-direction:column;gap:0.2rem;}.gsbp-982894f .tfgp-step{font-size:0.75rem;font-weight:700;text-transform:uppercase;letter-spacing:0.06em;color:var(\u002d\u002dwp\u002d\u002dpreset\u002d\u002dcolor\u002d\u002dpalette-color-1, var(\u002d\u002dtheme-palette-color-1, #b11f24));}.gsbp-982894f .tfgp-amount{font-weight:700;font-size:1.35rem;line-height:1.2;color:#1d1f21;font-variant-numeric:tabular-nums;}.gsbp-982894f .tfgp-gift{line-height:1.35;color:#3a3d40;}@media (max-width: 575.98px){.gsbp-982894f{grid-template-columns:1fr !important;}.gsbp-982894f li{display:grid;grid-template-columns:auto 1fr;align-items:baseline;column-gap:1rem;padding:0.6rem 0.9rem;}.gsbp-982894f .tfgp-step{display:none;}.gsbp-982894f .tfgp-amount{font-size:1.1rem;}.gsbp-982894f .tfgp-gift{text-align:right;}}","tag":"ul","type":"inner","localId":"gsbp-982894f","styleAttributes":{"gridTemplateColumns":["repeat(5, minmax(0, 1fr))",null,null,null],"customCSS_Extra":"{CURRENT}{list-style:none;margin:0;padding:0;display:grid;gap:1px;background-color:#d9d5cc;border:1px solid #d9d5cc;border-top:3px solid var(\u002d\u002dwp\u002d\u002dpreset\u002d\u002dcolor\u002d\u002dpalette-color-1, var(\u002d\u002dtheme-palette-color-1, #b11f24));}{CURRENT} li{margin:0;padding:1rem 0.9rem;background-color:#ffffff;display:flex;flex-direction:column;gap:0.2rem;}{CURRENT} .tfgp-step{font-size:0.75rem;font-weight:700;text-transform:uppercase;letter-spacing:0.06em;color:var(\u002d\u002dwp\u002d\u002dpreset\u002d\u002dcolor\u002d\u002dpalette-color-1, var(\u002d\u002dtheme-palette-color-1, #b11f24));}{CURRENT} .tfgp-amount{font-weight:700;font-size:1.35rem;line-height:1.2;color:#1d1f21;font-variant-numeric:tabular-nums;}{CURRENT} .tfgp-gift{line-height:1.35;color:#3a3d40;}@media (max-width: 575.98px){{CURRENT}{grid-template-columns:1fr !important;}{CURRENT} li{display:grid;grid-template-columns:auto 1fr;align-items:baseline;column-gap:1rem;padding:0.6rem 0.9rem;}{CURRENT} .tfgp-step{display:none;}{CURRENT} .tfgp-amount{font-size:1.1rem;}{CURRENT} .tfgp-gift{text-align:right;}}"},"metadata":{"name":"Gift Tiers"}} -->
+<ul class="gsbp-982894f"><!-- wp:greenshift-blocks/element {"id":"gsbp-2f65b46","tag":"li","type":"inner","localId":"gsbp-2f65b46"} -->
+<li><!-- wp:greenshift-blocks/element {"id":"gsbp-01fcf24","textContent":"Tier 1","tag":"span","className":"tfgp-step","localId":"gsbp-01fcf24"} -->
+<span class="tfgp-step">Tier 1</span>
+<!-- /wp:greenshift-blocks/element -->
+
+<!-- wp:greenshift-blocks/element {"id":"gsbp-f475dfa","textContent":"$500+","tag":"span","className":"tfgp-amount","localId":"gsbp-f475dfa"} -->
+<span class="tfgp-amount">$500+</span>
+<!-- /wp:greenshift-blocks/element -->
+
+<!-- wp:greenshift-blocks/element {"id":"gsbp-7ce5e8e","textContent":"Hat + Toque","tag":"span","className":"tfgp-gift","localId":"gsbp-7ce5e8e"} -->
+<span class="tfgp-gift">Hat + Toque</span>
+<!-- /wp:greenshift-blocks/element --></li>
+<!-- /wp:greenshift-blocks/element -->
+
+<!-- wp:greenshift-blocks/element {"id":"gsbp-c132751","tag":"li","type":"inner","localId":"gsbp-c132751"} -->
+<li><!-- wp:greenshift-blocks/element {"id":"gsbp-ea75fd1","textContent":"Tier 2","tag":"span","className":"tfgp-step","localId":"gsbp-ea75fd1"} -->
+<span class="tfgp-step">Tier 2</span>
+<!-- /wp:greenshift-blocks/element -->
+
+<!-- wp:greenshift-blocks/element {"id":"gsbp-728793b","textContent":"$800+","tag":"span","className":"tfgp-amount","localId":"gsbp-728793b"} -->
+<span class="tfgp-amount">$800+</span>
+<!-- /wp:greenshift-blocks/element -->
+
+<!-- wp:greenshift-blocks/element {"id":"gsbp-4b19d39","textContent":"Bag + Towel","tag":"span","className":"tfgp-gift","localId":"gsbp-4b19d39"} -->
+<span class="tfgp-gift">Bag + Towel</span>
+<!-- /wp:greenshift-blocks/element --></li>
+<!-- /wp:greenshift-blocks/element -->
+
+<!-- wp:greenshift-blocks/element {"id":"gsbp-306baeb","tag":"li","type":"inner","localId":"gsbp-306baeb"} -->
+<li><!-- wp:greenshift-blocks/element {"id":"gsbp-ef0aa42","textContent":"Tier 3","tag":"span","className":"tfgp-step","localId":"gsbp-ef0aa42"} -->
+<span class="tfgp-step">Tier 3</span>
+<!-- /wp:greenshift-blocks/element -->
+
+<!-- wp:greenshift-blocks/element {"id":"gsbp-4f98845","textContent":"$1,000+","tag":"span","className":"tfgp-amount","localId":"gsbp-4f98845"} -->
+<span class="tfgp-amount">$1,000+</span>
+<!-- /wp:greenshift-blocks/element -->
+
+<!-- wp:greenshift-blocks/element {"id":"gsbp-2f8bff3","textContent":"Sweater","tag":"span","className":"tfgp-gift","localId":"gsbp-2f8bff3"} -->
+<span class="tfgp-gift">Sweater</span>
+<!-- /wp:greenshift-blocks/element --></li>
+<!-- /wp:greenshift-blocks/element -->
+
+<!-- wp:greenshift-blocks/element {"id":"gsbp-e6b6c21","tag":"li","type":"inner","localId":"gsbp-e6b6c21"} -->
+<li><!-- wp:greenshift-blocks/element {"id":"gsbp-5390ca3","textContent":"Tier 4","tag":"span","className":"tfgp-step","localId":"gsbp-5390ca3"} -->
+<span class="tfgp-step">Tier 4</span>
+<!-- /wp:greenshift-blocks/element -->
+
+<!-- wp:greenshift-blocks/element {"id":"gsbp-1cc3416","textContent":"$1,500+","tag":"span","className":"tfgp-amount","localId":"gsbp-1cc3416"} -->
+<span class="tfgp-amount">$1,500+</span>
+<!-- /wp:greenshift-blocks/element -->
+
+<!-- wp:greenshift-blocks/element {"id":"gsbp-97086d5","textContent":"Chair","tag":"span","className":"tfgp-gift","localId":"gsbp-97086d5"} -->
+<span class="tfgp-gift">Chair</span>
+<!-- /wp:greenshift-blocks/element --></li>
+<!-- /wp:greenshift-blocks/element -->
+
+<!-- wp:greenshift-blocks/element {"id":"gsbp-fc28c6a","tag":"li","type":"inner","localId":"gsbp-fc28c6a"} -->
+<li><!-- wp:greenshift-blocks/element {"id":"gsbp-580e8ab","textContent":"Tier 5","tag":"span","className":"tfgp-step","localId":"gsbp-580e8ab"} -->
+<span class="tfgp-step">Tier 5</span>
+<!-- /wp:greenshift-blocks/element -->
+
+<!-- wp:greenshift-blocks/element {"id":"gsbp-0fed360","textContent":"$3,000+","tag":"span","className":"tfgp-amount","localId":"gsbp-0fed360"} -->
+<span class="tfgp-amount">$3,000+</span>
+<!-- /wp:greenshift-blocks/element -->
+
+<!-- wp:greenshift-blocks/element {"id":"gsbp-882bc90","textContent":"Cooler","tag":"span","className":"tfgp-gift","localId":"gsbp-882bc90"} -->
+<span class="tfgp-gift">Cooler</span>
+<!-- /wp:greenshift-blocks/element --></li>
+<!-- /wp:greenshift-blocks/element --></ul>
+<!-- /wp:greenshift-blocks/element --></div>
+<!-- /wp:greenshift-blocks/element -->
+
+<!-- wp:greenshift-blocks/element {"id":"gsbp-39d3951","inlineCssStyles":".gsbp-39d3951{background-color:#ffffff;border:1px solid #d9d5cc;padding-top:1.5rem;padding-bottom:1.5rem;padding-left:1.5rem;padding-right:1.5rem;}@media (max-width: 575.98px){.gsbp-39d3951{padding-top:1.25rem;padding-bottom:1.25rem;padding-left:1rem;padding-right:1rem;}}","type":"inner","localId":"gsbp-39d3951","styleAttributes":{"backgroundColor":["#ffffff"],"border":["1px solid #d9d5cc"],"paddingTop":["1.5rem",null,null,"1.25rem"],"paddingBottom":["1.5rem",null,null,"1.25rem"],"paddingLeft":["1.5rem",null,null,"1rem"],"paddingRight":["1.5rem",null,null,"1rem"]},"metadata":{"name":"Wera"}} -->
+<div class="gsbp-39d3951"><!-- wp:greenshift-blocks/element {"id":"gsbp-2b6b941","inlineCssStyles":".gsbp-2b6b941{display:flex;flex-wrap:wrap;align-items:center;justify-content:space-between;column-gap:1rem;row-gap:0.75rem;margin-bottom:1.25rem;}","type":"inner","localId":"gsbp-2b6b941","styleAttributes":{"display":["flex"],"flexWrap":["wrap"],"alignItems":["center"],"justifyContent":["space-between"],"columnGap":["1rem"],"rowGap":["0.75rem"],"marginBottom":["1.25rem"]},"metadata":{"name":"Brand Heading"}} -->
+<div class="gsbp-2b6b941"><!-- wp:greenshift-blocks/element {"id":"gsbp-013443c","type":"inner","localId":"gsbp-013443c","metadata":{"name":"Name"}} -->
+<div><!-- wp:greenshift-blocks/element {"id":"gsbp-0c164b7","inlineCssStyles":".gsbp-0c164b7{margin-top:0px;margin-bottom:0.15rem;color:#1d1f21;}","textContent":"Wera","tag":"h3","localId":"gsbp-0c164b7","styleAttributes":{"marginTop":["0px"],"marginBottom":["0.15rem"],"color":["#1d1f21"]}} -->
+<h3 class="gsbp-0c164b7">Wera</h3>
+<!-- /wp:greenshift-blocks/element -->
+
+<!-- wp:greenshift-blocks/element {"id":"gsbp-7c60dc5","inlineCssStyles":".gsbp-7c60dc5{margin-top:0px;margin-bottom:0px;font-weight:700;font-size:0.8rem;text-transform:uppercase;letter-spacing:0.06em;color:#3a3d40;}","textContent":"Up to 4 free gifts","tag":"p","localId":"gsbp-7c60dc5","styleAttributes":{"marginTop":["0px"],"marginBottom":["0px"],"fontWeight":["700"],"fontSize":["0.8rem"],"textTransform":["uppercase"],"letterSpacing":["0.06em"],"color":["#3a3d40"]}} -->
+<p class="gsbp-7c60dc5">Up to 4 free gifts</p>
+<!-- /wp:greenshift-blocks/element --></div>
+<!-- /wp:greenshift-blocks/element -->
+
+<!-- wp:greenshift-blocks/element {"id":"gsbp-e2b9b94","inlineCssStyles":".gsbp-e2b9b94{display:inline-flex;align-items:center;gap:0.6rem;padding:0.75rem 1.5rem;background-color:var(\u002d\u002dwp\u002d\u002dpreset\u002d\u002dcolor\u002d\u002dpalette-color-1, var(\u002d\u002dtheme-palette-color-1, #b11f24));border:1px solid var(\u002d\u002dwp\u002d\u002dpreset\u002d\u002dcolor\u002d\u002dpalette-color-1, var(\u002d\u002dtheme-palette-color-1, #b11f24));color:#ffffff;font-weight:700;text-decoration:none;white-space:nowrap;transition:background-color .2s,border-color .2s;}.gsbp-e2b9b94::after{content:\u0022\\2192\u0022;}.gsbp-e2b9b94:hover,.gsbp-e2b9b94:focus-visible{background-color:#1d1f21;border-color:#1d1f21;color:#ffffff;}.gsbp-e2b9b94:focus-visible{outline:2px solid var(\u002d\u002dwp\u002d\u002dpreset\u002d\u002dcolor\u002d\u002dpalette-color-1, var(\u002d\u002dtheme-palette-color-1, #b11f24));outline-offset:2px;}","textContent":"Shop Wera","tag":"a","localId":"gsbp-e2b9b94","href":"/product-category/brand-names/wera/","styleAttributes":{"customCSS_Extra":"{CURRENT}{display:inline-flex;align-items:center;gap:0.6rem;padding:0.75rem 1.5rem;background-color:var(\u002d\u002dwp\u002d\u002dpreset\u002d\u002dcolor\u002d\u002dpalette-color-1, var(\u002d\u002dtheme-palette-color-1, #b11f24));border:1px solid var(\u002d\u002dwp\u002d\u002dpreset\u002d\u002dcolor\u002d\u002dpalette-color-1, var(\u002d\u002dtheme-palette-color-1, #b11f24));color:#ffffff;font-weight:700;text-decoration:none;white-space:nowrap;transition:background-color .2s,border-color .2s;}{CURRENT}::after{content:\u0022\\2192\u0022;}{CURRENT}:hover,{CURRENT}:focus-visible{background-color:#1d1f21;border-color:#1d1f21;color:#ffffff;}{CURRENT}:focus-visible{outline:2px solid var(\u002d\u002dwp\u002d\u002dpreset\u002d\u002dcolor\u002d\u002dpalette-color-1, var(\u002d\u002dtheme-palette-color-1, #b11f24));outline-offset:2px;}"}} -->
+<a class="gsbp-e2b9b94" href="/product-category/brand-names/wera/">Shop Wera</a>
+<!-- /wp:greenshift-blocks/element --></div>
+<!-- /wp:greenshift-blocks/element -->
+
+<!-- wp:greenshift-blocks/element {"id":"gsbp-41996f8","inlineCssStyles":".gsbp-41996f8{grid-template-columns:repeat(4, minmax(0, 1fr));}.gsbp-41996f8{list-style:none;margin:0;padding:0;display:grid;gap:1px;background-color:#d9d5cc;border:1px solid #d9d5cc;border-top:3px solid var(\u002d\u002dwp\u002d\u002dpreset\u002d\u002dcolor\u002d\u002dpalette-color-1, var(\u002d\u002dtheme-palette-color-1, #b11f24));}.gsbp-41996f8 li{margin:0;padding:1rem 0.9rem;background-color:#ffffff;display:flex;flex-direction:column;gap:0.2rem;}.gsbp-41996f8 .tfgp-step{font-size:0.75rem;font-weight:700;text-transform:uppercase;letter-spacing:0.06em;color:var(\u002d\u002dwp\u002d\u002dpreset\u002d\u002dcolor\u002d\u002dpalette-color-1, var(\u002d\u002dtheme-palette-color-1, #b11f24));}.gsbp-41996f8 .tfgp-amount{font-weight:700;font-size:1.35rem;line-height:1.2;color:#1d1f21;font-variant-numeric:tabular-nums;}.gsbp-41996f8 .tfgp-gift{line-height:1.35;color:#3a3d40;}@media (max-width: 575.98px){.gsbp-41996f8{grid-template-columns:1fr !important;}.gsbp-41996f8 li{display:grid;grid-template-columns:auto 1fr;align-items:baseline;column-gap:1rem;padding:0.6rem 0.9rem;}.gsbp-41996f8 .tfgp-step{display:none;}.gsbp-41996f8 .tfgp-amount{font-size:1.1rem;}.gsbp-41996f8 .tfgp-gift{text-align:right;}}","tag":"ul","type":"inner","localId":"gsbp-41996f8","styleAttributes":{"gridTemplateColumns":["repeat(4, minmax(0, 1fr))",null,null,null],"customCSS_Extra":"{CURRENT}{list-style:none;margin:0;padding:0;display:grid;gap:1px;background-color:#d9d5cc;border:1px solid #d9d5cc;border-top:3px solid var(\u002d\u002dwp\u002d\u002dpreset\u002d\u002dcolor\u002d\u002dpalette-color-1, var(\u002d\u002dtheme-palette-color-1, #b11f24));}{CURRENT} li{margin:0;padding:1rem 0.9rem;background-color:#ffffff;display:flex;flex-direction:column;gap:0.2rem;}{CURRENT} .tfgp-step{font-size:0.75rem;font-weight:700;text-transform:uppercase;letter-spacing:0.06em;color:var(\u002d\u002dwp\u002d\u002dpreset\u002d\u002dcolor\u002d\u002dpalette-color-1, var(\u002d\u002dtheme-palette-color-1, #b11f24));}{CURRENT} .tfgp-amount{font-weight:700;font-size:1.35rem;line-height:1.2;color:#1d1f21;font-variant-numeric:tabular-nums;}{CURRENT} .tfgp-gift{line-height:1.35;color:#3a3d40;}@media (max-width: 575.98px){{CURRENT}{grid-template-columns:1fr !important;}{CURRENT} li{display:grid;grid-template-columns:auto 1fr;align-items:baseline;column-gap:1rem;padding:0.6rem 0.9rem;}{CURRENT} .tfgp-step{display:none;}{CURRENT} .tfgp-amount{font-size:1.1rem;}{CURRENT} .tfgp-gift{text-align:right;}}"},"metadata":{"name":"Gift Tiers"}} -->
+<ul class="gsbp-41996f8"><!-- wp:greenshift-blocks/element {"id":"gsbp-8754415","tag":"li","type":"inner","localId":"gsbp-8754415"} -->
+<li><!-- wp:greenshift-blocks/element {"id":"gsbp-2579033","textContent":"Tier 1","tag":"span","className":"tfgp-step","localId":"gsbp-2579033"} -->
+<span class="tfgp-step">Tier 1</span>
+<!-- /wp:greenshift-blocks/element -->
+
+<!-- wp:greenshift-blocks/element {"id":"gsbp-5d24d34","textContent":"$150+","tag":"span","className":"tfgp-amount","localId":"gsbp-5d24d34"} -->
+<span class="tfgp-amount">$150+</span>
+<!-- /wp:greenshift-blocks/element -->
+
+<!-- wp:greenshift-blocks/element {"id":"gsbp-025ed38","textContent":"Trucker Hat","tag":"span","className":"tfgp-gift","localId":"gsbp-025ed38"} -->
+<span class="tfgp-gift">Trucker Hat</span>
+<!-- /wp:greenshift-blocks/element --></li>
+<!-- /wp:greenshift-blocks/element -->
+
+<!-- wp:greenshift-blocks/element {"id":"gsbp-b45eb7d","tag":"li","type":"inner","localId":"gsbp-b45eb7d"} -->
+<li><!-- wp:greenshift-blocks/element {"id":"gsbp-44b8479","textContent":"Tier 2","tag":"span","className":"tfgp-step","localId":"gsbp-44b8479"} -->
+<span class="tfgp-step">Tier 2</span>
+<!-- /wp:greenshift-blocks/element -->
+
+<!-- wp:greenshift-blocks/element {"id":"gsbp-31830e1","textContent":"$250+","tag":"span","className":"tfgp-amount","localId":"gsbp-31830e1"} -->
+<span class="tfgp-amount">$250+</span>
+<!-- /wp:greenshift-blocks/element -->
+
+<!-- wp:greenshift-blocks/element {"id":"gsbp-4c8780c","textContent":"Toque","tag":"span","className":"tfgp-gift","localId":"gsbp-4c8780c"} -->
+<span class="tfgp-gift">Toque</span>
+<!-- /wp:greenshift-blocks/element --></li>
+<!-- /wp:greenshift-blocks/element -->
+
+<!-- wp:greenshift-blocks/element {"id":"gsbp-2ed8419","tag":"li","type":"inner","localId":"gsbp-2ed8419"} -->
+<li><!-- wp:greenshift-blocks/element {"id":"gsbp-335b42b","textContent":"Tier 3","tag":"span","className":"tfgp-step","localId":"gsbp-335b42b"} -->
+<span class="tfgp-step">Tier 3</span>
+<!-- /wp:greenshift-blocks/element -->
+
+<!-- wp:greenshift-blocks/element {"id":"gsbp-5e0f254","textContent":"$500+","tag":"span","className":"tfgp-amount","localId":"gsbp-5e0f254"} -->
+<span class="tfgp-amount">$500+</span>
+<!-- /wp:greenshift-blocks/element -->
+
+<!-- wp:greenshift-blocks/element {"id":"gsbp-de6df8b","textContent":"Flag","tag":"span","className":"tfgp-gift","localId":"gsbp-de6df8b"} -->
+<span class="tfgp-gift">Flag</span>
+<!-- /wp:greenshift-blocks/element --></li>
+<!-- /wp:greenshift-blocks/element -->
+
+<!-- wp:greenshift-blocks/element {"id":"gsbp-2b57483","tag":"li","type":"inner","localId":"gsbp-2b57483"} -->
+<li><!-- wp:greenshift-blocks/element {"id":"gsbp-011ea67","textContent":"Tier 4","tag":"span","className":"tfgp-step","localId":"gsbp-011ea67"} -->
+<span class="tfgp-step">Tier 4</span>
+<!-- /wp:greenshift-blocks/element -->
+
+<!-- wp:greenshift-blocks/element {"id":"gsbp-5151d57","textContent":"$600+","tag":"span","className":"tfgp-amount","localId":"gsbp-5151d57"} -->
+<span class="tfgp-amount">$600+</span>
+<!-- /wp:greenshift-blocks/element -->
+
+<!-- wp:greenshift-blocks/element {"id":"gsbp-0473a1d","textContent":"Backpack","tag":"span","className":"tfgp-gift","localId":"gsbp-0473a1d"} -->
+<span class="tfgp-gift">Backpack</span>
+<!-- /wp:greenshift-blocks/element --></li>
+<!-- /wp:greenshift-blocks/element --></ul>
+<!-- /wp:greenshift-blocks/element --></div>
+<!-- /wp:greenshift-blocks/element --></div>
+<!-- /wp:greenshift-blocks/element -->
+
+<!-- wp:greenshift-blocks/element {"id":"gsbp-0b8244b","inlineCssStyles":".gsbp-0b8244b{margin-top:1.5rem;margin-bottom:0px;color:#3a3d40;}.gsbp-0b8244b strong{color:#1d1f21;}","textContent":"\u003cstrong\u003eDeals are cumulative.\u003c/strong\u003e The more you spend, the more you get. Online only. Extremely limited quantities.","tag":"p","localId":"gsbp-0b8244b","styleAttributes":{"marginTop":["1.5rem"],"marginBottom":["0px"],"color":["#3a3d40"],"customCSS_Extra":"{CURRENT} strong{color:#1d1f21;}"}} -->
+<p class="gsbp-0b8244b"><strong>Deals are cumulative.</strong> The more you spend, the more you get. Online only. Extremely limited quantities.</p>
+<!-- /wp:greenshift-blocks/element --></div>
+<!-- /wp:greenshift-blocks/element -->
+
+<!-- wp:greenshift-blocks/element {"id":"gsbp-3e734f8","anchor":"deals","inlineCssStyles":".gsbp-3e734f8{margin-top:4.5rem;}@media (max-width: 575.98px){.gsbp-3e734f8{margin-top:3rem;}}@media (max-width: 1199.98px){.gsbp-3e734f8 ul.products{grid-template-columns:repeat(4, minmax(0, 1fr)) !important;}}@media (max-width: 767.98px){.gsbp-3e734f8 ul.products{grid-template-columns:repeat(2, minmax(0, 1fr)) !important;}}","type":"inner","localId":"gsbp-3e734f8","styleAttributes":{"marginTop":["4.5rem",null,null,"3rem"],"customCSS_Extra":"@media (max-width: 1199.98px){{CURRENT} ul.products{grid-template-columns:repeat(4, minmax(0, 1fr)) !important;}}@media (max-width: 767.98px){{CURRENT} ul.products{grid-template-columns:repeat(2, minmax(0, 1fr)) !important;}}"},"metadata":{"name":"Black Friday Deals"}} -->
+<div class="gsbp-3e734f8" id="deals"><!-- wp:greenshift-blocks/element {"id":"gsbp-aa36b5b","inlineCssStyles":".gsbp-aa36b5b{padding-bottom:1.5rem;margin-bottom:2.25rem;border-bottom:2px solid #1d1f21;}","type":"inner","localId":"gsbp-aa36b5b","styleAttributes":{"paddingBottom":["1.5rem"],"marginBottom":["2.25rem"],"borderBottom":["2px solid #1d1f21"]},"metadata":{"name":"Heading"}} -->
+<div class="gsbp-aa36b5b"><!-- wp:greenshift-blocks/element {"id":"gsbp-a303496","inlineCssStyles":".gsbp-a303496{margin-top:0px;margin-bottom:0.44rem;font-weight:700;text-transform:uppercase;color:var(\u002d\u002dwp\u002d\u002dpreset\u002d\u002dcolor\u002d\u002dpalette-color-1, var(\u002d\u002dtheme-palette-color-1, #b11f24));}","textContent":"Black Friday deals","tag":"p","localId":"gsbp-a303496","styleAttributes":{"marginTop":["0px"],"marginBottom":["0.44rem"],"fontWeight":["700"],"textTransform":["uppercase"],"color":["var(\u002d\u002dwp\u002d\u002dpreset\u002d\u002dcolor\u002d\u002dpalette-color-1, var(\u002d\u002dtheme-palette-color-1, #b11f24))"]}} -->
+<p class="gsbp-a303496">Black Friday deals</p>
+<!-- /wp:greenshift-blocks/element -->
+
+<!-- wp:greenshift-blocks/element {"id":"gsbp-2f67fea","inlineCssStyles":".gsbp-2f67fea{margin-top:0px;margin-bottom:0px;color:#1d1f21;}","textContent":"Shop the sale","tag":"h2","localId":"gsbp-2f67fea","styleAttributes":{"marginTop":["0px"],"marginBottom":["0px"],"color":["#1d1f21"]}} -->
+<h2 class="gsbp-2f67fea">Shop the sale</h2>
+<!-- /wp:greenshift-blocks/element --></div>
+<!-- /wp:greenshift-blocks/element -->
+
+<!-- wp:greenshift-blocks/element {"id":"gsbp-e77bb13","type":"inner","localId":"gsbp-e77bb13","metadata":{"name":"Products"}} -->
+<div><!-- wp:shortcode -->
+[products tag="black-friday" limit="24" columns="6" orderby="date" order="DESC"]
+<!-- /wp:shortcode --></div>
+<!-- /wp:greenshift-blocks/element --></div>
+<!-- /wp:greenshift-blocks/element --></div>
+<!-- /wp:greenshift-blocks/element -->

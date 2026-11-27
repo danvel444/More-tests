@@ -547,7 +547,8 @@ THEME_CONTAINER = {
 
 
 def make_hero(seed, bg, caption, title, intro, buttons, accent=HERO_ACCENT,
-              pattern_css=HERO_CSS, caption_color=None, align_to_theme=False, content_size=None):
+              pattern_css=HERO_CSS, caption_color=None, align_to_theme=False, content_size=None,
+              hex=True, top_padding=None):
     """Full-width hero: caption, h1 and intro stacked in one left column, pattern on the right.
 
     buttons is a list of (text, href) jump links shown under the intro.
@@ -590,12 +591,12 @@ def make_hero(seed, bg, caption, title, intro, buttons, accent=HERO_ACCENT,
         "position": ["relative"], "overflow": ["hidden"], "backgroundColor": [bg],
         # Top padding clears the theme's see-through header; the bottom leaves room
         # for the panel below to overlap.
-        "paddingTop": ["190px", "170px", None, "140px"],
+        "paddingTop": top_padding or ["190px", "170px", None, "140px"],
         "paddingBottom": ["8rem", None, None, "6rem"],
         "paddingLeft": side, "paddingRight": side,
         "marginTop": ["0px"], "marginBottom": ["0px"],
     }, json_extra={"isVariation": "contentcolumns"}, custom_css=pattern_css,
-       class_name=HEX_CLASS if pattern_css is THREAD_HERO_CSS else None, children=[content])
+       class_name=HEX_CLASS if hex and pattern_css is THREAD_HERO_CSS else None, children=[content])
 
 
 if __name__ == "__main__":
