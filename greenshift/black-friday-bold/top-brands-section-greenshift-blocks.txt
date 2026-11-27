@@ -1,0 +1,87 @@
+<!-- wp:greenshift-blocks/element {"id":"gsbp-fa2340d","anchor":"brands","inlineCssStyles":".gsbp-fa2340d{margin-top:4rem;}@media (max-width: 575.98px){.gsbp-fa2340d{margin-top:2.5rem;}}","type":"inner","localId":"gsbp-fa2340d","styleAttributes":{"customCSS_Extra":"{CURRENT}{margin-top:4rem;}@media (max-width: 575.98px){{CURRENT}{margin-top:2.5rem;}}"},"metadata":{"name":"Top Brands"}} -->
+<div class="gsbp-fa2340d" id="brands"><!-- wp:greenshift-blocks/element {"id":"gsbp-a9e98f6","inlineCssStyles":".gsbp-a9e98f6{background-color:#000000;padding:1.4rem 1.5rem 1.3rem;text-align:center;border-bottom:4px solid var(\u002d\u002dwp\u002d\u002dpreset\u002d\u002dcolor\u002d\u002dpalette-color-1, var(\u002d\u002dtheme-palette-color-1, #b11f24));}@media (max-width: 575.98px){.gsbp-a9e98f6{padding:1.1rem 1rem 1rem;}}","type":"inner","localId":"gsbp-a9e98f6","styleAttributes":{"customCSS_Extra":"{CURRENT}{background-color:#000000;padding:1.4rem 1.5rem 1.3rem;text-align:center;border-bottom:4px solid var(\u002d\u002dwp\u002d\u002dpreset\u002d\u002dcolor\u002d\u002dpalette-color-1, var(\u002d\u002dtheme-palette-color-1, #b11f24));}@media (max-width: 575.98px){{CURRENT}{padding:1.1rem 1rem 1rem;}}"},"metadata":{"name":"Banner"}} -->
+<div class="gsbp-a9e98f6"><!-- wp:greenshift-blocks/element {"id":"gsbp-bef04ac","inlineCssStyles":".gsbp-bef04ac{margin:0 0 0.35rem 0;color:#ffffff;font-weight:700;font-size:0.8rem;text-transform:uppercase;letter-spacing:0.28em;opacity:0.9;}","textContent":"Top brands","tag":"p","localId":"gsbp-bef04ac","styleAttributes":{"customCSS_Extra":"{CURRENT}{margin:0 0 0.35rem 0;color:#ffffff;font-weight:700;font-size:0.8rem;text-transform:uppercase;letter-spacing:0.28em;opacity:0.9;}"}} -->
+<p class="gsbp-bef04ac">Top brands</p>
+<!-- /wp:greenshift-blocks/element -->
+
+<!-- wp:greenshift-blocks/element {"id":"gsbp-7fdb47b","inlineCssStyles":".gsbp-7fdb47b{margin:0;color:#ffffff;font-weight:900;text-transform:uppercase;letter-spacing:-0.01em;font-size:clamp(1.9rem, 4.5vw, 3rem);line-height:1;}","textContent":"Shop by brand","tag":"h2","localId":"gsbp-7fdb47b","styleAttributes":{"customCSS_Extra":"{CURRENT}{margin:0;color:#ffffff;font-weight:900;text-transform:uppercase;letter-spacing:-0.01em;font-size:clamp(1.9rem, 4.5vw, 3rem);line-height:1;}"}} -->
+<h2 class="gsbp-7fdb47b">Shop by brand</h2>
+<!-- /wp:greenshift-blocks/element --></div>
+<!-- /wp:greenshift-blocks/element -->
+
+<!-- wp:greenshift-blocks/element {"id":"gsbp-93aac31","inlineCssStyles":".gsbp-93aac31{background-color:#000000;padding:6px;}","type":"inner","localId":"gsbp-93aac31","styleAttributes":{"customCSS_Extra":"{CURRENT}{background-color:#000000;padding:6px;}"},"metadata":{"name":"Frame"}} -->
+<div class="gsbp-93aac31"><!-- wp:greenshift-blocks/element {"id":"gsbp-b72fa1c","inlineCssStyles":".gsbp-b72fa1c{display:grid;grid-template-columns:repeat(6, minmax(0, 1fr));gap:6px;}@media (max-width: 991.98px){.gsbp-b72fa1c{grid-template-columns:repeat(4, minmax(0, 1fr));}}@media (max-width: 575.98px){.gsbp-b72fa1c{grid-template-columns:repeat(3, minmax(0, 1fr));}}.gsbp-b72fa1c .tfgr-logo{position:relative;display:block;overflow:hidden;aspect-ratio:3 / 2;background-color:#ffffff;border-bottom:4px solid #ffffff;transition:border-color .2s;}.gsbp-b72fa1c .tfgr-logo img{position:absolute;top:50%;left:50%;width:78%;height:64%;max-width:none;transform:translate(-50%, -50%);object-fit:contain;}.gsbp-b72fa1c .tfgr-logo img.tfgr-logo-square{object-fit:cover;}.gsbp-b72fa1c a.tfgr-logo:hover,.gsbp-b72fa1c a.tfgr-logo:focus-visible{border-bottom-color:var(\u002d\u002dwp\u002d\u002dpreset\u002d\u002dcolor\u002d\u002dpalette-color-1, var(\u002d\u002dtheme-palette-color-1, #b11f24));}.gsbp-b72fa1c a.tfgr-logo:focus-visible{outline:2px solid var(\u002d\u002dwp\u002d\u002dpreset\u002d\u002dcolor\u002d\u002dpalette-color-1, var(\u002d\u002dtheme-palette-color-1, #b11f24));outline-offset:-2px;}","type":"inner","localId":"gsbp-b72fa1c","styleAttributes":{"customCSS_Extra":"{CURRENT}{display:grid;grid-template-columns:repeat(6, minmax(0, 1fr));gap:6px;}@media (max-width: 991.98px){{CURRENT}{grid-template-columns:repeat(4, minmax(0, 1fr));}}@media (max-width: 575.98px){{CURRENT}{grid-template-columns:repeat(3, minmax(0, 1fr));}}{CURRENT} .tfgr-logo{position:relative;display:block;overflow:hidden;aspect-ratio:3 / 2;background-color:#ffffff;border-bottom:4px solid #ffffff;transition:border-color .2s;}{CURRENT} .tfgr-logo img{position:absolute;top:50%;left:50%;width:78%;height:64%;max-width:none;transform:translate(-50%, -50%);object-fit:contain;}{CURRENT} .tfgr-logo img.tfgr-logo-square{object-fit:cover;}{CURRENT} a.tfgr-logo:hover,{CURRENT} a.tfgr-logo:focus-visible{border-bottom-color:var(\u002d\u002dwp\u002d\u002dpreset\u002d\u002dcolor\u002d\u002dpalette-color-1, var(\u002d\u002dtheme-palette-color-1, #b11f24));}{CURRENT} a.tfgr-logo:focus-visible{outline:2px solid var(\u002d\u002dwp\u002d\u002dpreset\u002d\u002dcolor\u002d\u002dpalette-color-1, var(\u002d\u002dtheme-palette-color-1, #b11f24));outline-offset:-2px;}"},"metadata":{"name":"Logos"}} -->
+<div class="gsbp-b72fa1c"><!-- wp:greenshift-blocks/element {"id":"gsbp-92949f6","tag":"a","type":"inner","className":"tfgr-logo","localId":"gsbp-92949f6","href":"https://bcfasteners.com/product-category/brand-names/milwaukee/","metadata":{"name":"Milwaukee"}} -->
+<a class="tfgr-logo" href="https://bcfasteners.com/product-category/brand-names/milwaukee/"><!-- wp:greenshift-blocks/element {"id":"gsbp-55828f6","tag":"img","localId":"gsbp-55828f6","src":"https://thefastenergroup.com/wp-content/uploads/2026/08/Milwaukee-Red-Logo.webp","alt":"Milwaukee","originalWidth":660,"originalHeight":225} -->
+<img src="https://thefastenergroup.com/wp-content/uploads/2026/08/Milwaukee-Red-Logo.webp" alt="Milwaukee" width="660" height="225" loading="lazy"/>
+<!-- /wp:greenshift-blocks/element --></a>
+<!-- /wp:greenshift-blocks/element -->
+
+<!-- wp:greenshift-blocks/element {"id":"gsbp-7f02d42","tag":"a","type":"inner","className":"tfgr-logo","localId":"gsbp-7f02d42","href":"https://bcfasteners.com/product-category/brand-names/wera/","metadata":{"name":"Wera"}} -->
+<a class="tfgr-logo" href="https://bcfasteners.com/product-category/brand-names/wera/"><!-- wp:greenshift-blocks/element {"id":"gsbp-6d4c3d5","tag":"img","className":"tfgr-logo-square","localId":"gsbp-6d4c3d5","src":"https://bcfasteners.com/wp-content/uploads/2022/06/WERA-LOGO.jpg","alt":"Wera","originalWidth":648,"originalHeight":648} -->
+<img class="tfgr-logo-square" src="https://bcfasteners.com/wp-content/uploads/2022/06/WERA-LOGO.jpg" alt="Wera" width="648" height="648" loading="lazy"/>
+<!-- /wp:greenshift-blocks/element --></a>
+<!-- /wp:greenshift-blocks/element -->
+
+<!-- wp:greenshift-blocks/element {"id":"gsbp-3a9b91b","tag":"a","type":"inner","className":"tfgr-logo","localId":"gsbp-3a9b91b","href":"https://bcfasteners.com/product-category/brand-names/dewalt/","metadata":{"name":"DeWalt"}} -->
+<a class="tfgr-logo" href="https://bcfasteners.com/product-category/brand-names/dewalt/"><!-- wp:greenshift-blocks/element {"id":"gsbp-0528dd2","tag":"img","localId":"gsbp-0528dd2","src":"https://thefastenergroup.com/wp-content/uploads/2026/08/DeWalt-Logo.webp","alt":"DeWalt","originalWidth":660,"originalHeight":225} -->
+<img src="https://thefastenergroup.com/wp-content/uploads/2026/08/DeWalt-Logo.webp" alt="DeWalt" width="660" height="225" loading="lazy"/>
+<!-- /wp:greenshift-blocks/element --></a>
+<!-- /wp:greenshift-blocks/element -->
+
+<!-- wp:greenshift-blocks/element {"id":"gsbp-1e24115","tag":"a","type":"inner","className":"tfgr-logo","localId":"gsbp-1e24115","href":"https://bcfasteners.com/product-category/brand-names/knipex/","metadata":{"name":"Knipex"}} -->
+<a class="tfgr-logo" href="https://bcfasteners.com/product-category/brand-names/knipex/"><!-- wp:greenshift-blocks/element {"id":"gsbp-dcf47de","tag":"img","localId":"gsbp-dcf47de","src":"https://bcfasteners.com/wp-content/uploads/2025/03/Knipex-Logo.jpg","alt":"Knipex","originalWidth":648,"originalHeight":350} -->
+<img src="https://bcfasteners.com/wp-content/uploads/2025/03/Knipex-Logo.jpg" alt="Knipex" width="648" height="350" loading="lazy"/>
+<!-- /wp:greenshift-blocks/element --></a>
+<!-- /wp:greenshift-blocks/element -->
+
+<!-- wp:greenshift-blocks/element {"id":"gsbp-04f51dc","tag":"a","type":"inner","className":"tfgr-logo","localId":"gsbp-04f51dc","href":"https://bcfasteners.com/product-category/brand-names/klein/","metadata":{"name":"Klein Tools"}} -->
+<a class="tfgr-logo" href="https://bcfasteners.com/product-category/brand-names/klein/"><!-- wp:greenshift-blocks/element {"id":"gsbp-303d863","tag":"img","localId":"gsbp-303d863","src":"https://bcfasteners.com/wp-content/uploads/2025/03/Klein-Logo.jpg","alt":"Klein Tools","originalWidth":648,"originalHeight":350} -->
+<img src="https://bcfasteners.com/wp-content/uploads/2025/03/Klein-Logo.jpg" alt="Klein Tools" width="648" height="350" loading="lazy"/>
+<!-- /wp:greenshift-blocks/element --></a>
+<!-- /wp:greenshift-blocks/element -->
+
+<!-- wp:greenshift-blocks/element {"id":"gsbp-aaeee07","tag":"a","type":"inner","className":"tfgr-logo","localId":"gsbp-aaeee07","href":"https://bcfasteners.com/product-category/brand-names/mega-pro/","metadata":{"name":"Megapro"}} -->
+<a class="tfgr-logo" href="https://bcfasteners.com/product-category/brand-names/mega-pro/"><!-- wp:greenshift-blocks/element {"id":"gsbp-413df74","tag":"img","className":"tfgr-logo-square","localId":"gsbp-413df74","src":"https://bcfasteners.com/wp-content/uploads/2022/06/MEGAPRO-LOGO.jpg","alt":"Megapro","originalWidth":648,"originalHeight":648} -->
+<img class="tfgr-logo-square" src="https://bcfasteners.com/wp-content/uploads/2022/06/MEGAPRO-LOGO.jpg" alt="Megapro" width="648" height="648" loading="lazy"/>
+<!-- /wp:greenshift-blocks/element --></a>
+<!-- /wp:greenshift-blocks/element -->
+
+<!-- wp:greenshift-blocks/element {"id":"gsbp-690f650","tag":"a","type":"inner","className":"tfgr-logo","localId":"gsbp-690f650","href":"https://bcfasteners.com/product-category/brand-names/gearwrench/","metadata":{"name":"Gearwrench"}} -->
+<a class="tfgr-logo" href="https://bcfasteners.com/product-category/brand-names/gearwrench/"><!-- wp:greenshift-blocks/element {"id":"gsbp-09571d8","tag":"img","localId":"gsbp-09571d8","src":"https://bcfasteners.com/wp-content/uploads/2025/03/Gearwrench-Logo-2.jpg","alt":"Gearwrench","originalWidth":648,"originalHeight":350} -->
+<img src="https://bcfasteners.com/wp-content/uploads/2025/03/Gearwrench-Logo-2.jpg" alt="Gearwrench" width="648" height="350" loading="lazy"/>
+<!-- /wp:greenshift-blocks/element --></a>
+<!-- /wp:greenshift-blocks/element -->
+
+<!-- wp:greenshift-blocks/element {"id":"gsbp-47a2060","tag":"a","type":"inner","className":"tfgr-logo","localId":"gsbp-47a2060","href":"https://bcfasteners.com/product-category/brand-names/irwin/","metadata":{"name":"Irwin"}} -->
+<a class="tfgr-logo" href="https://bcfasteners.com/product-category/brand-names/irwin/"><!-- wp:greenshift-blocks/element {"id":"gsbp-527474c","tag":"img","className":"tfgr-logo-square","localId":"gsbp-527474c","src":"https://bcfasteners.com/wp-content/uploads/2024/06/27.png","alt":"Irwin","originalWidth":648,"originalHeight":648} -->
+<img class="tfgr-logo-square" src="https://bcfasteners.com/wp-content/uploads/2024/06/27.png" alt="Irwin" width="648" height="648" loading="lazy"/>
+<!-- /wp:greenshift-blocks/element --></a>
+<!-- /wp:greenshift-blocks/element -->
+
+<!-- wp:greenshift-blocks/element {"id":"gsbp-94e152f","tag":"a","type":"inner","className":"tfgr-logo","localId":"gsbp-94e152f","href":"https://bcfasteners.com/product-category/brand-names/jet-tools/","metadata":{"name":"Jet"}} -->
+<a class="tfgr-logo" href="https://bcfasteners.com/product-category/brand-names/jet-tools/"><!-- wp:greenshift-blocks/element {"id":"gsbp-ddb2984","tag":"img","localId":"gsbp-ddb2984","src":"https://bcfasteners.com/wp-content/uploads/2025/03/Jet-Logo.jpg","alt":"Jet","originalWidth":648,"originalHeight":350} -->
+<img src="https://bcfasteners.com/wp-content/uploads/2025/03/Jet-Logo.jpg" alt="Jet" width="648" height="350" loading="lazy"/>
+<!-- /wp:greenshift-blocks/element --></a>
+<!-- /wp:greenshift-blocks/element -->
+
+<!-- wp:greenshift-blocks/element {"id":"gsbp-8e557d7","tag":"a","type":"inner","className":"tfgr-logo","localId":"gsbp-8e557d7","href":"https://bcfasteners.com/product-category/brand-names/unilite/","metadata":{"name":"Unilite"}} -->
+<a class="tfgr-logo" href="https://bcfasteners.com/product-category/brand-names/unilite/"><!-- wp:greenshift-blocks/element {"id":"gsbp-380f093","tag":"img","className":"tfgr-logo-square","localId":"gsbp-380f093","src":"https://bcfasteners.com/wp-content/uploads/2025/04/UNILITE-LOGO.jpg","alt":"Unilite","originalWidth":1084,"originalHeight":1084} -->
+<img class="tfgr-logo-square" src="https://bcfasteners.com/wp-content/uploads/2025/04/UNILITE-LOGO.jpg" alt="Unilite" width="1084" height="1084" loading="lazy"/>
+<!-- /wp:greenshift-blocks/element --></a>
+<!-- /wp:greenshift-blocks/element -->
+
+<!-- wp:greenshift-blocks/element {"id":"gsbp-7f0deaa","tag":"a","type":"inner","className":"tfgr-logo","localId":"gsbp-7f0deaa","href":"https://bcfasteners.com/product-category/brand-names/diablo/","metadata":{"name":"Diablo"}} -->
+<a class="tfgr-logo" href="https://bcfasteners.com/product-category/brand-names/diablo/"><!-- wp:greenshift-blocks/element {"id":"gsbp-87755ce","tag":"img","localId":"gsbp-87755ce","src":"https://bcfasteners.com/wp-content/uploads/2025/03/Diablo-Logo-1.jpg","alt":"Diablo","originalWidth":648,"originalHeight":350} -->
+<img src="https://bcfasteners.com/wp-content/uploads/2025/03/Diablo-Logo-1.jpg" alt="Diablo" width="648" height="350" loading="lazy"/>
+<!-- /wp:greenshift-blocks/element --></a>
+<!-- /wp:greenshift-blocks/element -->
+
+<!-- wp:greenshift-blocks/element {"id":"gsbp-2a6fa23","tag":"a","type":"inner","className":"tfgr-logo","localId":"gsbp-2a6fa23","href":"https://bcfasteners.com/product-category/brand-names/microjig/","metadata":{"name":"Microjig"}} -->
+<a class="tfgr-logo" href="https://bcfasteners.com/product-category/brand-names/microjig/"><!-- wp:greenshift-blocks/element {"id":"gsbp-53b9603","tag":"img","className":"tfgr-logo-square","localId":"gsbp-53b9603","src":"https://bcfasteners.com/wp-content/uploads/2025/05/MICROJIG-2.jpg","alt":"Microjig","originalWidth":648,"originalHeight":648} -->
+<img class="tfgr-logo-square" src="https://bcfasteners.com/wp-content/uploads/2025/05/MICROJIG-2.jpg" alt="Microjig" width="648" height="648" loading="lazy"/>
+<!-- /wp:greenshift-blocks/element --></a>
+<!-- /wp:greenshift-blocks/element --></div>
+<!-- /wp:greenshift-blocks/element --></div>
+<!-- /wp:greenshift-blocks/element --></div>
+<!-- /wp:greenshift-blocks/element -->
