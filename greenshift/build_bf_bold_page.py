@@ -301,7 +301,31 @@ def products_section():
     return section("Black Friday Deals", "deals", [
         banner("Black Friday deals", "Shop the sale", RED),
         frame([Raw(f"<!-- wp:shortcode -->\n{SHORTCODE}\n<!-- /wp:shortcode -->")], css_extra=css(PRODUCTS_CSS)),
+        see_all(),
     ])
+
+
+ALL_DEALS = "https://bcfasteners.com/product-tag/black-friday/"
+
+
+def see_all():
+    """A full-width bar under the product grid, continuing its black frame.
+
+    It takes its own id series so it can be pasted into the live page without clashing."""
+    saved = dict(_seed)
+    _seed["slug"], _seed["n"] = "bf-see-all-deals", 0
+    bar = Block(name="See All Deals", custom_css="{CURRENT}{background-color:#000000;padding:0 6px 6px 6px;}", children=[
+        Block("a", text="See all Black Friday deals", href=ALL_DEALS, custom_css=css(
+            "{CURRENT}{display:flex;align-items:center;justify-content:center;gap:0.6rem;padding:1.1rem 1rem;"
+            "background-color:RED;color:#ffffff;font-weight:900;font-size:1.1rem;text-transform:uppercase;"
+            "letter-spacing:0.08em;text-align:center;text-decoration:none;transition:background-color .2s,color .2s;}"
+            "{CURRENT}::after{content:\"\\203A\";font-size:1.3em;line-height:1;}"
+            "{CURRENT}:hover,{CURRENT}:focus-visible{background-color:#ffffff;color:#000000;}"
+            "{CURRENT}:focus-visible{outline:3px solid RED;outline-offset:-3px;}"
+            "@media (max-width: 575.98px){{CURRENT}{font-size:0.95rem;padding:0.95rem 0.75rem;}}")),
+    ])
+    _seed.update(saved)
+    return bar
 
 
 # ---- Top brands ---------------------------------------------------------------------------
